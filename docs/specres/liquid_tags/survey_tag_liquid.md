@@ -18,7 +18,10 @@ last_verified: "2026-02-21"
 - app/liquid_tags/cloud_run_tag.rb
 - app/liquid_tags/codepen_tag.rb
 - app/liquid_tags/codesandbox_tag.rb
-- spec/liquid_tags/survey_tag_spec.rb
+- app/views/liquids/_survey.html.erb (Template)
+- app/views/liquids/_survey_poll.html.erb (Template)
+- app/assets/stylesheets/ltags/SurveyTag.scss
+- spec/liquid_tags/survey_tag_spec.rb (Test)
 
 ## Functional Overview
 

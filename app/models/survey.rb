@@ -1,3 +1,4 @@
+# @specre 01KHYDGFH91Y4CKRSK7XB9CAY2
 class Survey < ApplicationRecord
   validates :title, presence: true
   validates :slug, uniqueness: true, allow_nil: true

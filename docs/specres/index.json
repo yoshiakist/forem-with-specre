@@ -1,6 +1,11 @@
 {
-  "generated_at": "2026-02-20T20:46:22Z",
+  "generated_at": "2026-02-20T21:01:57Z",
   "source_refs": [
+    {
+      "file": "app/assets/stylesheets/ltags/SurveyTag.scss",
+      "line": 1,
+      "specre_id": "01KHY7Q19K3T435K5XD2YF421F"
+    },
     {
       "file": "app/controllers/admin/organization_memberships_controller.rb",
       "line": 1,
@@ -10,6 +15,11 @@
       "file": "app/controllers/admin/organizations_controller.rb",
       "line": 1,
       "specre_id": "01KHYAQZFNE6166KPD56KDPFRQ"
+    },
+    {
+      "file": "app/controllers/admin/surveys_controller.rb",
+      "line": 1,
+      "specre_id": "01KHY7Q13FW678WREK162FKQ28"
     },
     {
       "file": "app/controllers/admin/tags/moderators_controller.rb",
@@ -62,6 +72,11 @@
       "specre_id": "01KHYAPESAA0V3WKK075E59EPH"
     },
     {
+      "file": "app/controllers/surveys_controller.rb",
+      "line": 1,
+      "specre_id": "01KHYDKBE1NWA0CH3ZQ7XR3RKG"
+    },
+    {
       "file": "app/controllers/tags_controller.rb",
       "line": 1,
       "specre_id": "01KHYCHBSG5WKRXGVJ81HAFC7F"
@@ -80,6 +95,11 @@
       "file": "app/helpers/organization_helper.rb",
       "line": 1,
       "specre_id": "01KHYASXS334EE0BHKGBNRD4C0"
+    },
+    {
+      "file": "app/javascript/admin/controllers/admin_surveys_controller.js",
+      "line": 1,
+      "specre_id": "01KHY7Q13FW678WREK162FKQ28"
     },
     {
       "file": "app/javascript/billboard/tags.jsx",
@@ -157,6 +177,11 @@
       "specre_id": "01KHYAF86G3QF0BH04P5YBJ4EE"
     },
     {
+      "file": "app/liquid_tags/survey_tag.rb",
+      "line": 1,
+      "specre_id": "01KHY7Q19K3T435K5XD2YF421F"
+    },
+    {
       "file": "app/mailers/organization_invitation_mailer.rb",
       "line": 1,
       "specre_id": "01KHYAN2EY716NJQJ4P7XGBTDG"
@@ -165,6 +190,11 @@
       "file": "app/mailers/organization_membership_notification_mailer.rb",
       "line": 1,
       "specre_id": "01KHYAN2Z8BX8EQWF0T0B3J5XB"
+    },
+    {
+      "file": "app/mailers/survey_mailer.rb",
+      "line": 1,
+      "specre_id": "01KHY7Q0SPE22H49Y79AZYKZNY"
     },
     {
       "file": "app/models/concerns/algolia_searchable/searchable_organization.rb",
@@ -195,6 +225,16 @@
       "file": "app/models/organization_membership.rb",
       "line": 1,
       "specre_id": "01KHYABB1GB91QKA03127ZTDMJ"
+    },
+    {
+      "file": "app/models/survey.rb",
+      "line": 1,
+      "specre_id": "01KHYDGFH91Y4CKRSK7XB9CAY2"
+    },
+    {
+      "file": "app/models/survey_completion.rb",
+      "line": 1,
+      "specre_id": "01KHYDHRP7XCMAJFEZ27YPZK5Y"
     },
     {
       "file": "app/models/tag.rb",
@@ -262,6 +302,11 @@
       "specre_id": "01KHYAG7500GXRZGY07Y91X18W"
     },
     {
+      "file": "app/services/survey_completion_service.rb",
+      "line": 1,
+      "specre_id": "01KHYDHRP7XCMAJFEZ27YPZK5Y"
+    },
+    {
       "file": "app/views/admin/organizations/_activity.html.erb",
       "line": 1,
       "specre_id": "01KHYB07ABXD2FDW207KP1GHDH"
@@ -275,6 +320,36 @@
       "file": "app/views/admin/organizations/show.html.erb",
       "line": 1,
       "specre_id": "01KHYB07ABXD2FDW207KP1GHDH"
+    },
+    {
+      "file": "app/views/admin/surveys/_form.html.erb",
+      "line": 1,
+      "specre_id": "01KHY7Q13FW678WREK162FKQ28"
+    },
+    {
+      "file": "app/views/admin/surveys/_poll_fields.html.erb",
+      "line": 1,
+      "specre_id": "01KHY7Q13FW678WREK162FKQ28"
+    },
+    {
+      "file": "app/views/admin/surveys/edit.html.erb",
+      "line": 1,
+      "specre_id": "01KHY7Q13FW678WREK162FKQ28"
+    },
+    {
+      "file": "app/views/admin/surveys/index.html.erb",
+      "line": 1,
+      "specre_id": "01KHY7Q13FW678WREK162FKQ28"
+    },
+    {
+      "file": "app/views/admin/surveys/new.html.erb",
+      "line": 1,
+      "specre_id": "01KHY7Q13FW678WREK162FKQ28"
+    },
+    {
+      "file": "app/views/admin/surveys/show.html.erb",
+      "line": 1,
+      "specre_id": "01KHY7Q13FW678WREK162FKQ28"
     },
     {
       "file": "app/views/admin/tags/_form.html.erb",
@@ -297,6 +372,16 @@
       "specre_id": "01KHYCF2QMAT9AJYWS2C4TWBPE"
     },
     {
+      "file": "app/views/liquids/_survey.html.erb",
+      "line": 1,
+      "specre_id": "01KHY7Q19K3T435K5XD2YF421F"
+    },
+    {
+      "file": "app/views/liquids/_survey_poll.html.erb",
+      "line": 1,
+      "specre_id": "01KHY7Q19K3T435K5XD2YF421F"
+    },
+    {
       "file": "app/views/mailers/organization_invitation_mailer/invitation_email.html.erb",
       "line": 1,
       "specre_id": "01KHYAN2EY716NJQJ4P7XGBTDG"
@@ -315,6 +400,11 @@
       "file": "app/views/mailers/organization_membership_notification_mailer/member_added_email.text.erb",
       "line": 1,
       "specre_id": "01KHYAN2Z8BX8EQWF0T0B3J5XB"
+    },
+    {
+      "file": "app/views/mailers/survey_mailer/pulse_survey.html.erb",
+      "line": 1,
+      "specre_id": "01KHY7Q0SPE22H49Y79AZYKZNY"
     },
     {
       "file": "app/views/organizations/_header.html.erb",
@@ -357,6 +447,11 @@
       "specre_id": "01KHYAY4DGRYJFMXJ7BBYNVE7Y"
     },
     {
+      "file": "app/views/surveys/show.html.erb",
+      "line": 1,
+      "specre_id": "01KHYDKBE1NWA0CH3ZQ7XR3RKG"
+    },
+    {
       "file": "app/views/tags/_liquid.html.erb",
       "line": 1,
       "specre_id": "01KHYCHBSG5WKRXGVJ81HAFC7F"
@@ -380,6 +475,11 @@
       "file": "app/views/users/_integrations_github_repositories.html.erb",
       "line": 1,
       "specre_id": "01KHY94DZ9B1PRJBC818Q9SKXB"
+    },
+    {
+      "file": "app/workers/emails/survey_daily_email_worker.rb",
+      "line": 1,
+      "specre_id": "01KHY7Q0V5YNZKKRVKBGQWEM0Z"
     },
     {
       "file": "app/workers/github_repos/repo_sync_worker.rb",
@@ -432,9 +532,24 @@
       "specre_id": "01KHYCNWVANY5FB7JV8D1ZG2ZZ"
     },
     {
+      "file": "spec/controllers/surveys_controller_spec.rb",
+      "line": 1,
+      "specre_id": "01KHYDKBE1NWA0CH3ZQ7XR3RKG"
+    },
+    {
       "file": "spec/decorators/organization_decorator_spec.rb",
       "line": 1,
       "specre_id": "01KHYAE6BT4N3QJ2FR396TTRCQ"
+    },
+    {
+      "file": "spec/factories/survey_completions.rb",
+      "line": 1,
+      "specre_id": "01KHYDHRP7XCMAJFEZ27YPZK5Y"
+    },
+    {
+      "file": "spec/factories/surveys.rb",
+      "line": 1,
+      "specre_id": "01KHYDGFH91Y4CKRSK7XB9CAY2"
     },
     {
       "file": "spec/helpers/admin/organizations_helper_spec.rb",
@@ -447,9 +562,19 @@
       "specre_id": "01KHYASXS334EE0BHKGBNRD4C0"
     },
     {
+      "file": "spec/integration/billboard_survey_exclusion_integration_spec.rb",
+      "line": 1,
+      "specre_id": "01KHY7Q0WMC5TAZHY6W7XY01X6"
+    },
+    {
       "file": "spec/liquid_tags/organization_tag_spec.rb",
       "line": 1,
       "specre_id": "01KHYAF86G3QF0BH04P5YBJ4EE"
+    },
+    {
+      "file": "spec/liquid_tags/survey_tag_spec.rb",
+      "line": 1,
+      "specre_id": "01KHY7Q19K3T435K5XD2YF421F"
     },
     {
       "file": "spec/mailers/organization_invitation_mailer_spec.rb",
@@ -460,6 +585,16 @@
       "file": "spec/mailers/organization_membership_notification_mailer_spec.rb",
       "line": 1,
       "specre_id": "01KHYAN2Z8BX8EQWF0T0B3J5XB"
+    },
+    {
+      "file": "spec/mailers/survey_mailer_spec.rb",
+      "line": 1,
+      "specre_id": "01KHY7Q0SPE22H49Y79AZYKZNY"
+    },
+    {
+      "file": "spec/models/billboard_survey_exclusion_spec.rb",
+      "line": 1,
+      "specre_id": "01KHY7Q0XACCB2RS5N25BPZGHP"
     },
     {
       "file": "spec/models/github_issue_spec.rb",
@@ -480,6 +615,16 @@
       "file": "spec/models/organization_spec.rb",
       "line": 1,
       "specre_id": "01KHYA9GWPEHZ06WJWDG1QKSK8"
+    },
+    {
+      "file": "spec/models/survey_completion_spec.rb",
+      "line": 1,
+      "specre_id": "01KHYDHRP7XCMAJFEZ27YPZK5Y"
+    },
+    {
+      "file": "spec/models/survey_spec.rb",
+      "line": 1,
+      "specre_id": "01KHYDGFH91Y4CKRSK7XB9CAY2"
     },
     {
       "file": "spec/models/tag_adjustment_spec.rb",
@@ -525,6 +670,11 @@
       "file": "spec/requests/admin/organizations_spec.rb",
       "line": 1,
       "specre_id": "01KHYAQZFNE6166KPD56KDPFRQ"
+    },
+    {
+      "file": "spec/requests/admin/surveys_spec.rb",
+      "line": 1,
+      "specre_id": "01KHY7Q13FW678WREK162FKQ28"
     },
     {
       "file": "spec/requests/admin/tags/moderators_spec.rb",
@@ -582,6 +732,16 @@
       "specre_id": "01KHYAPESAA0V3WKK075E59EPH"
     },
     {
+      "file": "spec/requests/surveys_controller_spec.rb",
+      "line": 1,
+      "specre_id": "01KHYDKBE1NWA0CH3ZQ7XR3RKG"
+    },
+    {
+      "file": "spec/requests/surveys_spec.rb",
+      "line": 1,
+      "specre_id": "01KHYDKBE1NWA0CH3ZQ7XR3RKG"
+    },
+    {
       "file": "spec/requests/tags_spec.rb",
       "line": 1,
       "specre_id": "01KHYCHBSG5WKRXGVJ81HAFC7F"
@@ -615,6 +775,11 @@
       "file": "spec/system/tags/user_updates_a_tag_spec.rb",
       "line": 1,
       "specre_id": "01KHYCHBSG5WKRXGVJ81HAFC7F"
+    },
+    {
+      "file": "spec/workers/emails/survey_daily_email_worker_spec.rb",
+      "line": 1,
+      "specre_id": "01KHY7Q0V5YNZKKRVKBGQWEM0Z"
     },
     {
       "file": "spec/workers/github_repos/repo_sync_worker_spec.rb",
@@ -7208,46 +7373,6 @@
       "status": "stable"
     },
     {
-      "domain": "surveys",
-      "id": "01KHY7Q1JPFSCE7F2XDFV8V7KX",
-      "last_verified": "2026-02-21",
-      "name": "surveys_controller_controller",
-      "path": "docs/specres/surveys/surveys_controller_controller.md",
-      "status": "stable"
-    },
-    {
-      "domain": "surveys",
-      "id": "01KHY7Q1JRAEJ6S7RXG3XCKVT9",
-      "last_verified": "2026-02-21",
-      "name": "survey_completion_model",
-      "path": "docs/specres/surveys/survey_completion_model.md",
-      "status": "stable"
-    },
-    {
-      "domain": "surveys",
-      "id": "01KHY7Q1JV128A8APM9QZ7M2J7",
-      "last_verified": "2026-02-21",
-      "name": "survey_model",
-      "path": "docs/specres/surveys/survey_model.md",
-      "status": "stable"
-    },
-    {
-      "domain": "surveys",
-      "id": "01KHY7Q1JYS00MRRRJ2FE36KTD",
-      "last_verified": "2026-02-21",
-      "name": "surveys_controller_api",
-      "path": "docs/specres/surveys/surveys_controller_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "surveys",
-      "id": "01KHY7Q1K0S93T9M0PCT9KVBFG",
-      "last_verified": "2026-02-21",
-      "name": "surveys_api",
-      "path": "docs/specres/surveys/surveys_api.md",
-      "status": "stable"
-    },
-    {
       "domain": "ab_testing",
       "id": "01KHY7Q1K31WCEN3RP9XC7CM9R",
       "last_verified": "2026-02-21",
@@ -7686,6 +7811,30 @@
       "name": "listing_displays_tags",
       "path": "docs/specres/tags/listing_displays_tags.md",
       "status": "draft"
+    },
+    {
+      "domain": "surveys",
+      "id": "01KHYDGFH91Y4CKRSK7XB9CAY2",
+      "last_verified": "2026-02-21",
+      "name": "survey_defines_data_model",
+      "path": "docs/specres/surveys/survey_defines_data_model.md",
+      "status": "stable"
+    },
+    {
+      "domain": "surveys",
+      "id": "01KHYDHRP7XCMAJFEZ27YPZK5Y",
+      "last_verified": "2026-02-21",
+      "name": "survey_completion_tracks_user_progress",
+      "path": "docs/specres/surveys/survey_completion_tracks_user_progress.md",
+      "status": "stable"
+    },
+    {
+      "domain": "surveys",
+      "id": "01KHYDKBE1NWA0CH3ZQ7XR3RKG",
+      "last_verified": "2026-02-21",
+      "name": "survey_presents_public_view",
+      "path": "docs/specres/surveys/survey_presents_public_view.md",
+      "status": "stable"
     }
   ],
   "version": 1

@@ -1,3 +1,4 @@
+# @specre 01KHY7Q0V5YNZKKRVKBGQWEM0Z
 require "rails_helper"
 
 RSpec.describe Emails::SurveyDailyEmailWorker, type: :worker do

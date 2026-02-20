@@ -1,3 +1,4 @@
+# @specre 01KHY7Q13FW678WREK162FKQ28
 require "rails_helper"
 
 RSpec.describe "Admin::Surveys", type: :request do

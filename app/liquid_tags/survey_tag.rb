@@ -1,3 +1,4 @@
+# @specre 01KHY7Q19K3T435K5XD2YF421F
 class SurveyTag < LiquidTagBase
   PARTIAL = "liquids/survey".freeze
   VALID_CONTEXTS = %w[Article Billboard NilClass].freeze # Allow Article, Billboard, and nil contexts

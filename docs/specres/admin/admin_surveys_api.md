@@ -7,8 +7,15 @@ last_verified: "2026-02-21"
 
 ## Related Files
 
-
-- spec/requests/admin/surveys_spec.rb
+- app/controllers/admin/surveys_controller.rb
+- app/javascript/admin/controllers/admin_surveys_controller.js
+- app/views/admin/surveys/_form.html.erb (Template)
+- app/views/admin/surveys/_poll_fields.html.erb (Template)
+- app/views/admin/surveys/edit.html.erb (Template)
+- app/views/admin/surveys/index.html.erb (Template)
+- app/views/admin/surveys/new.html.erb (Template)
+- app/views/admin/surveys/show.html.erb (Template)
+- spec/requests/admin/surveys_spec.rb (Test)
 
 ## Functional Overview
 

@@ -15,7 +15,7 @@ last_verified: "2026-02-21"
 - app/workers/emails/enqueue_digest_worker.rb
 - app/workers/emails/remove_old_emails_worker.rb
 - app/workers/emails/send_user_digest_worker.rb
-- spec/workers/emails/survey_daily_email_worker_spec.rb
+- spec/workers/emails/survey_daily_email_worker_spec.rb (Test)
 
 ## Functional Overview
 

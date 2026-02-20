@@ -1,3 +1,4 @@
+# @specre 01KHY7Q0XACCB2RS5N25BPZGHP
 require "rails_helper"
 
 RSpec.describe "Billboard Survey Exclusion", type: :model do

@@ -1,3 +1,4 @@
+# @specre 01KHYDHRP7XCMAJFEZ27YPZK5Y
 require "rails_helper"
 
 RSpec.describe SurveyCompletion, type: :model do

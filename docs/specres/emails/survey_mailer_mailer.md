@@ -17,7 +17,8 @@ last_verified: "2026-02-21"
 - app/mailers/organization_invitation_mailer.rb
 - app/mailers/organization_membership_notification_mailer.rb
 - app/mailers/verification_mailer.rb
-- spec/mailers/survey_mailer_spec.rb
+- app/views/mailers/survey_mailer/pulse_survey.html.erb (Template)
+- spec/mailers/survey_mailer_spec.rb (Test)
 
 ## Functional Overview
 

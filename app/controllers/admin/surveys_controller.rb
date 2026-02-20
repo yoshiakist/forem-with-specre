@@ -1,3 +1,4 @@
+# @specre 01KHY7Q13FW678WREK162FKQ28
 module Admin
   class SurveysController < Admin::ApplicationController
     layout "admin"

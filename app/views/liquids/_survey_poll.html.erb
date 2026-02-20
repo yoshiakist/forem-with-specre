@@ -1,3 +1,4 @@
+<%# @specre 01KHY7Q19K3T435K5XD2YF421F %>
 <div 
   class="survey-poll <%= 'survey-poll-long-question' if poll.prompt_markdown.length > 128 %> <%= 'scale-horizontal scale-5-options' if poll.scale? && poll.poll_options.count == 5 %> <%= 'scale-horizontal scale-many-options' if poll.scale? && poll.poll_options.count > 5 %>" 
   id="survey-poll-<%= poll.id %>" 
