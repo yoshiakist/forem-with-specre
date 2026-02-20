@@ -1,0 +1,70 @@
+---
+id: "01KHY7Q099J5C2Y8W3GK2PYWNC"
+name: "notifications_welcome_notification_worker_worker"
+status: "stable"
+last_verified: "2026-02-21"
+---
+
+## Related Files
+
+- app/workers/notifications/welcome_notification_worker.rb
+- app/controllers/notifications/counts_controller.rb
+- app/controllers/notifications/reads_controller.rb
+- app/controllers/notifications_controller.rb
+- app/helpers/notifications_helper.rb
+- app/services/notifications.rb
+- app/services/notifications/milestone/send.rb
+- app/services/notifications/moderation/send.rb
+- app/services/notifications/new_badge_achievement/send.rb
+- app/services/notifications/new_comment/send.rb
+- app/services/notifications/new_follower/follow_data.rb
+- spec/workers/notifications/welcome_notification_worker_spec.rb
+
+## Functional Overview
+
+This specification defines the expected behavior of `Notifications::WelcomeNotificationWorker` within the notifications domain.
+
+### Behavioral Areas
+
+- **perform**: Ensures correct behavior under the specified conditions
+- **with an active broadcast**: Ensures correct behavior under the specified conditions
+- **with an inactive broadcast**: Ensures correct behavior under the specified conditions
+- **when there is a non-existent broadcast**: Ensures correct behavior under the specified conditions
+
+### Implementation Architecture
+
+The behavior is implemented across the following layers:
+
+- **Background worker**: `app/workers/notifications/welcome_notification_worker.rb` -- asynchronous job processing
+- **Controller layer**: `app/controllers/notifications/counts_controller.rb` -- HTTP request routing and response handling
+- **Controller layer**: `app/controllers/notifications/reads_controller.rb` -- HTTP request routing and response handling
+- **Controller layer**: `app/controllers/notifications_controller.rb` -- HTTP request routing and response handling
+- **View helper**: `app/helpers/notifications_helper.rb` -- shared view utility methods
+- **Service layer**: `app/services/notifications.rb` -- business logic orchestration and domain operations
+- **Service layer**: `app/services/notifications/milestone/send.rb` -- business logic orchestration and domain operations
+- **Service layer**: `app/services/notifications/moderation/send.rb` -- business logic orchestration and domain operations
+- **Service layer**: `app/services/notifications/new_badge_achievement/send.rb` -- business logic orchestration and domain operations
+- **Service layer**: `app/services/notifications/new_comment/send.rb` -- business logic orchestration and domain operations
+- **Service layer**: `app/services/notifications/new_follower/follow_data.rb` -- business logic orchestration and domain operations
+
+
+## Scenarios
+
+### S-1: calls a service
+
+- **Given** the preconditions are satisfied
+- **When** the operation is executed
+- **Then** calls a service
+
+### S-2: does not call a service
+
+- **Given** the preconditions are satisfied
+- **When** the operation is invoked
+- **Then** the system does not call a service
+
+### S-3: does nothing
+
+- **Given** the preconditions are satisfied
+- **When** the operation is executed
+- **Then** does nothing
+
