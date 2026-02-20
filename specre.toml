@@ -1,5 +1,5 @@
 specre_dir = "docs/specres"
-source_dirs = ["src", "spec"]
+source_dirs = ["app", "spec"]
 
 ext = ["rb", "erb", "js", "jsx"]
 
