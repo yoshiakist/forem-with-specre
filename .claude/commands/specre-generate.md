@@ -21,8 +21,7 @@ Your goal: create specre specification cards for source files that currently lac
    - "Domain" means the top-level functional directory within each `source_dirs` entry (e.g., `src/auth/`, `src/cart/`).
    - Exclude test files from the generation targets. Test files are used as evidence for status determination (Phase 3), not as specre subjects.
 3. Identify the project's test file convention by examining the directory structure (e.g., `tests/<domain>/cli_*.rs`, `src/**/*.test.ts`, `spec/**/*_spec.rb`). Record this pattern for reuse in Phase 3b so that test discovery does not need to be re-explored for each card.
-4. Present the filtered file list to the user:
-   > "Found N uncovered source files in the `<domain>` domain. Shall I proceed with analyzing these files and generating specre cards?"
+4. Log the filtered file list for your own reference and proceed directly to Phase 2. Do NOT pause for user approval here.
 
 ## Phase 2: Behavior Classification
 
@@ -72,16 +71,9 @@ Each entry must specify:
 
 **Classify by subject first, then by behavior.** Group related behaviors by their actor/subject (e.g., all `user_can_*` behaviors together, all `system_rejects_*` together). This produces a natural reading order and makes it easy to spot missing behaviors.
 
-Present the catalog to the user for approval. The user may:
-- Approve as-is
-- Request splitting a behavior into multiple cards
-- Request merging multiple entries into one card
-- Rename proposed behaviors
-- Remove entries they don't want specre cards for
+Review the catalog yourself. If you are satisfied that the classification is complete and correct (no duplicates, no missing behaviors, no misattributed files), proceed directly to Phase 3 without pausing for user approval.
 
-**Do not proceed to Phase 3 until the user approves the catalog.**
-
-After approval, write the finalized catalog to `<specre_dir>/<domain>/_GENERATION_PLAN.md`. This file serves as a persistent reference during Phase 3 — if context compression causes the catalog to be summarized or lost, re-read this file to recover the full plan. This file is deleted in Phase 4 after all entries are processed.
+Write the finalized catalog to `<specre_dir>/<domain>/_GENERATION_PLAN.md`. This file serves as a persistent reference during Phase 3 — if context compression causes the catalog to be summarized or lost, re-read this file to recover the full plan. This file is deleted in Phase 4 after all entries are processed.
 
 ## Phase 3: Sequential Card Generation
 
@@ -101,12 +93,12 @@ Process the approved catalog entries **one at a time, in order**. For each entry
    - **Design Intent**: Include if the reasoning is apparent from the code. Omit if unclear — do not fabricate rationale.
    - **Key Members**: Include if there are important state variables or parameters. Omit otherwise.
    - **Failures / Exceptions**: Include if the code has explicit error handling paths. Omit otherwise.
-3. Run `specre tag <ULID> <file>` for **every file listed in Related Files** — source files, test/spec files, and template files alike. This ensures full bidirectional traceability.
+3. Run `specre tag <ULID> <file>` for **every file listed in Related Files** — source files, test/spec files, and template files alike — **except `.jbuilder` files**. The `specre tag` command does not support the `.jbuilder` extension. `.jbuilder` files should still be included in the Related Files section for documentation purposes, but must be skipped during tagging.
 
 **If action is `EXTEND`:**
 
 1. Add the source file path (and any associated test/template files) to the existing specre card's "Related Files" section.
-2. Run `specre tag <existing_ULID> <file>` for each file added to Related Files — source, test, and template files alike.
+2. Run `specre tag <existing_ULID> <file>` for each file added to Related Files — source, test, and template files alike — **except `.jbuilder` files** (same rule as above).
 3. Mark this TodoWrite entry as `completed` and move to the next catalog entry. **Skip Steps 3b and 3c for EXTEND actions.**
 
 ### Step 3b: Test Discovery and Status Determination (NEW actions only)
@@ -164,3 +156,4 @@ Cards remaining as draft:
 - **Write in natural language.** Scenarios must be written in natural language, not in code. See the specre-author skill for the code-independence principle and its exceptions.
 - **Never create test files.** This workflow generates specre cards only.
 - **Never modify source files** beyond inserting `@specre` markers via `specre tag`.
+- **`.jbuilder` files are not taggable.** Include them in Related Files for documentation, but skip them when running `specre tag`.
