@@ -1,3 +1,4 @@
+# @specre 01KHY987S3SNX2YV4C0ZHSHEK3
 module GithubRepos
   class UpdateLatestWorker
     include Sidekiq::Job

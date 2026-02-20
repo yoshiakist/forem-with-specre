@@ -1,3 +1,4 @@
+# @specre 01KHY91JCKT3BDMGCZRCGVCRME
 # NOTE: we are using `GithubIssue` to store issues, pull requests and comments
 class GithubIssue < ApplicationRecord
   CATEGORIES = %w[issue issue_comment].freeze

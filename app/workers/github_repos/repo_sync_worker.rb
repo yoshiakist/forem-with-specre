@@ -1,3 +1,4 @@
+# @specre 01KHY9702BD6SEKKY87HEX92D6
 module GithubRepos
   class RepoSyncWorker
     include Sidekiq::Job
