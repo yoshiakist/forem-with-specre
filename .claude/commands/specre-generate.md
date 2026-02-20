@@ -27,12 +27,31 @@ Your goal: create specre specification cards for source files that currently lac
 
 **Purpose:** Build a complete picture of the domain's behaviors BEFORE creating any cards. This prevents duplicate cards, identifies cross-file behaviors, and establishes a logical generation order.
 
+> **Prerequisite — load the specre-author skill.** Before classifying behaviors, read the specre-author skill (`SKILL.md`) to internalize naming conventions and writing guidelines. Every proposed card name MUST follow the subject + predicate sentence form defined there. Violations of naming conventions are the most common defect in generated cards.
+
+> **Core principle — classify by observable behavior, not by code layer.** A specre card describes a behavior as experienced by a human user, or as observable at a system boundary. The subject is either a human actor (`user`, `admin`, `author`) or `system` when no human is in the loop (batch jobs, scheduled tasks, pub/sub handlers, webhook receivers). A single behavior typically spans multiple code layers — model, controller, service, frontend component, worker, and view template all participate in the same behavior. Do NOT create separate cards per layer (e.g., one for the model, one for the controller, one for the frontend). Instead, identify the observable behavior first, then gather all files across layers that implement it.
+>
+> **Litmus test — does this behavior deliver value on its own?** For each proposed card, ask: "If a system implemented exactly this behavior and nothing else, would it deliver value to a user?" If the answer is no, the card likely describes an implementation fragment, not a complete behavior. For example, "github_repo_stores_repository_metadata" alone delivers no value to anyone — a user needs to be able to *feature* repos on their profile, see them, and manage them. That end-to-end experience is the correct card scope.
+>
+> **Anti-pattern — layer-oriented cards (each fails the litmus test individually):**
+> - `github_repo_stores_repository_metadata` (storing metadata alone delivers no user value)
+> - `github_repos_controller_manages_user_repos` (an API endpoint alone is not a complete experience)
+> - `github_repos_frontend_displays_repos` (a UI without a backend serves nothing)
+>
+> **Correct — behavior-oriented cards (each passes the litmus test):**
+> - `user_can_feature_github_repos_on_profile` (spans model + controller + frontend + worker)
+> - `author_can_embed_github_issue_in_article` (spans liquid tag + model + view)
+> - `system_syncs_github_repos_periodically` (spans worker + model — no human in the loop, triggered by scheduler)
+> - `system_notifies_user_on_new_comment` (spans pub/sub listener + mailer + template — system-initiated delivery)
+
 > **Large domain shortcut:** If the domain contains more than 15 uncovered files, use the Task tool with `subagent_type=Explore` to read and classify files in batches. This protects the main context window from saturation while still building a complete catalog.
+
+### Step 1: Read all uncovered files and build a file-role map
 
 For each uncovered file in the list:
 
-1. **Read the source file** and identify its primary behaviors.
-2. **Identify tightly coupled files** that participate in the same behavior:
+1. **Read the source file** and note its role — model, controller, service, worker, frontend component, view template, etc.
+2. **Identify tightly coupled files** that participate in the same user-facing behavior:
    - Base classes or traits that the file extends/implements
    - Types that the file instantiates or depends on directly
    - Files where the file's public interface is consumed extensively
@@ -44,7 +63,22 @@ For each uncovered file in the list:
    ```
    Use AND-keyword queries combining the behavior's subject (noun) and action (verb). For example: `specre search "order approve"`, `specre search "token validate"`.
 
-After analyzing all files, produce a **behavior catalog** — a numbered list of proposed specre cards:
+### Step 2: Group files into user-facing behaviors
+
+After reading all files, shift perspective from individual files to **observable behaviors**. Ask two questions:
+
+1. "What can a human user do in this domain?" — These become `user_can_*`, `admin_can_*`, etc.
+2. "What does the system do autonomously (batch jobs, scheduled tasks, pub/sub, webhooks)?" — These become `system_*` cards.
+
+Then assign each file to the behavior it participates in:
+
+- A model, a controller, a frontend component, and a view template that all contribute to "user can feature GitHub repos on their profile" belong to **one** behavior, not four.
+- A worker triggered by a scheduler, a pub/sub handler, or a webhook receiver is a system-initiated behavior (e.g., "system syncs GitHub repos periodically", "system notifies user on new comment").
+- Infrastructure-only code with no direct observable effect (e.g., an API client wrapper, an error hierarchy) should be folded into the behavior(s) that depend on it, not given its own card.
+
+### Step 3: Produce the behavior catalog
+
+Produce a **behavior catalog** — a numbered list of proposed specre cards:
 
 ```
 Behavior Catalog for domain: <domain>
@@ -64,14 +98,23 @@ Behavior Catalog for domain: <domain>
 
 Each entry must specify:
 - **Proposed name**: subject + predicate sentence form (see specre-author skill for naming rules)
-- **Source files**: which files this card will cover
+- **Source files**: which files this card will cover (expect files from multiple layers — model, controller, frontend, view, etc.)
 - **Test files** (if any): corresponding test/spec files discovered in Phase 2
 - **Template files** (if any): associated view/template files (`.erb`) discovered in Phase 2
 - **Action**: `NEW` (create a new card) or `EXTEND` (tag source file to an existing card and update its Related Files)
 
 **Classify by subject first, then by behavior.** Group related behaviors by their actor/subject (e.g., all `user_can_*` behaviors together, all `system_rejects_*` together). This produces a natural reading order and makes it easy to spot missing behaviors.
 
-Review the catalog yourself. If you are satisfied that the classification is complete and correct (no duplicates, no missing behaviors, no misattributed files), proceed directly to Phase 3 without pausing for user approval.
+### Step 4: Validate the catalog
+
+Before finalizing, review the catalog against these checks:
+
+1. **Naming validation** — Every proposed name must have a human actor (`user`, `admin`, `author`) or `system` as the subject, never a code artifact. Reject names where the subject is a class name, layer name, or technical component (e.g., `*_controller_*`, `*_model_*`, `*_frontend_*`, `*_worker_*`, `*_service_*`). Refer to the specre-author skill's naming conventions for the definitive rules.
+2. **Value litmus test** — For each entry, ask: "If a system implemented exactly this behavior and nothing else, would it deliver value to a user?" If not, the entry is an implementation fragment. Merge it into a broader behavior or reconsider the card boundary.
+3. **Cross-layer check** — If multiple catalog entries cover the same observable behavior split by layer (e.g., a controller entry and a separate frontend entry for the same feature), merge them into a single entry.
+4. **Granularity check** — Each entry should have 2–5 plausible scenarios. If you can only think of one scenario, the behavior is likely a fragment of a larger one; merge it. If you can think of more than 7, it may conflate multiple behaviors; consider splitting.
+
+If the catalog passes all checks, proceed directly to Phase 3 without pausing for user approval.
 
 Write the finalized catalog to `<specre_dir>/<domain>/_GENERATION_PLAN.md`. This file serves as a persistent reference during Phase 3 — if context compression causes the catalog to be summarized or lost, re-read this file to recover the full plan. This file is deleted in Phase 4 after all entries are processed.
 
@@ -153,6 +196,9 @@ Cards remaining as draft:
 ## Rules
 
 - **Autonomous within phases.** Do not pause for user input between individual card generations in Phase 3. The user approval point is the behavior catalog in Phase 2.
+- **Follow the specre-author skill.** Load and follow the specre-author skill for all naming conventions, section structure, and writing guidelines. This is the authoritative source for card format — do not deviate from it.
+- **Name by observable behavior, not by code artifact.** The subject of every card name must be a human actor (`user`, `admin`, `author`) or `system` (for batch jobs, scheduled tasks, pub/sub, webhooks), never a class name, layer name, or technical component. See the specre-author skill's Naming Conventions section.
+- **One behavior = one card across all layers.** A user-facing behavior that spans model, controller, frontend, worker, and view is **one** specre card with multiple Related Files — not separate cards per layer. Infrastructure-only code (API clients, error hierarchies, base classes) should be folded into the behavior card(s) that consume it.
 - **Write in natural language.** Scenarios must be written in natural language, not in code. See the specre-author skill for the code-independence principle and its exceptions.
 - **Never create test files.** This workflow generates specre cards only.
 - **Never modify source files** beyond inserting `@specre` markers via `specre tag`.
