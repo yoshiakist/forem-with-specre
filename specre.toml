@@ -1,0 +1,9 @@
+specre_dir = "docs/specres"
+source_dirs = ["src", "spec"]
+
+ext = ["rb", "js", "jsx"]
+
+[health_check]
+coverage = 0.30
+orphans = 10
+index_age_hours = 48
