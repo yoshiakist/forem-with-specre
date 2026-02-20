@@ -1,7 +1,7 @@
 specre_dir = "docs/specres"
 source_dirs = ["src", "spec"]
 
-ext = ["rb", "js", "jsx"]
+ext = ["rb", "erb", "js", "jsx"]
 
 [health_check]
 coverage = 0.30

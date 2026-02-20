@@ -1,3 +1,4 @@
+# @specre 01KHY9702BD6SEKKY87HEX92D6
 require "rails_helper"
 
 RSpec.describe GithubRepos::RepoSyncWorker, type: :worker do

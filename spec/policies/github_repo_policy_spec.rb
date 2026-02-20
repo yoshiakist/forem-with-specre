@@ -1,3 +1,4 @@
+# @specre 01KHY94DZ9B1PRJBC818Q9SKXB
 require "rails_helper"
 
 RSpec.describe GithubRepoPolicy, type: :policy do
