@@ -1,3 +1,4 @@
+# @specre 01KHYAF86G3QF0BH04P5YBJ4EE
 require "rails_helper"
 
 RSpec.describe OrganizationTag, type: :liquid_tag do

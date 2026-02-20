@@ -1,3 +1,4 @@
+# @specre 01KHYAJ5A6WCMJEYQEF12BEETG
 require "rails_helper"
 
 RSpec.describe Organizations::DeleteWorker, type: :worker do

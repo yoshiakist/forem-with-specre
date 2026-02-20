@@ -1,3 +1,4 @@
+# @specre 01KHYAH6H7WPMS2EW9Y1XK6QYJ
 require "rails_helper"
 
 RSpec.describe Organizations::SuggestProminent, type: :service do

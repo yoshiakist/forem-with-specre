@@ -1,3 +1,4 @@
+# @specre 01KHYASY8DESB0ZXJFQZTWXPC8
 module Admin
   module OrganizationsHelper
     def deletion_modal_error_message(organization)

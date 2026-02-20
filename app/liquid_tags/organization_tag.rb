@@ -1,3 +1,4 @@
+# @specre 01KHYAF86G3QF0BH04P5YBJ4EE
 class OrganizationTag < LiquidTagBase
   include ApplicationHelper
   include ActionView::Helpers::TagHelper

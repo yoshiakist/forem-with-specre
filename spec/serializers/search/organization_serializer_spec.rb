@@ -1,3 +1,4 @@
+# @specre 01KHYAG7500GXRZGY07Y91X18W
 require "rails_helper"
 
 RSpec.describe Search::OrganizationSerializer do

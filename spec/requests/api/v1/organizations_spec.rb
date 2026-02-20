@@ -1,3 +1,4 @@
+# @specre 01KHYAR18XSDQE448P8GXMPR05
 require "rails_helper"
 
 # rubocop:disable RSpec/NestedGroups

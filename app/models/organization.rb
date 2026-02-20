@@ -1,3 +1,4 @@
+# @specre 01KHYA9GWPEHZ06WJWDG1QKSK8
 class Organization < ApplicationRecord
   include CloudinaryHelper
   include PgSearch::Model

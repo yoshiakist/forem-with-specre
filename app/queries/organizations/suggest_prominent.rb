@@ -1,3 +1,4 @@
+# @specre 01KHYAH6H7WPMS2EW9Y1XK6QYJ
 module Organizations
   class SuggestProminent
     MAX = 5

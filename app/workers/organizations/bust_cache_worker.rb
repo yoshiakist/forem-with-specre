@@ -1,3 +1,4 @@
+# @specre 01KHYAKA53GF8RR3HJRFK3Y0A9
 module Organizations
   class BustCacheWorker < BustCacheBaseWorker
     def perform(organization_id, slug)

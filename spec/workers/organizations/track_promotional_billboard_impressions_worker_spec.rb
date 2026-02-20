@@ -1,3 +1,4 @@
+# @specre 01KHYAKB75F6053BFGHPDYQ04A
 require "rails_helper"
 
 RSpec.describe Organizations::TrackPromotionalBillboardImpressionsWorker, type: :worker do

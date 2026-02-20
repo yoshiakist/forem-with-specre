@@ -1,3 +1,4 @@
+# @specre 01KHYAKA53GF8RR3HJRFK3Y0A9
 require "rails_helper"
 
 RSpec.describe Organizations::BustCacheWorker, type: :worker do

@@ -1,3 +1,4 @@
+# @specre 01KHYA9GWPEHZ06WJWDG1QKSK8
 module AlgoliaSearchable
   module SearchableOrganization
     extend ActiveSupport::Concern

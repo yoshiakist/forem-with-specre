@@ -1,3 +1,4 @@
+# @specre 01KHYAJ5A6WCMJEYQEF12BEETG
 module Organizations
   class DeleteWorker
     include Sidekiq::Job

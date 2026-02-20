@@ -1,3 +1,4 @@
+# @specre 01KHYAE6BT4N3QJ2FR396TTRCQ
 class OrganizationDecorator < ApplicationDecorator
   def darker_color(adjustment = 0.88)
     Color::CompareHex.new([enriched_colors[:bg], enriched_colors[:text]]).brightness(adjustment)

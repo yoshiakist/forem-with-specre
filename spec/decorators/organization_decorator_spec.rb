@@ -1,3 +1,4 @@
+# @specre 01KHYAE6BT4N3QJ2FR396TTRCQ
 require "rails_helper"
 
 RSpec.describe OrganizationDecorator, type: :decorator do

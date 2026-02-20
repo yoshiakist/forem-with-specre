@@ -1,3 +1,4 @@
+# @specre 01KHYAKA53GF8RR3HJRFK3Y0A9
 module EdgeCache
   class BustOrganization
     def self.call(organization, slug)

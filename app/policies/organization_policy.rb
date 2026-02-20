@@ -1,3 +1,4 @@
+# @specre 01KHYACZKPN88W16YWM7C8YF7V
 class OrganizationPolicy < ApplicationPolicy
   def create?
     !user.spam_or_suspended?

@@ -1,3 +1,4 @@
+# @specre 01KHYAR0M26F2KE6CFGA3390RE
 module Api
   module OrganizationsController
     extend ActiveSupport::Concern

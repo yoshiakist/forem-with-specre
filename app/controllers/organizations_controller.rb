@@ -1,3 +1,4 @@
+# @specre 01KHYAPESAA0V3WKK075E59EPH
 class OrganizationsController < ApplicationController
   skip_before_action :verify_private_forem, only: :confirm_invitation
   after_action :verify_authorized
