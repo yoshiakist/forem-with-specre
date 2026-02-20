@@ -37,6 +37,8 @@ For each uncovered file in the list:
    - Base classes or traits that the file extends/implements
    - Types that the file instantiates or depends on directly
    - Files where the file's public interface is consumed extensively
+   - Template/view files that render the behavior's output (e.g., `.erb`)
+   - Test/spec files that verify the behavior (e.g., `spec/**/*_spec.rb`, `test/**/*_test.rb`)
 3. **Search for existing specre cards** that may already cover this behavior:
    ```
    specre search "<subject> <action_verb>"
@@ -50,6 +52,8 @@ Behavior Catalog for domain: <domain>
 
  1. [subject]_[predicate]
     Source files: src/domain/file_a.ext, src/domain/file_b.ext
+    Test files: spec/domain/file_a_spec.rb
+    Template files: app/views/domain/_partial.html.erb
     Action: NEW — no existing specre covers this behavior
 
  2. [subject]_[predicate]
@@ -62,6 +66,8 @@ Behavior Catalog for domain: <domain>
 Each entry must specify:
 - **Proposed name**: subject + predicate sentence form (see specre-author skill for naming rules)
 - **Source files**: which files this card will cover
+- **Test files** (if any): corresponding test/spec files discovered in Phase 2
+- **Template files** (if any): associated view/template files (`.erb`) discovered in Phase 2
 - **Action**: `NEW` (create a new card) or `EXTEND` (tag source file to an existing card and update its Related Files)
 
 **Classify by subject first, then by behavior.** Group related behaviors by their actor/subject (e.g., all `user_can_*` behaviors together, all `system_rejects_*` together). This produces a natural reading order and makes it easy to spot missing behaviors.
@@ -89,18 +95,18 @@ Process the approved catalog entries **one at a time, in order**. For each entry
 
 1. Run `specre new <specre_dir>/<domain> --name "<behavior_name>"` to scaffold the card.
 2. Fill in the card content following these authoring rules:
-   - **Related Files**: The source files listed in the catalog entry, plus any tightly coupled files identified in Phase 2. Use project-root-relative paths. Suffix test files with `(Test)`.
+   - **Related Files**: The source files listed in the catalog entry, plus any tightly coupled files identified in Phase 2 — including test/spec files and template/view files. Use project-root-relative paths. Suffix test files with `(Test)`. Suffix template/view files with `(Template)`.
    - **Functional Overview**: A one-paragraph summary of the behavior, derived from the source code.
    - **Scenarios**: Step-by-step behavior descriptions in **natural language**. Do NOT copy-paste code into scenarios. Exception: use exact names for signals/events, class/type names, enum values, and API endpoints. Aim for 2–5 scenarios per card — fewer suggests the card is a fragment of a larger behavior, more suggests it conflates multiple behaviors.
    - **Design Intent**: Include if the reasoning is apparent from the code. Omit if unclear — do not fabricate rationale.
    - **Key Members**: Include if there are important state variables or parameters. Omit otherwise.
    - **Failures / Exceptions**: Include if the code has explicit error handling paths. Omit otherwise.
-3. Run `specre tag <ULID> <source_file>` for each source file in the entry.
+3. Run `specre tag <ULID> <file>` for **every file listed in Related Files** — source files, test/spec files, and template files alike. This ensures full bidirectional traceability.
 
 **If action is `EXTEND`:**
 
-1. Add the source file path to the existing specre card's "Related Files" section.
-2. Run `specre tag <existing_ULID> <source_file>` to insert the marker.
+1. Add the source file path (and any associated test/template files) to the existing specre card's "Related Files" section.
+2. Run `specre tag <existing_ULID> <file>` for each file added to Related Files — source, test, and template files alike.
 3. Mark this TodoWrite entry as `completed` and move to the next catalog entry. **Skip Steps 3b and 3c for EXTEND actions.**
 
 ### Step 3b: Test Discovery and Status Determination (NEW actions only)
@@ -108,6 +114,7 @@ Process the approved catalog entries **one at a time, in order**. For each entry
 1. Search for test files corresponding to the source files in this entry, using the test convention identified in Phase 1 step 3. Apply the recorded glob pattern within the target domain's test directory.
 2. **If matching tests exist:**
    - Add the test file paths to the card's "Related Files" section with a `(Test)` suffix.
+   - Run `specre tag <ULID> <test_file>` for each discovered test file (if not already tagged in Step 3a).
    - Compare the test assertions against the card's scenarios.
      - **If they align**: Set `status` to `stable` and `last_verified` to today's date. Mark this card internally as **auto-stabilized** for the review prompt in Phase 4.
      - **If they diverge**: Keep `status` as `draft`.
