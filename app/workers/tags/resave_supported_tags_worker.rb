@@ -1,3 +1,4 @@
+# @specre 01KHYCNWVANY5FB7JV8D1ZG2ZZ
 module Tags
   class ResaveSupportedTagsWorker
     include Sidekiq::Job

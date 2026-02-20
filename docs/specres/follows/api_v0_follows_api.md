@@ -12,6 +12,7 @@ last_verified: "2026-02-21"
 - app/controllers/concerns/api/follows_controller.rb
 - app/controllers/follows_controller.rb
 - app/controllers/api/v0/followers_controller.rb
+- app/views/api/v0/follows/tags.json.jbuilder (Template)
 - spec/requests/api/v0/follows_spec.rb
 
 ## Functional Overview

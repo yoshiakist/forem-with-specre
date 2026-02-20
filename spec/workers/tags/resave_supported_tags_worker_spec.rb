@@ -1,3 +1,4 @@
+# @specre 01KHYCNWVANY5FB7JV8D1ZG2ZZ
 require "rails_helper"
 
 RSpec.describe Tags::ResaveSupportedTagsWorker, type: :worker do

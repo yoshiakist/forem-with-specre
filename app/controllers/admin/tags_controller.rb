@@ -1,3 +1,4 @@
+# @specre 01KHYCF2QMAT9AJYWS2C4TWBPE
 module Admin
   class TagsController < Admin::ApplicationController
     layout "admin"

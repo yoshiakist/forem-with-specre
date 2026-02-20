@@ -1,3 +1,4 @@
+# @specre 01KHYCF2QMAT9AJYWS2C4TWBPE
 require "rails_helper"
 
 RSpec.describe "/admin/content_manager/tags" do

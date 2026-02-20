@@ -1,3 +1,4 @@
+# @specre 01KHYCE88A8Z44K257V7Q16KPK
 require 'rails_helper'
 
 RSpec.describe TagSubforemRelationship, type: :model do

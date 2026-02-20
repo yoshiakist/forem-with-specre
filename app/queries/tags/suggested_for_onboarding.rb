@@ -1,3 +1,4 @@
+# @specre 01KHYCPT4S16SQD5XX64HWHEJ2
 module Tags
   class SuggestedForOnboarding
     MAX = 45

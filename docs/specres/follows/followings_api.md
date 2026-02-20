@@ -8,6 +8,7 @@ last_verified: "2026-02-21"
 ## Related Files
 
 - app/controllers/followings_controller.rb
+- app/views/followings/tags.json.jbuilder (Template)
 - spec/requests/followings_spec.rb
 
 ## Functional Overview

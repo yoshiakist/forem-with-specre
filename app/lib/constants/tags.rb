@@ -1,3 +1,4 @@
+# @specre 01KHYCB979HE8GAWAK6V94BANV
 module Constants
   module Tags
     FLARE_TAG_NAMES = %w[
