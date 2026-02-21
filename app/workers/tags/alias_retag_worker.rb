@@ -1,4 +1,3 @@
-# @specre 01KHYCM33CMWM4X1249Z9032CQ
 module Tags
   class AliasRetagWorker
     include Sidekiq::Job

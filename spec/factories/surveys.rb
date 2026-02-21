@@ -1,4 +1,3 @@
-# @specre 01KHYDGFH91Y4CKRSK7XB9CAY2
 FactoryBot.define do
   factory :survey do
     title { Faker::Lorem.word }

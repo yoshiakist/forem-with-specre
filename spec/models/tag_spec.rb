@@ -1,4 +1,3 @@
-# @specre 01KHYCB979HE8GAWAK6V94BANV
 require "rails_helper"
 
 RSpec.describe Tag do

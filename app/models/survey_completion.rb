@@ -1,4 +1,3 @@
-# @specre 01KHYDHRP7XCMAJFEZ27YPZK5Y
 class SurveyCompletion < ApplicationRecord
   belongs_to :user
   belongs_to :survey

@@ -1,4 +1,3 @@
-# @specre 01KHYCPT4S16SQD5XX64HWHEJ2
 require "rails_helper"
 
 RSpec.describe Tags::SuggestedForOnboarding, type: :query do

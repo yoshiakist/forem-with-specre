@@ -1,4 +1,3 @@
-// @specre 01KHYCSHNS0S69CWGV0Q67HZVW
 import PropTypes from 'prop-types';
 import { h } from 'preact';
 

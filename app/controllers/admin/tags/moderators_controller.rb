@@ -1,4 +1,3 @@
-# @specre 01KHYCGB56TKXQNTVJHKN58M32
 module Admin
   module Tags
     class ModeratorsController < Admin::ApplicationController

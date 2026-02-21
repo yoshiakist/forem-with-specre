@@ -1,4 +1,3 @@
-# @specre 01KHYCB979HE8GAWAK6V94BANV
 module Taggable
   extend ActiveSupport::Concern
 

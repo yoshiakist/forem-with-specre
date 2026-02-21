@@ -1,4 +1,3 @@
-# @specre 01KHYCJNHZ6V29EK1MP1PGSCT6
 module Api
   module V0
     class TagsController < ApiController

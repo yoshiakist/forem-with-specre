@@ -1,4 +1,3 @@
-# @specre 01KHYDKBE1NWA0CH3ZQ7XR3RKG
 class SurveysController < ApplicationController
   before_action :set_survey_by_slug, only: [:show]
   before_action :set_survey_by_id, only: [:votes]
