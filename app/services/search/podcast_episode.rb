@@ -1,3 +1,4 @@
+# @specre 01KHZ27T6PAPJ71DGHEYS3B02Y
 module Search
   class PodcastEpisode
     ATTRIBUTES = %w[

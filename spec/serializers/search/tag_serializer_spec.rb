@@ -1,3 +1,4 @@
+# @specre 01KHZ26XHGBTBKDTDCRC8S5FCC
 require "rails_helper"
 
 RSpec.describe Search::TagSerializer do

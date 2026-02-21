@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-21T01:56:36Z",
+  "generated_at": "2026-02-21T03:03:12Z",
   "source_refs": [
     {
       "file": "app/assets/javascripts/subforemSelectionModal.js",
@@ -92,9 +92,54 @@
       "specre_id": "01KHY94DZ9B1PRJBC818Q9SKXB"
     },
     {
+      "file": "app/controllers/open_search_controller.rb",
+      "line": 1,
+      "specre_id": "01KHZ2CEBFEA1C3PMCCZPQ5JQF"
+    },
+    {
       "file": "app/controllers/organizations_controller.rb",
       "line": 1,
       "specre_id": "01KHYAPESAA0V3WKK075E59EPH"
+    },
+    {
+      "file": "app/controllers/search_controller.rb",
+      "line": 1,
+      "specre_id": "01KHZ2A12P5D6JD7A07Y0K0G87"
+    },
+    {
+      "file": "app/controllers/search_controller.rb",
+      "line": 2,
+      "specre_id": "01KHZ28VAWY5TJ6GJYXZBVE4JN"
+    },
+    {
+      "file": "app/controllers/search_controller.rb",
+      "line": 3,
+      "specre_id": "01KHZ27T6PAPJ71DGHEYS3B02Y"
+    },
+    {
+      "file": "app/controllers/search_controller.rb",
+      "line": 4,
+      "specre_id": "01KHZ26XHGBTBKDTDCRC8S5FCC"
+    },
+    {
+      "file": "app/controllers/search_controller.rb",
+      "line": 5,
+      "specre_id": "01KHZ25T4PNZ33CT917WZ25JYT"
+    },
+    {
+      "file": "app/controllers/search_controller.rb",
+      "line": 6,
+      "specre_id": "01KHZ24CTQNRDZ5CAMD3TTT1KN"
+    },
+    {
+      "file": "app/controllers/search_controller.rb",
+      "line": 7,
+      "specre_id": "01KHZ22E63WBQWYFZNQVEA2EEE"
+    },
+    {
+      "file": "app/controllers/stories/articles_search_controller.rb",
+      "line": 1,
+      "specre_id": "01KHZ22E63WBQWYFZNQVEA2EEE"
     },
     {
       "file": "app/controllers/subforems_controller.rb",
@@ -117,6 +162,11 @@
       "specre_id": "01KHYAE6BT4N3QJ2FR396TTRCQ"
     },
     {
+      "file": "app/errors/search.rb",
+      "line": 1,
+      "specre_id": "01KHZ22E63WBQWYFZNQVEA2EEE"
+    },
+    {
       "file": "app/helpers/admin/organizations_helper.rb",
       "line": 1,
       "specre_id": "01KHYASY8DESB0ZXJFQZTWXPC8"
@@ -127,9 +177,44 @@
       "specre_id": "01KHYASXS334EE0BHKGBNRD4C0"
     },
     {
+      "file": "app/javascript/Search/Search.jsx",
+      "line": 1,
+      "specre_id": "01KHZ22E63WBQWYFZNQVEA2EEE"
+    },
+    {
+      "file": "app/javascript/Search/SearchForm.jsx",
+      "line": 1,
+      "specre_id": "01KHZ22E63WBQWYFZNQVEA2EEE"
+    },
+    {
+      "file": "app/javascript/Search/SearchFormSync.jsx",
+      "line": 1,
+      "specre_id": "01KHZ22E63WBQWYFZNQVEA2EEE"
+    },
+    {
+      "file": "app/javascript/Search/__tests__/Search.test.jsx",
+      "line": 1,
+      "specre_id": "01KHZ22E63WBQWYFZNQVEA2EEE"
+    },
+    {
+      "file": "app/javascript/Search/__tests__/SearchFormSync.test.jsx",
+      "line": 1,
+      "specre_id": "01KHZ22E63WBQWYFZNQVEA2EEE"
+    },
+    {
+      "file": "app/javascript/Search/index.js",
+      "line": 1,
+      "specre_id": "01KHZ22E63WBQWYFZNQVEA2EEE"
+    },
+    {
       "file": "app/javascript/admin/controllers/admin_surveys_controller.js",
       "line": 1,
       "specre_id": "01KHY7Q13FW678WREK162FKQ28"
+    },
+    {
+      "file": "app/javascript/articles/components/SearchSnippet.jsx",
+      "line": 1,
+      "specre_id": "01KHZ22E63WBQWYFZNQVEA2EEE"
     },
     {
       "file": "app/javascript/billboard/tags.jsx",
@@ -177,6 +262,11 @@
       "specre_id": "01KHYB2J6VNGEBTQT0WTWQKDSW"
     },
     {
+      "file": "app/javascript/packs/Search.jsx",
+      "line": 1,
+      "specre_id": "01KHZ22E63WBQWYFZNQVEA2EEE"
+    },
+    {
       "file": "app/javascript/packs/admin/organizations.jsx",
       "line": 1,
       "specre_id": "01KHYB1FSJRAWD3J79MJ5ZA141"
@@ -197,6 +287,11 @@
       "specre_id": "01KHYB21QD394ZG8HWV7KERR60"
     },
     {
+      "file": "app/javascript/packs/searchParams.js",
+      "line": 1,
+      "specre_id": "01KHZ22E63WBQWYFZNQVEA2EEE"
+    },
+    {
       "file": "app/javascript/packs/signupSubforemStorage.js",
       "line": 1,
       "specre_id": "01KHYYD4RVEHXFA0M3F62W5PQD"
@@ -207,9 +302,24 @@
       "specre_id": "01KHYYD4RVEHXFA0M3F62W5PQD"
     },
     {
+      "file": "app/javascript/searchableItemList/searchableItemList.js",
+      "line": 1,
+      "specre_id": "01KHZ28VAWY5TJ6GJYXZBVE4JN"
+    },
+    {
       "file": "app/javascript/tags/TagButtonContainer.jsx",
       "line": 1,
       "specre_id": "01KHYCQP8ZV9CETSKG0HMGF2XP"
+    },
+    {
+      "file": "app/javascript/utilities/__tests__/search.test.js",
+      "line": 1,
+      "specre_id": "01KHZ22E63WBQWYFZNQVEA2EEE"
+    },
+    {
+      "file": "app/javascript/utilities/search/index.js",
+      "line": 1,
+      "specre_id": "01KHZ22E63WBQWYFZNQVEA2EEE"
     },
     {
       "file": "app/lib/constants/tags.rb",
@@ -252,9 +362,39 @@
       "specre_id": "01KHY7Q0SPE22H49Y79AZYKZNY"
     },
     {
+      "file": "app/models/concerns/algolia_searchable.rb",
+      "line": 1,
+      "specre_id": "01KHZ2B1BF232HFDSKGKHDSF6F"
+    },
+    {
+      "file": "app/models/concerns/algolia_searchable/searchable_article.rb",
+      "line": 1,
+      "specre_id": "01KHZ2B1BF232HFDSKGKHDSF6F"
+    },
+    {
+      "file": "app/models/concerns/algolia_searchable/searchable_comment.rb",
+      "line": 1,
+      "specre_id": "01KHZ2B1BF232HFDSKGKHDSF6F"
+    },
+    {
       "file": "app/models/concerns/algolia_searchable/searchable_organization.rb",
       "line": 1,
       "specre_id": "01KHYA9GWPEHZ06WJWDG1QKSK8"
+    },
+    {
+      "file": "app/models/concerns/algolia_searchable/searchable_podcast_episode.rb",
+      "line": 1,
+      "specre_id": "01KHZ2B1BF232HFDSKGKHDSF6F"
+    },
+    {
+      "file": "app/models/concerns/algolia_searchable/searchable_tag.rb",
+      "line": 1,
+      "specre_id": "01KHZ2B1BF232HFDSKGKHDSF6F"
+    },
+    {
+      "file": "app/models/concerns/algolia_searchable/searchable_user.rb",
+      "line": 1,
+      "specre_id": "01KHZ2B1BF232HFDSKGKHDSF6F"
     },
     {
       "file": "app/models/concerns/taggable.rb",
@@ -337,9 +477,44 @@
       "specre_id": "01KHYCPT4S16SQD5XX64HWHEJ2"
     },
     {
+      "file": "app/serializers/search/comment_serializer.rb",
+      "line": 1,
+      "specre_id": "01KHZ24CTQNRDZ5CAMD3TTT1KN"
+    },
+    {
+      "file": "app/serializers/search/nested_user_serializer.rb",
+      "line": 1,
+      "specre_id": "01KHZ24CTQNRDZ5CAMD3TTT1KN"
+    },
+    {
       "file": "app/serializers/search/organization_serializer.rb",
       "line": 1,
       "specre_id": "01KHYAG7500GXRZGY07Y91X18W"
+    },
+    {
+      "file": "app/serializers/search/podcast_episode_serializer.rb",
+      "line": 1,
+      "specre_id": "01KHZ27T6PAPJ71DGHEYS3B02Y"
+    },
+    {
+      "file": "app/serializers/search/reading_list_article_serializer.rb",
+      "line": 1,
+      "specre_id": "01KHZ28VAWY5TJ6GJYXZBVE4JN"
+    },
+    {
+      "file": "app/serializers/search/simple_user_serializer.rb",
+      "line": 1,
+      "specre_id": "01KHZ25T4PNZ33CT917WZ25JYT"
+    },
+    {
+      "file": "app/serializers/search/tag_serializer.rb",
+      "line": 1,
+      "specre_id": "01KHZ26XHGBTBKDTDCRC8S5FCC"
+    },
+    {
+      "file": "app/serializers/search/user_serializer.rb",
+      "line": 1,
+      "specre_id": "01KHZ25T4PNZ33CT917WZ25JYT"
     },
     {
       "file": "app/services/ai/subforem_finder.rb",
@@ -377,9 +552,44 @@
       "specre_id": "01KHYAJ5A6WCMJEYQEF12BEETG"
     },
     {
+      "file": "app/services/search/article.rb",
+      "line": 1,
+      "specre_id": "01KHZ22E63WBQWYFZNQVEA2EEE"
+    },
+    {
+      "file": "app/services/search/comment.rb",
+      "line": 1,
+      "specre_id": "01KHZ24CTQNRDZ5CAMD3TTT1KN"
+    },
+    {
       "file": "app/services/search/organization.rb",
       "line": 1,
       "specre_id": "01KHYAG7500GXRZGY07Y91X18W"
+    },
+    {
+      "file": "app/services/search/podcast_episode.rb",
+      "line": 1,
+      "specre_id": "01KHZ27T6PAPJ71DGHEYS3B02Y"
+    },
+    {
+      "file": "app/services/search/reading_list.rb",
+      "line": 1,
+      "specre_id": "01KHZ28VAWY5TJ6GJYXZBVE4JN"
+    },
+    {
+      "file": "app/services/search/tag.rb",
+      "line": 1,
+      "specre_id": "01KHZ26XHGBTBKDTDCRC8S5FCC"
+    },
+    {
+      "file": "app/services/search/user.rb",
+      "line": 1,
+      "specre_id": "01KHZ25T4PNZ33CT917WZ25JYT"
+    },
+    {
+      "file": "app/services/search/username.rb",
+      "line": 1,
+      "specre_id": "01KHZ2A12P5D6JD7A07Y0K0G87"
     },
     {
       "file": "app/services/subforem_moderators/add.rb",
@@ -552,6 +762,11 @@
       "specre_id": "01KHYYG7CT65AXSS0G8M61RW6N"
     },
     {
+      "file": "app/views/open_search/show.xml.erb",
+      "line": 1,
+      "specre_id": "01KHZ2CEBFEA1C3PMCCZPQ5JQF"
+    },
+    {
       "file": "app/views/organizations/_header.html.erb",
       "line": 1,
       "specre_id": "01KHYAY4DGRYJFMXJ7BBYNVE7Y"
@@ -595,6 +810,21 @@
       "file": "app/views/shared/_subforem_selection_modal.html.erb",
       "line": 1,
       "specre_id": "01KHYYC8DH90XT7E7QYRPVDT2W"
+    },
+    {
+      "file": "app/views/stories/articles_search/_meta.html.erb",
+      "line": 1,
+      "specre_id": "01KHZ22E63WBQWYFZNQVEA2EEE"
+    },
+    {
+      "file": "app/views/stories/articles_search/_nav_menu.html.erb",
+      "line": 1,
+      "specre_id": "01KHZ22E63WBQWYFZNQVEA2EEE"
+    },
+    {
+      "file": "app/views/stories/articles_search/index.html.erb",
+      "line": 1,
+      "specre_id": "01KHZ22E63WBQWYFZNQVEA2EEE"
     },
     {
       "file": "app/views/subforems/edit.html.erb",
@@ -650,6 +880,11 @@
       "file": "app/views/users/_integrations_github_repositories.html.erb",
       "line": 1,
       "specre_id": "01KHY94DZ9B1PRJBC818Q9SKXB"
+    },
+    {
+      "file": "app/workers/algolia_search/search_index_worker.rb",
+      "line": 1,
+      "specre_id": "01KHZ2B1BF232HFDSKGKHDSF6F"
     },
     {
       "file": "app/workers/emails/survey_daily_email_worker.rb",
@@ -947,6 +1182,11 @@
       "specre_id": "01KHY94DZ9B1PRJBC818Q9SKXB"
     },
     {
+      "file": "spec/requests/open_search_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ2CEBFEA1C3PMCCZPQ5JQF"
+    },
+    {
       "file": "spec/requests/organizations_invite_spec.rb",
       "line": 1,
       "specre_id": "01KHYAPESAA0V3WKK075E59EPH"
@@ -960,6 +1200,21 @@
       "file": "spec/requests/organizations_update_spec.rb",
       "line": 1,
       "specre_id": "01KHYAPESAA0V3WKK075E59EPH"
+    },
+    {
+      "file": "spec/requests/search/feed_content_simple_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ22E63WBQWYFZNQVEA2EEE"
+    },
+    {
+      "file": "spec/requests/search_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ22E63WBQWYFZNQVEA2EEE"
+    },
+    {
+      "file": "spec/requests/stories/articles_search_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ22E63WBQWYFZNQVEA2EEE"
     },
     {
       "file": "spec/requests/subforem_selection_modal_spec.rb",
@@ -987,9 +1242,44 @@
       "specre_id": "01KHYCHBSG5WKRXGVJ81HAFC7F"
     },
     {
+      "file": "spec/serializers/search/comment_serializer_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ24CTQNRDZ5CAMD3TTT1KN"
+    },
+    {
+      "file": "spec/serializers/search/nested_user_serializer_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ24CTQNRDZ5CAMD3TTT1KN"
+    },
+    {
       "file": "spec/serializers/search/organization_serializer_spec.rb",
       "line": 1,
       "specre_id": "01KHYAG7500GXRZGY07Y91X18W"
+    },
+    {
+      "file": "spec/serializers/search/podcast_episode_serializer_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ27T6PAPJ71DGHEYS3B02Y"
+    },
+    {
+      "file": "spec/serializers/search/reading_list_article_serializer_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ28VAWY5TJ6GJYXZBVE4JN"
+    },
+    {
+      "file": "spec/serializers/search/simple_user_serializer_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ25T4PNZ33CT917WZ25JYT"
+    },
+    {
+      "file": "spec/serializers/search/tag_serializer_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ26XHGBTBKDTDCRC8S5FCC"
+    },
+    {
+      "file": "spec/serializers/search/user_serializer_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ25T4PNZ33CT917WZ25JYT"
     },
     {
       "file": "spec/services/edge_cache/bust_organization_spec.rb",
@@ -1012,9 +1302,44 @@
       "specre_id": "01KHYAJ5A6WCMJEYQEF12BEETG"
     },
     {
+      "file": "spec/services/search/article_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ22E63WBQWYFZNQVEA2EEE"
+    },
+    {
+      "file": "spec/services/search/comment_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ24CTQNRDZ5CAMD3TTT1KN"
+    },
+    {
       "file": "spec/services/search/organization_spec.rb",
       "line": 1,
       "specre_id": "01KHYAG7500GXRZGY07Y91X18W"
+    },
+    {
+      "file": "spec/services/search/podcast_episode_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ27T6PAPJ71DGHEYS3B02Y"
+    },
+    {
+      "file": "spec/services/search/reading_list_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ28VAWY5TJ6GJYXZBVE4JN"
+    },
+    {
+      "file": "spec/services/search/tag_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ26XHGBTBKDTDCRC8S5FCC"
+    },
+    {
+      "file": "spec/services/search/user_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ25T4PNZ33CT917WZ25JYT"
+    },
+    {
+      "file": "spec/services/search/username_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ2A12P5D6JD7A07Y0K0G87"
     },
     {
       "file": "spec/services/subforem_moderators/add_spec.rb",
@@ -1032,6 +1357,31 @@
       "specre_id": "01KHYYF2GKNFJF3ZE6PR6X8X9V"
     },
     {
+      "file": "spec/system/search/display_articles_search_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ22E63WBQWYFZNQVEA2EEE"
+    },
+    {
+      "file": "spec/system/search/display_comments_search_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ24CTQNRDZ5CAMD3TTT1KN"
+    },
+    {
+      "file": "spec/system/search/display_users_search_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ25T4PNZ33CT917WZ25JYT"
+    },
+    {
+      "file": "spec/system/search/search_title_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ22E63WBQWYFZNQVEA2EEE"
+    },
+    {
+      "file": "spec/system/search/user_searches_users_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ25T4PNZ33CT917WZ25JYT"
+    },
+    {
       "file": "spec/system/tags/user_updates_a_tag_spec.rb",
       "line": 1,
       "specre_id": "01KHYCHBSG5WKRXGVJ81HAFC7F"
@@ -1040,6 +1390,11 @@
       "file": "spec/views/subforems/edit_spec.rb",
       "line": 1,
       "specre_id": "01KHYH43TN4FS8ZYTW757DZBHZ"
+    },
+    {
+      "file": "spec/workers/algolia_search/search_index_worker_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ2B1BF232HFDSKGKHDSF6F"
     },
     {
       "file": "spec/workers/emails/survey_daily_email_worker_spec.rb",
@@ -5051,70 +5406,6 @@
       "status": "stable"
     },
     {
-      "domain": "search",
-      "id": "01KHY7Q0QPNKAHSVGFMBPHFZCP",
-      "last_verified": "2026-02-21",
-      "name": "open_search_api",
-      "path": "docs/specres/search/open_search_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "search",
-      "id": "01KHY7Q0QRETGPDPS20Q1AJBK7",
-      "last_verified": "2026-02-21",
-      "name": "search_feed_content_simple_api",
-      "path": "docs/specres/search/search_feed_content_simple_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "search",
-      "id": "01KHY7Q0QV9TQ6VYZSAG3CQPSD",
-      "last_verified": "2026-02-21",
-      "name": "search_api",
-      "path": "docs/specres/search/search_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "search",
-      "id": "01KHY7Q0QYX9G14A6BNJ73HHDP",
-      "last_verified": "2026-02-21",
-      "name": "search_tag_serializer_serializer",
-      "path": "docs/specres/search/search_tag_serializer_serializer.md",
-      "status": "stable"
-    },
-    {
-      "domain": "search",
-      "id": "01KHY7Q0R1ET5F3VP1JCTYGY93",
-      "last_verified": "2026-02-21",
-      "name": "search_reading_list_service",
-      "path": "docs/specres/search/search_reading_list_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "search",
-      "id": "01KHY7Q0R38XK07YMJP7KBYVM2",
-      "last_verified": "2026-02-21",
-      "name": "search_tag_service",
-      "path": "docs/specres/search/search_tag_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "search",
-      "id": "01KHY7Q0R6S00GRWHN1FQV5GE6",
-      "last_verified": "2026-02-21",
-      "name": "search_search_title_system",
-      "path": "docs/specres/search/search_search_title_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "search",
-      "id": "01KHY7Q0R838SJ4ZN5WR1DQYEG",
-      "last_verified": "2026-02-21",
-      "name": "algolia_search_search_index_worker_worker",
-      "path": "docs/specres/search/algolia_search_search_index_worker_worker.md",
-      "status": "stable"
-    },
-    {
       "domain": "credits",
       "id": "01KHY7Q0RBXTKDG0EV3MCKJ3MA",
       "last_verified": "2026-02-21",
@@ -8128,6 +8419,78 @@
       "last_verified": "2026-02-21",
       "name": "system_exposes_subforems_via_api",
       "path": "docs/specres/subforems/system_exposes_subforems_via_api.md",
+      "status": "stable"
+    },
+    {
+      "domain": "search",
+      "id": "01KHZ22E63WBQWYFZNQVEA2EEE",
+      "last_verified": "2026-02-21",
+      "name": "user_can_search_articles",
+      "path": "docs/specres/search/user_can_search_articles.md",
+      "status": "stable"
+    },
+    {
+      "domain": "search",
+      "id": "01KHZ24CTQNRDZ5CAMD3TTT1KN",
+      "last_verified": "2026-02-21",
+      "name": "user_can_search_comments",
+      "path": "docs/specres/search/user_can_search_comments.md",
+      "status": "stable"
+    },
+    {
+      "domain": "search",
+      "id": "01KHZ25T4PNZ33CT917WZ25JYT",
+      "last_verified": "2026-02-21",
+      "name": "user_can_search_users",
+      "path": "docs/specres/search/user_can_search_users.md",
+      "status": "stable"
+    },
+    {
+      "domain": "search",
+      "id": "01KHZ26XHGBTBKDTDCRC8S5FCC",
+      "last_verified": "2026-02-21",
+      "name": "user_can_search_tags",
+      "path": "docs/specres/search/user_can_search_tags.md",
+      "status": "stable"
+    },
+    {
+      "domain": "search",
+      "id": "01KHZ27T6PAPJ71DGHEYS3B02Y",
+      "last_verified": "2026-02-21",
+      "name": "user_can_search_podcast_episodes",
+      "path": "docs/specres/search/user_can_search_podcast_episodes.md",
+      "status": "stable"
+    },
+    {
+      "domain": "search",
+      "id": "01KHZ28VAWY5TJ6GJYXZBVE4JN",
+      "last_verified": "2026-02-21",
+      "name": "user_can_search_reading_list",
+      "path": "docs/specres/search/user_can_search_reading_list.md",
+      "status": "stable"
+    },
+    {
+      "domain": "search",
+      "id": "01KHZ2A12P5D6JD7A07Y0K0G87",
+      "last_verified": "2026-02-21",
+      "name": "user_can_autocomplete_usernames",
+      "path": "docs/specres/search/user_can_autocomplete_usernames.md",
+      "status": "stable"
+    },
+    {
+      "domain": "search",
+      "id": "01KHZ2B1BF232HFDSKGKHDSF6F",
+      "last_verified": "2026-02-21",
+      "name": "system_indexes_content_for_algolia_search",
+      "path": "docs/specres/search/system_indexes_content_for_algolia_search.md",
+      "status": "stable"
+    },
+    {
+      "domain": "search",
+      "id": "01KHZ2CEBFEA1C3PMCCZPQ5JQF",
+      "last_verified": "2026-02-21",
+      "name": "system_exposes_opensearch_descriptor",
+      "path": "docs/specres/search/system_exposes_opensearch_descriptor.md",
       "status": "stable"
     }
   ],

@@ -1,3 +1,4 @@
+# @specre 01KHZ24CTQNRDZ5CAMD3TTT1KN
 module Search
   class Comment
     ATTRIBUTES = [

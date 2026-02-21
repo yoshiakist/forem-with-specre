@@ -1,3 +1,4 @@
+// @specre 01KHZ22E63WBQWYFZNQVEA2EEE
 // TODO: We should really be using the xss package by installing it in package.json
 // but for now filterXSS is global because of legacy JS
 

@@ -1,3 +1,4 @@
+# @specre 01KHZ22E63WBQWYFZNQVEA2EEE
 module Search
   class Article
     DEFAULT_SORT_BY = "hotness_score DESC, comments_count DESC".freeze

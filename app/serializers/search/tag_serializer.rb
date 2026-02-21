@@ -1,3 +1,4 @@
+# @specre 01KHZ26XHGBTBKDTDCRC8S5FCC
 module Search
   class TagSerializer < ApplicationSerializer
     attribute :class_name, -> { "Tag" }

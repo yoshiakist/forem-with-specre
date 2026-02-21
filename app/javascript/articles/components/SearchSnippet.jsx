@@ -1,3 +1,4 @@
+// @specre 01KHZ22E63WBQWYFZNQVEA2EEE
 import { h } from 'preact';
 import { articleSnippetResultPropTypes } from '../../common-prop-types';
 

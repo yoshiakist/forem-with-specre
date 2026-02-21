@@ -1,3 +1,4 @@
+# @specre 01KHZ26XHGBTBKDTDCRC8S5FCC
 module Search
   class Tag
     ATTRIBUTES = %i[id name hotness_score rules_html supported short_summary bg_color_hex badge_id].freeze

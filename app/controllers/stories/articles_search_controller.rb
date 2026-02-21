@@ -1,3 +1,4 @@
+# @specre 01KHZ22E63WBQWYFZNQVEA2EEE
 module Stories
   class ArticlesSearchController < ApplicationController
     rescue_from ArgumentError, with: :bad_request

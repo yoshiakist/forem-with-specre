@@ -1,3 +1,4 @@
+# @specre 01KHZ2B1BF232HFDSKGKHDSF6F
 require "rails_helper"
 # rubocop:disable RSpec/AnyInstance
 RSpec.describe AlgoliaSearch::SearchIndexWorker, :algolia, type: :worker do

@@ -1,3 +1,4 @@
+# @specre 01KHZ2CEBFEA1C3PMCCZPQ5JQF
 require "rails_helper"
 
 RSpec.describe "OpenSearch" do

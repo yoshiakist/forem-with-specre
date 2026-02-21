@@ -1,3 +1,4 @@
+# @specre 01KHZ25T4PNZ33CT917WZ25JYT
 module Search
   class SimpleUserSerializer < ApplicationSerializer
     attribute :class_name, -> { "User" }

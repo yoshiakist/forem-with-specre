@@ -1,3 +1,4 @@
+# @specre 01KHZ24CTQNRDZ5CAMD3TTT1KN
 module Search
   class CommentSerializer < ApplicationSerializer
     attribute :id, &:search_id

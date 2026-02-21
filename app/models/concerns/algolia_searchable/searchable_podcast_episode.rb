@@ -1,3 +1,4 @@
+# @specre 01KHZ2B1BF232HFDSKGKHDSF6F
 module AlgoliaSearchable
   module SearchablePodcastEpisode
     extend ActiveSupport::Concern

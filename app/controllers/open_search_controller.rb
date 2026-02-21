@@ -1,3 +1,4 @@
+# @specre 01KHZ2CEBFEA1C3PMCCZPQ5JQF
 class OpenSearchController < ApplicationController
   before_action :set_cache_control_headers, only: %i[show]
 
