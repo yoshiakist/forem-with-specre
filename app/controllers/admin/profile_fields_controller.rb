@@ -1,3 +1,4 @@
+# @specre 01KHZ6D9SWTJKNHPPWX68BHARE
 module Admin
   class ProfileFieldsController < Admin::ApplicationController
     ALLOWED_PARAMS = %i[

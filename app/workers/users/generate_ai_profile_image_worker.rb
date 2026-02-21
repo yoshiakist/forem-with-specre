@@ -1,3 +1,4 @@
+# @specre 01KHZ6KPVGP495ZDNG16MKD6FK
 module Users
   class GenerateAiProfileImageWorker
     include Sidekiq::Job

@@ -1,3 +1,4 @@
+# @specre 01KHZ6KMGFYFBB8TCE6Q554D1Z
 module Users
   class BustProfileIdentityCacheWorker < BustCacheBaseWorker
     def perform(user_id)

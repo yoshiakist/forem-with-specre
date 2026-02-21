@@ -1,3 +1,4 @@
+# @specre 01KHZ69FHDF80CY6ZM4CR87C8M
 class ProfilePinsController < ApplicationController
   before_action :authenticate_user!, only: %i[create update]
 

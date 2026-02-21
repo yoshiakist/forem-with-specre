@@ -1,3 +1,4 @@
+# @specre 01KHZ6GG5GD766PRZK1SE50KMG
 module Images
   module ProfileImageGenerator
     def self.call

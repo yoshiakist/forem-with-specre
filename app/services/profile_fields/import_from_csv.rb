@@ -1,3 +1,4 @@
+# @specre 01KHZ6D9SWTJKNHPPWX68BHARE
 module ProfileFields
   class ImportFromCsv
     HEADERS = %i[label input_type placeholder_text description group display_area show_in_onboarding].freeze

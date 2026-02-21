@@ -1,3 +1,4 @@
+// @specre 01KHZ6CFQNFQRAFDNMEDQ8X9S0
 import { h } from 'preact';
 import { render } from '@testing-library/preact';
 import fetch from 'jest-fetch-mock';

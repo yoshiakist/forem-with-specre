@@ -1,3 +1,4 @@
+# @specre 01KHZ6M3H0WPQNH4GKB6YPAR1T
 module Ai
   ##
   # Analyzes a user's profile and recent articles to determine a moderation label.

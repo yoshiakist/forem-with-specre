@@ -1,3 +1,4 @@
+// @specre 01KHZ6CFQNFQRAFDNMEDQ8X9S0
 /**
  * A checkbox field with a label that reacts to an onFieldChange event.
 
