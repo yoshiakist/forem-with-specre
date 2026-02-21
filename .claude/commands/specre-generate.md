@@ -16,7 +16,12 @@ Your goal: create specre specification cards for source files that currently lac
 
 ## Phase 1: Discovery
 
-1. Run `specre coverage` to identify uncovered source files.
+1. Run `specre coverage` (MCP tool) to identify uncovered source files.
+   > **Fallback for large codebases:** If the MCP tool result exceeds the token limit (the output is saved to a temporary file instead of being returned inline), use the helper script instead:
+   > ```bash
+   > python3 .claude/commands/scripts/coverage-uncovered.py <domain_keyword>
+   > ```
+   > This runs `specre coverage --json` via CLI and filters uncovered files by a case-insensitive keyword match on file paths, avoiding MCP output size limits. The script outputs coverage stats (`coverage=`, `tagged=`, `total=`, `uncovered_count=`) followed by a `---` separator and the filtered file list.
 2. Filter the **Uncovered files** list to only those belonging to the target domain.
    - "Domain" means the top-level functional directory within each `source_dirs` entry (e.g., `src/auth/`, `src/cart/`).
    - Exclude test files from the generation targets. Test files are used as evidence for status determination (Phase 3), not as specre subjects.
