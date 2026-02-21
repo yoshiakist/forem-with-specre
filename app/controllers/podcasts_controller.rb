@@ -1,3 +1,4 @@
+# @specre 01KHZ795DAZ7K0BZGY252PBQ10
 class PodcastsController < ApplicationController
   before_action :authenticate_user!
 

@@ -1,3 +1,4 @@
+# @specre 01KHZ7BNHPQDAKZA5SBMDTGM65
 module Admin
   class PodcastsController < Admin::ApplicationController
     layout "admin"

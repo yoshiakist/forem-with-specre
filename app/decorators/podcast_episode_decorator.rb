@@ -1,3 +1,4 @@
+# @specre 01KHZ78Z9A3R2NWZF2B6EZ82AJ
 class PodcastEpisodeDecorator < ApplicationDecorator
   # this method exists because podcast episodes are "commentables"
   # and in some parts of the code we assume they have this method,

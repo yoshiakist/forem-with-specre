@@ -1,3 +1,4 @@
+// @specre 01KHZ78WJ7S3X0KQ8EVH6RD0DE
 /**
  * This script hunts for podcast's "Record" for both the podcast_episode's
  * show page and an article page containing podcast liquid tag. It handles

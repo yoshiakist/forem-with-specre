@@ -1,3 +1,4 @@
+# @specre 01KHZ7BNHPQDAKZA5SBMDTGM65
 #  @note When we destroy the related user, it's using dependent:
 #        :delete for the relationship.  That means no before/after
 #        destroy callbacks will be called on this object.

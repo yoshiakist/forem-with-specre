@@ -1,3 +1,4 @@
+# @specre 01KHZ795DAZ7K0BZGY252PBQ10
 require "rails_helper"
 
 RSpec.describe PodcastOwnership do

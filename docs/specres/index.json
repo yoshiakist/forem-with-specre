@@ -1,10 +1,20 @@
 {
-  "generated_at": "2026-02-21T04:17:41Z",
+  "generated_at": "2026-02-21T06:02:12Z",
   "source_refs": [
     {
       "file": "app/assets/javascripts/subforemSelectionModal.js",
       "line": 1,
       "specre_id": "01KHYYC8DH90XT7E7QYRPVDT2W"
+    },
+    {
+      "file": "app/assets/stylesheets/ltags/PodcastTag.scss",
+      "line": 1,
+      "specre_id": "01KHZ7C4BEPF5TMJ68BXTZMMVP"
+    },
+    {
+      "file": "app/assets/stylesheets/podcast-episodes-show.scss",
+      "line": 1,
+      "specre_id": "01KHZ78WJ7S3X0KQ8EVH6RD0DE"
     },
     {
       "file": "app/assets/stylesheets/settings.scss",
@@ -25,6 +35,11 @@
       "file": "app/controllers/admin/organizations_controller.rb",
       "line": 1,
       "specre_id": "01KHYAQZFNE6166KPD56KDPFRQ"
+    },
+    {
+      "file": "app/controllers/admin/podcasts_controller.rb",
+      "line": 1,
+      "specre_id": "01KHZ7BNHPQDAKZA5SBMDTGM65"
     },
     {
       "file": "app/controllers/admin/privileged_reactions_controller.rb",
@@ -132,6 +147,11 @@
       "specre_id": "01KHYAR0M26F2KE6CFGA3390RE"
     },
     {
+      "file": "app/controllers/api/v0/podcast_episodes_controller.rb",
+      "line": 1,
+      "specre_id": "01KHZ7J1AT0XZH85CCGJ8MKN03"
+    },
+    {
       "file": "app/controllers/api/v0/profile_images_controller.rb",
       "line": 1,
       "specre_id": "01KHZ6GA12DBP0WCYVDFT4H5HE"
@@ -150,6 +170,11 @@
       "file": "app/controllers/api/v1/organizations_controller.rb",
       "line": 1,
       "specre_id": "01KHYAR18XSDQE448P8GXMPR05"
+    },
+    {
+      "file": "app/controllers/api/v1/podcast_episodes_controller.rb",
+      "line": 1,
+      "specre_id": "01KHZ7J1AT0XZH85CCGJ8MKN03"
     },
     {
       "file": "app/controllers/api/v1/profile_images_controller.rb",
@@ -175,6 +200,11 @@
       "file": "app/controllers/concerns/api/organizations_controller.rb",
       "line": 1,
       "specre_id": "01KHYAR0M26F2KE6CFGA3390RE"
+    },
+    {
+      "file": "app/controllers/concerns/api/podcast_episodes_controller.rb",
+      "line": 1,
+      "specre_id": "01KHZ7J1AT0XZH85CCGJ8MKN03"
     },
     {
       "file": "app/controllers/concerns/api/profile_images_controller.rb",
@@ -205,6 +235,16 @@
       "file": "app/controllers/organizations_controller.rb",
       "line": 1,
       "specre_id": "01KHYAPESAA0V3WKK075E59EPH"
+    },
+    {
+      "file": "app/controllers/podcast_episodes_controller.rb",
+      "line": 1,
+      "specre_id": "01KHZ78Z9A3R2NWZF2B6EZ82AJ"
+    },
+    {
+      "file": "app/controllers/podcasts_controller.rb",
+      "line": 1,
+      "specre_id": "01KHZ795DAZ7K0BZGY252PBQ10"
     },
     {
       "file": "app/controllers/profile_field_groups_controller.rb",
@@ -302,6 +342,11 @@
       "specre_id": "01KHYAE6BT4N3QJ2FR396TTRCQ"
     },
     {
+      "file": "app/decorators/podcast_episode_decorator.rb",
+      "line": 1,
+      "specre_id": "01KHZ78Z9A3R2NWZF2B6EZ82AJ"
+    },
+    {
       "file": "app/decorators/profile_decorator.rb",
       "line": 1,
       "specre_id": "01KHZ69F0GE1R07TXK53AAA1K8"
@@ -385,6 +430,11 @@
       "file": "app/javascript/admin/controllers/admin_surveys_controller.js",
       "line": 1,
       "specre_id": "01KHY7Q13FW678WREK162FKQ28"
+    },
+    {
+      "file": "app/javascript/articles/PodcastArticle.jsx",
+      "line": 1,
+      "specre_id": "01KHZ78Z9A3R2NWZF2B6EZ82AJ"
     },
     {
       "file": "app/javascript/articles/components/ReactionsCount.jsx",
@@ -547,6 +597,36 @@
       "specre_id": "01KHZ69T25SN7PPC7HH7ZPCZ2D"
     },
     {
+      "file": "app/javascript/podcasts/PodcastEpisode.jsx",
+      "line": 1,
+      "specre_id": "01KHZ78Z9A3R2NWZF2B6EZ82AJ"
+    },
+    {
+      "file": "app/javascript/podcasts/PodcastFeed.jsx",
+      "line": 1,
+      "specre_id": "01KHZ78Z9A3R2NWZF2B6EZ82AJ"
+    },
+    {
+      "file": "app/javascript/podcasts/TodaysPodcasts.jsx",
+      "line": 1,
+      "specre_id": "01KHZ78Z9A3R2NWZF2B6EZ82AJ"
+    },
+    {
+      "file": "app/javascript/podcasts/__tests__/PodcastEpisode.test.jsx",
+      "line": 1,
+      "specre_id": "01KHZ78Z9A3R2NWZF2B6EZ82AJ"
+    },
+    {
+      "file": "app/javascript/podcasts/__tests__/TodaysPodcasts.test.jsx",
+      "line": 1,
+      "specre_id": "01KHZ78Z9A3R2NWZF2B6EZ82AJ"
+    },
+    {
+      "file": "app/javascript/podcasts/index.js",
+      "line": 1,
+      "specre_id": "01KHZ78Z9A3R2NWZF2B6EZ82AJ"
+    },
+    {
       "file": "app/javascript/profileDropdown/blockButton.js",
       "line": 1,
       "specre_id": "01KHZ6CQSTGFQY3V3VHN924EF9"
@@ -617,6 +697,11 @@
       "specre_id": "01KHZ22E63WBQWYFZNQVEA2EEE"
     },
     {
+      "file": "app/javascript/utilities/podcastPlayback.js",
+      "line": 1,
+      "specre_id": "01KHZ78WJ7S3X0KQ8EVH6RD0DE"
+    },
+    {
       "file": "app/javascript/utilities/search/index.js",
       "line": 1,
       "specre_id": "01KHZ22E63WBQWYFZNQVEA2EEE"
@@ -680,6 +765,11 @@
       "file": "app/liquid_tags/organization_tag.rb",
       "line": 1,
       "specre_id": "01KHYAF86G3QF0BH04P5YBJ4EE"
+    },
+    {
+      "file": "app/liquid_tags/podcast_tag.rb",
+      "line": 1,
+      "specre_id": "01KHZ7C4BEPF5TMJ68BXTZMMVP"
     },
     {
       "file": "app/liquid_tags/survey_tag.rb",
@@ -760,6 +850,26 @@
       "file": "app/models/organization_membership.rb",
       "line": 1,
       "specre_id": "01KHYABB1GB91QKA03127ZTDMJ"
+    },
+    {
+      "file": "app/models/podcast.rb",
+      "line": 1,
+      "specre_id": "01KHZ795DAZ7K0BZGY252PBQ10"
+    },
+    {
+      "file": "app/models/podcast_episode.rb",
+      "line": 1,
+      "specre_id": "01KHZ7C8VY10XGW8GDHDDHSHRQ"
+    },
+    {
+      "file": "app/models/podcast_episode_appearance.rb",
+      "line": 1,
+      "specre_id": "01KHZ7BNHPQDAKZA5SBMDTGM65"
+    },
+    {
+      "file": "app/models/podcast_ownership.rb",
+      "line": 1,
+      "specre_id": "01KHZ795DAZ7K0BZGY252PBQ10"
     },
     {
       "file": "app/models/privileged_reaction.rb",
@@ -957,6 +1067,16 @@
       "specre_id": "01KHYAKA53GF8RR3HJRFK3Y0A9"
     },
     {
+      "file": "app/services/edge_cache/bust_podcast.rb",
+      "line": 1,
+      "specre_id": "01KHZ7FNBPTBWCMXWYERHJHSS0"
+    },
+    {
+      "file": "app/services/edge_cache/bust_podcast_episode.rb",
+      "line": 1,
+      "specre_id": "01KHZ7FNBPTBWCMXWYERHJHSS0"
+    },
+    {
       "file": "app/services/github/errors.rb",
       "line": 1,
       "specre_id": "01KHY930CEJV5QRQEBKVS095AX"
@@ -1005,6 +1125,36 @@
       "file": "app/services/organizations/delete.rb",
       "line": 1,
       "specre_id": "01KHYAJ5A6WCMJEYQEF12BEETG"
+    },
+    {
+      "file": "app/services/podcasts/create_episode.rb",
+      "line": 1,
+      "specre_id": "01KHZ7C8VY10XGW8GDHDDHSHRQ"
+    },
+    {
+      "file": "app/services/podcasts/episode_rss_item.rb",
+      "line": 1,
+      "specre_id": "01KHZ7C8VY10XGW8GDHDDHSHRQ"
+    },
+    {
+      "file": "app/services/podcasts/feed.rb",
+      "line": 1,
+      "specre_id": "01KHZ7C8VY10XGW8GDHDDHSHRQ"
+    },
+    {
+      "file": "app/services/podcasts/get_episode.rb",
+      "line": 1,
+      "specre_id": "01KHZ7C8VY10XGW8GDHDDHSHRQ"
+    },
+    {
+      "file": "app/services/podcasts/get_media_url.rb",
+      "line": 1,
+      "specre_id": "01KHZ7C8VY10XGW8GDHDDHSHRQ"
+    },
+    {
+      "file": "app/services/podcasts/update_episode_media_url.rb",
+      "line": 1,
+      "specre_id": "01KHZ7C8VY10XGW8GDHDDHSHRQ"
     },
     {
       "file": "app/services/profile_fields/add.rb",
@@ -1127,6 +1277,11 @@
       "specre_id": "01KHZ55S8Z1A16PNGY9X7PR58P"
     },
     {
+      "file": "app/services/users/delete_podcasts.rb",
+      "line": 1,
+      "specre_id": "01KHZ7FPE352W4ESF9QNYKRE34"
+    },
+    {
       "file": "app/uploaders/profile_image_uploader.rb",
       "line": 1,
       "specre_id": "01KHZ6GG5GD766PRZK1SE50KMG"
@@ -1165,6 +1320,16 @@
       "file": "app/views/admin/organizations/show.html.erb",
       "line": 1,
       "specre_id": "01KHYB07ABXD2FDW207KP1GHDH"
+    },
+    {
+      "file": "app/views/admin/podcasts/edit.html.erb",
+      "line": 1,
+      "specre_id": "01KHZ7BNHPQDAKZA5SBMDTGM65"
+    },
+    {
+      "file": "app/views/admin/podcasts/index.html.erb",
+      "line": 1,
+      "specre_id": "01KHZ7BNHPQDAKZA5SBMDTGM65"
     },
     {
       "file": "app/views/admin/privileged_reactions/index.html.erb",
@@ -1482,6 +1647,11 @@
       "specre_id": "01KHZ466X2VM8VAWD6RE82CF9J"
     },
     {
+      "file": "app/views/dashboards/following_podcasts.html.erb",
+      "line": 1,
+      "specre_id": "01KHZ7FM5XC6DM0PAZZZ948707"
+    },
+    {
       "file": "app/views/liquids/_survey.html.erb",
       "line": 1,
       "specre_id": "01KHY7Q19K3T435K5XD2YF421F"
@@ -1585,6 +1755,46 @@
       "file": "app/views/organizations/show.html.erb",
       "line": 1,
       "specre_id": "01KHYAY4DGRYJFMXJ7BBYNVE7Y"
+    },
+    {
+      "file": "app/views/podcast_episodes/_episodes_feed.html.erb",
+      "line": 1,
+      "specre_id": "01KHZ78Z9A3R2NWZF2B6EZ82AJ"
+    },
+    {
+      "file": "app/views/podcast_episodes/_liquid.html.erb",
+      "line": 1,
+      "specre_id": "01KHZ7C4BEPF5TMJ68BXTZMMVP"
+    },
+    {
+      "file": "app/views/podcast_episodes/_meta.html.erb",
+      "line": 1,
+      "specre_id": "01KHZ78Z9A3R2NWZF2B6EZ82AJ"
+    },
+    {
+      "file": "app/views/podcast_episodes/_podcast_bar.html.erb",
+      "line": 1,
+      "specre_id": "01KHZ78WJ7S3X0KQ8EVH6RD0DE"
+    },
+    {
+      "file": "app/views/podcast_episodes/index.html.erb",
+      "line": 1,
+      "specre_id": "01KHZ78Z9A3R2NWZF2B6EZ82AJ"
+    },
+    {
+      "file": "app/views/podcast_episodes/show.html.erb",
+      "line": 1,
+      "specre_id": "01KHZ78WJ7S3X0KQ8EVH6RD0DE"
+    },
+    {
+      "file": "app/views/podcasts/_form.html.erb",
+      "line": 1,
+      "specre_id": "01KHZ795DAZ7K0BZGY252PBQ10"
+    },
+    {
+      "file": "app/views/podcasts/new.html.erb",
+      "line": 1,
+      "specre_id": "01KHZ795DAZ7K0BZGY252PBQ10"
     },
     {
       "file": "app/views/profile_preview_cards/show.html.erb",
@@ -1737,6 +1947,36 @@
       "specre_id": "01KHYAKARS8WVZ96MGFRRX02R5"
     },
     {
+      "file": "app/workers/podcast_episodes/bust_cache_worker.rb",
+      "line": 1,
+      "specre_id": "01KHZ7FNBPTBWCMXWYERHJHSS0"
+    },
+    {
+      "file": "app/workers/podcast_episodes/create_worker.rb",
+      "line": 1,
+      "specre_id": "01KHZ7C8VY10XGW8GDHDDHSHRQ"
+    },
+    {
+      "file": "app/workers/podcast_episodes/update_media_url_worker.rb",
+      "line": 1,
+      "specre_id": "01KHZ7C8VY10XGW8GDHDDHSHRQ"
+    },
+    {
+      "file": "app/workers/podcasts/bust_cache_worker.rb",
+      "line": 1,
+      "specre_id": "01KHZ7FNBPTBWCMXWYERHJHSS0"
+    },
+    {
+      "file": "app/workers/podcasts/enqueue_get_episodes_worker.rb",
+      "line": 1,
+      "specre_id": "01KHZ7C8VY10XGW8GDHDDHSHRQ"
+    },
+    {
+      "file": "app/workers/podcasts/get_episodes_worker.rb",
+      "line": 1,
+      "specre_id": "01KHZ7C8VY10XGW8GDHDDHSHRQ"
+    },
+    {
       "file": "app/workers/reactions/bust_homepage_cache_worker.rb",
       "line": 1,
       "specre_id": "01KHZ55SRCPDHPWM0EYSTE60MK"
@@ -1815,6 +2055,11 @@
       "file": "spec/decorators/organization_decorator_spec.rb",
       "line": 1,
       "specre_id": "01KHYAE6BT4N3QJ2FR396TTRCQ"
+    },
+    {
+      "file": "spec/decorators/podcast_episode_decorator_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ78Z9A3R2NWZF2B6EZ82AJ"
     },
     {
       "file": "spec/factories/reactions.rb",
@@ -1902,6 +2147,11 @@
       "specre_id": "01KHYAF86G3QF0BH04P5YBJ4EE"
     },
     {
+      "file": "spec/liquid_tags/podcast_tag_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ7C4BEPF5TMJ68BXTZMMVP"
+    },
+    {
       "file": "spec/liquid_tags/survey_tag_spec.rb",
       "line": 1,
       "specre_id": "01KHY7Q19K3T435K5XD2YF421F"
@@ -1945,6 +2195,26 @@
       "file": "spec/models/organization_spec.rb",
       "line": 1,
       "specre_id": "01KHYA9GWPEHZ06WJWDG1QKSK8"
+    },
+    {
+      "file": "spec/models/podcast_episode_appearance_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ7BNHPQDAKZA5SBMDTGM65"
+    },
+    {
+      "file": "spec/models/podcast_episode_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ7C8VY10XGW8GDHDDHSHRQ"
+    },
+    {
+      "file": "spec/models/podcast_ownership_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ795DAZ7K0BZGY252PBQ10"
+    },
+    {
+      "file": "spec/models/podcast_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ795DAZ7K0BZGY252PBQ10"
     },
     {
       "file": "spec/models/profile_field_group_spec.rb",
@@ -2092,6 +2362,11 @@
       "specre_id": "01KHYAQZFNE6166KPD56KDPFRQ"
     },
     {
+      "file": "spec/requests/admin/podcasts_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ7BNHPQDAKZA5SBMDTGM65"
+    },
+    {
       "file": "spec/requests/admin/privileged_reactions_spec.rb",
       "line": 1,
       "specre_id": "01KHZ593PHDRQRWR1673HQ654Q"
@@ -2147,6 +2422,11 @@
       "specre_id": "01KHYAR0M26F2KE6CFGA3390RE"
     },
     {
+      "file": "spec/requests/api/v0/podcasts_episodes_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ7J1AT0XZH85CCGJ8MKN03"
+    },
+    {
       "file": "spec/requests/api/v0/profile_images_spec.rb",
       "line": 1,
       "specre_id": "01KHZ6GA12DBP0WCYVDFT4H5HE"
@@ -2167,6 +2447,11 @@
       "specre_id": "01KHYAR18XSDQE448P8GXMPR05"
     },
     {
+      "file": "spec/requests/api/v1/docs/podcast_episodes_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ7J1AT0XZH85CCGJ8MKN03"
+    },
+    {
       "file": "spec/requests/api/v1/docs/profile_images_spec.rb",
       "line": 1,
       "specre_id": "01KHZ6GA12DBP0WCYVDFT4H5HE"
@@ -2180,6 +2465,11 @@
       "file": "spec/requests/api/v1/organizations_spec.rb",
       "line": 1,
       "specre_id": "01KHYAR18XSDQE448P8GXMPR05"
+    },
+    {
+      "file": "spec/requests/api/v1/podcasts_episodes_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ7J1AT0XZH85CCGJ8MKN03"
     },
     {
       "file": "spec/requests/api/v1/profile_images_spec.rb",
@@ -2225,6 +2515,26 @@
       "file": "spec/requests/organizations_update_spec.rb",
       "line": 1,
       "specre_id": "01KHYAPESAA0V3WKK075E59EPH"
+    },
+    {
+      "file": "spec/requests/podcasts/podcast_create_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ795DAZ7K0BZGY252PBQ10"
+    },
+    {
+      "file": "spec/requests/podcasts/podcast_episodes_index_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ78Z9A3R2NWZF2B6EZ82AJ"
+    },
+    {
+      "file": "spec/requests/podcasts/podcast_episodes_show_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ78WJ7S3X0KQ8EVH6RD0DE"
+    },
+    {
+      "file": "spec/requests/podcasts/podcast_show_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ795DAZ7K0BZGY252PBQ10"
     },
     {
       "file": "spec/requests/profile_field_groups_request_spec.rb",
@@ -2357,6 +2667,16 @@
       "specre_id": "01KHYAKA53GF8RR3HJRFK3Y0A9"
     },
     {
+      "file": "spec/services/edge_cache/bust_podcast_episode_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ7FNBPTBWCMXWYERHJHSS0"
+    },
+    {
+      "file": "spec/services/edge_cache/bust_podcast_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ7FNBPTBWCMXWYERHJHSS0"
+    },
+    {
       "file": "spec/services/github/oauth_client_spec.rb",
       "line": 1,
       "specre_id": "01KHY930CEJV5QRQEBKVS095AX"
@@ -2395,6 +2715,36 @@
       "file": "spec/services/organizations/delete_spec.rb",
       "line": 1,
       "specre_id": "01KHYAJ5A6WCMJEYQEF12BEETG"
+    },
+    {
+      "file": "spec/services/podcasts/create_episode_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ7C8VY10XGW8GDHDDHSHRQ"
+    },
+    {
+      "file": "spec/services/podcasts/episode_rss_item_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ7C8VY10XGW8GDHDDHSHRQ"
+    },
+    {
+      "file": "spec/services/podcasts/feed_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ7C8VY10XGW8GDHDDHSHRQ"
+    },
+    {
+      "file": "spec/services/podcasts/get_episode_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ7C8VY10XGW8GDHDDHSHRQ"
+    },
+    {
+      "file": "spec/services/podcasts/get_media_url_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ7C8VY10XGW8GDHDDHSHRQ"
+    },
+    {
+      "file": "spec/services/podcasts/update_episode_media_url_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ7C8VY10XGW8GDHDDHSHRQ"
     },
     {
       "file": "spec/services/profile_fields/add_spec.rb",
@@ -2497,6 +2847,11 @@
       "specre_id": "01KHZ55S8Z1A16PNGY9X7PR58P"
     },
     {
+      "file": "spec/services/users/delete_podcasts_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ7FPE352W4ESF9QNYKRE34"
+    },
+    {
       "file": "spec/system/admin/admin_manages_profile_fields_spec.rb",
       "line": 1,
       "specre_id": "01KHZ6D9SWTJKNHPPWX68BHARE"
@@ -2510,6 +2865,21 @@
       "file": "spec/system/organization/user_updates_org_settings_spec.rb",
       "line": 1,
       "specre_id": "01KHZ466X2VM8VAWD6RE82CF9J"
+    },
+    {
+      "file": "spec/system/podcasts/user_visits_podcast_episode_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ78WJ7S3X0KQ8EVH6RD0DE"
+    },
+    {
+      "file": "spec/system/podcasts/user_visits_podcast_page_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ795DAZ7K0BZGY252PBQ10"
+    },
+    {
+      "file": "spec/system/podcasts/user_visits_podcasts_root_page_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ78Z9A3R2NWZF2B6EZ82AJ"
     },
     {
       "file": "spec/system/search/display_articles_search_spec.rb",
@@ -2555,6 +2925,11 @@
       "file": "spec/uploaders/profile_image_uploader_spec.rb",
       "line": 1,
       "specre_id": "01KHZ6GG5GD766PRZK1SE50KMG"
+    },
+    {
+      "file": "spec/views/podcast_episodes/index.html.erb_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ78Z9A3R2NWZF2B6EZ82AJ"
     },
     {
       "file": "spec/views/subforems/edit_spec.rb",
@@ -2610,6 +2985,36 @@
       "file": "spec/workers/organizations/update_organization_articles_paths_worker_spec.rb",
       "line": 1,
       "specre_id": "01KHYAKARS8WVZ96MGFRRX02R5"
+    },
+    {
+      "file": "spec/workers/podcast_episodes/bust_cache_worker_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ7FNBPTBWCMXWYERHJHSS0"
+    },
+    {
+      "file": "spec/workers/podcast_episodes/create_worker_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ7C8VY10XGW8GDHDDHSHRQ"
+    },
+    {
+      "file": "spec/workers/podcast_episodes/update_media_url_worker_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ7C8VY10XGW8GDHDDHSHRQ"
+    },
+    {
+      "file": "spec/workers/podcasts/bust_cache_worker_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ7FNBPTBWCMXWYERHJHSS0"
+    },
+    {
+      "file": "spec/workers/podcasts/enqueue_get_episodes_worker_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ7C8VY10XGW8GDHDDHSHRQ"
+    },
+    {
+      "file": "spec/workers/podcasts/get_episodes_worker_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ7C8VY10XGW8GDHDDHSHRQ"
     },
     {
       "file": "spec/workers/reactions/bust_homepage_cache_worker_spec.rb",
@@ -5695,238 +6100,6 @@
       "last_verified": "2026-02-21",
       "name": "badge_achievements_badge_award_worker_worker",
       "path": "docs/specres/badges/badge_achievements_badge_award_worker_worker.md",
-      "status": "stable"
-    },
-    {
-      "domain": "podcasts",
-      "id": "01KHY7Q0CGZCFZMYJ27ZF7ZCN3",
-      "last_verified": "2026-02-21",
-      "name": "podcast_episode_decorator_decorator",
-      "path": "docs/specres/podcasts/podcast_episode_decorator_decorator.md",
-      "status": "stable"
-    },
-    {
-      "domain": "podcasts",
-      "id": "01KHY7Q0CJ1VRX66PWVQDAXX0T",
-      "last_verified": "2026-02-21",
-      "name": "podcast_tag_liquid",
-      "path": "docs/specres/podcasts/podcast_tag_liquid.md",
-      "status": "stable"
-    },
-    {
-      "domain": "podcasts",
-      "id": "01KHY7Q0CNDR5A72G8AHQSZCY4",
-      "last_verified": "2026-02-21",
-      "name": "podcast_episode_appearance_model",
-      "path": "docs/specres/podcasts/podcast_episode_appearance_model.md",
-      "status": "stable"
-    },
-    {
-      "domain": "podcasts",
-      "id": "01KHY7Q0CRVVVDKPBRPN7SP3G3",
-      "last_verified": "2026-02-21",
-      "name": "podcast_episode_model",
-      "path": "docs/specres/podcasts/podcast_episode_model.md",
-      "status": "stable"
-    },
-    {
-      "domain": "podcasts",
-      "id": "01KHY7Q0CT34GNJCXC9T5PMC3V",
-      "last_verified": "2026-02-21",
-      "name": "podcast_ownership_model",
-      "path": "docs/specres/podcasts/podcast_ownership_model.md",
-      "status": "stable"
-    },
-    {
-      "domain": "podcasts",
-      "id": "01KHY7Q0CX423Z5QQA9WWTRH7H",
-      "last_verified": "2026-02-21",
-      "name": "podcast_model",
-      "path": "docs/specres/podcasts/podcast_model.md",
-      "status": "stable"
-    },
-    {
-      "domain": "podcasts",
-      "id": "01KHY7Q0D0HSQYXEZSTF7MS1D8",
-      "last_verified": "2026-02-21",
-      "name": "api_v0_podcasts_episodes_api",
-      "path": "docs/specres/podcasts/api_v0_podcasts_episodes_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "podcasts",
-      "id": "01KHY7Q0D26MZV7ZJJAEH50NXB",
-      "last_verified": "2026-02-21",
-      "name": "api_v1_podcasts_episodes_api",
-      "path": "docs/specres/podcasts/api_v1_podcasts_episodes_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "podcasts",
-      "id": "01KHY7Q0D5F8MAW2DBGCNMX00R",
-      "last_verified": "2026-02-21",
-      "name": "podcasts_podcast_create_api",
-      "path": "docs/specres/podcasts/podcasts_podcast_create_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "podcasts",
-      "id": "01KHY7Q0D7TVS7TVH2306EEYS3",
-      "last_verified": "2026-02-21",
-      "name": "podcasts_podcast_episodes_index_api",
-      "path": "docs/specres/podcasts/podcasts_podcast_episodes_index_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "podcasts",
-      "id": "01KHY7Q0DA9GMJT47X557AXE40",
-      "last_verified": "2026-02-21",
-      "name": "podcasts_podcast_episodes_show_api",
-      "path": "docs/specres/podcasts/podcasts_podcast_episodes_show_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "podcasts",
-      "id": "01KHY7Q0DD159EVR5JADJ0DRZR",
-      "last_verified": "2026-02-21",
-      "name": "podcasts_podcast_show_api",
-      "path": "docs/specres/podcasts/podcasts_podcast_show_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "podcasts",
-      "id": "01KHY7Q0DFKAP73R9A70PTW07G",
-      "last_verified": "2026-02-21",
-      "name": "search_podcast_episode_serializer_serializer",
-      "path": "docs/specres/podcasts/search_podcast_episode_serializer_serializer.md",
-      "status": "stable"
-    },
-    {
-      "domain": "podcasts",
-      "id": "01KHY7Q0DJ43VT0MW5ZPB2SSAQ",
-      "last_verified": "2026-02-21",
-      "name": "edge_cache_bust_podcast_episode_service",
-      "path": "docs/specres/podcasts/edge_cache_bust_podcast_episode_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "podcasts",
-      "id": "01KHY7Q0DMHD7Z5YZSWQKDQNZK",
-      "last_verified": "2026-02-21",
-      "name": "edge_cache_bust_podcast_service",
-      "path": "docs/specres/podcasts/edge_cache_bust_podcast_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "podcasts",
-      "id": "01KHY7Q0DQERWVZ0925R33BY9H",
-      "last_verified": "2026-02-21",
-      "name": "podcasts_create_episode_service",
-      "path": "docs/specres/podcasts/podcasts_create_episode_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "podcasts",
-      "id": "01KHY7Q0DSFBJAPJ6FEFKQD40T",
-      "last_verified": "2026-02-21",
-      "name": "podcasts_episode_rss_item_service",
-      "path": "docs/specres/podcasts/podcasts_episode_rss_item_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "podcasts",
-      "id": "01KHY7Q0DWZPEYQJC01TVYWXH8",
-      "last_verified": "2026-02-21",
-      "name": "podcasts_feed_service",
-      "path": "docs/specres/podcasts/podcasts_feed_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "podcasts",
-      "id": "01KHY7Q0DZDKRFTN90HCXFHP4G",
-      "last_verified": "2026-02-21",
-      "name": "podcasts_get_episode_service",
-      "path": "docs/specres/podcasts/podcasts_get_episode_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "podcasts",
-      "id": "01KHY7Q0E1VAWYE101FW419A6G",
-      "last_verified": "2026-02-21",
-      "name": "podcasts_get_media_url_service",
-      "path": "docs/specres/podcasts/podcasts_get_media_url_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "podcasts",
-      "id": "01KHY7Q0E4Q9X6GNF3N6DFSGGD",
-      "last_verified": "2026-02-21",
-      "name": "podcasts_update_episode_media_url_service",
-      "path": "docs/specres/podcasts/podcasts_update_episode_media_url_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "podcasts",
-      "id": "01KHY7Q0E7G0WX3R9EZ0NHA45V",
-      "last_verified": "2026-02-21",
-      "name": "search_podcast_episode_service",
-      "path": "docs/specres/podcasts/search_podcast_episode_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "podcasts",
-      "id": "01KHY7Q0EA714TD1GN3RDTF8EH",
-      "last_verified": "2026-02-21",
-      "name": "podcast_episodes_index.html.erb_view",
-      "path": "docs/specres/podcasts/podcast_episodes_index.html.erb_view.md",
-      "status": "stable"
-    },
-    {
-      "domain": "podcasts",
-      "id": "01KHY7Q0EDP5DJNSRDBHJSSYTT",
-      "last_verified": "2026-02-21",
-      "name": "podcast_episodes_bust_cache_worker_worker",
-      "path": "docs/specres/podcasts/podcast_episodes_bust_cache_worker_worker.md",
-      "status": "stable"
-    },
-    {
-      "domain": "podcasts",
-      "id": "01KHY7Q0EFESX0JT6M2W3CNFY9",
-      "last_verified": "2026-02-21",
-      "name": "podcast_episodes_create_worker_worker",
-      "path": "docs/specres/podcasts/podcast_episodes_create_worker_worker.md",
-      "status": "stable"
-    },
-    {
-      "domain": "podcasts",
-      "id": "01KHY7Q0EJQBFH1BQR7ZTZFD22",
-      "last_verified": "2026-02-21",
-      "name": "podcast_episodes_update_media_url_worker_worker",
-      "path": "docs/specres/podcasts/podcast_episodes_update_media_url_worker_worker.md",
-      "status": "stable"
-    },
-    {
-      "domain": "podcasts",
-      "id": "01KHY7Q0EMX31MQJF04AWA1Q2M",
-      "last_verified": "2026-02-21",
-      "name": "podcasts_bust_cache_worker_worker",
-      "path": "docs/specres/podcasts/podcasts_bust_cache_worker_worker.md",
-      "status": "stable"
-    },
-    {
-      "domain": "podcasts",
-      "id": "01KHY7Q0EQ7Z6Z4A21873KWXHP",
-      "last_verified": "2026-02-21",
-      "name": "podcasts_enqueue_get_episodes_worker_worker",
-      "path": "docs/specres/podcasts/podcasts_enqueue_get_episodes_worker_worker.md",
-      "status": "stable"
-    },
-    {
-      "domain": "podcasts",
-      "id": "01KHY7Q0ESHFCHC7NNDYK3V034",
-      "last_verified": "2026-02-21",
-      "name": "podcasts_get_episodes_worker_worker",
-      "path": "docs/specres/podcasts/podcasts_get_episodes_worker_worker.md",
       "status": "stable"
     },
     {
@@ -9528,6 +9701,86 @@
       "name": "system_moderates_profile_content",
       "path": "docs/specres/profiles/system_moderates_profile_content.md",
       "status": "draft"
+    },
+    {
+      "domain": "podcasts",
+      "id": "01KHZ78WJ7S3X0KQ8EVH6RD0DE",
+      "last_verified": "2026-02-21",
+      "name": "user_can_listen_to_podcast_episode",
+      "path": "docs/specres/podcasts/user_can_listen_to_podcast_episode.md",
+      "status": "stable"
+    },
+    {
+      "domain": "podcasts",
+      "id": "01KHZ78Z9A3R2NWZF2B6EZ82AJ",
+      "last_verified": "2026-02-21",
+      "name": "user_can_browse_podcasts_and_episodes",
+      "path": "docs/specres/podcasts/user_can_browse_podcasts_and_episodes.md",
+      "status": "stable"
+    },
+    {
+      "domain": "podcasts",
+      "id": "01KHZ795DAZ7K0BZGY252PBQ10",
+      "last_verified": "2026-02-21",
+      "name": "user_can_suggest_a_podcast",
+      "path": "docs/specres/podcasts/user_can_suggest_a_podcast.md",
+      "status": "stable"
+    },
+    {
+      "domain": "podcasts",
+      "id": "01KHZ7BNHPQDAKZA5SBMDTGM65",
+      "last_verified": "2026-02-21",
+      "name": "admin_can_manage_podcasts",
+      "path": "docs/specres/podcasts/admin_can_manage_podcasts.md",
+      "status": "stable"
+    },
+    {
+      "domain": "podcasts",
+      "id": "01KHZ7C4BEPF5TMJ68BXTZMMVP",
+      "last_verified": "2026-02-21",
+      "name": "author_can_embed_podcast_episode_in_article",
+      "path": "docs/specres/podcasts/author_can_embed_podcast_episode_in_article.md",
+      "status": "stable"
+    },
+    {
+      "domain": "podcasts",
+      "id": "01KHZ7C8VY10XGW8GDHDDHSHRQ",
+      "last_verified": "2026-02-21",
+      "name": "system_syncs_podcast_episodes_from_rss_feeds",
+      "path": "docs/specres/podcasts/system_syncs_podcast_episodes_from_rss_feeds.md",
+      "status": "stable"
+    },
+    {
+      "domain": "podcasts",
+      "id": "01KHZ7FM5XC6DM0PAZZZ948707",
+      "last_verified": null,
+      "name": "user_can_follow_a_podcast",
+      "path": "docs/specres/podcasts/user_can_follow_a_podcast.md",
+      "status": "draft"
+    },
+    {
+      "domain": "podcasts",
+      "id": "01KHZ7FNBPTBWCMXWYERHJHSS0",
+      "last_verified": "2026-02-21",
+      "name": "system_busts_podcast_caches_on_content_change",
+      "path": "docs/specres/podcasts/system_busts_podcast_caches_on_content_change.md",
+      "status": "stable"
+    },
+    {
+      "domain": "podcasts",
+      "id": "01KHZ7FPE352W4ESF9QNYKRE34",
+      "last_verified": "2026-02-21",
+      "name": "system_cleans_up_podcasts_on_user_deletion",
+      "path": "docs/specres/podcasts/system_cleans_up_podcasts_on_user_deletion.md",
+      "status": "stable"
+    },
+    {
+      "domain": "podcasts",
+      "id": "01KHZ7J1AT0XZH85CCGJ8MKN03",
+      "last_verified": "2026-02-21",
+      "name": "system_exposes_podcast_episodes_via_api",
+      "path": "docs/specres/podcasts/system_exposes_podcast_episodes_via_api.md",
+      "status": "stable"
     }
   ],
   "version": 1

@@ -1,3 +1,4 @@
+# @specre 01KHZ7BNHPQDAKZA5SBMDTGM65
 require "rails_helper"
 
 RSpec.describe "/admin/content_manager/podcasts" do
