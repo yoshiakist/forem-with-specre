@@ -4,9 +4,9 @@ description: "Generate specre cards for uncovered source files in a domain"
 
 You are executing the specre-generate workflow. The user has optionally provided a domain or subdirectory as `$ARGUMENTS`.
 
-Your goal: create specre specification cards for source files that currently lack specre coverage, working through them **one card at a time** in a structured sequence.
+Your goal: create specre specification cards for source files that currently lack specre coverage.
 
-**Critical constraint — sequential generation:** Do NOT attempt to draft or hold multiple card contents in your context simultaneously. Each card must be fully created, written to disk, and tagged before you begin analyzing the next behavior. This prevents context-window saturation from degrading the quality of later cards.
+**Model strategy:** The main agent (Opus) handles Phase 0–2 (discovery and behavior classification — creative work requiring judgment) and Phase 4 (validation). Phase 3 (card generation — structured execution) is delegated to Sonnet subagents in parallel batches. This reduces cost and latency while preserving quality where it matters most.
 
 ## Phase 0: Setup
 
@@ -123,50 +123,95 @@ If the catalog passes all checks, proceed directly to Phase 3 without pausing fo
 
 Write the finalized catalog to `<specre_dir>/<domain>/_GENERATION_PLAN.md`. This file serves as a persistent reference during Phase 3 — if context compression causes the catalog to be summarized or lost, re-read this file to recover the full plan. This file is deleted in Phase 4 after all entries are processed.
 
-## Phase 3: Sequential Card Generation
+## Phase 3: Delegated Card Generation
 
-Before starting, create a TodoWrite entry for each catalog item (use the catalog entry name as the task content). Mark each entry as `in_progress` when you begin processing it, and `completed` when the card is fully written, tagged, and status-determined. If context compression occurs, re-read `<specre_dir>/<domain>/_GENERATION_PLAN.md` and the current TodoWrite state to recover your position.
+**Model strategy:** Phase 2 (behavior classification) is where creative judgment matters most — that work stays on the main agent (Opus). Phase 3 is structured execution following the catalog, so each card is delegated to a **Sonnet subagent** via the Task tool (`model: "sonnet"`, `subagent_type: "general-purpose"`). This reduces cost and latency without sacrificing quality.
 
-Process the approved catalog entries **one at a time, in order**. For each entry:
+Before starting, create a TodoWrite entry for each catalog item. If context compression occurs, re-read `<specre_dir>/<domain>/_GENERATION_PLAN.md` and the current TodoWrite state to recover your position.
 
-### Step 3a: Create or Extend
+### Dispatching subagents
 
-**If action is `NEW`:**
+Launch Sonnet subagents in **parallel batches of up to 3** for catalog entries whose source files do not overlap. Wait for all subagents in a batch to complete before launching the next batch. Update TodoWrite entries to `completed` as each subagent finishes.
 
-1. Run `specre new <specre_dir>/<domain> --name "<behavior_name>"` to scaffold the card.
-2. Fill in the card content following these authoring rules:
-   - **Related Files**: The source files listed in the catalog entry, plus any tightly coupled files identified in Phase 2 — including test/spec files and template/view files. Use project-root-relative paths. Suffix test files with `(Test)`. Suffix template/view files with `(Template)`.
-   - **Functional Overview**: A one-paragraph summary of the behavior, derived from the source code.
-   - **Scenarios**: Step-by-step behavior descriptions in **natural language**. Do NOT copy-paste code into scenarios. Exception: use exact names for signals/events, class/type names, enum values, and API endpoints. Aim for 2–5 scenarios per card — fewer suggests the card is a fragment of a larger behavior, more suggests it conflates multiple behaviors.
-   - **Design Intent**: Include if the reasoning is apparent from the code. Omit if unclear — do not fabricate rationale.
-   - **Key Members**: Include if there are important state variables or parameters. Omit otherwise.
-   - **Failures / Exceptions**: Include if the code has explicit error handling paths. Omit otherwise.
-3. Run `specre tag <ULID> <file>` for **every file listed in Related Files** — source files, test/spec files, and template files alike — **except `.jbuilder` files**. The `specre tag` command does not support the `.jbuilder` extension. `.jbuilder` files should still be included in the Related Files section for documentation purposes, but must be skipped during tagging.
+For each catalog entry, construct a subagent prompt using the template below. Fill in all `<placeholders>` with concrete values from the catalog and Phase 1/2 context.
 
-**If action is `EXTEND`:**
+### Subagent prompt template
 
-1. Add the source file path (and any associated test/template files) to the existing specre card's "Related Files" section.
-2. Run `specre tag <existing_ULID> <file>` for each file added to Related Files — source, test, and template files alike — **except `.jbuilder` files** (same rule as above).
-3. Mark this TodoWrite entry as `completed` and move to the next catalog entry. **Skip Steps 3b and 3c for EXTEND actions.**
+````
+You are generating a specre specification card. Follow these instructions exactly.
 
-### Step 3b: Test Discovery and Status Determination (NEW actions only)
+**First**, read the specre-author skill at `.claude/skills/specre-author/SKILL.md` and follow all naming conventions, section structure, and writing guidelines defined there.
 
-1. Search for test files corresponding to the source files in this entry, using the test convention identified in Phase 1 step 3. Apply the recorded glob pattern within the target domain's test directory.
-2. **If matching tests exist:**
-   - Add the test file paths to the card's "Related Files" section with a `(Test)` suffix.
-   - Run `specre tag <ULID> <test_file>` for each discovered test file (if not already tagged in Step 3a).
-   - Compare the test assertions against the card's scenarios.
-     - **If they align**: Set `status` to `stable` and `last_verified` to today's date. Mark this card internally as **auto-stabilized** for the review prompt in Phase 4.
-     - **If they diverge**: Keep `status` as `draft`.
-3. **If no matching tests exist:**
-   - Keep `status` as `draft`.
-   - Do NOT create test files. This workflow only generates specre cards.
+## Card details
 
-### Step 3c: Size Check
+- **Behavior name:** <behavior_name>
+- **Action:** <NEW or EXTEND>
+- **Existing ULID (EXTEND only):** <ULID_if_extending, or omit this line>
+- **Source files:** <comma-separated list of source file paths>
+- **Test files:** <comma-separated list of test file paths, or "none">
+- **Template files:** <comma-separated list of template file paths, or "none">
+- **specre_dir:** <specre_dir from specre.toml>
+- **Domain:** <target domain>
+- **Test convention pattern:** <glob pattern identified in Phase 1, e.g. "spec/models/*_spec.rb">
+- **Today's date:** <YYYY-MM-DD>
 
-After writing the card, check its length. If the card body (excluding front-matter) exceeds roughly 120 lines, it likely covers more than one behavior. Split it into separate cards and re-run Steps 3a–3b for each.
+## Instructions for NEW action
 
-**Confirm completion of this entry before moving to the next one.**
+1. Read ALL source files listed above to understand the behavior.
+2. Run `specre new` (MCP tool: mcp__specre__new) with target_dir=`<specre_dir>/<domain>` and name=`<behavior_name>`. Record the ULID from the created file's front-matter.
+3. Fill in the card content:
+   - **Related Files**: All source, test (`(Test)` suffix), and template (`(Template)` suffix) files. Use project-root-relative paths.
+   - **Functional Overview**: One-paragraph summary derived from source code.
+   - **Scenarios**: 2–5 step-by-step descriptions in natural language. Do NOT copy-paste code. Exception: use exact names for signals/events, class/type names, enum values, and API endpoints.
+   - **Design Intent**: Include only if reasoning is apparent from code. Omit if unclear.
+   - **Key Members**: Include only if there are important state variables or parameters.
+   - **Failures / Exceptions**: Include only if code has explicit error handling.
+4. Run `specre tag` (MCP tool: mcp__specre__tag) with the ULID and file path for **every file in Related Files EXCEPT `.jbuilder` files**. `.jbuilder` files must appear in Related Files for documentation but cannot be tagged.
+5. **Test discovery and status determination:**
+   - Search for test files matching the test convention pattern for the source files in this entry.
+   - If matching tests exist: read them, add to Related Files with `(Test)` suffix, tag them, and compare assertions against the card's scenarios.
+     - If they align: set `status` to `stable` and `last_verified` to today's date.
+     - If they diverge: keep `status` as `draft`.
+   - If no tests exist: keep `status` as `draft`. Do NOT create test files.
+6. **Size check:** If the card body (excluding front-matter) exceeds ~120 lines, it likely covers more than one behavior. Report this issue in your result.
+7. **Report your result** at the end of your response in this exact format:
+   ```
+   RESULT:
+   action: NEW
+   card_path: <path to created .md file>
+   ulid: <ULID>
+   status: <draft or stable>
+   auto_stabilized: <true or false>
+   files_tagged: <number>
+   issue: <none, or description of problem>
+   ```
+
+## Instructions for EXTEND action
+
+1. Use `specre trace` (MCP tool: mcp__specre__trace) with the existing ULID to locate the card file.
+2. Read the existing card and add source/test/template file paths to the "Related Files" section.
+3. Run `specre tag` (MCP tool: mcp__specre__tag) for each newly added file EXCEPT `.jbuilder` files.
+4. **Report your result:**
+   ```
+   RESULT:
+   action: EXTEND
+   card_path: <path to existing .md file>
+   ulid: <existing ULID>
+   files_tagged: <number>
+   issue: <none, or description of problem>
+   ```
+````
+
+### Collecting results
+
+After each batch of subagents completes:
+
+1. Parse the `RESULT:` block from each subagent's response.
+2. Mark the corresponding TodoWrite entries as `completed`.
+3. If any subagent reported an issue:
+   - **Oversized card (>120 lines):** Split the behavior into separate catalog entries and dispatch new subagents.
+   - **Other issues:** Resolve directly or re-dispatch the subagent with corrected parameters.
+4. Launch the next batch.
 
 ## Phase 4: Validation and Review
 
@@ -201,6 +246,7 @@ Cards remaining as draft:
 ## Rules
 
 - **Autonomous within phases.** Do not pause for user input between individual card generations in Phase 3. The user approval point is the behavior catalog in Phase 2.
+- **Delegate Phase 3 to Sonnet.** Always use `model: "sonnet"` and `subagent_type: "general-purpose"` for Phase 3 subagents. The main agent (Opus) handles Phase 0–2 (design) and Phase 4 (validation). Phase 3 (execution) is delegated to Sonnet subagents in parallel batches.
 - **Follow the specre-author skill.** Load and follow the specre-author skill for all naming conventions, section structure, and writing guidelines. This is the authoritative source for card format — do not deviate from it.
 - **Name by observable behavior, not by code artifact.** The subject of every card name must be a human actor (`user`, `admin`, `author`) or `system` (for batch jobs, scheduled tasks, pub/sub, webhooks), never a class name, layer name, or technical component. See the specre-author skill's Naming Conventions section.
 - **One behavior = one card across all layers.** A user-facing behavior that spans model, controller, frontend, worker, and view is **one** specre card with multiple Related Files — not separate cards per layer. Infrastructure-only code (API clients, error hierarchies, base classes) should be folded into the behavior card(s) that consume it.
