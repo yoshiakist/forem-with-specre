@@ -1,3 +1,4 @@
+# @specre 01KHZMA857XQ0MP5F9S9D2ZYCX
 class PollVote < ApplicationRecord
   belongs_to :user
   belongs_to :poll_option

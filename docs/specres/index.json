@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-21T07:17:57Z",
+  "generated_at": "2026-02-21T08:21:24Z",
   "source_refs": [
     {
       "file": "app/assets/javascripts/subforemSelectionModal.js",
@@ -10,6 +10,16 @@
       "file": "app/assets/stylesheets/ltags/PodcastTag.scss",
       "line": 1,
       "specre_id": "01KHZ7C4BEPF5TMJ68BXTZMMVP"
+    },
+    {
+      "file": "app/assets/stylesheets/ltags/PollTag.scss",
+      "line": 1,
+      "specre_id": "01KHY7Q18QQ15B7XBT5YDRTEQ6"
+    },
+    {
+      "file": "app/assets/stylesheets/ltags/SurveyTag.scss",
+      "line": 1,
+      "specre_id": "01KHY7Q19K3T435K5XD2YF421F"
     },
     {
       "file": "app/assets/stylesheets/podcast-episodes-show.scss",
@@ -134,17 +144,27 @@
     {
       "file": "app/controllers/admin/surveys_controller.rb",
       "line": 1,
+      "specre_id": "01KHZMJ8FDAFEW4W3NYSVRQ3CQ"
+    },
+    {
+      "file": "app/controllers/admin/surveys_controller.rb",
+      "line": 2,
+      "specre_id": "01KHZMJ17G1A41XF5RZPAVH91P"
+    },
+    {
+      "file": "app/controllers/admin/surveys_controller.rb",
+      "line": 3,
+      "specre_id": "01KHZME2KMA2REG6V4QSGBK5XQ"
+    },
+    {
+      "file": "app/controllers/admin/surveys_controller.rb",
+      "line": 4,
+      "specre_id": "01KHZM8WACKF3RJZT65WP2P2E9"
+    },
+    {
+      "file": "app/controllers/admin/surveys_controller.rb",
+      "line": 5,
       "specre_id": "01KHY7Q13FW678WREK162FKQ28"
-    },
-    {
-      "file": "app/controllers/admin/tags/moderators_controller.rb",
-      "line": 1,
-      "specre_id": "01KHYCGB56TKXQNTVJHKN58M32"
-    },
-    {
-      "file": "app/controllers/admin/tags_controller.rb",
-      "line": 1,
-      "specre_id": "01KHYCF2QMAT9AJYWS2C4TWBPE"
     },
     {
       "file": "app/controllers/api/v0/organizations_controller.rb",
@@ -170,11 +190,6 @@
       "file": "app/controllers/api/v0/subforems_controller.rb",
       "line": 1,
       "specre_id": "01KHYYJCP2TRNXM24G12C072KD"
-    },
-    {
-      "file": "app/controllers/api/v0/tags_controller.rb",
-      "line": 1,
-      "specre_id": "01KHYCJNHZ6V29EK1MP1PGSCT6"
     },
     {
       "file": "app/controllers/api/v1/organizations_controller.rb",
@@ -212,11 +227,6 @@
       "specre_id": "01KHYYJCP2TRNXM24G12C072KD"
     },
     {
-      "file": "app/controllers/api/v1/tags_controller.rb",
-      "line": 1,
-      "specre_id": "01KHYCJNHZ6V29EK1MP1PGSCT6"
-    },
-    {
       "file": "app/controllers/concerns/api/organizations_controller.rb",
       "line": 1,
       "specre_id": "01KHZGVB146XQBKF66V2THG07T"
@@ -240,11 +250,6 @@
       "file": "app/controllers/concerns/api/subforems_controller.rb",
       "line": 1,
       "specre_id": "01KHYYJCP2TRNXM24G12C072KD"
-    },
-    {
-      "file": "app/controllers/concerns/api/tags_controller.rb",
-      "line": 1,
-      "specre_id": "01KHYCJNHZ6V29EK1MP1PGSCT6"
     },
     {
       "file": "app/controllers/dashboards_controller.rb",
@@ -280,6 +285,21 @@
       "file": "app/controllers/podcasts_controller.rb",
       "line": 1,
       "specre_id": "01KHZ795DAZ7K0BZGY252PBQ10"
+    },
+    {
+      "file": "app/controllers/poll_skips_controller.rb",
+      "line": 1,
+      "specre_id": "01KHZMED56WYNARJ0KFNWFZHZX"
+    },
+    {
+      "file": "app/controllers/poll_text_responses_controller.rb",
+      "line": 1,
+      "specre_id": "01KHZMEWNFHQAJSG7XYVQXEDTE"
+    },
+    {
+      "file": "app/controllers/poll_votes_controller.rb",
+      "line": 1,
+      "specre_id": "01KHZMA857XQ0MP5F9S9D2ZYCX"
     },
     {
       "file": "app/controllers/profile_field_groups_controller.rb",
@@ -354,12 +374,12 @@
     {
       "file": "app/controllers/surveys_controller.rb",
       "line": 1,
-      "specre_id": "01KHYDKBE1NWA0CH3ZQ7XR3RKG"
+      "specre_id": "01KHZKDENF1FEDNJQD6XXKWAKZ"
     },
     {
-      "file": "app/controllers/tags_controller.rb",
-      "line": 1,
-      "specre_id": "01KHYCHBSG5WKRXGVJ81HAFC7F"
+      "file": "app/controllers/surveys_controller.rb",
+      "line": 2,
+      "specre_id": "01KHZKCR70BAFQ159BEQFXBJQW"
     },
     {
       "file": "app/controllers/users/notification_settings_controller.rb",
@@ -464,6 +484,16 @@
     {
       "file": "app/javascript/admin/controllers/admin_surveys_controller.js",
       "line": 1,
+      "specre_id": "01KHZME2KMA2REG6V4QSGBK5XQ"
+    },
+    {
+      "file": "app/javascript/admin/controllers/admin_surveys_controller.js",
+      "line": 2,
+      "specre_id": "01KHZM8WACKF3RJZT65WP2P2E9"
+    },
+    {
+      "file": "app/javascript/admin/controllers/admin_surveys_controller.js",
+      "line": 3,
       "specre_id": "01KHY7Q13FW678WREK162FKQ28"
     },
     {
@@ -485,11 +515,6 @@
       "file": "app/javascript/articles/components/__tests__/ReactionsCount.test.jsx",
       "line": 1,
       "specre_id": "01KHZ55SRCPDHPWM0EYSTE60MK"
-    },
-    {
-      "file": "app/javascript/billboard/tags.jsx",
-      "line": 1,
-      "specre_id": "01KHYCRNMG4MM7NP4BV78E5WQ2"
     },
     {
       "file": "app/javascript/controllers/subforem_image_upload_controller.js",
@@ -515,11 +540,6 @@
       "file": "app/javascript/githubRepos/singleRepo.jsx",
       "line": 1,
       "specre_id": "01KHY99D5ZW1JPV9A0GAQGK90W"
-    },
-    {
-      "file": "app/javascript/listings/dashboard/rowElements/tags.jsx",
-      "line": 1,
-      "specre_id": "01KHYCSHNS0S69CWGV0Q67HZVW"
     },
     {
       "file": "app/javascript/onboarding/components/FollowSubforems.jsx",
@@ -722,11 +742,6 @@
       "specre_id": "01KHZ466X2VM8VAWD6RE82CF9J"
     },
     {
-      "file": "app/javascript/tags/TagButtonContainer.jsx",
-      "line": 1,
-      "specre_id": "01KHYCQP8ZV9CETSKG0HMGF2XP"
-    },
-    {
       "file": "app/javascript/utilities/__tests__/search.test.js",
       "line": 1,
       "specre_id": "01KHZ22E63WBQWYFZNQVEA2EEE"
@@ -782,11 +797,6 @@
       "specre_id": "01KHZ42W1F9TF90P5F8MH2WYKZ"
     },
     {
-      "file": "app/lib/constants/tags.rb",
-      "line": 1,
-      "specre_id": "01KHYCB979HE8GAWAK6V94BANV"
-    },
-    {
       "file": "app/lib/middlewares/set_subforem.rb",
       "line": 1,
       "specre_id": "01KHYYE333JHM6PGK7AZYCHD0X"
@@ -805,6 +815,11 @@
       "file": "app/liquid_tags/podcast_tag.rb",
       "line": 1,
       "specre_id": "01KHZ7C4BEPF5TMJ68BXTZMMVP"
+    },
+    {
+      "file": "app/liquid_tags/poll_tag.rb",
+      "line": 1,
+      "specre_id": "01KHY7Q18QQ15B7XBT5YDRTEQ6"
     },
     {
       "file": "app/liquid_tags/survey_tag.rb",
@@ -860,11 +875,6 @@
       "file": "app/models/concerns/algolia_searchable/searchable_user.rb",
       "line": 1,
       "specre_id": "01KHZ2B1BF232HFDSKGKHDSF6F"
-    },
-    {
-      "file": "app/models/concerns/taggable.rb",
-      "line": 1,
-      "specre_id": "01KHYCB979HE8GAWAK6V94BANV"
     },
     {
       "file": "app/models/github_issue.rb",
@@ -925,6 +935,31 @@
       "file": "app/models/podcast_ownership.rb",
       "line": 1,
       "specre_id": "01KHZ795DAZ7K0BZGY252PBQ10"
+    },
+    {
+      "file": "app/models/poll.rb",
+      "line": 1,
+      "specre_id": "01KHZMA857XQ0MP5F9S9D2ZYCX"
+    },
+    {
+      "file": "app/models/poll_option.rb",
+      "line": 1,
+      "specre_id": "01KHZMA857XQ0MP5F9S9D2ZYCX"
+    },
+    {
+      "file": "app/models/poll_skip.rb",
+      "line": 1,
+      "specre_id": "01KHZMED56WYNARJ0KFNWFZHZX"
+    },
+    {
+      "file": "app/models/poll_text_response.rb",
+      "line": 1,
+      "specre_id": "01KHZMEWNFHQAJSG7XYVQXEDTE"
+    },
+    {
+      "file": "app/models/poll_vote.rb",
+      "line": 1,
+      "specre_id": "01KHZMA857XQ0MP5F9S9D2ZYCX"
     },
     {
       "file": "app/models/privileged_reaction.rb",
@@ -1019,27 +1054,17 @@
     {
       "file": "app/models/survey.rb",
       "line": 1,
-      "specre_id": "01KHYDGFH91Y4CKRSK7XB9CAY2"
+      "specre_id": "01KHZKDENF1FEDNJQD6XXKWAKZ"
+    },
+    {
+      "file": "app/models/survey.rb",
+      "line": 2,
+      "specre_id": "01KHZKCR70BAFQ159BEQFXBJQW"
     },
     {
       "file": "app/models/survey_completion.rb",
       "line": 1,
-      "specre_id": "01KHYDHRP7XCMAJFEZ27YPZK5Y"
-    },
-    {
-      "file": "app/models/tag.rb",
-      "line": 1,
-      "specre_id": "01KHYCB979HE8GAWAK6V94BANV"
-    },
-    {
-      "file": "app/models/tag_adjustment.rb",
-      "line": 1,
-      "specre_id": "01KHYCCYF91FZD91NRC64NCGPA"
-    },
-    {
-      "file": "app/models/tag_subforem_relationship.rb",
-      "line": 1,
-      "specre_id": "01KHYCE88A8Z44K257V7Q16KPK"
+      "specre_id": "01KHZKDENF1FEDNJQD6XXKWAKZ"
     },
     {
       "file": "app/policies/github_repo_policy.rb",
@@ -1060,11 +1085,6 @@
       "file": "app/queries/organizations/suggest_prominent.rb",
       "line": 1,
       "specre_id": "01KHYAH6H7WPMS2EW9Y1XK6QYJ"
-    },
-    {
-      "file": "app/queries/tags/suggested_for_onboarding.rb",
-      "line": 1,
-      "specre_id": "01KHYCPT4S16SQD5XX64HWHEJ2"
     },
     {
       "file": "app/serializers/search/comment_serializer.rb",
@@ -1324,7 +1344,7 @@
     {
       "file": "app/services/survey_completion_service.rb",
       "line": 1,
-      "specre_id": "01KHYDHRP7XCMAJFEZ27YPZK5Y"
+      "specre_id": "01KHZKDENF1FEDNJQD6XXKWAKZ"
     },
     {
       "file": "app/services/users/confirm_flag_reactions.rb",
@@ -1614,52 +1634,72 @@
     {
       "file": "app/views/admin/surveys/_form.html.erb",
       "line": 1,
+      "specre_id": "01KHZME2KMA2REG6V4QSGBK5XQ"
+    },
+    {
+      "file": "app/views/admin/surveys/_form.html.erb",
+      "line": 2,
+      "specre_id": "01KHZM8WACKF3RJZT65WP2P2E9"
+    },
+    {
+      "file": "app/views/admin/surveys/_form.html.erb",
+      "line": 3,
       "specre_id": "01KHY7Q13FW678WREK162FKQ28"
     },
     {
       "file": "app/views/admin/surveys/_poll_fields.html.erb",
       "line": 1,
+      "specre_id": "01KHZME2KMA2REG6V4QSGBK5XQ"
+    },
+    {
+      "file": "app/views/admin/surveys/_poll_fields.html.erb",
+      "line": 2,
+      "specre_id": "01KHZM8WACKF3RJZT65WP2P2E9"
+    },
+    {
+      "file": "app/views/admin/surveys/_poll_fields.html.erb",
+      "line": 3,
       "specre_id": "01KHY7Q13FW678WREK162FKQ28"
     },
     {
       "file": "app/views/admin/surveys/edit.html.erb",
       "line": 1,
+      "specre_id": "01KHZME2KMA2REG6V4QSGBK5XQ"
+    },
+    {
+      "file": "app/views/admin/surveys/edit.html.erb",
+      "line": 2,
       "specre_id": "01KHY7Q13FW678WREK162FKQ28"
     },
     {
       "file": "app/views/admin/surveys/index.html.erb",
       "line": 1,
+      "specre_id": "01KHZMJ8FDAFEW4W3NYSVRQ3CQ"
+    },
+    {
+      "file": "app/views/admin/surveys/index.html.erb",
+      "line": 2,
       "specre_id": "01KHY7Q13FW678WREK162FKQ28"
     },
     {
       "file": "app/views/admin/surveys/new.html.erb",
       "line": 1,
+      "specre_id": "01KHZM8WACKF3RJZT65WP2P2E9"
+    },
+    {
+      "file": "app/views/admin/surveys/new.html.erb",
+      "line": 2,
       "specre_id": "01KHY7Q13FW678WREK162FKQ28"
     },
     {
       "file": "app/views/admin/surveys/show.html.erb",
       "line": 1,
+      "specre_id": "01KHZMJ8FDAFEW4W3NYSVRQ3CQ"
+    },
+    {
+      "file": "app/views/admin/surveys/show.html.erb",
+      "line": 2,
       "specre_id": "01KHY7Q13FW678WREK162FKQ28"
-    },
-    {
-      "file": "app/views/admin/tags/_form.html.erb",
-      "line": 1,
-      "specre_id": "01KHYCF2QMAT9AJYWS2C4TWBPE"
-    },
-    {
-      "file": "app/views/admin/tags/edit.html.erb",
-      "line": 1,
-      "specre_id": "01KHYCF2QMAT9AJYWS2C4TWBPE"
-    },
-    {
-      "file": "app/views/admin/tags/index.html.erb",
-      "line": 1,
-      "specre_id": "01KHYCF2QMAT9AJYWS2C4TWBPE"
-    },
-    {
-      "file": "app/views/admin/tags/new.html.erb",
-      "line": 1,
-      "specre_id": "01KHYCF2QMAT9AJYWS2C4TWBPE"
     },
     {
       "file": "app/views/admin/users/index/_organizations.html.erb",
@@ -1745,6 +1785,11 @@
       "file": "app/views/dashboards/following_podcasts.html.erb",
       "line": 1,
       "specre_id": "01KHZ7FM5XC6DM0PAZZZ948707"
+    },
+    {
+      "file": "app/views/liquids/_poll.html.erb",
+      "line": 1,
+      "specre_id": "01KHY7Q18QQ15B7XBT5YDRTEQ6"
     },
     {
       "file": "app/views/liquids/_survey.html.erb",
@@ -2409,22 +2454,7 @@
     {
       "file": "app/views/surveys/show.html.erb",
       "line": 1,
-      "specre_id": "01KHYDKBE1NWA0CH3ZQ7XR3RKG"
-    },
-    {
-      "file": "app/views/tags/_liquid.html.erb",
-      "line": 1,
-      "specre_id": "01KHYCHBSG5WKRXGVJ81HAFC7F"
-    },
-    {
-      "file": "app/views/tags/edit.html.erb",
-      "line": 1,
-      "specre_id": "01KHYCHBSG5WKRXGVJ81HAFC7F"
-    },
-    {
-      "file": "app/views/tags/index.html.erb",
-      "line": 1,
-      "specre_id": "01KHYCHBSG5WKRXGVJ81HAFC7F"
+      "specre_id": "01KHZKCR70BAFQ159BEQFXBJQW"
     },
     {
       "file": "app/views/users/_account_providers_settings.html.erb",
@@ -2562,21 +2592,6 @@
       "specre_id": "01KHYYH62ZG383CA1EG815V11C"
     },
     {
-      "file": "app/workers/tags/alias_retag_worker.rb",
-      "line": 1,
-      "specre_id": "01KHYCM33CMWM4X1249Z9032CQ"
-    },
-    {
-      "file": "app/workers/tags/bust_cache_worker.rb",
-      "line": 1,
-      "specre_id": "01KHYCN1D8NN3GXYBG17C9P3XV"
-    },
-    {
-      "file": "app/workers/tags/resave_supported_tags_worker.rb",
-      "line": 1,
-      "specre_id": "01KHYCNWVANY5FB7JV8D1ZG2ZZ"
-    },
-    {
       "file": "app/workers/users/bust_profile_details_cache_worker.rb",
       "line": 1,
       "specre_id": "01KHZ6KMGFYFBB8TCE6Q554D1Z"
@@ -2609,7 +2624,12 @@
     {
       "file": "spec/controllers/surveys_controller_spec.rb",
       "line": 1,
-      "specre_id": "01KHYDKBE1NWA0CH3ZQ7XR3RKG"
+      "specre_id": "01KHZKDENF1FEDNJQD6XXKWAKZ"
+    },
+    {
+      "file": "spec/controllers/surveys_controller_spec.rb",
+      "line": 2,
+      "specre_id": "01KHZKCR70BAFQ159BEQFXBJQW"
     },
     {
       "file": "spec/decorators/organization_decorator_spec.rb",
@@ -2625,6 +2645,31 @@
       "file": "spec/factories/pages.rb",
       "line": 1,
       "specre_id": "01KHZFCE4EMXDS8J8BCARX9EQW"
+    },
+    {
+      "file": "spec/factories/poll_options.rb",
+      "line": 1,
+      "specre_id": "01KHZMA857XQ0MP5F9S9D2ZYCX"
+    },
+    {
+      "file": "spec/factories/poll_skips.rb",
+      "line": 1,
+      "specre_id": "01KHZMED56WYNARJ0KFNWFZHZX"
+    },
+    {
+      "file": "spec/factories/poll_text_responses.rb",
+      "line": 1,
+      "specre_id": "01KHZMEWNFHQAJSG7XYVQXEDTE"
+    },
+    {
+      "file": "spec/factories/poll_votes.rb",
+      "line": 1,
+      "specre_id": "01KHZMA857XQ0MP5F9S9D2ZYCX"
+    },
+    {
+      "file": "spec/factories/polls.rb",
+      "line": 1,
+      "specre_id": "01KHZMA857XQ0MP5F9S9D2ZYCX"
     },
     {
       "file": "spec/factories/reactions.rb",
@@ -2644,12 +2689,17 @@
     {
       "file": "spec/factories/survey_completions.rb",
       "line": 1,
-      "specre_id": "01KHYDHRP7XCMAJFEZ27YPZK5Y"
+      "specre_id": "01KHZKDENF1FEDNJQD6XXKWAKZ"
     },
     {
       "file": "spec/factories/surveys.rb",
       "line": 1,
-      "specre_id": "01KHYDGFH91Y4CKRSK7XB9CAY2"
+      "specre_id": "01KHZKDENF1FEDNJQD6XXKWAKZ"
+    },
+    {
+      "file": "spec/factories/surveys.rb",
+      "line": 2,
+      "specre_id": "01KHZKCR70BAFQ159BEQFXBJQW"
     },
     {
       "file": "spec/factories/tag_subforem_relationships.rb",
@@ -2717,6 +2767,11 @@
       "specre_id": "01KHZ7C4BEPF5TMJ68BXTZMMVP"
     },
     {
+      "file": "spec/liquid_tags/poll_tag_spec.rb",
+      "line": 1,
+      "specre_id": "01KHY7Q18QQ15B7XBT5YDRTEQ6"
+    },
+    {
       "file": "spec/liquid_tags/survey_tag_spec.rb",
       "line": 1,
       "specre_id": "01KHY7Q19K3T435K5XD2YF421F"
@@ -2780,6 +2835,31 @@
       "file": "spec/models/podcast_spec.rb",
       "line": 1,
       "specre_id": "01KHZ795DAZ7K0BZGY252PBQ10"
+    },
+    {
+      "file": "spec/models/poll_option_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZMA857XQ0MP5F9S9D2ZYCX"
+    },
+    {
+      "file": "spec/models/poll_skip_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZMED56WYNARJ0KFNWFZHZX"
+    },
+    {
+      "file": "spec/models/poll_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZMA857XQ0MP5F9S9D2ZYCX"
+    },
+    {
+      "file": "spec/models/poll_text_response_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZMEWNFHQAJSG7XYVQXEDTE"
+    },
+    {
+      "file": "spec/models/poll_vote_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZMA857XQ0MP5F9S9D2ZYCX"
     },
     {
       "file": "spec/models/profile_field_group_spec.rb",
@@ -2864,27 +2944,12 @@
     {
       "file": "spec/models/survey_completion_spec.rb",
       "line": 1,
-      "specre_id": "01KHYDHRP7XCMAJFEZ27YPZK5Y"
+      "specre_id": "01KHZKDENF1FEDNJQD6XXKWAKZ"
     },
     {
       "file": "spec/models/survey_spec.rb",
       "line": 1,
-      "specre_id": "01KHYDGFH91Y4CKRSK7XB9CAY2"
-    },
-    {
-      "file": "spec/models/tag_adjustment_spec.rb",
-      "line": 1,
-      "specre_id": "01KHYCCYF91FZD91NRC64NCGPA"
-    },
-    {
-      "file": "spec/models/tag_spec.rb",
-      "line": 1,
-      "specre_id": "01KHYCB979HE8GAWAK6V94BANV"
-    },
-    {
-      "file": "spec/models/tag_subforem_relationship_spec.rb",
-      "line": 1,
-      "specre_id": "01KHYCE88A8Z44K257V7Q16KPK"
+      "specre_id": "01KHZKDENF1FEDNJQD6XXKWAKZ"
     },
     {
       "file": "spec/policies/github_repo_policy_spec.rb",
@@ -2905,11 +2970,6 @@
       "file": "spec/queries/organizations/suggest_prominent_spec.rb",
       "line": 1,
       "specre_id": "01KHYAH6H7WPMS2EW9Y1XK6QYJ"
-    },
-    {
-      "file": "spec/queries/tags/suggested_for_onboarding_spec.rb",
-      "line": 1,
-      "specre_id": "01KHYCPT4S16SQD5XX64HWHEJ2"
     },
     {
       "file": "spec/requests/admin/creator_settings_spec.rb",
@@ -2984,17 +3044,27 @@
     {
       "file": "spec/requests/admin/surveys_spec.rb",
       "line": 1,
+      "specre_id": "01KHZMJ8FDAFEW4W3NYSVRQ3CQ"
+    },
+    {
+      "file": "spec/requests/admin/surveys_spec.rb",
+      "line": 2,
+      "specre_id": "01KHZMJ17G1A41XF5RZPAVH91P"
+    },
+    {
+      "file": "spec/requests/admin/surveys_spec.rb",
+      "line": 3,
+      "specre_id": "01KHZME2KMA2REG6V4QSGBK5XQ"
+    },
+    {
+      "file": "spec/requests/admin/surveys_spec.rb",
+      "line": 4,
+      "specre_id": "01KHZM8WACKF3RJZT65WP2P2E9"
+    },
+    {
+      "file": "spec/requests/admin/surveys_spec.rb",
+      "line": 5,
       "specre_id": "01KHY7Q13FW678WREK162FKQ28"
-    },
-    {
-      "file": "spec/requests/admin/tags/moderators_spec.rb",
-      "line": 1,
-      "specre_id": "01KHYCGB56TKXQNTVJHKN58M32"
-    },
-    {
-      "file": "spec/requests/admin/tags_spec.rb",
-      "line": 1,
-      "specre_id": "01KHYCF2QMAT9AJYWS2C4TWBPE"
     },
     {
       "file": "spec/requests/api/v0/organizations_spec.rb",
@@ -3020,11 +3090,6 @@
       "file": "spec/requests/api/v0/subforems_spec.rb",
       "line": 1,
       "specre_id": "01KHYYJCP2TRNXM24G12C072KD"
-    },
-    {
-      "file": "spec/requests/api/v0/tags_spec.rb",
-      "line": 1,
-      "specre_id": "01KHYCJNHZ6V29EK1MP1PGSCT6"
     },
     {
       "file": "spec/requests/api/v1/docs/organizations_spec.rb",
@@ -3087,11 +3152,6 @@
       "specre_id": "01KHYYJCP2TRNXM24G12C072KD"
     },
     {
-      "file": "spec/requests/api/v1/tags_spec.rb",
-      "line": 1,
-      "specre_id": "01KHYCJNHZ6V29EK1MP1PGSCT6"
-    },
-    {
       "file": "spec/requests/github_repos_spec.rb",
       "line": 1,
       "specre_id": "01KHY94DZ9B1PRJBC818Q9SKXB"
@@ -3140,6 +3200,31 @@
       "file": "spec/requests/podcasts/podcast_show_spec.rb",
       "line": 1,
       "specre_id": "01KHZ795DAZ7K0BZGY252PBQ10"
+    },
+    {
+      "file": "spec/requests/poll_skips_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZMED56WYNARJ0KFNWFZHZX"
+    },
+    {
+      "file": "spec/requests/poll_text_responses_controller_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZMEWNFHQAJSG7XYVQXEDTE"
+    },
+    {
+      "file": "spec/requests/poll_text_responses_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZMEWNFHQAJSG7XYVQXEDTE"
+    },
+    {
+      "file": "spec/requests/poll_votes_controller_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZMA857XQ0MP5F9S9D2ZYCX"
+    },
+    {
+      "file": "spec/requests/poll_votes_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZMA857XQ0MP5F9S9D2ZYCX"
     },
     {
       "file": "spec/requests/profile_field_groups_request_spec.rb",
@@ -3194,17 +3279,12 @@
     {
       "file": "spec/requests/surveys_controller_spec.rb",
       "line": 1,
-      "specre_id": "01KHYDKBE1NWA0CH3ZQ7XR3RKG"
+      "specre_id": "01KHZKDENF1FEDNJQD6XXKWAKZ"
     },
     {
       "file": "spec/requests/surveys_spec.rb",
       "line": 1,
-      "specre_id": "01KHYDKBE1NWA0CH3ZQ7XR3RKG"
-    },
-    {
-      "file": "spec/requests/tags_spec.rb",
-      "line": 1,
-      "specre_id": "01KHYCHBSG5WKRXGVJ81HAFC7F"
+      "specre_id": "01KHZKCR70BAFQ159BEQFXBJQW"
     },
     {
       "file": "spec/requests/user/user_notification_settings_spec.rb",
@@ -3522,11 +3602,6 @@
       "specre_id": "01KHZ25T4PNZ33CT917WZ25JYT"
     },
     {
-      "file": "spec/system/tags/user_updates_a_tag_spec.rb",
-      "line": 1,
-      "specre_id": "01KHYCHBSG5WKRXGVJ81HAFC7F"
-    },
-    {
       "file": "spec/system/user/user_edits_profile_spec.rb",
       "line": 1,
       "specre_id": "01KHZ69F0GE1R07TXK53AAA1K8"
@@ -3667,16 +3742,6 @@
       "specre_id": "01KHYYH62ZG383CA1EG815V11C"
     },
     {
-      "file": "spec/workers/tags/bust_cache_worker_spec.rb",
-      "line": 1,
-      "specre_id": "01KHYCN1D8NN3GXYBG17C9P3XV"
-    },
-    {
-      "file": "spec/workers/tags/resave_supported_tags_worker_spec.rb",
-      "line": 1,
-      "specre_id": "01KHYCNWVANY5FB7JV8D1ZG2ZZ"
-    },
-    {
       "file": "spec/workers/users/bust_profile_details_cache_worker_spec.rb",
       "line": 1,
       "specre_id": "01KHZ6KMGFYFBB8TCE6Q554D1Z"
@@ -3703,926 +3768,6 @@
     }
   ],
   "specres": [
-    {
-      "domain": "articles",
-      "id": "01KHY7PZCABZR4K92TKZ92NM11",
-      "last_verified": "2026-02-21",
-      "name": "article_decorator_decorator",
-      "path": "docs/specres/articles/article_decorator_decorator.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZCDTD7MRBWPJ46ZTBBT",
-      "last_verified": "2026-02-21",
-      "name": "articles_helper_helper",
-      "path": "docs/specres/articles/articles_helper_helper.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZCG0Y6B3ZFMJBD88365",
-      "last_verified": "2026-02-21",
-      "name": "data_update_scripts_add_schedule_articles_feature_flag_lib",
-      "path": "docs/specres/articles/data_update_scripts_add_schedule_articles_feature_flag_lib.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZCJD5W6FRD7ER1X9TJF",
-      "last_verified": "2026-02-21",
-      "name": "data_update_scripts_cleanup_articles_with_invalid_feed_source_url_lib",
-      "path": "docs/specres/articles/data_update_scripts_cleanup_articles_with_invalid_feed_source_url_lib.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZCN490EMKA3F786P8NY",
-      "last_verified": "2026-02-21",
-      "name": "data_update_scripts_touch_articles_with_capitalized_paths_lib",
-      "path": "docs/specres/articles/data_update_scripts_touch_articles_with_capitalized_paths_lib.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZCQ2TW336K0KHAY86BF",
-      "last_verified": "2026-02-21",
-      "name": "data_update_scripts_update_article_flag_without_parsing_article_lib",
-      "path": "docs/specres/articles/data_update_scripts_update_article_flag_without_parsing_article_lib.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZCT19FVNEE3TEF1Q33G",
-      "last_verified": "2026-02-21",
-      "name": "data_update_scripts_update_article_main_image_path_lib",
-      "path": "docs/specres/articles/data_update_scripts_update_article_main_image_path_lib.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZCWSKS35B87PJG2KKQN",
-      "last_verified": "2026-02-21",
-      "name": "data_update_scripts_update_articles_cached_entities_lib",
-      "path": "docs/specres/articles/data_update_scripts_update_articles_cached_entities_lib.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZCZ5J739JYCB04F2J9N",
-      "last_verified": "2026-02-21",
-      "name": "data_update_scripts_update_each_articles_privileged_user_point_count_lib",
-      "path": "docs/specres/articles/data_update_scripts_update_each_articles_privileged_user_point_count_lib.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZD1KF6TAHWAS9J31FZ6",
-      "last_verified": "2026-02-21",
-      "name": "article_destroy_model",
-      "path": "docs/specres/articles/article_destroy_model.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZD46KYAHY8Q9AVBDY3K",
-      "last_verified": "2026-02-21",
-      "name": "article_organization_baseline_score_model",
-      "path": "docs/specres/articles/article_organization_baseline_score_model.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZD9B9VN5A0QGNNE113P",
-      "last_verified": "2026-02-21",
-      "name": "article_model",
-      "path": "docs/specres/articles/article_model.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZDD4X9X1M96JGEY1PE1",
-      "last_verified": "2026-02-21",
-      "name": "articles_cached_entity_model",
-      "path": "docs/specres/articles/articles_cached_entity_model.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZDG1FFQ9ZBAMKD2R1DS",
-      "last_verified": "2026-02-21",
-      "name": "articles_feeds_lever_catalog_builder_model",
-      "path": "docs/specres/articles/articles_feeds_lever_catalog_builder_model.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZDK9REKFJC3ED6SGJ8J",
-      "last_verified": "2026-02-21",
-      "name": "articles_feeds_order_by_lever_model",
-      "path": "docs/specres/articles/articles_feeds_order_by_lever_model.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZDNBBQ91CB9AWAPZMJS",
-      "last_verified": "2026-02-21",
-      "name": "articles_feeds_relevancy_lever_model",
-      "path": "docs/specres/articles/articles_feeds_relevancy_lever_model.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZDRWC4HN8VT1SREG0AC",
-      "last_verified": "2026-02-21",
-      "name": "articles_feeds_variant_assembler_model",
-      "path": "docs/specres/articles/articles_feeds_variant_assembler_model.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZDT42S0E2NZ3SYHSZJG",
-      "last_verified": "2026-02-21",
-      "name": "articles_feeds_model",
-      "path": "docs/specres/articles/articles_feeds_model.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZDXZEEED6GWSRZX8D85",
-      "last_verified": "2026-02-21",
-      "name": "pinned_article_model",
-      "path": "docs/specres/articles/pinned_article_model.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZE09R80P57ZWTXHTNEP",
-      "last_verified": "2026-02-21",
-      "name": "recommended_articles_list_model",
-      "path": "docs/specres/articles/recommended_articles_list_model.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZE24EM7YX7Q65HZT1ZH",
-      "last_verified": "2026-02-21",
-      "name": "article_policy_policy",
-      "path": "docs/specres/articles/article_policy_policy.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZE5QMZ4RPEA3M7GWZ5S",
-      "last_verified": "2026-02-21",
-      "name": "pinned_article_policy_policy",
-      "path": "docs/specres/articles/pinned_article_policy_policy.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZE8BXXP3V6GSDMH8AEV",
-      "last_verified": "2026-02-21",
-      "name": "articles_active_threads_query_query",
-      "path": "docs/specres/articles/articles_active_threads_query_query.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZEA52K6B0Y3V80W9B7T",
-      "last_verified": "2026-02-21",
-      "name": "articles_api_search_query_query",
-      "path": "docs/specres/articles/articles_api_search_query_query.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZEDRAHQTGMQ79H1BVTX",
-      "last_verified": "2026-02-21",
-      "name": "homepage_articles_query_query",
-      "path": "docs/specres/articles/homepage_articles_query_query.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZEGEP0SER86541948VX",
-      "last_verified": "2026-02-21",
-      "name": "api_v0_articles_api",
-      "path": "docs/specres/articles/api_v0_articles_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZEMC23Y3PC3EWN5EQEK",
-      "last_verified": "2026-02-21",
-      "name": "api_v1_articles_api",
-      "path": "docs/specres/articles/api_v1_articles_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZEQC1NM8JWX5R5JVZ82",
-      "last_verified": "2026-02-21",
-      "name": "api_v1_recommended_articles_lists_api",
-      "path": "docs/specres/articles/api_v1_recommended_articles_lists_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZETESPNKWHYWJ82RN8P",
-      "last_verified": "2026-02-21",
-      "name": "article_approvals_api",
-      "path": "docs/specres/articles/article_approvals_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZEX2DV0QEPTFY21CHEE",
-      "last_verified": "2026-02-21",
-      "name": "articles_articles_admin_feature_api",
-      "path": "docs/specres/articles/articles_articles_admin_feature_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZEZ54TKEW20P1NEG0FC",
-      "last_verified": "2026-02-21",
-      "name": "articles_articles_admin_unpublish_api",
-      "path": "docs/specres/articles/articles_articles_admin_unpublish_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZF2DS1VW1BDJKS3JE4E",
-      "last_verified": "2026-02-21",
-      "name": "articles_articles_create_api",
-      "path": "docs/specres/articles/articles_articles_create_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZF5SN5M4QHHPSK9T3SP",
-      "last_verified": "2026-02-21",
-      "name": "articles_articles_destroy_api",
-      "path": "docs/specres/articles/articles_articles_destroy_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZF7AY1KDDA8839XYCE5",
-      "last_verified": "2026-02-21",
-      "name": "articles_articles_feed_api",
-      "path": "docs/specres/articles/articles_articles_feed_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZFA286CDSNTP63WXT07",
-      "last_verified": "2026-02-21",
-      "name": "articles_articles_show_api",
-      "path": "docs/specres/articles/articles_articles_show_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZFDE4GF4TXX8YXQSJHN",
-      "last_verified": "2026-02-21",
-      "name": "articles_articles_api",
-      "path": "docs/specres/articles/articles_articles_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZFGFQ9NH2SR5PNAJ6K1",
-      "last_verified": "2026-02-21",
-      "name": "articles_articles_update_api",
-      "path": "docs/specres/articles/articles_articles_update_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZFJ5S5BWM2VVVMHAZCM",
-      "last_verified": "2026-02-21",
-      "name": "articles_org_redirect_api",
-      "path": "docs/specres/articles/articles_org_redirect_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZFNS9SFB32HEJEPYJ11",
-      "last_verified": "2026-02-21",
-      "name": "articles_video_player_show_api",
-      "path": "docs/specres/articles/articles_video_player_show_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZFQGFZH6E84R8Y2VZNZ",
-      "last_verified": "2026-02-21",
-      "name": "articles_api",
-      "path": "docs/specres/articles/articles_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZFTEZ18GNF1E54VSHJ0",
-      "last_verified": "2026-02-21",
-      "name": "stories_articles_search_api",
-      "path": "docs/specres/articles/stories_articles_search_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZFXZ8XA1M3N8G0ZVVWV",
-      "last_verified": "2026-02-21",
-      "name": "stories_pinned_articles_api",
-      "path": "docs/specres/articles/stories_pinned_articles_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZFZAYH790B2VGB187V3",
-      "last_verified": "2026-02-21",
-      "name": "stories_tagged_articles_api",
-      "path": "docs/specres/articles/stories_tagged_articles_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZG2R6XKR9DJH1YQ2YPK",
-      "last_verified": "2026-02-21",
-      "name": "homepage_article_serializer_serializer",
-      "path": "docs/specres/articles/homepage_article_serializer_serializer.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZG5TF1ZD3SXRM2TXCGN",
-      "last_verified": "2026-02-21",
-      "name": "search_reading_list_article_serializer_serializer",
-      "path": "docs/specres/articles/search_reading_list_article_serializer_serializer.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZG72BRHW6XWH5NS2WJK",
-      "last_verified": "2026-02-21",
-      "name": "ai_article_enhancer_service",
-      "path": "docs/specres/articles/ai_article_enhancer_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZGAP087PTM5D8BE6CMJ",
-      "last_verified": "2026-02-21",
-      "name": "ai_article_quality_assessor_service",
-      "path": "docs/specres/articles/ai_article_quality_assessor_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZGD6M7K13AN08KYY0T8",
-      "last_verified": "2026-02-21",
-      "name": "article_with_video_creation_service_service",
-      "path": "docs/specres/articles/article_with_video_creation_service_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZGFC6VSA911TX4XRFKA",
-      "last_verified": "2026-02-21",
-      "name": "articles_attributes_service",
-      "path": "docs/specres/articles/articles_attributes_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZGJ9ZTH0MCE8AKZ7HTE",
-      "last_verified": "2026-02-21",
-      "name": "articles_builder_service",
-      "path": "docs/specres/articles/articles_builder_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZGM9YVY76DP510RV8NV",
-      "last_verified": "2026-02-21",
-      "name": "articles_creator_service",
-      "path": "docs/specres/articles/articles_creator_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZGQWG2D26V7YADB1BA3",
-      "last_verified": "2026-02-21",
-      "name": "articles_destroyer_service",
-      "path": "docs/specres/articles/articles_destroyer_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZGTT4NM29TQGJK5M25Z",
-      "last_verified": "2026-02-21",
-      "name": "articles_enrich_image_attributes_service",
-      "path": "docs/specres/articles/articles_enrich_image_attributes_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZGWYDQYWJ0028F7HJWG",
-      "last_verified": "2026-02-21",
-      "name": "articles_feeds_article_score_calculator_for_user_service",
-      "path": "docs/specres/articles/articles_feeds_article_score_calculator_for_user_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZGZR3HN4CHZJ3V2G7QP",
-      "last_verified": "2026-02-21",
-      "name": "articles_feeds_basic_service",
-      "path": "docs/specres/articles/articles_feeds_basic_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZH2AK2PKJH9JGQG8GKJ",
-      "last_verified": "2026-02-21",
-      "name": "articles_feeds_custom_service",
-      "path": "docs/specres/articles/articles_feeds_custom_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZH5A1A397WAXJC8EMZW",
-      "last_verified": "2026-02-21",
-      "name": "articles_feeds_find_featured_story_service",
-      "path": "docs/specres/articles/articles_feeds_find_featured_story_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZH7DJRAX2D76WYY7RGK",
-      "last_verified": "2026-02-21",
-      "name": "articles_feeds_large_forem_experimental_service",
-      "path": "docs/specres/articles/articles_feeds_large_forem_experimental_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZHAWCCCH3MH5XR6BPW2",
-      "last_verified": "2026-02-21",
-      "name": "articles_feeds_latest_service",
-      "path": "docs/specres/articles/articles_feeds_latest_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZHCYHMS6DT8STQSP77B",
-      "last_verified": "2026-02-21",
-      "name": "articles_feeds_tag_service",
-      "path": "docs/specres/articles/articles_feeds_tag_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZHF3MKHS2VTSRTV3AXS",
-      "last_verified": "2026-02-21",
-      "name": "articles_feeds_timeframe_service",
-      "path": "docs/specres/articles/articles_feeds_timeframe_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZHHKAF0S5KAPQY2AC3F",
-      "last_verified": "2026-02-21",
-      "name": "articles_feeds_variant_query_service",
-      "path": "docs/specres/articles/articles_feeds_variant_query_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZHMNSH06J1QPF8HQP72",
-      "last_verified": "2026-02-21",
-      "name": "articles_feeds_service",
-      "path": "docs/specres/articles/articles_feeds_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZHQK1TWEZQW9JFE4F1R",
-      "last_verified": "2026-02-21",
-      "name": "articles_get_user_stickies_service",
-      "path": "docs/specres/articles/articles_get_user_stickies_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZHSFF8WP6ZAXAYQGC7N",
-      "last_verified": "2026-02-21",
-      "name": "articles_page_view_updater_service",
-      "path": "docs/specres/articles/articles_page_view_updater_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZHWWDT1AJRACBRAMVK3",
-      "last_verified": "2026-02-21",
-      "name": "articles_suggest_service",
-      "path": "docs/specres/articles/articles_suggest_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZHY493D11YHFQQ2AFP1",
-      "last_verified": "2026-02-21",
-      "name": "articles_suggest_stickies_service",
-      "path": "docs/specres/articles/articles_suggest_stickies_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZJ12A4RH5QTYQ84BH29",
-      "last_verified": "2026-02-21",
-      "name": "articles_unpublish_service",
-      "path": "docs/specres/articles/articles_unpublish_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZJ3PCGQ3QKYGKC191E5",
-      "last_verified": "2026-02-21",
-      "name": "articles_updater_service",
-      "path": "docs/specres/articles/articles_updater_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZJ6HPGEFZBK4YQJ7JCG",
-      "last_verified": "2026-02-21",
-      "name": "edge_cache_bust_article_service",
-      "path": "docs/specres/articles/edge_cache_bust_article_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZJ9S4Z8E5PE07H5XF5W",
-      "last_verified": "2026-02-21",
-      "name": "email_digest_article_collector_service",
-      "path": "docs/specres/articles/email_digest_article_collector_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZJCTXYRSAX0ACH4PRK0",
-      "last_verified": "2026-02-21",
-      "name": "exporter_articles_service",
-      "path": "docs/specres/articles/exporter_articles_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZJEQ3RP3N563BE5WWJF",
-      "last_verified": "2026-02-21",
-      "name": "feeds_assemble_article_markdown_service",
-      "path": "docs/specres/articles/feeds_assemble_article_markdown_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZJHS5ZCP7NQ2R0R2V7A",
-      "last_verified": "2026-02-21",
-      "name": "homepage_fetch_articles_service",
-      "path": "docs/specres/articles/homepage_fetch_articles_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZJM8G77P60TW7JQCXS2",
-      "last_verified": "2026-02-21",
-      "name": "medium_article_retrieval_service_service",
-      "path": "docs/specres/articles/medium_article_retrieval_service_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZJP1BZYPX7MFN912GCZ",
-      "last_verified": "2026-02-21",
-      "name": "moderations_article_fetcher_service_service",
-      "path": "docs/specres/articles/moderations_article_fetcher_service_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZJSV0X91W328KRERC4B",
-      "last_verified": "2026-02-21",
-      "name": "moderator_sink_articles_service",
-      "path": "docs/specres/articles/moderator_sink_articles_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZJVK0J1XDGX0C9V4TRF",
-      "last_verified": "2026-02-21",
-      "name": "moderator_unpublish_all_articles_service",
-      "path": "docs/specres/articles/moderator_unpublish_all_articles_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZJY4BBA8TMJ9VACRRM8",
-      "last_verified": "2026-02-21",
-      "name": "scheduled_automations_article_content_badge_awarder_service",
-      "path": "docs/specres/articles/scheduled_automations_article_content_badge_awarder_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZK1HM7X9MSTX3VJW2QN",
-      "last_verified": "2026-02-21",
-      "name": "search_article_service",
-      "path": "docs/specres/articles/search_article_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZK4T0QS7V59CZ1E2GQE",
-      "last_verified": "2026-02-21",
-      "name": "slack_messengers_article_published_service",
-      "path": "docs/specres/articles/slack_messengers_article_published_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZK7JXRMWXE41CAS8TNP",
-      "last_verified": "2026-02-21",
-      "name": "users_delete_articles_service",
-      "path": "docs/specres/articles/users_delete_articles_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZK958YSCXBQ8H7JHFQN",
-      "last_verified": "2026-02-21",
-      "name": "articles_feeds_basic_system",
-      "path": "docs/specres/articles/articles_feeds_basic_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZKCYSB26PWV6GZNVFQ0",
-      "last_verified": "2026-02-21",
-      "name": "articles_feeds_large_forem_experimental_system",
-      "path": "docs/specres/articles/articles_feeds_large_forem_experimental_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZKE5Y9YHP1BDDS28JQP",
-      "last_verified": "2026-02-21",
-      "name": "articles_moderator_moderates_an_article_system",
-      "path": "docs/specres/articles/articles_moderator_moderates_an_article_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZKHS6BGGHV05TN9TRH3",
-      "last_verified": "2026-02-21",
-      "name": "articles_user_creates_an_article_system",
-      "path": "docs/specres/articles/articles_user_creates_an_article_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZKKVZ4238HBEWK5VRGF",
-      "last_verified": "2026-02-21",
-      "name": "articles_user_deletes_an_article_system",
-      "path": "docs/specres/articles/articles_user_deletes_an_article_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZKPG9429W94NGTHFP5B",
-      "last_verified": "2026-02-21",
-      "name": "articles_user_discussion_locks_system",
-      "path": "docs/specres/articles/articles_user_discussion_locks_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZKSCZ1BBJYDQ13JZ3TV",
-      "last_verified": "2026-02-21",
-      "name": "articles_user_edits_an_article_system",
-      "path": "docs/specres/articles/articles_user_edits_an_article_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZKV2EXHTT6YKKNEAW4T",
-      "last_verified": "2026-02-21",
-      "name": "articles_user_visits_an_article_system",
-      "path": "docs/specres/articles/articles_user_visits_an_article_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZKYF4DS7RH1DRCVSX14",
-      "last_verified": "2026-02-21",
-      "name": "articles_user_visits_article_stats_system",
-      "path": "docs/specres/articles/articles_user_visits_article_stats_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZM1DYE3RNWXGH45FHFJ",
-      "last_verified": "2026-02-21",
-      "name": "articles_user_visits_articles_by_tag_system",
-      "path": "docs/specres/articles/articles_user_visits_articles_by_tag_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZM3RB7REQFHW048GDBV",
-      "last_verified": "2026-02-21",
-      "name": "articles_user_visits_articles_by_timeframe_system",
-      "path": "docs/specres/articles/articles_user_visits_articles_by_timeframe_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZM6AC6687PSND0KHPTP",
-      "last_verified": "2026-02-21",
-      "name": "collections_user_views_collection_articles_system",
-      "path": "docs/specres/articles/collections_user_views_collection_articles_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZM8MSZ4PJMMCV1EFYAT",
-      "last_verified": "2026-02-21",
-      "name": "comments_user_views_article_comments_system",
-      "path": "docs/specres/articles/comments_user_views_article_comments_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZMBNP8PASGQR0A18G9C",
-      "last_verified": "2026-02-21",
-      "name": "dashboards_user_sorts_dashboard_articles_system",
-      "path": "docs/specres/articles/dashboards_user_sorts_dashboard_articles_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZMDTHYDQYDMZ4ZY3TK5",
-      "last_verified": "2026-02-21",
-      "name": "homepage_user_visits_homepage_articles_system",
-      "path": "docs/specres/articles/homepage_user_visits_homepage_articles_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZMG8YDE6NCX3DS3HYR7",
-      "last_verified": "2026-02-21",
-      "name": "search_display_articles_search_system",
-      "path": "docs/specres/articles/search_display_articles_search_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZMKAWB02VH9WYK1G9XH",
-      "last_verified": "2026-02-21",
-      "name": "article_image_uploader_uploader",
-      "path": "docs/specres/articles/article_image_uploader_uploader.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZMNGVHTFKPB0RWT9TXG",
-      "last_verified": "2026-02-21",
-      "name": "articles_view",
-      "path": "docs/specres/articles/articles_view.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZMRS2B4NSHG4NK9WZEH",
-      "last_verified": "2026-02-21",
-      "name": "articles_bust_cache_worker_worker",
-      "path": "docs/specres/articles/articles_bust_cache_worker_worker.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZMT9FPQK21ENX63QFKH",
-      "last_verified": "2026-02-21",
-      "name": "articles_bust_multiple_caches_worker_worker",
-      "path": "docs/specres/articles/articles_bust_multiple_caches_worker_worker.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZMX7TNHYH4NFJRCSVJ6",
-      "last_verified": "2026-02-21",
-      "name": "articles_enrich_image_attributes_worker_worker",
-      "path": "docs/specres/articles/articles_enrich_image_attributes_worker_worker.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZMZJMNZYGBGW5WH9X73",
-      "last_verified": "2026-02-21",
-      "name": "articles_handle_spam_worker_worker",
-      "path": "docs/specres/articles/articles_handle_spam_worker_worker.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZN272B42SJ34780F563",
-      "last_verified": "2026-02-21",
-      "name": "articles_label_cleanup_worker_worker",
-      "path": "docs/specres/articles/articles_label_cleanup_worker_worker.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZN4CYCJVXKN1AY5KVDH",
-      "last_verified": "2026-02-21",
-      "name": "articles_publish_worker_worker",
-      "path": "docs/specres/articles/articles_publish_worker_worker.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZN7WJ6EXPPGSD3CY4X9",
-      "last_verified": "2026-02-21",
-      "name": "articles_quality_reaction_worker_worker",
-      "path": "docs/specres/articles/articles_quality_reaction_worker_worker.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZNAHM0PQJWE6YZ07Y9N",
-      "last_verified": "2026-02-21",
-      "name": "articles_score_calc_worker_worker",
-      "path": "docs/specres/articles/articles_score_calc_worker_worker.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZNC2ZPBGCGZT096S53N",
-      "last_verified": "2026-02-21",
-      "name": "articles_update_page_views_worker_worker",
-      "path": "docs/specres/articles/articles_update_page_views_worker_worker.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZNFNSTMAMXP4Q8MWR0E",
-      "last_verified": "2026-02-21",
-      "name": "feeds_import_articles_worker_worker",
-      "path": "docs/specres/articles/feeds_import_articles_worker_worker.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZNHSRYSV2RSQ4QQECHK",
-      "last_verified": "2026-02-21",
-      "name": "moderator_sink_articles_worker_worker",
-      "path": "docs/specres/articles/moderator_sink_articles_worker_worker.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZNMYTZ3HHH64CWXBR1W",
-      "last_verified": "2026-02-21",
-      "name": "moderator_unpublish_all_articles_worker_worker",
-      "path": "docs/specres/articles/moderator_unpublish_all_articles_worker_worker.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZNP6CPCJTY55FJA8A03",
-      "last_verified": "2026-02-21",
-      "name": "organizations_save_article_worker_worker",
-      "path": "docs/specres/articles/organizations_save_article_worker_worker.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZNSDXW3GJBZX08E5JR1",
-      "last_verified": "2026-02-21",
-      "name": "organizations_update_organization_articles_paths_worker_worker",
-      "path": "docs/specres/articles/organizations_update_organization_articles_paths_worker_worker.md",
-      "status": "stable"
-    },
-    {
-      "domain": "articles",
-      "id": "01KHY7PZNVDENKG8J4E5BPRSQC",
-      "last_verified": "2026-02-21",
-      "name": "users_resave_articles_worker_worker",
-      "path": "docs/specres/articles/users_resave_articles_worker_worker.md",
-      "status": "stable"
-    },
     {
       "domain": "comments",
       "id": "01KHY7PZNY1BFXQFWE6JTCBDZ4",
@@ -4957,1150 +4102,6 @@
       "last_verified": "2026-02-21",
       "name": "comments_send_email_notification_worker_worker",
       "path": "docs/specres/comments/comments_send_email_notification_worker_worker.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZSD4KYW0XMC7WJRQYD6",
-      "last_verified": "2026-02-21",
-      "name": "concerns_omniauth_redirect_controller",
-      "path": "docs/specres/users/concerns_omniauth_redirect_controller.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZSFKPSJDKPY51PJGA3J",
-      "last_verified": "2026-02-21",
-      "name": "user_decorator_decorator",
-      "path": "docs/specres/users/user_decorator_decorator.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZSJNVTWCDET99GEADKM",
-      "last_verified": "2026-02-21",
-      "name": "authentication_helper_helper",
-      "path": "docs/specres/users/authentication_helper_helper.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZSNPA816S1VASA2MX9Z",
-      "last_verified": "2026-02-21",
-      "name": "data_update_scripts_backfill_user_blank_name_lib",
-      "path": "docs/specres/users/data_update_scripts_backfill_user_blank_name_lib.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZSQHCK7HWA6ZC3KBA8N",
-      "last_verified": "2026-02-21",
-      "name": "data_update_scripts_coerce_identity_auth_data_format_lib",
-      "path": "docs/specres/users/data_update_scripts_coerce_identity_auth_data_format_lib.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZSTQ18RYX7HY0BZVZ2C",
-      "last_verified": "2026-02-21",
-      "name": "data_update_scripts_remove_dangling_user_reactions_lib",
-      "path": "docs/specres/users/data_update_scripts_remove_dangling_user_reactions_lib.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZSWN97RNGF4MFV532PH",
-      "last_verified": "2026-02-21",
-      "name": "data_update_scripts_update_user_update_rate_limit_default_lib",
-      "path": "docs/specres/users/data_update_scripts_update_user_update_rate_limit_default_lib.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZSZ2M51FX5NFF0PWJHY",
-      "last_verified": "2026-02-21",
-      "name": "user_subscription_tag_liquid",
-      "path": "docs/specres/users/user_subscription_tag_liquid.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZT2RQAJ88J4N3AKPZJD",
-      "last_verified": "2026-02-21",
-      "name": "user_tag_liquid",
-      "path": "docs/specres/users/user_tag_liquid.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZT4NYB38JBEF9KFA2BH",
-      "last_verified": "2026-02-21",
-      "name": "banished_user_model",
-      "path": "docs/specres/users/banished_user_model.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZT7NW2BX66EHC1SRDHE",
-      "last_verified": "2026-02-21",
-      "name": "identity_model",
-      "path": "docs/specres/users/identity_model.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZT9EGE3GT9TQC02VRV2",
-      "last_verified": "2026-02-21",
-      "name": "segmented_user_model",
-      "path": "docs/specres/users/segmented_user_model.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZTC0CZ3EVGCKTWBXY8R",
-      "last_verified": "2026-02-21",
-      "name": "settings_authentication_integration_model",
-      "path": "docs/specres/users/settings_authentication_integration_model.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZTEZ5RYJNMKA31G999A",
-      "last_verified": "2026-02-21",
-      "name": "settings_authentication_model",
-      "path": "docs/specres/users/settings_authentication_model.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZTHZQCM214V4BZFYAM8",
-      "last_verified": "2026-02-21",
-      "name": "settings_user_experience_model",
-      "path": "docs/specres/users/settings_user_experience_model.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZTM64XJXZ0YX9XHA9QP",
-      "last_verified": "2026-02-21",
-      "name": "user_activity_model",
-      "path": "docs/specres/users/user_activity_model.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZTP21KAZGT354R5VXG1",
-      "last_verified": "2026-02-21",
-      "name": "user_block_model",
-      "path": "docs/specres/users/user_block_model.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZTSVX3ZTK2H1NWFSE57",
-      "last_verified": "2026-02-21",
-      "name": "user_email_eligible_model",
-      "path": "docs/specres/users/user_email_eligible_model.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZTWBVKFH1MFWWNR8HAR",
-      "last_verified": "2026-02-21",
-      "name": "user_language_model",
-      "path": "docs/specres/users/user_language_model.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZTY8VRF8VJG0E0CETA2",
-      "last_verified": "2026-02-21",
-      "name": "user_query_model",
-      "path": "docs/specres/users/user_query_model.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZV1N9C2NWNPWHTR4EZS",
-      "last_verified": "2026-02-21",
-      "name": "user_role_model",
-      "path": "docs/specres/users/user_role_model.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZV3SKSDNZA2H9QPPQE1",
-      "last_verified": "2026-02-21",
-      "name": "user_spam_detection_model",
-      "path": "docs/specres/users/user_spam_detection_model.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZV7F0FD1E65TP9F4DH5",
-      "last_verified": "2026-02-21",
-      "name": "user_model",
-      "path": "docs/specres/users/user_model.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZVA6EACCE9VAH3FYKYC",
-      "last_verified": "2026-02-21",
-      "name": "user_subscription_model",
-      "path": "docs/specres/users/user_subscription_model.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZVDV7G270NCRA8FS30W",
-      "last_verified": "2026-02-21",
-      "name": "user_visit_context_model",
-      "path": "docs/specres/users/user_visit_context_model.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZVFQ8NA6F5PESZC7WAE",
-      "last_verified": "2026-02-21",
-      "name": "users_deleted_user_model",
-      "path": "docs/specres/users/users_deleted_user_model.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZVJZ7WCN58NM39WA7D2",
-      "last_verified": "2026-02-21",
-      "name": "users_notification_setting_model",
-      "path": "docs/specres/users/users_notification_setting_model.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZVMKJ3ZDBN44397FT5K",
-      "last_verified": "2026-02-21",
-      "name": "users_setting_model",
-      "path": "docs/specres/users/users_setting_model.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZVQR0AZ99XFWEGX88NG",
-      "last_verified": "2026-02-21",
-      "name": "users_suspended_username_model",
-      "path": "docs/specres/users/users_suspended_username_model.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZVS44HVEM5QT3VXN6J9",
-      "last_verified": "2026-02-21",
-      "name": "user_policy_policy",
-      "path": "docs/specres/users/user_policy_policy.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZVWABSW38V099V9BREN",
-      "last_verified": "2026-02-21",
-      "name": "users_select_moderators_query_query",
-      "path": "docs/specres/users/users_select_moderators_query_query.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZVZBXP0TEF480D3CB67",
-      "last_verified": "2026-02-21",
-      "name": "users_suggest_prominent_query",
-      "path": "docs/specres/users/users_suggest_prominent_query.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZW1AYNG87XJPFCW6EAM",
-      "last_verified": "2026-02-21",
-      "name": "admin_user_marks_user_as_spam_api",
-      "path": "docs/specres/users/admin_user_marks_user_as_spam_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZW4SNDVJQKGP2PV0WE7",
-      "last_verified": "2026-02-21",
-      "name": "api_v0_users_api",
-      "path": "docs/specres/users/api_v0_users_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZW7VKJ3DKM2WG9J3F00",
-      "last_verified": "2026-02-21",
-      "name": "api_v1_user_roles_api",
-      "path": "docs/specres/users/api_v1_user_roles_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZWAZ48T8CSEFN0H0R7J",
-      "last_verified": "2026-02-21",
-      "name": "api_v1_users_api",
-      "path": "docs/specres/users/api_v1_users_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZWC0D45JZVN2BDP311D",
-      "last_verified": "2026-02-21",
-      "name": "auth_passes_api",
-      "path": "docs/specres/users/auth_passes_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZWF8M275D484FSNZMZS",
-      "last_verified": "2026-02-21",
-      "name": "registrations_api",
-      "path": "docs/specres/users/registrations_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZWJ9PKWTK4KA3E55ZB9",
-      "last_verified": "2026-02-21",
-      "name": "sessions_api",
-      "path": "docs/specres/users/sessions_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZWN57DH639BH9GYAK09",
-      "last_verified": "2026-02-21",
-      "name": "user_user_changes_password_api",
-      "path": "docs/specres/users/user_user_changes_password_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZWQNRDGMH89ZXCXC46W",
-      "last_verified": "2026-02-21",
-      "name": "user_user_destroy_api",
-      "path": "docs/specres/users/user_user_destroy_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZWTCS4W091TD95P6YBB",
-      "last_verified": "2026-02-21",
-      "name": "user_user_notification_settings_api",
-      "path": "docs/specres/users/user_user_notification_settings_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZWWK69G6BPBTYMEHACF",
-      "last_verified": "2026-02-21",
-      "name": "user_user_organization_api",
-      "path": "docs/specres/users/user_user_organization_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZWZQ0CVTB22H4BVER56",
-      "last_verified": "2026-02-21",
-      "name": "user_user_profile_api",
-      "path": "docs/specres/users/user_user_profile_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZX26J10W8KYTD0YMR9E",
-      "last_verified": "2026-02-21",
-      "name": "user_user_settings_api",
-      "path": "docs/specres/users/user_user_settings_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZX5VDD3W11RV1YRZF5X",
-      "last_verified": "2026-02-21",
-      "name": "user_user_show_api",
-      "path": "docs/specres/users/user_user_show_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZX8PVS5W6PF5H78ETDE",
-      "last_verified": "2026-02-21",
-      "name": "user_user_suggestions_api",
-      "path": "docs/specres/users/user_user_suggestions_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZXAPBD4M5D96JJAVRE1",
-      "last_verified": "2026-02-21",
-      "name": "user_blocks_api",
-      "path": "docs/specres/users/user_blocks_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZXDJX4SJT5R43KQ564Z",
-      "last_verified": "2026-02-21",
-      "name": "user_subscriptions_api",
-      "path": "docs/specres/users/user_subscriptions_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZXGCD0344J7BG3Z91RJ",
-      "last_verified": "2026-02-21",
-      "name": "search_nested_user_serializer_serializer",
-      "path": "docs/specres/users/search_nested_user_serializer_serializer.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZXJJHMFK7EDVEH9CJ9S",
-      "last_verified": "2026-02-21",
-      "name": "search_simple_user_serializer_serializer",
-      "path": "docs/specres/users/search_simple_user_serializer_serializer.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZXN1AYW1ZP7C46J5WSJ",
-      "last_verified": "2026-02-21",
-      "name": "search_user_serializer_serializer",
-      "path": "docs/specres/users/search_user_serializer_serializer.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZXRQNACP6Q9J5S1WTV8",
-      "last_verified": "2026-02-21",
-      "name": "authentication_authenticator_service",
-      "path": "docs/specres/users/authentication_authenticator_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZXV4QWY8EKENS5Y5K49",
-      "last_verified": "2026-02-21",
-      "name": "authentication_providers_facebook_service",
-      "path": "docs/specres/users/authentication_providers_facebook_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZXX25GVCHJMDAXKVYWW",
-      "last_verified": "2026-02-21",
-      "name": "authentication_providers_forem_service",
-      "path": "docs/specres/users/authentication_providers_forem_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZY08GDDN2GY14590PCX",
-      "last_verified": "2026-02-21",
-      "name": "authentication_providers_github_service",
-      "path": "docs/specres/users/authentication_providers_github_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZY3P6J2NH9QT7FGBFPZ",
-      "last_verified": "2026-02-21",
-      "name": "authentication_providers_mlh_service",
-      "path": "docs/specres/users/authentication_providers_mlh_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZY58E30GM7S9GMYWGMZ",
-      "last_verified": "2026-02-21",
-      "name": "authentication_providers_twitter_service",
-      "path": "docs/specres/users/authentication_providers_twitter_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZY8ZERZWTXBHAV1ZVQY",
-      "last_verified": "2026-02-21",
-      "name": "authentication_providers_service",
-      "path": "docs/specres/users/authentication_providers_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZYAANHJZ17QJCZEYV2S",
-      "last_verified": "2026-02-21",
-      "name": "edge_cache_bust_user_service",
-      "path": "docs/specres/users/edge_cache_bust_user_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZYDSQ16CRSQCDEZ9NK8",
-      "last_verified": "2026-02-21",
-      "name": "moderator_banish_user_service",
-      "path": "docs/specres/users/moderator_banish_user_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZYF7JK25QXJ3Q2FG6AX",
-      "last_verified": "2026-02-21",
-      "name": "moderator_delete_user_service",
-      "path": "docs/specres/users/moderator_delete_user_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZYJDHAMVRC9NW6KQPE3",
-      "last_verified": "2026-02-21",
-      "name": "moderator_merge_user_service",
-      "path": "docs/specres/users/moderator_merge_user_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZYNCPE3JBEE59JS9V3Z",
-      "last_verified": "2026-02-21",
-      "name": "re_captcha_check_registration_enabled_service",
-      "path": "docs/specres/users/re_captcha_check_registration_enabled_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZYQ2J02R39ZW2M4FGJQ",
-      "last_verified": "2026-02-21",
-      "name": "search_user_service",
-      "path": "docs/specres/users/search_user_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZYTVQ02JADVS0265GNY",
-      "last_verified": "2026-02-21",
-      "name": "search_username_service",
-      "path": "docs/specres/users/search_username_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZYXVW7R8JJ9RQSE9CH8",
-      "last_verified": "2026-02-21",
-      "name": "segmented_users_bulk_delete_service",
-      "path": "docs/specres/users/segmented_users_bulk_delete_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZYZAYCKEVVPNVV3KVJF",
-      "last_verified": "2026-02-21",
-      "name": "segmented_users_bulk_upsert_service",
-      "path": "docs/specres/users/segmented_users_bulk_upsert_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZZ26AEWME6KFDV8YHH0",
-      "last_verified": "2026-02-21",
-      "name": "settings_authentication_upsert_service",
-      "path": "docs/specres/users/settings_authentication_upsert_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZZ4J50A05HYTVJKA1XW",
-      "last_verified": "2026-02-21",
-      "name": "user_query_executor_service",
-      "path": "docs/specres/users/user_query_executor_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZZ7Y8Y4Y8K26866NP5J",
-      "last_verified": "2026-02-21",
-      "name": "user_query_validator_service",
-      "path": "docs/specres/users/user_query_validator_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZZA89PZ5P5A1FKB4XZ0",
-      "last_verified": "2026-02-21",
-      "name": "user_subscriptions_create_from_controller_params_service",
-      "path": "docs/specres/users/user_subscriptions_create_from_controller_params_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZZCQA6XXE6A6CRFEVBP",
-      "last_verified": "2026-02-21",
-      "name": "user_subscriptions_is_subscribed_cache_checker_service",
-      "path": "docs/specres/users/user_subscriptions_is_subscribed_cache_checker_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZZFYH3WX69XX7PMVYP4",
-      "last_verified": "2026-02-21",
-      "name": "users_approved_liquid_tags_service",
-      "path": "docs/specres/users/users_approved_liquid_tags_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZZHWAW2SZD0TSD7VRNF",
-      "last_verified": "2026-02-21",
-      "name": "users_cancel_stripe_subscriptions_service",
-      "path": "docs/specres/users/users_cancel_stripe_subscriptions_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZZM6KDSTK6HH5CCK2M6",
-      "last_verified": "2026-02-21",
-      "name": "users_confirm_flag_reactions_service",
-      "path": "docs/specres/users/users_confirm_flag_reactions_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZZQ0JDZ587JMHWMAZFV",
-      "last_verified": "2026-02-21",
-      "name": "users_create_mascot_account_service",
-      "path": "docs/specres/users/users_create_mascot_account_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZZSFXY17VH1G33CANWN",
-      "last_verified": "2026-02-21",
-      "name": "users_delete_podcasts_service",
-      "path": "docs/specres/users/users_delete_podcasts_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZZW47GV0J3YP2DXFGHT",
-      "last_verified": "2026-02-21",
-      "name": "users_delete_service",
-      "path": "docs/specres/users/users_delete_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7PZZYB4YKNMSRWTTZR9H2",
-      "last_verified": "2026-02-21",
-      "name": "users_remove_role_service",
-      "path": "docs/specres/users/users_remove_role_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q0017FTTV0NRRZS56RMK",
-      "last_verified": "2026-02-21",
-      "name": "users_resolve_spam_reports_service",
-      "path": "docs/specres/users/users_resolve_spam_reports_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q003KZDMM635N2M8TCAN",
-      "last_verified": "2026-02-21",
-      "name": "users_suggest_for_sidebar_service",
-      "path": "docs/specres/users/users_suggest_for_sidebar_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q0063D2JGDEQPA0PDFGP",
-      "last_verified": "2026-02-21",
-      "name": "users_update_service",
-      "path": "docs/specres/users/users_update_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q00937DP5WAKAXARF0N0",
-      "last_verified": "2026-02-21",
-      "name": "users_username_generator_service",
-      "path": "docs/specres/users/users_username_generator_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q00B2B0W6BB2QY5G4N8S",
-      "last_verified": "2026-02-21",
-      "name": "authentication_conditional_registration_system",
-      "path": "docs/specres/users/authentication_conditional_registration_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q00EDTKF7SHTXHT3768Z",
-      "last_verified": "2026-02-21",
-      "name": "authentication_creator_config_edit_system",
-      "path": "docs/specres/users/authentication_creator_config_edit_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q00H2JPTMQRAA9K3G82N",
-      "last_verified": "2026-02-21",
-      "name": "authentication_omniauth_redirect_uri_system",
-      "path": "docs/specres/users/authentication_omniauth_redirect_uri_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q00KKP2X4V7T1KV9MZFQ",
-      "last_verified": "2026-02-21",
-      "name": "authentication_redirects_using_referer_system",
-      "path": "docs/specres/users/authentication_redirects_using_referer_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q00P2YCTCR27V17ZVJN8",
-      "last_verified": "2026-02-21",
-      "name": "authentication_user_logs_in_with_apple_system",
-      "path": "docs/specres/users/authentication_user_logs_in_with_apple_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q00RMC3D4BE13YK1DPBB",
-      "last_verified": "2026-02-21",
-      "name": "authentication_user_logs_in_with_email_system",
-      "path": "docs/specres/users/authentication_user_logs_in_with_email_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q00VMQZH4E02BA8BNYEY",
-      "last_verified": "2026-02-21",
-      "name": "authentication_user_logs_in_with_facebook_system",
-      "path": "docs/specres/users/authentication_user_logs_in_with_facebook_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q00YG9CM5WR5BWG3DWMG",
-      "last_verified": "2026-02-21",
-      "name": "authentication_user_logs_in_with_forem_system",
-      "path": "docs/specres/users/authentication_user_logs_in_with_forem_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q0119D7YX1XBMTAX3G18",
-      "last_verified": "2026-02-21",
-      "name": "authentication_user_logs_in_with_github_system",
-      "path": "docs/specres/users/authentication_user_logs_in_with_github_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q013TWBNNMDE7F1M3KZA",
-      "last_verified": "2026-02-21",
-      "name": "authentication_user_logs_in_with_twitter_system",
-      "path": "docs/specres/users/authentication_user_logs_in_with_twitter_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q016S13EEJ6WTEGX9FKV",
-      "last_verified": "2026-02-21",
-      "name": "authentication_user_request_confirmation_system",
-      "path": "docs/specres/users/authentication_user_request_confirmation_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q019FT2HDS5TMZ2Z21E3",
-      "last_verified": "2026-02-21",
-      "name": "authentication_user_with_suspended_username_system",
-      "path": "docs/specres/users/authentication_user_with_suspended_username_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q01BJXPPJHMACK9XBQ8D",
-      "last_verified": "2026-02-21",
-      "name": "banned_user_interactions_system",
-      "path": "docs/specres/users/banned_user_interactions_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q01EQ8V9ZJ5CZV72PA5F",
-      "last_verified": "2026-02-21",
-      "name": "collections_user_views_collections_system",
-      "path": "docs/specres/users/collections_user_views_collections_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q01GHFZNNEA50F7VVNP3",
-      "last_verified": "2026-02-21",
-      "name": "dashboards_user_followers_display_system",
-      "path": "docs/specres/users/dashboards_user_followers_display_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q01KJ9JFY2WBAW4M3TNF",
-      "last_verified": "2026-02-21",
-      "name": "dashboards_user_scrolls_down_dashboard_follows_system",
-      "path": "docs/specres/users/dashboards_user_scrolls_down_dashboard_follows_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q01NX6C07Z2A8ET1Y47B",
-      "last_verified": "2026-02-21",
-      "name": "dashboards_user_visits_dashboard_system",
-      "path": "docs/specres/users/dashboards_user_visits_dashboard_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q01R76ENYS8CW8W48Y06",
-      "last_verified": "2026-02-21",
-      "name": "homepage_user_visits_homepage_system",
-      "path": "docs/specres/users/homepage_user_visits_homepage_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q01VYSRFE335TK1VZ1D1",
-      "last_verified": "2026-02-21",
-      "name": "homepage_user_visits_homepage_with_announcement_system",
-      "path": "docs/specres/users/homepage_user_visits_homepage_with_announcement_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q01X77NM0PT8DK32MN8W",
-      "last_verified": "2026-02-21",
-      "name": "onboardings_user_completes_onboarding_system",
-      "path": "docs/specres/users/onboardings_user_completes_onboarding_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q020VDGHG86S7SP424G4",
-      "last_verified": "2026-02-21",
-      "name": "organization_user_leaves_an_organization_system",
-      "path": "docs/specres/users/organization_user_leaves_an_organization_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q022QGVYZATSYQ81S49M",
-      "last_verified": "2026-02-21",
-      "name": "organization_user_updates_org_settings_system",
-      "path": "docs/specres/users/organization_user_updates_org_settings_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q02573ZHS0G2NSB8497V",
-      "last_verified": "2026-02-21",
-      "name": "organization_user_views_an_organization_system",
-      "path": "docs/specres/users/organization_user_views_an_organization_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q028DXG9C36QQQSCCX39",
-      "last_verified": "2026-02-21",
-      "name": "podcasts_user_visits_podcast_episode_system",
-      "path": "docs/specres/users/podcasts_user_visits_podcast_episode_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q02ABD5VT6PQX2R91AKG",
-      "last_verified": "2026-02-21",
-      "name": "podcasts_user_visits_podcast_page_system",
-      "path": "docs/specres/users/podcasts_user_visits_podcast_page_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q02DYCGB84Y8GQXFXPCR",
-      "last_verified": "2026-02-21",
-      "name": "podcasts_user_visits_podcasts_root_page_system",
-      "path": "docs/specres/users/podcasts_user_visits_podcasts_root_page_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q02FN9BT8VP8XT2WTGFB",
-      "last_verified": "2026-02-21",
-      "name": "search_display_users_search_system",
-      "path": "docs/specres/users/search_display_users_search_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q02J13QMAH08JZZ97H8V",
-      "last_verified": "2026-02-21",
-      "name": "search_user_searches_users_system",
-      "path": "docs/specres/users/search_user_searches_users_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q02M69K1D5GQRSAKNBT2",
-      "last_verified": "2026-02-21",
-      "name": "tags_user_updates_a_tag_system",
-      "path": "docs/specres/users/tags_user_updates_a_tag_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q02QRQTZV5V6053R09PF",
-      "last_verified": "2026-02-21",
-      "name": "user_trusted_user_flags_user_system",
-      "path": "docs/specres/users/user_trusted_user_flags_user_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q02SQEABG8G7FGYTSKS7",
-      "last_verified": "2026-02-21",
-      "name": "user_user_edits_customization_system",
-      "path": "docs/specres/users/user_user_edits_customization_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q02WV4SVDGBTMWYKFNGT",
-      "last_verified": "2026-02-21",
-      "name": "user_user_edits_extensions_system",
-      "path": "docs/specres/users/user_user_edits_extensions_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q02ZN4D6XSC0GTXYYK9X",
-      "last_verified": "2026-02-21",
-      "name": "user_user_edits_profile_system",
-      "path": "docs/specres/users/user_user_edits_profile_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q03184HQSVWZMBJP46Z5",
-      "last_verified": "2026-02-21",
-      "name": "user_user_self_destroy_system",
-      "path": "docs/specres/users/user_user_self_destroy_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q034QEB5KC60T45P8HQD",
-      "last_verified": "2026-02-21",
-      "name": "user_user_settings_response_templates_system",
-      "path": "docs/specres/users/user_user_settings_response_templates_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q036FJAKKN12ARY9A93P",
-      "last_verified": "2026-02-21",
-      "name": "user_view_user_index_system",
-      "path": "docs/specres/users/user_view_user_index_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q0390J4Q7B8GM663GMS7",
-      "last_verified": "2026-02-21",
-      "name": "user_logs_in_with_password_system",
-      "path": "docs/specres/users/user_logs_in_with_password_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q03BNXF57J2PK5CZG4ZD",
-      "last_verified": "2026-02-21",
-      "name": "user_uses_the_editor_system",
-      "path": "docs/specres/users/user_uses_the_editor_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q03EPVG78ADZN83YTQA9",
-      "last_verified": "2026-02-21",
-      "name": "user_views_a_reading_list_system",
-      "path": "docs/specres/users/user_views_a_reading_list_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q03G9VV0QA2DHGMHKN52",
-      "last_verified": "2026-02-21",
-      "name": "user_views_logo_system",
-      "path": "docs/specres/users/user_views_logo_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q03K4D1WTRHYGXPYW90H",
-      "last_verified": "2026-02-21",
-      "name": "videos_user_visits_videos_system",
-      "path": "docs/specres/users/videos_user_visits_videos_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q03P8P8YQ89WRTWSJKD8",
-      "last_verified": "2026-02-21",
-      "name": "layouts_signup_modal.html.erb_view",
-      "path": "docs/specres/users/layouts_signup_modal.html.erb_view.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q03RQ4BXYT8553HRF98S",
-      "last_verified": "2026-02-21",
-      "name": "users_main_feed_view",
-      "path": "docs/specres/users/users_main_feed_view.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q03VR92VH9Y1C3HJAKQE",
-      "last_verified": "2026-02-21",
-      "name": "users_settings_view",
-      "path": "docs/specres/users/users_settings_view.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q03X04T5J3XGQGGZ4PZP",
-      "last_verified": "2026-02-21",
-      "name": "emails_send_user_digest_worker_worker",
-      "path": "docs/specres/users/emails_send_user_digest_worker_worker.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q040TMKEJ8DMRAAFGFT8",
-      "last_verified": "2026-02-21",
-      "name": "moderator_banish_user_worker_worker",
-      "path": "docs/specres/users/moderator_banish_user_worker_worker.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q042ZV189YKCW57BJC54",
-      "last_verified": "2026-02-21",
-      "name": "segmented_user_refresh_worker_worker",
-      "path": "docs/specres/users/segmented_user_refresh_worker_worker.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q045BT56CRV9CG18AE78",
-      "last_verified": "2026-02-21",
-      "name": "users_bust_cache_worker_worker",
-      "path": "docs/specres/users/users_bust_cache_worker_worker.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q047TVJCDGJ9WWBM7BYT",
-      "last_verified": "2026-02-21",
-      "name": "users_bust_profile_details_cache_worker_worker",
-      "path": "docs/specres/users/users_bust_profile_details_cache_worker_worker.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q04AJAH306RB6NZT1KV7",
-      "last_verified": "2026-02-21",
-      "name": "users_bust_profile_identity_cache_worker_worker",
-      "path": "docs/specres/users/users_bust_profile_identity_cache_worker_worker.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q04DEJDYMSTQ32S71XWF",
-      "last_verified": "2026-02-21",
-      "name": "users_bust_profile_image_cache_worker_worker",
-      "path": "docs/specres/users/users_bust_profile_image_cache_worker_worker.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q04F8A6PANJ8V2QQCKM7",
-      "last_verified": "2026-02-21",
-      "name": "users_confirm_flag_reactions_worker_worker",
-      "path": "docs/specres/users/users_confirm_flag_reactions_worker_worker.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q04JC2RDR7C29CTZPSV8",
-      "last_verified": "2026-02-21",
-      "name": "users_delete_worker_worker",
-      "path": "docs/specres/users/users_delete_worker_worker.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q04MP1S1GBNY5A7GSN4V",
-      "last_verified": "2026-02-21",
-      "name": "users_follow_worker_worker",
-      "path": "docs/specres/users/users_follow_worker_worker.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q04QRSQZ9HE4N9ZBJ2F3",
-      "last_verified": "2026-02-21",
-      "name": "users_generate_ai_profile_image_worker_worker",
-      "path": "docs/specres/users/users_generate_ai_profile_image_worker_worker.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q04S3EN84M6TNRXBZWQ6",
-      "last_verified": "2026-02-21",
-      "name": "users_merge_sync_worker_worker",
-      "path": "docs/specres/users/users_merge_sync_worker_worker.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q04W1FW39XENG4MMVBQA",
-      "last_verified": "2026-02-21",
-      "name": "users_record_field_test_event_worker_worker",
-      "path": "docs/specres/users/users_record_field_test_event_worker_worker.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q04YACJ50SYY21XZHB8E",
-      "last_verified": "2026-02-21",
-      "name": "users_resolve_spam_reports_worker_worker",
-      "path": "docs/specres/users/users_resolve_spam_reports_worker_worker.md",
-      "status": "stable"
-    },
-    {
-      "domain": "users",
-      "id": "01KHY7Q051T78DJWM6DM16S5RN",
-      "last_verified": "2026-02-21",
-      "name": "users_subscribe_to_mailchimp_newsletter_worker_worker",
-      "path": "docs/specres/users/users_subscribe_to_mailchimp_newsletter_worker_worker.md",
       "status": "stable"
     },
     {
@@ -7008,94 +5009,6 @@
       "status": "stable"
     },
     {
-      "domain": "credits",
-      "id": "01KHY7Q0RBXTKDG0EV3MCKJ3MA",
-      "last_verified": "2026-02-21",
-      "name": "credit_model",
-      "path": "docs/specres/credits/credit_model.md",
-      "status": "stable"
-    },
-    {
-      "domain": "credits",
-      "id": "01KHY7Q0REH0WGXY0CNPR8D2KF",
-      "last_verified": "2026-02-21",
-      "name": "stripe_active_card_policy_policy",
-      "path": "docs/specres/credits/stripe_active_card_policy_policy.md",
-      "status": "stable"
-    },
-    {
-      "domain": "credits",
-      "id": "01KHY7Q0RG9ASEA7N4QYMYQXQZ",
-      "last_verified": "2026-02-21",
-      "name": "credits_api",
-      "path": "docs/specres/credits/credits_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "credits",
-      "id": "01KHY7Q0RKZW9VBW2A4XWKA4P6",
-      "last_verified": "2026-02-21",
-      "name": "incoming_webhooks_stripe_stripe_events_api",
-      "path": "docs/specres/credits/incoming_webhooks_stripe_stripe_events_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "credits",
-      "id": "01KHY7Q0RPG6Z9STZRA0Y5EM6C",
-      "last_verified": "2026-02-21",
-      "name": "stripe_active_cards_api",
-      "path": "docs/specres/credits/stripe_active_cards_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "credits",
-      "id": "01KHY7Q0RSFC1DRYCPEREAVVV2",
-      "last_verified": "2026-02-21",
-      "name": "stripe_subscriptions_api",
-      "path": "docs/specres/credits/stripe_subscriptions_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "credits",
-      "id": "01KHY7Q0RVZKEP5FVP0XEPB9YS",
-      "last_verified": "2026-02-21",
-      "name": "credits_manage_service",
-      "path": "docs/specres/credits/credits_manage_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "credits",
-      "id": "01KHY7Q0RYRHJZAXJ66QQKQ8Y6",
-      "last_verified": "2026-02-21",
-      "name": "payments_customer_service",
-      "path": "docs/specres/credits/payments_customer_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "credits",
-      "id": "01KHY7Q0S00FV6HXK03WTZN884",
-      "last_verified": "2026-02-21",
-      "name": "payments_process_credit_purchase_service",
-      "path": "docs/specres/credits/payments_process_credit_purchase_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "credits",
-      "id": "01KHY7Q0S3HKSFEQSAXR2JYNQ3",
-      "last_verified": "2026-02-21",
-      "name": "credits_new.html.erb_view",
-      "path": "docs/specres/credits/credits_new.html.erb_view.md",
-      "status": "stable"
-    },
-    {
-      "domain": "credits",
-      "id": "01KHY7Q0S5D5BCVDY9QN00B7SF",
-      "last_verified": "2026-02-21",
-      "name": "credits_sync_counter_cache_worker",
-      "path": "docs/specres/credits/credits_sync_counter_cache_worker.md",
-      "status": "stable"
-    },
-    {
       "domain": "emails",
       "id": "01KHY7Q0S8GJ2WZQBHZRPKTQYZ",
       "last_verified": "2026-02-21",
@@ -7581,638 +5494,6 @@
       "last_verified": "2026-02-21",
       "name": "page_view_rollup_worker_worker",
       "path": "docs/specres/analytics/page_view_rollup_worker_worker.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q0ZKZHN5NVVXW9JH1ZTJ",
-      "last_verified": "2026-02-21",
-      "name": "admin_billboard_placement_area_configs_controller_controller",
-      "path": "docs/specres/admin/admin_billboard_placement_area_configs_controller_controller.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q0ZPGYP5XHTQ1R20TSJS",
-      "last_verified": "2026-02-21",
-      "name": "admin_user_queries_controller_controller",
-      "path": "docs/specres/admin/admin_user_queries_controller_controller.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q0ZS0GBR8TM7QNKMJKSB",
-      "last_verified": "2026-02-21",
-      "name": "admin_organizations_helper_helper",
-      "path": "docs/specres/admin/admin_organizations_helper_helper.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q0ZVBX1AE45MERS66WWR",
-      "last_verified": "2026-02-21",
-      "name": "admin_users_helper_helper",
-      "path": "docs/specres/admin/admin_users_helper_helper.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q0ZYTV8P70KHT2AQHDDT",
-      "last_verified": "2026-02-21",
-      "name": "admin_gdpr_delete_requests_query_query",
-      "path": "docs/specres/admin/admin_gdpr_delete_requests_query_query.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q10071QABPPT9HE3W95Q",
-      "last_verified": "2026-02-21",
-      "name": "admin_moderators_query_query",
-      "path": "docs/specres/admin/admin_moderators_query_query.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q103GYCAG6SCP9340GH7",
-      "last_verified": "2026-02-21",
-      "name": "admin_users_query_query",
-      "path": "docs/specres/admin/admin_users_query_query.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q106VNZAQYVWT15HEEW0",
-      "last_verified": "2026-02-21",
-      "name": "admin_articles_api",
-      "path": "docs/specres/admin/admin_articles_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q108K37N79YRQ9BM9JC9",
-      "last_verified": "2026-02-21",
-      "name": "admin_badge_achievements_api",
-      "path": "docs/specres/admin/admin_badge_achievements_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q10BJWRXTBSG7KGZ4JAE",
-      "last_verified": "2026-02-21",
-      "name": "admin_badge_automations_controller_api",
-      "path": "docs/specres/admin/admin_badge_automations_controller_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q10ERFFG37AF7K93GQ1F",
-      "last_verified": "2026-02-21",
-      "name": "admin_badges_api",
-      "path": "docs/specres/admin/admin_badges_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q10GKT211246BX1Y4GW2",
-      "last_verified": "2026-02-21",
-      "name": "admin_billboards_api",
-      "path": "docs/specres/admin/admin_billboards_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q10KD8D0DH11B06PYX6B",
-      "last_verified": "2026-02-21",
-      "name": "admin_broadcasts_api",
-      "path": "docs/specres/admin/admin_broadcasts_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q10NJ10KG9D5WSD9N8QW",
-      "last_verified": "2026-02-21",
-      "name": "admin_bulk_assign_role_api",
-      "path": "docs/specres/admin/admin_bulk_assign_role_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q10RW4WS82GD410J80NJ",
-      "last_verified": "2026-02-21",
-      "name": "admin_community_bots_api",
-      "path": "docs/specres/admin/admin_community_bots_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q10V0JXJDDDGMJT90JTA",
-      "last_verified": "2026-02-21",
-      "name": "admin_configs_api",
-      "path": "docs/specres/admin/admin_configs_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q10YH8SST7GNXF40ZHA2",
-      "last_verified": "2026-02-21",
-      "name": "admin_consumer_apps_api",
-      "path": "docs/specres/admin/admin_consumer_apps_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q11004H3J2ZQC4506B0Y",
-      "last_verified": "2026-02-21",
-      "name": "admin_creator_settings_api",
-      "path": "docs/specres/admin/admin_creator_settings_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q11385RHRQX0N8ZVS8Y9",
-      "last_verified": "2026-02-21",
-      "name": "admin_data_update_scripts_api",
-      "path": "docs/specres/admin/admin_data_update_scripts_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q115HXFA4F0ESJMHC6XJ",
-      "last_verified": "2026-02-21",
-      "name": "admin_emails_api",
-      "path": "docs/specres/admin/admin_emails_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q118JQSGVQABVYE7MKCX",
-      "last_verified": "2026-02-21",
-      "name": "admin_extensions_api",
-      "path": "docs/specres/admin/admin_extensions_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q11A4CW0Z6TBVYXEB2E6",
-      "last_verified": "2026-02-21",
-      "name": "admin_feed_playground_api",
-      "path": "docs/specres/admin/admin_feed_playground_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q11DNYTVBYM6FXP5G1GR",
-      "last_verified": "2026-02-21",
-      "name": "admin_feedback_messages_api",
-      "path": "docs/specres/admin/admin_feedback_messages_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q11G3505E84GK2TV6PQ9",
-      "last_verified": "2026-02-21",
-      "name": "admin_gdpr_delete_requests_api",
-      "path": "docs/specres/admin/admin_gdpr_delete_requests_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q11JKTKRJE8ZQ4ZQG5RM",
-      "last_verified": "2026-02-21",
-      "name": "admin_html_variants_api",
-      "path": "docs/specres/admin/admin_html_variants_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q11NAX3Y73F40HXC7FXY",
-      "last_verified": "2026-02-21",
-      "name": "admin_invitations_api",
-      "path": "docs/specres/admin/admin_invitations_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q11QVSHRA2025SNVJKBF",
-      "last_verified": "2026-02-21",
-      "name": "admin_moderator_actions_api",
-      "path": "docs/specres/admin/admin_moderator_actions_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q11TDMCE266YN7V5AC9C",
-      "last_verified": "2026-02-21",
-      "name": "admin_moderator_logs_api",
-      "path": "docs/specres/admin/admin_moderator_logs_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q11W0XHCT4QDB2DPMP50",
-      "last_verified": "2026-02-21",
-      "name": "admin_mods_api",
-      "path": "docs/specres/admin/admin_mods_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q11ZC3DM1J4TPJF1Z27A",
-      "last_verified": "2026-02-21",
-      "name": "admin_navigation_link_api",
-      "path": "docs/specres/admin/admin_navigation_link_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q1211B44Q1NCWJRW8WEX",
-      "last_verified": "2026-02-21",
-      "name": "admin_nested_sidebar_api",
-      "path": "docs/specres/admin/admin_nested_sidebar_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q1245KCH2Q3VQBF4Q7KT",
-      "last_verified": "2026-02-21",
-      "name": "admin_organization_memberships_api",
-      "path": "docs/specres/admin/admin_organization_memberships_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q126GSGP88HTM2KX4K7M",
-      "last_verified": "2026-02-21",
-      "name": "admin_organizations_baseline_score_api",
-      "path": "docs/specres/admin/admin_organizations_baseline_score_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q1295FHBEGB1FJRPT69E",
-      "last_verified": "2026-02-21",
-      "name": "admin_organizations_fully_trusted_api",
-      "path": "docs/specres/admin/admin_organizations_fully_trusted_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q12B2R9DPMZGXASAVN4C",
-      "last_verified": "2026-02-21",
-      "name": "admin_organizations_api",
-      "path": "docs/specres/admin/admin_organizations_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q12EDTYTHBXSZKBP2XGR",
-      "last_verified": "2026-02-21",
-      "name": "admin_overview_api",
-      "path": "docs/specres/admin/admin_overview_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q12GZGGE8F28AG61AZST",
-      "last_verified": "2026-02-21",
-      "name": "admin_page_templates_api",
-      "path": "docs/specres/admin/admin_page_templates_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q12KB0ZV4GHHNFFBG7V6",
-      "last_verified": "2026-02-21",
-      "name": "admin_pages_api",
-      "path": "docs/specres/admin/admin_pages_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q12P8CK2NE15QYZY9S3S",
-      "last_verified": "2026-02-21",
-      "name": "admin_permissions_api",
-      "path": "docs/specres/admin/admin_permissions_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q12RK9MCVEHN73ER6146",
-      "last_verified": "2026-02-21",
-      "name": "admin_podcasts_api",
-      "path": "docs/specres/admin/admin_podcasts_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q12V641EKE7Z711V1X4F",
-      "last_verified": "2026-02-21",
-      "name": "admin_privileged_reactions_api",
-      "path": "docs/specres/admin/admin_privileged_reactions_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q12XWCNJ7VCH1F6N1MVB",
-      "last_verified": "2026-02-21",
-      "name": "admin_profile_field_groups_api",
-      "path": "docs/specres/admin/admin_profile_field_groups_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q130PE2BJBJPA3YTXXEV",
-      "last_verified": "2026-02-21",
-      "name": "admin_profile_fields_api",
-      "path": "docs/specres/admin/admin_profile_fields_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q132GJ614T54N5W899BM",
-      "last_verified": "2026-02-21",
-      "name": "admin_reactions_api",
-      "path": "docs/specres/admin/admin_reactions_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q1359DT2EHA9FPG2BR3E",
-      "last_verified": "2026-02-21",
-      "name": "admin_response_templates_api",
-      "path": "docs/specres/admin/admin_response_templates_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q1372YVNYXSP9MQEM55C",
-      "last_verified": "2026-02-21",
-      "name": "admin_scheduled_automations_controller_api",
-      "path": "docs/specres/admin/admin_scheduled_automations_controller_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q13AHA2SC3GPQ920WG44",
-      "last_verified": "2026-02-21",
-      "name": "admin_subforems_about_page_api",
-      "path": "docs/specres/admin/admin_subforems_about_page_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q13CTARYM9F87K21A5Z5",
-      "last_verified": "2026-02-21",
-      "name": "admin_subforems_api",
-      "path": "docs/specres/admin/admin_subforems_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q13FW678WREK162FKQ28",
-      "last_verified": "2026-02-21",
-      "name": "admin_surveys_api",
-      "path": "docs/specres/admin/admin_surveys_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q13H25GT1RRJ39XCQHHN",
-      "last_verified": "2026-02-21",
-      "name": "admin_tags_moderators_api",
-      "path": "docs/specres/admin/admin_tags_moderators_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q13MZXH4YKCMT62ZG7V1",
-      "last_verified": "2026-02-21",
-      "name": "admin_tags_api",
-      "path": "docs/specres/admin/admin_tags_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q13QS5NSCSD3JNRR1SJZ",
-      "last_verified": "2026-02-21",
-      "name": "admin_tools_api",
-      "path": "docs/specres/admin/admin_tools_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q13S2WPV7XAKF517A7DF",
-      "last_verified": "2026-02-21",
-      "name": "admin_users_users_change_max_score_api",
-      "path": "docs/specres/admin/admin_users_users_change_max_score_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q13WPVQGDYHQB1D0MKTB",
-      "last_verified": "2026-02-21",
-      "name": "admin_users_users_change_reputation_modifier_api",
-      "path": "docs/specres/admin/admin_users_users_change_reputation_modifier_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q13Y14FQJ0A9Q82BY9H4",
-      "last_verified": "2026-02-21",
-      "name": "admin_users_users_export_api",
-      "path": "docs/specres/admin/admin_users_users_export_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q1406BWG5ZCSEXBE19XZ",
-      "last_verified": "2026-02-21",
-      "name": "admin_users_users_update_email_api",
-      "path": "docs/specres/admin/admin_users_users_update_email_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q143NFSZ0XH0P23VK2TQ",
-      "last_verified": "2026-02-21",
-      "name": "admin_users_manage_api",
-      "path": "docs/specres/admin/admin_users_manage_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q146KBEEXMZ1BBBZSC16",
-      "last_verified": "2026-02-21",
-      "name": "admin_users_api",
-      "path": "docs/specres/admin/admin_users_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q1494EFCBV30BW8JVGD2",
-      "last_verified": "2026-02-21",
-      "name": "admin_welcome_api",
-      "path": "docs/specres/admin/admin_welcome_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q14BH4VTGJ2ZV0EDW9DJ",
-      "last_verified": "2026-02-21",
-      "name": "api_v0_admin_users_api",
-      "path": "docs/specres/admin/api_v0_admin_users_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q14E7WVQAWF9J3T93JFK",
-      "last_verified": "2026-02-21",
-      "name": "api_v1_admin_users_api",
-      "path": "docs/specres/admin/api_v1_admin_users_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q14GF2R424FJJQXE81B6",
-      "last_verified": "2026-02-21",
-      "name": "admin_charts_data_service",
-      "path": "docs/specres/admin/admin_charts_data_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q14KKHN9B6KCN7V2ZX6B",
-      "last_verified": "2026-02-21",
-      "name": "admin_stats_data_service",
-      "path": "docs/specres/admin/admin_stats_data_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q14N8GAYBPQ5X9675SPD",
-      "last_verified": "2026-02-21",
-      "name": "admin_admin_awards_badges_system",
-      "path": "docs/specres/admin/admin_admin_awards_badges_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q14RC0EVMRR37M64XJGK",
-      "last_verified": "2026-02-21",
-      "name": "admin_admin_creates_new_page_system",
-      "path": "docs/specres/admin/admin_admin_creates_new_page_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q14TTZC4V12VK2QM0NPH",
-      "last_verified": "2026-02-21",
-      "name": "admin_admin_creates_new_tag_system",
-      "path": "docs/specres/admin/admin_admin_creates_new_tag_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q14XCDQ6MA6K5NZJ6KP0",
-      "last_verified": "2026-02-21",
-      "name": "admin_admin_deletes_user_system",
-      "path": "docs/specres/admin/admin_admin_deletes_user_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q14ZMZQYMBGSXK56TPNE",
-      "last_verified": "2026-02-21",
-      "name": "admin_admin_invites_user_system",
-      "path": "docs/specres/admin/admin_admin_invites_user_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q152E7D3TYNSNVX7VKE7",
-      "last_verified": "2026-02-21",
-      "name": "admin_admin_manages_organizations_system",
-      "path": "docs/specres/admin/admin_admin_manages_organizations_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q1559K03TFTRH34Z7SNR",
-      "last_verified": "2026-02-21",
-      "name": "admin_admin_manages_pages_system",
-      "path": "docs/specres/admin/admin_admin_manages_pages_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q157N6JH9B9NEABFWQFS",
-      "last_verified": "2026-02-21",
-      "name": "admin_admin_manages_profile_fields_system",
-      "path": "docs/specres/admin/admin_admin_manages_profile_fields_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q159Q88RTRD4XFHS1DN1",
-      "last_verified": "2026-02-21",
-      "name": "admin_admin_manages_reports_system",
-      "path": "docs/specres/admin/admin_admin_manages_reports_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q15C3H0297BQJP9ZB6BM",
-      "last_verified": "2026-02-21",
-      "name": "admin_admin_updates_tag_system",
-      "path": "docs/specres/admin/admin_admin_updates_tag_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q15ER20W2SHXMA3WZSKX",
-      "last_verified": "2026-02-21",
-      "name": "admin_admin_views_tags_system",
-      "path": "docs/specres/admin/admin_admin_views_tags_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q15HWY62GWNEE1GBZMC5",
-      "last_verified": "2026-02-21",
-      "name": "admin_admin_visits_badge_achievements_system",
-      "path": "docs/specres/admin/admin_admin_visits_badge_achievements_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q15K6ZXESPGM4WF3H4CF",
-      "last_verified": "2026-02-21",
-      "name": "admin_admin_visits_extensions_system",
-      "path": "docs/specres/admin/admin_admin_visits_extensions_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q15PGBD1SXAS5Q8WMFEJ",
-      "last_verified": "2026-02-21",
-      "name": "admin_admin_visits_overview_system",
-      "path": "docs/specres/admin/admin_admin_visits_overview_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q15RKTPXQCP5604C22TZ",
-      "last_verified": "2026-02-21",
-      "name": "admin_config_admin_updates_smtp_settings_system",
-      "path": "docs/specres/admin/admin_config_admin_updates_smtp_settings_system.md",
-      "status": "stable"
-    },
-    {
-      "domain": "admin",
-      "id": "01KHY7Q15VEZ608G8PA4T90G26",
-      "last_verified": "2026-02-21",
-      "name": "admin_billboards_new_view",
-      "path": "docs/specres/admin/admin_billboards_new_view.md",
       "status": "stable"
     },
     {
@@ -8720,70 +6001,6 @@
       "status": "stable"
     },
     {
-      "domain": "content_rendering",
-      "id": "01KHY7Q1CFM0K75Q31EBNF43RE",
-      "last_verified": "2026-02-21",
-      "name": "html_variant_model",
-      "path": "docs/specres/content_rendering/html_variant_model.md",
-      "status": "stable"
-    },
-    {
-      "domain": "content_rendering",
-      "id": "01KHY7Q1CJ68P2S04GQJKNNGX3",
-      "last_verified": "2026-02-21",
-      "name": "html_variant_policy_policy",
-      "path": "docs/specres/content_rendering/html_variant_policy_policy.md",
-      "status": "stable"
-    },
-    {
-      "domain": "content_rendering",
-      "id": "01KHY7Q1CM2SSZSKJKZ0QP1VQY",
-      "last_verified": "2026-02-21",
-      "name": "content_renderer_service",
-      "path": "docs/specres/content_rendering/content_renderer_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "content_rendering",
-      "id": "01KHY7Q1CQ3H9FMSZQYBZV36GG",
-      "last_verified": "2026-02-21",
-      "name": "markdown_processor_fixer_base_service",
-      "path": "docs/specres/content_rendering/markdown_processor_fixer_base_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "content_rendering",
-      "id": "01KHY7Q1CT7VG8DBM7WFQPCA2P",
-      "last_verified": "2026-02-21",
-      "name": "markdown_processor_fixer_fix_all_service",
-      "path": "docs/specres/content_rendering/markdown_processor_fixer_fix_all_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "content_rendering",
-      "id": "01KHY7Q1CWEQ1YTZCEMA6YGWC3",
-      "last_verified": "2026-02-21",
-      "name": "markdown_processor_fixer_fix_for_preview_service",
-      "path": "docs/specres/content_rendering/markdown_processor_fixer_fix_for_preview_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "content_rendering",
-      "id": "01KHY7Q1CZHE4D7NYJBMYSQ5QX",
-      "last_verified": "2026-02-21",
-      "name": "markdown_processor_parser_service",
-      "path": "docs/specres/content_rendering/markdown_processor_parser_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "content_rendering",
-      "id": "01KHY7Q1D2A4A06NR2PHDQ11H9",
-      "last_verified": "2026-02-21",
-      "name": "markdown_processor_traverser_service",
-      "path": "docs/specres/content_rendering/markdown_processor_traverser_service.md",
-      "status": "stable"
-    },
-    {
       "domain": "broadcasts",
       "id": "01KHY7Q1D5AJBXJ0MFX57XXZ4F",
       "last_verified": "2026-02-21",
@@ -8813,278 +6030,6 @@
       "last_verified": "2026-02-21",
       "name": "broadcast_model",
       "path": "docs/specres/broadcasts/broadcast_model.md",
-      "status": "stable"
-    },
-    {
-      "domain": "data_scripts",
-      "id": "01KHY7Q1DFWV0C3VSJ0XRPKN0N",
-      "last_verified": "2026-02-21",
-      "name": "data_update_scripts_add_admin_member_view_feature_flag_lib",
-      "path": "docs/specres/data_scripts/data_update_scripts_add_admin_member_view_feature_flag_lib.md",
-      "status": "stable"
-    },
-    {
-      "domain": "data_scripts",
-      "id": "01KHY7Q1DJR8VZ8TK77SFK3CFJ",
-      "last_verified": "2026-02-21",
-      "name": "data_update_scripts_add_connect_feature_flag_lib",
-      "path": "docs/specres/data_scripts/data_update_scripts_add_connect_feature_flag_lib.md",
-      "status": "stable"
-    },
-    {
-      "domain": "data_scripts",
-      "id": "01KHY7Q1DM1YGMWBA38REJHWC4",
-      "last_verified": "2026-02-21",
-      "name": "data_update_scripts_add_data_updates_scripts_feature_flag_lib",
-      "path": "docs/specres/data_scripts/data_update_scripts_add_data_updates_scripts_feature_flag_lib.md",
-      "status": "stable"
-    },
-    {
-      "domain": "data_scripts",
-      "id": "01KHY7Q1DQN49G6KFYVQ8VHN7A",
-      "last_verified": "2026-02-21",
-      "name": "data_update_scripts_add_fastly_http_purge_feature_flag_lib",
-      "path": "docs/specres/data_scripts/data_update_scripts_add_fastly_http_purge_feature_flag_lib.md",
-      "status": "stable"
-    },
-    {
-      "domain": "data_scripts",
-      "id": "01KHY7Q1DSG9VQD0XFDGN61YK4",
-      "last_verified": "2026-02-21",
-      "name": "data_update_scripts_add_feature_flag_for_feed_experiment_lib",
-      "path": "docs/specres/data_scripts/data_update_scripts_add_feature_flag_for_feed_experiment_lib.md",
-      "status": "stable"
-    },
-    {
-      "domain": "data_scripts",
-      "id": "01KHY7Q1DWYZRRD880PR54EGYP",
-      "last_verified": "2026-02-21",
-      "name": "data_update_scripts_add_single_resource_role_to_tech_admins_lib",
-      "path": "docs/specres/data_scripts/data_update_scripts_add_single_resource_role_to_tech_admins_lib.md",
-      "status": "stable"
-    },
-    {
-      "domain": "data_scripts",
-      "id": "01KHY7Q1DYQZDBN51P2FP17Z2H",
-      "last_verified": "2026-02-21",
-      "name": "data_update_scripts_backfill_creator_role_for_first_super_admin_lib",
-      "path": "docs/specres/data_scripts/data_update_scripts_backfill_creator_role_for_first_super_admin_lib.md",
-      "status": "stable"
-    },
-    {
-      "domain": "data_scripts",
-      "id": "01KHY7Q1E1VXWS20RXZX5PZHD9",
-      "last_verified": "2026-02-21",
-      "name": "data_update_scripts_backfill_forem_consumer_app_team_id_lib",
-      "path": "docs/specres/data_scripts/data_update_scripts_backfill_forem_consumer_app_team_id_lib.md",
-      "status": "stable"
-    },
-    {
-      "domain": "data_scripts",
-      "id": "01KHY7Q1E3ERRRASEKZYY7WZ2P",
-      "last_verified": "2026-02-21",
-      "name": "data_update_scripts_cleanup_orphan_git_hub_repositories_lib",
-      "path": "docs/specres/data_scripts/data_update_scripts_cleanup_orphan_git_hub_repositories_lib.md",
-      "status": "stable"
-    },
-    {
-      "domain": "data_scripts",
-      "id": "01KHY7Q1E6M25QNK13XPWW1DTM",
-      "last_verified": "2026-02-21",
-      "name": "data_update_scripts_create_initial_audience_segments_lib",
-      "path": "docs/specres/data_scripts/data_update_scripts_create_initial_audience_segments_lib.md",
-      "status": "stable"
-    },
-    {
-      "domain": "data_scripts",
-      "id": "01KHY7Q1E8DE95AGZHA1RMT8E3",
-      "last_verified": "2026-02-21",
-      "name": "data_update_scripts_disable_creator_onboarding_feature_flag_lib",
-      "path": "docs/specres/data_scripts/data_update_scripts_disable_creator_onboarding_feature_flag_lib.md",
-      "status": "stable"
-    },
-    {
-      "domain": "data_scripts",
-      "id": "01KHY7Q1EBHWZP63K9JTJ0WWC0",
-      "last_verified": "2026-02-21",
-      "name": "data_update_scripts_enable_admin_member_view_lib",
-      "path": "docs/specres/data_scripts/data_update_scripts_enable_admin_member_view_lib.md",
-      "status": "stable"
-    },
-    {
-      "domain": "data_scripts",
-      "id": "01KHY7Q1ED4YXSWC3SENV60SE7",
-      "last_verified": "2026-02-21",
-      "name": "data_update_scripts_enable_creator_onboarding_feature_flag_lib",
-      "path": "docs/specres/data_scripts/data_update_scripts_enable_creator_onboarding_feature_flag_lib.md",
-      "status": "stable"
-    },
-    {
-      "domain": "data_scripts",
-      "id": "01KHY7Q1EG4CK9GTCF3Z5AXR3D",
-      "last_verified": "2026-02-21",
-      "name": "data_update_scripts_make_tags_with_mods_supported_lib",
-      "path": "docs/specres/data_scripts/data_update_scripts_make_tags_with_mods_supported_lib.md",
-      "status": "stable"
-    },
-    {
-      "domain": "data_scripts",
-      "id": "01KHY7Q1EJSYNJQ73TW9V52VSG",
-      "last_verified": "2026-02-21",
-      "name": "data_update_scripts_migrate_themes_lib",
-      "path": "docs/specres/data_scripts/data_update_scripts_migrate_themes_lib.md",
-      "status": "stable"
-    },
-    {
-      "domain": "data_scripts",
-      "id": "01KHY7Q1EN6J4MKQJ2M8SN6NRZ",
-      "last_verified": "2026-02-21",
-      "name": "data_update_scripts_nullify_empty_string_for_alias_for_lib",
-      "path": "docs/specres/data_scripts/data_update_scripts_nullify_empty_string_for_alias_for_lib.md",
-      "status": "stable"
-    },
-    {
-      "domain": "data_scripts",
-      "id": "01KHY7Q1EQRXYWPH4KE44FX44W",
-      "last_verified": "2026-02-21",
-      "name": "data_update_scripts_nullify_empty_tag_colors_lib",
-      "path": "docs/specres/data_scripts/data_update_scripts_nullify_empty_tag_colors_lib.md",
-      "status": "stable"
-    },
-    {
-      "domain": "data_scripts",
-      "id": "01KHY7Q1ETH90D7841A5WXR4XN",
-      "last_verified": "2026-02-21",
-      "name": "data_update_scripts_nullify_invalid_tag_fields_lib",
-      "path": "docs/specres/data_scripts/data_update_scripts_nullify_invalid_tag_fields_lib.md",
-      "status": "stable"
-    },
-    {
-      "domain": "data_scripts",
-      "id": "01KHY7Q1EW8TC20H18MD22ZJ4W",
-      "last_verified": "2026-02-21",
-      "name": "data_update_scripts_populate_suggested_tags_from_settings_lib",
-      "path": "docs/specres/data_scripts/data_update_scripts_populate_suggested_tags_from_settings_lib.md",
-      "status": "stable"
-    },
-    {
-      "domain": "data_scripts",
-      "id": "01KHY7Q1EYR7CVJJZE6NCYVEV7",
-      "last_verified": "2026-02-21",
-      "name": "data_update_scripts_remove_admin_member_view_feature_flag_lib",
-      "path": "docs/specres/data_scripts/data_update_scripts_remove_admin_member_view_feature_flag_lib.md",
-      "status": "stable"
-    },
-    {
-      "domain": "data_scripts",
-      "id": "01KHY7Q1F10PT4WF1FBYY8JX02",
-      "last_verified": "2026-02-21",
-      "name": "data_update_scripts_remove_apple_auth_feature_flag_lib",
-      "path": "docs/specres/data_scripts/data_update_scripts_remove_apple_auth_feature_flag_lib.md",
-      "status": "stable"
-    },
-    {
-      "domain": "data_scripts",
-      "id": "01KHY7Q1F3JYEJ2706PWY10YDV",
-      "last_verified": "2026-02-21",
-      "name": "data_update_scripts_remove_connect_feature_flag_lib",
-      "path": "docs/specres/data_scripts/data_update_scripts_remove_connect_feature_flag_lib.md",
-      "status": "stable"
-    },
-    {
-      "domain": "data_scripts",
-      "id": "01KHY7Q1F61YW6V9YWKZRKP2RJ",
-      "last_verified": "2026-02-21",
-      "name": "data_update_scripts_remove_detect_animated_images_feature_flag_lib",
-      "path": "docs/specres/data_scripts/data_update_scripts_remove_detect_animated_images_feature_flag_lib.md",
-      "status": "stable"
-    },
-    {
-      "domain": "data_scripts",
-      "id": "01KHY7Q1F8EZN3TGDW91N8TYV3",
-      "last_verified": "2026-02-21",
-      "name": "data_update_scripts_remove_fastly_http_purge_flag_lib",
-      "path": "docs/specres/data_scripts/data_update_scripts_remove_fastly_http_purge_flag_lib.md",
-      "status": "stable"
-    },
-    {
-      "domain": "data_scripts",
-      "id": "01KHY7Q1FBM0RVY9QJSE6W6W34",
-      "last_verified": "2026-02-21",
-      "name": "data_update_scripts_remove_feeds_import_feature_flag_lib",
-      "path": "docs/specres/data_scripts/data_update_scripts_remove_feeds_import_feature_flag_lib.md",
-      "status": "stable"
-    },
-    {
-      "domain": "data_scripts",
-      "id": "01KHY7Q1FD44PV84NPSAKDXZS5",
-      "last_verified": "2026-02-21",
-      "name": "data_update_scripts_remove_mailchimp_sustaining_members_newsletter_lib",
-      "path": "docs/specres/data_scripts/data_update_scripts_remove_mailchimp_sustaining_members_newsletter_lib.md",
-      "status": "stable"
-    },
-    {
-      "domain": "data_scripts",
-      "id": "01KHY7Q1FGRND4PF87YD5TZ18K",
-      "last_verified": "2026-02-21",
-      "name": "data_update_scripts_remove_passport_feature_flag_lib",
-      "path": "docs/specres/data_scripts/data_update_scripts_remove_passport_feature_flag_lib.md",
-      "status": "stable"
-    },
-    {
-      "domain": "data_scripts",
-      "id": "01KHY7Q1FJN89EC74SQFWS6RGG",
-      "last_verified": "2026-02-21",
-      "name": "data_update_scripts_remove_runtime_banner_feature_flag_lib",
-      "path": "docs/specres/data_scripts/data_update_scripts_remove_runtime_banner_feature_flag_lib.md",
-      "status": "stable"
-    },
-    {
-      "domain": "data_scripts",
-      "id": "01KHY7Q1FNHJQ34CCZYRQF1PXB",
-      "last_verified": "2026-02-21",
-      "name": "data_update_scripts_remove_site_config_scripts_lib",
-      "path": "docs/specres/data_scripts/data_update_scripts_remove_site_config_scripts_lib.md",
-      "status": "stable"
-    },
-    {
-      "domain": "data_scripts",
-      "id": "01KHY7Q1FQMRAS8X0WB1E29FC5",
-      "last_verified": "2026-02-21",
-      "name": "data_update_scripts_remove_unused_data_update_scripts_lib",
-      "path": "docs/specres/data_scripts/data_update_scripts_remove_unused_data_update_scripts_lib.md",
-      "status": "stable"
-    },
-    {
-      "domain": "data_scripts",
-      "id": "01KHY7Q1FTHWZE0Q9H7E2FTP3V",
-      "last_verified": "2026-02-21",
-      "name": "data_update_scripts_stripping_html_tags_from_tag_short_summary_lib",
-      "path": "docs/specres/data_scripts/data_update_scripts_stripping_html_tags_from_tag_short_summary_lib.md",
-      "status": "stable"
-    },
-    {
-      "domain": "data_scripts",
-      "id": "01KHY7Q1FWEANXYFNKK2KKS779",
-      "last_verified": "2026-02-21",
-      "name": "data_update_script_model",
-      "path": "docs/specres/data_scripts/data_update_script_model.md",
-      "status": "stable"
-    },
-    {
-      "domain": "data_scripts",
-      "id": "01KHY7Q1FZYZ0G1SR2CQSNVMNF",
-      "last_verified": "2026-02-21",
-      "name": "data_update_scripts_admin_routes_routing",
-      "path": "docs/specres/data_scripts/data_update_scripts_admin_routes_routing.md",
-      "status": "stable"
-    },
-    {
-      "domain": "data_scripts",
-      "id": "01KHY7Q1G10WYQMAH0EDDH2G0P",
-      "last_verified": "2026-02-21",
-      "name": "metrics_check_data_update_script_statuses_worker",
-      "path": "docs/specres/data_scripts/metrics_check_data_update_script_statuses_worker.md",
       "status": "stable"
     },
     {
@@ -9389,142 +6334,6 @@
       "last_verified": "2026-02-21",
       "name": "github_repos_frontend_displays_repos",
       "path": "docs/specres/github_integration/github_repos_frontend_displays_repos.md",
-      "status": "stable"
-    },
-    {
-      "domain": "tags",
-      "id": "01KHYCB979HE8GAWAK6V94BANV",
-      "last_verified": "2026-02-21",
-      "name": "tag_classifies_content",
-      "path": "docs/specres/tags/tag_classifies_content.md",
-      "status": "stable"
-    },
-    {
-      "domain": "tags",
-      "id": "01KHYCCYF91FZD91NRC64NCGPA",
-      "last_verified": "2026-02-21",
-      "name": "tag_adjustment_modifies_article_tags",
-      "path": "docs/specres/tags/tag_adjustment_modifies_article_tags.md",
-      "status": "stable"
-    },
-    {
-      "domain": "tags",
-      "id": "01KHYCE88A8Z44K257V7Q16KPK",
-      "last_verified": "2026-02-21",
-      "name": "tag_scopes_to_subforem",
-      "path": "docs/specres/tags/tag_scopes_to_subforem.md",
-      "status": "stable"
-    },
-    {
-      "domain": "tags",
-      "id": "01KHYCF2QMAT9AJYWS2C4TWBPE",
-      "last_verified": "2026-02-21",
-      "name": "admin_manages_tag_lifecycle",
-      "path": "docs/specres/tags/admin_manages_tag_lifecycle.md",
-      "status": "stable"
-    },
-    {
-      "domain": "tags",
-      "id": "01KHYCGB56TKXQNTVJHKN58M32",
-      "last_verified": "2026-02-21",
-      "name": "admin_assigns_tag_moderators",
-      "path": "docs/specres/tags/admin_assigns_tag_moderators.md",
-      "status": "stable"
-    },
-    {
-      "domain": "tags",
-      "id": "01KHYCHBSG5WKRXGVJ81HAFC7F",
-      "last_verified": "2026-02-21",
-      "name": "user_browses_and_edits_tags",
-      "path": "docs/specres/tags/user_browses_and_edits_tags.md",
-      "status": "stable"
-    },
-    {
-      "domain": "tags",
-      "id": "01KHYCJNHZ6V29EK1MP1PGSCT6",
-      "last_verified": "2026-02-21",
-      "name": "api_lists_tags",
-      "path": "docs/specres/tags/api_lists_tags.md",
-      "status": "stable"
-    },
-    {
-      "domain": "tags",
-      "id": "01KHYCM33CMWM4X1249Z9032CQ",
-      "last_verified": null,
-      "name": "system_retags_aliased_content",
-      "path": "docs/specres/tags/system_retags_aliased_content.md",
-      "status": "draft"
-    },
-    {
-      "domain": "tags",
-      "id": "01KHYCN1D8NN3GXYBG17C9P3XV",
-      "last_verified": "2026-02-21",
-      "name": "system_busts_tag_cache",
-      "path": "docs/specres/tags/system_busts_tag_cache.md",
-      "status": "stable"
-    },
-    {
-      "domain": "tags",
-      "id": "01KHYCNWVANY5FB7JV8D1ZG2ZZ",
-      "last_verified": "2026-02-21",
-      "name": "system_refreshes_supported_tags",
-      "path": "docs/specres/tags/system_refreshes_supported_tags.md",
-      "status": "stable"
-    },
-    {
-      "domain": "tags",
-      "id": "01KHYCPT4S16SQD5XX64HWHEJ2",
-      "last_verified": "2026-02-21",
-      "name": "system_suggests_tags_for_onboarding",
-      "path": "docs/specres/tags/system_suggests_tags_for_onboarding.md",
-      "status": "stable"
-    },
-    {
-      "domain": "tags",
-      "id": "01KHYCQP8ZV9CETSKG0HMGF2XP",
-      "last_verified": null,
-      "name": "user_follows_or_hides_tag",
-      "path": "docs/specres/tags/user_follows_or_hides_tag.md",
-      "status": "draft"
-    },
-    {
-      "domain": "tags",
-      "id": "01KHYCRNMG4MM7NP4BV78E5WQ2",
-      "last_verified": null,
-      "name": "billboard_selects_target_tags",
-      "path": "docs/specres/tags/billboard_selects_target_tags.md",
-      "status": "draft"
-    },
-    {
-      "domain": "tags",
-      "id": "01KHYCSHNS0S69CWGV0Q67HZVW",
-      "last_verified": null,
-      "name": "listing_displays_tags",
-      "path": "docs/specres/tags/listing_displays_tags.md",
-      "status": "draft"
-    },
-    {
-      "domain": "surveys",
-      "id": "01KHYDGFH91Y4CKRSK7XB9CAY2",
-      "last_verified": "2026-02-21",
-      "name": "survey_defines_data_model",
-      "path": "docs/specres/surveys/survey_defines_data_model.md",
-      "status": "stable"
-    },
-    {
-      "domain": "surveys",
-      "id": "01KHYDHRP7XCMAJFEZ27YPZK5Y",
-      "last_verified": "2026-02-21",
-      "name": "survey_completion_tracks_user_progress",
-      "path": "docs/specres/surveys/survey_completion_tracks_user_progress.md",
-      "status": "stable"
-    },
-    {
-      "domain": "surveys",
-      "id": "01KHYDKBE1NWA0CH3ZQ7XR3RKG",
-      "last_verified": "2026-02-21",
-      "name": "survey_presents_public_view",
-      "path": "docs/specres/surveys/survey_presents_public_view.md",
       "status": "stable"
     },
     {
@@ -10118,6 +6927,78 @@
       "name": "user_can_retrieve_organization_via_api",
       "path": "docs/specres/organizations/user_can_retrieve_organization_via_api.md",
       "status": "stable"
+    },
+    {
+      "domain": "survey",
+      "id": "01KHZKCR70BAFQ159BEQFXBJQW",
+      "last_verified": "2026-02-21",
+      "name": "user_can_view_survey",
+      "path": "docs/specres/survey/user_can_view_survey.md",
+      "status": "stable"
+    },
+    {
+      "domain": "survey",
+      "id": "01KHZKDENF1FEDNJQD6XXKWAKZ",
+      "last_verified": "2026-02-21",
+      "name": "user_can_vote_on_survey_polls",
+      "path": "docs/specres/survey/user_can_vote_on_survey_polls.md",
+      "status": "stable"
+    },
+    {
+      "domain": "survey",
+      "id": "01KHZM8WACKF3RJZT65WP2P2E9",
+      "last_verified": "2026-02-21",
+      "name": "admin_can_create_survey",
+      "path": "docs/specres/survey/admin_can_create_survey.md",
+      "status": "stable"
+    },
+    {
+      "domain": "survey",
+      "id": "01KHZMA857XQ0MP5F9S9D2ZYCX",
+      "last_verified": "2026-02-21",
+      "name": "user_can_cast_poll_vote",
+      "path": "docs/specres/survey/user_can_cast_poll_vote.md",
+      "status": "stable"
+    },
+    {
+      "domain": "survey",
+      "id": "01KHZME2KMA2REG6V4QSGBK5XQ",
+      "last_verified": null,
+      "name": "admin_can_edit_survey",
+      "path": "docs/specres/survey/admin_can_edit_survey.md",
+      "status": "draft"
+    },
+    {
+      "domain": "survey",
+      "id": "01KHZMED56WYNARJ0KFNWFZHZX",
+      "last_verified": "2026-02-21",
+      "name": "user_can_skip_poll_in_survey",
+      "path": "docs/specres/survey/user_can_skip_poll_in_survey.md",
+      "status": "stable"
+    },
+    {
+      "domain": "survey",
+      "id": "01KHZMEWNFHQAJSG7XYVQXEDTE",
+      "last_verified": "2026-02-21",
+      "name": "user_can_submit_poll_text_response",
+      "path": "docs/specres/survey/user_can_submit_poll_text_response.md",
+      "status": "stable"
+    },
+    {
+      "domain": "survey",
+      "id": "01KHZMJ17G1A41XF5RZPAVH91P",
+      "last_verified": "2026-02-21",
+      "name": "admin_can_delete_survey",
+      "path": "docs/specres/survey/admin_can_delete_survey.md",
+      "status": "stable"
+    },
+    {
+      "domain": "survey",
+      "id": "01KHZMJ8FDAFEW4W3NYSVRQ3CQ",
+      "last_verified": null,
+      "name": "admin_can_view_survey_responses",
+      "path": "docs/specres/survey/admin_can_view_survey_responses.md",
+      "status": "draft"
     }
   ],
   "version": 1

@@ -1,3 +1,4 @@
+# @specre 01KHZMED56WYNARJ0KFNWFZHZX
 require "rails_helper"
 
 RSpec.describe PollSkip do

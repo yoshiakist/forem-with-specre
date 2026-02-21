@@ -1,3 +1,4 @@
+# @specre 01KHY7Q18QQ15B7XBT5YDRTEQ6
 class PollTag < LiquidTagBase
   PARTIAL = "liquids/poll".freeze
   VALID_CONTEXTS = %w[Article].freeze

@@ -1,3 +1,5 @@
+# @specre 01KHZKDENF1FEDNJQD6XXKWAKZ
+# @specre 01KHZKCR70BAFQ159BEQFXBJQW
 class SurveysController < ApplicationController
   before_action :set_survey_by_slug, only: [:show]
   before_action :set_survey_by_id, only: [:votes]

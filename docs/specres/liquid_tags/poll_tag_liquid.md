@@ -7,42 +7,14 @@ last_verified: "2026-02-21"
 
 ## Related Files
 
-- app/liquid_tags/poll_tag.rb
-- app/controllers/liquid_tags_controller.rb
-- app/errors/liquid_tags.rb
-- app/liquid_tags/asciinema_tag.rb
-- app/liquid_tags/bandcamp_tag.rb
-- app/liquid_tags/blogcast_tag.rb
-- app/liquid_tags/bluesky_tag.rb
-- app/liquid_tags/card_tag.rb
-- app/liquid_tags/cloud_run_tag.rb
-- app/liquid_tags/codepen_tag.rb
-- app/liquid_tags/codesandbox_tag.rb
-- spec/liquid_tags/poll_tag_spec.rb
+- `app/liquid_tags/poll_tag.rb`
+- `app/views/liquids/_poll.html.erb` (Template)
+- `app/assets/stylesheets/ltags/PollTag.scss`
+- `spec/liquid_tags/poll_tag_spec.rb` (Test)
 
 ## Functional Overview
 
-This specification defines the expected behavior of `PollTag` within the liquid_tags domain.
-
-### Behavioral Areas
-
-- **.user_authorization_method_name**: Ensures correct behavior under the specified conditions
-
-### Implementation Architecture
-
-The behavior is implemented across the following layers:
-
-- **Liquid tag**: `app/liquid_tags/poll_tag.rb` -- custom Markdown/Liquid embed rendering
-- **Controller layer**: `app/controllers/liquid_tags_controller.rb` -- HTTP request routing and response handling
-- `app/errors/liquid_tags.rb`
-- **Liquid tag**: `app/liquid_tags/asciinema_tag.rb` -- custom Markdown/Liquid embed rendering
-- **Liquid tag**: `app/liquid_tags/bandcamp_tag.rb` -- custom Markdown/Liquid embed rendering
-- **Liquid tag**: `app/liquid_tags/blogcast_tag.rb` -- custom Markdown/Liquid embed rendering
-- **Liquid tag**: `app/liquid_tags/bluesky_tag.rb` -- custom Markdown/Liquid embed rendering
-- **Liquid tag**: `app/liquid_tags/card_tag.rb` -- custom Markdown/Liquid embed rendering
-- **Liquid tag**: `app/liquid_tags/cloud_run_tag.rb` -- custom Markdown/Liquid embed rendering
-- **Liquid tag**: `app/liquid_tags/codepen_tag.rb` -- custom Markdown/Liquid embed rendering
-- **Liquid tag**: `app/liquid_tags/codesandbox_tag.rb` -- custom Markdown/Liquid embed rendering
+This specification defines the expected behavior of `PollTag` within the liquid_tags domain. The poll liquid tag allows article authors to embed interactive polls into their content. The tag parses a poll identifier from the liquid tag syntax, renders the poll UI via a partial template, and applies dedicated styles.
 
 
 ## Scenarios

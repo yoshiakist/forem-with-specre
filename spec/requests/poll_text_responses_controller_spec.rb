@@ -1,3 +1,4 @@
+# @specre 01KHZMEWNFHQAJSG7XYVQXEDTE
 require "rails_helper"
 
 RSpec.describe "PollText-responsesController", type: :request do

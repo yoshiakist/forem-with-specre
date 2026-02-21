@@ -1,3 +1,4 @@
+# @specre 01KHZMEWNFHQAJSG7XYVQXEDTE
 FactoryBot.define do
   factory :poll_text_response do
     poll

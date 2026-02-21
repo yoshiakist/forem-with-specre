@@ -1,3 +1,5 @@
+// @specre 01KHZME2KMA2REG6V4QSGBK5XQ
+// @specre 01KHZM8WACKF3RJZT65WP2P2E9
 // @specre 01KHY7Q13FW678WREK162FKQ28
 import { Controller } from '@hotwired/stimulus';
 

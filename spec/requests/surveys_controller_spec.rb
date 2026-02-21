@@ -1,3 +1,4 @@
+# @specre 01KHZKDENF1FEDNJQD6XXKWAKZ
 require "rails_helper"
 
 RSpec.describe "SurveysController", type: :request do
