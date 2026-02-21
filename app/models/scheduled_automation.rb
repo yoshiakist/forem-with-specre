@@ -1,3 +1,5 @@
+# @specre 01KHZ30Q1RW1G4QRNXNKQTQ9NM
+# @specre 01KHZ2Z99S4SW3W9QJMSMZTZR0
 class ScheduledAutomation < ApplicationRecord
   # Associations
   belongs_to :user

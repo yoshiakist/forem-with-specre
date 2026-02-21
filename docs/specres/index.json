@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-21T03:03:12Z",
+  "generated_at": "2026-02-21T03:16:37Z",
   "source_refs": [
     {
       "file": "app/assets/javascripts/subforemSelectionModal.js",
@@ -15,6 +15,11 @@
       "file": "app/controllers/admin/organizations_controller.rb",
       "line": 1,
       "specre_id": "01KHYAQZFNE6166KPD56KDPFRQ"
+    },
+    {
+      "file": "app/controllers/admin/scheduled_automations_controller.rb",
+      "line": 1,
+      "specre_id": "01KHZ2Z99S4SW3W9QJMSMZTZR0"
     },
     {
       "file": "app/controllers/admin/subforem_moderators/moderators_controller.rb",
@@ -175,6 +180,11 @@
       "file": "app/helpers/organization_helper.rb",
       "line": 1,
       "specre_id": "01KHYASXS334EE0BHKGBNRD4C0"
+    },
+    {
+      "file": "app/helpers/scheduled_automations_helper.rb",
+      "line": 1,
+      "specre_id": "01KHZ2Z99S4SW3W9QJMSMZTZR0"
     },
     {
       "file": "app/javascript/Search/Search.jsx",
@@ -422,6 +432,16 @@
       "specre_id": "01KHYABB1GB91QKA03127ZTDMJ"
     },
     {
+      "file": "app/models/scheduled_automation.rb",
+      "line": 1,
+      "specre_id": "01KHZ30Q1RW1G4QRNXNKQTQ9NM"
+    },
+    {
+      "file": "app/models/scheduled_automation.rb",
+      "line": 2,
+      "specre_id": "01KHZ2Z99S4SW3W9QJMSMZTZR0"
+    },
+    {
       "file": "app/models/subforem.rb",
       "line": 1,
       "specre_id": "01KHYYH62ZG383CA1EG815V11C"
@@ -552,6 +572,26 @@
       "specre_id": "01KHYAJ5A6WCMJEYQEF12BEETG"
     },
     {
+      "file": "app/services/scheduled_automations/article_content_badge_awarder.rb",
+      "line": 1,
+      "specre_id": "01KHZ32M67KE4Q341R1BPEGPJB"
+    },
+    {
+      "file": "app/services/scheduled_automations/executor.rb",
+      "line": 1,
+      "specre_id": "01KHZ30Q1RW1G4QRNXNKQTQ9NM"
+    },
+    {
+      "file": "app/services/scheduled_automations/first_post_badge_awarder.rb",
+      "line": 1,
+      "specre_id": "01KHZ33RNQX4D71QCX598285TK"
+    },
+    {
+      "file": "app/services/scheduled_automations/warm_welcome_badge_awarder.rb",
+      "line": 1,
+      "specre_id": "01KHZ34S64MDBEZEVY74YYQ7HM"
+    },
+    {
       "file": "app/services/search/article.rb",
       "line": 1,
       "specre_id": "01KHZ22E63WBQWYFZNQVEA2EEE"
@@ -635,6 +675,21 @@
       "file": "app/views/admin/organizations/show.html.erb",
       "line": 1,
       "specre_id": "01KHYB07ABXD2FDW207KP1GHDH"
+    },
+    {
+      "file": "app/views/admin/scheduled_automations/edit.html.erb",
+      "line": 1,
+      "specre_id": "01KHZ2Z99S4SW3W9QJMSMZTZR0"
+    },
+    {
+      "file": "app/views/admin/scheduled_automations/index.html.erb",
+      "line": 1,
+      "specre_id": "01KHZ2Z99S4SW3W9QJMSMZTZR0"
+    },
+    {
+      "file": "app/views/admin/scheduled_automations/new.html.erb",
+      "line": 1,
+      "specre_id": "01KHZ2Z99S4SW3W9QJMSMZTZR0"
     },
     {
       "file": "app/views/admin/subforems/_form.html.erb",
@@ -932,6 +987,11 @@
       "specre_id": "01KHYAKARS8WVZ96MGFRRX02R5"
     },
     {
+      "file": "app/workers/scheduled_automations/process_worker.rb",
+      "line": 1,
+      "specre_id": "01KHZ30Q1RW1G4QRNXNKQTQ9NM"
+    },
+    {
       "file": "app/workers/subforems/create_from_scratch_worker.rb",
       "line": 1,
       "specre_id": "01KHYYH62ZG383CA1EG815V11C"
@@ -962,6 +1022,11 @@
       "specre_id": "01KHYAE6BT4N3QJ2FR396TTRCQ"
     },
     {
+      "file": "spec/factories/scheduled_automations.rb",
+      "line": 1,
+      "specre_id": "01KHZ2Z99S4SW3W9QJMSMZTZR0"
+    },
+    {
       "file": "spec/factories/subforems.rb",
       "line": 1,
       "specre_id": "01KHYYH62ZG383CA1EG815V11C"
@@ -990,6 +1055,11 @@
       "file": "spec/helpers/organization_helper_spec.rb",
       "line": 1,
       "specre_id": "01KHYASXS334EE0BHKGBNRD4C0"
+    },
+    {
+      "file": "spec/helpers/scheduled_automations_helper_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ2Z99S4SW3W9QJMSMZTZR0"
     },
     {
       "file": "spec/integration/billboard_survey_exclusion_integration_spec.rb",
@@ -1115,6 +1185,11 @@
       "file": "spec/requests/admin/organizations_spec.rb",
       "line": 1,
       "specre_id": "01KHYAQZFNE6166KPD56KDPFRQ"
+    },
+    {
+      "file": "spec/requests/admin/scheduled_automations_controller_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ2Z99S4SW3W9QJMSMZTZR0"
     },
     {
       "file": "spec/requests/admin/subforems_about_page_spec.rb",
@@ -1302,6 +1377,26 @@
       "specre_id": "01KHYAJ5A6WCMJEYQEF12BEETG"
     },
     {
+      "file": "spec/services/scheduled_automations/article_content_badge_awarder_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ32M67KE4Q341R1BPEGPJB"
+    },
+    {
+      "file": "spec/services/scheduled_automations/executor_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ30Q1RW1G4QRNXNKQTQ9NM"
+    },
+    {
+      "file": "spec/services/scheduled_automations/first_post_badge_awarder_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ33RNQX4D71QCX598285TK"
+    },
+    {
+      "file": "spec/services/scheduled_automations/warm_welcome_badge_awarder_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ34S64MDBEZEVY74YYQ7HM"
+    },
+    {
       "file": "spec/services/search/article_spec.rb",
       "line": 1,
       "specre_id": "01KHZ22E63WBQWYFZNQVEA2EEE"
@@ -1435,6 +1530,11 @@
       "file": "spec/workers/organizations/update_organization_articles_paths_worker_spec.rb",
       "line": 1,
       "specre_id": "01KHYAKARS8WVZ96MGFRRX02R5"
+    },
+    {
+      "file": "spec/workers/scheduled_automations/process_worker_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ30Q1RW1G4QRNXNKQTQ9NM"
     },
     {
       "file": "spec/workers/subforems/create_from_scratch_worker_spec.rb",
@@ -7814,38 +7914,6 @@
       "status": "stable"
     },
     {
-      "domain": "scheduled_automations",
-      "id": "01KHY7Q1JAHN3MP6W64QXG9KDP",
-      "last_verified": "2026-02-21",
-      "name": "scheduled_automations_helper_helper",
-      "path": "docs/specres/scheduled_automations/scheduled_automations_helper_helper.md",
-      "status": "stable"
-    },
-    {
-      "domain": "scheduled_automations",
-      "id": "01KHY7Q1JDHPATCGZHEBBFCTMQ",
-      "last_verified": "2026-02-21",
-      "name": "scheduled_automation_model",
-      "path": "docs/specres/scheduled_automations/scheduled_automation_model.md",
-      "status": "stable"
-    },
-    {
-      "domain": "scheduled_automations",
-      "id": "01KHY7Q1JG53C9Q9F0SMJST6BE",
-      "last_verified": "2026-02-21",
-      "name": "scheduled_automations_executor_service",
-      "path": "docs/specres/scheduled_automations/scheduled_automations_executor_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "scheduled_automations",
-      "id": "01KHY7Q1JKM8RP75X1TERDA871",
-      "last_verified": "2026-02-21",
-      "name": "scheduled_automations_process_worker_worker",
-      "path": "docs/specres/scheduled_automations/scheduled_automations_process_worker_worker.md",
-      "status": "stable"
-    },
-    {
       "domain": "ab_testing",
       "id": "01KHY7Q1K31WCEN3RP9XC7CM9R",
       "last_verified": "2026-02-21",
@@ -8491,6 +8559,46 @@
       "last_verified": "2026-02-21",
       "name": "system_exposes_opensearch_descriptor",
       "path": "docs/specres/search/system_exposes_opensearch_descriptor.md",
+      "status": "stable"
+    },
+    {
+      "domain": "scheduled_automations",
+      "id": "01KHZ2Z99S4SW3W9QJMSMZTZR0",
+      "last_verified": "2026-02-21",
+      "name": "admin_can_manage_scheduled_automations",
+      "path": "docs/specres/scheduled_automations/admin_can_manage_scheduled_automations.md",
+      "status": "stable"
+    },
+    {
+      "domain": "scheduled_automations",
+      "id": "01KHZ30Q1RW1G4QRNXNKQTQ9NM",
+      "last_verified": "2026-02-21",
+      "name": "system_executes_due_automations_on_schedule",
+      "path": "docs/specres/scheduled_automations/system_executes_due_automations_on_schedule.md",
+      "status": "stable"
+    },
+    {
+      "domain": "scheduled_automations",
+      "id": "01KHZ32M67KE4Q341R1BPEGPJB",
+      "last_verified": "2026-02-21",
+      "name": "system_awards_badge_for_quality_article_content",
+      "path": "docs/specres/scheduled_automations/system_awards_badge_for_quality_article_content.md",
+      "status": "stable"
+    },
+    {
+      "domain": "scheduled_automations",
+      "id": "01KHZ33RNQX4D71QCX598285TK",
+      "last_verified": "2026-02-21",
+      "name": "system_awards_badge_for_first_organization_post",
+      "path": "docs/specres/scheduled_automations/system_awards_badge_for_first_organization_post.md",
+      "status": "stable"
+    },
+    {
+      "domain": "scheduled_automations",
+      "id": "01KHZ34S64MDBEZEVY74YYQ7HM",
+      "last_verified": "2026-02-21",
+      "name": "system_awards_warm_welcome_badge_for_helpful_comments",
+      "path": "docs/specres/scheduled_automations/system_awards_warm_welcome_badge_for_helpful_comments.md",
       "status": "stable"
     }
   ],

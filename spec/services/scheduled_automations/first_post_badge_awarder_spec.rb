@@ -1,3 +1,4 @@
+# @specre 01KHZ33RNQX4D71QCX598285TK
 require "rails_helper"
 
 RSpec.describe ScheduledAutomations::FirstPostBadgeAwarder, type: :service do

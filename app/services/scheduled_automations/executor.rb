@@ -1,3 +1,4 @@
+# @specre 01KHZ30Q1RW1G4QRNXNKQTQ9NM
 module ScheduledAutomations
   ##
   # Executes a scheduled automation by calling the appropriate AI service

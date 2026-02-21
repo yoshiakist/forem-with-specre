@@ -1,3 +1,4 @@
+# @specre 01KHZ2Z99S4SW3W9QJMSMZTZR0
 FactoryBot.define do
   factory :scheduled_automation do
     frequency { "daily" }
