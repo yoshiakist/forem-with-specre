@@ -1,3 +1,7 @@
+# @specre 01KJ02QR77TXF2XJR4QS32QAAE
+# @specre 01KJ02HFZZ1BJN4RQBAP4QA41P
+# @specre 01KJ02DSNZVDY9J6F8MHMCEYZF
+# @specre 01KJ028T8Z2686ZJZX4WNS2VTQ
 # @specre 01KHYABB1GB91QKA03127ZTDMJ
 #  @note When we destroy the related user, it's using dependent:
 #        :delete for the relationship.  That means no before/after

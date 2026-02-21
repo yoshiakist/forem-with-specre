@@ -1,3 +1,4 @@
+# @specre 01KJ02QR77TXF2XJR4QS32QAAE
 # @specre 01KHYAQZXMFW3CT2SJ66HTYT5A
 module Admin
   class OrganizationMembershipsController < Admin::ApplicationController

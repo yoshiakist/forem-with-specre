@@ -1,3 +1,6 @@
+# @specre 01KJ02R9930HM3ZZNY5GTQB0X4
+# @specre 01KJ0295AV619CEC61P9EVC0V8
+# @specre 01KJ028T8Z2686ZJZX4WNS2VTQ
 # @specre 01KHYA9GWPEHZ06WJWDG1QKSK8
 class Organization < ApplicationRecord
   include CloudinaryHelper

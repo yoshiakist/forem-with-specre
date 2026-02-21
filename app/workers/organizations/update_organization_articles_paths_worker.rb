@@ -1,3 +1,4 @@
+# @specre 01KJ02R9930HM3ZZNY5GTQB0X4
 # @specre 01KHYAKARS8WVZ96MGFRRX02R5
 module Organizations
   class UpdateOrganizationArticlesPathsWorker

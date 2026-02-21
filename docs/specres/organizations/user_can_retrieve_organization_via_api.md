@@ -20,6 +20,7 @@ last_verified: "2026-02-21"
 - `app/views/api/v1/shared/_organization.json.jbuilder` (Template)
 - `spec/requests/api/v0/organizations_spec.rb` (Test)
 - `spec/requests/api/v1/organizations_spec.rb` (Test)
+- `spec/requests/api/v1/docs/organizations_spec.rb` (Test)
 
 ## Functional Overview
 

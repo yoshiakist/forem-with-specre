@@ -1,3 +1,5 @@
+# @specre 01KJ02HFZZ1BJN4RQBAP4QA41P
+# @specre 01KJ028T8Z2686ZJZX4WNS2VTQ
 # @specre 01KHYACZKPN88W16YWM7C8YF7V
 class OrganizationPolicy < ApplicationPolicy
   def create?

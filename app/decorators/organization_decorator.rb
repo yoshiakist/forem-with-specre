@@ -1,3 +1,4 @@
+# @specre 01KJ02CRB3BH4Q8986WABZKSG4
 # @specre 01KHYAE6BT4N3QJ2FR396TTRCQ
 class OrganizationDecorator < ApplicationDecorator
   def darker_color(adjustment = 0.88)

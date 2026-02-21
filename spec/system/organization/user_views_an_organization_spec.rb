@@ -1,3 +1,4 @@
+# @specre 01KJ02CRB3BH4Q8986WABZKSG4
 require "rails_helper"
 
 RSpec.describe "Organization index" do

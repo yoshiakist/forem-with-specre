@@ -1,3 +1,4 @@
+# @specre 01KJ02DSNZVDY9J6F8MHMCEYZF
 # @specre 01KHYAN2Z8BX8EQWF0T0B3J5XB
 class OrganizationMembershipNotificationMailer < ApplicationMailer
   def member_added_email

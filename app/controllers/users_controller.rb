@@ -1,3 +1,4 @@
+# @specre 01KJ02HFZZ1BJN4RQBAP4QA41P
 class UsersController < ApplicationController
   before_action :set_no_cache_header
   before_action :check_suspended, only: %i[update update_password]

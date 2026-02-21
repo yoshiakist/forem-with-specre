@@ -10,6 +10,7 @@ last_verified: "2026-02-21"
 - `app/models/concerns/algolia_searchable.rb`
 - `app/models/concerns/algolia_searchable/searchable_article.rb`
 - `app/models/concerns/algolia_searchable/searchable_comment.rb`
+- `app/models/concerns/algolia_searchable/searchable_organization.rb`
 - `app/models/concerns/algolia_searchable/searchable_podcast_episode.rb`
 - `app/models/concerns/algolia_searchable/searchable_tag.rb`
 - `app/models/concerns/algolia_searchable/searchable_user.rb`
