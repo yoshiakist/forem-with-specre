@@ -22,6 +22,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import math
 import os
 import re
 import sys
@@ -828,6 +829,106 @@ class OutputFormatter:
         }
         return json.dumps(data, indent=2, ensure_ascii=False)
 
+    @staticmethod
+    def suggest_subdomains(result: DiscoveryResult) -> list[dict]:
+        """Suggest sub-domain splits based on seed class names.
+
+        Groups satellite models (CompoundName with domain prefix) into
+        potential sub-domains separate from the core domain entity.
+        """
+        domain = result.domain
+        variants = ConventionDiscovery._domain_variants(domain)
+        # Case-insensitive set for core entity detection
+        core_names = {v.lower() for v in variants}
+
+        satellite_classes: dict[str, list[str]] = {}  # snake_name -> [classes]
+
+        for cn in sorted(set(result.seed_class_names)):
+            # Skip framework/search/error/infrastructure classes
+            if any(kw in cn for kw in (
+                "Searchable", "Algolia", "Error", "LiquidTag",
+                "Query", "Segmented",
+            )):
+                continue
+            leaf = cn.rsplit("::", 1)[-1] if "::" in cn else cn
+            # Core entity check (case-insensitive)
+            if leaf.lower() in core_names:
+                continue
+            # Convert CamelCase to snake_case for sub-domain name
+            snake = re.sub(r"(?<=[a-z0-9])([A-Z])", r"_\1", leaf).lower()
+            satellite_classes.setdefault(snake, []).append(cn)
+
+        # Deduplicate singular/plural (e.g., "setting" and "settings")
+        to_remove: list[str] = []
+        for name in list(satellite_classes):
+            plural = name + "s"
+            if plural in satellite_classes:
+                satellite_classes[plural].extend(satellite_classes[name])
+                to_remove.append(name)
+        for name in to_remove:
+            del satellite_classes[name]
+
+        # Count files per satellite by matching snake name in file paths
+        suggestions: list[dict] = []
+        for snake_name, classes in sorted(satellite_classes.items()):
+            file_count = sum(
+                1 for p in result.files
+                if snake_name in p.lower()
+            )
+            if file_count >= 5:  # skip tiny satellites
+                suggestions.append({
+                    "subdomain": snake_name,
+                    "model_classes": sorted(set(classes)),
+                    "estimated_files": file_count,
+                })
+
+        return suggestions
+
+    @staticmethod
+    def split_and_save(result: DiscoveryResult) -> list[str]:
+        """Split files into multiple parts and save to /tmp/.
+
+        Splitting rule (each chunk targets ~100 files):
+          ≤100 files  → no split (caller should not invoke this)
+          101-199     → 2 parts
+          200-299     → 3 parts
+          300-399     → 4 parts  ...etc.
+        """
+        file_count = len(result.files)
+        num_parts = max(2, math.ceil(file_count / 100))
+
+        files_list = sorted(result.files.items())
+        chunk_size = math.ceil(len(files_list) / num_parts)
+
+        meta = {
+            "domain": result.domain,
+            "seed_class_names": sorted(set(result.seed_class_names)),
+            "stats": result.stats(),
+        }
+
+        saved_paths: list[str] = []
+        for i in range(num_parts):
+            chunk = files_list[i * chunk_size : (i + 1) * chunk_size]
+            part_data = {
+                **meta,
+                "part": i + 1,
+                "total_parts": num_parts,
+                "files": {
+                    path: {
+                        "stage": df.stage,
+                        "reason": df.discovery_reason,
+                        "specre_tags": df.specre_tags,
+                    }
+                    for path, df in chunk
+                },
+            }
+            tmp_path = f"/tmp/specre-discovery-{result.domain}-part{i + 1}.json"
+            with open(tmp_path, "w", encoding="utf-8") as f:
+                json.dump(part_data, f, indent=2, ensure_ascii=False)
+            saved_paths.append(tmp_path)
+
+        return saved_paths
+
 
 # ---------------------------------------------------------------------------
 # Main
@@ -897,8 +998,39 @@ def main() -> None:
     # Stage 4: Tag check
     TagChecker.check(project_root, result.files)
 
-    # Output
-    if args.json_output:
+    # Output — split to disk if file count exceeds 100
+    file_count = len(result.files)
+    if file_count > 100:
+        saved_paths = OutputFormatter.split_and_save(result)
+        s = result.stats()
+        print(f"Domain discovery: {result.domain}")
+        print(f"Seed class names: {', '.join(sorted(set(result.seed_class_names)))}")
+        print(f"Total: {s['total']} files "
+              f"({s['untagged']} untagged, {s['tagged']} tagged)")
+        print(f"\nOutput split into {len(saved_paths)} parts (>{100} files):")
+        for p in saved_paths:
+            print(f"  {p}")
+
+        # Suggest sub-domain split for very large domains
+        if file_count > 300:
+            suggestions = OutputFormatter.suggest_subdomains(result)
+            print(f"\n⚠ LARGE DOMAIN ({file_count} files > 300 threshold)")
+            print("Recommendation: Do NOT process individual files directly.")
+            print("Instead, split into sub-domains and process each separately.")
+            print(f"\nCore domain '{result.domain}' should retain base CRUD "
+                  f"behaviors for the primary entity.")
+            if suggestions:
+                print(f"\nSuggested sub-domains (based on satellite models):")
+                for sg in suggestions:
+                    classes = ", ".join(sg["model_classes"])
+                    print(f"  {sg['subdomain']}: ~{sg['estimated_files']} files "
+                          f"({classes})")
+            print(f"\nRun each sub-domain independently:")
+            print(f"  /specre-generate {result.domain}")
+            if suggestions:
+                for sg in suggestions:
+                    print(f"  /specre-generate {sg['subdomain']}")
+    elif args.json_output:
         print(OutputFormatter.format_json(result))
     else:
         print(OutputFormatter.format_text(result, args.untagged_only))

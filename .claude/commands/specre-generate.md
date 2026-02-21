@@ -26,7 +26,21 @@ Your goal: create specre specification cards for source files that currently lac
    - **Stage 3 — Transitive expansion:** Follows forward import chains from Stage 2 JS/ERB discoveries (up to 3 rounds, forward-only to avoid shared infrastructure pull-in).
    - **Stage 4 — Tag check:** Annotates each file with its existing `@specre` marker ULIDs.
 
-2. Parse the JSON output. The `files` object maps file paths to `{stage, reason, specre_tags}`.
+   **Large domain handling (101–300 files):** When the domain has more than 100 related files, the script automatically splits the output into multiple JSON files under `/tmp/` (each containing ~100 files plus shared metadata) and prints only a summary with the saved file paths. In this case:
+   - Read each `/tmp/specre-discovery-<domain>-partN.json` file listed in the output.
+   - Each part file contains the same metadata (`domain`, `seed_class_names`, `stats`) plus a `files` subset and `part`/`total_parts` fields.
+   - Merge the `files` objects from all parts into a single combined `files` dict for downstream processing.
+   - Note the file paths for cleanup in Phase 4.
+
+   When the domain has ≤100 files, the script outputs JSON directly to stdout as before.
+
+   **Very large domain handling (>300 files):** When the domain exceeds 300 files, the script prints a `⚠ LARGE DOMAIN` warning with suggested sub-domain splits. **Do NOT attempt to process the full domain.** Processing >300 files in a single session will exhaust the agent's context capacity and degrade reasoning quality, and on most plans will hit rate limits before completion. Instead:
+   1. Delete the split files produced by the script (`rm -f /tmp/specre-discovery-<domain>-part*.json`).
+   2. Review the script's sub-domain suggestions. The core domain (e.g., `users`) should retain only the base CRUD behaviors for the primary entity (the model and controller that directly match the domain name). Satellite models (e.g., `UserBlock`, `UserSubscription`) that have their own dedicated model form natural sub-domains.
+   3. Present the proposed sub-domain split to the user. Include the suggested sub-domain names, their satellite model classes, and estimated file counts.
+   4. **Stop execution.** The user will run `/specre-generate <sub-domain>` for each sub-domain independently. Do NOT proceed to Phase 2.
+
+2. Parse the JSON output (or merged result from split files). The `files` object maps file paths to `{stage, reason, specre_tags}`.
 
 3. **Partition discovered files** into three groups:
    - **Untagged source files** (`specre_tags` is empty, not under `spec/`): Candidates for NEW specre cards.
@@ -275,10 +289,14 @@ After each batch of subagents completes:
 After all catalog entries are processed:
 
 1. Delete `<specre_dir>/<domain>/_GENERATION_PLAN.md` (the generation plan is no longer needed).
-2. Run `specre index` to regenerate the index.
-3. Run `specre orphans` to verify there are no unlinked cards or dangling markers.
-4. Run `specre coverage` and report the coverage change (before vs. after).
-5. Present a summary to the user:
+2. If the discovery script produced split files in Phase 1, delete them now:
+   ```bash
+   rm -f /tmp/specre-discovery-<domain>-part*.json
+   ```
+3. Run `specre index` to regenerate the index.
+4. Run `specre orphans` to verify there are no unlinked cards or dangling markers.
+5. Run `specre coverage` and report the coverage change (before vs. after).
+6. Present a summary to the user:
 
 ```
 Generation complete.
@@ -296,7 +314,7 @@ Cards remaining as draft:
   - docs/specres/domain/behavior_d.md (test scenarios diverge)
 ```
 
-6. **If any cards were auto-stabilized**, append this notice:
+7. **If any cards were auto-stabilized**, append this notice:
 
 > Some cards were automatically set to `stable` because matching tests were found and their assertions align with the documented scenarios. We recommend reviewing these cards to confirm that the specification accurately reflects the intended behavior, not just the current implementation.
 
