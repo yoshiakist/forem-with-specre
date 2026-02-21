@@ -1,3 +1,4 @@
+# @specre 01KHZFCE4EMXDS8J8BCARX9EQW
 require "rails_helper"
 
 RSpec.describe Pages::BustCacheWorker, type: :worker do

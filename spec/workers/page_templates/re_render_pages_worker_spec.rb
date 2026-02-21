@@ -1,3 +1,4 @@
+# @specre 01KHZFKZ6V29C5PQ9EM27TMC1G
 require "rails_helper"
 
 RSpec.describe PageTemplates::ReRenderPagesWorker, type: :worker do

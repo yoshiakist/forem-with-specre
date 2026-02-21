@@ -1,3 +1,4 @@
+# @specre 01KHZFCNSG1G8YSP3PH4BHXRTW
 module Api
   module V1
     class PagesController < ApiController

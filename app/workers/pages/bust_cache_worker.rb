@@ -1,3 +1,4 @@
+# @specre 01KHZFCE4EMXDS8J8BCARX9EQW
 module Pages
   class BustCacheWorker < BustCacheBaseWorker
     def perform(slug)

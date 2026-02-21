@@ -1,3 +1,7 @@
+# @specre 01KHZFKZ6V29C5PQ9EM27TMC1G
+# @specre 01KHZFCE4EMXDS8J8BCARX9EQW
+# @specre 01KHZFCNSG1G8YSP3PH4BHXRTW
+# @specre 01KHZFBGBSX0DJAN0SDSQS1K3T
 class Page < ApplicationRecord
   extend UniqueAcrossModels
   TEMPLATE_OPTIONS = %w[contained full_within_layout nav_bar_included json css txt].freeze

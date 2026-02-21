@@ -1,3 +1,4 @@
+# @specre 01KHZFKZ6V29C5PQ9EM27TMC1G
 module PageTemplates
   class ReRenderPagesWorker
     include Sidekiq::Job

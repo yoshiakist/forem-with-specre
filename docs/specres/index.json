@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-21T06:02:12Z",
+  "generated_at": "2026-02-21T06:54:54Z",
   "source_refs": [
     {
       "file": "app/assets/javascripts/subforemSelectionModal.js",
@@ -35,6 +35,11 @@
       "file": "app/controllers/admin/organizations_controller.rb",
       "line": 1,
       "specre_id": "01KHYAQZFNE6166KPD56KDPFRQ"
+    },
+    {
+      "file": "app/controllers/admin/pages_controller.rb",
+      "line": 1,
+      "specre_id": "01KHZFCE4EMXDS8J8BCARX9EQW"
     },
     {
       "file": "app/controllers/admin/podcasts_controller.rb",
@@ -172,6 +177,11 @@
       "specre_id": "01KHYAR18XSDQE448P8GXMPR05"
     },
     {
+      "file": "app/controllers/api/v1/pages_controller.rb",
+      "line": 1,
+      "specre_id": "01KHZFCNSG1G8YSP3PH4BHXRTW"
+    },
+    {
       "file": "app/controllers/api/v1/podcast_episodes_controller.rb",
       "line": 1,
       "specre_id": "01KHZ7J1AT0XZH85CCGJ8MKN03"
@@ -235,6 +245,11 @@
       "file": "app/controllers/organizations_controller.rb",
       "line": 1,
       "specre_id": "01KHYAPESAA0V3WKK075E59EPH"
+    },
+    {
+      "file": "app/controllers/pages_controller.rb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
     },
     {
       "file": "app/controllers/podcast_episodes_controller.rb",
@@ -852,6 +867,26 @@
       "specre_id": "01KHYABB1GB91QKA03127ZTDMJ"
     },
     {
+      "file": "app/models/page.rb",
+      "line": 1,
+      "specre_id": "01KHZFKZ6V29C5PQ9EM27TMC1G"
+    },
+    {
+      "file": "app/models/page.rb",
+      "line": 2,
+      "specre_id": "01KHZFCE4EMXDS8J8BCARX9EQW"
+    },
+    {
+      "file": "app/models/page.rb",
+      "line": 3,
+      "specre_id": "01KHZFCNSG1G8YSP3PH4BHXRTW"
+    },
+    {
+      "file": "app/models/page.rb",
+      "line": 4,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
       "file": "app/models/podcast.rb",
       "line": 1,
       "specre_id": "01KHZ795DAZ7K0BZGY252PBQ10"
@@ -1322,6 +1357,31 @@
       "specre_id": "01KHYB07ABXD2FDW207KP1GHDH"
     },
     {
+      "file": "app/views/admin/pages/_form.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFCE4EMXDS8J8BCARX9EQW"
+    },
+    {
+      "file": "app/views/admin/pages/_landing_page_modal.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFCE4EMXDS8J8BCARX9EQW"
+    },
+    {
+      "file": "app/views/admin/pages/edit.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFCE4EMXDS8J8BCARX9EQW"
+    },
+    {
+      "file": "app/views/admin/pages/index.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFCE4EMXDS8J8BCARX9EQW"
+    },
+    {
+      "file": "app/views/admin/pages/new.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFCE4EMXDS8J8BCARX9EQW"
+    },
+    {
       "file": "app/views/admin/podcasts/edit.html.erb",
       "line": 1,
       "specre_id": "01KHZ7BNHPQDAKZA5SBMDTGM65"
@@ -1757,6 +1817,461 @@
       "specre_id": "01KHYAY4DGRYJFMXJ7BBYNVE7Y"
     },
     {
+      "file": "app/views/pages/_coc_text.en.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/_coc_text.fr.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/_coc_text.pt.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/_editor_frontmatter_help.en.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/_editor_frontmatter_help.fr.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/_editor_frontmatter_help.pt.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/_editor_guide_h3.en.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/_editor_guide_h3.fr.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/_editor_guide_h3.pt.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/_editor_guide_text.en.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/_editor_guide_text.fr.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/_editor_guide_text.pt.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/_editor_liquid_help.en.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/_editor_liquid_help.fr.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/_editor_liquid_help.pt.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/_editor_markdown_help.en.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/_editor_markdown_help.fr.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/_editor_markdown_help.pt.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/_liquid_tag_section_intro.en.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/_liquid_tag_section_intro.fr.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/_liquid_tag_section_intro.pt.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/_placeholder.en.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/_placeholder.fr.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/_placeholder.pt.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/_privacy_text.en.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/_privacy_text.fr.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/_privacy_text.pt.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/_supported_nonurl_embeds_list.en.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/_supported_nonurl_embeds_list.fr.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/_supported_nonurl_embeds_list.pt.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/_supported_url_embeds_list.en.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/_supported_url_embeds_list.fr.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/_supported_url_embeds_list.pt.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/_terms_text.en.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/_terms_text.fr.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/_terms_text.pt.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/_v1_editor_guide_preamble.en.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/_v1_editor_guide_preamble.fr.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/_v1_editor_guide_preamble.pt.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/about.en.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/about.fr.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/about.pt.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/about_listings.en.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/about_listings.fr.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/about_listings.pt.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/bounty.en.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/bounty.fr.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/bounty.pt.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/code_of_conduct.en.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/code_of_conduct.fr.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/code_of_conduct.pt.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/community_moderation.en.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/community_moderation.fr.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/community_moderation.pt.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/contact.en.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/contact.fr.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/contact.pt.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/editor_guide.en.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/editor_guide.fr.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/editor_guide.pt.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/faq.en.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/faq.fr.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/faq.pt.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/forbidden.en.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/forbidden.fr.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/forbidden.pt.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/markdown_basics.en.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/markdown_basics.fr.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/markdown_basics.pt.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/post_a_job.en.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/post_a_job.fr.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/post_a_job.pt.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/privacy.en.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/privacy.fr.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/privacy.pt.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/publishing_from_rss_guide.en.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/publishing_from_rss_guide.fr.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/publishing_from_rss_guide.pt.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/report_abuse.en.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/report_abuse.fr.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/report_abuse.pt.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/robots.text.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/show.en.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/show.fr.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/show.pt.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/tag_moderation.en.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/tag_moderation.fr.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/tag_moderation.pt.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/terms.en.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/terms.fr.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
+      "file": "app/views/pages/terms.pt.html.erb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
+    },
+    {
       "file": "app/views/podcast_episodes/_episodes_feed.html.erb",
       "line": 1,
       "specre_id": "01KHZ78Z9A3R2NWZF2B6EZ82AJ"
@@ -1947,6 +2462,16 @@
       "specre_id": "01KHYAKARS8WVZ96MGFRRX02R5"
     },
     {
+      "file": "app/workers/page_templates/re_render_pages_worker.rb",
+      "line": 1,
+      "specre_id": "01KHZFKZ6V29C5PQ9EM27TMC1G"
+    },
+    {
+      "file": "app/workers/pages/bust_cache_worker.rb",
+      "line": 1,
+      "specre_id": "01KHZFCE4EMXDS8J8BCARX9EQW"
+    },
+    {
       "file": "app/workers/podcast_episodes/bust_cache_worker.rb",
       "line": 1,
       "specre_id": "01KHZ7FNBPTBWCMXWYERHJHSS0"
@@ -2060,6 +2585,11 @@
       "file": "spec/decorators/podcast_episode_decorator_spec.rb",
       "line": 1,
       "specre_id": "01KHZ78Z9A3R2NWZF2B6EZ82AJ"
+    },
+    {
+      "file": "spec/factories/pages.rb",
+      "line": 1,
+      "specre_id": "01KHZFCE4EMXDS8J8BCARX9EQW"
     },
     {
       "file": "spec/factories/reactions.rb",
@@ -2362,6 +2892,11 @@
       "specre_id": "01KHYAQZFNE6166KPD56KDPFRQ"
     },
     {
+      "file": "spec/requests/admin/pages_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZFCE4EMXDS8J8BCARX9EQW"
+    },
+    {
       "file": "spec/requests/admin/podcasts_spec.rb",
       "line": 1,
       "specre_id": "01KHZ7BNHPQDAKZA5SBMDTGM65"
@@ -2447,6 +2982,11 @@
       "specre_id": "01KHYAR18XSDQE448P8GXMPR05"
     },
     {
+      "file": "spec/requests/api/v1/docs/pages_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZFCNSG1G8YSP3PH4BHXRTW"
+    },
+    {
       "file": "spec/requests/api/v1/docs/podcast_episodes_spec.rb",
       "line": 1,
       "specre_id": "01KHZ7J1AT0XZH85CCGJ8MKN03"
@@ -2465,6 +3005,11 @@
       "file": "spec/requests/api/v1/organizations_spec.rb",
       "line": 1,
       "specre_id": "01KHYAR18XSDQE448P8GXMPR05"
+    },
+    {
+      "file": "spec/requests/api/v1/pages_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZFCNSG1G8YSP3PH4BHXRTW"
     },
     {
       "file": "spec/requests/api/v1/podcasts_episodes_spec.rb",
@@ -2515,6 +3060,11 @@
       "file": "spec/requests/organizations_update_spec.rb",
       "line": 1,
       "specre_id": "01KHYAPESAA0V3WKK075E59EPH"
+    },
+    {
+      "file": "spec/requests/pages_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZFBGBSX0DJAN0SDSQS1K3T"
     },
     {
       "file": "spec/requests/podcasts/podcast_create_spec.rb",
@@ -2852,6 +3402,11 @@
       "specre_id": "01KHZ7FPE352W4ESF9QNYKRE34"
     },
     {
+      "file": "spec/system/admin/admin_manages_pages_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZFCE4EMXDS8J8BCARX9EQW"
+    },
+    {
       "file": "spec/system/admin/admin_manages_profile_fields_spec.rb",
       "line": 1,
       "specre_id": "01KHZ6D9SWTJKNHPPWX68BHARE"
@@ -2985,6 +3540,16 @@
       "file": "spec/workers/organizations/update_organization_articles_paths_worker_spec.rb",
       "line": 1,
       "specre_id": "01KHYAKARS8WVZ96MGFRRX02R5"
+    },
+    {
+      "file": "spec/workers/page_templates/re_render_pages_worker_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZFKZ6V29C5PQ9EM27TMC1G"
+    },
+    {
+      "file": "spec/workers/pages/bust_cache_worker_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZFCE4EMXDS8J8BCARX9EQW"
     },
     {
       "file": "spec/workers/podcast_episodes/bust_cache_worker_spec.rb",
@@ -6663,126 +7228,6 @@
       "status": "stable"
     },
     {
-      "domain": "pages",
-      "id": "01KHY7Q0V80JA0PB9TD8NF44T8",
-      "last_verified": "2026-02-21",
-      "name": "data_update_scripts_backfill_navigation_links_column_display_to_lib",
-      "path": "docs/specres/pages/data_update_scripts_backfill_navigation_links_column_display_to_lib.md",
-      "status": "stable"
-    },
-    {
-      "domain": "pages",
-      "id": "01KHY7Q0VASEDBRW2QZ3W7A58T",
-      "last_verified": "2026-02-21",
-      "name": "data_update_scripts_backfill_section_column_for_navigation_links_lib",
-      "path": "docs/specres/pages/data_update_scripts_backfill_section_column_for_navigation_links_lib.md",
-      "status": "stable"
-    },
-    {
-      "domain": "pages",
-      "id": "01KHY7Q0VD1Z0TQ03WBM1X32MV",
-      "last_verified": "2026-02-21",
-      "name": "data_update_scripts_create_home_navigation_link_lib",
-      "path": "docs/specres/pages/data_update_scripts_create_home_navigation_link_lib.md",
-      "status": "stable"
-    },
-    {
-      "domain": "pages",
-      "id": "01KHY7Q0VFTGK1FGTDZ9PGM3WV",
-      "last_verified": "2026-02-21",
-      "name": "data_update_scripts_make_local_navigation_links_relative_lib",
-      "path": "docs/specres/pages/data_update_scripts_make_local_navigation_links_relative_lib.md",
-      "status": "stable"
-    },
-    {
-      "domain": "pages",
-      "id": "01KHY7Q0VJ2RTGNHX6D9W332XX",
-      "last_verified": "2026-02-21",
-      "name": "data_update_scripts_remove_stackbit_page_lib",
-      "path": "docs/specres/pages/data_update_scripts_remove_stackbit_page_lib.md",
-      "status": "stable"
-    },
-    {
-      "domain": "pages",
-      "id": "01KHY7Q0VMNAR443HNXQZ29WDR",
-      "last_verified": "2026-02-21",
-      "name": "data_update_scripts_update_home_navigation_link_position_lib",
-      "path": "docs/specres/pages/data_update_scripts_update_home_navigation_link_position_lib.md",
-      "status": "stable"
-    },
-    {
-      "domain": "pages",
-      "id": "01KHY7Q0VQDMJ1074FJX55CSP7",
-      "last_verified": "2026-02-21",
-      "name": "navigation_link_model",
-      "path": "docs/specres/pages/navigation_link_model.md",
-      "status": "stable"
-    },
-    {
-      "domain": "pages",
-      "id": "01KHY7Q0VTXY5TNRFPZ7QX4S13",
-      "last_verified": "2026-02-21",
-      "name": "page_model",
-      "path": "docs/specres/pages/page_model.md",
-      "status": "stable"
-    },
-    {
-      "domain": "pages",
-      "id": "01KHY7Q0VW68XY0Z5YRMRH59PG",
-      "last_verified": "2026-02-21",
-      "name": "page_template_model",
-      "path": "docs/specres/pages/page_template_model.md",
-      "status": "stable"
-    },
-    {
-      "domain": "pages",
-      "id": "01KHY7Q0VZ1D76HGHBYG3DWPG1",
-      "last_verified": "2026-02-21",
-      "name": "api_v1_pages_api",
-      "path": "docs/specres/pages/api_v1_pages_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "pages",
-      "id": "01KHY7Q0W26YGS4Y66H45G99CC",
-      "last_verified": "2026-02-21",
-      "name": "pages_api",
-      "path": "docs/specres/pages/pages_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "pages",
-      "id": "01KHY7Q0W57VGEQ8FXJVV092E7",
-      "last_verified": "2026-02-21",
-      "name": "edge_cache_bust_page_service",
-      "path": "docs/specres/pages/edge_cache_bust_page_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "pages",
-      "id": "01KHY7Q0W7N7TREZ2JP60EFG1K",
-      "last_verified": "2026-02-21",
-      "name": "add_navigation_links_task",
-      "path": "docs/specres/pages/add_navigation_links_task.md",
-      "status": "stable"
-    },
-    {
-      "domain": "pages",
-      "id": "01KHY7Q0WA0N2K6QM0QD7X376Z",
-      "last_verified": "2026-02-21",
-      "name": "navigation_link_image_uploader_uploader",
-      "path": "docs/specres/pages/navigation_link_image_uploader_uploader.md",
-      "status": "stable"
-    },
-    {
-      "domain": "pages",
-      "id": "01KHY7Q0WCS2J90CFKC5RNDNN4",
-      "last_verified": "2026-02-21",
-      "name": "page_templates_re_render_pages_worker_worker",
-      "path": "docs/specres/pages/page_templates_re_render_pages_worker_worker.md",
-      "status": "stable"
-    },
-    {
       "domain": "billboards",
       "id": "01KHY7Q0WFAMMWVN7Q6NDD7NZX",
       "last_verified": "2026-02-21",
@@ -9780,6 +10225,38 @@
       "last_verified": "2026-02-21",
       "name": "system_exposes_podcast_episodes_via_api",
       "path": "docs/specres/podcasts/system_exposes_podcast_episodes_via_api.md",
+      "status": "stable"
+    },
+    {
+      "domain": "pages",
+      "id": "01KHZFBGBSX0DJAN0SDSQS1K3T",
+      "last_verified": "2026-02-21",
+      "name": "user_can_view_informational_pages",
+      "path": "docs/specres/pages/user_can_view_informational_pages.md",
+      "status": "stable"
+    },
+    {
+      "domain": "pages",
+      "id": "01KHZFCE4EMXDS8J8BCARX9EQW",
+      "last_verified": "2026-02-21",
+      "name": "admin_can_manage_pages",
+      "path": "docs/specres/pages/admin_can_manage_pages.md",
+      "status": "stable"
+    },
+    {
+      "domain": "pages",
+      "id": "01KHZFCNSG1G8YSP3PH4BHXRTW",
+      "last_verified": "2026-02-21",
+      "name": "admin_can_manage_pages_via_api",
+      "path": "docs/specres/pages/admin_can_manage_pages_via_api.md",
+      "status": "stable"
+    },
+    {
+      "domain": "pages",
+      "id": "01KHZFKZ6V29C5PQ9EM27TMC1G",
+      "last_verified": "2026-02-21",
+      "name": "system_re_renders_pages_from_template",
+      "path": "docs/specres/pages/system_re_renders_pages_from_template.md",
       "status": "stable"
     }
   ],
