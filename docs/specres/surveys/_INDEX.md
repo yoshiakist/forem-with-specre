@@ -1,4 +1,4 @@
-# survey
+# surveys
 
 | Name | Status | Last Verified |
 |------|--------|---------------|
