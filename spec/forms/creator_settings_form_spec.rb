@@ -1,3 +1,4 @@
+# @specre 01KHZ440DNT2G0A6E8HAKEZ36P
 require "rails_helper"
 
 RSpec.describe CreatorSettingsForm, type: :model do

@@ -1,3 +1,4 @@
+# @specre 01KHZ3X8Z3Y2RPWBDE48X9GQ3D
 module Admin
   module Settings
     class GeneralSettingsController < Admin::Settings::BaseController

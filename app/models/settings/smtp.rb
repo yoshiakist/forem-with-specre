@@ -1,3 +1,4 @@
+# @specre 01KHZ41WMS2556S431RYZG2Q1X
 module Settings
   class SMTP < Base
     self.table_name = :settings_smtp

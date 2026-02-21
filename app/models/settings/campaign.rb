@@ -1,3 +1,4 @@
+# @specre 01KHZ3VGDB0VF4P07XM2VKJ4SY
 module Settings
   class Campaign < Base
     self.table_name = :settings_campaigns

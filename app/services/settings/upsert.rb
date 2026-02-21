@@ -1,3 +1,4 @@
+# @specre 01KHZ3R448RA411ZP1V33AX5MR
 module Settings
   # This service ensures that settings upserts to the database happen in a
   # standardized way. Instead of subclassing this service I recommend wrapping

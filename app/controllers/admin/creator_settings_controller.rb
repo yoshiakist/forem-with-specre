@@ -1,3 +1,4 @@
+# @specre 01KHZ440DNT2G0A6E8HAKEZ36P
 module Admin
   class CreatorSettingsController < Admin::ApplicationController
     after_action :bust_content_change_caches, only: %i[create]

@@ -1,3 +1,4 @@
+# @specre 01KHZ40W0YD7MCM63T2PZ9354A
 module Settings
   class RateLimit < Base
     self.table_name = :settings_rate_limits

@@ -1,3 +1,4 @@
+# @specre 01KHZ41WMS2556S431RYZG2Q1X
 require "rails_helper"
 
 RSpec.describe Settings::SMTP do

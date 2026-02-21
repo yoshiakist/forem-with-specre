@@ -1,3 +1,4 @@
+# @specre 01KHZ454YXRB8TWV8PC06P4EQ5
 module Users
   class NotificationSettingsController < ApplicationController
     before_action :check_suspended

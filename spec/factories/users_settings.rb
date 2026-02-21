@@ -1,3 +1,4 @@
+# @specre 01KHZ466X2VM8VAWD6RE82CF9J
 FactoryBot.define do
   factory :users_setting, class: "Users::Setting" do
     config_font { "sans_serif" }

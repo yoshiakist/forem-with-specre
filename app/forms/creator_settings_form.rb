@@ -1,3 +1,4 @@
+# @specre 01KHZ440DNT2G0A6E8HAKEZ36P
 class CreatorSettingsForm
   include ActiveModel::Model
   include ActiveModel::Attributes

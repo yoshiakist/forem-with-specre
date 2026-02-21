@@ -1,3 +1,4 @@
+# @specre 01KHZ3SPSJ823DQWH7K6DW74FF
 module Constants
   module Settings
     module Authentication

@@ -1,3 +1,4 @@
+# @specre 01KHZ3X8Z3Y2RPWBDE48X9GQ3D
 module Settings
   class General < Base
     BANNER_USER_CONFIGS = %w[off logged_out_only all].freeze

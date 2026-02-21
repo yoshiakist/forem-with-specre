@@ -1,3 +1,4 @@
+# @specre 01KHZ3WD78QFP2ADRDW1QBJZZN
 module Settings
   class Community < Base
     self.table_name = :settings_communities
