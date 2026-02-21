@@ -134,6 +134,10 @@ Before finalizing, review the catalog against these checks:
 2. **Value litmus test** — For each entry, ask: "If a system implemented exactly this behavior and nothing else, would it deliver value to a user?" If not, the entry is an implementation fragment. Merge it into a broader behavior or reconsider the card boundary.
 3. **Cross-layer check** — If multiple catalog entries cover the same observable behavior split by layer (e.g., a controller entry and a separate frontend entry for the same feature), merge them into a single entry.
 4. **Granularity check** — Each entry should have 2–5 plausible scenarios. If you can only think of one scenario, the behavior is likely a fragment of a larger one; merge it. If you can think of more than 7, it may conflate multiple behaviors; consider splitting.
+5. **File-count check** — If a catalog entry lists more than 15 related files (source + template combined), evaluate whether it conflates multiple semantically distinct behaviors that happen to share an implementation pattern.
+   - **When to split:** Look for groups of the same file pattern repeated for different purposes (e.g., locale-specific templates for "about" pages vs. "legal" pages vs. "help/guide" pages). If these groups serve distinct user intents — and each subset still passes the value litmus test as an independent behavior — split the entry into 2 or more entries along those semantic boundaries.
+   - **When NOT to split:** If all files genuinely participate in a single coherent user experience (e.g., a complex wizard with many steps, or a dashboard assembling many widgets), splitting would fragment the behavior and make the end-to-end flow harder to understand. In this case, keep the entry intact regardless of file count.
+   - **Guideline, not a hard rule:** 15 files is a review trigger, not an automatic split threshold. The deciding factor is whether a human reader would naturally describe the files as participating in "one thing the user does" or "several related but distinct things."
 
 If the catalog passes all checks, proceed directly to Phase 3 without pausing for user approval.
 
