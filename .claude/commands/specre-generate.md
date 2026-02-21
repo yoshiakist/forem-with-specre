@@ -49,28 +49,44 @@ Your goal: create specre specification cards for source files that currently lac
 > - `system_syncs_github_repos_periodically` (spans worker + model — no human in the loop, triggered by scheduler)
 > - `system_notifies_user_on_new_comment` (spans pub/sub listener + mailer + template — system-initiated delivery)
 
-> **Large domain shortcut:** If the domain contains more than 15 uncovered files, use the Task tool with `subagent_type=Explore` to read and classify files in batches. This protects the main context window from saturation while still building a complete catalog.
+> **Token-efficient analysis:** Do NOT read source files directly with the Read tool. Instead, use the map generator scripts (`.claude/commands/scripts/ruby-map-generator.py` and `.claude/commands/scripts/js-map-generator.py`) to extract structural metadata in a single batch per language. This dramatically reduces token consumption while providing sufficient context for behavior classification. The structural JSON is also passed to Phase 3 subagents so they can generate cards without reading source files.
 
-### Step 1: Read all uncovered files and build a file-role map
+### Step 1: Generate structural maps and build a file-role map
 
-For each uncovered file in the list:
+**Do NOT read source files with the Read tool.** Use the map generator scripts to extract structural metadata in a single batch per language. This provides all the context needed for behavior classification at a fraction of the token cost.
 
-1. **Read the source file** and note its role — model, controller, service, worker, frontend component, view template, etc.
-2. **Identify tightly coupled files** that participate in the same user-facing behavior:
-   - Base classes or traits that the file extends/implements
-   - Types that the file instantiates or depends on directly
-   - Files where the file's public interface is consumed extensively
-   - Template/view files that render the behavior's output (e.g., `.erb`)
-   - Test/spec files that verify the behavior (e.g., `spec/**/*_spec.rb`, `test/**/*_test.rb`)
-3. **Search for existing specre cards** that may already cover this behavior:
+1. **Partition** the uncovered files by language:
+   - `.rb` files → `ruby-map-generator.py`
+   - `.js` / `.jsx` files → `js-map-generator.py`
+   - Other files (`.erb`, `.jbuilder`, etc.) → identified by extension only (not parsed)
+2. **Run the generators** via Bash, passing all files for each language at once:
+   ```bash
+   python3 .claude/commands/scripts/ruby-map-generator.py file1.rb file2.rb ...
+   python3 .claude/commands/scripts/js-map-generator.py file1.js file2.jsx ...
+   ```
+   Each script outputs a compact JSON map keyed by relative file path containing:
+   - **Ruby**: classes/modules, methods (params, returns, responses), callbacks, includes, associations, validations, scopes, delegates, attrs, class_refs (dependencies)
+   - **JS/JSX**: imports, exports, functions (params, hooks, jsx_components), classes (methods, PropTypes, Stimulus metadata), constants
+3. **Store the full JSON output** — this will be reused in Phase 3 when constructing subagent prompts. Each subagent receives only the subset of structural data relevant to its behavior's source files.
+4. **Infer file roles** from the structural data — do not read the source:
+   - **Controller**: has `callbacks` (before_action etc.) and methods with `responses` (render/redirect_to)
+   - **Model**: has `associations`, `validations`, `scopes`
+   - **Service/Worker**: class with focused method signatures, class_refs to models
+   - **Frontend component**: has `hooks`, `jsx_components`, or `propTypes`
+   - **View template** (`.erb`, `.jbuilder`): identified by file extension (not parsed by scripts — include by path convention)
+5. **Identify tightly coupled files** from the structural data:
+   - `class_refs` (Ruby) and `imports` (JS) reveal which files collaborate
+   - `associations` and `includes` show model relationships
+   - Method params and return patterns indicate data flow
+6. **Search for existing specre cards** that may already cover this behavior:
    ```
    specre search "<subject> <action_verb>"
    ```
-   Use AND-keyword queries combining the behavior's subject (noun) and action (verb). For example: `specre search "order approve"`, `specre search "token validate"`.
+   Use AND-keyword queries combining the behavior's subject (noun) and action (verb).
 
 ### Step 2: Group files into user-facing behaviors
 
-After reading all files, shift perspective from individual files to **observable behaviors**. Ask two questions:
+After analyzing all structural maps, shift perspective from individual files to **observable behaviors**. Ask two questions:
 
 1. "What can a human user do in this domain?" — These become `user_can_*`, `admin_can_*`, etc.
 2. "What does the system do autonomously (batch jobs, scheduled tasks, pub/sub, webhooks)?" — These become `system_*` cards.
@@ -135,6 +151,8 @@ Launch Sonnet subagents in **parallel batches of up to 3** for catalog entries w
 
 For each catalog entry, construct a subagent prompt using the template below. Fill in all `<placeholders>` with concrete values from the catalog and Phase 1/2 context.
 
+**Passing structural data:** For the `<structural_map_json>` placeholder, extract the subset of the Phase 2 JSON output that corresponds to the behavior's source files. Only include entries for the files listed in that catalog entry — do not pass the entire domain map. This keeps each subagent's prompt focused and compact.
+
 ### Subagent prompt template
 
 ````
@@ -155,9 +173,17 @@ You are generating a specre specification card. Follow these instructions exactl
 - **Test convention pattern:** <glob pattern identified in Phase 1, e.g. "spec/models/*_spec.rb">
 - **Today's date:** <YYYY-MM-DD>
 
+## Structural map data
+
+The following JSON contains structural metadata extracted by the map generator scripts (ruby-map-generator.py / js-map-generator.py). Use this as a **structural overview** before reading source files — it shows class/module structures, method signatures, params, return values, callbacks, associations, validations, dependencies (class_refs / imports), hooks, JSX components, and other metadata. Consult this first to understand the shape of the code, then read the source files for behavioral intent and detail.
+
+```json
+<structural_map_json>
+```
+
 ## Instructions for NEW action
 
-1. Read ALL source files listed above to understand the behavior.
+1. Review the structural map data above to understand the overall shape of the behavior — classes, methods, dependencies, and patterns. Then read the source files listed above to understand behavioral intent, branching logic, and design decisions that the structural data alone cannot capture.
 2. Run `specre new` (MCP tool: mcp__specre__new) with target_dir=`<specre_dir>/<domain>` and name=`<behavior_name>`. Record the ULID from the created file's front-matter.
 3. Fill in the card content:
    - **Related Files**: All source, test (`(Test)` suffix), and template (`(Template)` suffix) files. Use project-root-relative paths.
@@ -189,7 +215,7 @@ You are generating a specre specification card. Follow these instructions exactl
 ## Instructions for EXTEND action
 
 1. Use `specre trace` (MCP tool: mcp__specre__trace) with the existing ULID to locate the card file.
-2. Read the existing card and add source/test/template file paths to the "Related Files" section.
+2. Read the existing card (this is the specre card, not a source file) and add source/test/template file paths to the "Related Files" section.
 3. Run `specre tag` (MCP tool: mcp__specre__tag) for each newly added file EXCEPT `.jbuilder` files.
 4. **Report your result:**
    ```
