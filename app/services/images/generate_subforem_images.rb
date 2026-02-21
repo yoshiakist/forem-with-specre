@@ -1,3 +1,4 @@
+# @specre 01KHYYH62ZG383CA1EG815V11C
 module Images
   TEMPLATE_PATH = "app/assets/images/social_template.png".freeze
 

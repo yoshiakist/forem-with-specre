@@ -1,3 +1,4 @@
+# @specre 01KHYYE333JHM6PGK7AZYCHD0X
 # config/initializers/middlewares/set_subforem.rb
 module Middlewares
   class SetSubforem

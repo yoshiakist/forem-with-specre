@@ -1,3 +1,4 @@
+# @specre 01KHYY9VPHV3N120R4QWFZ0SYK
 FactoryBot.define do
   factory :tag_subforem_relationship do
     tag { association(:tag) }

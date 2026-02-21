@@ -7,8 +7,13 @@ last_verified: "2026-02-21"
 
 ## Related Files
 
-
-- spec/requests/admin/subforems_spec.rb
+- app/controllers/admin/subforems_controller.rb
+- app/views/admin/subforems/_form.html.erb (Template)
+- app/views/admin/subforems/edit.html.erb (Template)
+- app/views/admin/subforems/index.html.erb (Template)
+- app/views/admin/subforems/new.html.erb (Template)
+- app/views/admin/subforems/show.html.erb (Template)
+- spec/requests/admin/subforems_spec.rb (Test)
 
 ## Functional Overview
 

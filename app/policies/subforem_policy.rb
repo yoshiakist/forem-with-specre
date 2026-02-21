@@ -1,3 +1,4 @@
+# @specre 01KHYH43TN4FS8ZYTW757DZBHZ
 class SubforemPolicy < ApplicationPolicy
   def index?
     user_super_admin? || user.roles.exists?(name: "subforem_moderator")

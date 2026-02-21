@@ -1,3 +1,4 @@
+# @specre 01KHY7Q13CTARYM9F87K21A5Z5
 require "rails_helper"
 
 RSpec.describe "Admin::Subforems", type: :request do

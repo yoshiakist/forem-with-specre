@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-02-20T21:01:57Z",
+  "generated_at": "2026-02-21T01:56:36Z",
   "source_refs": [
     {
-      "file": "app/assets/stylesheets/ltags/SurveyTag.scss",
+      "file": "app/assets/javascripts/subforemSelectionModal.js",
       "line": 1,
-      "specre_id": "01KHY7Q19K3T435K5XD2YF421F"
+      "specre_id": "01KHYYC8DH90XT7E7QYRPVDT2W"
     },
     {
       "file": "app/controllers/admin/organization_memberships_controller.rb",
@@ -15,6 +15,16 @@
       "file": "app/controllers/admin/organizations_controller.rb",
       "line": 1,
       "specre_id": "01KHYAQZFNE6166KPD56KDPFRQ"
+    },
+    {
+      "file": "app/controllers/admin/subforem_moderators/moderators_controller.rb",
+      "line": 1,
+      "specre_id": "01KHYH2RE3WEHN4RVYZWBNXCHA"
+    },
+    {
+      "file": "app/controllers/admin/subforems_controller.rb",
+      "line": 1,
+      "specre_id": "01KHY7Q13CTARYM9F87K21A5Z5"
     },
     {
       "file": "app/controllers/admin/surveys_controller.rb",
@@ -37,6 +47,11 @@
       "specre_id": "01KHYAR0M26F2KE6CFGA3390RE"
     },
     {
+      "file": "app/controllers/api/v0/subforems_controller.rb",
+      "line": 1,
+      "specre_id": "01KHYYJCP2TRNXM24G12C072KD"
+    },
+    {
       "file": "app/controllers/api/v0/tags_controller.rb",
       "line": 1,
       "specre_id": "01KHYCJNHZ6V29EK1MP1PGSCT6"
@@ -47,6 +62,11 @@
       "specre_id": "01KHYAR18XSDQE448P8GXMPR05"
     },
     {
+      "file": "app/controllers/api/v1/subforems_controller.rb",
+      "line": 1,
+      "specre_id": "01KHYYJCP2TRNXM24G12C072KD"
+    },
+    {
       "file": "app/controllers/api/v1/tags_controller.rb",
       "line": 1,
       "specre_id": "01KHYCJNHZ6V29EK1MP1PGSCT6"
@@ -55,6 +75,11 @@
       "file": "app/controllers/concerns/api/organizations_controller.rb",
       "line": 1,
       "specre_id": "01KHYAR0M26F2KE6CFGA3390RE"
+    },
+    {
+      "file": "app/controllers/concerns/api/subforems_controller.rb",
+      "line": 1,
+      "specre_id": "01KHYYJCP2TRNXM24G12C072KD"
     },
     {
       "file": "app/controllers/concerns/api/tags_controller.rb",
@@ -70,6 +95,11 @@
       "file": "app/controllers/organizations_controller.rb",
       "line": 1,
       "specre_id": "01KHYAPESAA0V3WKK075E59EPH"
+    },
+    {
+      "file": "app/controllers/subforems_controller.rb",
+      "line": 1,
+      "specre_id": "01KHYH43TN4FS8ZYTW757DZBHZ"
     },
     {
       "file": "app/controllers/surveys_controller.rb",
@@ -107,6 +137,11 @@
       "specre_id": "01KHYCRNMG4MM7NP4BV78E5WQ2"
     },
     {
+      "file": "app/javascript/controllers/subforem_image_upload_controller.js",
+      "line": 1,
+      "specre_id": "01KHYH43TN4FS8ZYTW757DZBHZ"
+    },
+    {
       "file": "app/javascript/githubRepos/__tests__/githubRepos.test.jsx",
       "line": 1,
       "specre_id": "01KHY99D5ZW1JPV9A0GAQGK90W"
@@ -130,6 +165,11 @@
       "file": "app/javascript/listings/dashboard/rowElements/tags.jsx",
       "line": 1,
       "specre_id": "01KHYCSHNS0S69CWGV0Q67HZVW"
+    },
+    {
+      "file": "app/javascript/onboarding/components/FollowSubforems.jsx",
+      "line": 1,
+      "specre_id": "01KHYYD4RVEHXFA0M3F62W5PQD"
     },
     {
       "file": "app/javascript/organization/OrganizationPicker.jsx",
@@ -157,6 +197,16 @@
       "specre_id": "01KHYB21QD394ZG8HWV7KERR60"
     },
     {
+      "file": "app/javascript/packs/signupSubforemStorage.js",
+      "line": 1,
+      "specre_id": "01KHYYD4RVEHXFA0M3F62W5PQD"
+    },
+    {
+      "file": "app/javascript/packs/signupSubforemStorage.jsx",
+      "line": 1,
+      "specre_id": "01KHYYD4RVEHXFA0M3F62W5PQD"
+    },
+    {
       "file": "app/javascript/tags/TagButtonContainer.jsx",
       "line": 1,
       "specre_id": "01KHYCQP8ZV9CETSKG0HMGF2XP"
@@ -165,6 +215,11 @@
       "file": "app/lib/constants/tags.rb",
       "line": 1,
       "specre_id": "01KHYCB979HE8GAWAK6V94BANV"
+    },
+    {
+      "file": "app/lib/middlewares/set_subforem.rb",
+      "line": 1,
+      "specre_id": "01KHYYE333JHM6PGK7AZYCHD0X"
     },
     {
       "file": "app/liquid_tags/github_tag.rb",
@@ -227,6 +282,11 @@
       "specre_id": "01KHYABB1GB91QKA03127ZTDMJ"
     },
     {
+      "file": "app/models/subforem.rb",
+      "line": 1,
+      "specre_id": "01KHYYH62ZG383CA1EG815V11C"
+    },
+    {
       "file": "app/models/survey.rb",
       "line": 1,
       "specre_id": "01KHYDGFH91Y4CKRSK7XB9CAY2"
@@ -262,6 +322,11 @@
       "specre_id": "01KHYACZKPN88W16YWM7C8YF7V"
     },
     {
+      "file": "app/policies/subforem_policy.rb",
+      "line": 1,
+      "specre_id": "01KHYH43TN4FS8ZYTW757DZBHZ"
+    },
+    {
       "file": "app/queries/organizations/suggest_prominent.rb",
       "line": 1,
       "specre_id": "01KHYAH6H7WPMS2EW9Y1XK6QYJ"
@@ -275,6 +340,11 @@
       "file": "app/serializers/search/organization_serializer.rb",
       "line": 1,
       "specre_id": "01KHYAG7500GXRZGY07Y91X18W"
+    },
+    {
+      "file": "app/services/ai/subforem_finder.rb",
+      "line": 1,
+      "specre_id": "01KHYYF2GKNFJF3ZE6PR6X8X9V"
     },
     {
       "file": "app/services/edge_cache/bust_organization.rb",
@@ -292,6 +362,16 @@
       "specre_id": "01KHY930CEJV5QRQEBKVS095AX"
     },
     {
+      "file": "app/services/images/generate_subforem_images.rb",
+      "line": 1,
+      "specre_id": "01KHYYH62ZG383CA1EG815V11C"
+    },
+    {
+      "file": "app/services/notifications/subforem_change_notification/send.rb",
+      "line": 1,
+      "specre_id": "01KHYYG7CT65AXSS0G8M61RW6N"
+    },
+    {
       "file": "app/services/organizations/delete.rb",
       "line": 1,
       "specre_id": "01KHYAJ5A6WCMJEYQEF12BEETG"
@@ -302,9 +382,34 @@
       "specre_id": "01KHYAG7500GXRZGY07Y91X18W"
     },
     {
+      "file": "app/services/subforem_moderators/add.rb",
+      "line": 1,
+      "specre_id": "01KHYH2RE3WEHN4RVYZWBNXCHA"
+    },
+    {
+      "file": "app/services/subforem_moderators/add_trusted_role.rb",
+      "line": 1,
+      "specre_id": "01KHYH2RE3WEHN4RVYZWBNXCHA"
+    },
+    {
+      "file": "app/services/subforem_moderators/remove.rb",
+      "line": 1,
+      "specre_id": "01KHYH2RE3WEHN4RVYZWBNXCHA"
+    },
+    {
+      "file": "app/services/subforem_reassignment_service.rb",
+      "line": 1,
+      "specre_id": "01KHYYF2GKNFJF3ZE6PR6X8X9V"
+    },
+    {
       "file": "app/services/survey_completion_service.rb",
       "line": 1,
       "specre_id": "01KHYDHRP7XCMAJFEZ27YPZK5Y"
+    },
+    {
+      "file": "app/uploaders/subforem_image_uploader.rb",
+      "line": 1,
+      "specre_id": "01KHYH43TN4FS8ZYTW757DZBHZ"
     },
     {
       "file": "app/views/admin/organizations/_activity.html.erb",
@@ -320,6 +425,31 @@
       "file": "app/views/admin/organizations/show.html.erb",
       "line": 1,
       "specre_id": "01KHYB07ABXD2FDW207KP1GHDH"
+    },
+    {
+      "file": "app/views/admin/subforems/_form.html.erb",
+      "line": 1,
+      "specre_id": "01KHY7Q13CTARYM9F87K21A5Z5"
+    },
+    {
+      "file": "app/views/admin/subforems/edit.html.erb",
+      "line": 1,
+      "specre_id": "01KHY7Q13CTARYM9F87K21A5Z5"
+    },
+    {
+      "file": "app/views/admin/subforems/index.html.erb",
+      "line": 1,
+      "specre_id": "01KHY7Q13CTARYM9F87K21A5Z5"
+    },
+    {
+      "file": "app/views/admin/subforems/new.html.erb",
+      "line": 1,
+      "specre_id": "01KHY7Q13CTARYM9F87K21A5Z5"
+    },
+    {
+      "file": "app/views/admin/subforems/show.html.erb",
+      "line": 1,
+      "specre_id": "01KHY7Q13CTARYM9F87K21A5Z5"
     },
     {
       "file": "app/views/admin/surveys/_form.html.erb",
@@ -382,6 +512,16 @@
       "specre_id": "01KHY7Q19K3T435K5XD2YF421F"
     },
     {
+      "file": "app/views/mailers/notify_mailer/subforem_moderator_confirmation_email.html.erb",
+      "line": 1,
+      "specre_id": "01KHYH2RE3WEHN4RVYZWBNXCHA"
+    },
+    {
+      "file": "app/views/mailers/notify_mailer/subforem_moderator_confirmation_email.text.erb",
+      "line": 1,
+      "specre_id": "01KHYH2RE3WEHN4RVYZWBNXCHA"
+    },
+    {
       "file": "app/views/mailers/organization_invitation_mailer/invitation_email.html.erb",
       "line": 1,
       "specre_id": "01KHYAN2EY716NJQJ4P7XGBTDG"
@@ -405,6 +545,11 @@
       "file": "app/views/mailers/survey_mailer/pulse_survey.html.erb",
       "line": 1,
       "specre_id": "01KHY7Q0SPE22H49Y79AZYKZNY"
+    },
+    {
+      "file": "app/views/notifications/_subforemchange.html.erb",
+      "line": 1,
+      "specre_id": "01KHYYG7CT65AXSS0G8M61RW6N"
     },
     {
       "file": "app/views/organizations/_header.html.erb",
@@ -445,6 +590,36 @@
       "file": "app/views/organizations/show.html.erb",
       "line": 1,
       "specre_id": "01KHYAY4DGRYJFMXJ7BBYNVE7Y"
+    },
+    {
+      "file": "app/views/shared/_subforem_selection_modal.html.erb",
+      "line": 1,
+      "specre_id": "01KHYYC8DH90XT7E7QYRPVDT2W"
+    },
+    {
+      "file": "app/views/subforems/edit.html.erb",
+      "line": 1,
+      "specre_id": "01KHYH43TN4FS8ZYTW757DZBHZ"
+    },
+    {
+      "file": "app/views/subforems/edit_page.html.erb",
+      "line": 1,
+      "specre_id": "01KHYH5N8Y83SD7G7S5DDF7ZJZ"
+    },
+    {
+      "file": "app/views/subforems/index.html.erb",
+      "line": 1,
+      "specre_id": "01KHYYANBZBNB7XDZQA27N5P5Q"
+    },
+    {
+      "file": "app/views/subforems/new.html.erb",
+      "line": 1,
+      "specre_id": "01KHYYBET04W7WAZ1CNGMCEKAT"
+    },
+    {
+      "file": "app/views/subforems/new_page.html.erb",
+      "line": 1,
+      "specre_id": "01KHYH5N8Y83SD7G7S5DDF7ZJZ"
     },
     {
       "file": "app/views/surveys/show.html.erb",
@@ -492,6 +667,11 @@
       "specre_id": "01KHY987S3SNX2YV4C0ZHSHEK3"
     },
     {
+      "file": "app/workers/notifications/subforem_change_notification_worker.rb",
+      "line": 1,
+      "specre_id": "01KHYYG7CT65AXSS0G8M61RW6N"
+    },
+    {
       "file": "app/workers/organizations/bust_cache_worker.rb",
       "line": 1,
       "specre_id": "01KHYAKA53GF8RR3HJRFK3Y0A9"
@@ -515,6 +695,11 @@
       "file": "app/workers/organizations/update_organization_articles_paths_worker.rb",
       "line": 1,
       "specre_id": "01KHYAKARS8WVZ96MGFRRX02R5"
+    },
+    {
+      "file": "app/workers/subforems/create_from_scratch_worker.rb",
+      "line": 1,
+      "specre_id": "01KHYYH62ZG383CA1EG815V11C"
     },
     {
       "file": "app/workers/tags/alias_retag_worker.rb",
@@ -542,6 +727,11 @@
       "specre_id": "01KHYAE6BT4N3QJ2FR396TTRCQ"
     },
     {
+      "file": "spec/factories/subforems.rb",
+      "line": 1,
+      "specre_id": "01KHYYH62ZG383CA1EG815V11C"
+    },
+    {
       "file": "spec/factories/survey_completions.rb",
       "line": 1,
       "specre_id": "01KHYDHRP7XCMAJFEZ27YPZK5Y"
@@ -550,6 +740,11 @@
       "file": "spec/factories/surveys.rb",
       "line": 1,
       "specre_id": "01KHYDGFH91Y4CKRSK7XB9CAY2"
+    },
+    {
+      "file": "spec/factories/tag_subforem_relationships.rb",
+      "line": 1,
+      "specre_id": "01KHYY9VPHV3N120R4QWFZ0SYK"
     },
     {
       "file": "spec/helpers/admin/organizations_helper_spec.rb",
@@ -565,6 +760,11 @@
       "file": "spec/integration/billboard_survey_exclusion_integration_spec.rb",
       "line": 1,
       "specre_id": "01KHY7Q0WMC5TAZHY6W7XY01X6"
+    },
+    {
+      "file": "spec/lib/middlewares/set_subforem_spec.rb",
+      "line": 1,
+      "specre_id": "01KHYYE333JHM6PGK7AZYCHD0X"
     },
     {
       "file": "spec/liquid_tags/organization_tag_spec.rb",
@@ -617,6 +817,11 @@
       "specre_id": "01KHYA9GWPEHZ06WJWDG1QKSK8"
     },
     {
+      "file": "spec/models/subforem_spec.rb",
+      "line": 1,
+      "specre_id": "01KHYYH62ZG383CA1EG815V11C"
+    },
+    {
       "file": "spec/models/survey_completion_spec.rb",
       "line": 1,
       "specre_id": "01KHYDHRP7XCMAJFEZ27YPZK5Y"
@@ -652,6 +857,11 @@
       "specre_id": "01KHYACZKPN88W16YWM7C8YF7V"
     },
     {
+      "file": "spec/policies/subforem_policy_spec.rb",
+      "line": 1,
+      "specre_id": "01KHYH43TN4FS8ZYTW757DZBHZ"
+    },
+    {
       "file": "spec/queries/organizations/suggest_prominent_spec.rb",
       "line": 1,
       "specre_id": "01KHYAH6H7WPMS2EW9Y1XK6QYJ"
@@ -670,6 +880,16 @@
       "file": "spec/requests/admin/organizations_spec.rb",
       "line": 1,
       "specre_id": "01KHYAQZFNE6166KPD56KDPFRQ"
+    },
+    {
+      "file": "spec/requests/admin/subforems_about_page_spec.rb",
+      "line": 1,
+      "specre_id": "01KHY7Q13AHA2SC3GPQ920WG44"
+    },
+    {
+      "file": "spec/requests/admin/subforems_spec.rb",
+      "line": 1,
+      "specre_id": "01KHY7Q13CTARYM9F87K21A5Z5"
     },
     {
       "file": "spec/requests/admin/surveys_spec.rb",
@@ -692,6 +912,11 @@
       "specre_id": "01KHYAR0M26F2KE6CFGA3390RE"
     },
     {
+      "file": "spec/requests/api/v0/subforems_spec.rb",
+      "line": 1,
+      "specre_id": "01KHYYJCP2TRNXM24G12C072KD"
+    },
+    {
       "file": "spec/requests/api/v0/tags_spec.rb",
       "line": 1,
       "specre_id": "01KHYCJNHZ6V29EK1MP1PGSCT6"
@@ -705,6 +930,11 @@
       "file": "spec/requests/api/v1/organizations_spec.rb",
       "line": 1,
       "specre_id": "01KHYAR18XSDQE448P8GXMPR05"
+    },
+    {
+      "file": "spec/requests/api/v1/subforems_spec.rb",
+      "line": 1,
+      "specre_id": "01KHYYJCP2TRNXM24G12C072KD"
     },
     {
       "file": "spec/requests/api/v1/tags_spec.rb",
@@ -730,6 +960,16 @@
       "file": "spec/requests/organizations_update_spec.rb",
       "line": 1,
       "specre_id": "01KHYAPESAA0V3WKK075E59EPH"
+    },
+    {
+      "file": "spec/requests/subforem_selection_modal_spec.rb",
+      "line": 1,
+      "specre_id": "01KHYYC8DH90XT7E7QYRPVDT2W"
+    },
+    {
+      "file": "spec/requests/subforems_spec.rb",
+      "line": 1,
+      "specre_id": "01KHYH43TN4FS8ZYTW757DZBHZ"
     },
     {
       "file": "spec/requests/surveys_controller_spec.rb",
@@ -762,6 +1002,11 @@
       "specre_id": "01KHY930CEJV5QRQEBKVS095AX"
     },
     {
+      "file": "spec/services/images/generate_subforem_images_spec.rb",
+      "line": 1,
+      "specre_id": "01KHYYH62ZG383CA1EG815V11C"
+    },
+    {
       "file": "spec/services/organizations/delete_spec.rb",
       "line": 1,
       "specre_id": "01KHYAJ5A6WCMJEYQEF12BEETG"
@@ -772,9 +1017,29 @@
       "specre_id": "01KHYAG7500GXRZGY07Y91X18W"
     },
     {
+      "file": "spec/services/subforem_moderators/add_spec.rb",
+      "line": 1,
+      "specre_id": "01KHYH2RE3WEHN4RVYZWBNXCHA"
+    },
+    {
+      "file": "spec/services/subforem_moderators/remove_spec.rb",
+      "line": 1,
+      "specre_id": "01KHYH2RE3WEHN4RVYZWBNXCHA"
+    },
+    {
+      "file": "spec/services/subforem_reassignment_service_spec.rb",
+      "line": 1,
+      "specre_id": "01KHYYF2GKNFJF3ZE6PR6X8X9V"
+    },
+    {
       "file": "spec/system/tags/user_updates_a_tag_spec.rb",
       "line": 1,
       "specre_id": "01KHYCHBSG5WKRXGVJ81HAFC7F"
+    },
+    {
+      "file": "spec/views/subforems/edit_spec.rb",
+      "line": 1,
+      "specre_id": "01KHYH43TN4FS8ZYTW757DZBHZ"
     },
     {
       "file": "spec/workers/emails/survey_daily_email_worker_spec.rb",
@@ -815,6 +1080,11 @@
       "file": "spec/workers/organizations/update_organization_articles_paths_worker_spec.rb",
       "line": 1,
       "specre_id": "01KHYAKARS8WVZ96MGFRRX02R5"
+    },
+    {
+      "file": "spec/workers/subforems/create_from_scratch_worker_spec.rb",
+      "line": 1,
+      "specre_id": "01KHYYH62ZG383CA1EG815V11C"
     },
     {
       "file": "spec/workers/tags/bust_cache_worker_spec.rb",
@@ -6637,94 +6907,6 @@
       "status": "stable"
     },
     {
-      "domain": "subforems",
-      "id": "01KHY7Q1B41A981FT1JV31Y5PY",
-      "last_verified": "2026-02-21",
-      "name": "middlewares_set_subforem_lib",
-      "path": "docs/specres/subforems/middlewares_set_subforem_lib.md",
-      "status": "stable"
-    },
-    {
-      "domain": "subforems",
-      "id": "01KHY7Q1B6HR02XD4GXRBWMTW3",
-      "last_verified": "2026-02-21",
-      "name": "subforem_model",
-      "path": "docs/specres/subforems/subforem_model.md",
-      "status": "stable"
-    },
-    {
-      "domain": "subforems",
-      "id": "01KHY7Q1B9SESXM5FDRN94HMG5",
-      "last_verified": "2026-02-21",
-      "name": "subforem_policy_policy",
-      "path": "docs/specres/subforems/subforem_policy_policy.md",
-      "status": "stable"
-    },
-    {
-      "domain": "subforems",
-      "id": "01KHY7Q1BC0MMCESPRGE4GSFJM",
-      "last_verified": "2026-02-21",
-      "name": "api_v0_subforems_api",
-      "path": "docs/specres/subforems/api_v0_subforems_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "subforems",
-      "id": "01KHY7Q1BEPDW9M89TGRGSAF0Y",
-      "last_verified": "2026-02-21",
-      "name": "api_v1_subforems_api",
-      "path": "docs/specres/subforems/api_v1_subforems_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "subforems",
-      "id": "01KHY7Q1BH5PWX6C9D0A0YXF58",
-      "last_verified": "2026-02-21",
-      "name": "subforem_selection_modal_api",
-      "path": "docs/specres/subforems/subforem_selection_modal_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "subforems",
-      "id": "01KHY7Q1BMEP8QKP2QSE22FTPF",
-      "last_verified": "2026-02-21",
-      "name": "subforems_api",
-      "path": "docs/specres/subforems/subforems_api.md",
-      "status": "stable"
-    },
-    {
-      "domain": "subforems",
-      "id": "01KHY7Q1BQ39KVZJV3VSVTXKA4",
-      "last_verified": "2026-02-21",
-      "name": "images_generate_subforem_images_service",
-      "path": "docs/specres/subforems/images_generate_subforem_images_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "subforems",
-      "id": "01KHY7Q1BTQCX7W0V1GJY6B3EY",
-      "last_verified": "2026-02-21",
-      "name": "subforem_reassignment_service_service",
-      "path": "docs/specres/subforems/subforem_reassignment_service_service.md",
-      "status": "stable"
-    },
-    {
-      "domain": "subforems",
-      "id": "01KHY7Q1BX0GFW15JB3WF3747T",
-      "last_verified": "2026-02-21",
-      "name": "subforems_edit_view",
-      "path": "docs/specres/subforems/subforems_edit_view.md",
-      "status": "stable"
-    },
-    {
-      "domain": "subforems",
-      "id": "01KHY7Q1BZZ7H0D1JE70529GT4",
-      "last_verified": "2026-02-21",
-      "name": "subforems_create_from_scratch_worker_worker",
-      "path": "docs/specres/subforems/subforems_create_from_scratch_worker_worker.md",
-      "status": "stable"
-    },
-    {
       "domain": "collections",
       "id": "01KHY7Q1C21BZJD63AC59HEX8R",
       "last_verified": "2026-02-21",
@@ -7834,6 +8016,118 @@
       "last_verified": "2026-02-21",
       "name": "survey_presents_public_view",
       "path": "docs/specres/surveys/survey_presents_public_view.md",
+      "status": "stable"
+    },
+    {
+      "domain": "subforems",
+      "id": "01KHYH2RE3WEHN4RVYZWBNXCHA",
+      "last_verified": "2026-02-21",
+      "name": "admin_can_manage_subforem_moderators",
+      "path": "docs/specres/subforems/admin_can_manage_subforem_moderators.md",
+      "status": "stable"
+    },
+    {
+      "domain": "subforems",
+      "id": "01KHYH43TN4FS8ZYTW757DZBHZ",
+      "last_verified": "2026-02-21",
+      "name": "moderator_can_update_subforem_settings",
+      "path": "docs/specres/subforems/moderator_can_update_subforem_settings.md",
+      "status": "stable"
+    },
+    {
+      "domain": "subforems",
+      "id": "01KHYH5N8Y83SD7G7S5DDF7ZJZ",
+      "last_verified": "2026-02-21",
+      "name": "moderator_can_manage_subforem_pages",
+      "path": "docs/specres/subforems/moderator_can_manage_subforem_pages.md",
+      "status": "stable"
+    },
+    {
+      "domain": "subforems",
+      "id": "01KHYH6H3EC7J6FS17BS9ZBE0F",
+      "last_verified": "2026-02-21",
+      "name": "moderator_can_manage_subforem_navigation_links",
+      "path": "docs/specres/subforems/moderator_can_manage_subforem_navigation_links.md",
+      "status": "stable"
+    },
+    {
+      "domain": "subforems",
+      "id": "01KHYY9VPHV3N120R4QWFZ0SYK",
+      "last_verified": "2026-02-21",
+      "name": "moderator_can_manage_subforem_supported_tags",
+      "path": "docs/specres/subforems/moderator_can_manage_subforem_supported_tags.md",
+      "status": "stable"
+    },
+    {
+      "domain": "subforems",
+      "id": "01KHYYANBZBNB7XDZQA27N5P5Q",
+      "last_verified": "2026-02-21",
+      "name": "user_can_browse_subforems",
+      "path": "docs/specres/subforems/user_can_browse_subforems.md",
+      "status": "stable"
+    },
+    {
+      "domain": "subforems",
+      "id": "01KHYYBET04W7WAZ1CNGMCEKAT",
+      "last_verified": null,
+      "name": "user_can_propose_new_subforem",
+      "path": "docs/specres/subforems/user_can_propose_new_subforem.md",
+      "status": "draft"
+    },
+    {
+      "domain": "subforems",
+      "id": "01KHYYC8DH90XT7E7QYRPVDT2W",
+      "last_verified": "2026-02-21",
+      "name": "user_can_select_subforem_when_creating_post",
+      "path": "docs/specres/subforems/user_can_select_subforem_when_creating_post.md",
+      "status": "stable"
+    },
+    {
+      "domain": "subforems",
+      "id": "01KHYYD4RVEHXFA0M3F62W5PQD",
+      "last_verified": null,
+      "name": "user_can_follow_subforems_during_onboarding",
+      "path": "docs/specres/subforems/user_can_follow_subforems_during_onboarding.md",
+      "status": "draft"
+    },
+    {
+      "domain": "subforems",
+      "id": "01KHYYE333JHM6PGK7AZYCHD0X",
+      "last_verified": "2026-02-21",
+      "name": "system_resolves_subforem_from_request_domain",
+      "path": "docs/specres/subforems/system_resolves_subforem_from_request_domain.md",
+      "status": "stable"
+    },
+    {
+      "domain": "subforems",
+      "id": "01KHYYF2GKNFJF3ZE6PR6X8X9V",
+      "last_verified": "2026-02-21",
+      "name": "system_reassigns_offtopic_article_to_appropriate_subforem",
+      "path": "docs/specres/subforems/system_reassigns_offtopic_article_to_appropriate_subforem.md",
+      "status": "stable"
+    },
+    {
+      "domain": "subforems",
+      "id": "01KHYYG7CT65AXSS0G8M61RW6N",
+      "last_verified": null,
+      "name": "system_notifies_user_of_subforem_change",
+      "path": "docs/specres/subforems/system_notifies_user_of_subforem_change.md",
+      "status": "draft"
+    },
+    {
+      "domain": "subforems",
+      "id": "01KHYYH62ZG383CA1EG815V11C",
+      "last_verified": "2026-02-21",
+      "name": "system_creates_subforem_from_scratch",
+      "path": "docs/specres/subforems/system_creates_subforem_from_scratch.md",
+      "status": "stable"
+    },
+    {
+      "domain": "subforems",
+      "id": "01KHYYJCP2TRNXM24G12C072KD",
+      "last_verified": "2026-02-21",
+      "name": "system_exposes_subforems_via_api",
+      "path": "docs/specres/subforems/system_exposes_subforems_via_api.md",
       "status": "stable"
     }
   ],

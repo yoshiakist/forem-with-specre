@@ -1,3 +1,4 @@
+# @specre 01KHYH2RE3WEHN4RVYZWBNXCHA
 require "rails_helper"
 
 RSpec.describe SubforemModerators::Add do

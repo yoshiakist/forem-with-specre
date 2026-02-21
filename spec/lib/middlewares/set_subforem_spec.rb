@@ -1,3 +1,4 @@
+# @specre 01KHYYE333JHM6PGK7AZYCHD0X
 require "rails_helper"
 
 RSpec.describe Middlewares::SetSubforem do

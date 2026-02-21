@@ -1,3 +1,4 @@
+# @specre 01KHY7Q13CTARYM9F87K21A5Z5
 module Admin
   class SubforemsController < Admin::ApplicationController
     layout "admin"

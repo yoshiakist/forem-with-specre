@@ -1,3 +1,4 @@
+# @specre 01KHYH2RE3WEHN4RVYZWBNXCHA
 module SubforemModerators
   class Remove
     def self.call(user, subforem)

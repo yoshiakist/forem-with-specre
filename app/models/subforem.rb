@@ -1,3 +1,4 @@
+# @specre 01KHYYH62ZG383CA1EG815V11C
 class Subforem < ApplicationRecord
   acts_as_followable
   resourcify

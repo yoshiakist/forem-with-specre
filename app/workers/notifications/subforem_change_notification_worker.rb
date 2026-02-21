@@ -1,3 +1,4 @@
+# @specre 01KHYYG7CT65AXSS0G8M61RW6N
 module Notifications
   class SubforemChangeNotificationWorker
     include Sidekiq::Job
