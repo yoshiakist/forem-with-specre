@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-21T22:47:50Z",
+  "generated_at": "2026-02-21T23:04:43Z",
   "source_refs": [
     {
       "file": "app/assets/javascripts/subforemSelectionModal.js",
@@ -282,6 +282,21 @@
       "specre_id": "01KHY94DZ9B1PRJBC818Q9SKXB"
     },
     {
+      "file": "app/controllers/moderations_controller.rb",
+      "line": 1,
+      "specre_id": "01KJ1733YCRFGKZZN1ZR6JBEHC"
+    },
+    {
+      "file": "app/controllers/moderations_controller.rb",
+      "line": 2,
+      "specre_id": "01KJ16Z3Y34HEH2GSWHHXW3NAM"
+    },
+    {
+      "file": "app/controllers/moderations_controller.rb",
+      "line": 3,
+      "specre_id": "01KJ16TED32H3YYC9F610VZM5X"
+    },
+    {
       "file": "app/controllers/notification_subscriptions_controller.rb",
       "line": 1,
       "specre_id": "01KJ15N9VC5VXN9692QKQRVF5E"
@@ -487,6 +502,11 @@
       "specre_id": "01KHZ69F0GE1R07TXK53AAA1K8"
     },
     {
+      "file": "app/errors/moderation_unauthorized_error.rb",
+      "line": 1,
+      "specre_id": "01KJ16Z3Y34HEH2GSWHHXW3NAM"
+    },
+    {
       "file": "app/errors/search.rb",
       "line": 1,
       "specre_id": "01KHZ22E63WBQWYFZNQVEA2EEE"
@@ -515,6 +535,11 @@
       "file": "app/helpers/admin/settings_helper.rb",
       "line": 1,
       "specre_id": "01KHZ3R448RA411ZP1V33AX5MR"
+    },
+    {
+      "file": "app/helpers/moderations/actions_panel_helper.rb",
+      "line": 1,
+      "specre_id": "01KJ16Z3Y34HEH2GSWHHXW3NAM"
     },
     {
       "file": "app/helpers/notifications_helper.rb",
@@ -575,6 +600,16 @@
       "file": "app/javascript/Search/index.js",
       "line": 1,
       "specre_id": "01KHZ22E63WBQWYFZNQVEA2EEE"
+    },
+    {
+      "file": "app/javascript/actionsPanel/actionsPanel.js",
+      "line": 1,
+      "specre_id": "01KJ16Z3Y34HEH2GSWHHXW3NAM"
+    },
+    {
+      "file": "app/javascript/actionsPanel/initializeActionsPanelToggle.js",
+      "line": 1,
+      "specre_id": "01KJ16Z3Y34HEH2GSWHHXW3NAM"
     },
     {
       "file": "app/javascript/actionsPanel/services/reactions.js",
@@ -642,6 +677,26 @@
       "specre_id": "01KHY99D5ZW1JPV9A0GAQGK90W"
     },
     {
+      "file": "app/javascript/modCenter/__tests__/moderationArticles.test.jsx",
+      "line": 1,
+      "specre_id": "01KJ16TED32H3YYC9F610VZM5X"
+    },
+    {
+      "file": "app/javascript/modCenter/moderationArticles.jsx",
+      "line": 1,
+      "specre_id": "01KJ16TED32H3YYC9F610VZM5X"
+    },
+    {
+      "file": "app/javascript/modCenter/singleArticle/index.jsx",
+      "line": 1,
+      "specre_id": "01KJ16TED32H3YYC9F610VZM5X"
+    },
+    {
+      "file": "app/javascript/modCenter/singleArticle/util.js",
+      "line": 1,
+      "specre_id": "01KJ16TED32H3YYC9F610VZM5X"
+    },
+    {
       "file": "app/javascript/onboarding/components/FollowSubforems.jsx",
       "line": 1,
       "specre_id": "01KHYYD4RVEHXFA0M3F62W5PQD"
@@ -702,6 +757,11 @@
       "specre_id": "01KHZ22E63WBQWYFZNQVEA2EEE"
     },
     {
+      "file": "app/javascript/packs/actionsPanel.js",
+      "line": 1,
+      "specre_id": "01KJ16Z3Y34HEH2GSWHHXW3NAM"
+    },
+    {
       "file": "app/javascript/packs/admin/organizations.jsx",
       "line": 1,
       "specre_id": "01KJ02MNP5AREF4M1SM48V0ED6"
@@ -720,11 +780,21 @@
       "file": "app/javascript/packs/admin/organizations/modals.js",
       "line": 2,
       "specre_id": "01KHYB1FSJRAWD3J79MJ5ZA141"
+    },
+    {
+      "file": "app/javascript/packs/articleModerationTools.js",
+      "line": 1,
+      "specre_id": "01KJ16Z3Y34HEH2GSWHHXW3NAM"
     },
     {
       "file": "app/javascript/packs/articleReactions.js",
       "line": 1,
       "specre_id": "01KHZ55SRCPDHPWM0EYSTE60MK"
+    },
+    {
+      "file": "app/javascript/packs/commentModPage.js",
+      "line": 1,
+      "specre_id": "01KJ1733YCRFGKZZN1ZR6JBEHC"
     },
     {
       "file": "app/javascript/packs/githubRepos.jsx",
@@ -740,6 +810,16 @@
       "file": "app/javascript/packs/initializers/initializeSettings.js",
       "line": 1,
       "specre_id": "01KHZ466X2VM8VAWD6RE82CF9J"
+    },
+    {
+      "file": "app/javascript/packs/modCenter.jsx",
+      "line": 1,
+      "specre_id": "01KJ16TED32H3YYC9F610VZM5X"
+    },
+    {
+      "file": "app/javascript/packs/modals/unpublishAllPosts.js",
+      "line": 1,
+      "specre_id": "01KJ16Z3FNFCXTAK705DRJ0WVR"
     },
     {
       "file": "app/javascript/packs/notificationPage.js",
@@ -775,6 +855,21 @@
       "file": "app/javascript/packs/signupSubforemStorage.jsx",
       "line": 1,
       "specre_id": "01KHYYD4RVEHXFA0M3F62W5PQD"
+    },
+    {
+      "file": "app/javascript/packs/toggleUserFlagModal.js",
+      "line": 1,
+      "specre_id": "01KJ16TGR3DPN82GRT9N6DR7BQ"
+    },
+    {
+      "file": "app/javascript/packs/toggleUserSuspensionModal.js",
+      "line": 1,
+      "specre_id": "01KJ16YRQGJ8SK83RGN8MJ78V5"
+    },
+    {
+      "file": "app/javascript/packs/unpublishPostModal.jsx",
+      "line": 1,
+      "specre_id": "01KJ16Z3FNFCXTAK705DRJ0WVR"
     },
     {
       "file": "app/javascript/packs/userProfileSettings.js",
@@ -877,9 +972,19 @@
       "specre_id": "01KHZ466X2VM8VAWD6RE82CF9J"
     },
     {
+      "file": "app/javascript/utilities/__tests__/moderation.test.js",
+      "line": 1,
+      "specre_id": "01KJ16Z3Y34HEH2GSWHHXW3NAM"
+    },
+    {
       "file": "app/javascript/utilities/__tests__/search.test.js",
       "line": 1,
       "specre_id": "01KHZ22E63WBQWYFZNQVEA2EEE"
+    },
+    {
+      "file": "app/javascript/utilities/moderation.js",
+      "line": 1,
+      "specre_id": "01KJ16Z3Y34HEH2GSWHHXW3NAM"
     },
     {
       "file": "app/javascript/utilities/podcastPlayback.js",
@@ -1362,6 +1467,11 @@
       "specre_id": "01KHZ25T4PNZ33CT917WZ25JYT"
     },
     {
+      "file": "app/services/ai/content_moderation_labeler.rb",
+      "line": 1,
+      "specre_id": "01KJ16TPFT4QGX88S3N5FMGKV5"
+    },
+    {
       "file": "app/services/ai/profile_moderation_labeler.rb",
       "line": 1,
       "specre_id": "01KHZ6M3H0WPQNH4GKB6YPAR1T"
@@ -1430,6 +1540,11 @@
       "file": "app/services/images/safe_remote_profile_image_url.rb",
       "line": 1,
       "specre_id": "01KHZ6GG5GD766PRZK1SE50KMG"
+    },
+    {
+      "file": "app/services/moderations/article_fetcher_service.rb",
+      "line": 1,
+      "specre_id": "01KJ16TED32H3YYC9F610VZM5X"
     },
     {
       "file": "app/services/notification_subscriptions/subscribe.rb",
@@ -2072,6 +2187,11 @@
       "specre_id": "01KHY7Q146KBEEXMZ1BBBZSC16"
     },
     {
+      "file": "app/views/admin/users/show/overview/_tag_moderation.html.erb",
+      "line": 1,
+      "specre_id": "01KJ16Z3Y34HEH2GSWHHXW3NAM"
+    },
+    {
       "file": "app/views/admin/users/show/profile/_actions.html.erb",
       "line": 1,
       "specre_id": "01KHZ6G82HEH34EH9QFG6JJ8XC"
@@ -2190,6 +2310,66 @@
       "file": "app/views/mailers/survey_mailer/pulse_survey.html.erb",
       "line": 1,
       "specre_id": "01KHY7Q0SPE22H49Y79AZYKZNY"
+    },
+    {
+      "file": "app/views/moderations/_mod_sidebar_left.html.erb",
+      "line": 1,
+      "specre_id": "01KJ16TED32H3YYC9F610VZM5X"
+    },
+    {
+      "file": "app/views/moderations/_mod_sidebar_right.html.erb",
+      "line": 1,
+      "specre_id": "01KJ16TED32H3YYC9F610VZM5X"
+    },
+    {
+      "file": "app/views/moderations/actions_panel.html.erb",
+      "line": 1,
+      "specre_id": "01KJ16Z3Y34HEH2GSWHHXW3NAM"
+    },
+    {
+      "file": "app/views/moderations/index.html.erb",
+      "line": 1,
+      "specre_id": "01KJ16TED32H3YYC9F610VZM5X"
+    },
+    {
+      "file": "app/views/moderations/mod.html.erb",
+      "line": 1,
+      "specre_id": "01KJ1733YCRFGKZZN1ZR6JBEHC"
+    },
+    {
+      "file": "app/views/moderations/mod.html.erb",
+      "line": 2,
+      "specre_id": "01KJ16Z3Y34HEH2GSWHHXW3NAM"
+    },
+    {
+      "file": "app/views/moderations/modals/_flag_user_modal.html.erb",
+      "line": 1,
+      "specre_id": "01KJ16TGR3DPN82GRT9N6DR7BQ"
+    },
+    {
+      "file": "app/views/moderations/modals/_suspend_user_modal.html.erb",
+      "line": 1,
+      "specre_id": "01KJ16YRQGJ8SK83RGN8MJ78V5"
+    },
+    {
+      "file": "app/views/moderations/modals/_unflag_user_modal.html.erb",
+      "line": 1,
+      "specre_id": "01KJ16TGR3DPN82GRT9N6DR7BQ"
+    },
+    {
+      "file": "app/views/moderations/modals/_unpublish_all_posts.html.erb",
+      "line": 1,
+      "specre_id": "01KJ16Z3FNFCXTAK705DRJ0WVR"
+    },
+    {
+      "file": "app/views/moderations/modals/_unpublish_post_modal.html.erb",
+      "line": 1,
+      "specre_id": "01KJ16Z3FNFCXTAK705DRJ0WVR"
+    },
+    {
+      "file": "app/views/moderations/modals/_unsuspend_user_modal.html.erb",
+      "line": 1,
+      "specre_id": "01KJ16YRQGJ8SK83RGN8MJ78V5"
     },
     {
       "file": "app/views/notifications/_aggregated_reactions.html.erb",
@@ -3247,6 +3427,11 @@
       "specre_id": "01KHYASY8DESB0ZXJFQZTWXPC8"
     },
     {
+      "file": "spec/helpers/moderations/actions_panel_helper_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ16Z3Y34HEH2GSWHHXW3NAM"
+    },
+    {
       "file": "spec/helpers/notifications_helper_spec.rb",
       "line": 1,
       "specre_id": "01KJ15MVQ9HCZ8PV80MQ828AQF"
@@ -3757,6 +3942,21 @@
       "specre_id": "01KHY94DZ9B1PRJBC818Q9SKXB"
     },
     {
+      "file": "spec/requests/moderations_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1733YCRFGKZZN1ZR6JBEHC"
+    },
+    {
+      "file": "spec/requests/moderations_spec.rb",
+      "line": 2,
+      "specre_id": "01KJ16Z3Y34HEH2GSWHHXW3NAM"
+    },
+    {
+      "file": "spec/requests/moderations_spec.rb",
+      "line": 3,
+      "specre_id": "01KJ16TED32H3YYC9F610VZM5X"
+    },
+    {
       "file": "spec/requests/notification_counts_spec.rb",
       "line": 1,
       "specre_id": "01KJ15MVQ9HCZ8PV80MQ828AQF"
@@ -3987,6 +4187,11 @@
       "specre_id": "01KHZ25T4PNZ33CT917WZ25JYT"
     },
     {
+      "file": "spec/services/ai/content_moderation_labeler_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ16TPFT4QGX88S3N5FMGKV5"
+    },
+    {
       "file": "spec/services/audit/notification_spec.rb",
       "line": 1,
       "specre_id": "01KJ162FSS39965A6QK4V78F2H"
@@ -4040,6 +4245,11 @@
       "file": "spec/services/images/safe_remote_profile_image_url_spec.rb",
       "line": 1,
       "specre_id": "01KHZ6GG5GD766PRZK1SE50KMG"
+    },
+    {
+      "file": "spec/services/moderations/article_fetcher_service_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ16TED32H3YYC9F610VZM5X"
     },
     {
       "file": "spec/services/notification_subscriptions/subscribe_spec.rb",
@@ -5842,6 +6052,62 @@
       "last_verified": "2026-02-22",
       "name": "system_records_daily_notification_metrics",
       "path": "docs/specres/notifications/system_records_daily_notification_metrics.md",
+      "status": "stable"
+    },
+    {
+      "domain": "moderation",
+      "id": "01KJ16TED32H3YYC9F610VZM5X",
+      "last_verified": "2026-02-22",
+      "name": "moderator_can_view_article_moderation_queue",
+      "path": "docs/specres/moderation/moderator_can_view_article_moderation_queue.md",
+      "status": "stable"
+    },
+    {
+      "domain": "moderation",
+      "id": "01KJ16TGR3DPN82GRT9N6DR7BQ",
+      "last_verified": null,
+      "name": "moderator_can_flag_user",
+      "path": "docs/specres/moderation/moderator_can_flag_user.md",
+      "status": "draft"
+    },
+    {
+      "domain": "moderation",
+      "id": "01KJ16TPFT4QGX88S3N5FMGKV5",
+      "last_verified": "2026-02-22",
+      "name": "system_labels_article_content_for_moderation",
+      "path": "docs/specres/moderation/system_labels_article_content_for_moderation.md",
+      "status": "stable"
+    },
+    {
+      "domain": "moderation",
+      "id": "01KJ16YRQGJ8SK83RGN8MJ78V5",
+      "last_verified": null,
+      "name": "moderator_can_suspend_user",
+      "path": "docs/specres/moderation/moderator_can_suspend_user.md",
+      "status": "draft"
+    },
+    {
+      "domain": "moderation",
+      "id": "01KJ16Z3FNFCXTAK705DRJ0WVR",
+      "last_verified": null,
+      "name": "moderator_can_unpublish_content",
+      "path": "docs/specres/moderation/moderator_can_unpublish_content.md",
+      "status": "draft"
+    },
+    {
+      "domain": "moderation",
+      "id": "01KJ16Z3Y34HEH2GSWHHXW3NAM",
+      "last_verified": "2026-02-22",
+      "name": "moderator_can_moderate_article_content",
+      "path": "docs/specres/moderation/moderator_can_moderate_article_content.md",
+      "status": "stable"
+    },
+    {
+      "domain": "moderation",
+      "id": "01KJ1733YCRFGKZZN1ZR6JBEHC",
+      "last_verified": "2026-02-22",
+      "name": "moderator_can_moderate_comment",
+      "path": "docs/specres/moderation/moderator_can_moderate_comment.md",
       "status": "stable"
     }
   ],

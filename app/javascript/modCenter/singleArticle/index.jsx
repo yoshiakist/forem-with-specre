@@ -1,3 +1,4 @@
+// @specre 01KJ16TED32H3YYC9F610VZM5X
 import PropTypes from 'prop-types';
 import { h, Fragment } from 'preact';
 import { formatDate } from './util';

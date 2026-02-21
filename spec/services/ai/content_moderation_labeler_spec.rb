@@ -1,3 +1,4 @@
+# @specre 01KJ16TPFT4QGX88S3N5FMGKV5
 require "rails_helper"
 
 RSpec.describe Ai::ContentModerationLabeler, type: :service do

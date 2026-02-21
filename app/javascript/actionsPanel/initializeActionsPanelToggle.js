@@ -1,3 +1,4 @@
+// @specre 01KJ16Z3Y34HEH2GSWHHXW3NAM
 import { isModerationPage } from '@utilities/moderation';
 
 /** This initializes the mod actions button on the article show page (app/views/articles/show.html.erb). */

@@ -1,3 +1,4 @@
+// @specre 01KJ16TED32H3YYC9F610VZM5X
 import { h, render } from 'preact';
 import { ModerationArticles } from '../modCenter/moderationArticles';
 import { addSnackbarItem, Snackbar } from '../Snackbar';
