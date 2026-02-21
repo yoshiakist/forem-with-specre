@@ -1,3 +1,4 @@
+# @specre 01KJ15YY7SWMF93P655KXRSPEK
 require "rails_helper"
 
 RSpec.describe Notifications::NotifiableAction::Send, type: :service do

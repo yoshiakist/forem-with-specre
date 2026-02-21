@@ -1,3 +1,4 @@
+# @specre 01KJ15YY7SWMF93P655KXRSPEK
 # send notification about the action ("Published") that happened on a notifiable (Article)
 module Notifications
   module NotifiableAction

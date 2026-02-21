@@ -1,3 +1,4 @@
+# @specre 01KJ15W5XTEVQVJN1FCRNWEKAB
 require "rails_helper"
 
 RSpec.describe Notifications::TagAdjustmentNotificationWorker, type: :worker do

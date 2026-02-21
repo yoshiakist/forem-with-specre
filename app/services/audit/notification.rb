@@ -1,3 +1,4 @@
+# @specre 01KJ162FSS39965A6QK4V78F2H
 module Audit
   ##
   # Main class for wrapping ActiveSupport Instrumentation API.

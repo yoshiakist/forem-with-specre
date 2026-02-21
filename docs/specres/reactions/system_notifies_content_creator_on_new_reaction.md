@@ -9,9 +9,13 @@ last_verified: "2026-02-21"
 
 - `app/services/notifications/reactions/reaction_data.rb`
 - `app/services/notifications/reactions/send.rb`
+- `app/workers/notifications/new_reaction_worker.rb`
 - `app/views/notifications/_aggregated_reactions.html.erb`
+- `app/views/notifications/_reaction.html.erb` (Template)
+- `app/views/notifications/_single_reaction.html.erb` (Template)
 - `spec/services/notifications/reactions/reaction_data_spec.rb` (Test)
 - `spec/services/notifications/reactions/send_spec.rb` (Test)
+- `spec/workers/notifications/new_reaction_worker_spec.rb` (Test)
 
 ## Functional Overview
 

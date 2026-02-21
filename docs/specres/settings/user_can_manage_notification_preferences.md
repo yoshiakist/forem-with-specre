@@ -8,8 +8,10 @@ last_verified: "2026-02-21"
 ## Related Files
 
 - `app/controllers/users/notification_settings_controller.rb`
+- `app/models/users/notification_setting.rb`
 - `spec/requests/user/user_notification_settings_spec.rb` (Test)
 - `spec/factories/users_notification_settings.rb` (Test)
+- `spec/models/users/notification_setting_spec.rb` (Test)
 
 ## Functional Overview
 

@@ -1,3 +1,4 @@
+# @specre 01KJ15YY7SWMF93P655KXRSPEK
 # This model was created to track notifications for which events have been sent already.
 # E.g. when a notification about a published article is sent (a Notification record is created),
 # we create a ContextNotification record where context_id is the article id,

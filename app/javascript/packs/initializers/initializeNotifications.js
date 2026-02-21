@@ -1,3 +1,4 @@
+// @specre 01KJ15MVQ9HCZ8PV80MQ828AQF
 import { sendHapticMessage } from '../../utilities/sendHapticMessage';
 import { checkUserLoggedIn } from '../../utilities/checkUserLoggedIn';
 import { showModalAfterError } from '../../utilities/showUserAlertModal';

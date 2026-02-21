@@ -1,3 +1,4 @@
+# @specre 01KJ15MVQ9HCZ8PV80MQ828AQF
 class NotificationsController < ApplicationController
   # rubocop:disable Metrics/CyclomaticComplexity
   # rubocop:disable Metrics/PerceivedComplexity

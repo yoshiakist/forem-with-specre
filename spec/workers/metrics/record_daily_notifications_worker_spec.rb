@@ -1,3 +1,4 @@
+# @specre 01KJ164X04NVKMCJE01KSRGXV2
 require "rails_helper"
 
 RSpec.describe Metrics::RecordDailyNotificationsWorker, type: :worker do

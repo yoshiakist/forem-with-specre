@@ -1,3 +1,4 @@
+# @specre 01KJ15YPZ52QH5K5R1MVAYRQ0F
 require "rails_helper"
 
 RSpec.describe Broadcasts::SendWelcomeNotificationsWorker, type: :worker do

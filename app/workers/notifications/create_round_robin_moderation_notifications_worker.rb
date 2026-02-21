@@ -1,3 +1,4 @@
+# @specre 01KJ15W12WTJVFF3XQ1NJH5BNQ
 module Notifications
   class CreateRoundRobinModerationNotificationsWorker
     include Sidekiq::Job

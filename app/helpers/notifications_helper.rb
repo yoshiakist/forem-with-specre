@@ -1,3 +1,4 @@
+# @specre 01KJ15MVQ9HCZ8PV80MQ828AQF
 module NotificationsHelper
   def reaction_image(slug)
     return unless (category = ReactionCategory[slug] || ReactionCategory["like"])

@@ -1,3 +1,4 @@
+# @specre 01KJ15YPZ52QH5K5R1MVAYRQ0F
 require "rails_helper"
 RSpec.describe Notifications::WelcomeNotificationWorker, type: :worker do
   describe "#perform" do

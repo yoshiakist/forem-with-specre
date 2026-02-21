@@ -1,3 +1,4 @@
+# @specre 01KJ1623YBY62EQ349V4X1XPFP
 module Notifications
   class UpdateWorker
     include Sidekiq::Job

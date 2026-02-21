@@ -1,3 +1,4 @@
+# @specre 01KJ15ND4TPFS7E01YWS9GX3EC
 require "rails_helper"
 
 RSpec.describe Notifications::NewComment::Send, type: :service do

@@ -1,3 +1,4 @@
+# @specre 01KJ1623YBY62EQ349V4X1XPFP
 require "rails_helper"
 
 RSpec.describe Notifications::UpdateWorker do
