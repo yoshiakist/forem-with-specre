@@ -43,6 +43,12 @@ Your goal: create specre specification cards for source files that currently lac
 > - `github_repos_controller_manages_user_repos` (an API endpoint alone is not a complete experience)
 > - `github_repos_frontend_displays_repos` (a UI without a backend serves nothing)
 >
+> **Anti-pattern — `manage` verb (too vague, bundles multiple distinct actions):**
+> - `user_manage_articles` — what does "manage" mean? View? Create? Edit? Delete? All of the above?
+> - `admin_manage_users` — ambiguous scope; decompose into specific operations
+>
+> The verb `manage` is **prohibited** in card names. It is an umbrella term that hides multiple distinct behaviors. Always decompose into specific action verbs: `view`/`show`, `create`/`generate`, `edit`/`update`, `delete`/`destroy`, etc. For example, `admin_manage_users` should become `admin_can_view_user_list`, `admin_can_create_user`, `admin_can_edit_user_role`, `admin_can_suspend_user`, etc.
+>
 > **Correct — behavior-oriented cards (each passes the litmus test):**
 > - `user_can_feature_github_repos_on_profile` (spans model + controller + frontend + worker)
 > - `author_can_embed_github_issue_in_article` (spans liquid tag + model + view)
@@ -131,10 +137,11 @@ Each entry must specify:
 Before finalizing, review the catalog against these checks:
 
 1. **Naming validation** — Every proposed name must have a human actor (`user`, `admin`, `author`) or `system` as the subject, never a code artifact. Reject names where the subject is a class name, layer name, or technical component (e.g., `*_controller_*`, `*_model_*`, `*_frontend_*`, `*_worker_*`, `*_service_*`). Refer to the specre-author skill's naming conventions for the definitive rules.
-2. **Value litmus test** — For each entry, ask: "If a system implemented exactly this behavior and nothing else, would it deliver value to a user?" If not, the entry is an implementation fragment. Merge it into a broader behavior or reconsider the card boundary.
-3. **Cross-layer check** — If multiple catalog entries cover the same observable behavior split by layer (e.g., a controller entry and a separate frontend entry for the same feature), merge them into a single entry.
-4. **Granularity check** — Each entry should have 2–5 plausible scenarios. If you can only think of one scenario, the behavior is likely a fragment of a larger one; merge it. If you can think of more than 7, it may conflate multiple behaviors; consider splitting.
-5. **File-count check** — If a catalog entry lists more than 15 related files (source + template combined), evaluate whether it conflates multiple semantically distinct behaviors that happen to share an implementation pattern.
+2. **`manage` verb prohibition** — Reject any proposed name containing `manage`, `manages`, or `managing` as the verb (e.g., `user_manage_*`, `admin_manage_*`). The verb "manage" is too ambiguous — it bundles multiple distinct actions into one vague term. Decompose into specific action verbs such as `view`/`show`, `create`/`generate`, `edit`/`update`, or `delete`/`destroy`. For example, `admin_manage_settings` must be split into `admin_can_view_settings`, `admin_can_update_settings`, etc.
+3. **Value litmus test** — For each entry, ask: "If a system implemented exactly this behavior and nothing else, would it deliver value to a user?" If not, the entry is an implementation fragment. Merge it into a broader behavior or reconsider the card boundary.
+4. **Cross-layer check** — If multiple catalog entries cover the same observable behavior split by layer (e.g., a controller entry and a separate frontend entry for the same feature), merge them into a single entry.
+5. **Granularity check** — Each entry should have 2–5 plausible scenarios. If you can only think of one scenario, the behavior is likely a fragment of a larger one; merge it. If you can think of more than 7, it may conflate multiple behaviors; consider splitting.
+6. **File-count check** — If a catalog entry lists more than 15 related files (source + template combined), evaluate whether it conflates multiple semantically distinct behaviors that happen to share an implementation pattern.
    - **When to split:** Look for groups of the same file pattern repeated for different purposes (e.g., locale-specific templates for "about" pages vs. "legal" pages vs. "help/guide" pages). If these groups serve distinct user intents — and each subset still passes the value litmus test as an independent behavior — split the entry into 2 or more entries along those semantic boundaries.
    - **When NOT to split:** If all files genuinely participate in a single coherent user experience (e.g., a complex wizard with many steps, or a dashboard assembling many widgets), splitting would fragment the behavior and make the end-to-end flow harder to understand. In this case, keep the entry intact regardless of file count.
    - **Guideline, not a hard rule:** 15 files is a review trigger, not an automatic split threshold. The deciding factor is whether a human reader would naturally describe the files as participating in "one thing the user does" or "several related but distinct things."
