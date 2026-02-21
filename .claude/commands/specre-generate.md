@@ -16,17 +16,26 @@ Your goal: create specre specification cards for source files that currently lac
 
 ## Phase 1: Discovery
 
-1. Run `specre coverage` (MCP tool) to identify uncovered source files.
-   > **Fallback for large codebases:** If the MCP tool result exceeds the token limit (the output is saved to a temporary file instead of being returned inline), use the helper script instead:
-   > ```bash
-   > python3 .claude/commands/scripts/coverage-uncovered.py <domain_keyword>
-   > ```
-   > This runs `specre coverage --json` via CLI and filters uncovered files by a case-insensitive keyword match on file paths, avoiding MCP output size limits. The script outputs coverage stats (`coverage=`, `tagged=`, `total=`, `uncovered_count=`) followed by a `---` separator and the filtered file list.
-2. Filter the **Uncovered files** list to only those belonging to the target domain.
-   - "Domain" means the top-level functional directory within each `source_dirs` entry (e.g., `src/auth/`, `src/cart/`).
-   - Exclude test files from the generation targets. Test files are used as evidence for status determination (Phase 3), not as specre subjects.
-3. Identify the project's test file convention by examining the directory structure (e.g., `tests/<domain>/cli_*.rs`, `src/**/*.test.ts`, `spec/**/*_spec.rb`). Record this pattern for reuse in Phase 3b so that test discovery does not need to be re-explored for each card.
-4. Log the filtered file list for your own reference and proceed directly to Phase 2. Do NOT pause for user approval here.
+1. Run the **domain discovery script** to find all files related to the target domain:
+   ```bash
+   python3 .claude/commands/scripts/domain-discovery.py <domain_keyword> --json --root .
+   ```
+   This performs a 4-stage discovery pipeline:
+   - **Stage 1 — Convention glob:** Finds files matching the domain keyword across all Rails layers (models, controllers, services, workers, views, etc.) and JS modules (including pack entry points and Stimulus controllers).
+   - **Stage 2 — Reference tracing:** Greps for Ruby class names extracted from domain models across the entire codebase. Also traces JS import chains and ERB↔JS bridges (`javascript_include_tag`, `data-controller`, `fetch()` URLs).
+   - **Stage 3 — Transitive expansion:** Follows forward import chains from Stage 2 JS/ERB discoveries (up to 3 rounds, forward-only to avoid shared infrastructure pull-in).
+   - **Stage 4 — Tag check:** Annotates each file with its existing `@specre` marker ULIDs.
+
+2. Parse the JSON output. The `files` object maps file paths to `{stage, reason, specre_tags}`.
+
+3. **Partition discovered files** into three groups:
+   - **Untagged source files** (`specre_tags` is empty, not under `spec/`): Candidates for NEW specre cards.
+   - **Untagged test files** (`specre_tags` is empty, under `spec/` or `__tests__/`): Used as evidence for status determination in Phase 3, not as specre subjects.
+   - **Already-tagged files** (`specre_tags` is non-empty): Already belong to existing cards. Note them for cross-reference during behavior classification — they may participate in behaviors that span tagged and untagged files. Use `specre trace` to look up which card each tagged file belongs to when needed.
+
+4. Identify the project's test file convention by examining the directory structure (e.g., `spec/**/*_spec.rb`, `app/javascript/**/__tests__/*.test.{js,jsx}`). Record this pattern for reuse in Phase 3b.
+
+5. Log the discovery summary (stats from the JSON output) and proceed directly to Phase 2. Do NOT pause for user approval here.
 
 ## Phase 2: Behavior Classification
 
@@ -61,7 +70,16 @@ Your goal: create specre specification cards for source files that currently lac
 
 **Do NOT read source files with the Read tool.** Use the map generator scripts to extract structural metadata in a single batch per language. This provides all the context needed for behavior classification at a fraction of the token cost.
 
-1. **Partition** the uncovered files by language:
+> **Broader file coverage from domain discovery.** The discovery script (Phase 1) returns files from across multiple `app/` subdirectories — including cross-domain files discovered via reference tracing (Stage 2) and transitive expansion (Stage 3). Run the map generator scripts on ALL discovered `.rb` and `.js`/`.jsx` files, not just those in the primary domain directory. This ensures cross-domain dependencies are visible in the structural map.
+
+> **Cross-domain files from reference tracing.** Stage 2 and Stage 3 files often come from outside the target domain's primary directory (e.g., `app/services/feeds/builder.rb` discovered via reference to `Article`). When grouping files into behaviors, treat cross-domain files as participants in the behavior they serve, not as separate behaviors.
+
+> **Already-tagged files.** Files with existing `@specre` tags already belong to a specre card. During behavior classification:
+> - Use `specre trace` (MCP tool) to look up which card they belong to.
+> - If an already-tagged file participates in a behavior alongside untagged files, the appropriate action is **EXTEND** (add the untagged files to the existing card) rather than NEW.
+> - If an already-tagged file's existing card covers a different behavior than the one you are classifying, do not re-tag it. Instead, note it in the catalog entry's source files list with a `(Tagged: ULID)` suffix for cross-reference documentation only.
+
+1. **Partition** the discovered files by language:
    - `.rb` files → `ruby-map-generator.py`
    - `.js` / `.jsx` files → `js-map-generator.py`
    - Other files (`.erb`, `.jbuilder`, etc.) → identified by extension only (not parsed)
@@ -126,9 +144,11 @@ Behavior Catalog for domain: <domain>
 Each entry must specify:
 - **Proposed name**: subject + predicate sentence form (see specre-author skill for naming rules)
 - **Source files**: which files this card will cover (expect files from multiple layers — model, controller, frontend, view, etc.)
-- **Test files** (if any): corresponding test/spec files discovered in Phase 2
-- **Template files** (if any): associated view/template files (`.erb`) discovered in Phase 2
-- **Action**: `NEW` (create a new card) or `EXTEND` (tag source file to an existing card and update its Related Files)
+  - For untagged files: plain path
+  - For already-tagged files participating in this behavior: path + `(Tagged: ULID)` suffix
+- **Test files** (if any): corresponding test/spec files discovered in Phase 1/2
+- **Template files** (if any): associated view/template files (`.erb`) discovered in Phase 1/2
+- **Action**: `NEW` (create a new card), `EXTEND` (tag source file to an existing card and update its Related Files), or `SKIP` (all relevant files already tagged to the correct card)
 
 **Classify by subject first, then by behavior.** Group related behaviors by their actor/subject (e.g., all `user_can_*` behaviors together, all `system_rejects_*` together). This produces a natural reading order and makes it easy to spot missing behaviors.
 
