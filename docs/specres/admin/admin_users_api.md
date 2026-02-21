@@ -9,6 +9,8 @@ last_verified: "2026-02-21"
 
 
 - spec/requests/admin/users_spec.rb
+- app/views/admin/users/index/_organizations.html.erb (Template)
+- app/views/admin/users/show/overview/_organizations.html.erb (Template)
 
 ## Functional Overview
 

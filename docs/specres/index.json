@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-21T06:54:54Z",
+  "generated_at": "2026-02-21T07:17:57Z",
   "source_refs": [
     {
       "file": "app/assets/javascripts/subforemSelectionModal.js",
@@ -149,6 +149,11 @@
     {
       "file": "app/controllers/api/v0/organizations_controller.rb",
       "line": 1,
+      "specre_id": "01KHZGVB146XQBKF66V2THG07T"
+    },
+    {
+      "file": "app/controllers/api/v0/organizations_controller.rb",
+      "line": 2,
       "specre_id": "01KHYAR0M26F2KE6CFGA3390RE"
     },
     {
@@ -174,6 +179,11 @@
     {
       "file": "app/controllers/api/v1/organizations_controller.rb",
       "line": 1,
+      "specre_id": "01KHZGVB146XQBKF66V2THG07T"
+    },
+    {
+      "file": "app/controllers/api/v1/organizations_controller.rb",
+      "line": 2,
       "specre_id": "01KHYAR18XSDQE448P8GXMPR05"
     },
     {
@@ -209,6 +219,11 @@
     {
       "file": "app/controllers/concerns/api/organizations_controller.rb",
       "line": 1,
+      "specre_id": "01KHZGVB146XQBKF66V2THG07T"
+    },
+    {
+      "file": "app/controllers/concerns/api/organizations_controller.rb",
+      "line": 2,
       "specre_id": "01KHYAR0M26F2KE6CFGA3390RE"
     },
     {
@@ -230,6 +245,11 @@
       "file": "app/controllers/concerns/api/tags_controller.rb",
       "line": 1,
       "specre_id": "01KHYCJNHZ6V29EK1MP1PGSCT6"
+    },
+    {
+      "file": "app/controllers/dashboards_controller.rb",
+      "line": 1,
+      "specre_id": "01KHZGV8H4BG6XE1A7T06AVD4X"
     },
     {
       "file": "app/controllers/github_repos_controller.rb",
@@ -1642,9 +1662,19 @@
       "specre_id": "01KHYCF2QMAT9AJYWS2C4TWBPE"
     },
     {
+      "file": "app/views/admin/users/index/_organizations.html.erb",
+      "line": 1,
+      "specre_id": "01KHY7Q146KBEEXMZ1BBBZSC16"
+    },
+    {
       "file": "app/views/admin/users/show/_profile.html.erb",
       "line": 1,
       "specre_id": "01KHZ6G82HEH34EH9QFG6JJ8XC"
+    },
+    {
+      "file": "app/views/admin/users/show/overview/_organizations.html.erb",
+      "line": 1,
+      "specre_id": "01KHY7Q146KBEEXMZ1BBBZSC16"
     },
     {
       "file": "app/views/admin/users/show/profile/_actions.html.erb",
@@ -1705,6 +1735,11 @@
       "file": "app/views/comments/settings.html.erb",
       "line": 1,
       "specre_id": "01KHZ466X2VM8VAWD6RE82CF9J"
+    },
+    {
+      "file": "app/views/dashboards/following_organizations.html.erb",
+      "line": 1,
+      "specre_id": "01KHZGV8H4BG6XE1A7T06AVD4X"
     },
     {
       "file": "app/views/dashboards/following_podcasts.html.erb",
@@ -2887,6 +2922,16 @@
       "specre_id": "01KHYAQZXMFW3CT2SJ66HTYT5A"
     },
     {
+      "file": "spec/requests/admin/organizations_baseline_score_spec.rb",
+      "line": 1,
+      "specre_id": "01KHY7Q126GSGP88HTM2KX4K7M"
+    },
+    {
+      "file": "spec/requests/admin/organizations_fully_trusted_spec.rb",
+      "line": 1,
+      "specre_id": "01KHY7Q1295FHBEGB1FJRPT69E"
+    },
+    {
       "file": "spec/requests/admin/organizations_spec.rb",
       "line": 1,
       "specre_id": "01KHYAQZFNE6166KPD56KDPFRQ"
@@ -2954,6 +2999,11 @@
     {
       "file": "spec/requests/api/v0/organizations_spec.rb",
       "line": 1,
+      "specre_id": "01KHZGVB146XQBKF66V2THG07T"
+    },
+    {
+      "file": "spec/requests/api/v0/organizations_spec.rb",
+      "line": 2,
       "specre_id": "01KHYAR0M26F2KE6CFGA3390RE"
     },
     {
@@ -3004,6 +3054,11 @@
     {
       "file": "spec/requests/api/v1/organizations_spec.rb",
       "line": 1,
+      "specre_id": "01KHZGVB146XQBKF66V2THG07T"
+    },
+    {
+      "file": "spec/requests/api/v1/organizations_spec.rb",
+      "line": 2,
       "specre_id": "01KHYAR18XSDQE448P8GXMPR05"
     },
     {
@@ -3400,6 +3455,11 @@
       "file": "spec/services/users/delete_podcasts_spec.rb",
       "line": 1,
       "specre_id": "01KHZ7FPE352W4ESF9QNYKRE34"
+    },
+    {
+      "file": "spec/system/admin/admin_manages_organizations_spec.rb",
+      "line": 1,
+      "specre_id": "01KHY7Q152E7D3TYNSNVX7VKE7"
     },
     {
       "file": "spec/system/admin/admin_manages_pages_spec.rb",
@@ -9332,222 +9392,6 @@
       "status": "stable"
     },
     {
-      "domain": "organizations",
-      "id": "01KHYA9GWPEHZ06WJWDG1QKSK8",
-      "last_verified": "2026-02-21",
-      "name": "organization_validates_and_manages_profile",
-      "path": "docs/specres/organizations/organization_validates_and_manages_profile.md",
-      "status": "stable"
-    },
-    {
-      "domain": "organizations",
-      "id": "01KHYABB1GB91QKA03127ZTDMJ",
-      "last_verified": "2026-02-21",
-      "name": "organization_membership_manages_roles_and_invitations",
-      "path": "docs/specres/organizations/organization_membership_manages_roles_and_invitations.md",
-      "status": "stable"
-    },
-    {
-      "domain": "organizations",
-      "id": "01KHYACZKPN88W16YWM7C8YF7V",
-      "last_verified": "2026-02-21",
-      "name": "organization_policy_authorizes_access",
-      "path": "docs/specres/organizations/organization_policy_authorizes_access.md",
-      "status": "stable"
-    },
-    {
-      "domain": "organizations",
-      "id": "01KHYAE6BT4N3QJ2FR396TTRCQ",
-      "last_verified": "2026-02-21",
-      "name": "organization_decorator_enriches_color_presentation",
-      "path": "docs/specres/organizations/organization_decorator_enriches_color_presentation.md",
-      "status": "stable"
-    },
-    {
-      "domain": "organizations",
-      "id": "01KHYAF86G3QF0BH04P5YBJ4EE",
-      "last_verified": "2026-02-21",
-      "name": "organization_tag_renders_embedded_profile_card",
-      "path": "docs/specres/organizations/organization_tag_renders_embedded_profile_card.md",
-      "status": "stable"
-    },
-    {
-      "domain": "organizations",
-      "id": "01KHYAG7500GXRZGY07Y91X18W",
-      "last_verified": "2026-02-21",
-      "name": "organization_search_returns_paginated_results",
-      "path": "docs/specres/organizations/organization_search_returns_paginated_results.md",
-      "status": "stable"
-    },
-    {
-      "domain": "organizations",
-      "id": "01KHYAH6H7WPMS2EW9Y1XK6QYJ",
-      "last_verified": "2026-02-21",
-      "name": "organizations_suggest_prominent_recommends_by_tags",
-      "path": "docs/specres/organizations/organizations_suggest_prominent_recommends_by_tags.md",
-      "status": "stable"
-    },
-    {
-      "domain": "organizations",
-      "id": "01KHYAJ5A6WCMJEYQEF12BEETG",
-      "last_verified": "2026-02-21",
-      "name": "organization_deletion_cleans_associations_and_notifies",
-      "path": "docs/specres/organizations/organization_deletion_cleans_associations_and_notifies.md",
-      "status": "stable"
-    },
-    {
-      "domain": "organizations",
-      "id": "01KHYAKA53GF8RR3HJRFK3Y0A9",
-      "last_verified": "2026-02-21",
-      "name": "organization_cache_invalidation_busts_on_changes",
-      "path": "docs/specres/organizations/organization_cache_invalidation_busts_on_changes.md",
-      "status": "stable"
-    },
-    {
-      "domain": "organizations",
-      "id": "01KHYAKARS8WVZ96MGFRRX02R5",
-      "last_verified": "2026-02-21",
-      "name": "organization_updates_article_paths_on_slug_change",
-      "path": "docs/specres/organizations/organization_updates_article_paths_on_slug_change.md",
-      "status": "stable"
-    },
-    {
-      "domain": "organizations",
-      "id": "01KHYAKB75F6053BFGHPDYQ04A",
-      "last_verified": "2026-02-21",
-      "name": "organization_tracks_promotional_billboard_impressions",
-      "path": "docs/specres/organizations/organization_tracks_promotional_billboard_impressions.md",
-      "status": "stable"
-    },
-    {
-      "domain": "organizations",
-      "id": "01KHYAN2EY716NJQJ4P7XGBTDG",
-      "last_verified": "2026-02-21",
-      "name": "organization_invitation_mailer_sends_membership_invitation",
-      "path": "docs/specres/organizations/organization_invitation_mailer_sends_membership_invitation.md",
-      "status": "stable"
-    },
-    {
-      "domain": "organizations",
-      "id": "01KHYAN2Z8BX8EQWF0T0B3J5XB",
-      "last_verified": "2026-02-21",
-      "name": "organization_membership_mailer_notifies_member_added",
-      "path": "docs/specres/organizations/organization_membership_mailer_notifies_member_added.md",
-      "status": "stable"
-    },
-    {
-      "domain": "organizations",
-      "id": "01KHYAPESAA0V3WKK075E59EPH",
-      "last_verified": "2026-02-21",
-      "name": "organization_controller_manages_lifecycle",
-      "path": "docs/specres/organizations/organization_controller_manages_lifecycle.md",
-      "status": "draft"
-    },
-    {
-      "domain": "organizations",
-      "id": "01KHYAQZFNE6166KPD56KDPFRQ",
-      "last_verified": "2026-02-21",
-      "name": "admin_organization_controller_manages_settings",
-      "path": "docs/specres/organizations/admin_organization_controller_manages_settings.md",
-      "status": "stable"
-    },
-    {
-      "domain": "organizations",
-      "id": "01KHYAQZXMFW3CT2SJ66HTYT5A",
-      "last_verified": "2026-02-21",
-      "name": "admin_organization_memberships_controller_manages_crud",
-      "path": "docs/specres/organizations/admin_organization_memberships_controller_manages_crud.md",
-      "status": "stable"
-    },
-    {
-      "domain": "organizations",
-      "id": "01KHYAR0M26F2KE6CFGA3390RE",
-      "last_verified": "2026-02-21",
-      "name": "api_organizations_shared_reads_data",
-      "path": "docs/specres/organizations/api_organizations_shared_reads_data.md",
-      "status": "stable"
-    },
-    {
-      "domain": "organizations",
-      "id": "01KHYAR18XSDQE448P8GXMPR05",
-      "last_verified": "2026-02-21",
-      "name": "api_v1_organizations_manages_crud",
-      "path": "docs/specres/organizations/api_v1_organizations_manages_crud.md",
-      "status": "stable"
-    },
-    {
-      "domain": "organizations",
-      "id": "01KHYASXS334EE0BHKGBNRD4C0",
-      "last_verified": "2026-02-21",
-      "name": "organization_helper_formats_credit_options",
-      "path": "docs/specres/organizations/organization_helper_formats_credit_options.md",
-      "status": "stable"
-    },
-    {
-      "domain": "organizations",
-      "id": "01KHYASY8DESB0ZXJFQZTWXPC8",
-      "last_verified": "2026-02-21",
-      "name": "admin_organizations_helper_validates_deletion",
-      "path": "docs/specres/organizations/admin_organizations_helper_validates_deletion.md",
-      "status": "stable"
-    },
-    {
-      "domain": "organizations",
-      "id": "01KHYAY4DGRYJFMXJ7BBYNVE7Y",
-      "last_verified": "2026-02-21",
-      "name": "organization_profile_page_displays_public_view",
-      "path": "docs/specres/organizations/organization_profile_page_displays_public_view.md",
-      "status": "draft"
-    },
-    {
-      "domain": "organizations",
-      "id": "01KHYAZ2T9RHPJ445FZC71BW0G",
-      "last_verified": "2026-02-21",
-      "name": "organization_members_page_displays_team_grid",
-      "path": "docs/specres/organizations/organization_members_page_displays_team_grid.md",
-      "status": "draft"
-    },
-    {
-      "domain": "organizations",
-      "id": "01KHYAZK2NZWKS5R8Z4QAG6G1B",
-      "last_verified": "2026-02-21",
-      "name": "organization_invitation_confirmation_handles_flow",
-      "path": "docs/specres/organizations/organization_invitation_confirmation_handles_flow.md",
-      "status": "draft"
-    },
-    {
-      "domain": "organizations",
-      "id": "01KHYB07ABXD2FDW207KP1GHDH",
-      "last_verified": "2026-02-21",
-      "name": "admin_organization_views_manage_interface",
-      "path": "docs/specres/organizations/admin_organization_views_manage_interface.md",
-      "status": "draft"
-    },
-    {
-      "domain": "organizations",
-      "id": "01KHYB1FSJRAWD3J79MJ5ZA141",
-      "last_verified": "2026-02-21",
-      "name": "admin_organizations_javascript_initializes_ui",
-      "path": "docs/specres/organizations/admin_organizations_javascript_initializes_ui.md",
-      "status": "draft"
-    },
-    {
-      "domain": "organizations",
-      "id": "01KHYB21QD394ZG8HWV7KERR60",
-      "last_verified": "2026-02-21",
-      "name": "organization_profile_dropdown_renders_menu",
-      "path": "docs/specres/organizations/organization_profile_dropdown_renders_menu.md",
-      "status": "draft"
-    },
-    {
-      "domain": "organizations",
-      "id": "01KHYB2J6VNGEBTQT0WTWQKDSW",
-      "last_verified": "2026-02-21",
-      "name": "organization_picker_renders_select_dropdown",
-      "path": "docs/specres/organizations/organization_picker_renders_select_dropdown.md",
-      "status": "draft"
-    },
-    {
       "domain": "tags",
       "id": "01KHYCB979HE8GAWAK6V94BANV",
       "last_verified": "2026-02-21",
@@ -10257,6 +10101,22 @@
       "last_verified": "2026-02-21",
       "name": "system_re_renders_pages_from_template",
       "path": "docs/specres/pages/system_re_renders_pages_from_template.md",
+      "status": "stable"
+    },
+    {
+      "domain": "organizations",
+      "id": "01KHZGV8H4BG6XE1A7T06AVD4X",
+      "last_verified": null,
+      "name": "user_can_view_followed_organizations_on_dashboard",
+      "path": "docs/specres/organizations/user_can_view_followed_organizations_on_dashboard.md",
+      "status": "draft"
+    },
+    {
+      "domain": "organizations",
+      "id": "01KHZGVB146XQBKF66V2THG07T",
+      "last_verified": "2026-02-21",
+      "name": "user_can_retrieve_organization_via_api",
+      "path": "docs/specres/organizations/user_can_retrieve_organization_via_api.md",
       "status": "stable"
     }
   ],

@@ -1,3 +1,4 @@
+# @specre 01KHY7Q1295FHBEGB1FJRPT69E
 require "rails_helper"
 
 RSpec.describe "/admin/content_manager/organizations fully_trusted" do

@@ -1,3 +1,4 @@
+# @specre 01KHZGV8H4BG6XE1A7T06AVD4X
 # @note The actions of this class are overloaded with three concerns:
 #
 #       - the current user
