@@ -1,3 +1,4 @@
+# @specre 01KHZ55SRCPDHPWM0EYSTE60MK
 module Reactions
   class BustReactableCacheWorker
     include Sidekiq::Job

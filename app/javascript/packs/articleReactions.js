@@ -1,3 +1,4 @@
+// @specre 01KHZ55SRCPDHPWM0EYSTE60MK
 /* global sendHapticMessage, showLoginModal, isTouchDevice, watchForLongTouch */
 import { showModalAfterError } from '../utilities/showUserAlertModal';
 import { smoothScrollTo } from '../utilities/smoothScroll';

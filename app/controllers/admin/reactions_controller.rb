@@ -1,3 +1,4 @@
+# @specre 01KHZ55S8Z1A16PNGY9X7PR58P
 module Admin
   class ReactionsController < Admin::ApplicationController
     after_action only: [:update] do

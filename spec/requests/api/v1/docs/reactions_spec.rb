@@ -1,3 +1,4 @@
+# @specre 01KHZ55HBKCF9CFW46K61FMYEQ
 require "rails_helper"
 require "swagger_helper"
 

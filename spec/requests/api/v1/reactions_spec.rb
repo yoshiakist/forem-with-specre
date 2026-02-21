@@ -1,3 +1,4 @@
+# @specre 01KHZ55HBKCF9CFW46K61FMYEQ
 require "rails_helper"
 
 RSpec.describe "Api::V1::Reactions" do

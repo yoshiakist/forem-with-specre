@@ -1,3 +1,4 @@
+# @specre 01KHZ55SRCPDHPWM0EYSTE60MK
 class ReactionsController < ApplicationController
   before_action :set_cache_control_headers, only: [:index], unless: -> { current_user }
   before_action :authorize_for_reaction, :check_limit, only: [:create]

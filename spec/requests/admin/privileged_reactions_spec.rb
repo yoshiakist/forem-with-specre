@@ -1,3 +1,4 @@
+# @specre 01KHZ593PHDRQRWR1673HQ654Q
 require "rails_helper"
 
 RSpec.describe "/admin/moderations/privileged_reactions" do
