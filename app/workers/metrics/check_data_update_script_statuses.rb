@@ -1,3 +1,4 @@
+# @specre 01KJ2T2BMXGZ8AEC4TF9PCZH99
 module Metrics
   class CheckDataUpdateScriptStatuses
     include Sidekiq::Job

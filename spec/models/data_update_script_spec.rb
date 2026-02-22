@@ -1,3 +1,5 @@
+# @specre 01KJ2T00V6D6VZF6FZNGJ94W1D
+# @specre 01KJ2SZCDD0QR1BVHSPYKQZ955
 require "rails_helper"
 
 RSpec.describe DataUpdateScript do

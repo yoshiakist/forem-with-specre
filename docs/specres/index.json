@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-22T13:46:38Z",
+  "generated_at": "2026-02-22T13:54:56Z",
   "source_refs": [
     {
       "file": "app/assets/javascripts/initializers/initializeCreditsPage.js",
@@ -40,6 +40,16 @@
       "file": "app/controllers/admin/creator_settings_controller.rb",
       "line": 1,
       "specre_id": "01KHZ440DNT2G0A6E8HAKEZ36P"
+    },
+    {
+      "file": "app/controllers/admin/data_update_scripts_controller.rb",
+      "line": 1,
+      "specre_id": "01KJ2SZQQG4JYPHKNCN2BSNYMN"
+    },
+    {
+      "file": "app/controllers/admin/data_update_scripts_controller.rb",
+      "line": 2,
+      "specre_id": "01KJ2SZCDD0QR1BVHSPYKQZ955"
     },
     {
       "file": "app/controllers/admin/feedback_messages_controller.rb",
@@ -702,6 +712,16 @@
       "specre_id": "01KHZ55SRCPDHPWM0EYSTE60MK"
     },
     {
+      "file": "app/javascript/admin/__tests__/controllers/data_update_script_controller.test.js",
+      "line": 1,
+      "specre_id": "01KJ2SZQQG4JYPHKNCN2BSNYMN"
+    },
+    {
+      "file": "app/javascript/admin/__tests__/controllers/data_update_script_controller.test.js",
+      "line": 2,
+      "specre_id": "01KJ2SZCDD0QR1BVHSPYKQZ955"
+    },
+    {
       "file": "app/javascript/admin/controllers/admin_surveys_controller.js",
       "line": 1,
       "specre_id": "01KHZME2KMA2REG6V4QSGBK5XQ"
@@ -710,6 +730,16 @@
       "file": "app/javascript/admin/controllers/admin_surveys_controller.js",
       "line": 2,
       "specre_id": "01KHZM8WACKF3RJZT65WP2P2E9"
+    },
+    {
+      "file": "app/javascript/admin/controllers/data_update_script_controller.js",
+      "line": 1,
+      "specre_id": "01KJ2SZQQG4JYPHKNCN2BSNYMN"
+    },
+    {
+      "file": "app/javascript/admin/controllers/data_update_script_controller.js",
+      "line": 2,
+      "specre_id": "01KJ2SZCDD0QR1BVHSPYKQZ955"
     },
     {
       "file": "app/javascript/admin/controllers/reaction_controller.js",
@@ -1727,6 +1757,21 @@
       "specre_id": "01KJ2SF6J4K95BTZRSZG5AA811"
     },
     {
+      "file": "app/models/data_update_script.rb",
+      "line": 1,
+      "specre_id": "01KJ2T00V6D6VZF6FZNGJ94W1D"
+    },
+    {
+      "file": "app/models/data_update_script.rb",
+      "line": 2,
+      "specre_id": "01KJ2SZQQG4JYPHKNCN2BSNYMN"
+    },
+    {
+      "file": "app/models/data_update_script.rb",
+      "line": 3,
+      "specre_id": "01KJ2SZCDD0QR1BVHSPYKQZ955"
+    },
+    {
       "file": "app/models/feed_config.rb",
       "line": 1,
       "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
@@ -2635,6 +2680,11 @@
       "file": "app/views/admin/creator_settings/new.html.erb",
       "line": 1,
       "specre_id": "01KHZ440DNT2G0A6E8HAKEZ36P"
+    },
+    {
+      "file": "app/views/admin/data_update_scripts/index.html.erb",
+      "line": 1,
+      "specre_id": "01KJ2SZCDD0QR1BVHSPYKQZ955"
     },
     {
       "file": "app/views/admin/feedback_messages/_abuse_reports.html.erb",
@@ -4162,6 +4212,16 @@
       "specre_id": "01KJ2SJQYZE780NB4SYY4CMW9G"
     },
     {
+      "file": "app/workers/data_update_worker.rb",
+      "line": 1,
+      "specre_id": "01KJ2T00V6D6VZF6FZNGJ94W1D"
+    },
+    {
+      "file": "app/workers/data_update_worker.rb",
+      "line": 2,
+      "specre_id": "01KJ2SZQQG4JYPHKNCN2BSNYMN"
+    },
+    {
       "file": "app/workers/emails/survey_daily_email_worker.rb",
       "line": 1,
       "specre_id": "01KJ2HPEMKQB5YCRAJ8PVF25SD"
@@ -4200,6 +4260,11 @@
       "file": "app/workers/mentions/send_email_notification_worker.rb",
       "line": 1,
       "specre_id": "01KJ15RRNWK6ZYZCX7KQF726AT"
+    },
+    {
+      "file": "app/workers/metrics/check_data_update_script_statuses.rb",
+      "line": 1,
+      "specre_id": "01KJ2T2BMXGZ8AEC4TF9PCZH99"
     },
     {
       "file": "app/workers/metrics/record_daily_notifications_worker.rb",
@@ -4937,6 +5002,16 @@
       "specre_id": "01KJ15YY7SWMF93P655KXRSPEK"
     },
     {
+      "file": "spec/models/data_update_script_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ2T00V6D6VZF6FZNGJ94W1D"
+    },
+    {
+      "file": "spec/models/data_update_script_spec.rb",
+      "line": 2,
+      "specre_id": "01KJ2SZCDD0QR1BVHSPYKQZ955"
+    },
+    {
       "file": "spec/models/feed_config_spec.rb",
       "line": 1,
       "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
@@ -5170,6 +5245,16 @@
       "file": "spec/requests/admin/creator_settings_spec.rb",
       "line": 1,
       "specre_id": "01KHZ440DNT2G0A6E8HAKEZ36P"
+    },
+    {
+      "file": "spec/requests/admin/data_update_scripts_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ2SZQQG4JYPHKNCN2BSNYMN"
+    },
+    {
+      "file": "spec/requests/admin/data_update_scripts_spec.rb",
+      "line": 2,
+      "specre_id": "01KJ2SZCDD0QR1BVHSPYKQZ955"
     },
     {
       "file": "spec/requests/admin/feed_playground_spec.rb",
@@ -5665,6 +5750,11 @@
       "file": "spec/requests/user/user_settings_spec.rb",
       "line": 1,
       "specre_id": "01KHZ466X2VM8VAWD6RE82CF9J"
+    },
+    {
+      "file": "spec/routing/data_update_scripts_admin_routes_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ2SZCDD0QR1BVHSPYKQZ955"
     },
     {
       "file": "spec/routing/profile_admin_routes_spec.rb",
@@ -6317,6 +6407,16 @@
       "specre_id": "01KJ2SJQYZE780NB4SYY4CMW9G"
     },
     {
+      "file": "spec/workers/data_update_worker_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ2T00V6D6VZF6FZNGJ94W1D"
+    },
+    {
+      "file": "spec/workers/data_update_worker_spec.rb",
+      "line": 2,
+      "specre_id": "01KJ2SZQQG4JYPHKNCN2BSNYMN"
+    },
+    {
       "file": "spec/workers/emails/survey_daily_email_worker_spec.rb",
       "line": 1,
       "specre_id": "01KJ2HPEMKQB5YCRAJ8PVF25SD"
@@ -6355,6 +6455,11 @@
       "file": "spec/workers/mentions/send_email_notification_worker_spec.rb",
       "line": 1,
       "specre_id": "01KJ15RRNWK6ZYZCX7KQF726AT"
+    },
+    {
+      "file": "spec/workers/metrics/check_data_update_script_statuses_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ2T2BMXGZ8AEC4TF9PCZH99"
     },
     {
       "file": "spec/workers/metrics/record_daily_notifications_worker_spec.rb",
@@ -8327,6 +8432,38 @@
       "last_verified": "2026-02-22",
       "name": "system_syncs_credit_counter_cache",
       "path": "docs/specres/credits/system_syncs_credit_counter_cache.md",
+      "status": "stable"
+    },
+    {
+      "domain": "data_update_scripts",
+      "id": "01KJ2SZCDD0QR1BVHSPYKQZ955",
+      "last_verified": "2026-02-22",
+      "name": "admin_can_view_data_update_scripts",
+      "path": "docs/specres/data_update_scripts/admin_can_view_data_update_scripts.md",
+      "status": "stable"
+    },
+    {
+      "domain": "data_update_scripts",
+      "id": "01KJ2SZQQG4JYPHKNCN2BSNYMN",
+      "last_verified": "2026-02-22",
+      "name": "admin_can_force_run_data_update_script",
+      "path": "docs/specres/data_update_scripts/admin_can_force_run_data_update_script.md",
+      "status": "stable"
+    },
+    {
+      "domain": "data_update_scripts",
+      "id": "01KJ2T00V6D6VZF6FZNGJ94W1D",
+      "last_verified": "2026-02-22",
+      "name": "system_executes_pending_data_update_scripts",
+      "path": "docs/specres/data_update_scripts/system_executes_pending_data_update_scripts.md",
+      "status": "stable"
+    },
+    {
+      "domain": "data_update_scripts",
+      "id": "01KJ2T2BMXGZ8AEC4TF9PCZH99",
+      "last_verified": "2026-02-22",
+      "name": "system_monitors_data_update_script_failures",
+      "path": "docs/specres/data_update_scripts/system_monitors_data_update_script_failures.md",
       "status": "stable"
     }
   ],

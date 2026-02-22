@@ -1,3 +1,5 @@
+# @specre 01KJ2T00V6D6VZF6FZNGJ94W1D
+# @specre 01KJ2SZQQG4JYPHKNCN2BSNYMN
 class DataUpdateWorker
   include Sidekiq::Job
   sidekiq_options queue: :high_priority, retry: 5

@@ -1,3 +1,5 @@
+# @specre 01KJ2SZQQG4JYPHKNCN2BSNYMN
+# @specre 01KJ2SZCDD0QR1BVHSPYKQZ955
 require "rails_helper"
 
 RSpec.describe "/admin/advanced/data_update_scripts" do

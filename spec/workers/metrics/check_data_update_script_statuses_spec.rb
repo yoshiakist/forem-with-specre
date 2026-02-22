@@ -1,3 +1,4 @@
+# @specre 01KJ2T2BMXGZ8AEC4TF9PCZH99
 require "rails_helper"
 
 RSpec.describe Metrics::CheckDataUpdateScriptStatuses, type: :worker do
