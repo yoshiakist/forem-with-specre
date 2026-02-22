@@ -1,3 +1,4 @@
+# @specre 01KJ25KAPB0FAFF74WX0TD106P
 require "rails_helper"
 
 RSpec.describe "/admin/moderation/reports" do

@@ -1,3 +1,4 @@
+// @specre 01KJ25KAPB0FAFF74WX0TD106P
 import { Controller } from '@hotwired/stimulus';
 
 export default class ReactionController extends Controller {

@@ -1,3 +1,4 @@
+# @specre 01KJ25Q4XMSVV0Y8FHDRRK1JYD
 module Users
   class ResolveSpamReports
     def self.call(...)

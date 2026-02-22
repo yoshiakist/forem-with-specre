@@ -1,3 +1,4 @@
+# @specre 01KJ25KAPB0FAFF74WX0TD106P
 module Admin
   class FeedbackMessagesController < Admin::ApplicationController
     layout "admin"
