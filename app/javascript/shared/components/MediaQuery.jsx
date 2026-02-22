@@ -1,3 +1,4 @@
+// @specre 01KJ1C2A7B86GEDA127PKWJ999
 import PropTypes from 'prop-types';
 import { useMediaQuery } from './useMediaQuery';
 

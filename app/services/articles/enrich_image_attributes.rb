@@ -1,3 +1,4 @@
+# @specre 01KJ1C23JZY0T5QCNX103SR5MM
 module Articles
   module EnrichImageAttributes
     IMAGES_IN_LIQUID_TAGS_SELECTORS = [

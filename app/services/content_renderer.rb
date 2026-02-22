@@ -1,3 +1,4 @@
+# @specre 01KJ1C23JZY0T5QCNX103SR5MM
 # renders markdown for Articles, Billboards, Comments, Onboarding newsletter content
 class ContentRenderer
   Result = Struct.new(:front_matter, :reading_time, :processed_html, keyword_init: true)

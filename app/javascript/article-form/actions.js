@@ -1,3 +1,5 @@
+// @specre 01KJ1CEX2PVN8VG917WAMM06V4
+// @specre 01KJ1C8G3AN3EVK907SGXDWZG5
 import { validateFileInputs } from '../packs/validateFileInputs';
 
 export function previewArticle(payload, successCb, failureCb) {

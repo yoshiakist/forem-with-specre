@@ -1,3 +1,4 @@
+# @specre 01KJ1C8G3AN3EVK907SGXDWZG5
 # Helpers included in ApplicationController for working with image files
 module ImageUploads
   extend ActiveSupport::Concern

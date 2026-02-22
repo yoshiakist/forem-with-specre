@@ -1,3 +1,4 @@
+# @specre 01KJ1C23JZY0T5QCNX103SR5MM
 class MediaStore < ApplicationRecord
   # media_type enum
   enum media_type: { image: 0, video: 1, audio: 2 }

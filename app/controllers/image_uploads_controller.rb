@@ -1,3 +1,4 @@
+# @specre 01KJ1C8G3AN3EVK907SGXDWZG5
 class ImageUploadsController < ApplicationController
   before_action :authenticate_user!
   before_action :limit_uploads, only: [:create]
