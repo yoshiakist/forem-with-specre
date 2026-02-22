@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-22T11:53:05Z",
+  "generated_at": "2026-02-22T12:32:10Z",
   "source_refs": [
     {
       "file": "app/assets/javascripts/subforemSelectionModal.js",
@@ -6393,6 +6393,46 @@
     }
   ],
   "specres": [
+    {
+      "domain": "organizations",
+      "id": "01KHYA9GWPEHZ06WJWDG1QKSK8",
+      "last_verified": null,
+      "name": "system_defines_organization_entity",
+      "path": "docs/specres/organizations/system_defines_organization_entity.md",
+      "status": "draft"
+    },
+    {
+      "domain": "organizations",
+      "id": "01KHYABB1GB91QKA03127ZTDMJ",
+      "last_verified": null,
+      "name": "system_defines_organization_membership_entity",
+      "path": "docs/specres/organizations/system_defines_organization_membership_entity.md",
+      "status": "draft"
+    },
+    {
+      "domain": "organizations",
+      "id": "01KHYACZKPN88W16YWM7C8YF7V",
+      "last_verified": null,
+      "name": "system_enforces_organization_authorization_policy",
+      "path": "docs/specres/organizations/system_enforces_organization_authorization_policy.md",
+      "status": "draft"
+    },
+    {
+      "domain": "organizations",
+      "id": "01KHYAPESAA0V3WKK075E59EPH",
+      "last_verified": null,
+      "name": "user_can_generate_new_organization_secret",
+      "path": "docs/specres/organizations/user_can_generate_new_organization_secret.md",
+      "status": "draft"
+    },
+    {
+      "domain": "organizations",
+      "id": "01KHYAQZFNE6166KPD56KDPFRQ",
+      "last_verified": null,
+      "name": "admin_can_manage_organizations",
+      "path": "docs/specres/organizations/admin_can_manage_organizations.md",
+      "status": "draft"
+    },
     {
       "domain": "subforems",
       "id": "01KHYH2RE3WEHN4RVYZWBNXCHA",

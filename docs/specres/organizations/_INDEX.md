@@ -2,6 +2,11 @@
 
 | Name | Status | Last Verified |
 |------|--------|---------------|
+| [system_defines_organization_entity](system_defines_organization_entity.md) | draft | - |
+| [system_defines_organization_membership_entity](system_defines_organization_membership_entity.md) | draft | - |
+| [system_enforces_organization_authorization_policy](system_enforces_organization_authorization_policy.md) | draft | - |
+| [user_can_generate_new_organization_secret](user_can_generate_new_organization_secret.md) | draft | - |
+| [admin_can_manage_organizations](admin_can_manage_organizations.md) | draft | - |
 | [user_can_view_followed_organizations_on_dashboard](user_can_view_followed_organizations_on_dashboard.md) | draft | - |
 | [user_can_retrieve_organization_via_api](user_can_retrieve_organization_via_api.md) | stable | 2026-02-21 |
 | [user_can_create_organization](user_can_create_organization.md) | draft | - |
