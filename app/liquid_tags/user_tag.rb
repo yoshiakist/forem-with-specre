@@ -1,3 +1,4 @@
+# @specre 01KJ1F647GSC84NJAD0YRSHSFB
 class UserTag < LiquidTagBase
   include ApplicationHelper
   include ActionView::Helpers::TagHelper

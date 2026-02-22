@@ -1,3 +1,4 @@
+# @specre 01KJ1FKPG3YTDTTW2XT02SWA9T
 require "rails_helper"
 
 RSpec.describe InstagramTag, type: :liquid_tag do

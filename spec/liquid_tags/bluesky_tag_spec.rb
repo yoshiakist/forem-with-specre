@@ -1,3 +1,4 @@
+# @specre 01KJ1FKR0TVDC2XEJ0TV56XPZY
 require "rails_helper"
 
 RSpec.describe BlueskyTag, type: :liquid_tag do

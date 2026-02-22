@@ -1,3 +1,4 @@
+# @specre 01KJ1FKTVQH3HSYPJR6QFEWZ94
 require "rails_helper"
 
 RSpec.describe ParlerTag, type: :liquid_tag do

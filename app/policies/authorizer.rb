@@ -1,3 +1,4 @@
+# @specre 01KJ1EZV154EB8MH5FS06CB6XT
 ##
 # This module is providing a "crease in the code" for refactoring.
 # The initial purpose is to help move away sending `has_role?`

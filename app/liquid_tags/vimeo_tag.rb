@@ -1,3 +1,4 @@
+# @specre 01KJ1FGS84AE316EVNASQ3GSCW
 class VimeoTag < LiquidTagBase
   PARTIAL = "liquids/vimeo".freeze
   # rubocop:disable Layout/LineLength

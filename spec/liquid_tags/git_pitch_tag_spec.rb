@@ -1,3 +1,4 @@
+# @specre 01KJ1NAHW37CXP0FHM1SM1GT9H
 require "rails_helper"
 
 RSpec.describe GitPitchTag, type: :liquid_tag do

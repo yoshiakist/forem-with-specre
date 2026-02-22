@@ -1,3 +1,4 @@
+# @specre 01KJ1F6MWHBZ38XZ2ZHS73YNZA
 class CardTag < Liquid::Block
   include ActionView::Helpers::SanitizeHelper
 

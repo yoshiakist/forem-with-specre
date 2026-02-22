@@ -1,3 +1,4 @@
+# @specre 01KJ1FKR0TVDC2XEJ0TV56XPZY
 class BlueskyTag < LiquidTagBase
   PARTIAL = "liquids/bluesky".freeze
 

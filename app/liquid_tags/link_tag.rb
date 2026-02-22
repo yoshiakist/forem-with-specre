@@ -1,3 +1,4 @@
+# @specre 01KJ1F417EWY0A879VG771XT85
 class LinkTag < LiquidTagBase
   include ActionView::Helpers
   PARTIAL = "articles/liquid".freeze

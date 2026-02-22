@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-22T00:38:35Z",
+  "generated_at": "2026-02-22T03:46:25Z",
   "source_refs": [
     {
       "file": "app/assets/javascripts/subforemSelectionModal.js",
@@ -297,6 +297,11 @@
       "specre_id": "01KJ1C8G3AN3EVK907SGXDWZG5"
     },
     {
+      "file": "app/controllers/liquid_tags_controller.rb",
+      "line": 1,
+      "specre_id": "01KJ1F0MZV6TAFYBWNQG6V0K2W"
+    },
+    {
       "file": "app/controllers/moderations_controller.rb",
       "line": 1,
       "specre_id": "01KJ1733YCRFGKZZN1ZR6JBEHC"
@@ -520,6 +525,11 @@
       "file": "app/decorators/profile_decorator.rb",
       "line": 1,
       "specre_id": "01KHZ69F0GE1R07TXK53AAA1K8"
+    },
+    {
+      "file": "app/errors/liquid_tags.rb",
+      "line": 1,
+      "specre_id": "01KJ1EZV154EB8MH5FS06CB6XT"
     },
     {
       "file": "app/errors/moderation_unauthorized_error.rb",
@@ -1152,9 +1162,169 @@
       "specre_id": "01KJ1C23JZY0T5QCNX103SR5MM"
     },
     {
+      "file": "app/liquid_tags/asciinema_tag.rb",
+      "line": 1,
+      "specre_id": "01KJ1FC5TTWJKZS6HXP58WKM8Y"
+    },
+    {
+      "file": "app/liquid_tags/bandcamp_tag.rb",
+      "line": 1,
+      "specre_id": "01KJ1NAFCEMR7CZQHG5PZPNMZF"
+    },
+    {
+      "file": "app/liquid_tags/blogcast_tag.rb",
+      "line": 1,
+      "specre_id": "01KJ1NAG2B0GM9BJT8H5W0JEHB"
+    },
+    {
+      "file": "app/liquid_tags/bluesky_tag.rb",
+      "line": 1,
+      "specre_id": "01KJ1FKR0TVDC2XEJ0TV56XPZY"
+    },
+    {
+      "file": "app/liquid_tags/card_tag.rb",
+      "line": 1,
+      "specre_id": "01KJ1F6MWHBZ38XZ2ZHS73YNZA"
+    },
+    {
+      "file": "app/liquid_tags/cloud_run_tag.rb",
+      "line": 1,
+      "specre_id": "01KJ1NAGREGYKBPGQDQH99R94F"
+    },
+    {
+      "file": "app/liquid_tags/codepen_tag.rb",
+      "line": 1,
+      "specre_id": "01KJ1N448MTCNKVWNREJQA0P9Y"
+    },
+    {
+      "file": "app/liquid_tags/codesandbox_tag.rb",
+      "line": 1,
+      "specre_id": "01KJ1N448SCYHT9ARSNBG5GPRH"
+    },
+    {
+      "file": "app/liquid_tags/comment_tag.rb",
+      "line": 1,
+      "specre_id": "01KJ1F3QAFT0HFRPDHZ3JKZG6Z"
+    },
+    {
+      "file": "app/liquid_tags/cta_tag.rb",
+      "line": 1,
+      "specre_id": "01KJ1F8YGQEQHN0WEB1JX4TP1N"
+    },
+    {
+      "file": "app/liquid_tags/details_tag.rb",
+      "line": 1,
+      "specre_id": "01KJ1F9644RRQ7Y8YW7SBRR9HA"
+    },
+    {
+      "file": "app/liquid_tags/dotnet_fiddle_tag.rb",
+      "line": 1,
+      "specre_id": "01KJ1N448WPGKRDWX23FHQM5FT"
+    },
+    {
+      "file": "app/liquid_tags/forem_tag.rb",
+      "line": 1,
+      "specre_id": "01KJ1F0NVRKVVJQK0DPZYCJKMX"
+    },
+    {
+      "file": "app/liquid_tags/gist_tag.rb",
+      "line": 1,
+      "specre_id": "01KJ1NAH8W61VK3XGMD2PD713M"
+    },
+    {
+      "file": "app/liquid_tags/git_pitch_tag.rb",
+      "line": 1,
+      "specre_id": "01KJ1NAHW37CXP0FHM1SM1GT9H"
+    },
+    {
       "file": "app/liquid_tags/github_tag.rb",
       "line": 1,
       "specre_id": "01KHY95XQ0ZTM1EVAMZWD5AW7K"
+    },
+    {
+      "file": "app/liquid_tags/github_tag/github_issue_tag.rb",
+      "line": 1,
+      "specre_id": "01KJ1NAJFG6ZBXN7HJTB9VVXBE"
+    },
+    {
+      "file": "app/liquid_tags/github_tag/github_readme_tag.rb",
+      "line": 1,
+      "specre_id": "01KJ1NAJZ24HMXNKC0E5H4G4FQ"
+    },
+    {
+      "file": "app/liquid_tags/glitch_tag.rb",
+      "line": 1,
+      "specre_id": "01KJ1N6WWGNYT9JR9Y5EMDVG4K"
+    },
+    {
+      "file": "app/liquid_tags/instagram_tag.rb",
+      "line": 1,
+      "specre_id": "01KJ1FKPG3YTDTTW2XT02SWA9T"
+    },
+    {
+      "file": "app/liquid_tags/js_fiddle_tag.rb",
+      "line": 1,
+      "specre_id": "01KJ1N6XH2PFHKKE2GJH8ADM1J"
+    },
+    {
+      "file": "app/liquid_tags/jsitor_tag.rb",
+      "line": 1,
+      "specre_id": "01KJ1N6YC7D22BXFDC9RKFZTF8"
+    },
+    {
+      "file": "app/liquid_tags/katex_tag.rb",
+      "line": 1,
+      "specre_id": "01KJ1F9C8WFC974AKEZNQQXCED"
+    },
+    {
+      "file": "app/liquid_tags/kotlin_tag.rb",
+      "line": 1,
+      "specre_id": "01KJ1N6YXN1WKW53P7WH7V5EZD"
+    },
+    {
+      "file": "app/liquid_tags/link_tag.rb",
+      "line": 1,
+      "specre_id": "01KJ1F417EWY0A879VG771XT85"
+    },
+    {
+      "file": "app/liquid_tags/liquid_tag_base.rb",
+      "line": 1,
+      "specre_id": "01KJ1EZV154EB8MH5FS06CB6XT"
+    },
+    {
+      "file": "app/liquid_tags/loom_tag.rb",
+      "line": 1,
+      "specre_id": "01KJ1FCBM92477MPNYVC51VCS6"
+    },
+    {
+      "file": "app/liquid_tags/medium_tag.rb",
+      "line": 1,
+      "specre_id": "01KJ1NAKJ1F3VDFEZ8SCWFZ3D3"
+    },
+    {
+      "file": "app/liquid_tags/mux_tag.rb",
+      "line": 1,
+      "specre_id": "01KJ1FEC2H01BD97D0SV7SF10B"
+    },
+    {
+      "file": "app/liquid_tags/neon_tag.rb",
+      "line": 1,
+      "specre_id": "01KJ1NAM3GKQ9Y3MWVQXGZBSH6"
+    },
+    {
+      "file": "app/liquid_tags/next_tech_tag.rb",
+      "line": 1,
+      "specre_id": "01KJ1NAMMQ8BXHGGFXQEYEW323"
+    },
+    {
+      "file": "app/liquid_tags/null_tag.rb",
+      "line": 1,
+      "specre_id": "01KJ1NWEZ7S0072F27SHTWFQ91"
+    },
+    {
+      "file": "app/liquid_tags/open_graph_tag.rb",
+      "line": 1,
+      "specre_id": "01KJ1NAN64NZQV4VXD5BHDSD1T"
     },
     {
       "file": "app/liquid_tags/organization_tag.rb",
@@ -1167,6 +1337,11 @@
       "specre_id": "01KHYAF86G3QF0BH04P5YBJ4EE"
     },
     {
+      "file": "app/liquid_tags/parler_tag.rb",
+      "line": 1,
+      "specre_id": "01KJ1FKTVQH3HSYPJR6QFEWZ94"
+    },
+    {
       "file": "app/liquid_tags/podcast_tag.rb",
       "line": 1,
       "specre_id": "01KHZ7C4BEPF5TMJ68BXTZMMVP"
@@ -1177,9 +1352,119 @@
       "specre_id": "01KHY7Q18QQ15B7XBT5YDRTEQ6"
     },
     {
+      "file": "app/liquid_tags/reddit_tag.rb",
+      "line": 1,
+      "specre_id": "01KJ1FNZWK2F8ZEV0MZ52DK4T6"
+    },
+    {
+      "file": "app/liquid_tags/replit_tag.rb",
+      "line": 1,
+      "specre_id": "01KJ1N6Z63X89CXHE8KQDPB55N"
+    },
+    {
+      "file": "app/liquid_tags/runkit_tag.rb",
+      "line": 1,
+      "specre_id": "01KJ1FBXXXWHBNMKZ9HBS5AR6V"
+    },
+    {
+      "file": "app/liquid_tags/slideshare_tag.rb",
+      "line": 1,
+      "specre_id": "01KJ1NANNC8GEF0RZHC90FS5EJ"
+    },
+    {
+      "file": "app/liquid_tags/soundcloud_tag.rb",
+      "line": 1,
+      "specre_id": "01KJ1FEDS2SAX1P5115F8ECN5T"
+    },
+    {
+      "file": "app/liquid_tags/speakerdeck_tag.rb",
+      "line": 1,
+      "specre_id": "01KJ1NAP5PYW79V3ZJYHE3YZ69"
+    },
+    {
+      "file": "app/liquid_tags/spotify_tag.rb",
+      "line": 1,
+      "specre_id": "01KJ1FEG9MH1RKHEPHQ2449TTQ"
+    },
+    {
+      "file": "app/liquid_tags/stackblitz_tag.rb",
+      "line": 1,
+      "specre_id": "01KJ1N6ZQEV4F550YYB4QEJFDF"
+    },
+    {
+      "file": "app/liquid_tags/stackery_tag.rb",
+      "line": 1,
+      "specre_id": "01KJ1N70FN162EFMZ83MG5XGSN"
+    },
+    {
+      "file": "app/liquid_tags/stackexchange_tag.rb",
+      "line": 1,
+      "specre_id": "01KJ1NWDWHPM44X5SD64WS49KM"
+    },
+    {
       "file": "app/liquid_tags/survey_tag.rb",
       "line": 1,
       "specre_id": "01KHY7Q19K3T435K5XD2YF421F"
+    },
+    {
+      "file": "app/liquid_tags/tag_tag.rb",
+      "line": 1,
+      "specre_id": "01KJ1F43YDG56WXEHMDW5X1X9A"
+    },
+    {
+      "file": "app/liquid_tags/tweet_tag.rb",
+      "line": 1,
+      "specre_id": "01KJ1FNWVTW45KZ4WKNQ6ATE2V"
+    },
+    {
+      "file": "app/liquid_tags/twitch_tag.rb",
+      "line": 1,
+      "specre_id": "01KJ1FGNZVJ8HD8PZ8VN9W22Y5"
+    },
+    {
+      "file": "app/liquid_tags/twitter_timeline_tag.rb",
+      "line": 1,
+      "specre_id": "01KJ1FP0T67WTKGPRZS3CQY3QR"
+    },
+    {
+      "file": "app/liquid_tags/unified_embed.rb",
+      "line": 1,
+      "specre_id": "01KJ1F0NVRKVVJQK0DPZYCJKMX"
+    },
+    {
+      "file": "app/liquid_tags/unified_embed/registry.rb",
+      "line": 1,
+      "specre_id": "01KJ1F0NVRKVVJQK0DPZYCJKMX"
+    },
+    {
+      "file": "app/liquid_tags/unified_embed/tag.rb",
+      "line": 1,
+      "specre_id": "01KJ1F0NVRKVVJQK0DPZYCJKMX"
+    },
+    {
+      "file": "app/liquid_tags/user_subscription_tag.rb",
+      "line": 1,
+      "specre_id": "01KJ1F6M9DTXAJNC4ZQFMSWJXE"
+    },
+    {
+      "file": "app/liquid_tags/user_tag.rb",
+      "line": 1,
+      "specre_id": "01KJ1F647GSC84NJAD0YRSHSFB"
+    },
+    {
+      "file": "app/liquid_tags/vimeo_tag.rb",
+      "line": 1,
+      "specre_id": "01KJ1FGS84AE316EVNASQ3GSCW"
+    },
+    {
+      "file": "app/liquid_tags/wikipedia_tag.rb",
+      "line": 1,
+      "specre_id": "01KJ1NWEFRSNZ50SSZ3SA0A6FQ"
+    },
+    {
+      "file": "app/liquid_tags/youtube_tag.rb",
+      "line": 1,
+      "specre_id": "01KJ1FH9QT2V3RGNJKW67RHNR5"
     },
     {
       "file": "app/mailers/organization_invitation_mailer.rb",
@@ -1260,6 +1545,11 @@
       "file": "app/models/github_repo.rb",
       "line": 1,
       "specre_id": "01KHY90CYGYNH31CN6DQN705HH"
+    },
+    {
+      "file": "app/models/liquid_tags/user_subscription_tag.rb",
+      "line": 1,
+      "specre_id": "01KJ1EZV154EB8MH5FS06CB6XT"
     },
     {
       "file": "app/models/media_store.rb",
@@ -1497,6 +1787,11 @@
       "specre_id": "01KHZKDENF1FEDNJQD6XXKWAKZ"
     },
     {
+      "file": "app/models/user_subscription.rb",
+      "line": 1,
+      "specre_id": "01KJ1F6M9DTXAJNC4ZQFMSWJXE"
+    },
+    {
       "file": "app/models/users/notification_setting.rb",
       "line": 1,
       "specre_id": "01KHZ454YXRB8TWV8PC06P4EQ5"
@@ -1507,9 +1802,19 @@
       "specre_id": "01KJ15YPZ52QH5K5R1MVAYRQ0F"
     },
     {
+      "file": "app/policies/authorizer.rb",
+      "line": 1,
+      "specre_id": "01KJ1EZV154EB8MH5FS06CB6XT"
+    },
+    {
       "file": "app/policies/github_repo_policy.rb",
       "line": 1,
       "specre_id": "01KHY94DZ9B1PRJBC818Q9SKXB"
+    },
+    {
+      "file": "app/policies/liquid_tag_policy.rb",
+      "line": 1,
+      "specre_id": "01KJ1EZV154EB8MH5FS06CB6XT"
     },
     {
       "file": "app/policies/organization_policy.rb",
@@ -1962,6 +2267,11 @@
       "specre_id": "01KHZKDENF1FEDNJQD6XXKWAKZ"
     },
     {
+      "file": "app/services/users/approved_liquid_tags.rb",
+      "line": 1,
+      "specre_id": "01KJ1EZV154EB8MH5FS06CB6XT"
+    },
+    {
       "file": "app/services/users/confirm_flag_reactions.rb",
       "line": 1,
       "specre_id": "01KHZ55S8Z1A16PNGY9X7PR58P"
@@ -2387,9 +2697,19 @@
       "specre_id": "01KHZ6G82HEH34EH9QFG6JJ8XC"
     },
     {
+      "file": "app/views/articles/_liquid.html.erb",
+      "line": 1,
+      "specre_id": "01KJ1F417EWY0A879VG771XT85"
+    },
+    {
       "file": "app/views/articles/_multiple_reactions.html.erb",
       "line": 1,
       "specre_id": "01KHZ55SRCPDHPWM0EYSTE60MK"
+    },
+    {
+      "file": "app/views/comments/_liquid.html.erb",
+      "line": 1,
+      "specre_id": "01KJ1F3QAFT0HFRPDHZ3JKZG6Z"
     },
     {
       "file": "app/views/comments/settings.html.erb",
@@ -2412,9 +2732,134 @@
       "specre_id": "01KJ1C3MFT988AX8WWC1G6EG0G"
     },
     {
+      "file": "app/views/liquid_embeds/show.html.erb",
+      "line": 1,
+      "specre_id": "01KJ1F0NVRKVVJQK0DPZYCJKMX"
+    },
+    {
+      "file": "app/views/liquids/_asciinema.html.erb",
+      "line": 1,
+      "specre_id": "01KJ1FC5TTWJKZS6HXP58WKM8Y"
+    },
+    {
+      "file": "app/views/liquids/_bluesky.html.erb",
+      "line": 1,
+      "specre_id": "01KJ1FKR0TVDC2XEJ0TV56XPZY"
+    },
+    {
+      "file": "app/views/liquids/_card.html.erb",
+      "line": 1,
+      "specre_id": "01KJ1F6MWHBZ38XZ2ZHS73YNZA"
+    },
+    {
+      "file": "app/views/liquids/_codepen.html.erb",
+      "line": 1,
+      "specre_id": "01KJ1N448MTCNKVWNREJQA0P9Y"
+    },
+    {
+      "file": "app/views/liquids/_codesandbox.html.erb",
+      "line": 1,
+      "specre_id": "01KJ1N448SCYHT9ARSNBG5GPRH"
+    },
+    {
+      "file": "app/views/liquids/_cta.html.erb",
+      "line": 1,
+      "specre_id": "01KJ1F8YGQEQHN0WEB1JX4TP1N"
+    },
+    {
+      "file": "app/views/liquids/_details.html.erb",
+      "line": 1,
+      "specre_id": "01KJ1F9644RRQ7Y8YW7SBRR9HA"
+    },
+    {
+      "file": "app/views/liquids/_dotnetfiddle.html.erb",
+      "line": 1,
+      "specre_id": "01KJ1N448WPGKRDWX23FHQM5FT"
+    },
+    {
+      "file": "app/views/liquids/_glitch.html.erb",
+      "line": 1,
+      "specre_id": "01KJ1N6WWGNYT9JR9Y5EMDVG4K"
+    },
+    {
+      "file": "app/views/liquids/_instagram.html.erb",
+      "line": 1,
+      "specre_id": "01KJ1FKPG3YTDTTW2XT02SWA9T"
+    },
+    {
+      "file": "app/views/liquids/_jsfiddle.html.erb",
+      "line": 1,
+      "specre_id": "01KJ1N6XH2PFHKKE2GJH8ADM1J"
+    },
+    {
+      "file": "app/views/liquids/_jsitor.html.erb",
+      "line": 1,
+      "specre_id": "01KJ1N6YC7D22BXFDC9RKFZTF8"
+    },
+    {
+      "file": "app/views/liquids/_katex.html.erb",
+      "line": 1,
+      "specre_id": "01KJ1F9C8WFC974AKEZNQQXCED"
+    },
+    {
+      "file": "app/views/liquids/_kotlin.html.erb",
+      "line": 1,
+      "specre_id": "01KJ1N6YXN1WKW53P7WH7V5EZD"
+    },
+    {
+      "file": "app/views/liquids/_loom.html.erb",
+      "line": 1,
+      "specre_id": "01KJ1FCBM92477MPNYVC51VCS6"
+    },
+    {
+      "file": "app/views/liquids/_mux.html.erb",
+      "line": 1,
+      "specre_id": "01KJ1FEC2H01BD97D0SV7SF10B"
+    },
+    {
+      "file": "app/views/liquids/_parler.html.erb",
+      "line": 1,
+      "specre_id": "01KJ1FKTVQH3HSYPJR6QFEWZ94"
+    },
+    {
       "file": "app/views/liquids/_poll.html.erb",
       "line": 1,
       "specre_id": "01KHY7Q18QQ15B7XBT5YDRTEQ6"
+    },
+    {
+      "file": "app/views/liquids/_reddit.html.erb",
+      "line": 1,
+      "specre_id": "01KJ1FNZWK2F8ZEV0MZ52DK4T6"
+    },
+    {
+      "file": "app/views/liquids/_replit.html.erb",
+      "line": 1,
+      "specre_id": "01KJ1N6Z63X89CXHE8KQDPB55N"
+    },
+    {
+      "file": "app/views/liquids/_runkit.html.erb",
+      "line": 1,
+      "specre_id": "01KJ1FBXXXWHBNMKZ9HBS5AR6V"
+    },
+    {
+      "file": "app/views/liquids/_soundcloud.html.erb",
+      "line": 1,
+      "specre_id": "01KJ1FEDS2SAX1P5115F8ECN5T"
+    },
+    {
+      "file": "app/views/liquids/_spotify.html.erb",
+      "line": 1,
+      "specre_id": "01KJ1FEG9MH1RKHEPHQ2449TTQ"
+    },
+    {
+      "file": "app/views/liquids/_stackblitz.html.erb",
+      "line": 1,
+      "specre_id": "01KJ1N6ZQEV4F550YYB4QEJFDF"
+    },
+    {
+      "file": "app/views/liquids/_stackery.html.erb",
+      "line": 1,
+      "specre_id": "01KJ1N70FN162EFMZ83MG5XGSN"
     },
     {
       "file": "app/views/liquids/_survey.html.erb",
@@ -2425,6 +2870,36 @@
       "file": "app/views/liquids/_survey_poll.html.erb",
       "line": 1,
       "specre_id": "01KHY7Q19K3T435K5XD2YF421F"
+    },
+    {
+      "file": "app/views/liquids/_tweet.html.erb",
+      "line": 1,
+      "specre_id": "01KJ1FNWVTW45KZ4WKNQ6ATE2V"
+    },
+    {
+      "file": "app/views/liquids/_twitch.html.erb",
+      "line": 1,
+      "specre_id": "01KJ1FGNZVJ8HD8PZ8VN9W22Y5"
+    },
+    {
+      "file": "app/views/liquids/_twitter_timeline.html.erb",
+      "line": 1,
+      "specre_id": "01KJ1FP0T67WTKGPRZS3CQY3QR"
+    },
+    {
+      "file": "app/views/liquids/_user_subscription.html.erb",
+      "line": 1,
+      "specre_id": "01KJ1F6M9DTXAJNC4ZQFMSWJXE"
+    },
+    {
+      "file": "app/views/liquids/_vimeo.html.erb",
+      "line": 1,
+      "specre_id": "01KJ1FGS84AE316EVNASQ3GSCW"
+    },
+    {
+      "file": "app/views/liquids/_youtube.html.erb",
+      "line": 1,
+      "specre_id": "01KJ1FH9QT2V3RGNJKW67RHNR5"
     },
     {
       "file": "app/views/mailers/notify_mailer/new_mention_email.html.erb",
@@ -3157,6 +3632,11 @@
       "specre_id": "01KHZKCR70BAFQ159BEQFXBJQW"
     },
     {
+      "file": "app/views/tags/_liquid.html.erb",
+      "line": 1,
+      "specre_id": "01KJ1F43YDG56WXEHMDW5X1X9A"
+    },
+    {
       "file": "app/views/users/_account_providers_settings.html.erb",
       "line": 1,
       "specre_id": "01KHZ466X2VM8VAWD6RE82CF9J"
@@ -3170,6 +3650,11 @@
       "file": "app/views/users/_integrations_github_repositories.html.erb",
       "line": 1,
       "specre_id": "01KHY94DZ9B1PRJBC818Q9SKXB"
+    },
+    {
+      "file": "app/views/users/_liquid.html.erb",
+      "line": 1,
+      "specre_id": "01KJ1F647GSC84NJAD0YRSHSFB"
     },
     {
       "file": "app/views/users/_profile.html.erb",
@@ -3657,6 +4142,151 @@
       "specre_id": "01KHYYE333JHM6PGK7AZYCHD0X"
     },
     {
+      "file": "spec/liquid_tags/asciinema_tag_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1FC5TTWJKZS6HXP58WKM8Y"
+    },
+    {
+      "file": "spec/liquid_tags/bandcamp_tag_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1NAFCEMR7CZQHG5PZPNMZF"
+    },
+    {
+      "file": "spec/liquid_tags/blogcast_tag_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1NAG2B0GM9BJT8H5W0JEHB"
+    },
+    {
+      "file": "spec/liquid_tags/bluesky_tag_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1FKR0TVDC2XEJ0TV56XPZY"
+    },
+    {
+      "file": "spec/liquid_tags/card_tag_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1F6MWHBZ38XZ2ZHS73YNZA"
+    },
+    {
+      "file": "spec/liquid_tags/cloud_run_tag_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1NAGREGYKBPGQDQH99R94F"
+    },
+    {
+      "file": "spec/liquid_tags/codepen_tag_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1N448MTCNKVWNREJQA0P9Y"
+    },
+    {
+      "file": "spec/liquid_tags/codesandbox_tag_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1N448SCYHT9ARSNBG5GPRH"
+    },
+    {
+      "file": "spec/liquid_tags/comment_tag_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1F3QAFT0HFRPDHZ3JKZG6Z"
+    },
+    {
+      "file": "spec/liquid_tags/cta_tag_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1F8YGQEQHN0WEB1JX4TP1N"
+    },
+    {
+      "file": "spec/liquid_tags/dotnet_fiddle_tag_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1N448WPGKRDWX23FHQM5FT"
+    },
+    {
+      "file": "spec/liquid_tags/forem_tag_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1F0NVRKVVJQK0DPZYCJKMX"
+    },
+    {
+      "file": "spec/liquid_tags/gist_tag_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1NAH8W61VK3XGMD2PD713M"
+    },
+    {
+      "file": "spec/liquid_tags/git_pitch_tag_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1NAHW37CXP0FHM1SM1GT9H"
+    },
+    {
+      "file": "spec/liquid_tags/github_tag/github_issue_tag_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1NAJFG6ZBXN7HJTB9VVXBE"
+    },
+    {
+      "file": "spec/liquid_tags/github_tag/github_readme_tag_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1NAJZ24HMXNKC0E5H4G4FQ"
+    },
+    {
+      "file": "spec/liquid_tags/glitch_tag_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1N6WWGNYT9JR9Y5EMDVG4K"
+    },
+    {
+      "file": "spec/liquid_tags/instagram_tag_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1FKPG3YTDTTW2XT02SWA9T"
+    },
+    {
+      "file": "spec/liquid_tags/js_fiddle_tag_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1N6XH2PFHKKE2GJH8ADM1J"
+    },
+    {
+      "file": "spec/liquid_tags/jsitor_tag_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1N6YC7D22BXFDC9RKFZTF8"
+    },
+    {
+      "file": "spec/liquid_tags/katex_tag_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1F9C8WFC974AKEZNQQXCED"
+    },
+    {
+      "file": "spec/liquid_tags/kotlin_tag_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1N6YXN1WKW53P7WH7V5EZD"
+    },
+    {
+      "file": "spec/liquid_tags/link_tag_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1F417EWY0A879VG771XT85"
+    },
+    {
+      "file": "spec/liquid_tags/liquid_tag_base_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1EZV154EB8MH5FS06CB6XT"
+    },
+    {
+      "file": "spec/liquid_tags/loom_tag_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1FCBM92477MPNYVC51VCS6"
+    },
+    {
+      "file": "spec/liquid_tags/medium_tag_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1NAKJ1F3VDFEZ8SCWFZ3D3"
+    },
+    {
+      "file": "spec/liquid_tags/mux_tag_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1FEC2H01BD97D0SV7SF10B"
+    },
+    {
+      "file": "spec/liquid_tags/next_tech_tag_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1NAMMQ8BXHGGFXQEYEW323"
+    },
+    {
+      "file": "spec/liquid_tags/null_tag_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1NWEZ7S0072F27SHTWFQ91"
+    },
+    {
       "file": "spec/liquid_tags/organization_tag_spec.rb",
       "line": 1,
       "specre_id": "01KJ02HF7MPPR66D6DYJ77T3Z5"
@@ -3665,6 +4295,11 @@
       "file": "spec/liquid_tags/organization_tag_spec.rb",
       "line": 2,
       "specre_id": "01KHYAF86G3QF0BH04P5YBJ4EE"
+    },
+    {
+      "file": "spec/liquid_tags/parler_tag_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1FKTVQH3HSYPJR6QFEWZ94"
     },
     {
       "file": "spec/liquid_tags/podcast_tag_spec.rb",
@@ -3677,9 +4312,114 @@
       "specre_id": "01KHY7Q18QQ15B7XBT5YDRTEQ6"
     },
     {
+      "file": "spec/liquid_tags/reddit_tag_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1FNZWK2F8ZEV0MZ52DK4T6"
+    },
+    {
+      "file": "spec/liquid_tags/replit_tag_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1N6Z63X89CXHE8KQDPB55N"
+    },
+    {
+      "file": "spec/liquid_tags/runkit_tag_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1FBXXXWHBNMKZ9HBS5AR6V"
+    },
+    {
+      "file": "spec/liquid_tags/slideshare_tag_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1NANNC8GEF0RZHC90FS5EJ"
+    },
+    {
+      "file": "spec/liquid_tags/soundcloud_tag_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1FEDS2SAX1P5115F8ECN5T"
+    },
+    {
+      "file": "spec/liquid_tags/speakerdeck_tag_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1NAP5PYW79V3ZJYHE3YZ69"
+    },
+    {
+      "file": "spec/liquid_tags/spotify_tag_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1FEG9MH1RKHEPHQ2449TTQ"
+    },
+    {
+      "file": "spec/liquid_tags/stackblitz_tag_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1N6ZQEV4F550YYB4QEJFDF"
+    },
+    {
+      "file": "spec/liquid_tags/stackery_tag_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1N70FN162EFMZ83MG5XGSN"
+    },
+    {
+      "file": "spec/liquid_tags/stackexchange_tag_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1NWDWHPM44X5SD64WS49KM"
+    },
+    {
       "file": "spec/liquid_tags/survey_tag_spec.rb",
       "line": 1,
       "specre_id": "01KHY7Q19K3T435K5XD2YF421F"
+    },
+    {
+      "file": "spec/liquid_tags/tag_tag_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1F43YDG56WXEHMDW5X1X9A"
+    },
+    {
+      "file": "spec/liquid_tags/tweet_tag_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1FNWVTW45KZ4WKNQ6ATE2V"
+    },
+    {
+      "file": "spec/liquid_tags/twitch_tag_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1FGNZVJ8HD8PZ8VN9W22Y5"
+    },
+    {
+      "file": "spec/liquid_tags/twitter_timeline_tag_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1FP0T67WTKGPRZS3CQY3QR"
+    },
+    {
+      "file": "spec/liquid_tags/unified_embed/registry_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1F0NVRKVVJQK0DPZYCJKMX"
+    },
+    {
+      "file": "spec/liquid_tags/unified_embed/tag_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1F0NVRKVVJQK0DPZYCJKMX"
+    },
+    {
+      "file": "spec/liquid_tags/user_subscription_tag_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1F6M9DTXAJNC4ZQFMSWJXE"
+    },
+    {
+      "file": "spec/liquid_tags/user_tag_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1F647GSC84NJAD0YRSHSFB"
+    },
+    {
+      "file": "spec/liquid_tags/vimeo_tag_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1FGS84AE316EVNASQ3GSCW"
+    },
+    {
+      "file": "spec/liquid_tags/wikipedia_tag_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1NWEFRSNZ50SSZ3SA0A6FQ"
+    },
+    {
+      "file": "spec/liquid_tags/youtube_tag_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1FH9QT2V3RGNJKW67RHNR5"
     },
     {
       "file": "spec/mailers/organization_invitation_mailer_spec.rb",
@@ -3905,6 +4645,11 @@
       "file": "spec/policies/github_repo_policy_spec.rb",
       "line": 1,
       "specre_id": "01KHY94DZ9B1PRJBC818Q9SKXB"
+    },
+    {
+      "file": "spec/policies/liquid_tag_policy_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1EZV154EB8MH5FS06CB6XT"
     },
     {
       "file": "spec/policies/organization_policy_spec.rb",
@@ -4145,6 +4890,11 @@
       "file": "spec/requests/image_uploads_spec.rb",
       "line": 1,
       "specre_id": "01KJ1C8G3AN3EVK907SGXDWZG5"
+    },
+    {
+      "file": "spec/requests/liquid_tags_request_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1F0MZV6TAFYBWNQG6V0K2W"
     },
     {
       "file": "spec/requests/moderations_spec.rb",
@@ -4700,6 +5450,11 @@
       "file": "spec/services/subforem_reassignment_service_spec.rb",
       "line": 1,
       "specre_id": "01KHYYF2GKNFJF3ZE6PR6X8X9V"
+    },
+    {
+      "file": "spec/services/users/approved_liquid_tags_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1EZV154EB8MH5FS06CB6XT"
     },
     {
       "file": "spec/services/users/confirm_flag_reactions_spec.rb",
@@ -6384,6 +7139,430 @@
       "last_verified": "2026-02-22",
       "name": "author_can_generate_ai_cover_image",
       "path": "docs/specres/media/author_can_generate_ai_cover_image.md",
+      "status": "stable"
+    },
+    {
+      "domain": "liquid_tags",
+      "id": "01KJ1EZV154EB8MH5FS06CB6XT",
+      "last_verified": "2026-02-22",
+      "name": "system_enforces_liquid_tag_usage_policies",
+      "path": "docs/specres/liquid_tags/system_enforces_liquid_tag_usage_policies.md",
+      "status": "stable"
+    },
+    {
+      "domain": "liquid_tags",
+      "id": "01KJ1F0MZV6TAFYBWNQG6V0K2W",
+      "last_verified": "2026-02-22",
+      "name": "author_can_list_available_liquid_tags",
+      "path": "docs/specres/liquid_tags/author_can_list_available_liquid_tags.md",
+      "status": "stable"
+    },
+    {
+      "domain": "liquid_tags",
+      "id": "01KJ1F0NVRKVVJQK0DPZYCJKMX",
+      "last_verified": "2026-02-22",
+      "name": "system_routes_embed_url_to_liquid_tag_handler",
+      "path": "docs/specres/liquid_tags/system_routes_embed_url_to_liquid_tag_handler.md",
+      "status": "stable"
+    },
+    {
+      "domain": "liquid_tags",
+      "id": "01KJ1F3QAFT0HFRPDHZ3JKZG6Z",
+      "last_verified": "2026-02-22",
+      "name": "author_can_embed_comment_in_article",
+      "path": "docs/specres/liquid_tags/internal_embeds/author_can_embed_comment_in_article.md",
+      "status": "stable"
+    },
+    {
+      "domain": "liquid_tags",
+      "id": "01KJ1F417EWY0A879VG771XT85",
+      "last_verified": "2026-02-22",
+      "name": "author_can_embed_article_link_in_article",
+      "path": "docs/specres/liquid_tags/internal_embeds/author_can_embed_article_link_in_article.md",
+      "status": "stable"
+    },
+    {
+      "domain": "liquid_tags",
+      "id": "01KJ1F43YDG56WXEHMDW5X1X9A",
+      "last_verified": "2026-02-22",
+      "name": "author_can_embed_tag_badge_in_article",
+      "path": "docs/specres/liquid_tags/internal_embeds/author_can_embed_tag_badge_in_article.md",
+      "status": "stable"
+    },
+    {
+      "domain": "liquid_tags",
+      "id": "01KJ1F647GSC84NJAD0YRSHSFB",
+      "last_verified": "2026-02-22",
+      "name": "author_can_embed_user_profile_in_article",
+      "path": "docs/specres/liquid_tags/internal_embeds/author_can_embed_user_profile_in_article.md",
+      "status": "stable"
+    },
+    {
+      "domain": "liquid_tags",
+      "id": "01KJ1F6M9DTXAJNC4ZQFMSWJXE",
+      "last_verified": "2026-02-22",
+      "name": "author_can_embed_subscription_cta_in_article",
+      "path": "docs/specres/liquid_tags/internal_embeds/author_can_embed_subscription_cta_in_article.md",
+      "status": "stable"
+    },
+    {
+      "domain": "liquid_tags",
+      "id": "01KJ1F6MWHBZ38XZ2ZHS73YNZA",
+      "last_verified": "2026-02-22",
+      "name": "author_can_create_card_block_in_article",
+      "path": "docs/specres/liquid_tags/formatting/author_can_create_card_block_in_article.md",
+      "status": "stable"
+    },
+    {
+      "domain": "liquid_tags",
+      "id": "01KJ1F8YGQEQHN0WEB1JX4TP1N",
+      "last_verified": "2026-02-22",
+      "name": "author_can_create_cta_block_in_article",
+      "path": "docs/specres/liquid_tags/formatting/author_can_create_cta_block_in_article.md",
+      "status": "stable"
+    },
+    {
+      "domain": "liquid_tags",
+      "id": "01KJ1F9644RRQ7Y8YW7SBRR9HA",
+      "last_verified": "2026-02-22",
+      "name": "author_can_create_collapsible_details_in_article",
+      "path": "docs/specres/liquid_tags/formatting/author_can_create_collapsible_details_in_article.md",
+      "status": "stable"
+    },
+    {
+      "domain": "liquid_tags",
+      "id": "01KJ1F9C8WFC974AKEZNQQXCED",
+      "last_verified": "2026-02-22",
+      "name": "author_can_embed_math_formula_in_article",
+      "path": "docs/specres/liquid_tags/formatting/author_can_embed_math_formula_in_article.md",
+      "status": "stable"
+    },
+    {
+      "domain": "liquid_tags",
+      "id": "01KJ1FBXXXWHBNMKZ9HBS5AR6V",
+      "last_verified": "2026-02-22",
+      "name": "author_can_embed_runkit_notebook_in_article",
+      "path": "docs/specres/liquid_tags/formatting/author_can_embed_runkit_notebook_in_article.md",
+      "status": "stable"
+    },
+    {
+      "domain": "liquid_tags",
+      "id": "01KJ1FC5TTWJKZS6HXP58WKM8Y",
+      "last_verified": "2026-02-22",
+      "name": "author_can_embed_asciinema_recording_in_article",
+      "path": "docs/specres/liquid_tags/media/author_can_embed_asciinema_recording_in_article.md",
+      "status": "stable"
+    },
+    {
+      "domain": "liquid_tags",
+      "id": "01KJ1FCBM92477MPNYVC51VCS6",
+      "last_verified": "2026-02-22",
+      "name": "author_can_embed_loom_video_in_article",
+      "path": "docs/specres/liquid_tags/media/author_can_embed_loom_video_in_article.md",
+      "status": "stable"
+    },
+    {
+      "domain": "liquid_tags",
+      "id": "01KJ1FEC2H01BD97D0SV7SF10B",
+      "last_verified": "2026-02-22",
+      "name": "author_can_embed_mux_video_in_article",
+      "path": "docs/specres/liquid_tags/media/author_can_embed_mux_video_in_article.md",
+      "status": "stable"
+    },
+    {
+      "domain": "liquid_tags",
+      "id": "01KJ1FEDS2SAX1P5115F8ECN5T",
+      "last_verified": "2026-02-22",
+      "name": "author_can_embed_soundcloud_in_article",
+      "path": "docs/specres/liquid_tags/media/author_can_embed_soundcloud_in_article.md",
+      "status": "stable"
+    },
+    {
+      "domain": "liquid_tags",
+      "id": "01KJ1FEG9MH1RKHEPHQ2449TTQ",
+      "last_verified": "2026-02-22",
+      "name": "author_can_embed_spotify_in_article",
+      "path": "docs/specres/liquid_tags/media/author_can_embed_spotify_in_article.md",
+      "status": "stable"
+    },
+    {
+      "domain": "liquid_tags",
+      "id": "01KJ1FGNZVJ8HD8PZ8VN9W22Y5",
+      "last_verified": "2026-02-22",
+      "name": "author_can_embed_twitch_stream_in_article",
+      "path": "docs/specres/liquid_tags/media/author_can_embed_twitch_stream_in_article.md",
+      "status": "stable"
+    },
+    {
+      "domain": "liquid_tags",
+      "id": "01KJ1FGS84AE316EVNASQ3GSCW",
+      "last_verified": "2026-02-22",
+      "name": "author_can_embed_vimeo_video_in_article",
+      "path": "docs/specres/liquid_tags/media/author_can_embed_vimeo_video_in_article.md",
+      "status": "stable"
+    },
+    {
+      "domain": "liquid_tags",
+      "id": "01KJ1FH9QT2V3RGNJKW67RHNR5",
+      "last_verified": "2026-02-22",
+      "name": "author_can_embed_youtube_video_in_article",
+      "path": "docs/specres/liquid_tags/media/author_can_embed_youtube_video_in_article.md",
+      "status": "stable"
+    },
+    {
+      "domain": "liquid_tags",
+      "id": "01KJ1FKPG3YTDTTW2XT02SWA9T",
+      "last_verified": "2026-02-22",
+      "name": "author_can_embed_instagram_post_in_article",
+      "path": "docs/specres/liquid_tags/social/author_can_embed_instagram_post_in_article.md",
+      "status": "stable"
+    },
+    {
+      "domain": "liquid_tags",
+      "id": "01KJ1FKR0TVDC2XEJ0TV56XPZY",
+      "last_verified": "2026-02-22",
+      "name": "author_can_embed_bluesky_post_in_article",
+      "path": "docs/specres/liquid_tags/social/author_can_embed_bluesky_post_in_article.md",
+      "status": "stable"
+    },
+    {
+      "domain": "liquid_tags",
+      "id": "01KJ1FKTVQH3HSYPJR6QFEWZ94",
+      "last_verified": "2026-02-22",
+      "name": "author_can_embed_parler_post_in_article",
+      "path": "docs/specres/liquid_tags/social/author_can_embed_parler_post_in_article.md",
+      "status": "stable"
+    },
+    {
+      "domain": "liquid_tags",
+      "id": "01KJ1FNWVTW45KZ4WKNQ6ATE2V",
+      "last_verified": "2026-02-22",
+      "name": "author_can_embed_tweet_in_article",
+      "path": "docs/specres/liquid_tags/social/author_can_embed_tweet_in_article.md",
+      "status": "stable"
+    },
+    {
+      "domain": "liquid_tags",
+      "id": "01KJ1FNZWK2F8ZEV0MZ52DK4T6",
+      "last_verified": "2026-02-22",
+      "name": "author_can_embed_reddit_post_in_article",
+      "path": "docs/specres/liquid_tags/social/author_can_embed_reddit_post_in_article.md",
+      "status": "stable"
+    },
+    {
+      "domain": "liquid_tags",
+      "id": "01KJ1FP0T67WTKGPRZS3CQY3QR",
+      "last_verified": "2026-02-22",
+      "name": "author_can_embed_twitter_timeline_in_article",
+      "path": "docs/specres/liquid_tags/social/author_can_embed_twitter_timeline_in_article.md",
+      "status": "stable"
+    },
+    {
+      "domain": "liquid_tags",
+      "id": "01KJ1N448MTCNKVWNREJQA0P9Y",
+      "last_verified": "2026-02-22",
+      "name": "author_can_embed_codepen_in_article",
+      "path": "docs/specres/liquid_tags/code_playgrounds/author_can_embed_codepen_in_article.md",
+      "status": "stable"
+    },
+    {
+      "domain": "liquid_tags",
+      "id": "01KJ1N448SCYHT9ARSNBG5GPRH",
+      "last_verified": "2026-02-22",
+      "name": "author_can_embed_codesandbox_in_article",
+      "path": "docs/specres/liquid_tags/code_playgrounds/author_can_embed_codesandbox_in_article.md",
+      "status": "stable"
+    },
+    {
+      "domain": "liquid_tags",
+      "id": "01KJ1N448WPGKRDWX23FHQM5FT",
+      "last_verified": "2026-02-22",
+      "name": "author_can_embed_dotnet_fiddle_in_article",
+      "path": "docs/specres/liquid_tags/code_playgrounds/author_can_embed_dotnet_fiddle_in_article.md",
+      "status": "stable"
+    },
+    {
+      "domain": "liquid_tags",
+      "id": "01KJ1N6WWGNYT9JR9Y5EMDVG4K",
+      "last_verified": "2026-02-22",
+      "name": "author_can_embed_glitch_project_in_article",
+      "path": "docs/specres/liquid_tags/code_playgrounds/author_can_embed_glitch_project_in_article.md",
+      "status": "stable"
+    },
+    {
+      "domain": "liquid_tags",
+      "id": "01KJ1N6XH2PFHKKE2GJH8ADM1J",
+      "last_verified": "2026-02-22",
+      "name": "author_can_embed_js_fiddle_in_article",
+      "path": "docs/specres/liquid_tags/code_playgrounds/author_can_embed_js_fiddle_in_article.md",
+      "status": "stable"
+    },
+    {
+      "domain": "liquid_tags",
+      "id": "01KJ1N6YC7D22BXFDC9RKFZTF8",
+      "last_verified": "2026-02-22",
+      "name": "author_can_embed_jsitor_in_article",
+      "path": "docs/specres/liquid_tags/code_playgrounds/author_can_embed_jsitor_in_article.md",
+      "status": "stable"
+    },
+    {
+      "domain": "liquid_tags",
+      "id": "01KJ1N6YXN1WKW53P7WH7V5EZD",
+      "last_verified": "2026-02-22",
+      "name": "author_can_embed_kotlin_playground_in_article",
+      "path": "docs/specres/liquid_tags/code_playgrounds/author_can_embed_kotlin_playground_in_article.md",
+      "status": "stable"
+    },
+    {
+      "domain": "liquid_tags",
+      "id": "01KJ1N6Z63X89CXHE8KQDPB55N",
+      "last_verified": "2026-02-22",
+      "name": "author_can_embed_replit_in_article",
+      "path": "docs/specres/liquid_tags/code_playgrounds/author_can_embed_replit_in_article.md",
+      "status": "stable"
+    },
+    {
+      "domain": "liquid_tags",
+      "id": "01KJ1N6ZQEV4F550YYB4QEJFDF",
+      "last_verified": "2026-02-22",
+      "name": "author_can_embed_stackblitz_in_article",
+      "path": "docs/specres/liquid_tags/code_playgrounds/author_can_embed_stackblitz_in_article.md",
+      "status": "stable"
+    },
+    {
+      "domain": "liquid_tags",
+      "id": "01KJ1N70FN162EFMZ83MG5XGSN",
+      "last_verified": "2026-02-22",
+      "name": "author_can_embed_stackery_in_article",
+      "path": "docs/specres/liquid_tags/code_playgrounds/author_can_embed_stackery_in_article.md",
+      "status": "stable"
+    },
+    {
+      "domain": "liquid_tags",
+      "id": "01KJ1NAFCEMR7CZQHG5PZPNMZF",
+      "last_verified": "2026-02-22",
+      "name": "author_can_embed_bandcamp_in_article",
+      "path": "docs/specres/liquid_tags/external_embeds/author_can_embed_bandcamp_in_article.md",
+      "status": "stable"
+    },
+    {
+      "domain": "liquid_tags",
+      "id": "01KJ1NAG2B0GM9BJT8H5W0JEHB",
+      "last_verified": "2026-02-22",
+      "name": "author_can_embed_blogcast_in_article",
+      "path": "docs/specres/liquid_tags/external_embeds/author_can_embed_blogcast_in_article.md",
+      "status": "stable"
+    },
+    {
+      "domain": "liquid_tags",
+      "id": "01KJ1NAGREGYKBPGQDQH99R94F",
+      "last_verified": "2026-02-22",
+      "name": "author_can_embed_cloud_run_button_in_article",
+      "path": "docs/specres/liquid_tags/external_embeds/author_can_embed_cloud_run_button_in_article.md",
+      "status": "stable"
+    },
+    {
+      "domain": "liquid_tags",
+      "id": "01KJ1NAH8W61VK3XGMD2PD713M",
+      "last_verified": "2026-02-22",
+      "name": "author_can_embed_gist_in_article",
+      "path": "docs/specres/liquid_tags/external_embeds/author_can_embed_gist_in_article.md",
+      "status": "stable"
+    },
+    {
+      "domain": "liquid_tags",
+      "id": "01KJ1NAHW37CXP0FHM1SM1GT9H",
+      "last_verified": "2026-02-22",
+      "name": "author_can_embed_git_pitch_in_article",
+      "path": "docs/specres/liquid_tags/external_embeds/author_can_embed_git_pitch_in_article.md",
+      "status": "stable"
+    },
+    {
+      "domain": "liquid_tags",
+      "id": "01KJ1NAJFG6ZBXN7HJTB9VVXBE",
+      "last_verified": "2026-02-22",
+      "name": "author_can_embed_github_issue_in_article",
+      "path": "docs/specres/liquid_tags/external_embeds/author_can_embed_github_issue_in_article.md",
+      "status": "stable"
+    },
+    {
+      "domain": "liquid_tags",
+      "id": "01KJ1NAJZ24HMXNKC0E5H4G4FQ",
+      "last_verified": "2026-02-22",
+      "name": "author_can_embed_github_readme_in_article",
+      "path": "docs/specres/liquid_tags/external_embeds/author_can_embed_github_readme_in_article.md",
+      "status": "stable"
+    },
+    {
+      "domain": "liquid_tags",
+      "id": "01KJ1NAKJ1F3VDFEZ8SCWFZ3D3",
+      "last_verified": "2026-02-22",
+      "name": "author_can_embed_medium_article_in_article",
+      "path": "docs/specres/liquid_tags/external_embeds/author_can_embed_medium_article_in_article.md",
+      "status": "stable"
+    },
+    {
+      "domain": "liquid_tags",
+      "id": "01KJ1NAM3GKQ9Y3MWVQXGZBSH6",
+      "last_verified": "2026-02-22",
+      "name": "author_can_embed_neon_console_in_article",
+      "path": "docs/specres/liquid_tags/external_embeds/author_can_embed_neon_console_in_article.md",
+      "status": "stable"
+    },
+    {
+      "domain": "liquid_tags",
+      "id": "01KJ1NAMMQ8BXHGGFXQEYEW323",
+      "last_verified": "2026-02-22",
+      "name": "author_can_embed_next_tech_sandbox_in_article",
+      "path": "docs/specres/liquid_tags/external_embeds/author_can_embed_next_tech_sandbox_in_article.md",
+      "status": "stable"
+    },
+    {
+      "domain": "liquid_tags",
+      "id": "01KJ1NAN64NZQV4VXD5BHDSD1T",
+      "last_verified": "2026-02-22",
+      "name": "author_can_embed_open_graph_preview_in_article",
+      "path": "docs/specres/liquid_tags/external_embeds/author_can_embed_open_graph_preview_in_article.md",
+      "status": "stable"
+    },
+    {
+      "domain": "liquid_tags",
+      "id": "01KJ1NANNC8GEF0RZHC90FS5EJ",
+      "last_verified": "2026-02-22",
+      "name": "author_can_embed_slideshare_in_article",
+      "path": "docs/specres/liquid_tags/external_embeds/author_can_embed_slideshare_in_article.md",
+      "status": "stable"
+    },
+    {
+      "domain": "liquid_tags",
+      "id": "01KJ1NAP5PYW79V3ZJYHE3YZ69",
+      "last_verified": "2026-02-22",
+      "name": "author_can_embed_speakerdeck_in_article",
+      "path": "docs/specres/liquid_tags/external_embeds/author_can_embed_speakerdeck_in_article.md",
+      "status": "stable"
+    },
+    {
+      "domain": "liquid_tags",
+      "id": "01KJ1NWDWHPM44X5SD64WS49KM",
+      "last_verified": "2026-02-22",
+      "name": "author_can_embed_stackexchange_post_in_article",
+      "path": "docs/specres/liquid_tags/knowledge/author_can_embed_stackexchange_post_in_article.md",
+      "status": "stable"
+    },
+    {
+      "domain": "liquid_tags",
+      "id": "01KJ1NWEFRSNZ50SSZ3SA0A6FQ",
+      "last_verified": "2026-02-22",
+      "name": "author_can_embed_wikipedia_excerpt_in_article",
+      "path": "docs/specres/liquid_tags/knowledge/author_can_embed_wikipedia_excerpt_in_article.md",
+      "status": "stable"
+    },
+    {
+      "domain": "liquid_tags",
+      "id": "01KJ1NWEZ7S0072F27SHTWFQ91",
+      "last_verified": "2026-02-22",
+      "name": "system_suppresses_deprecated_block_tag_syntax",
+      "path": "docs/specres/liquid_tags/system_suppresses_deprecated_block_tag_syntax.md",
       "status": "stable"
     }
   ],

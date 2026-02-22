@@ -1,3 +1,4 @@
+# @specre 01KJ1F6M9DTXAJNC4ZQFMSWJXE
 class UserSubscriptionTag < LiquidTagBase
   PARTIAL = "liquids/user_subscription".freeze
   VALID_CONTEXTS = %w[Article].freeze

@@ -1,3 +1,4 @@
+# @specre 01KJ1NAFCEMR7CZQHG5PZPNMZF
 require 'httparty'
 require 'nokogiri'
 require 'json'

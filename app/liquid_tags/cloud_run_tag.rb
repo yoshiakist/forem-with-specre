@@ -1,3 +1,4 @@
+# @specre 01KJ1NAGREGYKBPGQDQH99R94F
 class CloudRunTag < LiquidTagBase
   PARTIAL = "liquids/cloud_run".freeze
   REGISTRY_REGEXP = %r{\Ahttps?://[a-zA-Z0-9.-]+\.run\.app/?\z}

@@ -1,3 +1,4 @@
+# @specre 01KJ1F0NVRKVVJQK0DPZYCJKMX
 require "rails_helper"
 
 RSpec.describe UnifiedEmbed::Registry do

@@ -1,3 +1,4 @@
+# @specre 01KJ1NAP5PYW79V3ZJYHE3YZ69
 require "rails_helper"
 
 RSpec.describe SpeakerdeckTag, type: :liquid_tag do

@@ -1,3 +1,4 @@
+# @specre 01KJ1F9644RRQ7Y8YW7SBRR9HA
 class DetailsTag < Liquid::Block
   include ActionView::Helpers::SanitizeHelper
 

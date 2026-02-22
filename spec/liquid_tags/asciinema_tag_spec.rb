@@ -1,3 +1,4 @@
+# @specre 01KJ1FC5TTWJKZS6HXP58WKM8Y
 require "rails_helper"
 
 RSpec.describe AsciinemaTag, type: :liquid_tag do

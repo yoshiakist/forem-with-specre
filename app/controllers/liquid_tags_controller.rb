@@ -1,3 +1,4 @@
+# @specre 01KJ1F0MZV6TAFYBWNQG6V0K2W
 class LiquidTagsController < ApplicationController
   before_action :authenticate_user!
 

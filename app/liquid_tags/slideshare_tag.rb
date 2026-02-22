@@ -1,3 +1,4 @@
+# @specre 01KJ1NANNC8GEF0RZHC90FS5EJ
 class SlideshareTag < LiquidTagBase
   PARTIAL = "liquids/slideshare".freeze
   REGISTRY_REGEXP = %r{https://(?:www\.)?slideshare\.net/slideshow/embed_code/key/(?<id>\w{12,14})}

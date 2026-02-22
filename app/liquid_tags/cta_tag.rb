@@ -1,3 +1,4 @@
+# @specre 01KJ1F8YGQEQHN0WEB1JX4TP1N
 class CtaTag < Liquid::Block
   include ActionView::Helpers::SanitizeHelper
 

@@ -1,3 +1,4 @@
+# @specre 01KJ1NWEZ7S0072F27SHTWFQ91
 require "rails_helper"
 
 RSpec.describe NullTag, type: :liquid_tag do

@@ -1,3 +1,4 @@
+# @specre 01KJ1N6ZQEV4F550YYB4QEJFDF
 class StackblitzTag < LiquidTagBase
   PARTIAL = "liquids/stackblitz".freeze
 

@@ -1,3 +1,4 @@
+# @specre 01KJ1F9C8WFC974AKEZNQQXCED
 class KatexTag < Liquid::Block
   PARTIAL = "liquids/katex".freeze
   KATEX_EXISTED = "katex_existed".freeze

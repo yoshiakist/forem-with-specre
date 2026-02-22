@@ -1,3 +1,4 @@
+# @specre 01KJ1F6M9DTXAJNC4ZQFMSWJXE
 require "rails_helper"
 
 RSpec.describe UserSubscriptionTag, type: :liquid_tag do

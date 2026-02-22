@@ -1,3 +1,4 @@
+# @specre 01KJ1N6XH2PFHKKE2GJH8ADM1J
 class JsFiddleTag < LiquidTagBase
   PARTIAL = "liquids/jsfiddle".freeze
   OPTION_REGEXP = /\A(js|html|css|result|,)*\z/

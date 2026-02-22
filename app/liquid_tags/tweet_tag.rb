@@ -1,3 +1,4 @@
+# @specre 01KJ1FNWVTW45KZ4WKNQ6ATE2V
 class TweetTag < LiquidTagBase
   PARTIAL = "liquids/tweet".freeze
   REGISTRY_REGEXP = %r{https://(?:twitter\.com|x\.com)/\w{1,15}/status/(?<id>\d{10,20})}

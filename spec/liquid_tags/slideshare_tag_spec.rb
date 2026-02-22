@@ -1,3 +1,4 @@
+# @specre 01KJ1NANNC8GEF0RZHC90FS5EJ
 require "rails_helper"
 
 RSpec.describe SlideshareTag, type: :liquid_tag do

@@ -1,3 +1,4 @@
+# @specre 01KJ1FCBM92477MPNYVC51VCS6
 class LoomTag < LiquidTagBase
   PARTIAL = "liquids/loom".freeze
   REGISTRY_REGEXP = %r{https://(?:www\.)?loom\.com/(?:share|embed)/(?<video_id>[a-zA-Z0-9]+)(?:\?[\w=-]+)?$}

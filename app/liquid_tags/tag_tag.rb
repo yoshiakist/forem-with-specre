@@ -1,3 +1,4 @@
+# @specre 01KJ1F43YDG56WXEHMDW5X1X9A
 class TagTag < LiquidTagBase
   include ApplicationHelper
   include ActionView::Helpers::TagHelper

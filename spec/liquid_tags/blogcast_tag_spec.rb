@@ -1,3 +1,4 @@
+# @specre 01KJ1NAG2B0GM9BJT8H5W0JEHB
 require "rails_helper"
 
 RSpec.describe BlogcastTag, type: :liquid_tag do

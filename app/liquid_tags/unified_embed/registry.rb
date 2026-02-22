@@ -1,3 +1,4 @@
+# @specre 01KJ1F0NVRKVVJQK0DPZYCJKMX
 module UnifiedEmbed
   class Registry
     include Singleton

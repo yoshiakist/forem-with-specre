@@ -1,3 +1,4 @@
+# @specre 01KJ1FCBM92477MPNYVC51VCS6
 require "rails_helper"
 
 RSpec.describe LoomTag, type: :liquid_tag do

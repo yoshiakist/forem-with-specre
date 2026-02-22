@@ -1,3 +1,4 @@
+# @specre 01KJ1FGNZVJ8HD8PZ8VN9W22Y5
 class TwitchTag < LiquidTagBase
   PARTIAL = "liquids/twitch".freeze
   REGISTRY_REGEXP = %r{https://(?:clips|player|www)\.twitch\.tv/(?:(?:embed\?clip=|\w+/clip/)|(?:\?video=|videos/))(?<id>[a-zA-Z0-9-]{,100})(?:&[^$]+)?}

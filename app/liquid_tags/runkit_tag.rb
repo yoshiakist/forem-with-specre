@@ -1,3 +1,4 @@
+# @specre 01KJ1FBXXXWHBNMKZ9HBS5AR6V
 class RunkitTag < Liquid::Block
   PARTIAL = "liquids/runkit".freeze
 

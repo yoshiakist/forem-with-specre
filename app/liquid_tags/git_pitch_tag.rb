@@ -1,3 +1,4 @@
+# @specre 01KJ1NAHW37CXP0FHM1SM1GT9H
 class GitPitchTag < LiquidTagBase
   PARTIAL = "liquids/gitpitch".freeze
   URL_REGEXP = %r{(http|https)://gitpitch.com/[a-zA-Z0-9\-/]*}

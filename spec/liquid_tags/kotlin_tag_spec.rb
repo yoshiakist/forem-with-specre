@@ -1,3 +1,4 @@
+# @specre 01KJ1N6YXN1WKW53P7WH7V5EZD
 require "rails_helper"
 
 RSpec.describe KotlinTag, type: :liquid_tag do

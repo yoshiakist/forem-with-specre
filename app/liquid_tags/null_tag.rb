@@ -1,3 +1,4 @@
+# @specre 01KJ1NWEZ7S0072F27SHTWFQ91
 class NullTag < Liquid::Block
   def initialize(tag_name, _markup, _options) # rubocop:disable Lint/MissingSuper
     raise StandardError, I18n.t("liquid_tags.null_tag.liquid_tag_is_disabled", tag_name: tag_name)

@@ -1,3 +1,4 @@
+# @specre 01KJ1N6YC7D22BXFDC9RKFZTF8
 class JsitorTag < LiquidTagBase
   PARTIAL = "liquids/jsitor".freeze
   REGISTRY_REGEXP = %r{\A(https|http)://jsitor\.com/embed/[\w\-?&]+\Z}

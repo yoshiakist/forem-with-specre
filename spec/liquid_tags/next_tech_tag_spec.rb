@@ -1,3 +1,4 @@
+# @specre 01KJ1NAMMQ8BXHGGFXQEYEW323
 require "rails_helper"
 
 RSpec.describe NextTechTag, type: :liquid_template do

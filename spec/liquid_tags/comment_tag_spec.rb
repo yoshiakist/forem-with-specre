@@ -1,3 +1,4 @@
+# @specre 01KJ1F3QAFT0HFRPDHZ3JKZG6Z
 require "rails_helper"
 
 RSpec.describe CommentTag, type: :liquid_tag do

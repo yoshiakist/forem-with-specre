@@ -1,3 +1,4 @@
+# @specre 01KJ1FEG9MH1RKHEPHQ2449TTQ
 class SpotifyTag < LiquidTagBase
   PARTIAL = "liquids/spotify".freeze
   # rubocop:disable Layout/LineLength
