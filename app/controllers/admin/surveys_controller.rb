@@ -2,7 +2,6 @@
 # @specre 01KHZMJ17G1A41XF5RZPAVH91P
 # @specre 01KHZME2KMA2REG6V4QSGBK5XQ
 # @specre 01KHZM8WACKF3RJZT65WP2P2E9
-# @specre 01KHY7Q13FW678WREK162FKQ28
 module Admin
   class SurveysController < Admin::ApplicationController
     layout "admin"

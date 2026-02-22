@@ -1,4 +1,4 @@
-# @specre 01KHY7Q19K3T435K5XD2YF421F
+# @specre 01KJ2HPDKS93VFBHHN6KXPZXH3
 require "rails_helper"
 
 RSpec.describe SurveyTag, type: :liquid_tag do

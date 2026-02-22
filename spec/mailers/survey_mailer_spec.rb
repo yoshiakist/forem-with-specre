@@ -1,4 +1,4 @@
-# @specre 01KHY7Q0SPE22H49Y79AZYKZNY
+# @specre 01KJ2HPE39M61JKHQGRA7AHD0D
 require "rails_helper"
 
 RSpec.describe SurveyMailer, type: :mailer do
