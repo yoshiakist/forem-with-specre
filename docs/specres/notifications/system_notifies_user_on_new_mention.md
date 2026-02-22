@@ -11,9 +11,12 @@ last_verified: "2026-02-22"
 - `app/workers/notifications/mention_worker.rb`
 - `app/workers/mentions/send_email_notification_worker.rb`
 - `app/views/notifications/_mention.html.erb` (Template)
+- `app/views/mailers/notify_mailer/new_mention_email.html.erb` (Template)
+- `app/views/mailers/notify_mailer/new_mention_email.text.erb` (Template)
 - `spec/services/notifications/new_mention/send_spec.rb` (Test)
 - `spec/workers/notifications/mention_worker_spec.rb` (Test)
 - `spec/workers/mentions/send_email_notification_worker_spec.rb` (Test)
+- `spec/mailers/previews/notify_mailer_preview.rb` (Test)
 
 ## Functional Overview
 

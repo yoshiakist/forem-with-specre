@@ -1,3 +1,4 @@
+# @specre 01KJ1ARF08DVRQE65SWASWAFWJ
 require "delegate"
 
 class CommentCreator < Delegator

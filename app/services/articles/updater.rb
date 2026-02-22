@@ -1,3 +1,4 @@
+# @specre 01KJ1ARF08DVRQE65SWASWAFWJ
 module Articles
   class Updater
     Result = Struct.new(:success, :article, keyword_init: true)

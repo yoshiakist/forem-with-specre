@@ -1,3 +1,4 @@
+# @specre 01KJ1ARF08DVRQE65SWASWAFWJ
 require "rails_helper"
 
 RSpec.shared_examples "valid notifiable and no mentions" do

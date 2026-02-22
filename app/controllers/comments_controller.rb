@@ -1,3 +1,4 @@
+# @specre 01KJ1ARF08DVRQE65SWASWAFWJ
 class CommentsController < ApplicationController
   before_action :set_comment, only: %i[update destroy]
   before_action :set_cache_control_headers, only: [:index]

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-21T23:04:43Z",
+  "generated_at": "2026-02-22T00:08:38Z",
   "source_refs": [
     {
       "file": "app/assets/javascripts/subforemSelectionModal.js",
@@ -247,6 +247,11 @@
       "specre_id": "01KHYYJCP2TRNXM24G12C072KD"
     },
     {
+      "file": "app/controllers/comments_controller.rb",
+      "line": 1,
+      "specre_id": "01KJ1ARF08DVRQE65SWASWAFWJ"
+    },
+    {
       "file": "app/controllers/concerns/api/organizations_controller.rb",
       "line": 1,
       "specre_id": "01KHZGVB146XQBKF66V2THG07T"
@@ -475,6 +480,11 @@
       "file": "app/controllers/users_controller.rb",
       "line": 1,
       "specre_id": "01KJ02HFZZ1BJN4RQBAP4QA41P"
+    },
+    {
+      "file": "app/decorators/mention_decorator.rb",
+      "line": 1,
+      "specre_id": "01KJ1ARF08DVRQE65SWASWAFWJ"
     },
     {
       "file": "app/decorators/notification_decorator.rb",
@@ -1152,6 +1162,11 @@
       "specre_id": "01KHY90CYGYNH31CN6DQN705HH"
     },
     {
+      "file": "app/models/mention.rb",
+      "line": 1,
+      "specre_id": "01KJ1ARF08DVRQE65SWASWAFWJ"
+    },
+    {
       "file": "app/models/notification.rb",
       "line": 1,
       "specre_id": "01KJ15MVQ9HCZ8PV80MQ828AQF"
@@ -1482,6 +1497,11 @@
       "specre_id": "01KHYYF2GKNFJF3ZE6PR6X8X9V"
     },
     {
+      "file": "app/services/articles/updater.rb",
+      "line": 1,
+      "specre_id": "01KJ1ARF08DVRQE65SWASWAFWJ"
+    },
+    {
       "file": "app/services/audit/notification.rb",
       "line": 1,
       "specre_id": "01KJ162FSS39965A6QK4V78F2H"
@@ -1490,6 +1510,11 @@
       "file": "app/services/broadcasts/welcome_notification/generator.rb",
       "line": 1,
       "specre_id": "01KJ15YPZ52QH5K5R1MVAYRQ0F"
+    },
+    {
+      "file": "app/services/comment_creator.rb",
+      "line": 1,
+      "specre_id": "01KJ1ARF08DVRQE65SWASWAFWJ"
     },
     {
       "file": "app/services/edge_cache/bust_organization.rb",
@@ -1540,6 +1565,11 @@
       "file": "app/services/images/safe_remote_profile_image_url.rb",
       "line": 1,
       "specre_id": "01KHZ6GG5GD766PRZK1SE50KMG"
+    },
+    {
+      "file": "app/services/mentions/create_all.rb",
+      "line": 1,
+      "specre_id": "01KJ1ARF08DVRQE65SWASWAFWJ"
     },
     {
       "file": "app/services/moderations/article_fetcher_service.rb",
@@ -2277,6 +2307,16 @@
       "specre_id": "01KHY7Q19K3T435K5XD2YF421F"
     },
     {
+      "file": "app/views/mailers/notify_mailer/new_mention_email.html.erb",
+      "line": 1,
+      "specre_id": "01KJ15RRNWK6ZYZCX7KQF726AT"
+    },
+    {
+      "file": "app/views/mailers/notify_mailer/new_mention_email.text.erb",
+      "line": 1,
+      "specre_id": "01KJ15RRNWK6ZYZCX7KQF726AT"
+    },
+    {
       "file": "app/views/mailers/notify_mailer/subforem_moderator_confirmation_email.html.erb",
       "line": 1,
       "specre_id": "01KHYH2RE3WEHN4RVYZWBNXCHA"
@@ -2375,6 +2415,11 @@
       "file": "app/views/notifications/_aggregated_reactions.html.erb",
       "line": 1,
       "specre_id": "01KHZ59AQ4W3GQVDAC6H33R4FD"
+    },
+    {
+      "file": "app/views/notifications/_mention.html.erb",
+      "line": 1,
+      "specre_id": "01KJ15MVQ9HCZ8PV80MQ828AQF"
     },
     {
       "file": "app/views/notifications/_subforemchange.html.erb",
@@ -3052,6 +3097,11 @@
       "specre_id": "01KHY987S3SNX2YV4C0ZHSHEK3"
     },
     {
+      "file": "app/workers/mentions/create_all_worker.rb",
+      "line": 1,
+      "specre_id": "01KJ1ARF08DVRQE65SWASWAFWJ"
+    },
+    {
       "file": "app/workers/mentions/send_email_notification_worker.rb",
       "line": 1,
       "specre_id": "01KJ15RRNWK6ZYZCX7KQF726AT"
@@ -3302,6 +3352,11 @@
       "specre_id": "01KHZKCR70BAFQ159BEQFXBJQW"
     },
     {
+      "file": "spec/decorators/mention_decorator_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1ARF08DVRQE65SWASWAFWJ"
+    },
+    {
       "file": "spec/decorators/notification_decorator_spec.rb",
       "line": 1,
       "specre_id": "01KJ15MVQ9HCZ8PV80MQ828AQF"
@@ -3325,6 +3380,11 @@
       "file": "spec/factories/context_notifications.rb",
       "line": 1,
       "specre_id": "01KJ15YY7SWMF93P655KXRSPEK"
+    },
+    {
+      "file": "spec/factories/mentions.rb",
+      "line": 1,
+      "specre_id": "01KJ1ARF08DVRQE65SWASWAFWJ"
     },
     {
       "file": "spec/factories/notification_subscriptions.rb",
@@ -3517,6 +3577,11 @@
       "specre_id": "01KHYAN2Z8BX8EQWF0T0B3J5XB"
     },
     {
+      "file": "spec/mailers/previews/notify_mailer_preview.rb",
+      "line": 1,
+      "specre_id": "01KJ15RRNWK6ZYZCX7KQF726AT"
+    },
+    {
       "file": "spec/mailers/survey_mailer_spec.rb",
       "line": 1,
       "specre_id": "01KHY7Q0SPE22H49Y79AZYKZNY"
@@ -3540,6 +3605,11 @@
       "file": "spec/models/github_repo_spec.rb",
       "line": 1,
       "specre_id": "01KHY90CYGYNH31CN6DQN705HH"
+    },
+    {
+      "file": "spec/models/mention_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1ARF08DVRQE65SWASWAFWJ"
     },
     {
       "file": "spec/models/notification_spec.rb",
@@ -4247,6 +4317,11 @@
       "specre_id": "01KHZ6GG5GD766PRZK1SE50KMG"
     },
     {
+      "file": "spec/services/mentions/create_all_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1ARF08DVRQE65SWASWAFWJ"
+    },
+    {
       "file": "spec/services/moderations/article_fetcher_service_spec.rb",
       "line": 1,
       "specre_id": "01KJ16TED32H3YYC9F610VZM5X"
@@ -4655,6 +4730,11 @@
       "file": "spec/workers/github_repos/update_latest_worker_spec.rb",
       "line": 1,
       "specre_id": "01KHY987S3SNX2YV4C0ZHSHEK3"
+    },
+    {
+      "file": "spec/workers/mentions/create_all_worker_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1ARF08DVRQE65SWASWAFWJ"
     },
     {
       "file": "spec/workers/mentions/send_email_notification_worker_spec.rb",
@@ -6108,6 +6188,14 @@
       "last_verified": "2026-02-22",
       "name": "moderator_can_moderate_comment",
       "path": "docs/specres/moderation/moderator_can_moderate_comment.md",
+      "status": "stable"
+    },
+    {
+      "domain": "mentions",
+      "id": "01KJ1ARF08DVRQE65SWASWAFWJ",
+      "last_verified": "2026-02-22",
+      "name": "system_creates_mentions_from_content",
+      "path": "docs/specres/mentions/system_creates_mentions_from_content.md",
       "status": "stable"
     }
   ],

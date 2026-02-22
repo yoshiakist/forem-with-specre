@@ -19,6 +19,7 @@ last_verified: "2026-02-22"
 - `app/views/notifications/index.html.erb` (Template)
 - `app/views/notifications/_notifications_list.html.erb` (Template)
 - `app/views/notifications/_nav_menu.html.erb` (Template)
+- `app/views/notifications/_mention.html.erb` (Template)
 - `app/views/notifications/shared/_article_preview.html.erb` (Template)
 - `app/views/notifications/shared/_comment_box.html.erb` (Template)
 - `app/views/notifications/shared/_error.html.erb` (Template)

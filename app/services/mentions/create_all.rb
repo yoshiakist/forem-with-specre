@@ -1,3 +1,4 @@
+# @specre 01KJ1ARF08DVRQE65SWASWAFWJ
 module Mentions
   # This class creates mentions + associated notifications for Articles and Comments.
   # This class will check to see if there are any @-mentions in the post, and will
