@@ -1,3 +1,4 @@
+# @specre 01KJ1SF43DPAEFTTZJQ449412V
 module Badges
   class AwardContributorFromGithub
     BADGE_SLUGS = {

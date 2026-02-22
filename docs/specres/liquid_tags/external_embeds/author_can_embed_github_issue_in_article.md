@@ -8,8 +8,11 @@ last_verified: "2026-02-22"
 ## Related Files
 
 - `app/liquid_tags/github_tag/github_issue_tag.rb`
+- `app/liquid_tags/github_tag.rb` (source file — the base dispatcher class that routes `{% github %}` tags to either GithubIssueTag or GithubReadmeTag)
+- `app/models/github_issue.rb` (source file — the model that caches GitHub issue/PR/comment data, used by `GithubIssue.find_or_fetch`)
 - `app/views/liquids/_github_issue.html.erb` (Template)
 - `spec/liquid_tags/github_tag/github_issue_tag_spec.rb` (Test)
+- `spec/models/github_issue_spec.rb` (Test)
 
 ## Functional Overview
 

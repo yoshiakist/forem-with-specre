@@ -1,3 +1,4 @@
+# @specre 01KJ1SC2K2MHD1YYH79TBFM4VQ
 class GithubRepoPolicy < ApplicationPolicy
   def index?
     !user.spam_or_suspended? && user.authenticated_through?(:github)

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-22T04:14:21Z",
+  "generated_at": "2026-02-22T04:26:45Z",
   "source_refs": [
     {
       "file": "app/assets/javascripts/subforemSelectionModal.js",
@@ -285,6 +285,11 @@
       "file": "app/controllers/dashboards_controller.rb",
       "line": 1,
       "specre_id": "01KHZGV8H4BG6XE1A7T06AVD4X"
+    },
+    {
+      "file": "app/controllers/github_repos_controller.rb",
+      "line": 1,
+      "specre_id": "01KJ1SC2K2MHD1YYH79TBFM4VQ"
     },
     {
       "file": "app/controllers/image_uploads_controller.rb",
@@ -742,6 +747,26 @@
       "specre_id": "01KHYH43TN4FS8ZYTW757DZBHZ"
     },
     {
+      "file": "app/javascript/githubRepos/__tests__/githubRepos.test.jsx",
+      "line": 1,
+      "specre_id": "01KJ1SC2K2MHD1YYH79TBFM4VQ"
+    },
+    {
+      "file": "app/javascript/githubRepos/__tests__/singleRepo.test.jsx",
+      "line": 1,
+      "specre_id": "01KJ1SC2K2MHD1YYH79TBFM4VQ"
+    },
+    {
+      "file": "app/javascript/githubRepos/githubRepos.jsx",
+      "line": 1,
+      "specre_id": "01KJ1SC2K2MHD1YYH79TBFM4VQ"
+    },
+    {
+      "file": "app/javascript/githubRepos/singleRepo.jsx",
+      "line": 1,
+      "specre_id": "01KJ1SC2K2MHD1YYH79TBFM4VQ"
+    },
+    {
       "file": "app/javascript/modCenter/__tests__/moderationArticles.test.jsx",
       "line": 1,
       "specre_id": "01KJ16TED32H3YYC9F610VZM5X"
@@ -860,6 +885,11 @@
       "file": "app/javascript/packs/commentModPage.js",
       "line": 1,
       "specre_id": "01KJ1733YCRFGKZZN1ZR6JBEHC"
+    },
+    {
+      "file": "app/javascript/packs/githubRepos.jsx",
+      "line": 1,
+      "specre_id": "01KJ1SC2K2MHD1YYH79TBFM4VQ"
     },
     {
       "file": "app/javascript/packs/initializers/initializeNotifications.js",
@@ -1207,6 +1237,16 @@
       "specre_id": "01KJ1NAHW37CXP0FHM1SM1GT9H"
     },
     {
+      "file": "app/liquid_tags/github_tag.rb",
+      "line": 1,
+      "specre_id": "01KJ1NAJZ24HMXNKC0E5H4G4FQ"
+    },
+    {
+      "file": "app/liquid_tags/github_tag.rb",
+      "line": 2,
+      "specre_id": "01KJ1NAJFG6ZBXN7HJTB9VVXBE"
+    },
+    {
       "file": "app/liquid_tags/github_tag/github_issue_tag.rb",
       "line": 1,
       "specre_id": "01KJ1NAJFG6ZBXN7HJTB9VVXBE"
@@ -1502,6 +1542,16 @@
       "specre_id": "01KJ15YY7SWMF93P655KXRSPEK"
     },
     {
+      "file": "app/models/github_issue.rb",
+      "line": 1,
+      "specre_id": "01KJ1NAJFG6ZBXN7HJTB9VVXBE"
+    },
+    {
+      "file": "app/models/github_repo.rb",
+      "line": 1,
+      "specre_id": "01KJ1SC2K2MHD1YYH79TBFM4VQ"
+    },
+    {
       "file": "app/models/liquid_tags/user_subscription_tag.rb",
       "line": 1,
       "specre_id": "01KJ1EZV154EB8MH5FS06CB6XT"
@@ -1762,6 +1812,11 @@
       "specre_id": "01KJ1EZV154EB8MH5FS06CB6XT"
     },
     {
+      "file": "app/policies/github_repo_policy.rb",
+      "line": 1,
+      "specre_id": "01KJ1SC2K2MHD1YYH79TBFM4VQ"
+    },
+    {
       "file": "app/policies/liquid_tag_policy.rb",
       "line": 1,
       "specre_id": "01KJ1EZV154EB8MH5FS06CB6XT"
@@ -1847,6 +1902,11 @@
       "specre_id": "01KJ16TPFT4QGX88S3N5FMGKV5"
     },
     {
+      "file": "app/services/ai/github_repo_recap.rb",
+      "line": 1,
+      "specre_id": "01KJ1SFMV2GXC3T80QKKH4YY6D"
+    },
+    {
       "file": "app/services/ai/profile_moderation_labeler.rb",
       "line": 1,
       "specre_id": "01KHZ6M3H0WPQNH4GKB6YPAR1T"
@@ -1870,6 +1930,16 @@
       "file": "app/services/audit/notification.rb",
       "line": 1,
       "specre_id": "01KJ162FSS39965A6QK4V78F2H"
+    },
+    {
+      "file": "app/services/authentication/providers/github.rb",
+      "line": 1,
+      "specre_id": "01KJ1SC4G6BA2RNA55TP5WGNVN"
+    },
+    {
+      "file": "app/services/badges/award_contributor_from_github.rb",
+      "line": 1,
+      "specre_id": "01KJ1SF43DPAEFTTZJQ449412V"
     },
     {
       "file": "app/services/broadcasts/welcome_notification/generator.rb",
@@ -1905,6 +1975,16 @@
       "file": "app/services/edge_cache/bust_podcast_episode.rb",
       "line": 1,
       "specre_id": "01KHZ7FNBPTBWCMXWYERHJHSS0"
+    },
+    {
+      "file": "app/services/github/errors.rb",
+      "line": 1,
+      "specre_id": "01KJ1SC2K2MHD1YYH79TBFM4VQ"
+    },
+    {
+      "file": "app/services/github/oauth_client.rb",
+      "line": 1,
+      "specre_id": "01KJ1SC2K2MHD1YYH79TBFM4VQ"
     },
     {
       "file": "app/services/images/generate_subforem_images.rb",
@@ -3582,6 +3662,16 @@
       "specre_id": "01KHZ466X2VM8VAWD6RE82CF9J"
     },
     {
+      "file": "app/views/users/_github_repositories_area.html.erb",
+      "line": 1,
+      "specre_id": "01KJ1SC2K2MHD1YYH79TBFM4VQ"
+    },
+    {
+      "file": "app/views/users/_integrations_github_repositories.html.erb",
+      "line": 1,
+      "specre_id": "01KJ1SC2K2MHD1YYH79TBFM4VQ"
+    },
+    {
       "file": "app/views/users/_liquid.html.erb",
       "line": 1,
       "specre_id": "01KJ1F647GSC84NJAD0YRSHSFB"
@@ -3620,6 +3710,16 @@
       "file": "app/workers/follows/send_email_notification_worker.rb",
       "line": 1,
       "specre_id": "01KJ15RMG4PP6RC3KZN6JDG99C"
+    },
+    {
+      "file": "app/workers/github_repos/repo_sync_worker.rb",
+      "line": 1,
+      "specre_id": "01KJ1SBPYYJH4XJS6P8SW1HSG2"
+    },
+    {
+      "file": "app/workers/github_repos/update_latest_worker.rb",
+      "line": 1,
+      "specre_id": "01KJ1SBPYYJH4XJS6P8SW1HSG2"
     },
     {
       "file": "app/workers/mentions/create_all_worker.rb",
@@ -4382,6 +4482,16 @@
       "specre_id": "01KJ15YY7SWMF93P655KXRSPEK"
     },
     {
+      "file": "spec/models/github_issue_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1NAJFG6ZBXN7HJTB9VVXBE"
+    },
+    {
+      "file": "spec/models/github_repo_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1SC2K2MHD1YYH79TBFM4VQ"
+    },
+    {
       "file": "spec/models/media_store_spec.rb",
       "line": 1,
       "specre_id": "01KJ1C23JZY0T5QCNX103SR5MM"
@@ -4550,6 +4660,11 @@
       "file": "spec/models/users/notification_setting_spec.rb",
       "line": 1,
       "specre_id": "01KHZ454YXRB8TWV8PC06P4EQ5"
+    },
+    {
+      "file": "spec/policies/github_repo_policy_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1SC2K2MHD1YYH79TBFM4VQ"
     },
     {
       "file": "spec/policies/liquid_tag_policy_spec.rb",
@@ -4785,6 +4900,11 @@
       "file": "spec/requests/api/v1/subforems_spec.rb",
       "line": 1,
       "specre_id": "01KHYYJCP2TRNXM24G12C072KD"
+    },
+    {
+      "file": "spec/requests/github_repos_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1SC2K2MHD1YYH79TBFM4VQ"
     },
     {
       "file": "spec/requests/image_uploads_spec.rb",
@@ -5047,9 +5167,24 @@
       "specre_id": "01KJ16TPFT4QGX88S3N5FMGKV5"
     },
     {
+      "file": "spec/services/ai/github_repo_recap_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1SFMV2GXC3T80QKKH4YY6D"
+    },
+    {
       "file": "spec/services/audit/notification_spec.rb",
       "line": 1,
       "specre_id": "01KJ162FSS39965A6QK4V78F2H"
+    },
+    {
+      "file": "spec/services/authentication/providers/github_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1SC4G6BA2RNA55TP5WGNVN"
+    },
+    {
+      "file": "spec/services/badges/award_contributor_from_github_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1SF43DPAEFTTZJQ449412V"
     },
     {
       "file": "spec/services/broadcasts/welcome_notification/generator_spec.rb",
@@ -5075,6 +5210,11 @@
       "file": "spec/services/edge_cache/bust_podcast_spec.rb",
       "line": 1,
       "specre_id": "01KHZ7FNBPTBWCMXWYERHJHSS0"
+    },
+    {
+      "file": "spec/services/github/oauth_client_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1SC2K2MHD1YYH79TBFM4VQ"
     },
     {
       "file": "spec/services/images/generate_subforem_images_spec.rb",
@@ -5387,6 +5527,11 @@
       "specre_id": "01KHZ41WMS2556S431RYZG2Q1X"
     },
     {
+      "file": "spec/system/authentication/user_logs_in_with_github_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1SC4G6BA2RNA55TP5WGNVN"
+    },
+    {
       "file": "spec/system/link_for_tags_in_posts_in_notifications_spec.rb",
       "line": 1,
       "specre_id": "01KJ15MVQ9HCZ8PV80MQ828AQF"
@@ -5510,6 +5655,16 @@
       "file": "spec/workers/follows/send_email_notification_worker_spec.rb",
       "line": 1,
       "specre_id": "01KJ15RMG4PP6RC3KZN6JDG99C"
+    },
+    {
+      "file": "spec/workers/github_repos/repo_sync_worker_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1SBPYYJH4XJS6P8SW1HSG2"
+    },
+    {
+      "file": "spec/workers/github_repos/update_latest_worker_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1SBPYYJH4XJS6P8SW1HSG2"
     },
     {
       "file": "spec/workers/mentions/create_all_worker_spec.rb",
@@ -7384,6 +7539,46 @@
       "last_verified": "2026-02-22",
       "name": "system_suppresses_deprecated_block_tag_syntax",
       "path": "docs/specres/liquid_tags/system_suppresses_deprecated_block_tag_syntax.md",
+      "status": "stable"
+    },
+    {
+      "domain": "github_integration",
+      "id": "01KJ1SBPYYJH4XJS6P8SW1HSG2",
+      "last_verified": "2026-02-22",
+      "name": "system_syncs_github_repos_periodically",
+      "path": "docs/specres/github_integration/system_syncs_github_repos_periodically.md",
+      "status": "stable"
+    },
+    {
+      "domain": "github_integration",
+      "id": "01KJ1SC2K2MHD1YYH79TBFM4VQ",
+      "last_verified": "2026-02-22",
+      "name": "user_can_feature_github_repos_on_profile",
+      "path": "docs/specres/github_integration/user_can_feature_github_repos_on_profile.md",
+      "status": "stable"
+    },
+    {
+      "domain": "github_integration",
+      "id": "01KJ1SC4G6BA2RNA55TP5WGNVN",
+      "last_verified": "2026-02-22",
+      "name": "user_can_authenticate_with_github",
+      "path": "docs/specres/github_integration/user_can_authenticate_with_github.md",
+      "status": "stable"
+    },
+    {
+      "domain": "github_integration",
+      "id": "01KJ1SF43DPAEFTTZJQ449412V",
+      "last_verified": "2026-02-22",
+      "name": "system_awards_contributor_badge_from_github",
+      "path": "docs/specres/github_integration/system_awards_contributor_badge_from_github.md",
+      "status": "stable"
+    },
+    {
+      "domain": "github_integration",
+      "id": "01KJ1SFMV2GXC3T80QKKH4YY6D",
+      "last_verified": "2026-02-22",
+      "name": "system_generates_ai_recap_of_github_repo_activity",
+      "path": "docs/specres/github_integration/system_generates_ai_recap_of_github_repo_activity.md",
       "status": "stable"
     }
   ],

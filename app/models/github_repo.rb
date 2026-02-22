@@ -1,3 +1,4 @@
+# @specre 01KJ1SC2K2MHD1YYH79TBFM4VQ
 class GithubRepo < ApplicationRecord
   belongs_to :user
 

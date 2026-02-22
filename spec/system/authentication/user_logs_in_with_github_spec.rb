@@ -1,3 +1,4 @@
+# @specre 01KJ1SC4G6BA2RNA55TP5WGNVN
 require "rails_helper"
 
 RSpec.describe "Authenticating with GitHub" do

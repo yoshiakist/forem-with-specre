@@ -1,3 +1,4 @@
+# @specre 01KJ1SFMV2GXC3T80QKKH4YY6D
 module Ai
   ##
   # Generates an AI-powered recap of GitHub repository activity over a specified timeframe.

@@ -1,3 +1,4 @@
+# @specre 01KJ1SC4G6BA2RNA55TP5WGNVN
 module Authentication
   module Providers
     # GitHub authentication provider, uses omniauth-github as backend

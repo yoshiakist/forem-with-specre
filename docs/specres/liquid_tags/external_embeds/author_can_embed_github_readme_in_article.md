@@ -7,6 +7,7 @@ last_verified: "2026-02-22"
 
 ## Related Files
 
+- `app/liquid_tags/github_tag.rb` (base dispatcher class that routes `{% github %}` tags to either GithubIssueTag or GithubReadmeTag)
 - `app/liquid_tags/github_tag/github_readme_tag.rb`
 - `app/views/liquids/_github_readme.html.erb` (Template)
 - `spec/liquid_tags/github_tag/github_readme_tag_spec.rb` (Test)
