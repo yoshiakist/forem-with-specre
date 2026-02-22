@@ -179,6 +179,14 @@ Before finalizing, review the catalog against these checks:
    - **When to split:** Look for groups of the same file pattern repeated for different purposes (e.g., locale-specific templates for "about" pages vs. "legal" pages vs. "help/guide" pages). If these groups serve distinct user intents — and each subset still passes the value litmus test as an independent behavior — split the entry into 2 or more entries along those semantic boundaries.
    - **When NOT to split:** If all files genuinely participate in a single coherent user experience (e.g., a complex wizard with many steps, or a dashboard assembling many widgets), splitting would fragment the behavior and make the end-to-end flow harder to understand. In this case, keep the entry intact regardless of file count.
    - **Guideline, not a hard rule:** 15 files is a review trigger, not an automatic split threshold. The deciding factor is whether a human reader would naturally describe the files as participating in "one thing the user does" or "several related but distinct things."
+7. **Subject balance check** — If all proposed cards share the same subject type, suspect missing behaviors from the opposite perspective:
+   - **All `system_*`**: Ask "How does a user create, view, or modify the data in this domain?" Search for controllers or frontend components that provide user-facing entry points for the domain's models. Run `grep -rl "ModelName" app/controllers/ --include="*.rb"` for each domain model to find controllers that may have been missed by the discovery script.
+   - **All `user_*` / `author_*`**: Ask "Does the system perform any autonomous processing on this domain's data?" Search for workers, scheduled tasks, pub/sub handlers, or webhook receivers: `grep -rl "ModelName" app/workers/ --include="*.rb"`.
+   - If new files are found, classify them into behaviors and add to the catalog before proceeding.
+8. **Model lifecycle check** — For each ActiveRecord model discovered in Phase 1, verify that the catalog accounts for how records are **created** (not just read or processed). If the Create path is absent from the catalog:
+   - Trace the model's `class_refs` from the structural map one hop outward — search for other files that reference the same dependencies (e.g., if `MediaStore` references `ArticleImageUploader`, search for other files referencing `ArticleImageUploader`).
+   - Explicitly search for controllers that handle the model: `grep -rl "ModelName" app/controllers/ --include="*.rb"`.
+   - If new files are found, classify the Create behavior and add it to the catalog.
 
 If the catalog passes all checks, proceed directly to Phase 3 without pausing for user approval.
 
