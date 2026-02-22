@@ -1,4 +1,4 @@
-# @specre 01KHY7Q13AHA2SC3GPQ920WG44
+# @specre 01KHYYH62ZG383CA1EG815V11C
 require "rails_helper"
 
 RSpec.describe "Admin Subforems About Page Generation", type: :request do

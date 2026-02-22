@@ -1,5 +1,4 @@
 # @specre 01KJ02HC7CPXANNH4W8KJWYC61
-# @specre 01KHYAG7500GXRZGY07Y91X18W
 module Search
   class Organization
     DEFAULT_SORT_BY = "name".freeze

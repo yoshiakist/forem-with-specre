@@ -1,5 +1,4 @@
 # @specre 01KJ02MNP5AREF4M1SM48V0ED6
-# @specre 01KHYASY8DESB0ZXJFQZTWXPC8
 require "rails_helper"
 
 describe Admin::OrganizationsHelper do

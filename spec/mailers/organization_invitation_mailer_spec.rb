@@ -1,5 +1,4 @@
 # @specre 01KJ02DSNZVDY9J6F8MHMCEYZF
-# @specre 01KHYAN2EY716NJQJ4P7XGBTDG
 require "rails_helper"
 
 RSpec.describe OrganizationInvitationMailer, type: :mailer do

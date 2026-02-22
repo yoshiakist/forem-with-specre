@@ -1,5 +1,4 @@
 # @specre 01KJ0295AV619CEC61P9EVC0V8
-# @specre 01KHYAKA53GF8RR3HJRFK3Y0A9
 require "rails_helper"
 
 RSpec.describe EdgeCache::BustOrganization, type: :service do

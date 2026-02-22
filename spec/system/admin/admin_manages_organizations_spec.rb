@@ -1,5 +1,4 @@
 # @specre 01KJ02MNP5AREF4M1SM48V0ED6
-# @specre 01KHY7Q152E7D3TYNSNVX7VKE7
 require "rails_helper"
 
 RSpec.describe "Admin manages organizations" do

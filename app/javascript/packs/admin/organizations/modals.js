@@ -1,5 +1,4 @@
 // @specre 01KJ02MNP5AREF4M1SM48V0ED6
-// @specre 01KHYB1FSJRAWD3J79MJ5ZA141
 import { showWindowModal } from '@utilities/showModal';
 
 const modalContents = new Map();

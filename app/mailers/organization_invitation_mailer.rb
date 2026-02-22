@@ -1,5 +1,4 @@
 # @specre 01KJ02DSNZVDY9J6F8MHMCEYZF
-# @specre 01KHYAN2EY716NJQJ4P7XGBTDG
 class OrganizationInvitationMailer < ApplicationMailer
   def invitation_email
     @membership = OrganizationMembership.find(params[:membership_id])
