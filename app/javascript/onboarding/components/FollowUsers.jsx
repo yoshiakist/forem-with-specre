@@ -1,3 +1,4 @@
+// @specre 01KJ1XDS1H71C80XA3MK3J78ZX
 import { h, Component } from 'preact';
 import PropTypes from 'prop-types';
 import he from 'he';

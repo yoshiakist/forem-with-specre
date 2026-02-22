@@ -1,3 +1,4 @@
+// @specre 01KJ1X6T9VWS64SM9K5V94FGEH
 import { h, Fragment } from 'preact';
 import ahoy from 'ahoy.js';
 import PropTypes from 'prop-types';

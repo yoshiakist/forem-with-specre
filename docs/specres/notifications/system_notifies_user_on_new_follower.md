@@ -12,6 +12,8 @@ last_verified: "2026-02-22"
 - `app/workers/notifications/new_follower_worker.rb`
 - `app/workers/follows/send_email_notification_worker.rb`
 - `app/views/notifications/_follow.html.erb` (Template)
+- `app/views/mailers/notify_mailer/new_follower_email.html.erb` (Template)
+- `app/views/mailers/notify_mailer/new_follower_email.text.erb` (Template)
 - `spec/services/notifications/new_follower/send_spec.rb` (Test)
 - `spec/services/notifications/new_follower/follow_data_spec.rb` (Test)
 - `spec/workers/notifications/new_follower_worker_spec.rb` (Test)

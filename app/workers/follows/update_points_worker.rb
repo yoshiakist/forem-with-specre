@@ -1,3 +1,4 @@
+# @specre 01KJ1XE6K4BWFZTPRP6E0M6244
 module Follows
   class UpdatePointsWorker
     include Sidekiq::Job

@@ -1,3 +1,4 @@
+# @specre 01KJ1X6P8ZE8SXRX8T90FCZH0G
 class FollowsController < ApplicationController
   before_action :current_user_by_token, only: [:create]
   skip_before_action :verify_authenticity_token, if: :token_authenticated?

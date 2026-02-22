@@ -1,3 +1,4 @@
+# @specre 01KJ1X6P8ZE8SXRX8T90FCZH0G
 module Follows
   class CheckCached
     def self.call(follower, followable_type, followable_id)

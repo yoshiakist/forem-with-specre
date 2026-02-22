@@ -1,3 +1,4 @@
+// @specre 01KJ1X6T9VWS64SM9K5V94FGEH
 import { h, render } from 'preact';
 import { Snackbar } from '../Snackbar/Snackbar';
 import { getUserDataAndCsrfToken } from '@utilities/getUserDataAndCsrfToken';

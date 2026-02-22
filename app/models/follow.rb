@@ -1,3 +1,4 @@
+# @specre 01KJ1X6P8ZE8SXRX8T90FCZH0G
 class Follow < ApplicationRecord
   extend ActsAsFollower::FollowerLib
   extend ActsAsFollower::FollowScopes
