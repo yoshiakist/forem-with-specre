@@ -1,3 +1,4 @@
+# @specre 01KJ24DBM92V2E2RDET8BZEWTZ
 require "rails_helper"
 
 RSpec.describe "FeedEvents" do

@@ -1,3 +1,4 @@
+// @specre 01KJ24EJFAY39BP4S14QX5H5FH
 import PropTypes from 'prop-types';
 import { isInViewport } from '../../utilities/viewport';
 import { useKeyboardShortcuts } from './useKeyboardShortcuts';

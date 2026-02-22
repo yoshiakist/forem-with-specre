@@ -1,3 +1,4 @@
+# @specre 01KJ24EF4VQYFPB3R53Q4J2CJ1
 # Checks if a Feedjira item represents a user's comment on a Medium post as
 # unfortunately they include those as items in their feeds
 module Feeds

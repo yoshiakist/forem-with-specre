@@ -1,3 +1,4 @@
+# @specre 01KJ246P62P50ED5YJNGJ50J3J
 module Articles
   module Feeds
     # This simple data structure describes a configuration of SQL "clause" fragments used in

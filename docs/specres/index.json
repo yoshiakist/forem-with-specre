@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-22T05:35:07Z",
+  "generated_at": "2026-02-22T07:39:54Z",
   "source_refs": [
     {
       "file": "app/assets/javascripts/subforemSelectionModal.js",
@@ -187,6 +187,11 @@
       "specre_id": "01KHY7Q13FW678WREK162FKQ28"
     },
     {
+      "file": "app/controllers/admin/tools_controller.rb",
+      "line": 1,
+      "specre_id": "01KJ24JR0FK5MWHWK01QF0434H"
+    },
+    {
       "file": "app/controllers/api/v0/followers_controller.rb",
       "line": 1,
       "specre_id": "01KJ1XA9ETJ0A7Y8MWW28NFSN8"
@@ -315,6 +320,11 @@
       "file": "app/controllers/dashboards_controller.rb",
       "line": 1,
       "specre_id": "01KHZGV8H4BG6XE1A7T06AVD4X"
+    },
+    {
+      "file": "app/controllers/feed_events_controller.rb",
+      "line": 1,
+      "specre_id": "01KJ24DBM92V2E2RDET8BZEWTZ"
     },
     {
       "file": "app/controllers/followings_controller.rb",
@@ -505,6 +515,16 @@
       "file": "app/controllers/stories/articles_search_controller.rb",
       "line": 1,
       "specre_id": "01KHZ22E63WBQWYFZNQVEA2EEE"
+    },
+    {
+      "file": "app/controllers/stories/feeds_controller.rb",
+      "line": 1,
+      "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
+    },
+    {
+      "file": "app/controllers/stories/tagged_articles_controller.rb",
+      "line": 1,
+      "specre_id": "01KJ2472X584A2R8VP2QAC7V40"
     },
     {
       "file": "app/controllers/subforems_controller.rb",
@@ -762,9 +782,19 @@
       "specre_id": "01KJ1C8DKS21XYDGCTHY01V45T"
     },
     {
+      "file": "app/javascript/articles/Feed.jsx",
+      "line": 1,
+      "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
+    },
+    {
       "file": "app/javascript/articles/PodcastArticle.jsx",
       "line": 1,
       "specre_id": "01KHZ78Z9A3R2NWZF2B6EZ82AJ"
+    },
+    {
+      "file": "app/javascript/articles/__tests__/Feed.test.jsx",
+      "line": 1,
+      "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
     },
     {
       "file": "app/javascript/articles/components/ReactionsCount.jsx",
@@ -780,6 +810,11 @@
       "file": "app/javascript/articles/components/__tests__/ReactionsCount.test.jsx",
       "line": 1,
       "specre_id": "01KHZ55SRCPDHPWM0EYSTE60MK"
+    },
+    {
+      "file": "app/javascript/articles/index.js",
+      "line": 1,
+      "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
     },
     {
       "file": "app/javascript/controllers/subforem_image_upload_controller.js",
@@ -957,6 +992,16 @@
       "specre_id": "01KJ1733YCRFGKZZN1ZR6JBEHC"
     },
     {
+      "file": "app/javascript/packs/feedEvents.js",
+      "line": 1,
+      "specre_id": "01KJ24DBM92V2E2RDET8BZEWTZ"
+    },
+    {
+      "file": "app/javascript/packs/feedPreviewCards.jsx",
+      "line": 1,
+      "specre_id": "01KJ24JHMGN7PEYMPPQ31D9D2V"
+    },
+    {
       "file": "app/javascript/packs/followButtons.js",
       "line": 1,
       "specre_id": "01KJ1X6P8ZE8SXRX8T90FCZH0G"
@@ -965,6 +1010,16 @@
       "file": "app/javascript/packs/githubRepos.jsx",
       "line": 1,
       "specre_id": "01KJ1SC2K2MHD1YYH79TBFM4VQ"
+    },
+    {
+      "file": "app/javascript/packs/homePageFeed.jsx",
+      "line": 1,
+      "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
+    },
+    {
+      "file": "app/javascript/packs/homePageFeedShortcuts.jsx",
+      "line": 1,
+      "specre_id": "01KJ24EJFAY39BP4S14QX5H5FH"
     },
     {
       "file": "app/javascript/packs/initializers/initializeNotifications.js",
@@ -1087,6 +1142,11 @@
       "specre_id": "01KHZ78Z9A3R2NWZF2B6EZ82AJ"
     },
     {
+      "file": "app/javascript/previewCards/feedPreviewCards.jsx",
+      "line": 1,
+      "specre_id": "01KJ24JHMGN7PEYMPPQ31D9D2V"
+    },
+    {
       "file": "app/javascript/profileDropdown/blockButton.js",
       "line": 1,
       "specre_id": "01KHZ6CQSTGFQY3V3VHN924EF9"
@@ -1157,9 +1217,29 @@
       "specre_id": "01KJ1C2A7B86GEDA127PKWJ999"
     },
     {
+      "file": "app/javascript/shared/components/__tests__/useKeyboardShortcuts.test.jsx",
+      "line": 1,
+      "specre_id": "01KJ24EJFAY39BP4S14QX5H5FH"
+    },
+    {
+      "file": "app/javascript/shared/components/__tests__/useListNavigation.test.js",
+      "line": 1,
+      "specre_id": "01KJ24EJFAY39BP4S14QX5H5FH"
+    },
+    {
       "file": "app/javascript/shared/components/__tests__/useMediaQuery.test.js",
       "line": 1,
       "specre_id": "01KJ1C2A7B86GEDA127PKWJ999"
+    },
+    {
+      "file": "app/javascript/shared/components/useKeyboardShortcuts.js",
+      "line": 1,
+      "specre_id": "01KJ24EJFAY39BP4S14QX5H5FH"
+    },
+    {
+      "file": "app/javascript/shared/components/useListNavigation.js",
+      "line": 1,
+      "specre_id": "01KJ24EJFAY39BP4S14QX5H5FH"
     },
     {
       "file": "app/javascript/shared/components/useMediaQuery.js",
@@ -1597,6 +1677,31 @@
       "specre_id": "01KHY7Q0SPE22H49Y79AZYKZNY"
     },
     {
+      "file": "app/models/articles/feeds.rb",
+      "line": 1,
+      "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
+    },
+    {
+      "file": "app/models/articles/feeds/lever_catalog_builder.rb",
+      "line": 1,
+      "specre_id": "01KJ246P62P50ED5YJNGJ50J3J"
+    },
+    {
+      "file": "app/models/articles/feeds/order_by_lever.rb",
+      "line": 1,
+      "specre_id": "01KJ246P62P50ED5YJNGJ50J3J"
+    },
+    {
+      "file": "app/models/articles/feeds/relevancy_lever.rb",
+      "line": 1,
+      "specre_id": "01KJ246P62P50ED5YJNGJ50J3J"
+    },
+    {
+      "file": "app/models/articles/feeds/variant_assembler.rb",
+      "line": 1,
+      "specre_id": "01KJ246P62P50ED5YJNGJ50J3J"
+    },
+    {
       "file": "app/models/concerns/algolia_searchable.rb",
       "line": 1,
       "specre_id": "01KHZ2B1BF232HFDSKGKHDSF6F"
@@ -1640,6 +1745,16 @@
       "file": "app/models/context_notification.rb",
       "line": 1,
       "specre_id": "01KJ15YY7SWMF93P655KXRSPEK"
+    },
+    {
+      "file": "app/models/feed_config.rb",
+      "line": 1,
+      "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
+    },
+    {
+      "file": "app/models/feed_event.rb",
+      "line": 1,
+      "specre_id": "01KJ24DBM92V2E2RDET8BZEWTZ"
     },
     {
       "file": "app/models/follow.rb",
@@ -1962,6 +2077,11 @@
       "specre_id": "01KHYAH6H7WPMS2EW9Y1XK6QYJ"
     },
     {
+      "file": "app/sanitizers/feed_markdown_scrubber.rb",
+      "line": 1,
+      "specre_id": "01KJ24EF4VQYFPB3R53Q4J2CJ1"
+    },
+    {
       "file": "app/serializers/search/comment_serializer.rb",
       "line": 1,
       "specre_id": "01KHZ24CTQNRDZ5CAMD3TTT1KN"
@@ -2032,6 +2152,51 @@
       "specre_id": "01KJ1C23JZY0T5QCNX103SR5MM"
     },
     {
+      "file": "app/services/articles/feeds/article_score_calculator_for_user.rb",
+      "line": 1,
+      "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
+    },
+    {
+      "file": "app/services/articles/feeds/basic.rb",
+      "line": 1,
+      "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
+    },
+    {
+      "file": "app/services/articles/feeds/custom.rb",
+      "line": 1,
+      "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
+    },
+    {
+      "file": "app/services/articles/feeds/find_featured_story.rb",
+      "line": 1,
+      "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
+    },
+    {
+      "file": "app/services/articles/feeds/large_forem_experimental.rb",
+      "line": 1,
+      "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
+    },
+    {
+      "file": "app/services/articles/feeds/latest.rb",
+      "line": 1,
+      "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
+    },
+    {
+      "file": "app/services/articles/feeds/tag.rb",
+      "line": 1,
+      "specre_id": "01KJ2472X584A2R8VP2QAC7V40"
+    },
+    {
+      "file": "app/services/articles/feeds/timeframe.rb",
+      "line": 1,
+      "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
+    },
+    {
+      "file": "app/services/articles/feeds/variant_query.rb",
+      "line": 1,
+      "specre_id": "01KJ246P62P50ED5YJNGJ50J3J"
+    },
+    {
       "file": "app/services/articles/updater.rb",
       "line": 1,
       "specre_id": "01KJ1ARF08DVRQE65SWASWAFWJ"
@@ -2085,6 +2250,41 @@
       "file": "app/services/edge_cache/bust_podcast_episode.rb",
       "line": 1,
       "specre_id": "01KHZ7FNBPTBWCMXWYERHJHSS0"
+    },
+    {
+      "file": "app/services/feed_events/bulk_upsert.rb",
+      "line": 1,
+      "specre_id": "01KJ24DBM92V2E2RDET8BZEWTZ"
+    },
+    {
+      "file": "app/services/feeds/assemble_article_markdown.rb",
+      "line": 1,
+      "specre_id": "01KJ24EF4VQYFPB3R53Q4J2CJ1"
+    },
+    {
+      "file": "app/services/feeds/check_item_medium_reply.rb",
+      "line": 1,
+      "specre_id": "01KJ24EF4VQYFPB3R53Q4J2CJ1"
+    },
+    {
+      "file": "app/services/feeds/check_item_previously_imported.rb",
+      "line": 1,
+      "specre_id": "01KJ24EF4VQYFPB3R53Q4J2CJ1"
+    },
+    {
+      "file": "app/services/feeds/clean_html.rb",
+      "line": 1,
+      "specre_id": "01KJ24EF4VQYFPB3R53Q4J2CJ1"
+    },
+    {
+      "file": "app/services/feeds/import.rb",
+      "line": 1,
+      "specre_id": "01KJ24EF4VQYFPB3R53Q4J2CJ1"
+    },
+    {
+      "file": "app/services/feeds/validate_url.rb",
+      "line": 1,
+      "specre_id": "01KJ24EF4VQYFPB3R53Q4J2CJ1"
     },
     {
       "file": "app/services/follows/check_cached.rb",
@@ -2767,6 +2967,11 @@
       "specre_id": "01KHY7Q13FW678WREK162FKQ28"
     },
     {
+      "file": "app/views/admin/tools/feed_playground.html.erb",
+      "line": 1,
+      "specre_id": "01KJ24JR0FK5MWHWK01QF0434H"
+    },
+    {
       "file": "app/views/admin/users/index/_organizations.html.erb",
       "line": 1,
       "specre_id": "01KHY7Q146KBEEXMZ1BBBZSC16"
@@ -2837,6 +3042,11 @@
       "specre_id": "01KHZ6G82HEH34EH9QFG6JJ8XC"
     },
     {
+      "file": "app/views/articles/_feed_nav.html.erb",
+      "line": 1,
+      "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
+    },
+    {
       "file": "app/views/articles/_liquid.html.erb",
       "line": 1,
       "specre_id": "01KJ1F417EWY0A879VG771XT85"
@@ -2845,6 +3055,11 @@
       "file": "app/views/articles/_multiple_reactions.html.erb",
       "line": 1,
       "specre_id": "01KHZ55SRCPDHPWM0EYSTE60MK"
+    },
+    {
+      "file": "app/views/articles/index.html.erb",
+      "line": 1,
+      "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
     },
     {
       "file": "app/views/comments/_liquid.html.erb",
@@ -3752,6 +3967,11 @@
       "specre_id": "01KHYYC8DH90XT7E7QYRPVDT2W"
     },
     {
+      "file": "app/views/stories/_main_stories_feed.html.erb",
+      "line": 1,
+      "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
+    },
+    {
       "file": "app/views/stories/articles_search/_meta.html.erb",
       "line": 1,
       "specre_id": "01KHZ22E63WBQWYFZNQVEA2EEE"
@@ -3765,6 +3985,11 @@
       "file": "app/views/stories/articles_search/index.html.erb",
       "line": 1,
       "specre_id": "01KHZ22E63WBQWYFZNQVEA2EEE"
+    },
+    {
+      "file": "app/views/stories/tagged_articles/_main_feed.html.erb",
+      "line": 1,
+      "specre_id": "01KJ2472X584A2R8VP2QAC7V40"
     },
     {
       "file": "app/views/subforems/edit.html.erb",
@@ -3850,6 +4075,11 @@
       "file": "app/workers/emails/survey_daily_email_worker.rb",
       "line": 1,
       "specre_id": "01KHY7Q0V5YNZKKRVKBGQWEM0Z"
+    },
+    {
+      "file": "app/workers/feeds/import_articles_worker.rb",
+      "line": 1,
+      "specre_id": "01KJ24EF4VQYFPB3R53Q4J2CJ1"
     },
     {
       "file": "app/workers/follows/send_email_notification_worker.rb",
@@ -4632,6 +4862,31 @@
       "specre_id": "01KHY7Q0SPE22H49Y79AZYKZNY"
     },
     {
+      "file": "spec/models/articles/feeds/lever_catalog_builder_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ246P62P50ED5YJNGJ50J3J"
+    },
+    {
+      "file": "spec/models/articles/feeds/order_by_lever_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ246P62P50ED5YJNGJ50J3J"
+    },
+    {
+      "file": "spec/models/articles/feeds/relevancy_lever_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ246P62P50ED5YJNGJ50J3J"
+    },
+    {
+      "file": "spec/models/articles/feeds/variant_assembler_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ246P62P50ED5YJNGJ50J3J"
+    },
+    {
+      "file": "spec/models/articles/feeds_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
+    },
+    {
       "file": "spec/models/billboard_survey_exclusion_spec.rb",
       "line": 1,
       "specre_id": "01KHY7Q0XACCB2RS5N25BPZGHP"
@@ -4640,6 +4895,16 @@
       "file": "spec/models/context_notification_spec.rb",
       "line": 1,
       "specre_id": "01KJ15YY7SWMF93P655KXRSPEK"
+    },
+    {
+      "file": "spec/models/feed_config_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
+    },
+    {
+      "file": "spec/models/feed_event_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ24DBM92V2E2RDET8BZEWTZ"
     },
     {
       "file": "spec/models/follow_spec.rb",
@@ -4865,6 +5130,11 @@
       "file": "spec/requests/admin/creator_settings_spec.rb",
       "line": 1,
       "specre_id": "01KHZ440DNT2G0A6E8HAKEZ36P"
+    },
+    {
+      "file": "spec/requests/admin/feed_playground_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ24JR0FK5MWHWK01QF0434H"
     },
     {
       "file": "spec/requests/admin/organization_memberships_spec.rb",
@@ -5107,6 +5377,16 @@
       "specre_id": "01KHYYJCP2TRNXM24G12C072KD"
     },
     {
+      "file": "spec/requests/articles/articles_feed_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
+    },
+    {
+      "file": "spec/requests/feed_events_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ24DBM92V2E2RDET8BZEWTZ"
+    },
+    {
       "file": "spec/requests/followings_spec.rb",
       "line": 1,
       "specre_id": "01KJ1XAJ69KXNBRJE9Z3328GT0"
@@ -5312,6 +5592,11 @@
       "specre_id": "01KHZ22E63WBQWYFZNQVEA2EEE"
     },
     {
+      "file": "spec/requests/stories/feeds_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
+    },
+    {
       "file": "spec/requests/subforem_selection_modal_spec.rb",
       "line": 1,
       "specre_id": "01KHYYC8DH90XT7E7QYRPVDT2W"
@@ -5350,6 +5635,11 @@
       "file": "spec/routing/profile_admin_routes_spec.rb",
       "line": 1,
       "specre_id": "01KHZ6G82HEH34EH9QFG6JJ8XC"
+    },
+    {
+      "file": "spec/sanitizers/feed_markdown_scrubber_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ24EF4VQYFPB3R53Q4J2CJ1"
     },
     {
       "file": "spec/serializers/search/comment_serializer_spec.rb",
@@ -5407,6 +5697,56 @@
       "specre_id": "01KJ1SFMV2GXC3T80QKKH4YY6D"
     },
     {
+      "file": "spec/services/articles/feeds/article_score_calculator_for_user_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
+    },
+    {
+      "file": "spec/services/articles/feeds/basic_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
+    },
+    {
+      "file": "spec/services/articles/feeds/custom_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
+    },
+    {
+      "file": "spec/services/articles/feeds/find_featured_story_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
+    },
+    {
+      "file": "spec/services/articles/feeds/large_forem_experimental_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
+    },
+    {
+      "file": "spec/services/articles/feeds/latest_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
+    },
+    {
+      "file": "spec/services/articles/feeds/tag_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ2472X584A2R8VP2QAC7V40"
+    },
+    {
+      "file": "spec/services/articles/feeds/timeframe_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
+    },
+    {
+      "file": "spec/services/articles/feeds/variant_query_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ246P62P50ED5YJNGJ50J3J"
+    },
+    {
+      "file": "spec/services/articles/feeds_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
+    },
+    {
       "file": "spec/services/audit/notification_spec.rb",
       "line": 1,
       "specre_id": "01KJ162FSS39965A6QK4V78F2H"
@@ -5445,6 +5785,31 @@
       "file": "spec/services/edge_cache/bust_podcast_spec.rb",
       "line": 1,
       "specre_id": "01KHZ7FNBPTBWCMXWYERHJHSS0"
+    },
+    {
+      "file": "spec/services/feed_events/bulk_upsert_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ24DBM92V2E2RDET8BZEWTZ"
+    },
+    {
+      "file": "spec/services/feeds/assemble_article_markdown_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ24EF4VQYFPB3R53Q4J2CJ1"
+    },
+    {
+      "file": "spec/services/feeds/clean_html_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ24EF4VQYFPB3R53Q4J2CJ1"
+    },
+    {
+      "file": "spec/services/feeds/import_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ24EF4VQYFPB3R53Q4J2CJ1"
+    },
+    {
+      "file": "spec/services/feeds/validate_url_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ24EF4VQYFPB3R53Q4J2CJ1"
     },
     {
       "file": "spec/services/follows/check_cached_spec.rb",
@@ -5767,6 +6132,16 @@
       "specre_id": "01KHZ41WMS2556S431RYZG2Q1X"
     },
     {
+      "file": "spec/system/articles/feeds/basic_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
+    },
+    {
+      "file": "spec/system/articles/feeds/large_forem_experimental_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
+    },
+    {
       "file": "spec/system/authentication/user_logs_in_with_github_spec.rb",
       "line": 1,
       "specre_id": "01KJ1SC4G6BA2RNA55TP5WGNVN"
@@ -5900,6 +6275,11 @@
       "file": "spec/workers/emails/survey_daily_email_worker_spec.rb",
       "line": 1,
       "specre_id": "01KHY7Q0V5YNZKKRVKBGQWEM0Z"
+    },
+    {
+      "file": "spec/workers/feeds/import_articles_worker_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ24EF4VQYFPB3R53Q4J2CJ1"
     },
     {
       "file": "spec/workers/follows/send_email_notification_worker_spec.rb",
@@ -7711,6 +8091,70 @@
       "last_verified": "2026-02-22",
       "name": "system_adjusts_tag_follow_points_on_article_view",
       "path": "docs/specres/follows/system_adjusts_tag_follow_points_on_article_view.md",
+      "status": "stable"
+    },
+    {
+      "domain": "feeds",
+      "id": "01KJ246ARS7Y65PKK7T8V3CZFQ",
+      "last_verified": "2026-02-22",
+      "name": "user_can_browse_article_feed",
+      "path": "docs/specres/feeds/user_can_browse_article_feed.md",
+      "status": "stable"
+    },
+    {
+      "domain": "feeds",
+      "id": "01KJ246P62P50ED5YJNGJ50J3J",
+      "last_verified": "2026-02-22",
+      "name": "system_ranks_feed_articles_using_configurable_levers",
+      "path": "docs/specres/feeds/system_ranks_feed_articles_using_configurable_levers.md",
+      "status": "stable"
+    },
+    {
+      "domain": "feeds",
+      "id": "01KJ2472X584A2R8VP2QAC7V40",
+      "last_verified": "2026-02-22",
+      "name": "user_can_browse_articles_by_tag",
+      "path": "docs/specres/feeds/user_can_browse_articles_by_tag.md",
+      "status": "stable"
+    },
+    {
+      "domain": "feeds",
+      "id": "01KJ24DBM92V2E2RDET8BZEWTZ",
+      "last_verified": "2026-02-22",
+      "name": "system_tracks_feed_engagement_events",
+      "path": "docs/specres/feeds/system_tracks_feed_engagement_events.md",
+      "status": "stable"
+    },
+    {
+      "domain": "feeds",
+      "id": "01KJ24EF4VQYFPB3R53Q4J2CJ1",
+      "last_verified": "2026-02-22",
+      "name": "system_imports_articles_from_user_rss_feed",
+      "path": "docs/specres/feeds/system_imports_articles_from_user_rss_feed.md",
+      "status": "stable"
+    },
+    {
+      "domain": "feeds",
+      "id": "01KJ24EJFAY39BP4S14QX5H5FH",
+      "last_verified": "2026-02-22",
+      "name": "user_can_navigate_feed_with_keyboard_shortcuts",
+      "path": "docs/specres/feeds/user_can_navigate_feed_with_keyboard_shortcuts.md",
+      "status": "stable"
+    },
+    {
+      "domain": "feeds",
+      "id": "01KJ24JHMGN7PEYMPPQ31D9D2V",
+      "last_verified": null,
+      "name": "user_can_preview_author_card_in_feed",
+      "path": "docs/specres/feeds/user_can_preview_author_card_in_feed.md",
+      "status": "draft"
+    },
+    {
+      "domain": "feeds",
+      "id": "01KJ24JR0FK5MWHWK01QF0434H",
+      "last_verified": "2026-02-22",
+      "name": "admin_can_test_feed_ranking_in_playground",
+      "path": "docs/specres/feeds/admin_can_test_feed_ranking_in_playground.md",
       "status": "stable"
     }
   ],

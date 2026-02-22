@@ -1,3 +1,4 @@
+# @specre 01KJ24DBM92V2E2RDET8BZEWTZ
 class FeedEvent < ApplicationRecord
   # These are "optional" mostly so that we can perform validated bulk inserts
   # without triggering article/user validation.

@@ -1,3 +1,4 @@
+# @specre 01KJ24EF4VQYFPB3R53Q4J2CJ1
 require "rails_helper"
 
 RSpec.describe Feeds::CleanHtml, type: :service do

@@ -1,3 +1,4 @@
+// @specre 01KJ246ARS7Y65PKK7T8V3CZFQ
 import { h } from 'preact';
 import { useEffect, useState } from 'preact/hooks';
 import PropTypes from 'prop-types';

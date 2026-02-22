@@ -1,3 +1,4 @@
+# @specre 01KJ24EF4VQYFPB3R53Q4J2CJ1
 module Feeds
   class AssembleArticleMarkdown
     def self.call(item, user, feed, feed_source_url)

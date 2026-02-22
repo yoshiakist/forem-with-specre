@@ -1,3 +1,4 @@
+# @specre 01KJ246ARS7Y65PKK7T8V3CZFQ
 module Articles
   module Feeds
     # @api private

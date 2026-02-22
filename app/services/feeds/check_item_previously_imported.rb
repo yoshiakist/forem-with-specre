@@ -1,3 +1,4 @@
+# @specre 01KJ24EF4VQYFPB3R53Q4J2CJ1
 # Checks if an item has been previously imported for the given user
 # Item transformed as Article objects are unique per user, not globally
 module Feeds

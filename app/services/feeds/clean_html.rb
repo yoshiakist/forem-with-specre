@@ -1,3 +1,4 @@
+# @specre 01KJ24EF4VQYFPB3R53Q4J2CJ1
 module Feeds
   class CleanHtml
     MEDIUM_TRACKING_PIXEL = "medium.com/_/stat".freeze

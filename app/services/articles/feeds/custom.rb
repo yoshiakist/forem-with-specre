@@ -1,3 +1,4 @@
+# @specre 01KJ246ARS7Y65PKK7T8V3CZFQ
 module Articles
   module Feeds
     TIME_AGO_MAX = Rails.env.production? ? 10.days.ago : 90.days.ago
