@@ -1,3 +1,4 @@
+# @specre 01KJ2SFDGGZ68ZN4F9V15YW4KV
 module Credits
   class Ledger
     Item = Struct.new(:purchase, :cost, :purchased_at, keyword_init: true)

@@ -1,3 +1,4 @@
+# @specre 01KJ2SF6J4K95BTZRSZG5AA811
 require "rails_helper"
 
 RSpec.describe Payments::ProcessCreditPurchase, type: :service do

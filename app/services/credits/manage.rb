@@ -1,3 +1,4 @@
+# @specre 01KJ2SFWXPPE61BA7KNFY8CSSG
 module Credits
   class Manage
     def self.call(user, user_params)

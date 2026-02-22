@@ -1,3 +1,4 @@
+# @specre 01KJ2SJQYZE780NB4SYY4CMW9G
 module Credits
   class SyncCounterCache
     include Sidekiq::Job

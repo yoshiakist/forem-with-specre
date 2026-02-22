@@ -1,3 +1,4 @@
+# @specre 01KJ2SF6J4K95BTZRSZG5AA811
 module Payments
   # This service encapsulates purchasing credits via the Stripe API.
   #

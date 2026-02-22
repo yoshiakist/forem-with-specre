@@ -1,3 +1,4 @@
+# @specre 01KJ2SJMM4QCT6P9M0K1K4HTAT
 module Credits
   class Buy
     def self.call(purchaser:, purchase:, cost:)

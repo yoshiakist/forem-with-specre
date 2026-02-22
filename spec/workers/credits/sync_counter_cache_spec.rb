@@ -1,3 +1,4 @@
+# @specre 01KJ2SJQYZE780NB4SYY4CMW9G
 require "rails_helper"
 
 RSpec.describe Credits::SyncCounterCache, type: :woker do

@@ -1,3 +1,5 @@
+# @specre 01KJ2SFDGGZ68ZN4F9V15YW4KV
+# @specre 01KJ2SF6J4K95BTZRSZG5AA811
 class CreditsController < ApplicationController
   before_action :authenticate_user!
   before_action :initialize_stripe

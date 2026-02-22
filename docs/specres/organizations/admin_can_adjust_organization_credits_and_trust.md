@@ -8,6 +8,7 @@ last_verified: "2026-02-21"
 ## Related Files
 
 - `app/controllers/admin/organizations_controller.rb`
+- `app/javascript/packs/orgCreditsSelector.js`
 - `spec/requests/admin/organizations_spec.rb` (Test)
 - `spec/requests/admin/organizations_baseline_score_spec.rb` (Test)
 - `spec/requests/admin/organizations_fully_trusted_spec.rb` (Test)

@@ -1,3 +1,4 @@
+# @specre 01KJ2SFWXPPE61BA7KNFY8CSSG
 require "rails_helper"
 
 RSpec.describe "Admin::Users" do
