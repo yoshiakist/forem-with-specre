@@ -1,4 +1,3 @@
-# @specre 01KHY930CEJV5QRQEBKVS095AX
 module Github
   # Github OAuth2 client (uses octokit.rb as a backend)
   class OauthClient

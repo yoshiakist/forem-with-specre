@@ -1,4 +1,3 @@
-# @specre 01KHY930CEJV5QRQEBKVS095AX
 require "rails_helper"
 
 RSpec.describe Github::OauthClient, :vcr, type: :service do

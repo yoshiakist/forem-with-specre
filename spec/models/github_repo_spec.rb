@@ -1,4 +1,3 @@
-# @specre 01KHY90CYGYNH31CN6DQN705HH
 require "rails_helper"
 
 RSpec.describe GithubRepo do

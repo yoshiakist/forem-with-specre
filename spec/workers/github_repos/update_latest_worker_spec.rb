@@ -1,4 +1,3 @@
-# @specre 01KHY987S3SNX2YV4C0ZHSHEK3
 require "rails_helper"
 
 RSpec.describe GithubRepos::UpdateLatestWorker, type: :worker do

@@ -1,4 +1,3 @@
-# @specre 01KHY95XQ0ZTM1EVAMZWD5AW7K
 class GithubTag < LiquidTagBase
   REGISTRY_REGEXP = %r{https://github\.com/[\w\-.]{1,39}/[\w\-.]{1,39}/?((issues|pull)/\d+((#issuecomment-|#discussion_|#pullrequestreview-)\w+)?)?(\sno-?readme\$)?}
 

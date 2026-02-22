@@ -1,4 +1,3 @@
-# @specre 01KHY91JCKT3BDMGCZRCGVCRME
 require "rails_helper"
 
 RSpec.describe GithubIssue, :vcr do

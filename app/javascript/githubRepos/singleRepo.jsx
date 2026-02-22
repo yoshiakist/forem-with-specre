@@ -1,4 +1,3 @@
-// @specre 01KHY99D5ZW1JPV9A0GAQGK90W
 import { h, Component } from 'preact';
 import PropTypes from 'prop-types';
 import { ButtonNew as Button } from '@crayons';

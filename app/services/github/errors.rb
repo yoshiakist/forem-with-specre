@@ -1,4 +1,3 @@
-# @specre 01KHY930CEJV5QRQEBKVS095AX
 module Github
   module Errors
     class Error < StandardError

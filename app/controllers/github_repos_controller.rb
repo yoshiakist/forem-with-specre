@@ -1,4 +1,3 @@
-# @specre 01KHY94DZ9B1PRJBC818Q9SKXB
 class GithubReposController < ApplicationController
   before_action :authenticate_user!
   after_action :verify_authorized
