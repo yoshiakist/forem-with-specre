@@ -1,3 +1,4 @@
+# @specre 01KJ44GE4DQCP13GD0ENDND135
 require "rails_helper"
 
 RSpec.describe Comments::CommunityWellnessQuery, type: :query do

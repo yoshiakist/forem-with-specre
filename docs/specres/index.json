@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-23T02:05:44Z",
+  "generated_at": "2026-02-23T02:16:57Z",
   "source_refs": [
     {
       "file": "app/assets/javascripts/initializers/initializeAllTagEditButtons.js",
@@ -2317,6 +2317,16 @@
       "specre_id": "01KJ41WHZ0KRBSTTD55T6WPTM6"
     },
     {
+      "file": "app/queries/comments/community_wellness_query.rb",
+      "line": 1,
+      "specre_id": "01KJ44GE4DQCP13GD0ENDND135"
+    },
+    {
+      "file": "app/queries/comments/count.rb",
+      "line": 1,
+      "specre_id": "01KJ44CT90TACT5K15BYFV2H07"
+    },
+    {
       "file": "app/queries/consumer_apps/find_or_create_all_query.rb",
       "line": 1,
       "specre_id": "01KJ3YXYAR6AARATJH02XHAEVW"
@@ -2497,6 +2507,11 @@
       "specre_id": "01KJ1SC4G6BA2RNA55TP5WGNVN"
     },
     {
+      "file": "app/services/badges/award_beloved_comment.rb",
+      "line": 1,
+      "specre_id": "01KJ44ESWEHQ6F18H90M3CCGNA"
+    },
+    {
       "file": "app/services/badges/award_contributor_from_github.rb",
       "line": 1,
       "specre_id": "01KJ1SF43DPAEFTTZJQ449412V"
@@ -2515,6 +2530,11 @@
       "file": "app/services/comment_creator.rb",
       "line": 1,
       "specre_id": "01KJ1ARF08DVRQE65SWASWAFWJ"
+    },
+    {
+      "file": "app/services/comments/calculate_score.rb",
+      "line": 1,
+      "specre_id": "01KJ44CT90TACT5K15BYFV2H07"
     },
     {
       "file": "app/services/content_renderer.rb",
@@ -4702,6 +4722,11 @@
       "specre_id": "01KJ15YPZ52QH5K5R1MVAYRQ0F"
     },
     {
+      "file": "app/workers/comments/calculate_score_worker.rb",
+      "line": 1,
+      "specre_id": "01KJ44CT90TACT5K15BYFV2H07"
+    },
+    {
       "file": "app/workers/comments/handle_spam_worker.rb",
       "line": 1,
       "specre_id": "01KJ43E9107K5RBF375S75E2PV"
@@ -5822,6 +5847,16 @@
       "specre_id": "01KJ41WHZ0KRBSTTD55T6WPTM6"
     },
     {
+      "file": "spec/queries/comments/community_wellness_query_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ44GE4DQCP13GD0ENDND135"
+    },
+    {
+      "file": "spec/queries/comments/count_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ44CT90TACT5K15BYFV2H07"
+    },
+    {
       "file": "spec/queries/consumer_apps/find_or_create_all_query_spec.rb",
       "line": 1,
       "specre_id": "01KJ3YXYAR6AARATJH02XHAEVW"
@@ -6577,6 +6612,11 @@
       "specre_id": "01KJ1SC4G6BA2RNA55TP5WGNVN"
     },
     {
+      "file": "spec/services/badges/award_beloved_comment_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ44ESWEHQ6F18H90M3CCGNA"
+    },
+    {
       "file": "spec/services/badges/award_contributor_from_github_spec.rb",
       "line": 1,
       "specre_id": "01KJ1SF43DPAEFTTZJQ449412V"
@@ -6590,6 +6630,11 @@
       "file": "spec/services/broadcasts/welcome_notification/generator_spec.rb",
       "line": 1,
       "specre_id": "01KJ15YPZ52QH5K5R1MVAYRQ0F"
+    },
+    {
+      "file": "spec/services/comments/calculate_score_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ44CT90TACT5K15BYFV2H07"
     },
     {
       "file": "spec/services/content_renderer_spec.rb",
@@ -7210,6 +7255,11 @@
       "file": "spec/workers/broadcasts/send_welcome_notifications_worker_spec.rb",
       "line": 1,
       "specre_id": "01KJ15YPZ52QH5K5R1MVAYRQ0F"
+    },
+    {
+      "file": "spec/workers/comments/calculate_score_worker_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ44CT90TACT5K15BYFV2H07"
     },
     {
       "file": "spec/workers/comments/send_email_notification_worker_spec.rb",
@@ -9505,6 +9555,30 @@
       "last_verified": "2026-02-23",
       "name": "admin_can_review_comments",
       "path": "docs/specres/comments/comments_admin/admin_can_review_comments.md",
+      "status": "stable"
+    },
+    {
+      "domain": "comments",
+      "id": "01KJ44CT90TACT5K15BYFV2H07",
+      "last_verified": "2026-02-23",
+      "name": "system_calculates_comment_quality_score",
+      "path": "docs/specres/comments/comments_scoring/system_calculates_comment_quality_score.md",
+      "status": "stable"
+    },
+    {
+      "domain": "comments",
+      "id": "01KJ44ESWEHQ6F18H90M3CCGNA",
+      "last_verified": "2026-02-23",
+      "name": "system_awards_beloved_comment_badge",
+      "path": "docs/specres/comments/comments_scoring/system_awards_beloved_comment_badge.md",
+      "status": "stable"
+    },
+    {
+      "domain": "comments",
+      "id": "01KJ44GE4DQCP13GD0ENDND135",
+      "last_verified": "2026-02-23",
+      "name": "system_reports_community_comment_wellness",
+      "path": "docs/specres/comments/comments_scoring/system_reports_community_comment_wellness.md",
       "status": "stable"
     }
   ],

@@ -1,3 +1,4 @@
+# @specre 01KJ44CT90TACT5K15BYFV2H07
 module Comments
   class CalculateScore
     def self.call(...)
