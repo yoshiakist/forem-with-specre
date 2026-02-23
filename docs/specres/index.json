@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-23T01:31:39Z",
+  "generated_at": "2026-02-23T01:36:47Z",
   "source_refs": [
     {
       "file": "app/assets/javascripts/initializers/initializeAllTagEditButtons.js",
@@ -184,7 +184,7 @@
     {
       "file": "app/controllers/admin/subforems_controller.rb",
       "line": 1,
-      "specre_id": "01KHY7Q13CTARYM9F87K21A5Z5"
+      "specre_id": "01KJ4279EDX2T7YVR1AK1GV1W7"
     },
     {
       "file": "app/controllers/admin/surveys_controller.rb",
@@ -3279,27 +3279,27 @@
     {
       "file": "app/views/admin/subforems/_form.html.erb",
       "line": 1,
-      "specre_id": "01KHY7Q13CTARYM9F87K21A5Z5"
+      "specre_id": "01KJ4279EDX2T7YVR1AK1GV1W7"
     },
     {
       "file": "app/views/admin/subforems/edit.html.erb",
       "line": 1,
-      "specre_id": "01KHY7Q13CTARYM9F87K21A5Z5"
+      "specre_id": "01KJ4279EDX2T7YVR1AK1GV1W7"
     },
     {
       "file": "app/views/admin/subforems/index.html.erb",
       "line": 1,
-      "specre_id": "01KHY7Q13CTARYM9F87K21A5Z5"
+      "specre_id": "01KJ4279EDX2T7YVR1AK1GV1W7"
     },
     {
       "file": "app/views/admin/subforems/new.html.erb",
       "line": 1,
-      "specre_id": "01KHY7Q13CTARYM9F87K21A5Z5"
+      "specre_id": "01KJ4279EDX2T7YVR1AK1GV1W7"
     },
     {
       "file": "app/views/admin/subforems/show.html.erb",
       "line": 1,
-      "specre_id": "01KHY7Q13CTARYM9F87K21A5Z5"
+      "specre_id": "01KJ4279EDX2T7YVR1AK1GV1W7"
     },
     {
       "file": "app/views/admin/surveys/_form.html.erb",
@@ -5894,7 +5894,7 @@
     {
       "file": "spec/requests/admin/subforems_spec.rb",
       "line": 1,
-      "specre_id": "01KHY7Q13CTARYM9F87K21A5Z5"
+      "specre_id": "01KJ4279EDX2T7YVR1AK1GV1W7"
     },
     {
       "file": "spec/requests/admin/surveys_spec.rb",
@@ -9388,6 +9388,14 @@
       "last_verified": "2026-02-23",
       "name": "user_can_discover_tags",
       "path": "docs/specres/tags/user_can_discover_tags.md",
+      "status": "stable"
+    },
+    {
+      "domain": "subforems",
+      "id": "01KJ4279EDX2T7YVR1AK1GV1W7",
+      "last_verified": "2026-02-23",
+      "name": "admin_can_manage_subforems_via_dashboard",
+      "path": "docs/specres/subforems/admin_can_manage_subforems_via_dashboard.md",
       "status": "stable"
     }
   ],

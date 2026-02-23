@@ -16,3 +16,4 @@
 | [system_notifies_user_of_subforem_change](system_notifies_user_of_subforem_change.md) | draft | - |
 | [system_creates_subforem_from_scratch](system_creates_subforem_from_scratch.md) | stable | 2026-02-21 |
 | [system_exposes_subforems_via_api](system_exposes_subforems_via_api.md) | stable | 2026-02-21 |
+| [admin_can_manage_subforems_via_dashboard](admin_can_manage_subforems_via_dashboard.md) | stable | 2026-02-23 |
