@@ -1,3 +1,8 @@
+# @specre 01KJ6D7VWP7N96ZSZAAXZQ2ZB2
+# @specre 01KJ6D7FQ3E8XSXDJQS2EYZTJ8
+# @specre 01KJ6D5ARD28YYPJ5J3T4XPXDS
+# @specre 01KJ6D4S5MFQG4KCF9VYGRYZW4
+# @specre 01KJ6D3VR5PTRXZFBE5SVTSYM1
 module Admin
   class BroadcastsController < Admin::ApplicationController
     layout "admin"

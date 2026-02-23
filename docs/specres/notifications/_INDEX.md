@@ -18,3 +18,4 @@
 | [system_delivers_push_notifications](system_delivers_push_notifications.md) | stable | 2026-02-22 |
 | [system_audits_notification_events](system_audits_notification_events.md) | stable | 2026-02-22 |
 | [system_records_daily_notification_metrics](system_records_daily_notification_metrics.md) | stable | 2026-02-22 |
+| [user_can_view_broadcast_notification](user_can_view_broadcast_notification.md) | draft | - |

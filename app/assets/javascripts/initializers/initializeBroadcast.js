@@ -1,3 +1,4 @@
+// @specre 01KJ6DVV4TY3RHBN045KGH5ZXY
 /* eslint-disable camelcase */
 /**
  * Parses the broadcast object on the document into JSON.
