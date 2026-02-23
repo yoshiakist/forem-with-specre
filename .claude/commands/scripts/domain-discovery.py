@@ -17,6 +17,7 @@ Examples:
     python3 .claude/commands/scripts/domain-discovery.py github_repo --max-rounds 1
     python3 .claude/commands/scripts/domain-discovery.py comment --untagged-only
     python3 .claude/commands/scripts/domain-discovery.py comment --json --exclude comments_admin comments_moderation comments_scoring
+    python3 .claude/commands/scripts/domain-discovery.py comment --json --max-stage 1
 """
 
 from __future__ import annotations
@@ -1028,6 +1029,10 @@ def main() -> None:
         "--exclude", nargs="+", default=[], metavar="KEYWORD",
         help="Exclude files matching these sub-domain keywords (e.g., --exclude comments_admin comments_scoring)",
     )
+    parser.add_argument(
+        "--max-stage", type=int, default=3, choices=[1, 2, 3],
+        help="Maximum discovery stage to run (1=convention only, 2=+refs, 3=+transitive; default: 3)",
+    )
     args = parser.parse_args()
 
     project_root = os.path.abspath(args.root)
@@ -1082,28 +1087,29 @@ def main() -> None:
     result.seed_class_names = seed_classes
 
     # Stage 2: Reference tracing
-    tracer = ReferenceTracer(
-        project_root, config["source_dirs"], set(config["ext"]), jsconfig_aliases
-    )
-    stage2_files = tracer.trace(
-        seed_class_names=result.seed_class_names,
-        seed_files=stage1_files,
-        all_discovered=result.files,
-    )
-    # Filter out excluded files from Stage 2
-    if exclude_variants:
-        stage2_files = {p: df for p, df in stage2_files.items() if not _matches_exclude(p)}
-    result.files.update(stage2_files)
-
-    # Stage 3: Transitive expansion
-    if args.max_rounds > 0:
-        expander = TransitiveExpander(tracer, args.max_rounds)
-        expander.expand(result)
-        # Filter out excluded files from Stage 3
+    if args.max_stage >= 2:
+        tracer = ReferenceTracer(
+            project_root, config["source_dirs"], set(config["ext"]), jsconfig_aliases
+        )
+        stage2_files = tracer.trace(
+            seed_class_names=result.seed_class_names,
+            seed_files=stage1_files,
+            all_discovered=result.files,
+        )
+        # Filter out excluded files from Stage 2
         if exclude_variants:
-            to_remove = [p for p in result.files if result.files[p].stage == 3 and _matches_exclude(p)]
-            for p in to_remove:
-                del result.files[p]
+            stage2_files = {p: df for p, df in stage2_files.items() if not _matches_exclude(p)}
+        result.files.update(stage2_files)
+
+        # Stage 3: Transitive expansion
+        if args.max_stage >= 3 and args.max_rounds > 0:
+            expander = TransitiveExpander(tracer, args.max_rounds)
+            expander.expand(result)
+            # Filter out excluded files from Stage 3
+            if exclude_variants:
+                to_remove = [p for p in result.files if result.files[p].stage == 3 and _matches_exclude(p)]
+                for p in to_remove:
+                    del result.files[p]
 
     # Stage 4: Tag check
     TagChecker.check(project_root, result.files)

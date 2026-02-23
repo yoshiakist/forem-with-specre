@@ -26,6 +26,14 @@ Your goal: create specre specification cards for source files that currently lac
    ```
    The `--exclude` option filters files using two strategies: (1) substring match of exclude keyword variants in file paths, and (2) for compound keywords like `comments_admin`, an all-parts match where ALL underscore-separated parts must appear in the file path. This also prevents excluded files from contributing seed classes or being discovered via transitive expansion.
 
+   To limit discovery depth (useful for large domains where cross-domain reference tracing pulls in too many files), add `--max-stage`:
+   ```bash
+   python3 .claude/commands/scripts/domain-discovery.py <domain_keyword> --json --root . --max-stage 1
+   ```
+   - `--max-stage 1`: Convention-based glob only (files with the domain keyword in their name/path). Best for core domain processing — Stage 2/3 cross-domain files belong to their own domains.
+   - `--max-stage 2`: Convention glob + reference tracing (adds files that reference domain model classes).
+   - `--max-stage 3`: Full pipeline including transitive expansion (default).
+
    This performs a 4-stage discovery pipeline:
    - **Stage 1 — Convention glob:** Finds files matching the domain keyword across all Rails layers (models, controllers, services, workers, views, etc.) and JS modules (including pack entry points and Stimulus controllers).
    - **Stage 2 — Reference tracing:** Greps for Ruby class names extracted from domain models across the entire codebase. Also traces JS import chains and ERB↔JS bridges (`javascript_include_tag`, `data-controller`, `fetch()` URLs).
