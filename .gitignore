@@ -128,3 +128,8 @@ doc/
 /app/assets/builds/*
 !/app/assets/builds/.keep
 .qodo
+
+# cocoindex
+.venv-cocoindex/
+.venv/
+.env.cocoindex
