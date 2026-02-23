@@ -1,3 +1,6 @@
+# @specre 01KJ6EPTF1F31WB6DRV0YHEZ0N
+# @specre 01KJ6EHMAWTR3NAEGM1TB30FPJ
+# @specre 01KJ6EH2F7D1Q61H1A07JXRE38
 require "rails_helper"
 
 RSpec.describe Billboard do

@@ -1,3 +1,4 @@
+# @specre 01KJ6E7W8QWARD67FEGBQWTH1T
 require "rails_helper"
 
 RSpec.describe BillboardEventsController, type: :controller do

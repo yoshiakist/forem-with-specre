@@ -1,3 +1,4 @@
+// @specre 01KJ6EHXR03NS5G0NZKDKT0CA0
 import { setupBillboardInteractivity } from '../utilities/billboardInteractivity';
 import {
   observeBillboards,

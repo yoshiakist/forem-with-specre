@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-02-23T23:38:43Z",
+  "generated_at": "2026-02-23T23:54:09Z",
   "source_refs": [
     {
       "file": "app/assets/javascripts/initializers/initializeAllTagEditButtons.js",
       "line": 1,
       "specre_id": "01KJ41RETE70D2JDJEGS0STSGM"
+    },
+    {
+      "file": "app/assets/javascripts/initializers/initializeBillboardVisibility.js",
+      "line": 1,
+      "specre_id": "01KJ6EHXR03NS5G0NZKDKT0CA0"
     },
     {
       "file": "app/assets/javascripts/initializers/initializeBroadcast.js",
@@ -45,6 +50,36 @@
       "file": "app/assets/stylesheets/settings.scss",
       "line": 1,
       "specre_id": "01KHZ3R448RA411ZP1V33AX5MR"
+    },
+    {
+      "file": "app/controllers/admin/billboard_placement_area_configs_controller.rb",
+      "line": 1,
+      "specre_id": "01KJ6E7GAHP8M3SQND6QQNEDED"
+    },
+    {
+      "file": "app/controllers/admin/billboards_controller.rb",
+      "line": 1,
+      "specre_id": "01KJ6EHMAWTR3NAEGM1TB30FPJ"
+    },
+    {
+      "file": "app/controllers/admin/billboards_controller.rb",
+      "line": 2,
+      "specre_id": "01KJ6EH2F7D1Q61H1A07JXRE38"
+    },
+    {
+      "file": "app/controllers/admin/billboards_controller.rb",
+      "line": 3,
+      "specre_id": "01KJ6EE55AAZWW43YVSXTJ4K72"
+    },
+    {
+      "file": "app/controllers/admin/billboards_controller.rb",
+      "line": 4,
+      "specre_id": "01KJ6EDVX9WX34H0RYPAW57BXR"
+    },
+    {
+      "file": "app/controllers/admin/billboards_controller.rb",
+      "line": 5,
+      "specre_id": "01KJ6EAKT3P7HHWCZZXHQ6N8MV"
     },
     {
       "file": "app/controllers/admin/broadcasts_controller.rb",
@@ -312,6 +347,11 @@
       "specre_id": "01KJ41E1Q931QJ3XZVWRJJ1PJX"
     },
     {
+      "file": "app/controllers/api/v1/billboards_controller.rb",
+      "line": 1,
+      "specre_id": "01KJ6ENW07FQQ98KJJYN37BF5W"
+    },
+    {
       "file": "app/controllers/api/v1/comments_controller.rb",
       "line": 1,
       "specre_id": "01KJ5DK8KFA45BXJWFAD1VNYMS"
@@ -365,6 +405,16 @@
       "file": "app/controllers/api/v1/tags_controller.rb",
       "line": 1,
       "specre_id": "01KJ41E1Q931QJ3XZVWRJJ1PJX"
+    },
+    {
+      "file": "app/controllers/billboard_events_controller.rb",
+      "line": 1,
+      "specre_id": "01KJ6E7W8QWARD67FEGBQWTH1T"
+    },
+    {
+      "file": "app/controllers/billboards_controller.rb",
+      "line": 1,
+      "specre_id": "01KJ6EPTF1F31WB6DRV0YHEZ0N"
     },
     {
       "file": "app/controllers/collections_controller.rb",
@@ -807,6 +857,21 @@
       "specre_id": "01KHZ3R448RA411ZP1V33AX5MR"
     },
     {
+      "file": "app/helpers/billboard_helper.rb",
+      "line": 1,
+      "specre_id": "01KJ6EHMAWTR3NAEGM1TB30FPJ"
+    },
+    {
+      "file": "app/helpers/billboard_helper.rb",
+      "line": 2,
+      "specre_id": "01KJ6EH2F7D1Q61H1A07JXRE38"
+    },
+    {
+      "file": "app/helpers/billboard_helper.rb",
+      "line": 3,
+      "specre_id": "01KJ6E7PRKSFS5KXNECTT1W0C3"
+    },
+    {
       "file": "app/helpers/broadcasts_helper.rb",
       "line": 1,
       "specre_id": "01KJ6DW7GBQ5XAQKBV7MCPS2FA"
@@ -920,6 +985,11 @@
       "file": "app/javascript/Search/index.js",
       "line": 1,
       "specre_id": "01KHZ22E63WBQWYFZNQVEA2EEE"
+    },
+    {
+      "file": "app/javascript/__tests__/billboard.test.js",
+      "line": 1,
+      "specre_id": "01KJ6EHXR03NS5G0NZKDKT0CA0"
     },
     {
       "file": "app/javascript/actionsPanel/actionsPanel.js",
@@ -1085,6 +1155,36 @@
       "file": "app/javascript/articles/index.js",
       "line": 1,
       "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
+    },
+    {
+      "file": "app/javascript/billboard/locations/index.jsx",
+      "line": 1,
+      "specre_id": "01KJ6EHMAWTR3NAEGM1TB30FPJ"
+    },
+    {
+      "file": "app/javascript/billboard/locations/index.jsx",
+      "line": 2,
+      "specre_id": "01KJ6EH2F7D1Q61H1A07JXRE38"
+    },
+    {
+      "file": "app/javascript/billboard/locations/templates.jsx",
+      "line": 1,
+      "specre_id": "01KJ6EHMAWTR3NAEGM1TB30FPJ"
+    },
+    {
+      "file": "app/javascript/billboard/locations/templates.jsx",
+      "line": 2,
+      "specre_id": "01KJ6EH2F7D1Q61H1A07JXRE38"
+    },
+    {
+      "file": "app/javascript/billboard/tags.jsx",
+      "line": 1,
+      "specre_id": "01KJ6EHMAWTR3NAEGM1TB30FPJ"
+    },
+    {
+      "file": "app/javascript/billboard/tags.jsx",
+      "line": 2,
+      "specre_id": "01KJ6EH2F7D1Q61H1A07JXRE38"
     },
     {
       "file": "app/javascript/controllers/subforem_image_upload_controller.js",
@@ -1262,6 +1362,21 @@
       "specre_id": "01KJ16Z3Y34HEH2GSWHHXW3NAM"
     },
     {
+      "file": "app/javascript/packs/admin/billboardEnabledCountries.jsx",
+      "line": 1,
+      "specre_id": "01KJ6EHMAWTR3NAEGM1TB30FPJ"
+    },
+    {
+      "file": "app/javascript/packs/admin/billboardEnabledCountries.jsx",
+      "line": 2,
+      "specre_id": "01KJ6EH2F7D1Q61H1A07JXRE38"
+    },
+    {
+      "file": "app/javascript/packs/admin/billboards.jsx",
+      "line": 1,
+      "specre_id": "01KJ6EAKT3P7HHWCZZXHQ6N8MV"
+    },
+    {
       "file": "app/javascript/packs/admin/organizations.jsx",
       "line": 1,
       "specre_id": "01KJ02MNP5AREF4M1SM48V0ED6"
@@ -1280,6 +1395,16 @@
       "file": "app/javascript/packs/articleReactions.js",
       "line": 1,
       "specre_id": "01KHZ55SRCPDHPWM0EYSTE60MK"
+    },
+    {
+      "file": "app/javascript/packs/billboard.js",
+      "line": 1,
+      "specre_id": "01KJ6EHXR03NS5G0NZKDKT0CA0"
+    },
+    {
+      "file": "app/javascript/packs/billboardAfterRenderActions.js",
+      "line": 1,
+      "specre_id": "01KJ6EHXR03NS5G0NZKDKT0CA0"
     },
     {
       "file": "app/javascript/packs/commentModPage.js",
@@ -1562,6 +1687,11 @@
       "specre_id": "01KJ1X6T9VWS64SM9K5V94FGEH"
     },
     {
+      "file": "app/javascript/utilities/__tests__/billboardInteractivity.test.js",
+      "line": 1,
+      "specre_id": "01KJ6EHXR03NS5G0NZKDKT0CA0"
+    },
+    {
       "file": "app/javascript/utilities/__tests__/moderation.test.js",
       "line": 1,
       "specre_id": "01KJ16Z3Y34HEH2GSWHHXW3NAM"
@@ -1570,6 +1700,11 @@
       "file": "app/javascript/utilities/__tests__/search.test.js",
       "line": 1,
       "specre_id": "01KHZ22E63WBQWYFZNQVEA2EEE"
+    },
+    {
+      "file": "app/javascript/utilities/billboardInteractivity.jsx",
+      "line": 1,
+      "specre_id": "01KJ6EHXR03NS5G0NZKDKT0CA0"
     },
     {
       "file": "app/javascript/utilities/moderation.js",
@@ -2010,6 +2145,66 @@
       "file": "app/models/articles/feeds/variant_assembler.rb",
       "line": 1,
       "specre_id": "01KJ246P62P50ED5YJNGJ50J3J"
+    },
+    {
+      "file": "app/models/billboard.rb",
+      "line": 1,
+      "specre_id": "01KJ6EPTF1F31WB6DRV0YHEZ0N"
+    },
+    {
+      "file": "app/models/billboard.rb",
+      "line": 2,
+      "specre_id": "01KJ6ENW07FQQ98KJJYN37BF5W"
+    },
+    {
+      "file": "app/models/billboard.rb",
+      "line": 3,
+      "specre_id": "01KJ6EHMAWTR3NAEGM1TB30FPJ"
+    },
+    {
+      "file": "app/models/billboard.rb",
+      "line": 4,
+      "specre_id": "01KJ6EH2F7D1Q61H1A07JXRE38"
+    },
+    {
+      "file": "app/models/billboard.rb",
+      "line": 5,
+      "specre_id": "01KJ6EE55AAZWW43YVSXTJ4K72"
+    },
+    {
+      "file": "app/models/billboard.rb",
+      "line": 6,
+      "specre_id": "01KJ6EAVZ4S2WVA6ZG0R9DPDZS"
+    },
+    {
+      "file": "app/models/billboard.rb",
+      "line": 7,
+      "specre_id": "01KJ6EAKT3P7HHWCZZXHQ6N8MV"
+    },
+    {
+      "file": "app/models/billboard_event.rb",
+      "line": 1,
+      "specre_id": "01KJ6EE9EXCHR36PGTH6Y1239R"
+    },
+    {
+      "file": "app/models/billboard_event.rb",
+      "line": 2,
+      "specre_id": "01KJ6EB6TC32BW8DSXN5DVWY9M"
+    },
+    {
+      "file": "app/models/billboard_event.rb",
+      "line": 3,
+      "specre_id": "01KJ6E7W8QWARD67FEGBQWTH1T"
+    },
+    {
+      "file": "app/models/billboard_placement_area_config.rb",
+      "line": 1,
+      "specre_id": "01KJ6EPTF1F31WB6DRV0YHEZ0N"
+    },
+    {
+      "file": "app/models/billboard_placement_area_config.rb",
+      "line": 2,
+      "specre_id": "01KJ6E7GAHP8M3SQND6QQNEDED"
     },
     {
       "file": "app/models/broadcast.rb",
@@ -2572,6 +2767,11 @@
       "specre_id": "01KJ41WHZ0KRBSTTD55T6WPTM6"
     },
     {
+      "file": "app/queries/billboards/filtered_ads_query.rb",
+      "line": 1,
+      "specre_id": "01KJ6E7PRKSFS5KXNECTT1W0C3"
+    },
+    {
       "file": "app/queries/comments/community_wellness_query.rb",
       "line": 1,
       "specre_id": "01KJ44GE4DQCP13GD0ENDND135"
@@ -2780,6 +2980,11 @@
       "file": "app/services/badges/award_tag.rb",
       "line": 1,
       "specre_id": "01KJ41JP9GAVXCTXZZXZ1NPNP8"
+    },
+    {
+      "file": "app/services/billboard_event_rollup.rb",
+      "line": 1,
+      "specre_id": "01KJ6EB6TC32BW8DSXN5DVWY9M"
     },
     {
       "file": "app/services/broadcasts/welcome_notification/generator.rb",
@@ -5112,6 +5317,21 @@
       "specre_id": "01KJ15S0NS9P24NVVX050NB1S1"
     },
     {
+      "file": "app/workers/billboard_event_rollup_worker.rb",
+      "line": 1,
+      "specre_id": "01KJ6EB6TC32BW8DSXN5DVWY9M"
+    },
+    {
+      "file": "app/workers/billboards/data_update_worker.rb",
+      "line": 1,
+      "specre_id": "01KJ6EAVZ4S2WVA6ZG0R9DPDZS"
+    },
+    {
+      "file": "app/workers/billboards/track_email_click_worker.rb",
+      "line": 1,
+      "specre_id": "01KJ6EE9EXCHR36PGTH6Y1239R"
+    },
+    {
       "file": "app/workers/broadcasts/send_welcome_notifications_worker.rb",
       "line": 1,
       "specre_id": "01KJ15YPZ52QH5K5R1MVAYRQ0F"
@@ -5427,6 +5647,16 @@
       "specre_id": "01KHZ6M3H0WPQNH4GKB6YPAR1T"
     },
     {
+      "file": "spec/controllers/admin/billboard_placement_area_configs_controller_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ6E7GAHP8M3SQND6QQNEDED"
+    },
+    {
+      "file": "spec/controllers/billboard_events_controller_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ6E7W8QWARD67FEGBQWTH1T"
+    },
+    {
       "file": "spec/controllers/surveys_controller_spec.rb",
       "line": 1,
       "specre_id": "01KHZKDENF1FEDNJQD6XXKWAKZ"
@@ -5600,6 +5830,11 @@
       "file": "spec/helpers/admin/organizations_helper_spec.rb",
       "line": 1,
       "specre_id": "01KJ02MNP5AREF4M1SM48V0ED6"
+    },
+    {
+      "file": "spec/helpers/billboard_helper_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ6E7PRKSFS5KXNECTT1W0C3"
     },
     {
       "file": "spec/helpers/comments_helper_spec.rb",
@@ -5992,6 +6227,36 @@
       "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
     },
     {
+      "file": "spec/models/billboard_event_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ6E7W8QWARD67FEGBQWTH1T"
+    },
+    {
+      "file": "spec/models/billboard_placement_area_config_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ6EPTF1F31WB6DRV0YHEZ0N"
+    },
+    {
+      "file": "spec/models/billboard_placement_area_config_spec.rb",
+      "line": 2,
+      "specre_id": "01KJ6E7GAHP8M3SQND6QQNEDED"
+    },
+    {
+      "file": "spec/models/billboard_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ6EPTF1F31WB6DRV0YHEZ0N"
+    },
+    {
+      "file": "spec/models/billboard_spec.rb",
+      "line": 2,
+      "specre_id": "01KJ6EHMAWTR3NAEGM1TB30FPJ"
+    },
+    {
+      "file": "spec/models/billboard_spec.rb",
+      "line": 3,
+      "specre_id": "01KJ6EH2F7D1Q61H1A07JXRE38"
+    },
+    {
       "file": "spec/models/billboard_survey_exclusion_spec.rb",
       "line": 1,
       "specre_id": "01KJ2HPF2KC2HBFRV0NS32DFR7"
@@ -6292,6 +6557,11 @@
       "specre_id": "01KJ41WHZ0KRBSTTD55T6WPTM6"
     },
     {
+      "file": "spec/queries/billboards/filtered_ads_query_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ6E7PRKSFS5KXNECTT1W0C3"
+    },
+    {
       "file": "spec/queries/comments/community_wellness_query_spec.rb",
       "line": 1,
       "specre_id": "01KJ44GE4DQCP13GD0ENDND135"
@@ -6330,6 +6600,31 @@
       "file": "spec/queries/tags/suggested_for_onboarding_spec.rb",
       "line": 1,
       "specre_id": "01KJ1XAVJ8QCYY0G6ETZ9GF5K2"
+    },
+    {
+      "file": "spec/requests/admin/billboards_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ6EHMAWTR3NAEGM1TB30FPJ"
+    },
+    {
+      "file": "spec/requests/admin/billboards_spec.rb",
+      "line": 2,
+      "specre_id": "01KJ6EH2F7D1Q61H1A07JXRE38"
+    },
+    {
+      "file": "spec/requests/admin/billboards_spec.rb",
+      "line": 3,
+      "specre_id": "01KJ6EE55AAZWW43YVSXTJ4K72"
+    },
+    {
+      "file": "spec/requests/admin/billboards_spec.rb",
+      "line": 4,
+      "specre_id": "01KJ6EDVX9WX34H0RYPAW57BXR"
+    },
+    {
+      "file": "spec/requests/admin/billboards_spec.rb",
+      "line": 5,
+      "specre_id": "01KJ6EAKT3P7HHWCZZXHQ6N8MV"
     },
     {
       "file": "spec/requests/admin/broadcasts_spec.rb",
@@ -6557,9 +6852,19 @@
       "specre_id": "01KJ41E1Q931QJ3XZVWRJJ1PJX"
     },
     {
+      "file": "spec/requests/api/v1/billboards_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ6ENW07FQQ98KJJYN37BF5W"
+    },
+    {
       "file": "spec/requests/api/v1/comments_spec.rb",
       "line": 1,
       "specre_id": "01KJ5DK8KFA45BXJWFAD1VNYMS"
+    },
+    {
+      "file": "spec/requests/api/v1/docs/billboards_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ6ENW07FQQ98KJJYN37BF5W"
     },
     {
       "file": "spec/requests/api/v1/docs/comments_spec.rb",
@@ -6665,6 +6970,16 @@
       "file": "spec/requests/articles/articles_feed_spec.rb",
       "line": 1,
       "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
+    },
+    {
+      "file": "spec/requests/billboard_events_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ6E7W8QWARD67FEGBQWTH1T"
+    },
+    {
+      "file": "spec/requests/billboards_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ6EPTF1F31WB6DRV0YHEZ0N"
     },
     {
       "file": "spec/requests/collections_spec.rb",
@@ -7155,6 +7470,11 @@
       "file": "spec/services/badges/award_tag_spec.rb",
       "line": 1,
       "specre_id": "01KJ41JP9GAVXCTXZZXZ1NPNP8"
+    },
+    {
+      "file": "spec/services/billboard_event_rollup_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ6EB6TC32BW8DSXN5DVWY9M"
     },
     {
       "file": "spec/services/broadcasts/welcome_notification/generator_spec.rb",
@@ -7797,6 +8117,11 @@
       "specre_id": "01KHZ6GG5GD766PRZK1SE50KMG"
     },
     {
+      "file": "spec/views/admin/billboards/new_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ6EH2F7D1Q61H1A07JXRE38"
+    },
+    {
       "file": "spec/views/comments/_comment.html.erb_spec.rb",
       "line": 1,
       "specre_id": "01KJ5DQT35P394JJVCSC077ZX5"
@@ -7835,6 +8160,16 @@
       "file": "spec/workers/badge_achievements/send_email_notification_worker_spec.rb",
       "line": 1,
       "specre_id": "01KJ15S0NS9P24NVVX050NB1S1"
+    },
+    {
+      "file": "spec/workers/billboard_event_rollup_worker_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ6EB6TC32BW8DSXN5DVWY9M"
+    },
+    {
+      "file": "spec/workers/billboards/data_update_worker_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ6EAVZ4S2WVA6ZG0R9DPDZS"
     },
     {
       "file": "spec/workers/broadcasts/send_welcome_notifications_worker_spec.rb",
@@ -10330,6 +10665,118 @@
       "name": "user_can_view_broadcast_notification",
       "path": "docs/specres/notifications/user_can_view_broadcast_notification.md",
       "status": "draft"
+    },
+    {
+      "domain": "billboards",
+      "id": "01KJ6E7GAHP8M3SQND6QQNEDED",
+      "last_verified": "2026-02-24",
+      "name": "admin_can_configure_placement_area",
+      "path": "docs/specres/billboards/admin_can_configure_placement_area.md",
+      "status": "stable"
+    },
+    {
+      "domain": "billboards",
+      "id": "01KJ6E7PRKSFS5KXNECTT1W0C3",
+      "last_verified": "2026-02-24",
+      "name": "system_filters_billboards_for_display",
+      "path": "docs/specres/billboards/system_filters_billboards_for_display.md",
+      "status": "stable"
+    },
+    {
+      "domain": "billboards",
+      "id": "01KJ6E7W8QWARD67FEGBQWTH1T",
+      "last_verified": "2026-02-24",
+      "name": "system_tracks_billboard_events",
+      "path": "docs/specres/billboards/system_tracks_billboard_events.md",
+      "status": "stable"
+    },
+    {
+      "domain": "billboards",
+      "id": "01KJ6EAKT3P7HHWCZZXHQ6N8MV",
+      "last_verified": null,
+      "name": "admin_can_list_and_search_billboards",
+      "path": "docs/specres/billboards/admin_can_list_and_search_billboards.md",
+      "status": "draft"
+    },
+    {
+      "domain": "billboards",
+      "id": "01KJ6EAVZ4S2WVA6ZG0R9DPDZS",
+      "last_verified": "2026-02-24",
+      "name": "system_updates_billboard_performance_stats",
+      "path": "docs/specres/billboards/system_updates_billboard_performance_stats.md",
+      "status": "stable"
+    },
+    {
+      "domain": "billboards",
+      "id": "01KJ6EB6TC32BW8DSXN5DVWY9M",
+      "last_verified": "2026-02-24",
+      "name": "system_rolls_up_billboard_events",
+      "path": "docs/specres/billboards/system_rolls_up_billboard_events.md",
+      "status": "stable"
+    },
+    {
+      "domain": "billboards",
+      "id": "01KJ6EDVX9WX34H0RYPAW57BXR",
+      "last_verified": "2026-02-24",
+      "name": "admin_can_view_billboard_details",
+      "path": "docs/specres/billboards/admin_can_view_billboard_details.md",
+      "status": "stable"
+    },
+    {
+      "domain": "billboards",
+      "id": "01KJ6EE55AAZWW43YVSXTJ4K72",
+      "last_verified": "2026-02-24",
+      "name": "admin_can_delete_billboard",
+      "path": "docs/specres/billboards/admin_can_delete_billboard.md",
+      "status": "stable"
+    },
+    {
+      "domain": "billboards",
+      "id": "01KJ6EE9EXCHR36PGTH6Y1239R",
+      "last_verified": null,
+      "name": "system_tracks_billboard_email_clicks",
+      "path": "docs/specres/billboards/system_tracks_billboard_email_clicks.md",
+      "status": "draft"
+    },
+    {
+      "domain": "billboards",
+      "id": "01KJ6EH2F7D1Q61H1A07JXRE38",
+      "last_verified": "2026-02-24",
+      "name": "admin_can_create_billboard",
+      "path": "docs/specres/billboards/admin_can_create_billboard.md",
+      "status": "stable"
+    },
+    {
+      "domain": "billboards",
+      "id": "01KJ6EHMAWTR3NAEGM1TB30FPJ",
+      "last_verified": "2026-02-24",
+      "name": "admin_can_edit_billboard",
+      "path": "docs/specres/billboards/admin_can_edit_billboard.md",
+      "status": "stable"
+    },
+    {
+      "domain": "billboards",
+      "id": "01KJ6EHXR03NS5G0NZKDKT0CA0",
+      "last_verified": "2026-02-24",
+      "name": "system_loads_billboard_asynchronously",
+      "path": "docs/specres/billboards/system_loads_billboard_asynchronously.md",
+      "status": "stable"
+    },
+    {
+      "domain": "billboards",
+      "id": "01KJ6ENW07FQQ98KJJYN37BF5W",
+      "last_verified": "2026-02-24",
+      "name": "api_client_can_operate_billboards",
+      "path": "docs/specres/billboards/api_client_can_operate_billboards.md",
+      "status": "stable"
+    },
+    {
+      "domain": "billboards",
+      "id": "01KJ6EPTF1F31WB6DRV0YHEZ0N",
+      "last_verified": "2026-02-24",
+      "name": "visitor_sees_targeted_billboard",
+      "path": "docs/specres/billboards/visitor_sees_targeted_billboard.md",
+      "status": "stable"
     }
   ],
   "version": 1

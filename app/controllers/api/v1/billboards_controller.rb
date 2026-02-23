@@ -1,3 +1,4 @@
+# @specre 01KJ6ENW07FQQ98KJJYN37BF5W
 module Api
   module V1
     class BillboardsController < ApiController

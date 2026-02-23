@@ -1,3 +1,4 @@
+# @specre 01KJ6EAVZ4S2WVA6ZG0R9DPDZS
 # app/workers/billboards/data_update_worker.rb
 module Billboards
   class DataUpdateWorker

@@ -1,3 +1,4 @@
+# @specre 01KJ6EAVZ4S2WVA6ZG0R9DPDZS
 # spec/workers/billboards/data_update_worker_spec.rb
 require "rails_helper"
 

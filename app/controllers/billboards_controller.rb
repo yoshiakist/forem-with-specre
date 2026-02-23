@@ -1,3 +1,4 @@
+# @specre 01KJ6EPTF1F31WB6DRV0YHEZ0N
 class BillboardsController < ApplicationController
   before_action :set_cache_control_headers, only: %i[show], unless: -> { current_user }
   include BillboardHelper

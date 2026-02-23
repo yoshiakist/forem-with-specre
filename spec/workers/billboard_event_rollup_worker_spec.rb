@@ -1,3 +1,4 @@
+# @specre 01KJ6EB6TC32BW8DSXN5DVWY9M
 require "rails_helper"
 
 RSpec.describe BillboardEventRollupWorker, type: :worker do

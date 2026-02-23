@@ -1,3 +1,4 @@
+# @specre 01KJ6E7W8QWARD67FEGBQWTH1T
 # spec/requests/billboard_events_spec.rb
 require "rails_helper"
 

@@ -1,3 +1,4 @@
+# @specre 01KJ6E7PRKSFS5KXNECTT1W0C3
 require "rails_helper"
 
 RSpec.describe Billboards::FilteredAdsQuery, type: :query do
