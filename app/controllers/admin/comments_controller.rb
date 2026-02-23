@@ -1,3 +1,4 @@
+# @specre 01KJ43VPQ39TQMBTTNBVQRBZQW
 module Admin
   class CommentsController < Admin::ApplicationController
     around_action :skip_bullet, if: -> { defined?(Bullet) }
