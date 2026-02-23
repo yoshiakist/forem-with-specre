@@ -1,3 +1,9 @@
+# @specre 01KJ5E2R9YYMDP0Q8147BK9704
+# @specre 01KJ5E25AA2Q7QPV35S0JZBJS2
+# @specre 01KJ5DY1ASV3RY7Q7C930XDMBQ
+# @specre 01KJ5DZ0J6MPMBE92886V9ZXXZ
+# @specre 01KJ5DYNF9N28R72J7M5FT4KVZ
+# @specre 01KJ5DR9SK7NZF4GCYBZD5RM92
 # @specre 01KJ1ARF08DVRQE65SWASWAFWJ
 class CommentsController < ApplicationController
   before_action :set_comment, only: %i[update destroy]

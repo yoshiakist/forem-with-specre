@@ -1,3 +1,4 @@
+# @specre 01KJ5DKHGNERDZH7ABTB9SE6E2
 module Comments
   class BustCacheWorker < BustCacheBaseWorker
     def perform(comment_id)

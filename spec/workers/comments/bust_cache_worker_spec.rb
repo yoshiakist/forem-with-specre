@@ -1,3 +1,4 @@
+# @specre 01KJ5DKHGNERDZH7ABTB9SE6E2
 require "rails_helper"
 
 RSpec.describe Comments::BustCacheWorker, type: :worker do

@@ -1,3 +1,4 @@
+<%# @specre 01KJ5DQT35P394JJVCSC077ZX5 %>
 <%= javascript_include_tag "postCommentsPage", defer: true %>
 <% if @root_comment.present? && !@root_comment.decorate.super_low_quality %>
   <% title(@root_comment.title.to_s) %>

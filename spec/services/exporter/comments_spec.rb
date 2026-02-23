@@ -1,3 +1,4 @@
+# @specre 01KJ5DKW47KSVWWH6R13NNG8EM
 require "rails_helper"
 
 RSpec.describe Exporter::Comments, type: :service do

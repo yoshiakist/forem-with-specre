@@ -11,6 +11,7 @@ last_verified: "2026-02-23"
 - `app/views/admin/comments/index.html.erb` (Template)
 - `app/views/admin/comments/show.html.erb` (Template)
 - `app/views/admin/comments/_comment.html.erb` (Template)
+- `app/views/admin/users/show/comments/_index.html.erb` (Template)
 - `spec/requests/admin/comments_spec.rb` (Test)
 
 ## Functional Overview

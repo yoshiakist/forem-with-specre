@@ -1,3 +1,4 @@
+# @specre 01KJ5DR9SK7NZF4GCYBZD5RM92
 RSpec.shared_examples "PATCH /comments/:comment_id/hide or unhide" do |args|
   let(:commentable_author) { create(:user) }
   let(:article) { create(:article, user: commentable_author) }

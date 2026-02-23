@@ -1,3 +1,4 @@
+# @specre 01KJ5DKW47KSVWWH6R13NNG8EM
 module Exporter
   class Comments
     attr_reader :name, :user

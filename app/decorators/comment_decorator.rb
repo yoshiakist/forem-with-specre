@@ -1,3 +1,4 @@
+# @specre 01KJ5DQT35P394JJVCSC077ZX5
 class CommentDecorator < ApplicationDecorator
   def low_quality
     score < Comment::LOW_QUALITY_THRESHOLD

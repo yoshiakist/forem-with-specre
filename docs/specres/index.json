@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-23T02:21:41Z",
+  "generated_at": "2026-02-23T14:31:06Z",
   "source_refs": [
     {
       "file": "app/assets/javascripts/initializers/initializeAllTagEditButtons.js",
@@ -242,6 +242,11 @@
       "specre_id": "01KJ24JR0FK5MWHWK01QF0434H"
     },
     {
+      "file": "app/controllers/api/v0/comments_controller.rb",
+      "line": 1,
+      "specre_id": "01KJ5DK8KFA45BXJWFAD1VNYMS"
+    },
+    {
       "file": "app/controllers/api/v0/followers_controller.rb",
       "line": 1,
       "specre_id": "01KJ1XA9ETJ0A7Y8MWW28NFSN8"
@@ -275,6 +280,11 @@
       "file": "app/controllers/api/v0/tags_controller.rb",
       "line": 1,
       "specre_id": "01KJ41E1Q931QJ3XZVWRJJ1PJX"
+    },
+    {
+      "file": "app/controllers/api/v1/comments_controller.rb",
+      "line": 1,
+      "specre_id": "01KJ5DK8KFA45BXJWFAD1VNYMS"
     },
     {
       "file": "app/controllers/api/v1/feedback_messages_controller.rb",
@@ -329,7 +339,42 @@
     {
       "file": "app/controllers/comments_controller.rb",
       "line": 1,
+      "specre_id": "01KJ5E2R9YYMDP0Q8147BK9704"
+    },
+    {
+      "file": "app/controllers/comments_controller.rb",
+      "line": 2,
+      "specre_id": "01KJ5E25AA2Q7QPV35S0JZBJS2"
+    },
+    {
+      "file": "app/controllers/comments_controller.rb",
+      "line": 3,
+      "specre_id": "01KJ5DY1ASV3RY7Q7C930XDMBQ"
+    },
+    {
+      "file": "app/controllers/comments_controller.rb",
+      "line": 4,
+      "specre_id": "01KJ5DZ0J6MPMBE92886V9ZXXZ"
+    },
+    {
+      "file": "app/controllers/comments_controller.rb",
+      "line": 5,
+      "specre_id": "01KJ5DYNF9N28R72J7M5FT4KVZ"
+    },
+    {
+      "file": "app/controllers/comments_controller.rb",
+      "line": 6,
+      "specre_id": "01KJ5DR9SK7NZF4GCYBZD5RM92"
+    },
+    {
+      "file": "app/controllers/comments_controller.rb",
+      "line": 7,
       "specre_id": "01KJ1ARF08DVRQE65SWASWAFWJ"
+    },
+    {
+      "file": "app/controllers/concerns/api/comments_controller.rb",
+      "line": 1,
+      "specre_id": "01KJ5DK8KFA45BXJWFAD1VNYMS"
     },
     {
       "file": "app/controllers/concerns/api/followers_controller.rb",
@@ -657,6 +702,11 @@
       "specre_id": "01KJ02HFZZ1BJN4RQBAP4QA41P"
     },
     {
+      "file": "app/decorators/comment_decorator.rb",
+      "line": 1,
+      "specre_id": "01KJ5DQT35P394JJVCSC077ZX5"
+    },
+    {
       "file": "app/decorators/mention_decorator.rb",
       "line": 1,
       "specre_id": "01KJ1ARF08DVRQE65SWASWAFWJ"
@@ -715,6 +765,11 @@
       "file": "app/helpers/admin/settings_helper.rb",
       "line": 1,
       "specre_id": "01KHZ3R448RA411ZP1V33AX5MR"
+    },
+    {
+      "file": "app/helpers/comments_helper.rb",
+      "line": 1,
+      "specre_id": "01KJ5DQT35P394JJVCSC077ZX5"
     },
     {
       "file": "app/helpers/feedback_messages_helper.rb",
@@ -1902,6 +1957,51 @@
       "specre_id": "01KJ246P62P50ED5YJNGJ50J3J"
     },
     {
+      "file": "app/models/comment.rb",
+      "line": 1,
+      "specre_id": "01KJ5E2R9YYMDP0Q8147BK9704"
+    },
+    {
+      "file": "app/models/comment.rb",
+      "line": 2,
+      "specre_id": "01KJ5E25AA2Q7QPV35S0JZBJS2"
+    },
+    {
+      "file": "app/models/comment.rb",
+      "line": 3,
+      "specre_id": "01KJ5DY1ASV3RY7Q7C930XDMBQ"
+    },
+    {
+      "file": "app/models/comment.rb",
+      "line": 4,
+      "specre_id": "01KJ5DZ0J6MPMBE92886V9ZXXZ"
+    },
+    {
+      "file": "app/models/comment.rb",
+      "line": 5,
+      "specre_id": "01KJ5DYNF9N28R72J7M5FT4KVZ"
+    },
+    {
+      "file": "app/models/comment.rb",
+      "line": 6,
+      "specre_id": "01KJ5DQT35P394JJVCSC077ZX5"
+    },
+    {
+      "file": "app/models/comment.rb",
+      "line": 7,
+      "specre_id": "01KJ5DR9SK7NZF4GCYBZD5RM92"
+    },
+    {
+      "file": "app/models/comment.rb",
+      "line": 8,
+      "specre_id": "01KJ5DK8KFA45BXJWFAD1VNYMS"
+    },
+    {
+      "file": "app/models/comment.rb",
+      "line": 9,
+      "specre_id": "01KJ5DKHGNERDZH7ABTB9SE6E2"
+    },
+    {
       "file": "app/models/concerns/algolia_searchable.rb",
       "line": 1,
       "specre_id": "01KHZ2B1BF232HFDSKGKHDSF6F"
@@ -2302,6 +2402,41 @@
       "specre_id": "01KJ1EZV154EB8MH5FS06CB6XT"
     },
     {
+      "file": "app/policies/comment_policy.rb",
+      "line": 1,
+      "specre_id": "01KJ5E2R9YYMDP0Q8147BK9704"
+    },
+    {
+      "file": "app/policies/comment_policy.rb",
+      "line": 2,
+      "specre_id": "01KJ5E25AA2Q7QPV35S0JZBJS2"
+    },
+    {
+      "file": "app/policies/comment_policy.rb",
+      "line": 3,
+      "specre_id": "01KJ5DY1ASV3RY7Q7C930XDMBQ"
+    },
+    {
+      "file": "app/policies/comment_policy.rb",
+      "line": 4,
+      "specre_id": "01KJ5DZ0J6MPMBE92886V9ZXXZ"
+    },
+    {
+      "file": "app/policies/comment_policy.rb",
+      "line": 5,
+      "specre_id": "01KJ5DYNF9N28R72J7M5FT4KVZ"
+    },
+    {
+      "file": "app/policies/comment_policy.rb",
+      "line": 6,
+      "specre_id": "01KJ5DQT35P394JJVCSC077ZX5"
+    },
+    {
+      "file": "app/policies/comment_policy.rb",
+      "line": 7,
+      "specre_id": "01KJ5DR9SK7NZF4GCYBZD5RM92"
+    },
+    {
       "file": "app/policies/consumer_app_policy.rb",
       "line": 1,
       "specre_id": "01KJ3YXYAR6AARATJH02XHAEVW"
@@ -2355,6 +2490,11 @@
       "file": "app/queries/comments/count.rb",
       "line": 1,
       "specre_id": "01KJ44CT90TACT5K15BYFV2H07"
+    },
+    {
+      "file": "app/queries/comments/tree.rb",
+      "line": 1,
+      "specre_id": "01KJ5DQT35P394JJVCSC077ZX5"
     },
     {
       "file": "app/queries/consumer_apps/find_or_create_all_query.rb",
@@ -2559,6 +2699,11 @@
     {
       "file": "app/services/comment_creator.rb",
       "line": 1,
+      "specre_id": "01KJ5DY1ASV3RY7Q7C930XDMBQ"
+    },
+    {
+      "file": "app/services/comment_creator.rb",
+      "line": 2,
       "specre_id": "01KJ1ARF08DVRQE65SWASWAFWJ"
     },
     {
@@ -2605,6 +2750,11 @@
       "file": "app/services/edge_cache/bust_tag.rb",
       "line": 1,
       "specre_id": "01KJ41NGKZDC2HQCNEQDKZYTDM"
+    },
+    {
+      "file": "app/services/exporter/comments.rb",
+      "line": 1,
+      "specre_id": "01KJ5DKW47KSVWWH6R13NNG8EM"
     },
     {
       "file": "app/services/feed_events/bulk_upsert.rb",
@@ -3487,6 +3637,11 @@
       "specre_id": "01KHZ6G82HEH34EH9QFG6JJ8XC"
     },
     {
+      "file": "app/views/admin/users/show/comments/_index.html.erb",
+      "line": 1,
+      "specre_id": "01KJ43VPQ39TQMBTTNBVQRBZQW"
+    },
+    {
       "file": "app/views/admin/users/show/overview/_credits.html.erb",
       "line": 1,
       "specre_id": "01KJ2SFWXPPE61BA7KNFY8CSSG"
@@ -3577,9 +3732,89 @@
       "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
     },
     {
+      "file": "app/views/comments/_comment.html.erb",
+      "line": 1,
+      "specre_id": "01KJ5DQT35P394JJVCSC077ZX5"
+    },
+    {
+      "file": "app/views/comments/_comment_avatar.html.erb",
+      "line": 1,
+      "specre_id": "01KJ5DQT35P394JJVCSC077ZX5"
+    },
+    {
+      "file": "app/views/comments/_comment_date.erb",
+      "line": 1,
+      "specre_id": "01KJ5DQT35P394JJVCSC077ZX5"
+    },
+    {
+      "file": "app/views/comments/_comment_footer.html.erb",
+      "line": 1,
+      "specre_id": "01KJ5DQT35P394JJVCSC077ZX5"
+    },
+    {
+      "file": "app/views/comments/_comment_header.html.erb",
+      "line": 1,
+      "specre_id": "01KJ5DQT35P394JJVCSC077ZX5"
+    },
+    {
+      "file": "app/views/comments/_comment_proper.html.erb",
+      "line": 1,
+      "specre_id": "01KJ5DQT35P394JJVCSC077ZX5"
+    },
+    {
+      "file": "app/views/comments/_comment_quality_marker.html.erb",
+      "line": 1,
+      "specre_id": "01KJ5DQT35P394JJVCSC077ZX5"
+    },
+    {
+      "file": "app/views/comments/_discussion_lock_reason.html.erb",
+      "line": 1,
+      "specre_id": "01KJ5DQT35P394JJVCSC077ZX5"
+    },
+    {
+      "file": "app/views/comments/_form.html.erb",
+      "line": 1,
+      "specre_id": "01KJ5DY1ASV3RY7Q7C930XDMBQ"
+    },
+    {
+      "file": "app/views/comments/_form.html.erb",
+      "line": 2,
+      "specre_id": "01KJ5DYNF9N28R72J7M5FT4KVZ"
+    },
+    {
+      "file": "app/views/comments/_hide_comments_modal.html.erb",
+      "line": 1,
+      "specre_id": "01KJ5DR9SK7NZF4GCYBZD5RM92"
+    },
+    {
       "file": "app/views/comments/_liquid.html.erb",
       "line": 1,
       "specre_id": "01KJ1F3QAFT0HFRPDHZ3JKZG6Z"
+    },
+    {
+      "file": "app/views/comments/_sort_option.html.erb",
+      "line": 1,
+      "specre_id": "01KJ5DQT35P394JJVCSC077ZX5"
+    },
+    {
+      "file": "app/views/comments/delete_confirm.html.erb",
+      "line": 1,
+      "specre_id": "01KJ5DZ0J6MPMBE92886V9ZXXZ"
+    },
+    {
+      "file": "app/views/comments/edit.html.erb",
+      "line": 1,
+      "specre_id": "01KJ5DYNF9N28R72J7M5FT4KVZ"
+    },
+    {
+      "file": "app/views/comments/index.html.erb",
+      "line": 1,
+      "specre_id": "01KJ5DQT35P394JJVCSC077ZX5"
+    },
+    {
+      "file": "app/views/comments/new.html.erb",
+      "line": 1,
+      "specre_id": "01KJ5DY1ASV3RY7Q7C930XDMBQ"
     },
     {
       "file": "app/views/comments/settings.html.erb",
@@ -4752,6 +4987,11 @@
       "specre_id": "01KJ15YPZ52QH5K5R1MVAYRQ0F"
     },
     {
+      "file": "app/workers/comments/bust_cache_worker.rb",
+      "line": 1,
+      "specre_id": "01KJ5DKHGNERDZH7ABTB9SE6E2"
+    },
+    {
       "file": "app/workers/comments/calculate_score_worker.rb",
       "line": 1,
       "specre_id": "01KJ44CT90TACT5K15BYFV2H07"
@@ -5067,6 +5307,11 @@
       "specre_id": "01KHZKCR70BAFQ159BEQFXBJQW"
     },
     {
+      "file": "spec/decorators/comment_decorator_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ5DQT35P394JJVCSC077ZX5"
+    },
+    {
       "file": "spec/decorators/mention_decorator_spec.rb",
       "line": 1,
       "specre_id": "01KJ1ARF08DVRQE65SWASWAFWJ"
@@ -5210,6 +5455,11 @@
       "file": "spec/helpers/admin/organizations_helper_spec.rb",
       "line": 1,
       "specre_id": "01KJ02MNP5AREF4M1SM48V0ED6"
+    },
+    {
+      "file": "spec/helpers/comments_helper_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ5DQT35P394JJVCSC077ZX5"
     },
     {
       "file": "spec/helpers/feedback_messages_helper_spec.rb",
@@ -5602,6 +5852,11 @@
       "specre_id": "01KJ2HPF2KC2HBFRV0NS32DFR7"
     },
     {
+      "file": "spec/models/comment_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ5DQT35P394JJVCSC077ZX5"
+    },
+    {
       "file": "spec/models/consumer_app_spec.rb",
       "line": 1,
       "specre_id": "01KJ3YXYAR6AARATJH02XHAEVW"
@@ -5847,6 +6102,11 @@
       "specre_id": "01KHZ454YXRB8TWV8PC06P4EQ5"
     },
     {
+      "file": "spec/policies/comment_policy_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ5DQT35P394JJVCSC077ZX5"
+    },
+    {
       "file": "spec/policies/follow_policy_spec.rb",
       "line": 1,
       "specre_id": "01KJ1X6P8ZE8SXRX8T90FCZH0G"
@@ -5885,6 +6145,11 @@
       "file": "spec/queries/comments/count_spec.rb",
       "line": 1,
       "specre_id": "01KJ44CT90TACT5K15BYFV2H07"
+    },
+    {
+      "file": "spec/queries/comments/tree_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ5DQT35P394JJVCSC077ZX5"
     },
     {
       "file": "spec/queries/consumer_apps/find_or_create_all_query_spec.rb",
@@ -6072,6 +6337,11 @@
       "specre_id": "01KJ2SFWXPPE61BA7KNFY8CSSG"
     },
     {
+      "file": "spec/requests/api/v0/comments_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ5DK8KFA45BXJWFAD1VNYMS"
+    },
+    {
       "file": "spec/requests/api/v0/followers_spec.rb",
       "line": 1,
       "specre_id": "01KJ1XA9ETJ0A7Y8MWW28NFSN8"
@@ -6105,6 +6375,16 @@
       "file": "spec/requests/api/v0/tags_spec.rb",
       "line": 1,
       "specre_id": "01KJ41E1Q931QJ3XZVWRJJ1PJX"
+    },
+    {
+      "file": "spec/requests/api/v1/comments_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ5DK8KFA45BXJWFAD1VNYMS"
+    },
+    {
+      "file": "spec/requests/api/v1/docs/comments_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ5DK8KFA45BXJWFAD1VNYMS"
     },
     {
       "file": "spec/requests/api/v1/docs/followed_tags_spec.rb",
@@ -6205,6 +6485,31 @@
       "file": "spec/requests/articles/articles_feed_spec.rb",
       "line": 1,
       "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
+    },
+    {
+      "file": "spec/requests/comments_create_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ5DY1ASV3RY7Q7C930XDMBQ"
+    },
+    {
+      "file": "spec/requests/comments_destroy_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ5DZ0J6MPMBE92886V9ZXXZ"
+    },
+    {
+      "file": "spec/requests/comments_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ5DQT35P394JJVCSC077ZX5"
+    },
+    {
+      "file": "spec/requests/comments_update_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ5DYNF9N28R72J7M5FT4KVZ"
+    },
+    {
+      "file": "spec/requests/comments_with_cache_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ5DQT35P394JJVCSC077ZX5"
     },
     {
       "file": "spec/requests/credits_spec.rb",
@@ -6430,6 +6735,11 @@
       "file": "spec/requests/search_spec.rb",
       "line": 1,
       "specre_id": "01KHZ22E63WBQWYFZNQVEA2EEE"
+    },
+    {
+      "file": "spec/requests/shared_examples/comment_hide_or_unhide_request.rb",
+      "line": 1,
+      "specre_id": "01KJ5DR9SK7NZF4GCYBZD5RM92"
     },
     {
       "file": "spec/requests/stories/articles_search_spec.rb",
@@ -6662,6 +6972,11 @@
       "specre_id": "01KJ15YPZ52QH5K5R1MVAYRQ0F"
     },
     {
+      "file": "spec/services/comment_creator_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ5DY1ASV3RY7Q7C930XDMBQ"
+    },
+    {
       "file": "spec/services/comments/calculate_score_spec.rb",
       "line": 1,
       "specre_id": "01KJ44CT90TACT5K15BYFV2H07"
@@ -6695,6 +7010,11 @@
       "file": "spec/services/edge_cache/bust_tag_spec.rb",
       "line": 1,
       "specre_id": "01KJ41NGKZDC2HQCNEQDKZYTDM"
+    },
+    {
+      "file": "spec/services/exporter/comments_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ5DKW47KSVWWH6R13NNG8EM"
     },
     {
       "file": "spec/services/feed_events/bulk_upsert_spec.rb",
@@ -7147,6 +7467,36 @@
       "specre_id": "01KJ1SC4G6BA2RNA55TP5WGNVN"
     },
     {
+      "file": "spec/system/comments/like_button_state_after_reply_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ5DQT35P394JJVCSC077ZX5"
+    },
+    {
+      "file": "spec/system/comments/user_delete_a_comment_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ5DZ0J6MPMBE92886V9ZXXZ"
+    },
+    {
+      "file": "spec/system/comments/user_edits_a_comment_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ5DYNF9N28R72J7M5FT4KVZ"
+    },
+    {
+      "file": "spec/system/comments/user_fills_out_comment_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ5DY1ASV3RY7Q7C930XDMBQ"
+    },
+    {
+      "file": "spec/system/comments/user_views_a_comment_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ5DQT35P394JJVCSC077ZX5"
+    },
+    {
+      "file": "spec/system/comments/user_views_article_comments_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ5DQT35P394JJVCSC077ZX5"
+    },
+    {
       "file": "spec/system/dashboards/user_followers_display_spec.rb",
       "line": 1,
       "specre_id": "01KJ1XA9ETJ0A7Y8MWW28NFSN8"
@@ -7247,6 +7597,11 @@
       "specre_id": "01KHZ6GG5GD766PRZK1SE50KMG"
     },
     {
+      "file": "spec/views/comments/_comment.html.erb_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ5DQT35P394JJVCSC077ZX5"
+    },
+    {
       "file": "spec/views/credits/new.html.erb_spec.rb",
       "line": 1,
       "specre_id": "01KJ2SF6J4K95BTZRSZG5AA811"
@@ -7285,6 +7640,11 @@
       "file": "spec/workers/broadcasts/send_welcome_notifications_worker_spec.rb",
       "line": 1,
       "specre_id": "01KJ15YPZ52QH5K5R1MVAYRQ0F"
+    },
+    {
+      "file": "spec/workers/comments/bust_cache_worker_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ5DKHGNERDZH7ABTB9SE6E2"
     },
     {
       "file": "spec/workers/comments/calculate_score_worker_spec.rb",
@@ -9610,6 +9970,86 @@
       "name": "system_reports_community_comment_wellness",
       "path": "docs/specres/comments/comments_scoring/system_reports_community_comment_wellness.md",
       "status": "stable"
+    },
+    {
+      "domain": "comments",
+      "id": "01KJ5DK8KFA45BXJWFAD1VNYMS",
+      "last_verified": "2026-02-23",
+      "name": "user_can_retrieve_comments_via_api",
+      "path": "docs/specres/comments/user_can_retrieve_comments_via_api.md",
+      "status": "stable"
+    },
+    {
+      "domain": "comments",
+      "id": "01KJ5DKHGNERDZH7ABTB9SE6E2",
+      "last_verified": "2026-02-23",
+      "name": "system_busts_comment_cache",
+      "path": "docs/specres/comments/system_busts_comment_cache.md",
+      "status": "stable"
+    },
+    {
+      "domain": "comments",
+      "id": "01KJ5DKW47KSVWWH6R13NNG8EM",
+      "last_verified": "2026-02-23",
+      "name": "user_exports_own_comments",
+      "path": "docs/specres/comments/user_exports_own_comments.md",
+      "status": "stable"
+    },
+    {
+      "domain": "comments",
+      "id": "01KJ5DQT35P394JJVCSC077ZX5",
+      "last_verified": "2026-02-23",
+      "name": "reader_views_comment_thread",
+      "path": "docs/specres/comments/reader_views_comment_thread.md",
+      "status": "stable"
+    },
+    {
+      "domain": "comments",
+      "id": "01KJ5DR9SK7NZF4GCYBZD5RM92",
+      "last_verified": "2026-02-23",
+      "name": "author_hides_comment_on_own_post",
+      "path": "docs/specres/comments/author_hides_comment_on_own_post.md",
+      "status": "stable"
+    },
+    {
+      "domain": "comments",
+      "id": "01KJ5DY1ASV3RY7Q7C930XDMBQ",
+      "last_verified": "2026-02-23",
+      "name": "user_creates_comment",
+      "path": "docs/specres/comments/user_creates_comment.md",
+      "status": "stable"
+    },
+    {
+      "domain": "comments",
+      "id": "01KJ5DYNF9N28R72J7M5FT4KVZ",
+      "last_verified": "2026-02-23",
+      "name": "user_edits_comment",
+      "path": "docs/specres/comments/user_edits_comment.md",
+      "status": "stable"
+    },
+    {
+      "domain": "comments",
+      "id": "01KJ5DZ0J6MPMBE92886V9ZXXZ",
+      "last_verified": "2026-02-23",
+      "name": "user_deletes_comment",
+      "path": "docs/specres/comments/user_deletes_comment.md",
+      "status": "stable"
+    },
+    {
+      "domain": "comments",
+      "id": "01KJ5E25AA2Q7QPV35S0JZBJS2",
+      "last_verified": null,
+      "name": "moderator_posts_templated_comment",
+      "path": "docs/specres/comments/moderator_posts_templated_comment.md",
+      "status": "draft"
+    },
+    {
+      "domain": "comments",
+      "id": "01KJ5E2R9YYMDP0Q8147BK9704",
+      "last_verified": null,
+      "name": "admin_soft_deletes_comment",
+      "path": "docs/specres/comments/admin_soft_deletes_comment.md",
+      "status": "draft"
     }
   ],
   "version": 1
