@@ -1,3 +1,4 @@
+# @specre 01KJ3YY1P1TX3DWW24AABW70MT
 class DevicesController < ApplicationController
   # Device's `belongs_to :user` association enforces that only authenticated
   # users are able to register devices. This replaces the Authenticated Users

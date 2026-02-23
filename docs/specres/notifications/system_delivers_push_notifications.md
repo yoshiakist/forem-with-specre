@@ -10,7 +10,11 @@ last_verified: "2026-02-22"
 - `app/services/push_notifications/send.rb`
 - `app/workers/push_notifications/deliver_worker.rb`
 - `app/workers/push_notifications/cleanup_worker.rb`
+- `app/queries/consumer_apps/find_or_create_by_query.rb`
+- `app/queries/consumer_apps/rpush_app_query.rb`
 - `spec/services/push_notifications/send_spec.rb` (Test)
+- `spec/queries/consumer_apps/find_or_create_by_query_spec.rb` (Test)
+- `spec/queries/consumer_apps/rpush_app_query_spec.rb` (Test)
 
 ## Functional Overview
 

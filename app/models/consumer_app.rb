@@ -1,3 +1,4 @@
+# @specre 01KJ3YXYAR6AARATJH02XHAEVW
 class ConsumerApp < ApplicationRecord
   resourcify
 

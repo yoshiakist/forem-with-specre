@@ -1,3 +1,4 @@
+// @specre 01KJ3YXYAR6AARATJH02XHAEVW
 import { Controller } from '@hotwired/stimulus';
 
 export default class ConsumerAppController extends Controller {

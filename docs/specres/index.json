@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-22T14:54:55Z",
+  "generated_at": "2026-02-23T00:40:48Z",
   "source_refs": [
     {
       "file": "app/assets/javascripts/initializers/initializeCreditsPage.js",
@@ -35,6 +35,11 @@
       "file": "app/assets/stylesheets/settings.scss",
       "line": 1,
       "specre_id": "01KHZ3R448RA411ZP1V33AX5MR"
+    },
+    {
+      "file": "app/controllers/admin/consumer_apps_controller.rb",
+      "line": 1,
+      "specre_id": "01KJ3YXYAR6AARATJH02XHAEVW"
     },
     {
       "file": "app/controllers/admin/creator_settings_controller.rb",
@@ -330,6 +335,16 @@
       "file": "app/controllers/dashboards_controller.rb",
       "line": 1,
       "specre_id": "01KHZGV8H4BG6XE1A7T06AVD4X"
+    },
+    {
+      "file": "app/controllers/deep_links_controller.rb",
+      "line": 1,
+      "specre_id": "01KJ3YY715791TP7N04ECPMPGV"
+    },
+    {
+      "file": "app/controllers/devices_controller.rb",
+      "line": 1,
+      "specre_id": "01KJ3YY1P1TX3DWW24AABW70MT"
     },
     {
       "file": "app/controllers/feed_events_controller.rb",
@@ -730,6 +745,11 @@
       "file": "app/javascript/admin/controllers/admin_surveys_controller.js",
       "line": 2,
       "specre_id": "01KHZM8WACKF3RJZT65WP2P2E9"
+    },
+    {
+      "file": "app/javascript/admin/controllers/consumer_app_controller.js",
+      "line": 1,
+      "specre_id": "01KJ3YXYAR6AARATJH02XHAEVW"
     },
     {
       "file": "app/javascript/admin/controllers/data_update_script_controller.js",
@@ -1777,6 +1797,11 @@
       "specre_id": "01KHZ2B1BF232HFDSKGKHDSF6F"
     },
     {
+      "file": "app/models/consumer_app.rb",
+      "line": 1,
+      "specre_id": "01KJ3YXYAR6AARATJH02XHAEVW"
+    },
+    {
       "file": "app/models/context_notification.rb",
       "line": 1,
       "specre_id": "01KJ15YY7SWMF93P655KXRSPEK"
@@ -2102,6 +2127,11 @@
       "specre_id": "01KJ1EZV154EB8MH5FS06CB6XT"
     },
     {
+      "file": "app/policies/consumer_app_policy.rb",
+      "line": 1,
+      "specre_id": "01KJ3YXYAR6AARATJH02XHAEVW"
+    },
+    {
       "file": "app/policies/follow_policy.rb",
       "line": 1,
       "specre_id": "01KJ1X6P8ZE8SXRX8T90FCZH0G"
@@ -2135,6 +2165,21 @@
       "file": "app/policies/subforem_policy.rb",
       "line": 1,
       "specre_id": "01KHYH43TN4FS8ZYTW757DZBHZ"
+    },
+    {
+      "file": "app/queries/consumer_apps/find_or_create_all_query.rb",
+      "line": 1,
+      "specre_id": "01KJ3YXYAR6AARATJH02XHAEVW"
+    },
+    {
+      "file": "app/queries/consumer_apps/find_or_create_by_query.rb",
+      "line": 1,
+      "specre_id": "01KJ162B266JS6N6VM0EMQWB02"
+    },
+    {
+      "file": "app/queries/consumer_apps/rpush_app_query.rb",
+      "line": 1,
+      "specre_id": "01KJ162B266JS6N6VM0EMQWB02"
     },
     {
       "file": "app/queries/organizations/suggest_prominent.rb",
@@ -2750,6 +2795,26 @@
       "file": "app/validators/profile_validator.rb",
       "line": 1,
       "specre_id": "01KHZ69F0GE1R07TXK53AAA1K8"
+    },
+    {
+      "file": "app/views/admin/consumer_apps/_form.html.erb",
+      "line": 1,
+      "specre_id": "01KJ3YXYAR6AARATJH02XHAEVW"
+    },
+    {
+      "file": "app/views/admin/consumer_apps/edit.html.erb",
+      "line": 1,
+      "specre_id": "01KJ3YXYAR6AARATJH02XHAEVW"
+    },
+    {
+      "file": "app/views/admin/consumer_apps/index.html.erb",
+      "line": 1,
+      "specre_id": "01KJ3YXYAR6AARATJH02XHAEVW"
+    },
+    {
+      "file": "app/views/admin/consumer_apps/new.html.erb",
+      "line": 1,
+      "specre_id": "01KJ3YXYAR6AARATJH02XHAEVW"
     },
     {
       "file": "app/views/admin/creator_settings/_form.html.erb",
@@ -4592,6 +4657,11 @@
       "specre_id": "01KHZ78Z9A3R2NWZF2B6EZ82AJ"
     },
     {
+      "file": "spec/factories/consumer_apps.rb",
+      "line": 1,
+      "specre_id": "01KJ3YXYAR6AARATJH02XHAEVW"
+    },
+    {
       "file": "spec/factories/context_notifications.rb",
       "line": 1,
       "specre_id": "01KJ15YY7SWMF93P655KXRSPEK"
@@ -5087,6 +5157,11 @@
       "specre_id": "01KJ2HPF2KC2HBFRV0NS32DFR7"
     },
     {
+      "file": "spec/models/consumer_app_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ3YXYAR6AARATJH02XHAEVW"
+    },
+    {
       "file": "spec/models/context_notification_spec.rb",
       "line": 1,
       "specre_id": "01KJ15YY7SWMF93P655KXRSPEK"
@@ -5327,9 +5402,29 @@
       "specre_id": "01KHYH43TN4FS8ZYTW757DZBHZ"
     },
     {
+      "file": "spec/queries/consumer_apps/find_or_create_all_query_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ3YXYAR6AARATJH02XHAEVW"
+    },
+    {
+      "file": "spec/queries/consumer_apps/find_or_create_by_query_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ162B266JS6N6VM0EMQWB02"
+    },
+    {
+      "file": "spec/queries/consumer_apps/rpush_app_query_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ162B266JS6N6VM0EMQWB02"
+    },
+    {
       "file": "spec/queries/organizations/suggest_prominent_spec.rb",
       "line": 1,
       "specre_id": "01KJ02W17VA8P0SYXCYAJ1MJR2"
+    },
+    {
+      "file": "spec/requests/admin/consumer_apps_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ3YXYAR6AARATJH02XHAEVW"
     },
     {
       "file": "spec/requests/admin/creator_settings_spec.rb",
@@ -5587,6 +5682,11 @@
       "specre_id": "01KJ2SF6J4K95BTZRSZG5AA811"
     },
     {
+      "file": "spec/requests/devices_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ3YY1P1TX3DWW24AABW70MT"
+    },
+    {
       "file": "spec/requests/feed_events_spec.rb",
       "line": 1,
       "specre_id": "01KJ24DBM92V2E2RDET8BZEWTZ"
@@ -5825,6 +5925,11 @@
       "file": "spec/requests/surveys_spec.rb",
       "line": 1,
       "specre_id": "01KHZKCR70BAFQ159BEQFXBJQW"
+    },
+    {
+      "file": "spec/requests/universal_links_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ3YY715791TP7N04ECPMPGV"
     },
     {
       "file": "spec/requests/user/user_notification_settings_spec.rb",
@@ -8616,6 +8721,30 @@
       "last_verified": "2026-02-22",
       "name": "user_can_format_text_with_markdown_toolbar",
       "path": "docs/specres/content_rendering/user_can_format_text_with_markdown_toolbar.md",
+      "status": "stable"
+    },
+    {
+      "domain": "consumer_apps",
+      "id": "01KJ3YXYAR6AARATJH02XHAEVW",
+      "last_verified": "2026-02-23",
+      "name": "admin_can_register_consumer_app",
+      "path": "docs/specres/consumer_apps/admin_can_register_consumer_app.md",
+      "status": "stable"
+    },
+    {
+      "domain": "consumer_apps",
+      "id": "01KJ3YY1P1TX3DWW24AABW70MT",
+      "last_verified": "2026-02-23",
+      "name": "user_can_register_device_for_push_notifications",
+      "path": "docs/specres/consumer_apps/user_can_register_device_for_push_notifications.md",
+      "status": "stable"
+    },
+    {
+      "domain": "consumer_apps",
+      "id": "01KJ3YY715791TP7N04ECPMPGV",
+      "last_verified": "2026-02-23",
+      "name": "system_enables_mobile_deep_linking",
+      "path": "docs/specres/consumer_apps/system_enables_mobile_deep_linking.md",
       "status": "stable"
     }
   ],

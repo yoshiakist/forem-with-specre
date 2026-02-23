@@ -1,3 +1,4 @@
+# @specre 01KJ3YY1P1TX3DWW24AABW70MT
 require "rails_helper"
 
 RSpec.describe "Devices" do
