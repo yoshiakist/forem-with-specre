@@ -1,3 +1,4 @@
+# @specre 01KJ43EGBJ705B1E5KETFD0NYE
 module Slack
   module Messengers
     class CommentUserWarned

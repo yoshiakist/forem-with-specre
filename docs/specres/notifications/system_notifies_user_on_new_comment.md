@@ -10,6 +10,7 @@ last_verified: "2026-02-22"
 - `app/services/notifications/new_comment/send.rb`
 - `app/workers/comments/send_email_notification_worker.rb`
 - `app/views/notifications/_comment.html.erb` (Template)
+- `app/sanitizers/comment_email_scrubber.rb`
 - `spec/services/notifications/new_comment/send_spec.rb` (Test)
 - `spec/workers/comments/send_email_notification_worker_spec.rb` (Test)
 

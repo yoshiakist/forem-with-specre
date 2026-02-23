@@ -1,3 +1,4 @@
+# @specre 01KHZ34S64MDBEZEVY74YYQ7HM
 module Ai
   ##
   # Analyzes a comment to determine if it is helpful and contextual,

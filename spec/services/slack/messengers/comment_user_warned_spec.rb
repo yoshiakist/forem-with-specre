@@ -1,3 +1,4 @@
+# @specre 01KJ43EGBJ705B1E5KETFD0NYE
 require "rails_helper"
 
 RSpec.describe Slack::Messengers::CommentUserWarned, type: :service do

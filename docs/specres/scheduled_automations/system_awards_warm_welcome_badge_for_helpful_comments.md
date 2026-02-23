@@ -9,6 +9,8 @@ last_verified: "2026-02-21"
 
 - `app/services/scheduled_automations/warm_welcome_badge_awarder.rb`
 - `spec/services/scheduled_automations/warm_welcome_badge_awarder_spec.rb` (Test)
+- `app/services/ai/comment_helpfulness_assessor.rb`
+- `spec/services/ai/comment_helpfulness_assessor_spec.rb` (Test)
 
 ## Functional Overview
 

@@ -1,3 +1,4 @@
+# @specre 01KJ43E9107K5RBF375S75E2PV
 require "rails_helper"
 
 RSpec.describe Spam::Handler, type: :service do

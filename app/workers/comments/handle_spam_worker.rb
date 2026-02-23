@@ -1,3 +1,4 @@
+# @specre 01KJ43E9107K5RBF375S75E2PV
 module Comments
   class HandleSpamWorker
     include Sidekiq::Job
