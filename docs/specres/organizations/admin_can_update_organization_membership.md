@@ -11,6 +11,8 @@ last_verified: "2026-02-21"
 - `app/models/organization_membership.rb`
 - `spec/requests/admin/organization_memberships_spec.rb` (Test)
 - `app/views/admin/users/modals/_add_organization_modal.html.erb` (Template)
+- `app/views/admin/users/show/overview/_organizations.html.erb` (Template)
+- `app/views/admin/users/index/_organizations.html.erb` (Template)
 
 ## Functional Overview
 
