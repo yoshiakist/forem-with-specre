@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-23T02:16:57Z",
+  "generated_at": "2026-02-23T02:21:41Z",
   "source_refs": [
     {
       "file": "app/assets/javascripts/initializers/initializeAllTagEditButtons.js",
@@ -750,6 +750,36 @@
       "file": "app/helpers/settings_helper.rb",
       "line": 1,
       "specre_id": "01KHZ466X2VM8VAWD6RE82CF9J"
+    },
+    {
+      "file": "app/javascript/CommentSubscription/CommentSubscription.jsx",
+      "line": 1,
+      "specre_id": "01KJ15N9VC5VXN9692QKQRVF5E"
+    },
+    {
+      "file": "app/javascript/CommentSubscription/__stories__/CommentSubscription.stories.jsx",
+      "line": 1,
+      "specre_id": "01KJ15N9VC5VXN9692QKQRVF5E"
+    },
+    {
+      "file": "app/javascript/CommentSubscription/__tests__/CommentSubscription.test.jsx",
+      "line": 1,
+      "specre_id": "01KJ15N9VC5VXN9692QKQRVF5E"
+    },
+    {
+      "file": "app/javascript/CommentSubscription/__tests__/commentSubscriptionUtilities.test.js",
+      "line": 1,
+      "specre_id": "01KJ15N9VC5VXN9692QKQRVF5E"
+    },
+    {
+      "file": "app/javascript/CommentSubscription/commentSubscriptionUtilities.jsx",
+      "line": 1,
+      "specre_id": "01KJ15N9VC5VXN9692QKQRVF5E"
+    },
+    {
+      "file": "app/javascript/CommentSubscription/index.js",
+      "line": 1,
+      "specre_id": "01KJ15N9VC5VXN9692QKQRVF5E"
     },
     {
       "file": "app/javascript/Search/Search.jsx",

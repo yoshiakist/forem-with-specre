@@ -20,10 +20,16 @@ last_verified: "2026-02-22"
 - `spec/services/notification_subscriptions/update_spec.rb` (Test)
 - `spec/workers/notification_subscriptions/update_worker_spec.rb` (Test)
 - `spec/factories/notification_subscriptions.rb` (Test)
+- `app/javascript/CommentSubscription/CommentSubscription.jsx`
+- `app/javascript/CommentSubscription/commentSubscriptionUtilities.jsx`
+- `app/javascript/CommentSubscription/index.js`
+- `app/javascript/CommentSubscription/__tests__/CommentSubscription.test.jsx` (Test)
+- `app/javascript/CommentSubscription/__tests__/commentSubscriptionUtilities.test.js` (Test)
+- `app/javascript/CommentSubscription/__stories__/CommentSubscription.stories.jsx`
 
 ## Functional Overview
 
-Authenticated users can subscribe to or unsubscribe from comment notifications on articles and comments. A `NotificationSubscription` record links a user to a notifiable resource (either an `Article` or a `Comment`) with a configuration value that controls which notifications are delivered (`all_comments`, `top_level_comments`, or `only_author_comments`). Subscriptions are unique per user per notifiable resource. The controller exposes four actions: a read endpoint to check current subscription state, a create endpoint via `NotificationSubscriptions::Subscribe` (idempotent — returns the existing record rather than raising a uniqueness error), a destroy endpoint via `NotificationSubscriptions::Unsubscribe`, and an upsert endpoint that handles both creating and removing subscriptions while also toggling the notifiable's `receive_notifications` flag when the acting user is the content author. When an article's authorship changes, `NotificationSubscriptions::UpdateWorker` runs asynchronously via Sidekiq to reassign all existing subscriptions to the new author.
+Authenticated users can subscribe to or unsubscribe from comment notifications on articles and comments. A `NotificationSubscription` record links a user to a notifiable resource (either an `Article` or a `Comment`) with a configuration value that controls which notifications are delivered (`all_comments`, `top_level_comments`, or `only_author_comments`). Subscriptions are unique per user per notifiable resource. The controller exposes four actions: a read endpoint to check current subscription state, a create endpoint via `NotificationSubscriptions::Subscribe` (idempotent — returns the existing record rather than raising a uniqueness error), a destroy endpoint via `NotificationSubscriptions::Unsubscribe`, and an upsert endpoint that handles both creating and removing subscriptions while also toggling the notifiable's `receive_notifications` flag when the acting user is the content author. When an article's authorship changes, `NotificationSubscriptions::UpdateWorker` runs asynchronously via Sidekiq to reassign all existing subscriptions to the new author. On the frontend, the `CommentSubscription` Preact component renders a Subscribe/Unsubscribe button group with a settings dropdown that lets users select their preferred subscription type (`all_comments`, `top_level_comments`, or `only_author_comments`) directly on the article page. The `commentSubscriptionUtilities` module handles the HTTP calls to read and update subscription state from the backend, translating responses into user-friendly status messages.
 
 ## Design Intent
 
