@@ -16,6 +16,7 @@ Examples:
     python3 .claude/commands/scripts/domain-discovery.py article --json
     python3 .claude/commands/scripts/domain-discovery.py github_repo --max-rounds 1
     python3 .claude/commands/scripts/domain-discovery.py comment --untagged-only
+    python3 .claude/commands/scripts/domain-discovery.py comment --json --exclude comments_admin comments_moderation comments_scoring
 """
 
 from __future__ import annotations
@@ -137,10 +138,57 @@ class ConventionDiscovery:
         "uploaders", "refinements", "sanitizers", "errors", "lib",
     ]
 
-    def __init__(self, project_root: str, source_dirs: list[str], extensions: list[str]):
+    def __init__(
+        self,
+        project_root: str,
+        source_dirs: list[str],
+        extensions: list[str],
+        exclude_keywords: list[str] | None = None,
+    ):
         self.project_root = project_root
         self.source_dirs = source_dirs
         self.extensions = set(extensions)
+        # Build exclude variants (substring match) from all exclude keywords
+        self.exclude_variants: list[str] = []
+        # Build exclude part groups (all-parts-present match) for compound keywords
+        self.exclude_part_groups: list[list[str]] = []
+        for kw in (exclude_keywords or []):
+            variants = self._domain_variants(kw)
+            self.exclude_variants.extend(variants)
+            # Add joined-lowercase variant for CamelCase directory matching
+            # e.g., "comment_subscription" → "commentsubscription" matches JS dir "CommentSubscription"
+            if "_" in kw:
+                joined = kw.replace("_", "").lower()
+                if joined not in self.exclude_variants:
+                    self.exclude_variants.append(joined)
+                # Multi-part matching: split by "_" and check all parts present in path
+                # e.g., "comments_admin" → ["comment", "admin"] both must appear in path
+                parts = kw.lower().split("_")
+                # Normalize: strip trailing 's' for singular matching
+                normalized = []
+                for p in parts:
+                    singular = p.rstrip("s") if p.endswith("s") and len(p) > 2 else p
+                    normalized.append(singular)
+                self.exclude_part_groups.append(normalized)
+
+    def _is_excluded(self, fname_lower: str, rel_lower: str) -> bool:
+        """Return True if the file matches any exclusion pattern.
+
+        Two matching strategies:
+        1. Substring match: any exclude variant appears in filename or path
+        2. All-parts match: for compound keywords (e.g., "comments_admin"),
+           ALL parts must appear somewhere in the full path
+        """
+        combined = rel_lower + "/" + fname_lower
+        # Strategy 1: substring match
+        for ev in self.exclude_variants:
+            if ev in fname_lower or ev in rel_lower:
+                return True
+        # Strategy 2: all-parts match (for compound exclude keywords)
+        for parts in self.exclude_part_groups:
+            if all(p in combined for p in parts):
+                return True
+        return False
 
     def discover(self, domain: str) -> tuple[dict[str, DiscoveredFile], list[str]]:
         results: dict[str, DiscoveredFile] = {}
@@ -183,6 +231,11 @@ class ConventionDiscovery:
                     # Match: filename or directory path contains a variant
                     fname_lower = fname.lower()
                     rel_lower = rel_root.lower()
+
+                    # Skip files matching exclusion keywords
+                    if self._is_excluded(fname_lower, rel_lower):
+                        continue
+
                     matched_variant = None
                     for v in variants:
                         if v in fname_lower or v in rel_lower:
@@ -225,6 +278,10 @@ class ConventionDiscovery:
                         continue
                     fname_lower = fname.lower()
                     rel_lower = rel_root.lower()
+
+                    if self._is_excluded(fname_lower, rel_lower):
+                        continue
+
                     for v in variants:
                         if v in fname_lower or v in rel_lower:
                             results[fpath] = DiscoveredFile(
@@ -252,6 +309,10 @@ class ConventionDiscovery:
 
                 fname_lower = fname.lower()
                 rel_lower = rel_root.lower()
+
+                if self._is_excluded(fname_lower, rel_lower):
+                    continue
+
                 for v in variants:
                     if v in fname_lower or v in rel_lower:
                         results[fpath] = DiscoveredFile(
@@ -774,10 +835,14 @@ class TagChecker:
 
 class OutputFormatter:
     @staticmethod
-    def format_text(result: DiscoveryResult, untagged_only: bool = False) -> str:
+    def format_text(result: DiscoveryResult, untagged_only: bool = False, exclude_keywords: list[str] | None = None) -> str:
         s = result.stats()
         lines = [
             f"Domain discovery: {result.domain}",
+        ]
+        if exclude_keywords:
+            lines.append(f"Excluded keywords: {', '.join(exclude_keywords)}")
+        lines.extend([
             f"Seed class names: {', '.join(sorted(set(result.seed_class_names)))}",
             "",
             f"Stage 1 — Convention-based glob: {s['stage1']} files",
@@ -785,7 +850,7 @@ class OutputFormatter:
             f"Stage 3 — Transitive expansion: {s['stage3']} files",
             f"Total: {s['total']} files ({s['untagged']} untagged, {s['tagged']} tagged)",
             "",
-        ]
+        ])
 
         # Group by stage, sorted by path
         untagged = {
@@ -813,9 +878,13 @@ class OutputFormatter:
         return "\n".join(lines)
 
     @staticmethod
-    def format_json(result: DiscoveryResult) -> str:
+    def format_json(result: DiscoveryResult, exclude_keywords: list[str] | None = None) -> str:
         data = {
             "domain": result.domain,
+        }
+        if exclude_keywords:
+            data["exclude_keywords"] = exclude_keywords
+        data.update({
             "seed_class_names": sorted(set(result.seed_class_names)),
             "stats": result.stats(),
             "files": {
@@ -826,7 +895,7 @@ class OutputFormatter:
                 }
                 for path, df in sorted(result.files.items())
             },
-        }
+        })
         return json.dumps(data, indent=2, ensure_ascii=False)
 
     @staticmethod
@@ -955,6 +1024,10 @@ def main() -> None:
         "--untagged-only", action="store_true",
         help="Only output untagged files",
     )
+    parser.add_argument(
+        "--exclude", nargs="+", default=[], metavar="KEYWORD",
+        help="Exclude files matching these sub-domain keywords (e.g., --exclude comments_admin comments_scoring)",
+    )
     args = parser.parse_args()
 
     project_root = os.path.abspath(args.root)
@@ -971,9 +1044,38 @@ def main() -> None:
     # Initialize result
     result = DiscoveryResult(domain=args.domain)
 
+    # Build exclude variants for post-filtering Stage 2/3 results
+    exclude_variants: list[str] = []
+    exclude_part_groups: list[list[str]] = []
+    for kw in args.exclude:
+        exclude_variants.extend(ConventionDiscovery._domain_variants(kw))
+        if "_" in kw:
+            joined = kw.replace("_", "").lower()
+            if joined not in exclude_variants:
+                exclude_variants.append(joined)
+            parts = kw.lower().split("_")
+            normalized = []
+            for p in parts:
+                singular = p.rstrip("s") if p.endswith("s") and len(p) > 2 else p
+                normalized.append(singular)
+            exclude_part_groups.append(normalized)
+
+    def _matches_exclude(file_path: str) -> bool:
+        """Check if a file path matches any exclusion pattern."""
+        path_lower = file_path.lower()
+        # Strategy 1: substring match
+        if any(ev in path_lower for ev in exclude_variants):
+            return True
+        # Strategy 2: all-parts match
+        for parts in exclude_part_groups:
+            if all(p in path_lower for p in parts):
+                return True
+        return False
+
     # Stage 1: Convention-based glob
     convention = ConventionDiscovery(
-        project_root, config["source_dirs"], config["ext"]
+        project_root, config["source_dirs"], config["ext"],
+        exclude_keywords=args.exclude,
     )
     stage1_files, seed_classes = convention.discover(args.domain)
     result.files.update(stage1_files)
@@ -988,22 +1090,37 @@ def main() -> None:
         seed_files=stage1_files,
         all_discovered=result.files,
     )
+    # Filter out excluded files from Stage 2
+    if exclude_variants:
+        stage2_files = {p: df for p, df in stage2_files.items() if not _matches_exclude(p)}
     result.files.update(stage2_files)
 
     # Stage 3: Transitive expansion
     if args.max_rounds > 0:
         expander = TransitiveExpander(tracer, args.max_rounds)
         expander.expand(result)
+        # Filter out excluded files from Stage 3
+        if exclude_variants:
+            to_remove = [p for p in result.files if result.files[p].stage == 3 and _matches_exclude(p)]
+            for p in to_remove:
+                del result.files[p]
 
     # Stage 4: Tag check
     TagChecker.check(project_root, result.files)
 
     # Output — split to disk if file count exceeds 100
     file_count = len(result.files)
+    if args.exclude:
+        exclude_note = f"Excluded keywords: {', '.join(args.exclude)}"
+    else:
+        exclude_note = None
+
     if file_count > 100:
         saved_paths = OutputFormatter.split_and_save(result)
         s = result.stats()
         print(f"Domain discovery: {result.domain}")
+        if exclude_note:
+            print(exclude_note)
         print(f"Seed class names: {', '.join(sorted(set(result.seed_class_names)))}")
         print(f"Total: {s['total']} files "
               f"({s['untagged']} untagged, {s['tagged']} tagged)")
@@ -1031,9 +1148,9 @@ def main() -> None:
                 for sg in suggestions:
                     print(f"  /specre-generate {sg['subdomain']}")
     elif args.json_output:
-        print(OutputFormatter.format_json(result))
+        print(OutputFormatter.format_json(result, exclude_keywords=args.exclude))
     else:
-        print(OutputFormatter.format_text(result, args.untagged_only))
+        print(OutputFormatter.format_text(result, args.untagged_only, exclude_keywords=args.exclude))
 
 
 if __name__ == "__main__":
