@@ -10,7 +10,13 @@ last_verified: "2026-02-22"
 - `app/controllers/stories/tagged_articles_controller.rb`
 - `app/services/articles/feeds/tag.rb`
 - `app/views/stories/tagged_articles/_main_feed.html.erb` (Template)
+- `app/views/stories/tagged_articles/index.html.erb` (Template)
+- `app/views/stories/tagged_articles/_meta.html.erb` (Template)
+- `app/views/stories/tagged_articles/_sidebar.html.erb` (Template)
+- `app/views/stories/tagged_articles/_sidebar_additional.html.erb` (Template)
 - `spec/services/articles/feeds/tag_spec.rb` (Test)
+- `spec/requests/stories/tagged_articles_spec.rb` (Test)
+- `spec/system/articles/user_visits_articles_by_tag_spec.rb` (Test)
 
 ## Functional Overview
 

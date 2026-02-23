@@ -8,8 +8,10 @@ last_verified: "2026-02-22"
 ## Related Files
 
 - `app/javascript/onboarding/components/FollowTags.jsx`
+- `app/queries/tags/suggested_for_onboarding.rb`
 - `app/javascript/onboarding/components/__tests__/FollowTags.test.jsx` (Test)
 - `spec/requests/onboardings_spec.rb` (Test)
+- `spec/queries/tags/suggested_for_onboarding_spec.rb` (Test)
 
 ## Functional Overview
 

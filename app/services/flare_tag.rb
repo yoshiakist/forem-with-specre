@@ -1,3 +1,4 @@
+# @specre 01KJ41JJ73MXNDK5F9W99N0P0A
 class FlareTag
   FLARE_TAG_IDS_HASH = Tag.where(name: Constants::Tags::FLARE_TAG_NAMES).pluck(:name, :id).to_h.freeze
 

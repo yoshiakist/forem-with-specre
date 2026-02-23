@@ -1,3 +1,4 @@
+# @specre 01KJ41NGKZDC2HQCNEQDKZYTDM
 module Tags
   class BustCacheWorker < BustCacheBaseWorker
     def perform(tag_name)

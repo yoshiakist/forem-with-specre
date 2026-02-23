@@ -1,3 +1,4 @@
+# @specre 01KJ41N4Q80SANVK8KV9VEDB88
 module Ai
   class ForemTags
     MAX_RETRIES = 3

@@ -1,3 +1,4 @@
+// @specre 01KJ41F3K1B3SRQ2HBYFY2N2M4
 import { useEffect, useState } from 'preact/hooks';
 import algoliasearch from 'algoliasearch/lite'
 import { fetchSearch } from '@utilities/search';

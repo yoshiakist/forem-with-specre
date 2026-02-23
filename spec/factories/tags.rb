@@ -1,3 +1,4 @@
+# @specre 01KJ41DVKVSHQT3TKSJP11Y7SZ
 FactoryBot.define do
   sequence(:name) { |n| "tag#{n}" }
 

@@ -1,3 +1,4 @@
+# @specre 01KJ41F3K1B3SRQ2HBYFY2N2M4
 module ActsAsTaggableOn
   class TagParser < GenericParser
     def parse

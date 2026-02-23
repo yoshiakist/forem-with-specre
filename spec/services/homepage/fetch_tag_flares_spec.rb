@@ -1,3 +1,4 @@
+# @specre 01KJ41JJ73MXNDK5F9W99N0P0A
 require "rails_helper"
 
 RSpec.describe Homepage::FetchTagFlares, type: :service do

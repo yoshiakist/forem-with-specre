@@ -1,3 +1,4 @@
+# @specre 01KJ41F3K1B3SRQ2HBYFY2N2M4
 require "rails_helper"
 
 RSpec.describe ActsAsTaggableOn::TagParser, type: :lib do
