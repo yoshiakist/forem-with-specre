@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-23T00:40:48Z",
+  "generated_at": "2026-02-23T01:01:37Z",
   "source_refs": [
     {
       "file": "app/assets/javascripts/initializers/initializeCreditsPage.js",
@@ -200,6 +200,16 @@
       "file": "app/controllers/admin/surveys_controller.rb",
       "line": 4,
       "specre_id": "01KHZM8WACKF3RJZT65WP2P2E9"
+    },
+    {
+      "file": "app/controllers/admin/tags/moderators_controller.rb",
+      "line": 1,
+      "specre_id": "01KJ405WSWNE4WHSJVXZ8G81GZ"
+    },
+    {
+      "file": "app/controllers/admin/tags/moderators_controller.rb",
+      "line": 2,
+      "specre_id": "01KJ405PD1DE1M82CXWR67V9TT"
     },
     {
       "file": "app/controllers/admin/tools_controller.rb",
@@ -570,6 +580,11 @@
       "file": "app/controllers/surveys_controller.rb",
       "line": 2,
       "specre_id": "01KHZKCR70BAFQ159BEQFXBJQW"
+    },
+    {
+      "file": "app/controllers/tag_adjustments_controller.rb",
+      "line": 1,
+      "specre_id": "01KJ3ZG8Z0CF01S5WC6MP62WS6"
     },
     {
       "file": "app/controllers/users/notification_settings_controller.rb",
@@ -2107,6 +2122,11 @@
       "specre_id": "01KHZKDENF1FEDNJQD6XXKWAKZ"
     },
     {
+      "file": "app/models/tag_adjustment.rb",
+      "line": 1,
+      "specre_id": "01KJ3ZG8Z0CF01S5WC6MP62WS6"
+    },
+    {
       "file": "app/models/user_subscription.rb",
       "line": 1,
       "specre_id": "01KJ1F6M9DTXAJNC4ZQFMSWJXE"
@@ -2762,6 +2782,31 @@
       "specre_id": "01KHZKDENF1FEDNJQD6XXKWAKZ"
     },
     {
+      "file": "app/services/tag_adjustment_creation_service.rb",
+      "line": 1,
+      "specre_id": "01KJ3ZG8Z0CF01S5WC6MP62WS6"
+    },
+    {
+      "file": "app/services/tag_adjustment_update_service.rb",
+      "line": 1,
+      "specre_id": "01KJ3ZG8Z0CF01S5WC6MP62WS6"
+    },
+    {
+      "file": "app/services/tag_moderators/add.rb",
+      "line": 1,
+      "specre_id": "01KJ405PD1DE1M82CXWR67V9TT"
+    },
+    {
+      "file": "app/services/tag_moderators/add_trusted_role.rb",
+      "line": 1,
+      "specre_id": "01KJ405PD1DE1M82CXWR67V9TT"
+    },
+    {
+      "file": "app/services/tag_moderators/remove.rb",
+      "line": 1,
+      "specre_id": "01KJ405WSWNE4WHSJVXZ8G81GZ"
+    },
+    {
       "file": "app/services/users/approved_liquid_tags.rb",
       "line": 1,
       "specre_id": "01KJ1EZV154EB8MH5FS06CB6XT"
@@ -3357,6 +3402,21 @@
       "specre_id": "01KJ25JM22F6QQ01PMJXGHZVQ5"
     },
     {
+      "file": "app/views/fields/tag_moderators_field/_form.html.erb",
+      "line": 1,
+      "specre_id": "01KJ405PD1DE1M82CXWR67V9TT"
+    },
+    {
+      "file": "app/views/fields/tag_moderators_field/_index.html.erb",
+      "line": 1,
+      "specre_id": "01KJ405PD1DE1M82CXWR67V9TT"
+    },
+    {
+      "file": "app/views/fields/tag_moderators_field/_show.html.erb",
+      "line": 1,
+      "specre_id": "01KJ405PD1DE1M82CXWR67V9TT"
+    },
+    {
       "file": "app/views/layouts/_social_media.html.erb",
       "line": 1,
       "specre_id": "01KJ1C3MFT988AX8WWC1G6EG0G"
@@ -3582,6 +3642,16 @@
       "specre_id": "01KHYH2RE3WEHN4RVYZWBNXCHA"
     },
     {
+      "file": "app/views/mailers/notify_mailer/tag_moderator_confirmation_email.html.erb",
+      "line": 1,
+      "specre_id": "01KJ405PD1DE1M82CXWR67V9TT"
+    },
+    {
+      "file": "app/views/mailers/notify_mailer/tag_moderator_confirmation_email.text.erb",
+      "line": 1,
+      "specre_id": "01KJ405PD1DE1M82CXWR67V9TT"
+    },
+    {
       "file": "app/views/mailers/organization_invitation_mailer/invitation_email.html.erb",
       "line": 1,
       "specre_id": "01KJ02DSNZVDY9J6F8MHMCEYZF"
@@ -3680,6 +3750,11 @@
       "file": "app/views/notifications/_subforemchange.html.erb",
       "line": 1,
       "specre_id": "01KHYYG7CT65AXSS0G8M61RW6N"
+    },
+    {
+      "file": "app/views/notifications/_tagadjustment.html.erb",
+      "line": 1,
+      "specre_id": "01KJ15W5XTEVQVJN1FCRNWEKAB"
     },
     {
       "file": "app/views/notifications/shared/_profile_pic.html.erb",
@@ -4747,6 +4822,11 @@
       "specre_id": "01KHZKCR70BAFQ159BEQFXBJQW"
     },
     {
+      "file": "spec/factories/tag_adjustments.rb",
+      "line": 1,
+      "specre_id": "01KJ3ZG8Z0CF01S5WC6MP62WS6"
+    },
+    {
       "file": "spec/factories/tag_subforem_relationships.rb",
       "line": 1,
       "specre_id": "01KHYY9VPHV3N120R4QWFZ0SYK"
@@ -5372,6 +5452,11 @@
       "specre_id": "01KHZKDENF1FEDNJQD6XXKWAKZ"
     },
     {
+      "file": "spec/models/tag_adjustment_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ3ZG8Z0CF01S5WC6MP62WS6"
+    },
+    {
       "file": "spec/models/users/notification_setting_spec.rb",
       "line": 1,
       "specre_id": "01KHZ454YXRB8TWV8PC06P4EQ5"
@@ -5545,6 +5630,16 @@
       "file": "spec/requests/admin/surveys_spec.rb",
       "line": 4,
       "specre_id": "01KHZM8WACKF3RJZT65WP2P2E9"
+    },
+    {
+      "file": "spec/requests/admin/tags/moderators_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ405PD1DE1M82CXWR67V9TT"
+    },
+    {
+      "file": "spec/requests/admin/tags/moderators_spec.rb",
+      "line": 2,
+      "specre_id": "01KJ405WSWNE4WHSJVXZ8G81GZ"
     },
     {
       "file": "spec/requests/admin/users_manage_spec.rb",
@@ -5925,6 +6020,11 @@
       "file": "spec/requests/surveys_spec.rb",
       "line": 1,
       "specre_id": "01KHZKCR70BAFQ159BEQFXBJQW"
+    },
+    {
+      "file": "spec/requests/tag_adjustments_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ3ZG8Z0CF01S5WC6MP62WS6"
     },
     {
       "file": "spec/requests/universal_links_spec.rb",
@@ -6435,6 +6535,31 @@
       "file": "spec/services/subforem_reassignment_service_spec.rb",
       "line": 1,
       "specre_id": "01KHYYF2GKNFJF3ZE6PR6X8X9V"
+    },
+    {
+      "file": "spec/services/tag_adjustment_creation_service_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ3ZG8Z0CF01S5WC6MP62WS6"
+    },
+    {
+      "file": "spec/services/tag_adjustment_update_service_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ3ZG8Z0CF01S5WC6MP62WS6"
+    },
+    {
+      "file": "spec/services/tag_moderators/add_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ405PD1DE1M82CXWR67V9TT"
+    },
+    {
+      "file": "spec/services/tag_moderators/add_trusted_role_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ405PD1DE1M82CXWR67V9TT"
+    },
+    {
+      "file": "spec/services/tag_moderators/remove_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ405WSWNE4WHSJVXZ8G81GZ"
     },
     {
       "file": "spec/services/users/approved_liquid_tags_spec.rb",
@@ -8745,6 +8870,30 @@
       "last_verified": "2026-02-23",
       "name": "system_enables_mobile_deep_linking",
       "path": "docs/specres/consumer_apps/system_enables_mobile_deep_linking.md",
+      "status": "stable"
+    },
+    {
+      "domain": "tags",
+      "id": "01KJ3ZG8Z0CF01S5WC6MP62WS6",
+      "last_verified": "2026-02-23",
+      "name": "moderator_can_adjust_article_tags",
+      "path": "docs/specres/tags/tag_adjustments/moderator_can_adjust_article_tags.md",
+      "status": "stable"
+    },
+    {
+      "domain": "tags",
+      "id": "01KJ405PD1DE1M82CXWR67V9TT",
+      "last_verified": "2026-02-23",
+      "name": "admin_can_assign_tag_moderator_to_tag",
+      "path": "docs/specres/tags/tag_moderator/admin_can_assign_tag_moderator_to_tag.md",
+      "status": "stable"
+    },
+    {
+      "domain": "tags",
+      "id": "01KJ405WSWNE4WHSJVXZ8G81GZ",
+      "last_verified": "2026-02-23",
+      "name": "admin_can_remove_tag_moderator_from_tag",
+      "path": "docs/specres/tags/tag_moderator/admin_can_remove_tag_moderator_from_tag.md",
       "status": "stable"
     }
   ],

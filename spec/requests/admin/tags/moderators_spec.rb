@@ -1,3 +1,5 @@
+# @specre 01KJ405PD1DE1M82CXWR67V9TT
+# @specre 01KJ405WSWNE4WHSJVXZ8G81GZ
 require "rails_helper"
 
 RSpec.describe "/admin/content_manager/tags/:id/moderator" do

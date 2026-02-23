@@ -1,3 +1,4 @@
+# @specre 01KJ3ZG8Z0CF01S5WC6MP62WS6
 FactoryBot.define do
   factory :tag_adjustment do
     user_id               { 1 }

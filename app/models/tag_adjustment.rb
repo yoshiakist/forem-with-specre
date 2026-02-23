@@ -1,3 +1,4 @@
+# @specre 01KJ3ZG8Z0CF01S5WC6MP62WS6
 class TagAdjustment < ApplicationRecord
   validates :tag_name, presence: true
   validates :adjustment_type, inclusion: { in: %w[removal addition] }, presence: true
