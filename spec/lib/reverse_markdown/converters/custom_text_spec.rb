@@ -1,3 +1,4 @@
+# @specre 01KJ2XAS3VHER16YT45BKAW3YF
 require "rails_helper"
 
 RSpec.describe ReverseMarkdown::Converters::CustomText, type: :lib do

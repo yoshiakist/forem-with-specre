@@ -1,3 +1,4 @@
+# @specre 01KJ2X9JEDPKB2DTN1GAMBQ254
 # To go through a markdown document. Mainly used to decide if we are in
 # code blocks to decide if we should escape underscored usernames.
 module MarkdownProcessor

@@ -1,3 +1,4 @@
+# @specre 01KJ2XAS3VHER16YT45BKAW3YF
 module ReverseMarkdown
   module Converters
     class CustomText < Base
