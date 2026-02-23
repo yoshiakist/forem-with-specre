@@ -1,3 +1,4 @@
+# @specre 01KJ6C1WBXTZN9GA5WYQPMQJSA
 require "rails_helper"
 
 RSpec.describe "Viewing a collection" do

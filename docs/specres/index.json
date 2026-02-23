@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-23T14:31:06Z",
+  "generated_at": "2026-02-23T23:09:00Z",
   "source_refs": [
     {
       "file": "app/assets/javascripts/initializers/initializeAllTagEditButtons.js",
@@ -335,6 +335,16 @@
       "file": "app/controllers/api/v1/tags_controller.rb",
       "line": 1,
       "specre_id": "01KJ41E1Q931QJ3XZVWRJJ1PJX"
+    },
+    {
+      "file": "app/controllers/collections_controller.rb",
+      "line": 1,
+      "specre_id": "01KJ6C1WBXTZN9GA5WYQPMQJSA"
+    },
+    {
+      "file": "app/controllers/collections_controller.rb",
+      "line": 2,
+      "specre_id": "01KJ6BZ9FHN72VNWP7JGG6DWBZ"
     },
     {
       "file": "app/controllers/comments_controller.rb",
@@ -1955,6 +1965,21 @@
       "file": "app/models/articles/feeds/variant_assembler.rb",
       "line": 1,
       "specre_id": "01KJ246P62P50ED5YJNGJ50J3J"
+    },
+    {
+      "file": "app/models/collection.rb",
+      "line": 1,
+      "specre_id": "01KJ6C4VF5JP25A07CJA19PQHX"
+    },
+    {
+      "file": "app/models/collection.rb",
+      "line": 2,
+      "specre_id": "01KJ6C1WBXTZN9GA5WYQPMQJSA"
+    },
+    {
+      "file": "app/models/collection.rb",
+      "line": 3,
+      "specre_id": "01KJ6BZ9FHN72VNWP7JGG6DWBZ"
     },
     {
       "file": "app/models/comment.rb",
@@ -5332,6 +5357,21 @@
       "specre_id": "01KHZ78Z9A3R2NWZF2B6EZ82AJ"
     },
     {
+      "file": "spec/factories/collections.rb",
+      "line": 1,
+      "specre_id": "01KJ6C4VF5JP25A07CJA19PQHX"
+    },
+    {
+      "file": "spec/factories/collections.rb",
+      "line": 2,
+      "specre_id": "01KJ6C1WBXTZN9GA5WYQPMQJSA"
+    },
+    {
+      "file": "spec/factories/collections.rb",
+      "line": 3,
+      "specre_id": "01KJ6BZ9FHN72VNWP7JGG6DWBZ"
+    },
+    {
       "file": "spec/factories/consumer_apps.rb",
       "line": 1,
       "specre_id": "01KJ3YXYAR6AARATJH02XHAEVW"
@@ -5850,6 +5890,11 @@
       "file": "spec/models/billboard_survey_exclusion_spec.rb",
       "line": 1,
       "specre_id": "01KJ2HPF2KC2HBFRV0NS32DFR7"
+    },
+    {
+      "file": "spec/models/collection_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ6C4VF5JP25A07CJA19PQHX"
     },
     {
       "file": "spec/models/comment_spec.rb",
@@ -6485,6 +6530,16 @@
       "file": "spec/requests/articles/articles_feed_spec.rb",
       "line": 1,
       "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
+    },
+    {
+      "file": "spec/requests/collections_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ6C1WBXTZN9GA5WYQPMQJSA"
+    },
+    {
+      "file": "spec/requests/collections_spec.rb",
+      "line": 2,
+      "specre_id": "01KJ6BZ9FHN72VNWP7JGG6DWBZ"
     },
     {
       "file": "spec/requests/comments_create_spec.rb",
@@ -7465,6 +7520,16 @@
       "file": "spec/system/authentication/user_logs_in_with_github_spec.rb",
       "line": 1,
       "specre_id": "01KJ1SC4G6BA2RNA55TP5WGNVN"
+    },
+    {
+      "file": "spec/system/collections/user_views_collection_articles_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ6C1WBXTZN9GA5WYQPMQJSA"
+    },
+    {
+      "file": "spec/system/collections/user_views_collections_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ6BZ9FHN72VNWP7JGG6DWBZ"
     },
     {
       "file": "spec/system/comments/like_button_state_after_reply_spec.rb",
@@ -10050,6 +10115,30 @@
       "name": "admin_soft_deletes_comment",
       "path": "docs/specres/comments/admin_soft_deletes_comment.md",
       "status": "draft"
+    },
+    {
+      "domain": "collections",
+      "id": "01KJ6BZ9FHN72VNWP7JGG6DWBZ",
+      "last_verified": "2026-02-24",
+      "name": "user_views_collections_for_author",
+      "path": "docs/specres/collections/user_views_collections_for_author.md",
+      "status": "stable"
+    },
+    {
+      "domain": "collections",
+      "id": "01KJ6C1WBXTZN9GA5WYQPMQJSA",
+      "last_verified": "2026-02-24",
+      "name": "user_views_articles_in_collection",
+      "path": "docs/specres/collections/user_views_articles_in_collection.md",
+      "status": "stable"
+    },
+    {
+      "domain": "collections",
+      "id": "01KJ6C4VF5JP25A07CJA19PQHX",
+      "last_verified": "2026-02-24",
+      "name": "system_resolves_collection_for_article_series",
+      "path": "docs/specres/collections/system_resolves_collection_for_article_series.md",
+      "status": "stable"
     }
   ],
   "version": 1

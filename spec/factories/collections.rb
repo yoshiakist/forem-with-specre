@@ -1,3 +1,6 @@
+# @specre 01KJ6C4VF5JP25A07CJA19PQHX
+# @specre 01KJ6C1WBXTZN9GA5WYQPMQJSA
+# @specre 01KJ6BZ9FHN72VNWP7JGG6DWBZ
 FactoryBot.define do
   factory :collection do
     user
