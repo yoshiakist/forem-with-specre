@@ -8,6 +8,13 @@ Your goal: create specre specification cards for source files that currently lac
 
 **Model strategy:** The main agent (Opus) handles Phase 0–2 (discovery and behavior classification — creative work requiring judgment) and Phase 4 (validation). Phase 3 (card generation — structured execution) is delegated to Sonnet subagents in parallel batches. This reduces cost and latency while preserving quality where it matters most.
 
+**Skill loading protocol — STRICTLY DEFERRED:**
+This workflow references three skill files. You MUST NOT read any of them until the specific phase that requires it. Do NOT pre-load, pre-read, or "skim" skill files at the start of the workflow. Each skill file is loaded exactly once, at the phase boundary where its `MANDATORY SKILL LOAD` directive appears. Reading a skill file before reaching its phase wastes context window space and degrades performance in later phases.
+
+- `.claude/skills/specre-cocoindex-sql-cookbook/SKILL.md` → read only when you reach **Phase 1**
+- `.claude/skills/specre-behavior-classification/SKILL.md` → read only when you reach **Phase 2**
+- `.claude/skills/specre-card-generation-template/SKILL.md` → read only when you reach **Phase 3**
+
 **Prerequisites:**
 - cocoindex must be installed and the `CodebaseIndex` flow must have been run (see `code_index.py`).
 - PostgreSQL container `cocoindex_postgres` must be running.
@@ -30,7 +37,7 @@ Your goal: create specre specification cards for source files that currently lac
 
 ## Phase 1: Discovery
 
-> **MANDATORY SKILL LOAD — DO NOT SKIP.** Before proceeding, read the `specre-cocoindex-sql-cookbook` skill at `.claude/skills/specre-cocoindex-sql-cookbook/SKILL.md`. This step is non-optional; skipping it will produce incorrect domain isolation queries and miss edge cases for large domains.
+> **MANDATORY SKILL LOAD — DO NOT SKIP.** You are now entering Phase 1. Read the `specre-cocoindex-sql-cookbook` skill at `.claude/skills/specre-cocoindex-sql-cookbook/SKILL.md` **now** (not before this point). This step is non-optional; skipping it will produce incorrect domain isolation queries and miss edge cases for large domains.
 
 Phase 1 replaces the `domain-discovery.py` script with SQL queries against the cocoindex-indexed codebase. The indexed table `codebaseindex__code_embeddings` contains every source file's content (chunked), filename, detected language, and embedding vector.
 
@@ -81,7 +88,7 @@ Log the total file count, layer distribution, tagged vs. untagged breakdown, and
 
 ## Phase 2: Behavior Classification
 
-> **MANDATORY SKILL LOAD — DO NOT SKIP.** Before proceeding, read the `specre-behavior-classification` skill at `.claude/skills/specre-behavior-classification/SKILL.md`. This step is non-optional; skipping it will produce cards that are incorrectly scoped by code layer instead of by observable behavior, miss the 9-point validation checklist, and use prohibited naming patterns.
+> **MANDATORY SKILL LOAD — DO NOT SKIP.** You are now entering Phase 2. Read the `specre-behavior-classification` skill at `.claude/skills/specre-behavior-classification/SKILL.md` **now** (not before this point). This step is non-optional; skipping it will produce cards that are incorrectly scoped by code layer instead of by observable behavior, miss the 9-point validation checklist, and use prohibited naming patterns.
 
 **Purpose:** Build a complete picture of the domain's behaviors BEFORE creating any cards. This prevents duplicate cards, identifies cross-file behaviors, and establishes a logical generation order.
 
@@ -96,7 +103,7 @@ If the catalog passes all checks, proceed directly to Phase 3 without pausing fo
 
 ## Phase 3: Delegated Card Generation
 
-> **MANDATORY SKILL LOAD — DO NOT SKIP.** Before proceeding, read the `specre-card-generation-template` skill at `.claude/skills/specre-card-generation-template/SKILL.md`. This step is non-optional; skipping it will produce subagent prompts that lack the required structure and result format.
+> **MANDATORY SKILL LOAD — DO NOT SKIP.** You are now entering Phase 3. Read the `specre-card-generation-template` skill at `.claude/skills/specre-card-generation-template/SKILL.md` **now** (not before this point). This step is non-optional; skipping it will produce subagent prompts that lack the required structure and result format.
 
 **Model strategy:** Phase 3 is structured execution following the catalog, so each card is delegated to a **Sonnet subagent** via the Task tool (`model: "sonnet"`, `subagent_type: "general-purpose"`).
 
@@ -150,4 +157,4 @@ Cards remaining as draft:
 - **Never modify source files** beyond inserting `@specre` markers via `specre tag`.
 - **`.jbuilder` files are not taggable.** Include in Related Files but skip `specre tag`.
 - **Keep cocoindex updated.** If source files have changed significantly since the last index, advise the user to run `cocoindex update code_index` before proceeding.
-- **Skill loads are mandatory.** Every `MANDATORY SKILL LOAD` directive in this workflow MUST be executed. Skipping a skill load is a workflow violation that will produce incorrect output.
+- **Skill loads are mandatory and strictly deferred.** Every `MANDATORY SKILL LOAD` directive in this workflow MUST be executed — but only when that phase is reached. Do NOT pre-read or pre-load any skill file before arriving at its phase boundary. Reading skills early wastes context window space and causes instructions in later phases to be ignored.
