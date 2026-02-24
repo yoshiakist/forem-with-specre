@@ -25,3 +25,4 @@
 | [system_delivers_data_export_email](mailer_templates/system_delivers_data_export_email.md) | stable | 2026-02-24 |
 | [system_sends_trusted_role_confirmation_email](mailer_templates/system_sends_trusted_role_confirmation_email.md) | stable | 2026-02-24 |
 | [system_sends_subscriber_role_email](mailer_templates/system_sends_subscriber_role_email.md) | stable | 2026-02-24 |
+| [user_unsubscribes_from_email_notifications](email_subscriptions/user_unsubscribes_from_email_notifications.md) | stable | 2026-02-24 |

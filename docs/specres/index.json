@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-24T05:46:21Z",
+  "generated_at": "2026-02-24T05:53:28Z",
   "source_refs": [
     {
       "file": "app/assets/javascripts/initializers/initializeAllTagEditButtons.js",
@@ -615,6 +615,11 @@
       "file": "app/controllers/devices_controller.rb",
       "line": 1,
       "specre_id": "01KJ3YY1P1TX3DWW24AABW70MT"
+    },
+    {
+      "file": "app/controllers/email_subscriptions_controller.rb",
+      "line": 1,
+      "specre_id": "01KJ736Y1WVQNF8YCCRM4FNN86"
     },
     {
       "file": "app/controllers/feed_events_controller.rb",
@@ -2219,6 +2224,11 @@
     {
       "file": "app/mailers/application_mailer.rb",
       "line": 1,
+      "specre_id": "01KJ736Y1WVQNF8YCCRM4FNN86"
+    },
+    {
+      "file": "app/mailers/application_mailer.rb",
+      "line": 2,
       "specre_id": "01KJ72941YA33EA9WDJ7TVJA6P"
     },
     {
@@ -7997,6 +8007,11 @@
       "specre_id": "01KJ3YY1P1TX3DWW24AABW70MT"
     },
     {
+      "file": "spec/requests/email_subscriptions_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ736Y1WVQNF8YCCRM4FNN86"
+    },
+    {
       "file": "spec/requests/feed_events_spec.rb",
       "line": 1,
       "specre_id": "01KJ24DBM92V2E2RDET8BZEWTZ"
@@ -9245,6 +9260,11 @@
       "file": "spec/views/credits/new.html.erb_spec.rb",
       "line": 1,
       "specre_id": "01KJ2SF6J4K95BTZRSZG5AA811"
+    },
+    {
+      "file": "spec/views/email_subscriptions/unsubscribe.html.erb_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ736Y1WVQNF8YCCRM4FNN86"
     },
     {
       "file": "spec/views/podcast_episodes/index.html.erb_spec.rb",
@@ -12391,6 +12411,14 @@
       "last_verified": "2026-02-24",
       "name": "system_sends_subscriber_role_email",
       "path": "docs/specres/emails/mailer_templates/system_sends_subscriber_role_email.md",
+      "status": "stable"
+    },
+    {
+      "domain": "emails",
+      "id": "01KJ736Y1WVQNF8YCCRM4FNN86",
+      "last_verified": "2026-02-24",
+      "name": "user_unsubscribes_from_email_notifications",
+      "path": "docs/specres/emails/email_subscriptions/user_unsubscribes_from_email_notifications.md",
       "status": "stable"
     }
   ],

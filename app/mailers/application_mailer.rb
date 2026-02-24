@@ -1,3 +1,4 @@
+# @specre 01KJ736Y1WVQNF8YCCRM4FNN86
 # @specre 01KJ72941YA33EA9WDJ7TVJA6P
 class ApplicationMailer < ActionMailer::Base
   layout "mailer"
