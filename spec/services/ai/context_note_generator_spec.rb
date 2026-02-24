@@ -1,3 +1,4 @@
+# @specre 01KJ6T8JKWPBA7WFHVR2JD7XMM
 require 'rails_helper'
 
 # Specs for the Ai::ContextNoteGenerator service

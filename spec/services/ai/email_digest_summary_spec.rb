@@ -1,3 +1,4 @@
+# @specre 01KJ6T999JZFEAT9S2K18TXENM
 require "rails_helper"
 
 RSpec.describe Ai::EmailDigestSummary, type: :service do

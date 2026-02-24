@@ -1,3 +1,4 @@
+# @specre 01KJ6T87H9941SA2KXBV3E702M
 module Ai
   class CommunityCopy
     MAX_RETRIES = 3

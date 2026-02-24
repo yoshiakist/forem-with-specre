@@ -1,3 +1,4 @@
+# @specre 01KJ6T0FTCFV8J7DD5NS206RSK
 module Ai
   ##
   # Analyzes an article to determine if it is likely spam.

@@ -1,3 +1,4 @@
+# @specre 01KJ6T87H9941SA2KXBV3E702M
 require "rails_helper"
 
 RSpec.describe Ai::CommunityCopy do

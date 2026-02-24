@@ -1,3 +1,4 @@
+# @specre 01KJ6SZXEKKJCHRY9A615KYNKV
 module Ai
   class ChatService
     def initialize(user, history: [])

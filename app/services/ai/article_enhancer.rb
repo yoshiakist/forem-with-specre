@@ -1,3 +1,4 @@
+# @specre 01KJ6T4889WNMG34MDX8NHNQF3
 module Ai
   ##
   # Enhances articles by calculating clickbait scores and generating tags.

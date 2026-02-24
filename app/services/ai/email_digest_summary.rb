@@ -1,3 +1,4 @@
+# @specre 01KJ6T999JZFEAT9S2K18TXENM
 module Ai
   class EmailDigestSummary
     def initialize(articles, ai_client: nil)

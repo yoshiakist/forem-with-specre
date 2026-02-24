@@ -1,3 +1,4 @@
+# @specre 01KJ6T0E5ZHZPXH2FM05E4X6Q6
 require "base64"
 require "tempfile"
 

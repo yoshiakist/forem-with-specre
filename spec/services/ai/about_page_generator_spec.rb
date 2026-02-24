@@ -1,3 +1,4 @@
+# @specre 01KJ6T4YYTJCCBGXEKWYZVX4J1
 require "rails_helper"
 
 RSpec.describe Ai::AboutPageGenerator do

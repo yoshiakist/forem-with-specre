@@ -1,3 +1,4 @@
+# @specre 01KJ6T4889WNMG34MDX8NHNQF3
 require "rails_helper"
 
 RSpec.describe Ai::ArticleEnhancer, type: :service do
