@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-24T04:57:58Z",
+  "generated_at": "2026-02-24T05:24:56Z",
   "source_refs": [
     {
       "file": "app/assets/javascripts/initializers/initializeAllTagEditButtons.js",
@@ -2217,6 +2217,11 @@
       "specre_id": "01KJ1FH9QT2V3RGNJKW67RHNR5"
     },
     {
+      "file": "app/mailers/digest_mailer.rb",
+      "line": 1,
+      "specre_id": "01KJ71J0WWYVQ1PD8KP1MBS1W0"
+    },
+    {
       "file": "app/mailers/organization_invitation_mailer.rb",
       "line": 1,
       "specre_id": "01KJ02DSNZVDY9J6F8MHMCEYZF"
@@ -3405,6 +3410,21 @@
       "file": "app/services/edge_cache/bust_tag.rb",
       "line": 1,
       "specre_id": "01KJ41NGKZDC2HQCNEQDKZYTDM"
+    },
+    {
+      "file": "app/services/email_digest.rb",
+      "line": 1,
+      "specre_id": "01KJ71F6JXM4PY31DJJW0N2R5S"
+    },
+    {
+      "file": "app/services/email_digest_article_collector.rb",
+      "line": 1,
+      "specre_id": "01KJ71NMHAZE5XNJDG4DDR4DW4"
+    },
+    {
+      "file": "app/services/email_digest_article_collector.rb",
+      "line": 2,
+      "specre_id": "01KJ71GQ5Q0CAKGDZFZFFPKXZW"
     },
     {
       "file": "app/services/exporter/comments.rb",
@@ -5777,6 +5797,16 @@
       "specre_id": "01KJ2SZQQG4JYPHKNCN2BSNYMN"
     },
     {
+      "file": "app/workers/emails/enqueue_digest_worker.rb",
+      "line": 1,
+      "specre_id": "01KJ71F6JXM4PY31DJJW0N2R5S"
+    },
+    {
+      "file": "app/workers/emails/send_user_digest_worker.rb",
+      "line": 1,
+      "specre_id": "01KJ71J0WWYVQ1PD8KP1MBS1W0"
+    },
+    {
       "file": "app/workers/emails/survey_daily_email_worker.rb",
       "line": 1,
       "specre_id": "01KJ2HPEMKQB5YCRAJ8PVF25SD"
@@ -6607,6 +6637,11 @@
       "specre_id": "01KJ1FH9QT2V3RGNJKW67RHNR5"
     },
     {
+      "file": "spec/mailers/digest_mailer_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ71J0WWYVQ1PD8KP1MBS1W0"
+    },
+    {
       "file": "spec/mailers/organization_invitation_mailer_spec.rb",
       "line": 1,
       "specre_id": "01KJ02DSNZVDY9J6F8MHMCEYZF"
@@ -6615,6 +6650,11 @@
       "file": "spec/mailers/organization_membership_notification_mailer_spec.rb",
       "line": 1,
       "specre_id": "01KJ02DSNZVDY9J6F8MHMCEYZF"
+    },
+    {
+      "file": "spec/mailers/previews/digest_mailer_preview.rb",
+      "line": 1,
+      "specre_id": "01KJ71J0WWYVQ1PD8KP1MBS1W0"
     },
     {
       "file": "spec/mailers/previews/notify_mailer_preview.rb",
@@ -8172,6 +8212,21 @@
       "specre_id": "01KJ41NGKZDC2HQCNEQDKZYTDM"
     },
     {
+      "file": "spec/services/email_digest_article_collector_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ71NMHAZE5XNJDG4DDR4DW4"
+    },
+    {
+      "file": "spec/services/email_digest_article_collector_spec.rb",
+      "line": 2,
+      "specre_id": "01KJ71GQ5Q0CAKGDZFZFFPKXZW"
+    },
+    {
+      "file": "spec/services/email_digest_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ71F6JXM4PY31DJJW0N2R5S"
+    },
+    {
       "file": "spec/services/exporter/comments_spec.rb",
       "line": 1,
       "specre_id": "01KJ5DKW47KSVWWH6R13NNG8EM"
@@ -8875,6 +8930,16 @@
       "file": "spec/workers/data_update_worker_spec.rb",
       "line": 2,
       "specre_id": "01KJ2SZQQG4JYPHKNCN2BSNYMN"
+    },
+    {
+      "file": "spec/workers/emails/enqueue_digest_worker_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ71F6JXM4PY31DJJW0N2R5S"
+    },
+    {
+      "file": "spec/workers/emails/send_user_digest_worker_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ71J0WWYVQ1PD8KP1MBS1W0"
     },
     {
       "file": "spec/workers/emails/survey_daily_email_worker_spec.rb",
@@ -11748,6 +11813,38 @@
       "name": "admin_views_experiment_results",
       "path": "docs/specres/ab_experiment/admin_views_experiment_results.md",
       "status": "draft"
+    },
+    {
+      "domain": "emails",
+      "id": "01KJ71F6JXM4PY31DJJW0N2R5S",
+      "last_verified": "2026-02-24",
+      "name": "system_dispatches_periodic_digest_emails",
+      "path": "docs/specres/emails/email_digest/system_dispatches_periodic_digest_emails.md",
+      "status": "stable"
+    },
+    {
+      "domain": "emails",
+      "id": "01KJ71GQ5Q0CAKGDZFZFFPKXZW",
+      "last_verified": "2026-02-24",
+      "name": "system_selects_personalized_articles_for_digest",
+      "path": "docs/specres/emails/email_digest/system_selects_personalized_articles_for_digest.md",
+      "status": "stable"
+    },
+    {
+      "domain": "emails",
+      "id": "01KJ71J0WWYVQ1PD8KP1MBS1W0",
+      "last_verified": "2026-02-24",
+      "name": "system_composes_and_delivers_digest_email",
+      "path": "docs/specres/emails/email_digest/system_composes_and_delivers_digest_email.md",
+      "status": "stable"
+    },
+    {
+      "domain": "emails",
+      "id": "01KJ71NMHAZE5XNJDG4DDR4DW4",
+      "last_verified": "2026-02-24",
+      "name": "system_determines_digest_email_send_eligibility",
+      "path": "docs/specres/emails/email_digest/system_determines_digest_email_send_eligibility.md",
+      "status": "stable"
     }
   ],
   "version": 1

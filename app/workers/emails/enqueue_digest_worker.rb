@@ -1,3 +1,4 @@
+# @specre 01KJ71F6JXM4PY31DJJW0N2R5S
 module Emails
   class EnqueueDigestWorker
     include Sidekiq::Job

@@ -1,3 +1,4 @@
+# @specre 01KJ71J0WWYVQ1PD8KP1MBS1W0
 module Emails
   class SendUserDigestWorker
     include Sidekiq::Job

@@ -1,3 +1,5 @@
+# @specre 01KJ71NMHAZE5XNJDG4DDR4DW4
+# @specre 01KJ71GQ5Q0CAKGDZFZFFPKXZW
 class EmailDigestArticleCollector
   include FieldTest::Helpers
   include Instrumentation

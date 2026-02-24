@@ -1,3 +1,4 @@
+# @specre 01KJ71J0WWYVQ1PD8KP1MBS1W0
 class DigestMailer < ApplicationMailer
   default from: -> { email_from(I18n.t("mailers.digest_mailer.from")) }
 

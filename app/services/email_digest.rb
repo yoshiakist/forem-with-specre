@@ -1,3 +1,4 @@
+# @specre 01KJ71F6JXM4PY31DJJW0N2R5S
 class EmailDigest
   def self.send_periodic_digest_email(users = [], starting_id = 1, ending_id = 50_000_000)
     new(users, starting_id, ending_id).send_periodic_digest_email
