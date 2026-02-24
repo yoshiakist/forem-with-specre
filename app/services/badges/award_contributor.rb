@@ -1,3 +1,4 @@
+# @specre 01KJ6FRX20G8Y8FWD3TSEKZQPP
 module Badges
   class AwardContributor
     BADGE_SLUG = "dev-contributor".freeze

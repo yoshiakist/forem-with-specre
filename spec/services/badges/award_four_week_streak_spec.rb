@@ -1,3 +1,4 @@
+# @specre 01KJ6FJWX16YC4Y1JXWM0A595S
 require "rails_helper"
 
 RSpec.describe Badges::AwardFourWeekStreak, type: :service do

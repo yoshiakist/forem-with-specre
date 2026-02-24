@@ -1,3 +1,4 @@
+# @specre 01KJ6FFA2FH0HVDCGYH9XQB3GG
 module Api
   module BadgesController
     extend ActiveSupport::Concern

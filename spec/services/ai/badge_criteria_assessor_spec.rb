@@ -1,3 +1,4 @@
+# @specre 01KJ6FVWDXD1GEJNCWP4D2SAK0
 require "rails_helper"
 
 RSpec.describe Ai::BadgeCriteriaAssessor do

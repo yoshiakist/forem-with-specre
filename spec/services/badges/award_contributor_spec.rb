@@ -1,3 +1,4 @@
+# @specre 01KJ6FRX20G8Y8FWD3TSEKZQPP
 require "rails_helper"
 
 RSpec.describe Badges::AwardContributor, type: :service do

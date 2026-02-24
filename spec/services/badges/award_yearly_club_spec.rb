@@ -1,3 +1,4 @@
+# @specre 01KJ6FP6NRZAWBSV32RZESNH58
 require "rails_helper"
 
 RSpec.describe Badges::AwardYearlyClub, type: :service do

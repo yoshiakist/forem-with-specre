@@ -1,3 +1,5 @@
+# @specre 01KJ6FEDNZHYXEPQG8RAJDXB3D
+# @specre 01KJ6FBFV0DKQVMBPB49V7ZKCB
 module Admin
   class BadgeAchievementsController < Admin::ApplicationController
     layout "admin"

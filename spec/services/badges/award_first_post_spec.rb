@@ -1,3 +1,4 @@
+# @specre 01KJ6FJVGJTRP7GFQ8571CMTM8
 require "rails_helper"
 
 RSpec.describe Badges::AwardFirstPost do

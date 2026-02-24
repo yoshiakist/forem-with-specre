@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-23T23:54:09Z",
+  "generated_at": "2026-02-24T00:14:40Z",
   "source_refs": [
     {
       "file": "app/assets/javascripts/initializers/initializeAllTagEditButtons.js",
@@ -50,6 +50,26 @@
       "file": "app/assets/stylesheets/settings.scss",
       "line": 1,
       "specre_id": "01KHZ3R448RA411ZP1V33AX5MR"
+    },
+    {
+      "file": "app/controllers/admin/badge_achievements_controller.rb",
+      "line": 1,
+      "specre_id": "01KJ6FEDNZHYXEPQG8RAJDXB3D"
+    },
+    {
+      "file": "app/controllers/admin/badge_achievements_controller.rb",
+      "line": 2,
+      "specre_id": "01KJ6FBFV0DKQVMBPB49V7ZKCB"
+    },
+    {
+      "file": "app/controllers/admin/badge_automations_controller.rb",
+      "line": 1,
+      "specre_id": "01KJ6FF3R4FQCEVGKVPFYYPY8Y"
+    },
+    {
+      "file": "app/controllers/admin/badges_controller.rb",
+      "line": 1,
+      "specre_id": "01KJ6FB22VF10D4883F2B226HM"
     },
     {
       "file": "app/controllers/admin/billboard_placement_area_configs_controller.rb",
@@ -307,6 +327,16 @@
       "specre_id": "01KJ24JR0FK5MWHWK01QF0434H"
     },
     {
+      "file": "app/controllers/api/v0/badge_achievements_controller.rb",
+      "line": 1,
+      "specre_id": "01KJ6FJA4XS9P5A266ZFW6Q7Y4"
+    },
+    {
+      "file": "app/controllers/api/v0/badges_controller.rb",
+      "line": 1,
+      "specre_id": "01KJ6FFA2FH0HVDCGYH9XQB3GG"
+    },
+    {
       "file": "app/controllers/api/v0/comments_controller.rb",
       "line": 1,
       "specre_id": "01KJ5DK8KFA45BXJWFAD1VNYMS"
@@ -345,6 +375,16 @@
       "file": "app/controllers/api/v0/tags_controller.rb",
       "line": 1,
       "specre_id": "01KJ41E1Q931QJ3XZVWRJJ1PJX"
+    },
+    {
+      "file": "app/controllers/api/v1/badge_achievements_controller.rb",
+      "line": 1,
+      "specre_id": "01KJ6FJA4XS9P5A266ZFW6Q7Y4"
+    },
+    {
+      "file": "app/controllers/api/v1/badges_controller.rb",
+      "line": 1,
+      "specre_id": "01KJ6FFA2FH0HVDCGYH9XQB3GG"
     },
     {
       "file": "app/controllers/api/v1/billboards_controller.rb",
@@ -407,6 +447,11 @@
       "specre_id": "01KJ41E1Q931QJ3XZVWRJJ1PJX"
     },
     {
+      "file": "app/controllers/badges_controller.rb",
+      "line": 1,
+      "specre_id": "01KJ6FAFV9D47QGGRY76KPKNC4"
+    },
+    {
       "file": "app/controllers/billboard_events_controller.rb",
       "line": 1,
       "specre_id": "01KJ6E7W8QWARD67FEGBQWTH1T"
@@ -460,6 +505,16 @@
       "file": "app/controllers/comments_controller.rb",
       "line": 7,
       "specre_id": "01KJ1ARF08DVRQE65SWASWAFWJ"
+    },
+    {
+      "file": "app/controllers/concerns/api/badge_achievements_controller.rb",
+      "line": 1,
+      "specre_id": "01KJ6FJA4XS9P5A266ZFW6Q7Y4"
+    },
+    {
+      "file": "app/controllers/concerns/api/badges_controller.rb",
+      "line": 1,
+      "specre_id": "01KJ6FFA2FH0HVDCGYH9XQB3GG"
     },
     {
       "file": "app/controllers/concerns/api/comments_controller.rb",
@@ -2147,6 +2202,26 @@
       "specre_id": "01KJ246P62P50ED5YJNGJ50J3J"
     },
     {
+      "file": "app/models/badge.rb",
+      "line": 1,
+      "specre_id": "01KJ6FB22VF10D4883F2B226HM"
+    },
+    {
+      "file": "app/models/badge.rb",
+      "line": 2,
+      "specre_id": "01KJ6FAFV9D47QGGRY76KPKNC4"
+    },
+    {
+      "file": "app/models/badge_achievement.rb",
+      "line": 1,
+      "specre_id": "01KJ6FWPJPKHJ0DPDHTN5AESN1"
+    },
+    {
+      "file": "app/models/badge_achievement.rb",
+      "line": 2,
+      "specre_id": "01KJ6FEDNZHYXEPQG8RAJDXB3D"
+    },
+    {
       "file": "app/models/billboard.rb",
       "line": 1,
       "specre_id": "01KJ6EPTF1F31WB6DRV0YHEZ0N"
@@ -2687,6 +2762,21 @@
       "specre_id": "01KJ1EZV154EB8MH5FS06CB6XT"
     },
     {
+      "file": "app/policies/badge_achievement_policy.rb",
+      "line": 1,
+      "specre_id": "01KJ6FJA4XS9P5A266ZFW6Q7Y4"
+    },
+    {
+      "file": "app/policies/badge_policy.rb",
+      "line": 1,
+      "specre_id": "01KJ6FFA2FH0HVDCGYH9XQB3GG"
+    },
+    {
+      "file": "app/policies/badge_policy.rb",
+      "line": 2,
+      "specre_id": "01KJ6FB22VF10D4883F2B226HM"
+    },
+    {
       "file": "app/policies/comment_policy.rb",
       "line": 1,
       "specre_id": "01KJ5E2R9YYMDP0Q8147BK9704"
@@ -2867,6 +2957,11 @@
       "specre_id": "01KHZ25T4PNZ33CT917WZ25JYT"
     },
     {
+      "file": "app/services/ai/badge_criteria_assessor.rb",
+      "line": 1,
+      "specre_id": "01KJ6FVWDXD1GEJNCWP4D2SAK0"
+    },
+    {
       "file": "app/services/ai/comment_check.rb",
       "line": 1,
       "specre_id": "01KJ43E9107K5RBF375S75E2PV"
@@ -2967,9 +3062,24 @@
       "specre_id": "01KJ1SC4G6BA2RNA55TP5WGNVN"
     },
     {
+      "file": "app/services/badges/award.rb",
+      "line": 1,
+      "specre_id": "01KJ6FBFV0DKQVMBPB49V7ZKCB"
+    },
+    {
       "file": "app/services/badges/award_beloved_comment.rb",
       "line": 1,
       "specre_id": "01KJ44ESWEHQ6F18H90M3CCGNA"
+    },
+    {
+      "file": "app/services/badges/award_community_wellness.rb",
+      "line": 1,
+      "specre_id": "01KJ6FNWH1CEFRKAV2VSJC9213"
+    },
+    {
+      "file": "app/services/badges/award_contributor.rb",
+      "line": 1,
+      "specre_id": "01KJ6FRX20G8Y8FWD3TSEKZQPP"
     },
     {
       "file": "app/services/badges/award_contributor_from_github.rb",
@@ -2977,9 +3087,54 @@
       "specre_id": "01KJ1SF43DPAEFTTZJQ449412V"
     },
     {
+      "file": "app/services/badges/award_eight_week_streak.rb",
+      "line": 1,
+      "specre_id": "01KJ6FJWX16YC4Y1JXWM0A595S"
+    },
+    {
+      "file": "app/services/badges/award_fab_five.rb",
+      "line": 1,
+      "specre_id": "01KJ6FS1TBTFY751JJQTJ7F755"
+    },
+    {
+      "file": "app/services/badges/award_first_post.rb",
+      "line": 1,
+      "specre_id": "01KJ6FJVGJTRP7GFQ8571CMTM8"
+    },
+    {
+      "file": "app/services/badges/award_four_week_streak.rb",
+      "line": 1,
+      "specre_id": "01KJ6FJWX16YC4Y1JXWM0A595S"
+    },
+    {
+      "file": "app/services/badges/award_sixteen_week_streak.rb",
+      "line": 1,
+      "specre_id": "01KJ6FJWX16YC4Y1JXWM0A595S"
+    },
+    {
+      "file": "app/services/badges/award_streak.rb",
+      "line": 1,
+      "specre_id": "01KJ6FJWX16YC4Y1JXWM0A595S"
+    },
+    {
       "file": "app/services/badges/award_tag.rb",
       "line": 1,
       "specre_id": "01KJ41JP9GAVXCTXZZXZ1NPNP8"
+    },
+    {
+      "file": "app/services/badges/award_thumbs_up.rb",
+      "line": 1,
+      "specre_id": "01KJ6FPJ10B16C1P2RH854CJ1B"
+    },
+    {
+      "file": "app/services/badges/award_top_seven.rb",
+      "line": 1,
+      "specre_id": "01KJ6FSCYDY8QPVA6XPZ8X4WT1"
+    },
+    {
+      "file": "app/services/badges/award_yearly_club.rb",
+      "line": 1,
+      "specre_id": "01KJ6FP6NRZAWBSV32RZESNH58"
     },
     {
       "file": "app/services/billboard_event_rollup.rb",
@@ -3505,6 +3660,11 @@
       "file": "app/services/users/resolve_spam_reports.rb",
       "line": 1,
       "specre_id": "01KJ25Q4XMSVV0Y8FHDRRK1JYD"
+    },
+    {
+      "file": "app/uploaders/badge_uploader.rb",
+      "line": 1,
+      "specre_id": "01KJ6FB22VF10D4883F2B226HM"
     },
     {
       "file": "app/uploaders/profile_image_uploader.rb",
@@ -5312,6 +5472,11 @@
       "specre_id": "01KHZ2B1BF232HFDSKGKHDSF6F"
     },
     {
+      "file": "app/workers/badge_achievements/badge_award_worker.rb",
+      "line": 1,
+      "specre_id": "01KJ6FBFV0DKQVMBPB49V7ZKCB"
+    },
+    {
       "file": "app/workers/badge_achievements/send_email_notification_worker.rb",
       "line": 1,
       "specre_id": "01KJ15S0NS9P24NVVX050NB1S1"
@@ -6227,6 +6392,31 @@
       "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
     },
     {
+      "file": "spec/models/badge_achievement_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ6FWPJPKHJ0DPDHTN5AESN1"
+    },
+    {
+      "file": "spec/models/badge_achievement_spec.rb",
+      "line": 2,
+      "specre_id": "01KJ6FEDNZHYXEPQG8RAJDXB3D"
+    },
+    {
+      "file": "spec/models/badge_reputation_bonus_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ6FWPJPKHJ0DPDHTN5AESN1"
+    },
+    {
+      "file": "spec/models/badge_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ6FB22VF10D4883F2B226HM"
+    },
+    {
+      "file": "spec/models/badge_spec.rb",
+      "line": 2,
+      "specre_id": "01KJ6FAFV9D47QGGRY76KPKNC4"
+    },
+    {
       "file": "spec/models/billboard_event_spec.rb",
       "line": 1,
       "specre_id": "01KJ6E7W8QWARD67FEGBQWTH1T"
@@ -6602,6 +6792,26 @@
       "specre_id": "01KJ1XAVJ8QCYY0G6ETZ9GF5K2"
     },
     {
+      "file": "spec/requests/admin/badge_achievements_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ6FEDNZHYXEPQG8RAJDXB3D"
+    },
+    {
+      "file": "spec/requests/admin/badge_achievements_spec.rb",
+      "line": 2,
+      "specre_id": "01KJ6FBFV0DKQVMBPB49V7ZKCB"
+    },
+    {
+      "file": "spec/requests/admin/badge_automations_controller_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ6FF3R4FQCEVGKVPFYYPY8Y"
+    },
+    {
+      "file": "spec/requests/admin/badges_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ6FB22VF10D4883F2B226HM"
+    },
+    {
       "file": "spec/requests/admin/billboards_spec.rb",
       "line": 1,
       "specre_id": "01KJ6EHMAWTR3NAEGM1TB30FPJ"
@@ -6852,6 +7062,16 @@
       "specre_id": "01KJ41E1Q931QJ3XZVWRJJ1PJX"
     },
     {
+      "file": "spec/requests/api/v1/badge_achievements_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ6FJA4XS9P5A266ZFW6Q7Y4"
+    },
+    {
+      "file": "spec/requests/api/v1/badges_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ6FFA2FH0HVDCGYH9XQB3GG"
+    },
+    {
       "file": "spec/requests/api/v1/billboards_spec.rb",
       "line": 1,
       "specre_id": "01KJ6ENW07FQQ98KJJYN37BF5W"
@@ -6970,6 +7190,11 @@
       "file": "spec/requests/articles/articles_feed_spec.rb",
       "line": 1,
       "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
+    },
+    {
+      "file": "spec/requests/badges_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ6FAFV9D47QGGRY76KPKNC4"
     },
     {
       "file": "spec/requests/billboard_events_spec.rb",
@@ -7377,6 +7602,11 @@
       "specre_id": "01KHZ25T4PNZ33CT917WZ25JYT"
     },
     {
+      "file": "spec/services/ai/badge_criteria_assessor_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ6FVWDXD1GEJNCWP4D2SAK0"
+    },
+    {
       "file": "spec/services/ai/comment_helpfulness_assessor_spec.rb",
       "line": 1,
       "specre_id": "01KHZ34S64MDBEZEVY74YYQ7HM"
@@ -7462,14 +7692,74 @@
       "specre_id": "01KJ44ESWEHQ6F18H90M3CCGNA"
     },
     {
+      "file": "spec/services/badges/award_community_wellness_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ6FNWH1CEFRKAV2VSJC9213"
+    },
+    {
       "file": "spec/services/badges/award_contributor_from_github_spec.rb",
       "line": 1,
       "specre_id": "01KJ1SF43DPAEFTTZJQ449412V"
     },
     {
+      "file": "spec/services/badges/award_contributor_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ6FRX20G8Y8FWD3TSEKZQPP"
+    },
+    {
+      "file": "spec/services/badges/award_eight_week_streak_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ6FJWX16YC4Y1JXWM0A595S"
+    },
+    {
+      "file": "spec/services/badges/award_fab_five_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ6FS1TBTFY751JJQTJ7F755"
+    },
+    {
+      "file": "spec/services/badges/award_first_post_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ6FJVGJTRP7GFQ8571CMTM8"
+    },
+    {
+      "file": "spec/services/badges/award_four_week_streak_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ6FJWX16YC4Y1JXWM0A595S"
+    },
+    {
+      "file": "spec/services/badges/award_sixteen_week_streak_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ6FJWX16YC4Y1JXWM0A595S"
+    },
+    {
+      "file": "spec/services/badges/award_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ6FBFV0DKQVMBPB49V7ZKCB"
+    },
+    {
+      "file": "spec/services/badges/award_streak_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ6FJWX16YC4Y1JXWM0A595S"
+    },
+    {
       "file": "spec/services/badges/award_tag_spec.rb",
       "line": 1,
       "specre_id": "01KJ41JP9GAVXCTXZZXZ1NPNP8"
+    },
+    {
+      "file": "spec/services/badges/award_thumbs_up_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ6FPJ10B16C1P2RH854CJ1B"
+    },
+    {
+      "file": "spec/services/badges/award_top_seven_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ6FSCYDY8QPVA6XPZ8X4WT1"
+    },
+    {
+      "file": "spec/services/badges/award_yearly_club_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ6FP6NRZAWBSV32RZESNH58"
     },
     {
       "file": "spec/services/billboard_event_rollup_spec.rb",
@@ -8112,6 +8402,11 @@
       "specre_id": "01KHZ466X2VM8VAWD6RE82CF9J"
     },
     {
+      "file": "spec/uploaders/badge_uploader_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ6FB22VF10D4883F2B226HM"
+    },
+    {
       "file": "spec/uploaders/profile_image_uploader_spec.rb",
       "line": 1,
       "specre_id": "01KHZ6GG5GD766PRZK1SE50KMG"
@@ -8155,6 +8450,11 @@
       "file": "spec/workers/algolia_search/search_index_worker_spec.rb",
       "line": 1,
       "specre_id": "01KHZ2B1BF232HFDSKGKHDSF6F"
+    },
+    {
+      "file": "spec/workers/badge_achievements/badge_award_worker_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ6FBFV0DKQVMBPB49V7ZKCB"
     },
     {
       "file": "spec/workers/badge_achievements/send_email_notification_worker_spec.rb",
@@ -10776,6 +11076,142 @@
       "last_verified": "2026-02-24",
       "name": "visitor_sees_targeted_billboard",
       "path": "docs/specres/billboards/visitor_sees_targeted_billboard.md",
+      "status": "stable"
+    },
+    {
+      "domain": "badges",
+      "id": "01KJ6FAFV9D47QGGRY76KPKNC4",
+      "last_verified": "2026-02-24",
+      "name": "user_can_view_badges",
+      "path": "docs/specres/badges/user_can_view_badges.md",
+      "status": "stable"
+    },
+    {
+      "domain": "badges",
+      "id": "01KJ6FB22VF10D4883F2B226HM",
+      "last_verified": "2026-02-24",
+      "name": "admin_can_define_badges",
+      "path": "docs/specres/badges/admin_can_define_badges.md",
+      "status": "stable"
+    },
+    {
+      "domain": "badges",
+      "id": "01KJ6FBFV0DKQVMBPB49V7ZKCB",
+      "last_verified": "2026-02-24",
+      "name": "admin_can_award_badges_to_users",
+      "path": "docs/specres/badges/admin_can_award_badges_to_users.md",
+      "status": "stable"
+    },
+    {
+      "domain": "badges",
+      "id": "01KJ6FEDNZHYXEPQG8RAJDXB3D",
+      "last_verified": null,
+      "name": "admin_can_view_and_revoke_badge_achievements",
+      "path": "docs/specres/badges/admin_can_view_and_revoke_badge_achievements.md",
+      "status": "draft"
+    },
+    {
+      "domain": "badges",
+      "id": "01KJ6FF3R4FQCEVGKVPFYYPY8Y",
+      "last_verified": "2026-02-24",
+      "name": "admin_can_configure_badge_automations",
+      "path": "docs/specres/badges/admin_can_configure_badge_automations.md",
+      "status": "stable"
+    },
+    {
+      "domain": "badges",
+      "id": "01KJ6FFA2FH0HVDCGYH9XQB3GG",
+      "last_verified": "2026-02-24",
+      "name": "api_exposes_badge_resources",
+      "path": "docs/specres/badges/api_exposes_badge_resources.md",
+      "status": "stable"
+    },
+    {
+      "domain": "badges",
+      "id": "01KJ6FJA4XS9P5A266ZFW6Q7Y4",
+      "last_verified": "2026-02-24",
+      "name": "api_exposes_badge_achievement_resources",
+      "path": "docs/specres/badges/api_exposes_badge_achievement_resources.md",
+      "status": "stable"
+    },
+    {
+      "domain": "badges",
+      "id": "01KJ6FJVGJTRP7GFQ8571CMTM8",
+      "last_verified": "2026-02-24",
+      "name": "system_awards_first_post_badge",
+      "path": "docs/specres/badges/system_awards_first_post_badge.md",
+      "status": "stable"
+    },
+    {
+      "domain": "badges",
+      "id": "01KJ6FJWX16YC4Y1JXWM0A595S",
+      "last_verified": "2026-02-24",
+      "name": "system_awards_writing_streak_badges",
+      "path": "docs/specres/badges/system_awards_writing_streak_badges.md",
+      "status": "stable"
+    },
+    {
+      "domain": "badges",
+      "id": "01KJ6FNWH1CEFRKAV2VSJC9213",
+      "last_verified": "2026-02-24",
+      "name": "system_awards_community_wellness_badges",
+      "path": "docs/specres/badges/system_awards_community_wellness_badges.md",
+      "status": "stable"
+    },
+    {
+      "domain": "badges",
+      "id": "01KJ6FP6NRZAWBSV32RZESNH58",
+      "last_verified": "2026-02-24",
+      "name": "system_awards_yearly_club_badges",
+      "path": "docs/specres/badges/system_awards_yearly_club_badges.md",
+      "status": "stable"
+    },
+    {
+      "domain": "badges",
+      "id": "01KJ6FPJ10B16C1P2RH854CJ1B",
+      "last_verified": "2026-02-24",
+      "name": "system_awards_thumbs_up_milestone_badges",
+      "path": "docs/specres/badges/system_awards_thumbs_up_milestone_badges.md",
+      "status": "stable"
+    },
+    {
+      "domain": "badges",
+      "id": "01KJ6FRX20G8Y8FWD3TSEKZQPP",
+      "last_verified": "2026-02-24",
+      "name": "system_awards_contributor_badge",
+      "path": "docs/specres/badges/system_awards_contributor_badge.md",
+      "status": "stable"
+    },
+    {
+      "domain": "badges",
+      "id": "01KJ6FS1TBTFY751JJQTJ7F755",
+      "last_verified": "2026-02-24",
+      "name": "system_awards_fab_five_badge",
+      "path": "docs/specres/badges/system_awards_fab_five_badge.md",
+      "status": "stable"
+    },
+    {
+      "domain": "badges",
+      "id": "01KJ6FSCYDY8QPVA6XPZ8X4WT1",
+      "last_verified": null,
+      "name": "system_awards_top_seven_badge",
+      "path": "docs/specres/badges/system_awards_top_seven_badge.md",
+      "status": "draft"
+    },
+    {
+      "domain": "badges",
+      "id": "01KJ6FVWDXD1GEJNCWP4D2SAK0",
+      "last_verified": "2026-02-24",
+      "name": "system_assesses_article_quality_for_badge_criteria",
+      "path": "docs/specres/badges/system_assesses_article_quality_for_badge_criteria.md",
+      "status": "stable"
+    },
+    {
+      "domain": "badges",
+      "id": "01KJ6FWPJPKHJ0DPDHTN5AESN1",
+      "last_verified": "2026-02-24",
+      "name": "system_rewards_user_on_badge_achievement",
+      "path": "docs/specres/badges/system_rewards_user_on_badge_achievement.md",
       "status": "stable"
     }
   ],

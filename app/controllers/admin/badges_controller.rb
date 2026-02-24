@@ -1,3 +1,4 @@
+# @specre 01KJ6FB22VF10D4883F2B226HM
 module Admin
   class BadgesController < Admin::ApplicationController
     layout "admin"

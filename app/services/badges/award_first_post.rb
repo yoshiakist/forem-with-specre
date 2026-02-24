@@ -1,3 +1,4 @@
+# @specre 01KJ6FJVGJTRP7GFQ8571CMTM8
 module Badges
   class AwardFirstPost
     BADGE_SLUG = "writing-debut".freeze

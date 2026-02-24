@@ -1,3 +1,4 @@
+# @specre 01KJ6FAFV9D47QGGRY76KPKNC4
 class BadgesController < ApplicationController
   before_action :set_cache_control_headers, only: [:show]
   # No authorization required for entirely public controller

@@ -1,3 +1,4 @@
+# @specre 01KJ6FWPJPKHJ0DPDHTN5AESN1
 require "rails_helper"
 
 RSpec.describe "Article Badge Reputation Bonus", type: :model do

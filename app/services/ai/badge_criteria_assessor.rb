@@ -1,3 +1,4 @@
+# @specre 01KJ6FVWDXD1GEJNCWP4D2SAK0
 module Ai
   ##
   # Analyzes an article to determine if it meets quality criteria for badge awards.

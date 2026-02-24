@@ -1,3 +1,5 @@
+# @specre 01KJ6FB22VF10D4883F2B226HM
+# @specre 01KJ6FAFV9D47QGGRY76KPKNC4
 class Badge < ApplicationRecord
   mount_uploader :badge_image, BadgeUploader
   resourcify
