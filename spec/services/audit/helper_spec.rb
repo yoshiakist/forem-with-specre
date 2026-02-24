@@ -1,3 +1,4 @@
+# @specre 01KJ6GMNB25T18H7JGRZFEBQH5
 require "rails_helper"
 
 RSpec.describe Audit::Helper, type: :service do

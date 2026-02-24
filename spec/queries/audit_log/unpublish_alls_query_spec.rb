@@ -1,3 +1,4 @@
+# @specre 01KJ6GNCJ51XS8RDC57VRV43MD
 require "rails_helper"
 
 RSpec.describe AuditLog::UnpublishAllsQuery, type: :query do

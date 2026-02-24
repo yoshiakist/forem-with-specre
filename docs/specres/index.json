@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-24T00:14:40Z",
+  "generated_at": "2026-02-24T00:38:20Z",
   "source_refs": [
     {
       "file": "app/assets/javascripts/initializers/initializeAllTagEditButtons.js",
@@ -155,6 +155,11 @@
       "file": "app/controllers/admin/feedback_messages_controller.rb",
       "line": 1,
       "specre_id": "01KJ25KAPB0FAFF74WX0TD106P"
+    },
+    {
+      "file": "app/controllers/admin/moderator_actions_controller.rb",
+      "line": 1,
+      "specre_id": "01KJ6H94SE5S0ANVZZNR3NCZNG"
     },
     {
       "file": "app/controllers/admin/organization_memberships_controller.rb",
@@ -2202,6 +2207,11 @@
       "specre_id": "01KJ246P62P50ED5YJNGJ50J3J"
     },
     {
+      "file": "app/models/audit_log.rb",
+      "line": 1,
+      "specre_id": "01KJ6GMVW8YA3D7EE2WW7VZEZV"
+    },
+    {
       "file": "app/models/badge.rb",
       "line": 1,
       "specre_id": "01KJ6FB22VF10D4883F2B226HM"
@@ -2857,6 +2867,11 @@
       "specre_id": "01KJ41WHZ0KRBSTTD55T6WPTM6"
     },
     {
+      "file": "app/queries/audit_log/unpublish_alls_query.rb",
+      "line": 1,
+      "specre_id": "01KJ6GNCJ51XS8RDC57VRV43MD"
+    },
+    {
       "file": "app/queries/billboards/filtered_ads_query.rb",
       "line": 1,
       "specre_id": "01KJ6E7PRKSFS5KXNECTT1W0C3"
@@ -3052,9 +3067,34 @@
       "specre_id": "01KJ1ARF08DVRQE65SWASWAFWJ"
     },
     {
+      "file": "app/services/audit/event/payload.rb",
+      "line": 1,
+      "specre_id": "01KJ162FSS39965A6QK4V78F2H"
+    },
+    {
+      "file": "app/services/audit/helper.rb",
+      "line": 1,
+      "specre_id": "01KJ162FSS39965A6QK4V78F2H"
+    },
+    {
+      "file": "app/services/audit/helper.rb",
+      "line": 2,
+      "specre_id": "01KJ6GMNB25T18H7JGRZFEBQH5"
+    },
+    {
+      "file": "app/services/audit/logger.rb",
+      "line": 1,
+      "specre_id": "01KJ162FSS39965A6QK4V78F2H"
+    },
+    {
       "file": "app/services/audit/notification.rb",
       "line": 1,
       "specre_id": "01KJ162FSS39965A6QK4V78F2H"
+    },
+    {
+      "file": "app/services/audit/subscribe.rb",
+      "line": 1,
+      "specre_id": "01KJ6GMNB25T18H7JGRZFEBQH5"
     },
     {
       "file": "app/services/authentication/providers/github.rb",
@@ -5857,6 +5897,11 @@
       "specre_id": "01KHZ78Z9A3R2NWZF2B6EZ82AJ"
     },
     {
+      "file": "spec/factories/audit_logs.rb",
+      "line": 1,
+      "specre_id": "01KJ6GMVW8YA3D7EE2WW7VZEZV"
+    },
+    {
       "file": "spec/factories/collections.rb",
       "line": 1,
       "specre_id": "01KJ6C4VF5JP25A07CJA19PQHX"
@@ -6392,6 +6437,11 @@
       "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
     },
     {
+      "file": "spec/models/audit_log_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ6GMVW8YA3D7EE2WW7VZEZV"
+    },
+    {
       "file": "spec/models/badge_achievement_spec.rb",
       "line": 1,
       "specre_id": "01KJ6FWPJPKHJ0DPDHTN5AESN1"
@@ -6747,6 +6797,11 @@
       "specre_id": "01KJ41WHZ0KRBSTTD55T6WPTM6"
     },
     {
+      "file": "spec/queries/audit_log/unpublish_alls_query_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ6GNCJ51XS8RDC57VRV43MD"
+    },
+    {
       "file": "spec/queries/billboards/filtered_ads_query_spec.rb",
       "line": 1,
       "specre_id": "01KJ6E7PRKSFS5KXNECTT1W0C3"
@@ -6895,6 +6950,11 @@
       "file": "spec/requests/admin/feedback_messages_spec.rb",
       "line": 1,
       "specre_id": "01KJ25KAPB0FAFF74WX0TD106P"
+    },
+    {
+      "file": "spec/requests/admin/moderator_actions_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ6H94SE5S0ANVZZNR3NCZNG"
     },
     {
       "file": "spec/requests/admin/organization_memberships_spec.rb",
@@ -7677,9 +7737,19 @@
       "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
     },
     {
+      "file": "spec/services/audit/helper_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ6GMNB25T18H7JGRZFEBQH5"
+    },
+    {
       "file": "spec/services/audit/notification_spec.rb",
       "line": 1,
       "specre_id": "01KJ162FSS39965A6QK4V78F2H"
+    },
+    {
+      "file": "spec/services/audit/subscribe_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ6GMNB25T18H7JGRZFEBQH5"
     },
     {
       "file": "spec/services/authentication/providers/github_spec.rb",
@@ -11212,6 +11282,38 @@
       "last_verified": "2026-02-24",
       "name": "system_rewards_user_on_badge_achievement",
       "path": "docs/specres/badges/system_rewards_user_on_badge_achievement.md",
+      "status": "stable"
+    },
+    {
+      "domain": "audit",
+      "id": "01KJ6GMNB25T18H7JGRZFEBQH5",
+      "last_verified": "2026-02-24",
+      "name": "system_subscribes_to_audit_event_channels",
+      "path": "docs/specres/audit/system_subscribes_to_audit_event_channels.md",
+      "status": "stable"
+    },
+    {
+      "domain": "audit",
+      "id": "01KJ6GMVW8YA3D7EE2WW7VZEZV",
+      "last_verified": "2026-02-24",
+      "name": "system_persists_audit_log_records",
+      "path": "docs/specres/audit/system_persists_audit_log_records.md",
+      "status": "stable"
+    },
+    {
+      "domain": "audit",
+      "id": "01KJ6GNCJ51XS8RDC57VRV43MD",
+      "last_verified": "2026-02-24",
+      "name": "system_retrieves_unpublish_all_audit_history",
+      "path": "docs/specres/audit/system_retrieves_unpublish_all_audit_history.md",
+      "status": "stable"
+    },
+    {
+      "domain": "audit",
+      "id": "01KJ6H94SE5S0ANVZZNR3NCZNG",
+      "last_verified": "2026-02-24",
+      "name": "admin_can_browse_moderator_audit_logs",
+      "path": "docs/specres/audit/admin_can_browse_moderator_audit_logs.md",
       "status": "stable"
     }
   ],

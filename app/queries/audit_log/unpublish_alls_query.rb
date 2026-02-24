@@ -1,3 +1,4 @@
+# @specre 01KJ6GNCJ51XS8RDC57VRV43MD
 class AuditLog
   class UnpublishAllsQuery
     Result = Struct.new(:exists?, :audit_log, :target_articles, :target_comments, keyword_init: true)

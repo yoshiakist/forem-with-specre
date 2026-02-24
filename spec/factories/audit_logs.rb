@@ -1,3 +1,4 @@
+# @specre 01KJ6GMVW8YA3D7EE2WW7VZEZV
 FactoryBot.define do
   factory :audit_log do
     category { Faker::Name.name }

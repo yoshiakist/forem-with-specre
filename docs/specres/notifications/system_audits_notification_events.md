@@ -8,6 +8,9 @@ last_verified: "2026-02-22"
 ## Related Files
 
 - `app/services/audit/notification.rb`
+- `app/services/audit/event/payload.rb`
+- `app/services/audit/helper.rb`
+- `app/services/audit/logger.rb`
 - `spec/services/audit/notification_spec.rb` (Test)
 
 ## Functional Overview
