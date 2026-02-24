@@ -1,3 +1,4 @@
+# @specre 01KJ6QCAKAT1EKMN80R2KK58YZ
 RSpec.shared_examples "GET /api/analytics/:endpoint authorization examples" do |endpoint, params|
   let(:user)              { create(:user) }
   let(:api_token)         { create(:api_secret, user: user) }

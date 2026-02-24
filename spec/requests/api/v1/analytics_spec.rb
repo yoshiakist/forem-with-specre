@@ -1,3 +1,4 @@
+# @specre 01KJ6QCAKAT1EKMN80R2KK58YZ
 require "rails_helper"
 
 RSpec.describe "Api::V1::Analytics" do
