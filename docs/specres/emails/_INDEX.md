@@ -26,3 +26,4 @@
 | [system_sends_trusted_role_confirmation_email](mailer_templates/system_sends_trusted_role_confirmation_email.md) | stable | 2026-02-24 |
 | [system_sends_subscriber_role_email](mailer_templates/system_sends_subscriber_role_email.md) | stable | 2026-02-24 |
 | [user_unsubscribes_from_email_notifications](email_subscriptions/user_unsubscribes_from_email_notifications.md) | stable | 2026-02-24 |
+| [system_tracks_email_link_clicks](email_clicks/system_tracks_email_link_clicks.md) | stable | 2026-02-24 |

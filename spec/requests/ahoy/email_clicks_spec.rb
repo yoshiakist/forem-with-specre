@@ -1,3 +1,4 @@
+# @specre 01KJ73NQSZ78M36BRBYEKY5VHJ
 require "rails_helper"
 
 RSpec.describe "AhoyEmailClicks" do

@@ -1,3 +1,4 @@
+# @specre 01KJ73NQSZ78M36BRBYEKY5VHJ
 # spec/requests/ahoy_messages_controller_spec.rb
 
 require "rails_helper"
