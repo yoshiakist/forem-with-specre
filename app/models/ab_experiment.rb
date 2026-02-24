@@ -1,3 +1,5 @@
+# @specre 01KJ703F16P7AYF29Z4W9PQW5K
+# @specre 01KJ702TAET217EMSPHS27RTN1
 # This object wraps the FieldTest logic to provide a bit of insulation
 # between the FieldTest implementation and the application logic.
 #
