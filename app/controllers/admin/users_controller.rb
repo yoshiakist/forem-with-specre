@@ -1,3 +1,5 @@
+# @specre 01KJ75DN218QHHZ575VBJ95H29
+# @specre 01KJ759KKVVQ8YQZP1B78QC3Q6
 module Admin
   class UsersController < Admin::ApplicationController
     layout "admin"

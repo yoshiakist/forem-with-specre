@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-24T06:14:04Z",
+  "generated_at": "2026-02-24T09:05:28Z",
   "source_refs": [
     {
       "file": "app/assets/javascripts/initializers/initializeAllTagEditButtons.js",
@@ -165,6 +165,16 @@
       "file": "app/controllers/admin/data_update_scripts_controller.rb",
       "line": 2,
       "specre_id": "01KJ2SZCDD0QR1BVHSPYKQZ955"
+    },
+    {
+      "file": "app/controllers/admin/email_messages_controller.rb",
+      "line": 1,
+      "specre_id": "01KJ758NKFTEQKYMBYPEGR3817"
+    },
+    {
+      "file": "app/controllers/admin/emails_controller.rb",
+      "line": 1,
+      "specre_id": "01KJ758K1CA5TWC5FHEKJZ52BT"
     },
     {
       "file": "app/controllers/admin/feedback_messages_controller.rb",
@@ -345,6 +355,16 @@
       "file": "app/controllers/admin/tools_controller.rb",
       "line": 1,
       "specre_id": "01KJ24JR0FK5MWHWK01QF0434H"
+    },
+    {
+      "file": "app/controllers/admin/users_controller.rb",
+      "line": 1,
+      "specre_id": "01KJ75DN218QHHZ575VBJ95H29"
+    },
+    {
+      "file": "app/controllers/admin/users_controller.rb",
+      "line": 2,
+      "specre_id": "01KJ759KKVVQ8YQZP1B78QC3Q6"
     },
     {
       "file": "app/controllers/ahoy/email_clicks_controller.rb",
@@ -635,6 +655,11 @@
       "file": "app/controllers/devices_controller.rb",
       "line": 1,
       "specre_id": "01KJ3YY1P1TX3DWW24AABW70MT"
+    },
+    {
+      "file": "app/controllers/email_authorizations_controller.rb",
+      "line": 1,
+      "specre_id": "01KJ759KKVVQ8YQZP1B78QC3Q6"
     },
     {
       "file": "app/controllers/email_subscriptions_controller.rb",
@@ -1547,6 +1572,11 @@
       "specre_id": "01KJ1733YCRFGKZZN1ZR6JBEHC"
     },
     {
+      "file": "app/javascript/packs/confirmationEmail.js",
+      "line": 1,
+      "specre_id": "01KJ759KKVVQ8YQZP1B78QC3Q6"
+    },
+    {
       "file": "app/javascript/packs/dashboardTags.js",
       "line": 1,
       "specre_id": "01KJ41J4101Y3KSMXR9VEHN9ZY"
@@ -2262,6 +2292,11 @@
       "specre_id": "01KJ7297CDCGQ36QFHNA8BR6XJ"
     },
     {
+      "file": "app/mailers/custom_mailer.rb",
+      "line": 2,
+      "specre_id": "01KJ758K1CA5TWC5FHEKJZ52BT"
+    },
+    {
       "file": "app/mailers/devise_mailer.rb",
       "line": 1,
       "specre_id": "01KJ72G2KV3QBHWF11ZNJKHREH"
@@ -2289,46 +2324,51 @@
     {
       "file": "app/mailers/notify_mailer.rb",
       "line": 1,
-      "specre_id": "01KJ72WHJG3KGKQRANX95KQTSX"
+      "specre_id": "01KJ75DN218QHHZ575VBJ95H29"
     },
     {
       "file": "app/mailers/notify_mailer.rb",
       "line": 2,
-      "specre_id": "01KJ72SXAQ2WNCG8H8P8PXR5E0"
+      "specre_id": "01KJ72WHJG3KGKQRANX95KQTSX"
     },
     {
       "file": "app/mailers/notify_mailer.rb",
       "line": 3,
-      "specre_id": "01KJ72SKJ1NPDRXKSKA8R47C82"
+      "specre_id": "01KJ72SXAQ2WNCG8H8P8PXR5E0"
     },
     {
       "file": "app/mailers/notify_mailer.rb",
       "line": 4,
-      "specre_id": "01KJ72SS278ECC5FW24CY96BHP"
+      "specre_id": "01KJ72SKJ1NPDRXKSKA8R47C82"
     },
     {
       "file": "app/mailers/notify_mailer.rb",
       "line": 5,
-      "specre_id": "01KJ72PNMHN5CAC6ANK4VBMJJW"
+      "specre_id": "01KJ72SS278ECC5FW24CY96BHP"
     },
     {
       "file": "app/mailers/notify_mailer.rb",
       "line": 6,
-      "specre_id": "01KJ72PVG4W2F3ADXJKS59C3S2"
+      "specre_id": "01KJ72PNMHN5CAC6ANK4VBMJJW"
     },
     {
       "file": "app/mailers/notify_mailer.rb",
       "line": 7,
-      "specre_id": "01KJ72PJ45D3ZFHQBYBXD9EEME"
+      "specre_id": "01KJ72PVG4W2F3ADXJKS59C3S2"
     },
     {
       "file": "app/mailers/notify_mailer.rb",
       "line": 8,
-      "specre_id": "01KJ72K4BVPB3SWGWJ4TH12QS1"
+      "specre_id": "01KJ72PJ45D3ZFHQBYBXD9EEME"
     },
     {
       "file": "app/mailers/notify_mailer.rb",
       "line": 9,
+      "specre_id": "01KJ72K4BVPB3SWGWJ4TH12QS1"
+    },
+    {
+      "file": "app/mailers/notify_mailer.rb",
+      "line": 10,
       "specre_id": "01KJ72GNWTSM6SDVV7DR8NDRHY"
     },
     {
@@ -2349,11 +2389,16 @@
     {
       "file": "app/mailers/verification_mailer.rb",
       "line": 1,
-      "specre_id": "01KJ72D0HZ49WMGHS1ERWQEKVT"
+      "specre_id": "01KJ759KKVVQ8YQZP1B78QC3Q6"
     },
     {
       "file": "app/mailers/verification_mailer.rb",
       "line": 2,
+      "specre_id": "01KJ72D0HZ49WMGHS1ERWQEKVT"
+    },
+    {
+      "file": "app/mailers/verification_mailer.rb",
+      "line": 3,
       "specre_id": "01KJ729K8JA4QKFYMSJEHH7DT5"
     },
     {
@@ -2655,6 +2700,26 @@
       "file": "app/models/data_update_script.rb",
       "line": 3,
       "specre_id": "01KJ2SZCDD0QR1BVHSPYKQZ955"
+    },
+    {
+      "file": "app/models/email.rb",
+      "line": 1,
+      "specre_id": "01KJ758K1CA5TWC5FHEKJZ52BT"
+    },
+    {
+      "file": "app/models/email_authorization.rb",
+      "line": 1,
+      "specre_id": "01KJ759KKVVQ8YQZP1B78QC3Q6"
+    },
+    {
+      "file": "app/models/email_message.rb",
+      "line": 1,
+      "specre_id": "01KJ75D28S88YETAPX6NF3ZP4C"
+    },
+    {
+      "file": "app/models/email_message.rb",
+      "line": 2,
+      "specre_id": "01KJ758NKFTEQKYMBYPEGR3817"
     },
     {
       "file": "app/models/feed_config.rb",
@@ -4030,6 +4095,11 @@
       "file": "app/uploaders/subforem_image_uploader.rb",
       "line": 1,
       "specre_id": "01KHYH43TN4FS8ZYTW757DZBHZ"
+    },
+    {
+      "file": "app/validators/email_safe_html_validator.rb",
+      "line": 1,
+      "specre_id": "01KJ758K1CA5TWC5FHEKJZ52BT"
     },
     {
       "file": "app/validators/profile_validator.rb",
@@ -6132,14 +6202,29 @@
       "specre_id": "01KJ2SZQQG4JYPHKNCN2BSNYMN"
     },
     {
+      "file": "app/workers/emails/batch_custom_send_worker.rb",
+      "line": 1,
+      "specre_id": "01KJ758K1CA5TWC5FHEKJZ52BT"
+    },
+    {
       "file": "app/workers/emails/drip_email_worker.rb",
       "line": 1,
       "specre_id": "01KJ7408K5C6ZFPGTNP24020H9"
     },
     {
+      "file": "app/workers/emails/enqueue_custom_batch_send_worker.rb",
+      "line": 1,
+      "specre_id": "01KJ758K1CA5TWC5FHEKJZ52BT"
+    },
+    {
       "file": "app/workers/emails/enqueue_digest_worker.rb",
       "line": 1,
       "specre_id": "01KJ71F6JXM4PY31DJJW0N2R5S"
+    },
+    {
+      "file": "app/workers/emails/remove_old_emails_worker.rb",
+      "line": 1,
+      "specre_id": "01KJ75D28S88YETAPX6NF3ZP4C"
     },
     {
       "file": "app/workers/emails/send_user_digest_worker.rb",
@@ -6510,6 +6595,21 @@
       "file": "spec/factories/context_notifications.rb",
       "line": 1,
       "specre_id": "01KJ15YY7SWMF93P655KXRSPEK"
+    },
+    {
+      "file": "spec/factories/email_authorizations.rb",
+      "line": 1,
+      "specre_id": "01KJ759KKVVQ8YQZP1B78QC3Q6"
+    },
+    {
+      "file": "spec/factories/email_messages.rb",
+      "line": 1,
+      "specre_id": "01KJ758NKFTEQKYMBYPEGR3817"
+    },
+    {
+      "file": "spec/factories/emails.rb",
+      "line": 1,
+      "specre_id": "01KJ758K1CA5TWC5FHEKJZ52BT"
     },
     {
       "file": "spec/factories/field_test_memberships.rb",
@@ -7014,56 +7114,61 @@
     {
       "file": "spec/mailers/notify_mailer_spec.rb",
       "line": 1,
-      "specre_id": "01KJ72WHJG3KGKQRANX95KQTSX"
+      "specre_id": "01KJ75DN218QHHZ575VBJ95H29"
     },
     {
       "file": "spec/mailers/notify_mailer_spec.rb",
       "line": 2,
-      "specre_id": "01KJ72SXAQ2WNCG8H8P8PXR5E0"
+      "specre_id": "01KJ72WHJG3KGKQRANX95KQTSX"
     },
     {
       "file": "spec/mailers/notify_mailer_spec.rb",
       "line": 3,
-      "specre_id": "01KJ72SKJ1NPDRXKSKA8R47C82"
+      "specre_id": "01KJ72SXAQ2WNCG8H8P8PXR5E0"
     },
     {
       "file": "spec/mailers/notify_mailer_spec.rb",
       "line": 4,
-      "specre_id": "01KJ72SS278ECC5FW24CY96BHP"
+      "specre_id": "01KJ72SKJ1NPDRXKSKA8R47C82"
     },
     {
       "file": "spec/mailers/notify_mailer_spec.rb",
       "line": 5,
-      "specre_id": "01KJ72PVG4W2F3ADXJKS59C3S2"
+      "specre_id": "01KJ72SS278ECC5FW24CY96BHP"
     },
     {
       "file": "spec/mailers/notify_mailer_spec.rb",
       "line": 6,
-      "specre_id": "01KJ72PNMHN5CAC6ANK4VBMJJW"
+      "specre_id": "01KJ72PVG4W2F3ADXJKS59C3S2"
     },
     {
       "file": "spec/mailers/notify_mailer_spec.rb",
       "line": 7,
-      "specre_id": "01KJ72PJ45D3ZFHQBYBXD9EEME"
+      "specre_id": "01KJ72PNMHN5CAC6ANK4VBMJJW"
     },
     {
       "file": "spec/mailers/notify_mailer_spec.rb",
       "line": 8,
-      "specre_id": "01KJ72KP1KB032AK6P3J2J6BFE"
+      "specre_id": "01KJ72PJ45D3ZFHQBYBXD9EEME"
     },
     {
       "file": "spec/mailers/notify_mailer_spec.rb",
       "line": 9,
-      "specre_id": "01KJ72JZVZK090J0RBBA6TGRSP"
+      "specre_id": "01KJ72KP1KB032AK6P3J2J6BFE"
     },
     {
       "file": "spec/mailers/notify_mailer_spec.rb",
       "line": 10,
-      "specre_id": "01KJ72K4BVPB3SWGWJ4TH12QS1"
+      "specre_id": "01KJ72JZVZK090J0RBBA6TGRSP"
     },
     {
       "file": "spec/mailers/notify_mailer_spec.rb",
       "line": 11,
+      "specre_id": "01KJ72K4BVPB3SWGWJ4TH12QS1"
+    },
+    {
+      "file": "spec/mailers/notify_mailer_spec.rb",
+      "line": 12,
       "specre_id": "01KJ72GNWTSM6SDVV7DR8NDRHY"
     },
     {
@@ -7280,6 +7385,21 @@
       "file": "spec/models/data_update_script_spec.rb",
       "line": 2,
       "specre_id": "01KJ2SZCDD0QR1BVHSPYKQZ955"
+    },
+    {
+      "file": "spec/models/email_authorization_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ759KKVVQ8YQZP1B78QC3Q6"
+    },
+    {
+      "file": "spec/models/email_message_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ758NKFTEQKYMBYPEGR3817"
+    },
+    {
+      "file": "spec/models/email_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ758K1CA5TWC5FHEKJZ52BT"
     },
     {
       "file": "spec/models/feed_config_spec.rb",
@@ -7502,6 +7622,11 @@
       "specre_id": "01KJ41RETE70D2JDJEGS0STSGM"
     },
     {
+      "file": "spec/models/user_email_eligible_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ758K1CA5TWC5FHEKJZ52BT"
+    },
+    {
       "file": "spec/models/users/notification_setting_spec.rb",
       "line": 1,
       "specre_id": "01KHZ454YXRB8TWV8PC06P4EQ5"
@@ -7687,6 +7812,11 @@
       "specre_id": "01KJ2SZCDD0QR1BVHSPYKQZ955"
     },
     {
+      "file": "spec/requests/admin/emails_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ758K1CA5TWC5FHEKJZ52BT"
+    },
+    {
       "file": "spec/requests/admin/feed_playground_spec.rb",
       "line": 1,
       "specre_id": "01KJ24JR0FK5MWHWK01QF0434H"
@@ -7822,9 +7952,24 @@
       "specre_id": "01KJ41DVKVSHQT3TKSJP11Y7SZ"
     },
     {
+      "file": "spec/requests/admin/users/users_update_email_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ6G82HEH34EH9QFG6JJ8XC"
+    },
+    {
       "file": "spec/requests/admin/users_manage_spec.rb",
       "line": 1,
       "specre_id": "01KJ2SFWXPPE61BA7KNFY8CSSG"
+    },
+    {
+      "file": "spec/requests/admin/users_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ759KKVVQ8YQZP1B78QC3Q6"
+    },
+    {
+      "file": "spec/requests/admin/users_spec.rb",
+      "line": 2,
+      "specre_id": "01KJ75DN218QHHZ575VBJ95H29"
     },
     {
       "file": "spec/requests/ahoy/email_clicks_spec.rb",
@@ -9327,6 +9472,11 @@
       "specre_id": "01KHZ6GG5GD766PRZK1SE50KMG"
     },
     {
+      "file": "spec/validators/email_safe_html_validator_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ758K1CA5TWC5FHEKJZ52BT"
+    },
+    {
       "file": "spec/views/admin/billboards/new_spec.rb",
       "line": 1,
       "specre_id": "01KJ6EH2F7D1Q61H1A07JXRE38"
@@ -9427,14 +9577,29 @@
       "specre_id": "01KJ2SZQQG4JYPHKNCN2BSNYMN"
     },
     {
+      "file": "spec/workers/emails/batch_custom_send_worker_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ758K1CA5TWC5FHEKJZ52BT"
+    },
+    {
       "file": "spec/workers/emails/drip_email_worker_spec.rb",
       "line": 1,
       "specre_id": "01KJ7408K5C6ZFPGTNP24020H9"
     },
     {
+      "file": "spec/workers/emails/enqueue_custom_batch_send_worker_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ758K1CA5TWC5FHEKJZ52BT"
+    },
+    {
       "file": "spec/workers/emails/enqueue_digest_worker_spec.rb",
       "line": 1,
       "specre_id": "01KJ71F6JXM4PY31DJJW0N2R5S"
+    },
+    {
+      "file": "spec/workers/emails/remove_old_emails_worker_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ75D28S88YETAPX6NF3ZP4C"
     },
     {
       "file": "spec/workers/emails/send_user_digest_worker_spec.rb",
@@ -12552,6 +12717,46 @@
       "last_verified": "2026-02-24",
       "name": "system_checks_blocked_email_domain",
       "path": "docs/specres/emails/blocked_email/system_checks_blocked_email_domain.md",
+      "status": "stable"
+    },
+    {
+      "domain": "email",
+      "id": "01KJ758K1CA5TWC5FHEKJZ52BT",
+      "last_verified": "2026-02-24",
+      "name": "admin_can_create_and_deliver_custom_email",
+      "path": "docs/specres/email/admin_can_create_and_deliver_custom_email.md",
+      "status": "stable"
+    },
+    {
+      "domain": "email",
+      "id": "01KJ758NKFTEQKYMBYPEGR3817",
+      "last_verified": "2026-02-24",
+      "name": "admin_can_view_sent_email_messages",
+      "path": "docs/specres/email/admin_can_view_sent_email_messages.md",
+      "status": "stable"
+    },
+    {
+      "domain": "email",
+      "id": "01KJ759KKVVQ8YQZP1B78QC3Q6",
+      "last_verified": "2026-02-24",
+      "name": "user_can_verify_account_ownership_via_email",
+      "path": "docs/specres/email/user_can_verify_account_ownership_via_email.md",
+      "status": "stable"
+    },
+    {
+      "domain": "email",
+      "id": "01KJ75D28S88YETAPX6NF3ZP4C",
+      "last_verified": "2026-02-24",
+      "name": "system_purges_old_email_delivery_records",
+      "path": "docs/specres/email/system_purges_old_email_delivery_records.md",
+      "status": "stable"
+    },
+    {
+      "domain": "email",
+      "id": "01KJ75DN218QHHZ575VBJ95H29",
+      "last_verified": "2026-02-24",
+      "name": "admin_can_send_direct_email_to_user",
+      "path": "docs/specres/email/admin_can_send_direct_email_to_user.md",
       "status": "stable"
     }
   ],

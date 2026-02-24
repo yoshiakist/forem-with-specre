@@ -19,6 +19,7 @@ status: "draft"
 - `app/views/admin/users/show/profile/actions/_update_email.html.erb`
 - `spec/requests/user/user_profile_spec.rb` (Test)
 - `spec/routing/profile_admin_routes_spec.rb` (Test)
+- `spec/requests/admin/users/users_update_email_spec.rb` (Test)
 
 ## Functional Overview
 

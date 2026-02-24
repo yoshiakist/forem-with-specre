@@ -1,3 +1,4 @@
+# @specre 01KJ75D28S88YETAPX6NF3ZP4C
 module Emails
   class RemoveOldEmailsWorker
     include Sidekiq::Job

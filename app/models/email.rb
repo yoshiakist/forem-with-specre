@@ -1,3 +1,4 @@
+# @specre 01KJ758K1CA5TWC5FHEKJZ52BT
 class Email < ApplicationRecord
   belongs_to :audience_segment, optional: true
   belongs_to :user_query, optional: true

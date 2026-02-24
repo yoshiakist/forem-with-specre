@@ -1,3 +1,4 @@
+# @specre 01KJ758K1CA5TWC5FHEKJZ52BT
 class EmailSafeHtmlValidator < ActiveModel::EachValidator
   # Email-safe HTML tags that are widely supported across email clients
   ALLOWED_TAGS = %w[

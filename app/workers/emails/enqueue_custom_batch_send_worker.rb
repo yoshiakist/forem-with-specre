@@ -1,3 +1,4 @@
+# @specre 01KJ758K1CA5TWC5FHEKJZ52BT
 # app/workers/emails/enqueue_custom_batch_send_worker.rb
 module Emails
   class EnqueueCustomBatchSendWorker

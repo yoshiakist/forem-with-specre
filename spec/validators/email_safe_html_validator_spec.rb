@@ -1,3 +1,4 @@
+# @specre 01KJ758K1CA5TWC5FHEKJZ52BT
 require "rails_helper"
 
 RSpec.describe EmailSafeHtmlValidator do
