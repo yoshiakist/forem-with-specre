@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-24T09:56:46Z",
+  "generated_at": "2026-02-24T10:07:54Z",
   "source_refs": [
     {
       "file": "app/assets/javascripts/initializers/initializeAllTagEditButtons.js",
@@ -190,6 +190,26 @@
       "file": "app/controllers/admin/moderator_actions_controller.rb",
       "line": 1,
       "specre_id": "01KJ6H94SE5S0ANVZZNR3NCZNG"
+    },
+    {
+      "file": "app/controllers/admin/navigation_links_controller.rb",
+      "line": 1,
+      "specre_id": "01KJ7HV1S7SD97H4R894DP7Y53"
+    },
+    {
+      "file": "app/controllers/admin/navigation_links_controller.rb",
+      "line": 2,
+      "specre_id": "01KJ7HVCMVN775VM9T710ABMRW"
+    },
+    {
+      "file": "app/controllers/admin/navigation_links_controller.rb",
+      "line": 3,
+      "specre_id": "01KJ7HTKMEBPYZWDJCZXPEBWCA"
+    },
+    {
+      "file": "app/controllers/admin/navigation_links_controller.rb",
+      "line": 4,
+      "specre_id": "01KJ7HPV39HXGYWHV2SGNH9R73"
     },
     {
       "file": "app/controllers/admin/organization_memberships_controller.rb",
@@ -2832,6 +2852,36 @@
       "specre_id": "01KJ1ARF08DVRQE65SWASWAFWJ"
     },
     {
+      "file": "app/models/navigation_link.rb",
+      "line": 1,
+      "specre_id": "01KJ7HV1S7SD97H4R894DP7Y53"
+    },
+    {
+      "file": "app/models/navigation_link.rb",
+      "line": 2,
+      "specre_id": "01KJ7HVCMVN775VM9T710ABMRW"
+    },
+    {
+      "file": "app/models/navigation_link.rb",
+      "line": 3,
+      "specre_id": "01KJ7HTKMEBPYZWDJCZXPEBWCA"
+    },
+    {
+      "file": "app/models/navigation_link.rb",
+      "line": 4,
+      "specre_id": "01KJ7HR805TS43BDP921B57G4T"
+    },
+    {
+      "file": "app/models/navigation_link.rb",
+      "line": 5,
+      "specre_id": "01KJ7HQJX1MWRVG2NTXVKS5693"
+    },
+    {
+      "file": "app/models/navigation_link.rb",
+      "line": 6,
+      "specre_id": "01KJ7HPV39HXGYWHV2SGNH9R73"
+    },
+    {
       "file": "app/models/notification.rb",
       "line": 1,
       "specre_id": "01KJ15MVQ9HCZ8PV80MQ828AQF"
@@ -4232,6 +4282,11 @@
       "specre_id": "01KJ6FB22VF10D4883F2B226HM"
     },
     {
+      "file": "app/uploaders/navigation_link_image_uploader.rb",
+      "line": 1,
+      "specre_id": "01KJ7HQJX1MWRVG2NTXVKS5693"
+    },
+    {
       "file": "app/uploaders/profile_image_uploader.rb",
       "line": 1,
       "specre_id": "01KHZ6GG5GD766PRZK1SE50KMG"
@@ -4380,6 +4435,11 @@
       "file": "app/views/admin/feedback_messages/show.html.erb",
       "line": 1,
       "specre_id": "01KJ25KAPB0FAFF74WX0TD106P"
+    },
+    {
+      "file": "app/views/admin/navigation_links/index.html.erb",
+      "line": 1,
+      "specre_id": "01KJ7HPV39HXGYWHV2SGNH9R73"
     },
     {
       "file": "app/views/admin/organizations/_activity.html.erb",
@@ -7652,6 +7712,26 @@
       "specre_id": "01KJ1ARF08DVRQE65SWASWAFWJ"
     },
     {
+      "file": "spec/models/navigation_link_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ7HV1S7SD97H4R894DP7Y53"
+    },
+    {
+      "file": "spec/models/navigation_link_spec.rb",
+      "line": 2,
+      "specre_id": "01KJ7HTKMEBPYZWDJCZXPEBWCA"
+    },
+    {
+      "file": "spec/models/navigation_link_spec.rb",
+      "line": 3,
+      "specre_id": "01KJ7HR805TS43BDP921B57G4T"
+    },
+    {
+      "file": "spec/models/navigation_link_spec.rb",
+      "line": 4,
+      "specre_id": "01KJ7HQJX1MWRVG2NTXVKS5693"
+    },
+    {
       "file": "spec/models/notification_spec.rb",
       "line": 1,
       "specre_id": "01KJ15MVQ9HCZ8PV80MQ828AQF"
@@ -8070,6 +8150,26 @@
       "file": "spec/requests/admin/moderator_actions_spec.rb",
       "line": 1,
       "specre_id": "01KJ6H94SE5S0ANVZZNR3NCZNG"
+    },
+    {
+      "file": "spec/requests/admin/navigation_link_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ7HV1S7SD97H4R894DP7Y53"
+    },
+    {
+      "file": "spec/requests/admin/navigation_link_spec.rb",
+      "line": 2,
+      "specre_id": "01KJ7HVCMVN775VM9T710ABMRW"
+    },
+    {
+      "file": "spec/requests/admin/navigation_link_spec.rb",
+      "line": 3,
+      "specre_id": "01KJ7HTKMEBPYZWDJCZXPEBWCA"
+    },
+    {
+      "file": "spec/requests/admin/navigation_link_spec.rb",
+      "line": 4,
+      "specre_id": "01KJ7HPV39HXGYWHV2SGNH9R73"
     },
     {
       "file": "spec/requests/admin/organization_memberships_spec.rb",
@@ -9775,6 +9875,11 @@
       "file": "spec/uploaders/badge_uploader_spec.rb",
       "line": 1,
       "specre_id": "01KJ6FB22VF10D4883F2B226HM"
+    },
+    {
+      "file": "spec/uploaders/navigation_link_image_uploader_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ7HQJX1MWRVG2NTXVKS5693"
     },
     {
       "file": "spec/uploaders/profile_image_uploader_spec.rb",
@@ -13179,6 +13284,54 @@
       "last_verified": "2026-02-24",
       "name": "system_validates_response_template_attributes",
       "path": "docs/specres/admin/response_templates/system_validates_response_template_attributes.md",
+      "status": "stable"
+    },
+    {
+      "domain": "admin",
+      "id": "01KJ7HPV39HXGYWHV2SGNH9R73",
+      "last_verified": "2026-02-24",
+      "name": "admin_can_view_navigation_links",
+      "path": "docs/specres/admin/navigation/admin_can_view_navigation_links.md",
+      "status": "stable"
+    },
+    {
+      "domain": "admin",
+      "id": "01KJ7HQJX1MWRVG2NTXVKS5693",
+      "last_verified": "2026-02-24",
+      "name": "system_resolves_navigation_link_icon",
+      "path": "docs/specres/admin/navigation/system_resolves_navigation_link_icon.md",
+      "status": "stable"
+    },
+    {
+      "domain": "admin",
+      "id": "01KJ7HR805TS43BDP921B57G4T",
+      "last_verified": "2026-02-24",
+      "name": "system_normalizes_navigation_link_urls",
+      "path": "docs/specres/admin/navigation/system_normalizes_navigation_link_urls.md",
+      "status": "stable"
+    },
+    {
+      "domain": "admin",
+      "id": "01KJ7HTKMEBPYZWDJCZXPEBWCA",
+      "last_verified": "2026-02-24",
+      "name": "admin_can_create_navigation_link",
+      "path": "docs/specres/admin/navigation/admin_can_create_navigation_link.md",
+      "status": "stable"
+    },
+    {
+      "domain": "admin",
+      "id": "01KJ7HV1S7SD97H4R894DP7Y53",
+      "last_verified": "2026-02-24",
+      "name": "admin_can_edit_navigation_link",
+      "path": "docs/specres/admin/navigation/admin_can_edit_navigation_link.md",
+      "status": "stable"
+    },
+    {
+      "domain": "admin",
+      "id": "01KJ7HVCMVN775VM9T710ABMRW",
+      "last_verified": "2026-02-24",
+      "name": "admin_can_delete_navigation_link",
+      "path": "docs/specres/admin/navigation/admin_can_delete_navigation_link.md",
       "status": "stable"
     }
   ],

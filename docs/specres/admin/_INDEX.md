@@ -16,3 +16,9 @@
 | [admin_can_edit_response_template](response_templates/admin_can_edit_response_template.md) | stable | 2026-02-24 |
 | [admin_can_delete_response_template](response_templates/admin_can_delete_response_template.md) | stable | 2026-02-24 |
 | [system_validates_response_template_attributes](response_templates/system_validates_response_template_attributes.md) | stable | 2026-02-24 |
+| [admin_can_view_navigation_links](navigation/admin_can_view_navigation_links.md) | stable | 2026-02-24 |
+| [system_resolves_navigation_link_icon](navigation/system_resolves_navigation_link_icon.md) | stable | 2026-02-24 |
+| [system_normalizes_navigation_link_urls](navigation/system_normalizes_navigation_link_urls.md) | stable | 2026-02-24 |
+| [admin_can_create_navigation_link](navigation/admin_can_create_navigation_link.md) | stable | 2026-02-24 |
+| [admin_can_edit_navigation_link](navigation/admin_can_edit_navigation_link.md) | stable | 2026-02-24 |
+| [admin_can_delete_navigation_link](navigation/admin_can_delete_navigation_link.md) | stable | 2026-02-24 |
