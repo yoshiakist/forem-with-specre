@@ -1,3 +1,6 @@
+# @specre 01KJ6QD968CHB6HNK748HR81KV
+# @specre 01KJ7FK7N2EJG4M5C7JYHGZGJ0
+# @specre 01KJ7FFSMG6QWZ7S8QQ26PD1E5
 require "rails_helper"
 
 RSpec.describe "/admin" do

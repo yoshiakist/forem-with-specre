@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-24T09:05:28Z",
+  "generated_at": "2026-02-24T09:30:02Z",
   "source_refs": [
     {
       "file": "app/assets/javascripts/initializers/initializeAllTagEditButtons.js",
@@ -210,6 +210,16 @@
       "file": "app/controllers/admin/organizations_controller.rb",
       "line": 4,
       "specre_id": "01KHYAQZFNE6166KPD56KDPFRQ"
+    },
+    {
+      "file": "app/controllers/admin/overview_controller.rb",
+      "line": 1,
+      "specre_id": "01KJ6QD968CHB6HNK748HR81KV"
+    },
+    {
+      "file": "app/controllers/admin/overview_controller.rb",
+      "line": 2,
+      "specre_id": "01KJ7FK7N2EJG4M5C7JYHGZGJ0"
     },
     {
       "file": "app/controllers/admin/pages_controller.rb",
@@ -1535,6 +1545,11 @@
       "file": "app/javascript/packs/admin/organizations/modals.js",
       "line": 1,
       "specre_id": "01KJ02MNP5AREF4M1SM48V0ED6"
+    },
+    {
+      "file": "app/javascript/packs/admin/overview.jsx",
+      "line": 1,
+      "specre_id": "01KJ6QD968CHB6HNK748HR81KV"
     },
     {
       "file": "app/javascript/packs/analyticsArticle.js",
@@ -3242,6 +3257,11 @@
       "specre_id": "01KHZ25T4PNZ33CT917WZ25JYT"
     },
     {
+      "file": "app/services/admin/stats_data.rb",
+      "line": 1,
+      "specre_id": "01KJ6QD968CHB6HNK748HR81KV"
+    },
+    {
       "file": "app/services/ai/about_page_generator.rb",
       "line": 1,
       "specre_id": "01KJ6T4YYTJCCBGXEKWYZVX4J1"
@@ -4252,6 +4272,21 @@
       "specre_id": "01KJ6QD968CHB6HNK748HR81KV"
     },
     {
+      "file": "app/views/admin/overview/_notices.html.erb",
+      "line": 1,
+      "specre_id": "01KJ7FFSMG6QWZ7S8QQ26PD1E5"
+    },
+    {
+      "file": "app/views/admin/overview/index.html.erb",
+      "line": 1,
+      "specre_id": "01KJ7FK7N2EJG4M5C7JYHGZGJ0"
+    },
+    {
+      "file": "app/views/admin/overview/index.html.erb",
+      "line": 2,
+      "specre_id": "01KJ7FFSMG6QWZ7S8QQ26PD1E5"
+    },
+    {
       "file": "app/views/admin/pages/_form.html.erb",
       "line": 1,
       "specre_id": "01KHZFCE4EMXDS8J8BCARX9EQW"
@@ -4585,6 +4620,16 @@
       "file": "app/views/admin/users/show/overview/_organizations.html.erb",
       "line": 1,
       "specre_id": "01KJ02QR77TXF2XJR4QS32QAAE"
+    },
+    {
+      "file": "app/views/admin/users/show/overview/_roles.html.erb",
+      "line": 1,
+      "specre_id": "01KJ7FGECMRSSPTAJBPC1KAZR8"
+    },
+    {
+      "file": "app/views/admin/users/show/overview/_stats.html.erb",
+      "line": 1,
+      "specre_id": "01KJ7FGSTVKC2DR8D64BF0DMF4"
     },
     {
       "file": "app/views/admin/users/show/overview/_tag_moderation.html.erb",
@@ -7862,6 +7907,21 @@
       "specre_id": "01KHYAQZFNE6166KPD56KDPFRQ"
     },
     {
+      "file": "spec/requests/admin/overview_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ6QD968CHB6HNK748HR81KV"
+    },
+    {
+      "file": "spec/requests/admin/overview_spec.rb",
+      "line": 2,
+      "specre_id": "01KJ7FK7N2EJG4M5C7JYHGZGJ0"
+    },
+    {
+      "file": "spec/requests/admin/overview_spec.rb",
+      "line": 3,
+      "specre_id": "01KJ7FFSMG6QWZ7S8QQ26PD1E5"
+    },
+    {
       "file": "spec/requests/admin/pages_spec.rb",
       "line": 1,
       "specre_id": "01KHZFCE4EMXDS8J8BCARX9EQW"
@@ -8580,6 +8640,11 @@
       "file": "spec/serializers/search/user_serializer_spec.rb",
       "line": 1,
       "specre_id": "01KHZ25T4PNZ33CT917WZ25JYT"
+    },
+    {
+      "file": "spec/services/admin/stats_data_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ6QD968CHB6HNK748HR81KV"
     },
     {
       "file": "spec/services/ai/about_page_generator_spec.rb",
@@ -12720,44 +12785,76 @@
       "status": "stable"
     },
     {
-      "domain": "email",
+      "domain": "emails",
       "id": "01KJ758K1CA5TWC5FHEKJZ52BT",
       "last_verified": "2026-02-24",
       "name": "admin_can_create_and_deliver_custom_email",
-      "path": "docs/specres/email/admin_can_create_and_deliver_custom_email.md",
+      "path": "docs/specres/emails/admin_can_create_and_deliver_custom_email.md",
       "status": "stable"
     },
     {
-      "domain": "email",
+      "domain": "emails",
       "id": "01KJ758NKFTEQKYMBYPEGR3817",
       "last_verified": "2026-02-24",
       "name": "admin_can_view_sent_email_messages",
-      "path": "docs/specres/email/admin_can_view_sent_email_messages.md",
+      "path": "docs/specres/emails/admin_can_view_sent_email_messages.md",
       "status": "stable"
     },
     {
-      "domain": "email",
+      "domain": "emails",
       "id": "01KJ759KKVVQ8YQZP1B78QC3Q6",
       "last_verified": "2026-02-24",
       "name": "user_can_verify_account_ownership_via_email",
-      "path": "docs/specres/email/user_can_verify_account_ownership_via_email.md",
+      "path": "docs/specres/emails/user_can_verify_account_ownership_via_email.md",
       "status": "stable"
     },
     {
-      "domain": "email",
+      "domain": "emails",
       "id": "01KJ75D28S88YETAPX6NF3ZP4C",
       "last_verified": "2026-02-24",
       "name": "system_purges_old_email_delivery_records",
-      "path": "docs/specres/email/system_purges_old_email_delivery_records.md",
+      "path": "docs/specres/emails/system_purges_old_email_delivery_records.md",
       "status": "stable"
     },
     {
-      "domain": "email",
+      "domain": "emails",
       "id": "01KJ75DN218QHHZ575VBJ95H29",
       "last_verified": "2026-02-24",
       "name": "admin_can_send_direct_email_to_user",
-      "path": "docs/specres/email/admin_can_send_direct_email_to_user.md",
+      "path": "docs/specres/emails/admin_can_send_direct_email_to_user.md",
       "status": "stable"
+    },
+    {
+      "domain": "admin",
+      "id": "01KJ7FFSMG6QWZ7S8QQ26PD1E5",
+      "last_verified": "2026-02-24",
+      "name": "system_warns_admin_about_outdated_deployment",
+      "path": "docs/specres/admin/overview/system_warns_admin_about_outdated_deployment.md",
+      "status": "stable"
+    },
+    {
+      "domain": "admin",
+      "id": "01KJ7FGECMRSSPTAJBPC1KAZR8",
+      "last_verified": null,
+      "name": "admin_views_user_roles_on_profile",
+      "path": "docs/specres/admin/overview/admin_views_user_roles_on_profile.md",
+      "status": "draft"
+    },
+    {
+      "domain": "admin",
+      "id": "01KJ7FGSTVKC2DR8D64BF0DMF4",
+      "last_verified": null,
+      "name": "admin_views_user_activity_stats_on_profile",
+      "path": "docs/specres/admin/overview/admin_views_user_activity_stats_on_profile.md",
+      "status": "draft"
+    },
+    {
+      "domain": "admin",
+      "id": "01KJ7FK7N2EJG4M5C7JYHGZGJ0",
+      "last_verified": null,
+      "name": "admin_views_overview_dashboard",
+      "path": "docs/specres/admin/overview/admin_views_overview_dashboard.md",
+      "status": "draft"
     }
   ],
   "version": 1
