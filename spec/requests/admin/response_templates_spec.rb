@@ -1,3 +1,7 @@
+# @specre 01KJ7H6DWTE1GHSKNKFFQC1NC9
+# @specre 01KJ7H3X733B2JBXBQJVRQQZE8
+# @specre 01KJ7H3RYFNKHXHYQZYPD2PCYC
+# @specre 01KJ7H3CSDJE9JT7EXNH64N3TW
 require "rails_helper"
 
 RSpec.describe "/admin/advanced/response_templates" do

@@ -11,3 +11,8 @@
 | [admin_can_assign_role_to_user](roles/admin_can_assign_role_to_user.md) | stable | 2026-02-24 |
 | [admin_can_remove_role_from_user](roles/admin_can_remove_role_from_user.md) | stable | 2026-02-24 |
 | [api_client_can_remove_role_from_user](roles/api_client_can_remove_role_from_user.md) | stable | 2026-02-24 |
+| [admin_can_list_response_templates](response_templates/admin_can_list_response_templates.md) | stable | 2026-02-24 |
+| [admin_can_create_response_template](response_templates/admin_can_create_response_template.md) | stable | 2026-02-24 |
+| [admin_can_edit_response_template](response_templates/admin_can_edit_response_template.md) | stable | 2026-02-24 |
+| [admin_can_delete_response_template](response_templates/admin_can_delete_response_template.md) | stable | 2026-02-24 |
+| [system_validates_response_template_attributes](response_templates/system_validates_response_template_attributes.md) | stable | 2026-02-24 |

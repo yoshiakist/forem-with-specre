@@ -1,3 +1,4 @@
+# @specre 01KJ7H6SJ6Y6A8ENZAX9H1TR5G
 require "rails_helper"
 
 RSpec.describe ResponseTemplate do
