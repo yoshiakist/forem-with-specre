@@ -1,3 +1,5 @@
+# @specre 01KJ74FE48B8HJGBTKCFTWECFQ
+# @specre 01KJ74CHA3SNK2FRMDYG1B7QA5
 class BlockedEmailDomain < ApplicationRecord
   validates :domain, presence: true, uniqueness: true
   validates :domain,

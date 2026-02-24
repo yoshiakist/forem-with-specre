@@ -1,3 +1,5 @@
+# @specre 01KJ74FE48B8HJGBTKCFTWECFQ
+# @specre 01KJ74CHA3SNK2FRMDYG1B7QA5
 require "rails_helper"
 
 RSpec.describe BlockedEmailDomain, type: :model do

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-24T06:05:53Z",
+  "generated_at": "2026-02-24T06:14:04Z",
   "source_refs": [
     {
       "file": "app/assets/javascripts/initializers/initializeAllTagEditButtons.js",
@@ -100,6 +100,21 @@
       "file": "app/controllers/admin/billboards_controller.rb",
       "line": 5,
       "specre_id": "01KJ6EAKT3P7HHWCZZXHQ6N8MV"
+    },
+    {
+      "file": "app/controllers/admin/blocked_email_domains_controller.rb",
+      "line": 1,
+      "specre_id": "01KJ74D0D1M1BE0489HGAP700S"
+    },
+    {
+      "file": "app/controllers/admin/blocked_email_domains_controller.rb",
+      "line": 2,
+      "specre_id": "01KJ74CHA3SNK2FRMDYG1B7QA5"
+    },
+    {
+      "file": "app/controllers/admin/blocked_email_domains_controller.rb",
+      "line": 3,
+      "specre_id": "01KJ74BNMR2A3VMTTYP0YK4Q2T"
     },
     {
       "file": "app/controllers/admin/broadcasts_controller.rb",
@@ -2467,6 +2482,16 @@
       "specre_id": "01KJ6E7GAHP8M3SQND6QQNEDED"
     },
     {
+      "file": "app/models/blocked_email_domain.rb",
+      "line": 1,
+      "specre_id": "01KJ74FE48B8HJGBTKCFTWECFQ"
+    },
+    {
+      "file": "app/models/blocked_email_domain.rb",
+      "line": 2,
+      "specre_id": "01KJ74CHA3SNK2FRMDYG1B7QA5"
+    },
+    {
       "file": "app/models/broadcast.rb",
       "line": 1,
       "specre_id": "01KJ6DVV4TY3RHBN045KGH5ZXY"
@@ -4010,6 +4035,21 @@
       "file": "app/validators/profile_validator.rb",
       "line": 1,
       "specre_id": "01KHZ69F0GE1R07TXK53AAA1K8"
+    },
+    {
+      "file": "app/views/admin/blocked_email_domains/index.html.erb",
+      "line": 1,
+      "specre_id": "01KJ74D0D1M1BE0489HGAP700S"
+    },
+    {
+      "file": "app/views/admin/blocked_email_domains/index.html.erb",
+      "line": 2,
+      "specre_id": "01KJ74BNMR2A3VMTTYP0YK4Q2T"
+    },
+    {
+      "file": "app/views/admin/blocked_email_domains/new.html.erb",
+      "line": 1,
+      "specre_id": "01KJ74CHA3SNK2FRMDYG1B7QA5"
     },
     {
       "file": "app/views/admin/broadcasts/_form.html.erb",
@@ -6442,6 +6482,11 @@
       "specre_id": "01KJ6GMVW8YA3D7EE2WW7VZEZV"
     },
     {
+      "file": "spec/factories/blocked_email_domains.rb",
+      "line": 1,
+      "specre_id": "01KJ74CHA3SNK2FRMDYG1B7QA5"
+    },
+    {
       "file": "spec/factories/collections.rb",
       "line": 1,
       "specre_id": "01KJ6C4VF5JP25A07CJA19PQHX"
@@ -7190,6 +7235,16 @@
       "file": "spec/models/billboard_survey_exclusion_spec.rb",
       "line": 1,
       "specre_id": "01KJ2HPF2KC2HBFRV0NS32DFR7"
+    },
+    {
+      "file": "spec/models/blocked_email_domain_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ74FE48B8HJGBTKCFTWECFQ"
+    },
+    {
+      "file": "spec/models/blocked_email_domain_spec.rb",
+      "line": 2,
+      "specre_id": "01KJ74CHA3SNK2FRMDYG1B7QA5"
     },
     {
       "file": "spec/models/broadcast_spec.rb",
@@ -12465,6 +12520,38 @@
       "last_verified": "2026-02-24",
       "name": "system_sends_onboarding_drip_emails",
       "path": "docs/specres/emails/drip_email/system_sends_onboarding_drip_emails.md",
+      "status": "stable"
+    },
+    {
+      "domain": "emails",
+      "id": "01KJ74BNMR2A3VMTTYP0YK4Q2T",
+      "last_verified": null,
+      "name": "admin_views_blocked_email_domains",
+      "path": "docs/specres/emails/blocked_email/admin_views_blocked_email_domains.md",
+      "status": "draft"
+    },
+    {
+      "domain": "emails",
+      "id": "01KJ74CHA3SNK2FRMDYG1B7QA5",
+      "last_verified": "2026-02-24",
+      "name": "admin_blocks_email_domain",
+      "path": "docs/specres/emails/blocked_email/admin_blocks_email_domain.md",
+      "status": "stable"
+    },
+    {
+      "domain": "emails",
+      "id": "01KJ74D0D1M1BE0489HGAP700S",
+      "last_verified": null,
+      "name": "admin_removes_blocked_email_domain",
+      "path": "docs/specres/emails/blocked_email/admin_removes_blocked_email_domain.md",
+      "status": "draft"
+    },
+    {
+      "domain": "emails",
+      "id": "01KJ74FE48B8HJGBTKCFTWECFQ",
+      "last_verified": "2026-02-24",
+      "name": "system_checks_blocked_email_domain",
+      "path": "docs/specres/emails/blocked_email/system_checks_blocked_email_domain.md",
       "status": "stable"
     }
   ],

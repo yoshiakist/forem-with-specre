@@ -1,3 +1,6 @@
+# @specre 01KJ74D0D1M1BE0489HGAP700S
+# @specre 01KJ74CHA3SNK2FRMDYG1B7QA5
+# @specre 01KJ74BNMR2A3VMTTYP0YK4Q2T
 module Admin
   class BlockedEmailDomainsController < Admin::ApplicationController
     layout "admin"
