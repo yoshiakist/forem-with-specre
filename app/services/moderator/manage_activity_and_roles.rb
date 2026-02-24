@@ -1,3 +1,4 @@
+# @specre 01KJ7G7M4JRVA0J8VWAVJ7Y5ME
 module Moderator
   class ManageActivityAndRoles
     attr_reader :user, :admin, :user_params

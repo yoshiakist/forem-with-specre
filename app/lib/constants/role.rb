@@ -1,3 +1,4 @@
+# @specre 01KJ7G7M4JRVA0J8VWAVJ7Y5ME
 module Constants
   module Role
     BASE_ROLES_LABELS_TO_WHERE_CLAUSE = {

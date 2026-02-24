@@ -1,3 +1,4 @@
+# @specre 01KJ7GD1GXR41KPP9FQDP5DGMY
 module Users
   class RemoveRole
     Response = Struct.new(:success, :error_message, keyword_init: true)

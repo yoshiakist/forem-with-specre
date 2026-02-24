@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-24T09:30:02Z",
+  "generated_at": "2026-02-24T09:43:15Z",
   "source_refs": [
     {
       "file": "app/assets/javascripts/initializers/initializeAllTagEditButtons.js",
@@ -140,6 +140,11 @@
       "file": "app/controllers/admin/broadcasts_controller.rb",
       "line": 5,
       "specre_id": "01KJ6D3VR5PTRXZFBE5SVTSYM1"
+    },
+    {
+      "file": "app/controllers/admin/bulk_assign_role_controller.rb",
+      "line": 1,
+      "specre_id": "01KJ7G73NX1PNF0QQBGT8PPT41"
     },
     {
       "file": "app/controllers/admin/comments_controller.rb",
@@ -369,11 +374,21 @@
     {
       "file": "app/controllers/admin/users_controller.rb",
       "line": 1,
-      "specre_id": "01KJ75DN218QHHZ575VBJ95H29"
+      "specre_id": "01KJ7GD1GXR41KPP9FQDP5DGMY"
     },
     {
       "file": "app/controllers/admin/users_controller.rb",
       "line": 2,
+      "specre_id": "01KJ7G7M4JRVA0J8VWAVJ7Y5ME"
+    },
+    {
+      "file": "app/controllers/admin/users_controller.rb",
+      "line": 3,
+      "specre_id": "01KJ75DN218QHHZ575VBJ95H29"
+    },
+    {
+      "file": "app/controllers/admin/users_controller.rb",
+      "line": 4,
       "specre_id": "01KJ759KKVVQ8YQZP1B78QC3Q6"
     },
     {
@@ -520,6 +535,16 @@
       "file": "app/controllers/api/v1/tags_controller.rb",
       "line": 1,
       "specre_id": "01KJ41E1Q931QJ3XZVWRJJ1PJX"
+    },
+    {
+      "file": "app/controllers/api/v1/user_roles_controller.rb",
+      "line": 1,
+      "specre_id": "01KJ7GDDAJTJNN577CFGG63JG2"
+    },
+    {
+      "file": "app/controllers/api/v1/user_roles_controller.rb",
+      "line": 2,
+      "specre_id": "01KJ7G7F0BZ5ZBSGWV365S2RYC"
     },
     {
       "file": "app/controllers/badges_controller.rb",
@@ -1917,6 +1942,11 @@
       "specre_id": "01KJ41F3K1B3SRQ2HBYFY2N2M4"
     },
     {
+      "file": "app/lib/constants/role.rb",
+      "line": 1,
+      "specre_id": "01KJ7G7M4JRVA0J8VWAVJ7Y5ME"
+    },
+    {
       "file": "app/lib/constants/settings.rb",
       "line": 1,
       "specre_id": "01KHZ3R448RA411ZP1V33AX5MR"
@@ -2937,6 +2967,16 @@
       "specre_id": "01KHZ55SRCPDHPWM0EYSTE60MK"
     },
     {
+      "file": "app/models/role.rb",
+      "line": 1,
+      "specre_id": "01KJ7GD1GXR41KPP9FQDP5DGMY"
+    },
+    {
+      "file": "app/models/role.rb",
+      "line": 2,
+      "specre_id": "01KJ7G7M4JRVA0J8VWAVJ7Y5ME"
+    },
+    {
       "file": "app/models/scheduled_automation.rb",
       "line": 1,
       "specre_id": "01KHZ30Q1RW1G4QRNXNKQTQ9NM"
@@ -3030,6 +3070,11 @@
       "file": "app/models/tag_subforem_relationship.rb",
       "line": 1,
       "specre_id": "01KJ41RETE70D2JDJEGS0STSGM"
+    },
+    {
+      "file": "app/models/user_role.rb",
+      "line": 1,
+      "specre_id": "01KJ7G7M4JRVA0J8VWAVJ7Y5ME"
     },
     {
       "file": "app/models/user_subscription.rb",
@@ -3140,6 +3185,11 @@
       "file": "app/policies/organization_policy.rb",
       "line": 3,
       "specre_id": "01KHYACZKPN88W16YWM7C8YF7V"
+    },
+    {
+      "file": "app/policies/role_policy.rb",
+      "line": 1,
+      "specre_id": "01KJ7GD1GXR41KPP9FQDP5DGMY"
     },
     {
       "file": "app/policies/subforem_policy.rb",
@@ -3777,6 +3827,11 @@
       "specre_id": "01KJ16TED32H3YYC9F610VZM5X"
     },
     {
+      "file": "app/services/moderator/manage_activity_and_roles.rb",
+      "line": 1,
+      "specre_id": "01KJ7G7M4JRVA0J8VWAVJ7Y5ME"
+    },
+    {
       "file": "app/services/notification_subscriptions/subscribe.rb",
       "line": 1,
       "specre_id": "01KJ15N9VC5VXN9692QKQRVF5E"
@@ -4097,6 +4152,11 @@
       "specre_id": "01KHZ7FPE352W4ESF9QNYKRE34"
     },
     {
+      "file": "app/services/users/remove_role.rb",
+      "line": 1,
+      "specre_id": "01KJ7GD1GXR41KPP9FQDP5DGMY"
+    },
+    {
       "file": "app/services/users/resolve_spam_reports.rb",
       "line": 1,
       "specre_id": "01KJ25Q4XMSVV0Y8FHDRRK1JYD"
@@ -4175,6 +4235,11 @@
       "file": "app/views/admin/broadcasts/show.html.erb",
       "line": 2,
       "specre_id": "01KJ6D7FQ3E8XSXDJQS2EYZTJ8"
+    },
+    {
+      "file": "app/views/admin/bulk_assign_role/index.html.erb",
+      "line": 1,
+      "specre_id": "01KJ7G73NX1PNF0QQBGT8PPT41"
     },
     {
       "file": "app/views/admin/comments/_comment.html.erb",
@@ -4597,6 +4662,11 @@
       "specre_id": "01KJ02QR77TXF2XJR4QS32QAAE"
     },
     {
+      "file": "app/views/admin/users/modals/_add_role_modal.html.erb",
+      "line": 1,
+      "specre_id": "01KJ7G7M4JRVA0J8VWAVJ7Y5ME"
+    },
+    {
       "file": "app/views/admin/users/modals/_adjust_credits_modal.html.erb",
       "line": 1,
       "specre_id": "01KJ2SFWXPPE61BA7KNFY8CSSG"
@@ -4624,6 +4694,16 @@
     {
       "file": "app/views/admin/users/show/overview/_roles.html.erb",
       "line": 1,
+      "specre_id": "01KJ7GD1GXR41KPP9FQDP5DGMY"
+    },
+    {
+      "file": "app/views/admin/users/show/overview/_roles.html.erb",
+      "line": 2,
+      "specre_id": "01KJ7G7M4JRVA0J8VWAVJ7Y5ME"
+    },
+    {
+      "file": "app/views/admin/users/show/overview/_roles.html.erb",
+      "line": 3,
       "specre_id": "01KJ7FGECMRSSPTAJBPC1KAZR8"
     },
     {
@@ -5209,11 +5289,21 @@
     {
       "file": "app/views/mailers/notify_mailer/base_subscriber_role_email.html.erb",
       "line": 1,
+      "specre_id": "01KJ7G7M4JRVA0J8VWAVJ7Y5ME"
+    },
+    {
+      "file": "app/views/mailers/notify_mailer/base_subscriber_role_email.html.erb",
+      "line": 2,
       "specre_id": "01KJ72WHJG3KGKQRANX95KQTSX"
     },
     {
       "file": "app/views/mailers/notify_mailer/base_subscriber_role_text.html.erb",
       "line": 1,
+      "specre_id": "01KJ7G7M4JRVA0J8VWAVJ7Y5ME"
+    },
+    {
+      "file": "app/views/mailers/notify_mailer/base_subscriber_role_text.html.erb",
+      "line": 2,
       "specre_id": "01KJ72WHJG3KGKQRANX95KQTSX"
     },
     {
@@ -5319,11 +5409,21 @@
     {
       "file": "app/views/mailers/notify_mailer/trusted_role_email.html.erb",
       "line": 1,
+      "specre_id": "01KJ7G7M4JRVA0J8VWAVJ7Y5ME"
+    },
+    {
+      "file": "app/views/mailers/notify_mailer/trusted_role_email.html.erb",
+      "line": 2,
       "specre_id": "01KJ72SXAQ2WNCG8H8P8PXR5E0"
     },
     {
       "file": "app/views/mailers/notify_mailer/trusted_role_email.text.erb",
       "line": 1,
+      "specre_id": "01KJ7G7M4JRVA0J8VWAVJ7Y5ME"
+    },
+    {
+      "file": "app/views/mailers/notify_mailer/trusted_role_email.text.erb",
+      "line": 2,
       "specre_id": "01KJ72SXAQ2WNCG8H8P8PXR5E0"
     },
     {
@@ -7582,6 +7682,11 @@
       "specre_id": "01KHZ55SRCPDHPWM0EYSTE60MK"
     },
     {
+      "file": "spec/models/role_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ7G7M4JRVA0J8VWAVJ7Y5ME"
+    },
+    {
       "file": "spec/models/settings/authentication_integration_spec.rb",
       "line": 1,
       "specre_id": "01KHZ3SPSJ823DQWH7K6DW74FF"
@@ -7672,6 +7777,11 @@
       "specre_id": "01KJ758K1CA5TWC5FHEKJZ52BT"
     },
     {
+      "file": "spec/models/user_role_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ7G7M4JRVA0J8VWAVJ7Y5ME"
+    },
+    {
       "file": "spec/models/users/notification_setting_spec.rb",
       "line": 1,
       "specre_id": "01KHZ454YXRB8TWV8PC06P4EQ5"
@@ -7700,6 +7810,11 @@
       "file": "spec/policies/organization_policy_spec.rb",
       "line": 1,
       "specre_id": "01KHYACZKPN88W16YWM7C8YF7V"
+    },
+    {
+      "file": "spec/policies/role_policy_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ7GD1GXR41KPP9FQDP5DGMY"
     },
     {
       "file": "spec/policies/subforem_policy_spec.rb",
@@ -7830,6 +7945,11 @@
       "file": "spec/requests/admin/broadcasts_spec.rb",
       "line": 5,
       "specre_id": "01KJ6D3VR5PTRXZFBE5SVTSYM1"
+    },
+    {
+      "file": "spec/requests/admin/bulk_assign_role_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ7G73NX1PNF0QQBGT8PPT41"
     },
     {
       "file": "spec/requests/admin/comments_spec.rb",
@@ -8172,6 +8292,16 @@
       "specre_id": "01KJ41E1Q931QJ3XZVWRJJ1PJX"
     },
     {
+      "file": "spec/requests/api/v1/docs/user_roles_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ7GDDAJTJNN577CFGG63JG2"
+    },
+    {
+      "file": "spec/requests/api/v1/docs/user_roles_spec.rb",
+      "line": 2,
+      "specre_id": "01KJ7G7F0BZ5ZBSGWV365S2RYC"
+    },
+    {
       "file": "spec/requests/api/v1/feedback_messages_spec.rb",
       "line": 1,
       "specre_id": "01KJ25K4FS13J2KA8CV6011QN8"
@@ -8220,6 +8350,16 @@
       "file": "spec/requests/api/v1/tags_spec.rb",
       "line": 1,
       "specre_id": "01KJ41E1Q931QJ3XZVWRJJ1PJX"
+    },
+    {
+      "file": "spec/requests/api/v1/user_roles_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ7GDDAJTJNN577CFGG63JG2"
+    },
+    {
+      "file": "spec/requests/api/v1/user_roles_spec.rb",
+      "line": 2,
+      "specre_id": "01KJ7G7F0BZ5ZBSGWV365S2RYC"
     },
     {
       "file": "spec/requests/articles/articles_feed_spec.rb",
@@ -9037,6 +9177,11 @@
       "specre_id": "01KJ16TED32H3YYC9F610VZM5X"
     },
     {
+      "file": "spec/services/moderator/manage_activity_and_roles_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ7G7M4JRVA0J8VWAVJ7Y5ME"
+    },
+    {
       "file": "spec/services/notification_subscriptions/subscribe_spec.rb",
       "line": 1,
       "specre_id": "01KJ15N9VC5VXN9692QKQRVF5E"
@@ -9320,6 +9465,11 @@
       "file": "spec/services/users/delete_podcasts_spec.rb",
       "line": 1,
       "specre_id": "01KHZ7FPE352W4ESF9QNYKRE34"
+    },
+    {
+      "file": "spec/services/users/remove_role_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ7GD1GXR41KPP9FQDP5DGMY"
     },
     {
       "file": "spec/services/users/resolve_spam_reports_spec.rb",
@@ -12855,6 +13005,46 @@
       "name": "admin_views_overview_dashboard",
       "path": "docs/specres/admin/overview/admin_views_overview_dashboard.md",
       "status": "draft"
+    },
+    {
+      "domain": "admin",
+      "id": "01KJ7G73NX1PNF0QQBGT8PPT41",
+      "last_verified": "2026-02-24",
+      "name": "admin_can_bulk_assign_role_to_users",
+      "path": "docs/specres/admin/roles/admin_can_bulk_assign_role_to_users.md",
+      "status": "stable"
+    },
+    {
+      "domain": "admin",
+      "id": "01KJ7G7F0BZ5ZBSGWV365S2RYC",
+      "last_verified": "2026-02-24",
+      "name": "api_client_can_assign_role_to_user",
+      "path": "docs/specres/admin/roles/api_client_can_assign_role_to_user.md",
+      "status": "stable"
+    },
+    {
+      "domain": "admin",
+      "id": "01KJ7G7M4JRVA0J8VWAVJ7Y5ME",
+      "last_verified": "2026-02-24",
+      "name": "admin_can_assign_role_to_user",
+      "path": "docs/specres/admin/roles/admin_can_assign_role_to_user.md",
+      "status": "stable"
+    },
+    {
+      "domain": "admin",
+      "id": "01KJ7GD1GXR41KPP9FQDP5DGMY",
+      "last_verified": "2026-02-24",
+      "name": "admin_can_remove_role_from_user",
+      "path": "docs/specres/admin/roles/admin_can_remove_role_from_user.md",
+      "status": "stable"
+    },
+    {
+      "domain": "admin",
+      "id": "01KJ7GDDAJTJNN577CFGG63JG2",
+      "last_verified": "2026-02-24",
+      "name": "api_client_can_remove_role_from_user",
+      "path": "docs/specres/admin/roles/api_client_can_remove_role_from_user.md",
+      "status": "stable"
     }
   ],
   "version": 1

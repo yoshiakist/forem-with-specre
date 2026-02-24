@@ -1,3 +1,4 @@
+# @specre 01KJ7G7M4JRVA0J8VWAVJ7Y5ME
 require "rails_helper"
 
 RSpec.describe UserRole do
