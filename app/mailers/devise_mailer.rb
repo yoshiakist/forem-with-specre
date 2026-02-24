@@ -1,3 +1,7 @@
+# @specre 01KJ72G2KV3QBHWF11ZNJKHREH
+# @specre 01KJ72G437T5C1XSRFT1032VZ9
+# @specre 01KJ72CN8M7DDPD8AGN754MKTK
+# @specre 01KJ72CC7Y6GB7EXY8MNPEX2VQ
 class DeviseMailer < Devise::Mailer
   include Rails.application.routes.url_helpers
   self.mailer_name = 'devise/mailer'

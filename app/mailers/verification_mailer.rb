@@ -1,3 +1,5 @@
+# @specre 01KJ72D0HZ49WMGHS1ERWQEKVT
+# @specre 01KJ729K8JA4QKFYMSJEHH7DT5
 class VerificationMailer < ApplicationMailer
   default from: lambda {
     I18n.t("mailers.verification_mailer.from", community: Settings::Community.community_name(subforem_id: @subforem_id),

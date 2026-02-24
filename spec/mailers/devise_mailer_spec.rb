@@ -1,3 +1,6 @@
+# @specre 01KJ72G2KV3QBHWF11ZNJKHREH
+# @specre 01KJ72CN8M7DDPD8AGN754MKTK
+# @specre 01KJ72CC7Y6GB7EXY8MNPEX2VQ
 require "rails_helper"
 
 RSpec.describe DeviseMailer, type: :mailer do

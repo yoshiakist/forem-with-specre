@@ -1,3 +1,5 @@
+# @specre 01KJ72D0HZ49WMGHS1ERWQEKVT
+# @specre 01KJ729K8JA4QKFYMSJEHH7DT5
 # Preview all emails at http://localhost:3000/rails/mailers/verification_mailer
 class VerificationMailerPreview < ActionMailer::Preview
   def account_ownership_verification_email

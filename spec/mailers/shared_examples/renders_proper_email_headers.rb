@@ -1,3 +1,4 @@
+# @specre 01KJ72941YA33EA9WDJ7TVJA6P
 RSpec.shared_examples "#renders_proper_email_headers" do
   let(:from_email_address) { "custom_noreply@forem.com" }
   let(:reply_to_email_address) { "custom_reply@forem.com" }

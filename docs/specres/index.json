@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-24T05:24:56Z",
+  "generated_at": "2026-02-24T05:46:21Z",
   "source_refs": [
     {
       "file": "app/assets/javascripts/initializers/initializeAllTagEditButtons.js",
@@ -2217,9 +2217,89 @@
       "specre_id": "01KJ1FH9QT2V3RGNJKW67RHNR5"
     },
     {
+      "file": "app/mailers/application_mailer.rb",
+      "line": 1,
+      "specre_id": "01KJ72941YA33EA9WDJ7TVJA6P"
+    },
+    {
+      "file": "app/mailers/concerns/deliverable.rb",
+      "line": 1,
+      "specre_id": "01KJ72941YA33EA9WDJ7TVJA6P"
+    },
+    {
+      "file": "app/mailers/custom_mailer.rb",
+      "line": 1,
+      "specre_id": "01KJ7297CDCGQ36QFHNA8BR6XJ"
+    },
+    {
+      "file": "app/mailers/devise_mailer.rb",
+      "line": 1,
+      "specre_id": "01KJ72G2KV3QBHWF11ZNJKHREH"
+    },
+    {
+      "file": "app/mailers/devise_mailer.rb",
+      "line": 2,
+      "specre_id": "01KJ72G437T5C1XSRFT1032VZ9"
+    },
+    {
+      "file": "app/mailers/devise_mailer.rb",
+      "line": 3,
+      "specre_id": "01KJ72CN8M7DDPD8AGN754MKTK"
+    },
+    {
+      "file": "app/mailers/devise_mailer.rb",
+      "line": 4,
+      "specre_id": "01KJ72CC7Y6GB7EXY8MNPEX2VQ"
+    },
+    {
       "file": "app/mailers/digest_mailer.rb",
       "line": 1,
       "specre_id": "01KJ71J0WWYVQ1PD8KP1MBS1W0"
+    },
+    {
+      "file": "app/mailers/notify_mailer.rb",
+      "line": 1,
+      "specre_id": "01KJ72WHJG3KGKQRANX95KQTSX"
+    },
+    {
+      "file": "app/mailers/notify_mailer.rb",
+      "line": 2,
+      "specre_id": "01KJ72SXAQ2WNCG8H8P8PXR5E0"
+    },
+    {
+      "file": "app/mailers/notify_mailer.rb",
+      "line": 3,
+      "specre_id": "01KJ72SKJ1NPDRXKSKA8R47C82"
+    },
+    {
+      "file": "app/mailers/notify_mailer.rb",
+      "line": 4,
+      "specre_id": "01KJ72SS278ECC5FW24CY96BHP"
+    },
+    {
+      "file": "app/mailers/notify_mailer.rb",
+      "line": 5,
+      "specre_id": "01KJ72PNMHN5CAC6ANK4VBMJJW"
+    },
+    {
+      "file": "app/mailers/notify_mailer.rb",
+      "line": 6,
+      "specre_id": "01KJ72PVG4W2F3ADXJKS59C3S2"
+    },
+    {
+      "file": "app/mailers/notify_mailer.rb",
+      "line": 7,
+      "specre_id": "01KJ72PJ45D3ZFHQBYBXD9EEME"
+    },
+    {
+      "file": "app/mailers/notify_mailer.rb",
+      "line": 8,
+      "specre_id": "01KJ72K4BVPB3SWGWJ4TH12QS1"
+    },
+    {
+      "file": "app/mailers/notify_mailer.rb",
+      "line": 9,
+      "specre_id": "01KJ72GNWTSM6SDVV7DR8NDRHY"
     },
     {
       "file": "app/mailers/organization_invitation_mailer.rb",
@@ -2235,6 +2315,16 @@
       "file": "app/mailers/survey_mailer.rb",
       "line": 1,
       "specre_id": "01KJ2HPE39M61JKHQGRA7AHD0D"
+    },
+    {
+      "file": "app/mailers/verification_mailer.rb",
+      "line": 1,
+      "specre_id": "01KJ72D0HZ49WMGHS1ERWQEKVT"
+    },
+    {
+      "file": "app/mailers/verification_mailer.rb",
+      "line": 2,
+      "specre_id": "01KJ729K8JA4QKFYMSJEHH7DT5"
     },
     {
       "file": "app/models/ab_experiment.rb",
@@ -4647,6 +4737,36 @@
       "specre_id": "01KJ41J4101Y3KSMXR9VEHN9ZY"
     },
     {
+      "file": "app/views/devise/mailer/_creator_confirmation_instructions.html.erb",
+      "line": 1,
+      "specre_id": "01KJ72CC7Y6GB7EXY8MNPEX2VQ"
+    },
+    {
+      "file": "app/views/devise/mailer/confirmation_instructions.html.erb",
+      "line": 1,
+      "specre_id": "01KJ72CC7Y6GB7EXY8MNPEX2VQ"
+    },
+    {
+      "file": "app/views/devise/mailer/invitation_instructions.html.erb",
+      "line": 1,
+      "specre_id": "01KJ72CN8M7DDPD8AGN754MKTK"
+    },
+    {
+      "file": "app/views/devise/mailer/invitation_instructions.text.erb",
+      "line": 1,
+      "specre_id": "01KJ72CN8M7DDPD8AGN754MKTK"
+    },
+    {
+      "file": "app/views/devise/mailer/reset_password_instructions.html.erb",
+      "line": 1,
+      "specre_id": "01KJ72G2KV3QBHWF11ZNJKHREH"
+    },
+    {
+      "file": "app/views/devise/mailer/unlock_instructions.html.erb",
+      "line": 1,
+      "specre_id": "01KJ72G437T5C1XSRFT1032VZ9"
+    },
+    {
       "file": "app/views/feedback_messages/_form.html.erb",
       "line": 1,
       "specre_id": "01KJ25JM22F6QQ01PMJXGHZVQ5"
@@ -4700,6 +4820,16 @@
       "file": "app/views/layouts/_social_media.html.erb",
       "line": 1,
       "specre_id": "01KJ1C3MFT988AX8WWC1G6EG0G"
+    },
+    {
+      "file": "app/views/layouts/mailer.html.erb",
+      "line": 1,
+      "specre_id": "01KJ72941YA33EA9WDJ7TVJA6P"
+    },
+    {
+      "file": "app/views/layouts/mailer.text.erb",
+      "line": 1,
+      "specre_id": "01KJ72941YA33EA9WDJ7TVJA6P"
     },
     {
       "file": "app/views/liquid_embeds/show.html.erb",
@@ -4872,6 +5002,61 @@
       "specre_id": "01KJ1FH9QT2V3RGNJKW67RHNR5"
     },
     {
+      "file": "app/views/mailers/custom_mailer/custom_email.html.erb",
+      "line": 1,
+      "specre_id": "01KJ7297CDCGQ36QFHNA8BR6XJ"
+    },
+    {
+      "file": "app/views/mailers/digest_mailer/digest_email.html.erb",
+      "line": 1,
+      "specre_id": "01KJ71J0WWYVQ1PD8KP1MBS1W0"
+    },
+    {
+      "file": "app/views/mailers/notify_mailer/_email_header.html.erb",
+      "line": 1,
+      "specre_id": "01KJ72941YA33EA9WDJ7TVJA6P"
+    },
+    {
+      "file": "app/views/mailers/notify_mailer/account_deleted_email.html.erb",
+      "line": 1,
+      "specre_id": "01KJ72PJ45D3ZFHQBYBXD9EEME"
+    },
+    {
+      "file": "app/views/mailers/notify_mailer/account_deleted_email.text.erb",
+      "line": 1,
+      "specre_id": "01KJ72PJ45D3ZFHQBYBXD9EEME"
+    },
+    {
+      "file": "app/views/mailers/notify_mailer/account_deletion_requested_email.html.erb",
+      "line": 1,
+      "specre_id": "01KJ72PVG4W2F3ADXJKS59C3S2"
+    },
+    {
+      "file": "app/views/mailers/notify_mailer/account_deletion_requested_email.text.erb",
+      "line": 1,
+      "specre_id": "01KJ72PVG4W2F3ADXJKS59C3S2"
+    },
+    {
+      "file": "app/views/mailers/notify_mailer/base_subscriber_role_email.html.erb",
+      "line": 1,
+      "specre_id": "01KJ72WHJG3KGKQRANX95KQTSX"
+    },
+    {
+      "file": "app/views/mailers/notify_mailer/base_subscriber_role_text.html.erb",
+      "line": 1,
+      "specre_id": "01KJ72WHJG3KGKQRANX95KQTSX"
+    },
+    {
+      "file": "app/views/mailers/notify_mailer/export_email.html.erb",
+      "line": 1,
+      "specre_id": "01KJ72SS278ECC5FW24CY96BHP"
+    },
+    {
+      "file": "app/views/mailers/notify_mailer/export_email.text.erb",
+      "line": 1,
+      "specre_id": "01KJ72SS278ECC5FW24CY96BHP"
+    },
+    {
       "file": "app/views/mailers/notify_mailer/feedback_message_resolution_email.html.erb",
       "line": 1,
       "specre_id": "01KJ25KAPB0FAFF74WX0TD106P"
@@ -4890,6 +5075,16 @@
       "file": "app/views/mailers/notify_mailer/feedback_response_email.text.erb",
       "line": 1,
       "specre_id": "01KJ25KAPB0FAFF74WX0TD106P"
+    },
+    {
+      "file": "app/views/mailers/notify_mailer/new_badge_email.html.erb",
+      "line": 1,
+      "specre_id": "01KJ72KP1KB032AK6P3J2J6BFE"
+    },
+    {
+      "file": "app/views/mailers/notify_mailer/new_badge_email.text.erb",
+      "line": 1,
+      "specre_id": "01KJ72KP1KB032AK6P3J2J6BFE"
     },
     {
       "file": "app/views/mailers/notify_mailer/new_follower_email.html.erb",
@@ -4912,6 +5107,26 @@
       "specre_id": "01KJ15RRNWK6ZYZCX7KQF726AT"
     },
     {
+      "file": "app/views/mailers/notify_mailer/new_reply_email.html.erb",
+      "line": 1,
+      "specre_id": "01KJ72GNWTSM6SDVV7DR8NDRHY"
+    },
+    {
+      "file": "app/views/mailers/notify_mailer/new_reply_email.text.erb",
+      "line": 1,
+      "specre_id": "01KJ72GNWTSM6SDVV7DR8NDRHY"
+    },
+    {
+      "file": "app/views/mailers/notify_mailer/organization_deleted_email.html.erb",
+      "line": 1,
+      "specre_id": "01KJ72SKJ1NPDRXKSKA8R47C82"
+    },
+    {
+      "file": "app/views/mailers/notify_mailer/organization_deleted_email.text.erb",
+      "line": 1,
+      "specre_id": "01KJ72SKJ1NPDRXKSKA8R47C82"
+    },
+    {
       "file": "app/views/mailers/notify_mailer/subforem_moderator_confirmation_email.html.erb",
       "line": 1,
       "specre_id": "01KHYH2RE3WEHN4RVYZWBNXCHA"
@@ -4930,6 +5145,46 @@
       "file": "app/views/mailers/notify_mailer/tag_moderator_confirmation_email.text.erb",
       "line": 1,
       "specre_id": "01KJ405PD1DE1M82CXWR67V9TT"
+    },
+    {
+      "file": "app/views/mailers/notify_mailer/trusted_role_email.html.erb",
+      "line": 1,
+      "specre_id": "01KJ72SXAQ2WNCG8H8P8PXR5E0"
+    },
+    {
+      "file": "app/views/mailers/notify_mailer/trusted_role_email.text.erb",
+      "line": 1,
+      "specre_id": "01KJ72SXAQ2WNCG8H8P8PXR5E0"
+    },
+    {
+      "file": "app/views/mailers/notify_mailer/unread_notifications_email.html.erb",
+      "line": 1,
+      "specre_id": "01KJ72JZVZK090J0RBBA6TGRSP"
+    },
+    {
+      "file": "app/views/mailers/notify_mailer/unread_notifications_email.text.erb",
+      "line": 1,
+      "specre_id": "01KJ72JZVZK090J0RBBA6TGRSP"
+    },
+    {
+      "file": "app/views/mailers/notify_mailer/user_contact_email.html.erb",
+      "line": 1,
+      "specre_id": "01KJ72PNMHN5CAC6ANK4VBMJJW"
+    },
+    {
+      "file": "app/views/mailers/notify_mailer/user_contact_email.text.erb",
+      "line": 1,
+      "specre_id": "01KJ72PNMHN5CAC6ANK4VBMJJW"
+    },
+    {
+      "file": "app/views/mailers/notify_mailer/video_upload_complete_email.html.erb",
+      "line": 1,
+      "specre_id": "01KJ72K4BVPB3SWGWJ4TH12QS1"
+    },
+    {
+      "file": "app/views/mailers/notify_mailer/video_upload_complete_email.text.erb",
+      "line": 1,
+      "specre_id": "01KJ72K4BVPB3SWGWJ4TH12QS1"
     },
     {
       "file": "app/views/mailers/organization_invitation_mailer/invitation_email.html.erb",
@@ -4955,6 +5210,26 @@
       "file": "app/views/mailers/survey_mailer/pulse_survey.html.erb",
       "line": 1,
       "specre_id": "01KJ2HPE39M61JKHQGRA7AHD0D"
+    },
+    {
+      "file": "app/views/mailers/verification_mailer/account_ownership_verification_email.html.erb",
+      "line": 1,
+      "specre_id": "01KJ729K8JA4QKFYMSJEHH7DT5"
+    },
+    {
+      "file": "app/views/mailers/verification_mailer/account_ownership_verification_email.text.erb",
+      "line": 1,
+      "specre_id": "01KJ729K8JA4QKFYMSJEHH7DT5"
+    },
+    {
+      "file": "app/views/mailers/verification_mailer/magic_link.html.erb",
+      "line": 1,
+      "specre_id": "01KJ72D0HZ49WMGHS1ERWQEKVT"
+    },
+    {
+      "file": "app/views/mailers/verification_mailer/magic_link.text.erb",
+      "line": 1,
+      "specre_id": "01KJ72D0HZ49WMGHS1ERWQEKVT"
     },
     {
       "file": "app/views/moderations/_mod_sidebar_left.html.erb",
@@ -6637,9 +6912,89 @@
       "specre_id": "01KJ1FH9QT2V3RGNJKW67RHNR5"
     },
     {
+      "file": "spec/mailers/application_mailer_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ72941YA33EA9WDJ7TVJA6P"
+    },
+    {
+      "file": "spec/mailers/custom_mailer_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ7297CDCGQ36QFHNA8BR6XJ"
+    },
+    {
+      "file": "spec/mailers/devise_mailer_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ72G2KV3QBHWF11ZNJKHREH"
+    },
+    {
+      "file": "spec/mailers/devise_mailer_spec.rb",
+      "line": 2,
+      "specre_id": "01KJ72CN8M7DDPD8AGN754MKTK"
+    },
+    {
+      "file": "spec/mailers/devise_mailer_spec.rb",
+      "line": 3,
+      "specre_id": "01KJ72CC7Y6GB7EXY8MNPEX2VQ"
+    },
+    {
       "file": "spec/mailers/digest_mailer_spec.rb",
       "line": 1,
       "specre_id": "01KJ71J0WWYVQ1PD8KP1MBS1W0"
+    },
+    {
+      "file": "spec/mailers/notify_mailer_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ72WHJG3KGKQRANX95KQTSX"
+    },
+    {
+      "file": "spec/mailers/notify_mailer_spec.rb",
+      "line": 2,
+      "specre_id": "01KJ72SXAQ2WNCG8H8P8PXR5E0"
+    },
+    {
+      "file": "spec/mailers/notify_mailer_spec.rb",
+      "line": 3,
+      "specre_id": "01KJ72SKJ1NPDRXKSKA8R47C82"
+    },
+    {
+      "file": "spec/mailers/notify_mailer_spec.rb",
+      "line": 4,
+      "specre_id": "01KJ72SS278ECC5FW24CY96BHP"
+    },
+    {
+      "file": "spec/mailers/notify_mailer_spec.rb",
+      "line": 5,
+      "specre_id": "01KJ72PVG4W2F3ADXJKS59C3S2"
+    },
+    {
+      "file": "spec/mailers/notify_mailer_spec.rb",
+      "line": 6,
+      "specre_id": "01KJ72PNMHN5CAC6ANK4VBMJJW"
+    },
+    {
+      "file": "spec/mailers/notify_mailer_spec.rb",
+      "line": 7,
+      "specre_id": "01KJ72PJ45D3ZFHQBYBXD9EEME"
+    },
+    {
+      "file": "spec/mailers/notify_mailer_spec.rb",
+      "line": 8,
+      "specre_id": "01KJ72KP1KB032AK6P3J2J6BFE"
+    },
+    {
+      "file": "spec/mailers/notify_mailer_spec.rb",
+      "line": 9,
+      "specre_id": "01KJ72JZVZK090J0RBBA6TGRSP"
+    },
+    {
+      "file": "spec/mailers/notify_mailer_spec.rb",
+      "line": 10,
+      "specre_id": "01KJ72K4BVPB3SWGWJ4TH12QS1"
+    },
+    {
+      "file": "spec/mailers/notify_mailer_spec.rb",
+      "line": 11,
+      "specre_id": "01KJ72GNWTSM6SDVV7DR8NDRHY"
     },
     {
       "file": "spec/mailers/organization_invitation_mailer_spec.rb",
@@ -6652,6 +7007,21 @@
       "specre_id": "01KJ02DSNZVDY9J6F8MHMCEYZF"
     },
     {
+      "file": "spec/mailers/previews/custom_mailer_preview.rb",
+      "line": 1,
+      "specre_id": "01KJ7297CDCGQ36QFHNA8BR6XJ"
+    },
+    {
+      "file": "spec/mailers/previews/devise/mailer_preview.rb",
+      "line": 1,
+      "specre_id": "01KJ72CC7Y6GB7EXY8MNPEX2VQ"
+    },
+    {
+      "file": "spec/mailers/previews/devise_invitable/mailer_preview.rb",
+      "line": 1,
+      "specre_id": "01KJ72CN8M7DDPD8AGN754MKTK"
+    },
+    {
       "file": "spec/mailers/previews/digest_mailer_preview.rb",
       "line": 1,
       "specre_id": "01KJ71J0WWYVQ1PD8KP1MBS1W0"
@@ -6662,9 +7032,34 @@
       "specre_id": "01KJ15RRNWK6ZYZCX7KQF726AT"
     },
     {
+      "file": "spec/mailers/previews/verification_mailer_preview.rb",
+      "line": 1,
+      "specre_id": "01KJ72D0HZ49WMGHS1ERWQEKVT"
+    },
+    {
+      "file": "spec/mailers/previews/verification_mailer_preview.rb",
+      "line": 2,
+      "specre_id": "01KJ729K8JA4QKFYMSJEHH7DT5"
+    },
+    {
+      "file": "spec/mailers/shared_examples/renders_proper_email_headers.rb",
+      "line": 1,
+      "specre_id": "01KJ72941YA33EA9WDJ7TVJA6P"
+    },
+    {
       "file": "spec/mailers/survey_mailer_spec.rb",
       "line": 1,
       "specre_id": "01KJ2HPE39M61JKHQGRA7AHD0D"
+    },
+    {
+      "file": "spec/mailers/verification_mailer_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ72D0HZ49WMGHS1ERWQEKVT"
+    },
+    {
+      "file": "spec/mailers/verification_mailer_spec.rb",
+      "line": 2,
+      "specre_id": "01KJ729K8JA4QKFYMSJEHH7DT5"
     },
     {
       "file": "spec/models/ab_experiment/goal_conversion_handler_spec.rb",
@@ -11844,6 +12239,158 @@
       "last_verified": "2026-02-24",
       "name": "system_determines_digest_email_send_eligibility",
       "path": "docs/specres/emails/email_digest/system_determines_digest_email_send_eligibility.md",
+      "status": "stable"
+    },
+    {
+      "domain": "emails",
+      "id": "01KJ72941YA33EA9WDJ7TVJA6P",
+      "last_verified": "2026-02-24",
+      "name": "system_renders_transactional_email_layout",
+      "path": "docs/specres/emails/mailer_templates/system_renders_transactional_email_layout.md",
+      "status": "stable"
+    },
+    {
+      "domain": "emails",
+      "id": "01KJ7297CDCGQ36QFHNA8BR6XJ",
+      "last_verified": "2026-02-24",
+      "name": "admin_sends_custom_email",
+      "path": "docs/specres/emails/mailer_templates/admin_sends_custom_email.md",
+      "status": "stable"
+    },
+    {
+      "domain": "emails",
+      "id": "01KJ729K8JA4QKFYMSJEHH7DT5",
+      "last_verified": "2026-02-24",
+      "name": "system_sends_account_verification_email",
+      "path": "docs/specres/emails/mailer_templates/system_sends_account_verification_email.md",
+      "status": "stable"
+    },
+    {
+      "domain": "emails",
+      "id": "01KJ72CC7Y6GB7EXY8MNPEX2VQ",
+      "last_verified": "2026-02-24",
+      "name": "system_sends_email_confirmation_instructions",
+      "path": "docs/specres/emails/mailer_templates/system_sends_email_confirmation_instructions.md",
+      "status": "stable"
+    },
+    {
+      "domain": "emails",
+      "id": "01KJ72CN8M7DDPD8AGN754MKTK",
+      "last_verified": "2026-02-24",
+      "name": "system_sends_invitation_instructions_email",
+      "path": "docs/specres/emails/mailer_templates/system_sends_invitation_instructions_email.md",
+      "status": "stable"
+    },
+    {
+      "domain": "emails",
+      "id": "01KJ72D0HZ49WMGHS1ERWQEKVT",
+      "last_verified": "2026-02-24",
+      "name": "system_sends_magic_link_email",
+      "path": "docs/specres/emails/mailer_templates/system_sends_magic_link_email.md",
+      "status": "stable"
+    },
+    {
+      "domain": "emails",
+      "id": "01KJ72G2KV3QBHWF11ZNJKHREH",
+      "last_verified": "2026-02-24",
+      "name": "system_sends_password_reset_instructions_email",
+      "path": "docs/specres/emails/mailer_templates/system_sends_password_reset_instructions_email.md",
+      "status": "stable"
+    },
+    {
+      "domain": "emails",
+      "id": "01KJ72G437T5C1XSRFT1032VZ9",
+      "last_verified": null,
+      "name": "system_sends_account_unlock_instructions_email",
+      "path": "docs/specres/emails/mailer_templates/system_sends_account_unlock_instructions_email.md",
+      "status": "draft"
+    },
+    {
+      "domain": "emails",
+      "id": "01KJ72GNWTSM6SDVV7DR8NDRHY",
+      "last_verified": "2026-02-24",
+      "name": "system_sends_reply_notification_email",
+      "path": "docs/specres/emails/mailer_templates/system_sends_reply_notification_email.md",
+      "status": "stable"
+    },
+    {
+      "domain": "emails",
+      "id": "01KJ72JZVZK090J0RBBA6TGRSP",
+      "last_verified": "2026-02-24",
+      "name": "system_sends_unread_notifications_email",
+      "path": "docs/specres/emails/mailer_templates/system_sends_unread_notifications_email.md",
+      "status": "stable"
+    },
+    {
+      "domain": "emails",
+      "id": "01KJ72K4BVPB3SWGWJ4TH12QS1",
+      "last_verified": "2026-02-24",
+      "name": "system_sends_video_upload_complete_email",
+      "path": "docs/specres/emails/mailer_templates/system_sends_video_upload_complete_email.md",
+      "status": "stable"
+    },
+    {
+      "domain": "emails",
+      "id": "01KJ72KP1KB032AK6P3J2J6BFE",
+      "last_verified": "2026-02-24",
+      "name": "system_sends_badge_award_email",
+      "path": "docs/specres/emails/mailer_templates/system_sends_badge_award_email.md",
+      "status": "stable"
+    },
+    {
+      "domain": "emails",
+      "id": "01KJ72PJ45D3ZFHQBYBXD9EEME",
+      "last_verified": "2026-02-24",
+      "name": "system_sends_account_deleted_email",
+      "path": "docs/specres/emails/mailer_templates/system_sends_account_deleted_email.md",
+      "status": "stable"
+    },
+    {
+      "domain": "emails",
+      "id": "01KJ72PNMHN5CAC6ANK4VBMJJW",
+      "last_verified": "2026-02-24",
+      "name": "admin_sends_contact_email_to_user",
+      "path": "docs/specres/emails/mailer_templates/admin_sends_contact_email_to_user.md",
+      "status": "stable"
+    },
+    {
+      "domain": "emails",
+      "id": "01KJ72PVG4W2F3ADXJKS59C3S2",
+      "last_verified": "2026-02-24",
+      "name": "system_sends_account_deletion_request_email",
+      "path": "docs/specres/emails/mailer_templates/system_sends_account_deletion_request_email.md",
+      "status": "stable"
+    },
+    {
+      "domain": "emails",
+      "id": "01KJ72SKJ1NPDRXKSKA8R47C82",
+      "last_verified": "2026-02-24",
+      "name": "system_sends_organization_deleted_email",
+      "path": "docs/specres/emails/mailer_templates/system_sends_organization_deleted_email.md",
+      "status": "stable"
+    },
+    {
+      "domain": "emails",
+      "id": "01KJ72SS278ECC5FW24CY96BHP",
+      "last_verified": "2026-02-24",
+      "name": "system_delivers_data_export_email",
+      "path": "docs/specres/emails/mailer_templates/system_delivers_data_export_email.md",
+      "status": "stable"
+    },
+    {
+      "domain": "emails",
+      "id": "01KJ72SXAQ2WNCG8H8P8PXR5E0",
+      "last_verified": "2026-02-24",
+      "name": "system_sends_trusted_role_confirmation_email",
+      "path": "docs/specres/emails/mailer_templates/system_sends_trusted_role_confirmation_email.md",
+      "status": "stable"
+    },
+    {
+      "domain": "emails",
+      "id": "01KJ72WHJG3KGKQRANX95KQTSX",
+      "last_verified": "2026-02-24",
+      "name": "system_sends_subscriber_role_email",
+      "path": "docs/specres/emails/mailer_templates/system_sends_subscriber_role_email.md",
       "status": "stable"
     }
   ],
