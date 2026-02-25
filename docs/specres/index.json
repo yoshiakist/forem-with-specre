@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-25T09:36:12Z",
+  "generated_at": "2026-02-25T21:38:50Z",
   "source_refs": [
     {
       "file": "app/assets/javascripts/initializers/initializeAllTagEditButtons.js",
@@ -1378,6 +1378,11 @@
     },
     {
       "file": "app/javascript/Search/SearchFormSync.jsx",
+      "line": 1,
+      "specre_id": "01KHZ22E63WBQWYFZNQVEA2EEE"
+    },
+    {
+      "file": "app/javascript/Search/__stories__/SearchForm.stories.jsx",
       "line": 1,
       "specre_id": "01KHZ22E63WBQWYFZNQVEA2EEE"
     },
@@ -5275,6 +5280,16 @@
       "file": "app/views/admin/tools/feed_playground.html.erb",
       "line": 1,
       "specre_id": "01KJ24JR0FK5MWHWK01QF0434H"
+    },
+    {
+      "file": "app/views/admin/users/controls/_expand_search_button.html.erb",
+      "line": 1,
+      "specre_id": "01KJ9MXNY671JQVR29GGYXMVQF"
+    },
+    {
+      "file": "app/views/admin/users/controls/_search_field.html.erb",
+      "line": 1,
+      "specre_id": "01KJ9MXNY671JQVR29GGYXMVQF"
     },
     {
       "file": "app/views/admin/users/index/_invitation_actions_dropdown.html.erb",

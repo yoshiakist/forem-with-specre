@@ -31,6 +31,7 @@ last_verified: "2026-02-21"
 - `app/javascript/Search/__tests__/Search.test.jsx` (Test)
 - `app/javascript/Search/__tests__/SearchFormSync.test.jsx` (Test)
 - `app/javascript/utilities/__tests__/search.test.js` (Test)
+- `app/javascript/Search/__stories__/SearchForm.stories.jsx`
 
 ## Functional Overview
 
