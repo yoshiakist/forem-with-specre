@@ -34,3 +34,16 @@
 | [admin_can_unpublish_all_user_articles](user_admin_fields/admin_can_unpublish_all_user_articles.md) | stable | 2026-02-25 |
 | [admin_can_remove_user_social_identity](user_admin_fields/admin_can_remove_user_social_identity.md) | stable | 2026-02-25 |
 | [admin_can_export_individual_user_data](user_admin_fields/admin_can_export_individual_user_data.md) | in-development | - |
+| [system_busts_user_edge_cache](wokers_misc/system_busts_user_edge_cache.md) | stable | 2026-02-25 |
+| [system_deletes_user_account_data](wokers_misc/system_deletes_user_account_data.md) | stable | 2026-02-25 |
+| [system_syncs_content_after_user_merge](wokers_misc/system_syncs_content_after_user_merge.md) | stable | 2026-02-25 |
+| [system_records_field_test_event_for_user](wokers_misc/system_records_field_test_event_for_user.md) | stable | 2026-02-25 |
+| [system_resaves_user_articles](wokers_misc/system_resaves_user_articles.md) | stable | 2026-02-25 |
+| [system_resolves_user_spam_reports](wokers_misc/system_resolves_user_spam_reports.md) | stable | 2026-02-25 |
+| [system_syncs_user_to_mailchimp_newsletter](wokers_misc/system_syncs_user_to_mailchimp_newsletter.md) | stable | 2026-02-25 |
+| [user_changes_password](account/user_changes_password.md) | draft | - |
+| [user_requests_data_export](account/user_requests_data_export.md) | draft | - |
+| [system_creates_mascot_account](account/system_creates_mascot_account.md) | stable | 2026-02-25 |
+| [user_subscribes_to_author_content](subscriptions/user_subscribes_to_author_content.md) | stable | 2026-02-25 |
+| [author_views_subscriber_dashboard](subscriptions/author_views_subscriber_dashboard.md) | draft | - |
+| [system_cancels_stripe_subscriptions_on_deletion](subscriptions/system_cancels_stripe_subscriptions_on_deletion.md) | stable | 2026-02-25 |

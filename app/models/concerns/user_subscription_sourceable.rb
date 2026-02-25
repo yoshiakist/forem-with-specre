@@ -1,3 +1,4 @@
+# @specre 01KJ9RAX3Y386ZACHQ0XRZ8GWT
 module UserSubscriptionSourceable
   extend ActiveSupport::Concern
 

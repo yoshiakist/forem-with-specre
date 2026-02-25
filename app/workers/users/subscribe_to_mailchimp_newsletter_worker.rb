@@ -1,3 +1,4 @@
+# @specre 01KJ9R7CKPYWVRFA54JHZ2DRSE
 module Users
   class SubscribeToMailchimpNewsletterWorker
     include Sidekiq::Job

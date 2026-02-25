@@ -1,3 +1,4 @@
+# @specre 01KJ9R9MV7AYQY4YZP8F63RDVC
 require "rails_helper"
 
 RSpec.describe Users::CreateMascotAccount, type: :service do

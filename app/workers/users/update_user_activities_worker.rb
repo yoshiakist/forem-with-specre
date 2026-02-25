@@ -1,3 +1,4 @@
+# @specre 01KJ9JDSQ6H83982FMRE3T1DQD
 module Users
   class UpdateUserActivitiesWorker
     include Sidekiq::Job

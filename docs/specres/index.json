@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-25T05:51:14Z",
+  "generated_at": "2026-02-25T09:13:40Z",
   "source_refs": [
     {
       "file": "app/assets/javascripts/initializers/initializeAllTagEditButtons.js",
@@ -1157,6 +1157,16 @@
       "specre_id": "01KJ9K792FM0FA2QSE1BE6N7AE"
     },
     {
+      "file": "app/controllers/user_subscriptions_controller.rb",
+      "line": 1,
+      "specre_id": "01KJ9JGGNEP4QG1M8993MB2A5K"
+    },
+    {
+      "file": "app/controllers/user_subscriptions_controller.rb",
+      "line": 2,
+      "specre_id": "01KJ9RAX3Y386ZACHQ0XRZ8GWT"
+    },
+    {
       "file": "app/controllers/users/notification_settings_controller.rb",
       "line": 1,
       "specre_id": "01KHZ454YXRB8TWV8PC06P4EQ5"
@@ -1725,6 +1735,11 @@
       "file": "app/javascript/leftSidebar/__tests__/TagsFollowed.test.jsx",
       "line": 1,
       "specre_id": "01KJ1X6T9VWS64SM9K5V94FGEH"
+    },
+    {
+      "file": "app/javascript/liquidTags/userSubscriptionLiquidTag.js",
+      "line": 1,
+      "specre_id": "01KJ9RAX3Y386ZACHQ0XRZ8GWT"
     },
     {
       "file": "app/javascript/modCenter/__tests__/moderationArticles.test.jsx",
@@ -3040,6 +3055,11 @@
       "file": "app/models/concerns/taggable.rb",
       "line": 1,
       "specre_id": "01KJ41F3K1B3SRQ2HBYFY2N2M4"
+    },
+    {
+      "file": "app/models/concerns/user_subscription_sourceable.rb",
+      "line": 1,
+      "specre_id": "01KJ9RAX3Y386ZACHQ0XRZ8GWT"
     },
     {
       "file": "app/models/consumer_app.rb",
@@ -4662,6 +4682,11 @@
       "specre_id": "01KJ405WSWNE4WHSJVXZ8G81GZ"
     },
     {
+      "file": "app/services/user_subscriptions/create_from_controller_params.rb",
+      "line": 1,
+      "specre_id": "01KJ9RAX3Y386ZACHQ0XRZ8GWT"
+    },
+    {
       "file": "app/services/user_subscriptions/is_subscribed_cache_checker.rb",
       "line": 1,
       "specre_id": "01KJ9JGGNEP4QG1M8993MB2A5K"
@@ -4672,9 +4697,19 @@
       "specre_id": "01KJ1EZV154EB8MH5FS06CB6XT"
     },
     {
+      "file": "app/services/users/cancel_stripe_subscriptions.rb",
+      "line": 1,
+      "specre_id": "01KJA13RFHYRH8PKETC8250A61"
+    },
+    {
       "file": "app/services/users/confirm_flag_reactions.rb",
       "line": 1,
       "specre_id": "01KHZ55S8Z1A16PNGY9X7PR58P"
+    },
+    {
+      "file": "app/services/users/create_mascot_account.rb",
+      "line": 1,
+      "specre_id": "01KJ9R9MV7AYQY4YZP8F63RDVC"
     },
     {
       "file": "app/services/users/delete_podcasts.rb",
@@ -5590,6 +5625,11 @@
       "file": "app/views/dashboards/hidden_tags.html.erb",
       "line": 1,
       "specre_id": "01KJ41J4101Y3KSMXR9VEHN9ZY"
+    },
+    {
+      "file": "app/views/dashboards/subscriptions.html.erb",
+      "line": 1,
+      "specre_id": "01KJ9RB18HTF04ZGD4MHY8BSN1"
     },
     {
       "file": "app/views/devise/invitations/edit.html.erb",
@@ -6887,9 +6927,24 @@
       "specre_id": "01KJ41WT9YWTD6G9MHPTQW0EFA"
     },
     {
+      "file": "app/views/users/_account.html.erb",
+      "line": 1,
+      "specre_id": "01KJ9R84BNEKXTFVCSHJ5WNPHY"
+    },
+    {
+      "file": "app/views/users/_account_providers_emails.html.erb",
+      "line": 1,
+      "specre_id": "01KHZ466X2VM8VAWD6RE82CF9J"
+    },
+    {
       "file": "app/views/users/_account_providers_settings.html.erb",
       "line": 1,
       "specre_id": "01KHZ466X2VM8VAWD6RE82CF9J"
+    },
+    {
+      "file": "app/views/users/_account_set_password.html.erb",
+      "line": 1,
+      "specre_id": "01KJ9R7RN71B1E3T8PRGBS19JC"
     },
     {
       "file": "app/views/users/_github_repositories_area.html.erb",
@@ -7284,6 +7339,11 @@
     {
       "file": "app/workers/users/bust_cache_worker.rb",
       "line": 1,
+      "specre_id": "01KJ9R2ZDH9HJZX26S04MK1YNZ"
+    },
+    {
+      "file": "app/workers/users/bust_cache_worker.rb",
+      "line": 2,
       "specre_id": "01KHZ6KMGFYFBB8TCE6Q554D1Z"
     },
     {
@@ -7307,6 +7367,11 @@
       "specre_id": "01KHZ55S8Z1A16PNGY9X7PR58P"
     },
     {
+      "file": "app/workers/users/delete_worker.rb",
+      "line": 1,
+      "specre_id": "01KJ9R39KP2S3HPPX5GYS7WD2T"
+    },
+    {
       "file": "app/workers/users/follow_worker.rb",
       "line": 1,
       "specre_id": "01KJ1X6P8ZE8SXRX8T90FCZH0G"
@@ -7322,9 +7387,39 @@
       "specre_id": "01KHZ6M3H0WPQNH4GKB6YPAR1T"
     },
     {
+      "file": "app/workers/users/merge_sync_worker.rb",
+      "line": 1,
+      "specre_id": "01KJ9R3NEXD9DTKEX8J52S80DF"
+    },
+    {
       "file": "app/workers/users/record_field_test_event_worker.rb",
       "line": 1,
+      "specre_id": "01KJ9R5J1M1KF820MVS0W4HXK6"
+    },
+    {
+      "file": "app/workers/users/record_field_test_event_worker.rb",
+      "line": 2,
       "specre_id": "01KJ703F16P7AYF29Z4W9PQW5K"
+    },
+    {
+      "file": "app/workers/users/resave_articles_worker.rb",
+      "line": 1,
+      "specre_id": "01KJ9R5SGS1KVY0NHAXT8H5WNJ"
+    },
+    {
+      "file": "app/workers/users/resolve_spam_reports_worker.rb",
+      "line": 1,
+      "specre_id": "01KJ9R606N0EG98CQ1X82ECHHN"
+    },
+    {
+      "file": "app/workers/users/subscribe_to_mailchimp_newsletter_worker.rb",
+      "line": 1,
+      "specre_id": "01KJ9R7CKPYWVRFA54JHZ2DRSE"
+    },
+    {
+      "file": "app/workers/users/update_user_activities_worker.rb",
+      "line": 1,
+      "specre_id": "01KJ9JDSQ6H83982FMRE3T1DQD"
     },
     {
       "file": "spec/controllers/admin/billboard_placement_area_configs_controller_spec.rb",
@@ -8477,6 +8572,11 @@
       "specre_id": "01KJ41F3K1B3SRQ2HBYFY2N2M4"
     },
     {
+      "file": "spec/models/shared_examples/user_subscription_sourceable.rb",
+      "line": 1,
+      "specre_id": "01KJ9RAX3Y386ZACHQ0XRZ8GWT"
+    },
+    {
       "file": "spec/models/subforem_spec.rb",
       "line": 1,
       "specre_id": "01KHYYH62ZG383CA1EG815V11C"
@@ -8545,6 +8645,11 @@
       "file": "spec/models/user_role_spec.rb",
       "line": 2,
       "specre_id": "01KJ7G7M4JRVA0J8VWAVJ7Y5ME"
+    },
+    {
+      "file": "spec/models/user_subscription_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ9RAX3Y386ZACHQ0XRZ8GWT"
     },
     {
       "file": "spec/models/users/notification_setting_spec.rb",
@@ -9742,6 +9847,11 @@
       "specre_id": "01KJ9K792FM0FA2QSE1BE6N7AE"
     },
     {
+      "file": "spec/requests/user_subscriptions_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ9RAX3Y386ZACHQ0XRZ8GWT"
+    },
+    {
       "file": "spec/routing/data_update_scripts_admin_routes_spec.rb",
       "line": 1,
       "specre_id": "01KJ2SZCDD0QR1BVHSPYKQZ955"
@@ -10492,6 +10602,11 @@
       "specre_id": "01KJ405WSWNE4WHSJVXZ8G81GZ"
     },
     {
+      "file": "spec/services/user_subscriptions/create_from_controller_params_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ9RAX3Y386ZACHQ0XRZ8GWT"
+    },
+    {
       "file": "spec/services/user_subscriptions/is_subscribed_cache_checker_spec.rb",
       "line": 1,
       "specre_id": "01KJ9JGGNEP4QG1M8993MB2A5K"
@@ -10502,9 +10617,19 @@
       "specre_id": "01KJ1EZV154EB8MH5FS06CB6XT"
     },
     {
+      "file": "spec/services/users/cancel_stripe_subscriptions_spec.rb",
+      "line": 1,
+      "specre_id": "01KJA13RFHYRH8PKETC8250A61"
+    },
+    {
       "file": "spec/services/users/confirm_flag_reactions_spec.rb",
       "line": 1,
       "specre_id": "01KHZ55S8Z1A16PNGY9X7PR58P"
+    },
+    {
+      "file": "spec/services/users/create_mascot_account_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ9R9MV7AYQY4YZP8F63RDVC"
     },
     {
       "file": "spec/services/users/delete_podcasts_spec.rb",
@@ -11132,6 +11257,11 @@
       "specre_id": "01KHZ55S8Z1A16PNGY9X7PR58P"
     },
     {
+      "file": "spec/workers/users/delete_worker_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ9R39KP2S3HPPX5GYS7WD2T"
+    },
+    {
       "file": "spec/workers/users/follow_worker_spec.rb",
       "line": 1,
       "specre_id": "01KJ1X6P8ZE8SXRX8T90FCZH0G"
@@ -11142,9 +11272,29 @@
       "specre_id": "01KHZ6KPVGP495ZDNG16MKD6FK"
     },
     {
+      "file": "spec/workers/users/merge_sync_worker_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ9R3NEXD9DTKEX8J52S80DF"
+    },
+    {
       "file": "spec/workers/users/record_field_test_event_worker_spec.rb",
       "line": 1,
       "specre_id": "01KJ703F16P7AYF29Z4W9PQW5K"
+    },
+    {
+      "file": "spec/workers/users/resave_articles_worker_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ9R5SGS1KVY0NHAXT8H5WNJ"
+    },
+    {
+      "file": "spec/workers/users/resolve_spam_reports_worker_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ9R606N0EG98CQ1X82ECHHN"
+    },
+    {
+      "file": "spec/workers/users/subscribe_to_mailchimp_newsletter_worker_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ9R7CKPYWVRFA54JHZ2DRSE"
     }
   ],
   "specres": [
@@ -14531,6 +14681,110 @@
       "name": "admin_can_export_individual_user_data",
       "path": "docs/specres/users/user_admin_fields/admin_can_export_individual_user_data.md",
       "status": "in-development"
+    },
+    {
+      "domain": "users",
+      "id": "01KJ9R2ZDH9HJZX26S04MK1YNZ",
+      "last_verified": "2026-02-25",
+      "name": "system_busts_user_edge_cache",
+      "path": "docs/specres/users/wokers_misc/system_busts_user_edge_cache.md",
+      "status": "stable"
+    },
+    {
+      "domain": "users",
+      "id": "01KJ9R39KP2S3HPPX5GYS7WD2T",
+      "last_verified": "2026-02-25",
+      "name": "system_deletes_user_account_data",
+      "path": "docs/specres/users/wokers_misc/system_deletes_user_account_data.md",
+      "status": "stable"
+    },
+    {
+      "domain": "users",
+      "id": "01KJ9R3NEXD9DTKEX8J52S80DF",
+      "last_verified": "2026-02-25",
+      "name": "system_syncs_content_after_user_merge",
+      "path": "docs/specres/users/wokers_misc/system_syncs_content_after_user_merge.md",
+      "status": "stable"
+    },
+    {
+      "domain": "users",
+      "id": "01KJ9R5J1M1KF820MVS0W4HXK6",
+      "last_verified": "2026-02-25",
+      "name": "system_records_field_test_event_for_user",
+      "path": "docs/specres/users/wokers_misc/system_records_field_test_event_for_user.md",
+      "status": "stable"
+    },
+    {
+      "domain": "users",
+      "id": "01KJ9R5SGS1KVY0NHAXT8H5WNJ",
+      "last_verified": "2026-02-25",
+      "name": "system_resaves_user_articles",
+      "path": "docs/specres/users/wokers_misc/system_resaves_user_articles.md",
+      "status": "stable"
+    },
+    {
+      "domain": "users",
+      "id": "01KJ9R606N0EG98CQ1X82ECHHN",
+      "last_verified": "2026-02-25",
+      "name": "system_resolves_user_spam_reports",
+      "path": "docs/specres/users/wokers_misc/system_resolves_user_spam_reports.md",
+      "status": "stable"
+    },
+    {
+      "domain": "users",
+      "id": "01KJ9R7CKPYWVRFA54JHZ2DRSE",
+      "last_verified": "2026-02-25",
+      "name": "system_syncs_user_to_mailchimp_newsletter",
+      "path": "docs/specres/users/wokers_misc/system_syncs_user_to_mailchimp_newsletter.md",
+      "status": "stable"
+    },
+    {
+      "domain": "users",
+      "id": "01KJ9R7RN71B1E3T8PRGBS19JC",
+      "last_verified": null,
+      "name": "user_changes_password",
+      "path": "docs/specres/users/account/user_changes_password.md",
+      "status": "draft"
+    },
+    {
+      "domain": "users",
+      "id": "01KJ9R84BNEKXTFVCSHJ5WNPHY",
+      "last_verified": null,
+      "name": "user_requests_data_export",
+      "path": "docs/specres/users/account/user_requests_data_export.md",
+      "status": "draft"
+    },
+    {
+      "domain": "users",
+      "id": "01KJ9R9MV7AYQY4YZP8F63RDVC",
+      "last_verified": "2026-02-25",
+      "name": "system_creates_mascot_account",
+      "path": "docs/specres/users/account/system_creates_mascot_account.md",
+      "status": "stable"
+    },
+    {
+      "domain": "users",
+      "id": "01KJ9RAX3Y386ZACHQ0XRZ8GWT",
+      "last_verified": "2026-02-25",
+      "name": "user_subscribes_to_author_content",
+      "path": "docs/specres/users/subscriptions/user_subscribes_to_author_content.md",
+      "status": "stable"
+    },
+    {
+      "domain": "users",
+      "id": "01KJ9RB18HTF04ZGD4MHY8BSN1",
+      "last_verified": null,
+      "name": "author_views_subscriber_dashboard",
+      "path": "docs/specres/users/subscriptions/author_views_subscriber_dashboard.md",
+      "status": "draft"
+    },
+    {
+      "domain": "users",
+      "id": "01KJA13RFHYRH8PKETC8250A61",
+      "last_verified": "2026-02-25",
+      "name": "system_cancels_stripe_subscriptions_on_deletion",
+      "path": "docs/specres/users/subscriptions/system_cancels_stripe_subscriptions_on_deletion.md",
+      "status": "stable"
     }
   ],
   "version": 1

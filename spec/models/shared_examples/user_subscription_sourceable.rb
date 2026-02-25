@@ -1,3 +1,4 @@
+# @specre 01KJ9RAX3Y386ZACHQ0XRZ8GWT
 RSpec.shared_examples "UserSubscriptionSourceable" do
   let(:model) { described_class }
   let(:source) do

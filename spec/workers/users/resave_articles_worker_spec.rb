@@ -1,3 +1,4 @@
+# @specre 01KJ9R5SGS1KVY0NHAXT8H5WNJ
 require "rails_helper"
 
 RSpec.describe Users::ResaveArticlesWorker, type: :worker do

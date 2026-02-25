@@ -1,3 +1,4 @@
+# @specre 01KJA13RFHYRH8PKETC8250A61
 require "rails_helper"
 
 RSpec.describe Users::CancelStripeSubscriptions do

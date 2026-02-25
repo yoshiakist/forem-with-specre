@@ -14,6 +14,7 @@ last_verified: "2026-02-21"
 - `app/javascript/settings/copyOrgSecret.js`
 - `app/javascript/settings/mobilePageSel.js`
 - `app/javascript/settings/rssFetchTime.js`
+- `app/views/users/_account_providers_emails.html.erb` (Template)
 - `app/views/users/_account_providers_settings.html.erb` (Template)
 - `app/views/comments/settings.html.erb` (Template)
 - `spec/requests/user/user_settings_spec.rb` (Test)

@@ -7,6 +7,7 @@ last_verified: "2026-02-25"
 
 ## Related Files
 
+- `app/controllers/user_subscriptions_controller.rb` (subscribed action)
 - `app/services/user_subscriptions/is_subscribed_cache_checker.rb`
 - `spec/services/user_subscriptions/is_subscribed_cache_checker_spec.rb` (Test)
 

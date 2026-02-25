@@ -1,3 +1,4 @@
+# @specre 01KJA13RFHYRH8PKETC8250A61
 module Users
   class CancelStripeSubscriptions
     def self.call(user)

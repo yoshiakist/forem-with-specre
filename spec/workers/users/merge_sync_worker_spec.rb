@@ -1,3 +1,4 @@
+# @specre 01KJ9R3NEXD9DTKEX8J52S80DF
 require "rails_helper"
 
 RSpec.describe Users::MergeSyncWorker, type: :worker do

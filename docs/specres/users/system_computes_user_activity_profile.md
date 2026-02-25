@@ -8,6 +8,7 @@ last_verified: "2026-02-25"
 ## Related Files
 
 - `app/models/user_activity.rb`
+- `app/workers/users/update_user_activities_worker.rb`
 - `spec/models/user_activity_spec.rb` (Test)
 
 ## Functional Overview
