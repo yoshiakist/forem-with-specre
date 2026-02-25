@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-25T22:45:29Z",
+  "generated_at": "2026-02-25T23:14:39Z",
   "source_refs": [
     {
       "file": "app/assets/javascripts/initializers/initializeAllTagEditButtons.js",
@@ -1189,16 +1189,31 @@
     {
       "file": "app/controllers/users_controller.rb",
       "line": 1,
-      "specre_id": "01KJBEKF5TEFAMMCQ7T6X9A6DV"
+      "specre_id": "01KJBH80DYJTW6BEDGTH8XC06C"
     },
     {
       "file": "app/controllers/users_controller.rb",
       "line": 2,
-      "specre_id": "01KJ9MY2XXBWSB527V49GHQ0KM"
+      "specre_id": "01KJBH3QQCWPWMJJ2CF7CWV5A4"
     },
     {
       "file": "app/controllers/users_controller.rb",
       "line": 3,
+      "specre_id": "01KJBGZF9PRSHNVF807K57AY46"
+    },
+    {
+      "file": "app/controllers/users_controller.rb",
+      "line": 4,
+      "specre_id": "01KJBEKF5TEFAMMCQ7T6X9A6DV"
+    },
+    {
+      "file": "app/controllers/users_controller.rb",
+      "line": 5,
+      "specre_id": "01KJ9MY2XXBWSB527V49GHQ0KM"
+    },
+    {
+      "file": "app/controllers/users_controller.rb",
+      "line": 6,
       "specre_id": "01KJ02HFZZ1BJN4RQBAP4QA41P"
     },
     {
@@ -1230,6 +1245,16 @@
       "file": "app/decorators/profile_decorator.rb",
       "line": 1,
       "specre_id": "01KHZ69F0GE1R07TXK53AAA1K8"
+    },
+    {
+      "file": "app/decorators/user_decorator.rb",
+      "line": 1,
+      "specre_id": "01KJBH80DYJTW6BEDGTH8XC06C"
+    },
+    {
+      "file": "app/decorators/user_decorator.rb",
+      "line": 2,
+      "specre_id": "01KJBGTWBQSX8GE7QJS20WH3G6"
     },
     {
       "file": "app/errors/liquid_tags.rb",
@@ -1350,6 +1375,11 @@
       "file": "app/helpers/settings_helper.rb",
       "line": 1,
       "specre_id": "01KHZ466X2VM8VAWD6RE82CF9J"
+    },
+    {
+      "file": "app/helpers/users_helper.rb",
+      "line": 1,
+      "specre_id": "01KJBH80DYJTW6BEDGTH8XC06C"
     },
     {
       "file": "app/javascript/CommentSubscription/CommentSubscription.jsx",
@@ -1685,6 +1715,11 @@
       "file": "app/javascript/controllers/subforem_image_upload_controller.js",
       "line": 1,
       "specre_id": "01KHYH43TN4FS8ZYTW757DZBHZ"
+    },
+    {
+      "file": "app/javascript/crayons/AutocompleteTriggerTextArea/UserListItemContent.jsx",
+      "line": 1,
+      "specre_id": "01KHZ2A12P5D6JD7A07Y0K0G87"
     },
     {
       "file": "app/javascript/crayons/MarkdownToolbar/MarkdownToolbar.jsx",
@@ -2197,9 +2232,19 @@
       "specre_id": "01KJ1C2A7B86GEDA127PKWJ999"
     },
     {
+      "file": "app/javascript/shared/components/UsernameInput.jsx",
+      "line": 1,
+      "specre_id": "01KHZ2A12P5D6JD7A07Y0K0G87"
+    },
+    {
       "file": "app/javascript/shared/components/__tests__/MediaQuery.test.jsx",
       "line": 1,
       "specre_id": "01KJ1C2A7B86GEDA127PKWJ999"
+    },
+    {
+      "file": "app/javascript/shared/components/__tests__/UsernameInput.test.js",
+      "line": 1,
+      "specre_id": "01KHZ2A12P5D6JD7A07Y0K0G87"
     },
     {
       "file": "app/javascript/shared/components/__tests__/useKeyboardShortcuts.test.jsx",
@@ -2882,6 +2927,11 @@
       "specre_id": "01KJ6FEDNZHYXEPQG8RAJDXB3D"
     },
     {
+      "file": "app/models/banished_user.rb",
+      "line": 1,
+      "specre_id": "01KJBGYMQCJ8RJQV9SGE04C6TJ"
+    },
+    {
       "file": "app/models/billboard.rb",
       "line": 1,
       "specre_id": "01KJ6EPTF1F31WB6DRV0YHEZ0N"
@@ -3527,6 +3577,21 @@
       "specre_id": "01KJ41RETE70D2JDJEGS0STSGM"
     },
     {
+      "file": "app/models/user.rb",
+      "line": 1,
+      "specre_id": "01KJBH80DYJTW6BEDGTH8XC06C"
+    },
+    {
+      "file": "app/models/user.rb",
+      "line": 2,
+      "specre_id": "01KJBGYMQCJ8RJQV9SGE04C6TJ"
+    },
+    {
+      "file": "app/models/user.rb",
+      "line": 3,
+      "specre_id": "01KJBGSZYSK50Y48DDMGSB635P"
+    },
+    {
       "file": "app/models/user_activity.rb",
       "line": 1,
       "specre_id": "01KJ9JDSQ6H83982FMRE3T1DQD"
@@ -3580,6 +3645,11 @@
       "file": "app/models/users/setting.rb",
       "line": 1,
       "specre_id": "01KHZ466X2VM8VAWD6RE82CF9J"
+    },
+    {
+      "file": "app/models/users/suspended_username.rb",
+      "line": 1,
+      "specre_id": "01KJBGNMW3FQS80A1NFAK9JPB4"
     },
     {
       "file": "app/models/welcome_notification.rb",
@@ -3752,6 +3822,16 @@
       "specre_id": "01KJ9K792FM0FA2QSE1BE6N7AE"
     },
     {
+      "file": "app/policies/user_policy.rb",
+      "line": 1,
+      "specre_id": "01KJBH80DYJTW6BEDGTH8XC06C"
+    },
+    {
+      "file": "app/policies/user_policy.rb",
+      "line": 2,
+      "specre_id": "01KHZ69F0GE1R07TXK53AAA1K8"
+    },
+    {
       "file": "app/queries/admin/gdpr_delete_requests_query.rb",
       "line": 1,
       "specre_id": "01KJBEERZREF0ZGB6E62EATBXE"
@@ -3815,6 +3895,11 @@
       "file": "app/queries/users/select_moderators_query.rb",
       "line": 1,
       "specre_id": "01KJ9K81WPHS5C4RC219RP1DMK"
+    },
+    {
+      "file": "app/queries/users/suggest_prominent.rb",
+      "line": 1,
+      "specre_id": "01KJBGNEV9X0CNE7X8M862SC2Z"
     },
     {
       "file": "app/sanitizers/comment_email_scrubber.rb",
@@ -4790,6 +4875,21 @@
       "file": "app/services/users/resolve_spam_reports.rb",
       "line": 1,
       "specre_id": "01KJ25Q4XMSVV0Y8FHDRRK1JYD"
+    },
+    {
+      "file": "app/services/users/suggest_for_sidebar.rb",
+      "line": 1,
+      "specre_id": "01KJBGS95JE0MXBB7NXGXDKTE4"
+    },
+    {
+      "file": "app/services/users/update.rb",
+      "line": 1,
+      "specre_id": "01KHZ69F0GE1R07TXK53AAA1K8"
+    },
+    {
+      "file": "app/services/users/username_generator.rb",
+      "line": 1,
+      "specre_id": "01KJBGSZYSK50Y48DDMGSB635P"
     },
     {
       "file": "app/uploaders/badge_uploader.rb",
@@ -5805,6 +5905,11 @@
       "file": "app/views/layouts/_social_media.html.erb",
       "line": 1,
       "specre_id": "01KJ1C3MFT988AX8WWC1G6EG0G"
+    },
+    {
+      "file": "app/views/layouts/_user_config.html.erb",
+      "line": 1,
+      "specre_id": "01KJBGTWBQSX8GE7QJS20WH3G6"
     },
     {
       "file": "app/views/layouts/admin.html.erb",
@@ -7077,6 +7182,11 @@
       "specre_id": "01KHZ466X2VM8VAWD6RE82CF9J"
     },
     {
+      "file": "app/views/users/signout_confirm.html.erb",
+      "line": 1,
+      "specre_id": "01KJBGZF9PRSHNVF807K57AY46"
+    },
+    {
       "file": "app/workers/algolia_search/search_index_worker.rb",
       "line": 1,
       "specre_id": "01KHZ2B1BF232HFDSKGKHDSF6F"
@@ -7565,6 +7675,16 @@
       "file": "spec/decorators/podcast_episode_decorator_spec.rb",
       "line": 1,
       "specre_id": "01KHZ78Z9A3R2NWZF2B6EZ82AJ"
+    },
+    {
+      "file": "spec/decorators/user_decorator_spec.rb",
+      "line": 1,
+      "specre_id": "01KJBH80DYJTW6BEDGTH8XC06C"
+    },
+    {
+      "file": "spec/decorators/user_decorator_spec.rb",
+      "line": 2,
+      "specre_id": "01KJBGTWBQSX8GE7QJS20WH3G6"
     },
     {
       "file": "spec/factories/audit_logs.rb",
@@ -8352,6 +8472,11 @@
       "specre_id": "01KJ6FAFV9D47QGGRY76KPKNC4"
     },
     {
+      "file": "spec/models/banished_user_spec.rb",
+      "line": 1,
+      "specre_id": "01KJBGYMQCJ8RJQV9SGE04C6TJ"
+    },
+    {
       "file": "spec/models/billboard_event_spec.rb",
       "line": 1,
       "specre_id": "01KJ6E7W8QWARD67FEGBQWTH1T"
@@ -8767,6 +8892,11 @@
       "specre_id": "01KHZ466X2VM8VAWD6RE82CF9J"
     },
     {
+      "file": "spec/models/users/suspended_username_spec.rb",
+      "line": 1,
+      "specre_id": "01KJBGNMW3FQS80A1NFAK9JPB4"
+    },
+    {
       "file": "spec/policies/admin_policy_spec.rb",
       "line": 1,
       "specre_id": "01KJ9GW0HAGR8XG1KN5GETDK8Q"
@@ -8837,6 +8967,11 @@
       "specre_id": "01KJ41WHZ0KRBSTTD55T6WPTM6"
     },
     {
+      "file": "spec/policies/user_policy_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ69F0GE1R07TXK53AAA1K8"
+    },
+    {
       "file": "spec/queries/admin/gdpr_delete_requests_query_spec.rb",
       "line": 1,
       "specre_id": "01KJBEERZREF0ZGB6E62EATBXE"
@@ -8900,6 +9035,11 @@
       "file": "spec/queries/users/select_moderators_query_spec.rb",
       "line": 1,
       "specre_id": "01KJ9K81WPHS5C4RC219RP1DMK"
+    },
+    {
+      "file": "spec/queries/users/suggest_prominent_spec.rb",
+      "line": 1,
+      "specre_id": "01KJBGNEV9X0CNE7X8M862SC2Z"
     },
     {
       "file": "spec/requests/admin/badge_achievements_spec.rb",
@@ -9959,7 +10099,22 @@
     {
       "file": "spec/requests/user/user_settings_spec.rb",
       "line": 1,
+      "specre_id": "01KJBH3QQCWPWMJJ2CF7CWV5A4"
+    },
+    {
+      "file": "spec/requests/user/user_settings_spec.rb",
+      "line": 2,
       "specre_id": "01KHZ466X2VM8VAWD6RE82CF9J"
+    },
+    {
+      "file": "spec/requests/user/user_show_spec.rb",
+      "line": 1,
+      "specre_id": "01KJBH80DYJTW6BEDGTH8XC06C"
+    },
+    {
+      "file": "spec/requests/user/user_suggestions_spec.rb",
+      "line": 1,
+      "specre_id": "01KJBGS95JE0MXBB7NXGXDKTE4"
     },
     {
       "file": "spec/requests/user_blocks_spec.rb",
@@ -10782,6 +10937,21 @@
       "specre_id": "01KJ25Q4XMSVV0Y8FHDRRK1JYD"
     },
     {
+      "file": "spec/services/users/suggest_for_sidebar_spec.rb",
+      "line": 1,
+      "specre_id": "01KJBGS95JE0MXBB7NXGXDKTE4"
+    },
+    {
+      "file": "spec/services/users/update_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ69F0GE1R07TXK53AAA1K8"
+    },
+    {
+      "file": "spec/services/users/username_generator_spec.rb",
+      "line": 1,
+      "specre_id": "01KJBGSZYSK50Y48DDMGSB635P"
+    },
+    {
       "file": "spec/support/shared_examples/api_analytics.rb",
       "line": 1,
       "specre_id": "01KJ6QCAKAT1EKMN80R2KK58YZ"
@@ -10982,6 +11152,16 @@
       "specre_id": "01KJ41WHZ0KRBSTTD55T6WPTM6"
     },
     {
+      "file": "spec/system/user/user_edits_customization_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ466X2VM8VAWD6RE82CF9J"
+    },
+    {
+      "file": "spec/system/user/user_edits_extensions_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ466X2VM8VAWD6RE82CF9J"
+    },
+    {
       "file": "spec/system/user/user_edits_profile_spec.rb",
       "line": 1,
       "specre_id": "01KHZ69F0GE1R07TXK53AAA1K8"
@@ -10990,6 +11170,16 @@
       "file": "spec/system/user/user_settings_response_templates_spec.rb",
       "line": 1,
       "specre_id": "01KHZ466X2VM8VAWD6RE82CF9J"
+    },
+    {
+      "file": "spec/system/user/view_user_comments_spec.rb",
+      "line": 1,
+      "specre_id": "01KJBH80DYJTW6BEDGTH8XC06C"
+    },
+    {
+      "file": "spec/system/user/view_user_index_spec.rb",
+      "line": 1,
+      "specre_id": "01KJBH80DYJTW6BEDGTH8XC06C"
     },
     {
       "file": "spec/uploaders/badge_uploader_spec.rb",
@@ -11045,6 +11235,11 @@
       "file": "spec/views/subforems/edit_spec.rb",
       "line": 2,
       "specre_id": "01KHYH43TN4FS8ZYTW757DZBHZ"
+    },
+    {
+      "file": "spec/views/users/main_feed_spec.rb",
+      "line": 1,
+      "specre_id": "01KJBH80DYJTW6BEDGTH8XC06C"
     },
     {
       "file": "spec/views/users/settings_spec.rb",
@@ -14975,6 +15170,78 @@
       "last_verified": "2026-02-26",
       "name": "user_can_request_account_deletion",
       "path": "docs/specres/users/user_delete/user_can_request_account_deletion.md",
+      "status": "stable"
+    },
+    {
+      "domain": "users",
+      "id": "01KJBGNEV9X0CNE7X8M862SC2Z",
+      "last_verified": "2026-02-26",
+      "name": "system_suggests_prominent_users_to_follow",
+      "path": "docs/specres/users/system_suggests_prominent_users_to_follow.md",
+      "status": "stable"
+    },
+    {
+      "domain": "users",
+      "id": "01KJBGNMW3FQS80A1NFAK9JPB4",
+      "last_verified": "2026-02-26",
+      "name": "system_tracks_suspended_usernames",
+      "path": "docs/specres/users/system_tracks_suspended_usernames.md",
+      "status": "stable"
+    },
+    {
+      "domain": "users",
+      "id": "01KJBGS95JE0MXBB7NXGXDKTE4",
+      "last_verified": "2026-02-26",
+      "name": "system_suggests_users_for_sidebar",
+      "path": "docs/specres/users/system_suggests_users_for_sidebar.md",
+      "status": "stable"
+    },
+    {
+      "domain": "users",
+      "id": "01KJBGSZYSK50Y48DDMGSB635P",
+      "last_verified": "2026-02-26",
+      "name": "system_generates_username_on_registration",
+      "path": "docs/specres/users/system_generates_username_on_registration.md",
+      "status": "stable"
+    },
+    {
+      "domain": "users",
+      "id": "01KJBGTWBQSX8GE7QJS20WH3G6",
+      "last_verified": "2026-02-26",
+      "name": "system_applies_user_theme_on_page_load",
+      "path": "docs/specres/users/system_applies_user_theme_on_page_load.md",
+      "status": "stable"
+    },
+    {
+      "domain": "users",
+      "id": "01KJBGYMQCJ8RJQV9SGE04C6TJ",
+      "last_verified": "2026-02-26",
+      "name": "system_prevents_banished_username_reuse",
+      "path": "docs/specres/users/system_prevents_banished_username_reuse.md",
+      "status": "stable"
+    },
+    {
+      "domain": "users",
+      "id": "01KJBGZF9PRSHNVF807K57AY46",
+      "last_verified": null,
+      "name": "user_can_confirm_sign_out",
+      "path": "docs/specres/users/user_can_confirm_sign_out.md",
+      "status": "draft"
+    },
+    {
+      "domain": "users",
+      "id": "01KJBH3QQCWPWMJJ2CF7CWV5A4",
+      "last_verified": null,
+      "name": "user_can_view_billing_information",
+      "path": "docs/specres/users/user_can_view_billing_information.md",
+      "status": "draft"
+    },
+    {
+      "domain": "users",
+      "id": "01KJBH80DYJTW6BEDGTH8XC06C",
+      "last_verified": "2026-02-26",
+      "name": "visitor_can_view_user_profile_page",
+      "path": "docs/specres/users/visitor_can_view_user_profile_page.md",
       "status": "stable"
     }
   ],

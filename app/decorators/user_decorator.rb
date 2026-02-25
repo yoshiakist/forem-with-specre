@@ -1,3 +1,5 @@
+# @specre 01KJBH80DYJTW6BEDGTH8XC06C
+# @specre 01KJBGTWBQSX8GE7QJS20WH3G6
 class UserDecorator < ApplicationDecorator
   WHITE_TEXT_COLORS = [
     {

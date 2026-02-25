@@ -1,3 +1,6 @@
+# @specre 01KJBH80DYJTW6BEDGTH8XC06C
+# @specre 01KJBGYMQCJ8RJQV9SGE04C6TJ
+# @specre 01KJBGSZYSK50Y48DDMGSB635P
 class User < ApplicationRecord
   resourcify
   rolify after_add: :update_user_roles_cache, after_remove: :update_user_roles_cache

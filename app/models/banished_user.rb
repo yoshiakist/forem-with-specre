@@ -1,3 +1,4 @@
+# @specre 01KJBGYMQCJ8RJQV9SGE04C6TJ
 class BanishedUser < ApplicationRecord
   belongs_to :banished_by, class_name: "User", optional: true
 

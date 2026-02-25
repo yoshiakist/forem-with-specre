@@ -1,3 +1,4 @@
+# @specre 01KJBGS95JE0MXBB7NXGXDKTE4
 module Users
   class SuggestForSidebar
     def self.call(user, given_tag)

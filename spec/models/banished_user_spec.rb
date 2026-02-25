@@ -1,3 +1,4 @@
+# @specre 01KJBGYMQCJ8RJQV9SGE04C6TJ
 require "rails_helper"
 
 RSpec.describe BanishedUser do

@@ -12,11 +12,17 @@ last_verified: "2026-02-21"
 - `app/validators/profile_validator.rb`
 - `app/decorators/profile_decorator.rb`
 - `app/helpers/profile_helper.rb`
+- `app/services/users/update.rb`
+- `app/policies/user_policy.rb`
 - `app/views/users/_profile.html.erb` (Template)
+- `app/views/users/edit.html.erb` (Template)
+- `app/views/users/_errors.html.erb` (Template)
 - `spec/requests/profiles_request_spec.rb` (Test)
 - `spec/models/profile_spec.rb` (Test)
 - `spec/system/user/user_edits_profile_spec.rb` (Test)
 - `spec/helpers/profile_helper_spec.rb` (Test)
+- `spec/services/users/update_spec.rb` (Test)
+- `spec/policies/user_policy_spec.rb` (Test)
 
 ## Functional Overview
 

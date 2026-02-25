@@ -1,3 +1,4 @@
+# @specre 01KHZ69F0GE1R07TXK53AAA1K8
 module Users
   # Deals with updates that affect fields on +Profile+ and/or +User+ in a transparent way.
   class Update

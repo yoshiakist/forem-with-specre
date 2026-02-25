@@ -40,3 +40,12 @@
 | [system_represents_deleted_user_as_null_object](user_delete/system_represents_deleted_user_as_null_object.md) | stable | 2026-02-26 |
 | [system_cleans_up_user_activity_on_deletion](user_delete/system_cleans_up_user_activity_on_deletion.md) | draft | - |
 | [user_can_request_account_deletion](user_delete/user_can_request_account_deletion.md) | stable | 2026-02-26 |
+| [system_suggests_prominent_users_to_follow](system_suggests_prominent_users_to_follow.md) | stable | 2026-02-26 |
+| [system_tracks_suspended_usernames](system_tracks_suspended_usernames.md) | stable | 2026-02-26 |
+| [system_suggests_users_for_sidebar](system_suggests_users_for_sidebar.md) | stable | 2026-02-26 |
+| [system_generates_username_on_registration](system_generates_username_on_registration.md) | stable | 2026-02-26 |
+| [system_applies_user_theme_on_page_load](system_applies_user_theme_on_page_load.md) | stable | 2026-02-26 |
+| [system_prevents_banished_username_reuse](system_prevents_banished_username_reuse.md) | stable | 2026-02-26 |
+| [user_can_confirm_sign_out](user_can_confirm_sign_out.md) | draft | - |
+| [user_can_view_billing_information](user_can_view_billing_information.md) | draft | - |
+| [visitor_can_view_user_profile_page](visitor_can_view_user_profile_page.md) | stable | 2026-02-26 |

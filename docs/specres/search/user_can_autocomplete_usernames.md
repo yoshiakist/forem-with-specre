@@ -9,7 +9,10 @@ last_verified: "2026-02-21"
 
 - `app/controllers/search_controller.rb`
 - `app/services/search/username.rb`
+- `app/javascript/shared/components/UsernameInput.jsx`
+- `app/javascript/crayons/AutocompleteTriggerTextArea/UserListItemContent.jsx`
 - `spec/services/search/username_spec.rb` (Test)
+- `app/javascript/shared/components/__tests__/UsernameInput.test.js` (Test)
 
 ## Functional Overview
 

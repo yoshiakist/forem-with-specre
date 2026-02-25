@@ -1,3 +1,4 @@
+# @specre 01KJBH80DYJTW6BEDGTH8XC06C
 module UsersHelper
   USER_COMMENTS_PARTIAL = "users/comments_section".freeze
   COMMENTS_LOCKED_PARTIAL = "users/comments_locked_cta".freeze

@@ -1,3 +1,4 @@
+# @specre 01KJBH80DYJTW6BEDGTH8XC06C
 require "rails_helper"
 
 RSpec.describe "users/show" do

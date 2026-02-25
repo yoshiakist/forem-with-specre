@@ -1,3 +1,4 @@
+# @specre 01KJBGNMW3FQS80A1NFAK9JPB4
 module Users
   class SuspendedUsername < ApplicationRecord
     self.table_name_prefix = "users_"

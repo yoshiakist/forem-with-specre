@@ -1,3 +1,4 @@
+# @specre 01KJBGNEV9X0CNE7X8M862SC2Z
 require "rails_helper"
 
 RSpec.describe Users::SuggestProminent, type: :service do
