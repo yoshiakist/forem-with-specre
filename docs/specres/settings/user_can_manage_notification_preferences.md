@@ -12,6 +12,7 @@ last_verified: "2026-02-21"
 - `spec/requests/user/user_notification_settings_spec.rb` (Test)
 - `spec/factories/users_notification_settings.rb` (Test)
 - `spec/models/users/notification_setting_spec.rb` (Test)
+- `app/views/users/_notifications.html.erb` (Template)
 
 ## Functional Overview
 

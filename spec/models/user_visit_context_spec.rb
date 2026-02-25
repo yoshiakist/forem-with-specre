@@ -1,3 +1,4 @@
+# @specre 01KJA2E4NR5V43929VH74R957F
 require "rails_helper"
 
 RSpec.describe UserVisitContext do

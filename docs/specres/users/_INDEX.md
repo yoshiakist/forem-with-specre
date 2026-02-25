@@ -47,3 +47,4 @@
 | [user_subscribes_to_author_content](subscriptions/user_subscribes_to_author_content.md) | stable | 2026-02-25 |
 | [author_views_subscriber_dashboard](subscriptions/author_views_subscriber_dashboard.md) | draft | - |
 | [system_cancels_stripe_subscriptions_on_deletion](subscriptions/system_cancels_stripe_subscriptions_on_deletion.md) | stable | 2026-02-25 |
+| [system_detects_user_language_from_visit_context](system_detects_user_language_from_visit_context.md) | stable | 2026-02-25 |
