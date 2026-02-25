@@ -1,3 +1,4 @@
+# @specre 01KJ9KBD37APR9VXPVW9CZANV7
 module Moderator
   class MergeUser < ManageActivityAndRoles
     def self.call(admin:, keep_user:, delete_user_id:)

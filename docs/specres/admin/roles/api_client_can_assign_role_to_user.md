@@ -8,8 +8,10 @@ last_verified: "2026-02-24"
 ## Related Files
 
 - `app/controllers/api/v1/user_roles_controller.rb`
+- `app/models/user_role.rb`
 - `spec/requests/api/v1/user_roles_spec.rb` (Test)
 - `spec/requests/api/v1/docs/user_roles_spec.rb` (Test)
+- `spec/models/user_role_spec.rb` (Test)
 
 ## Functional Overview
 

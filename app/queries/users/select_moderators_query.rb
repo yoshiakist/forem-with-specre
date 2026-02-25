@@ -1,3 +1,4 @@
+# @specre 01KJ9K81WPHS5C4RC219RP1DMK
 module Users
   class SelectModeratorsQuery
     def self.call(...)

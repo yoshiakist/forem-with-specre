@@ -1,3 +1,5 @@
+# @specre 01KJ9KAPX00THEMPV2WXQE43HT
+# @specre 01KJ9K792FM0FA2QSE1BE6N7AE
 class UserBlock < ApplicationRecord
   belongs_to :blocker, class_name: "User", inverse_of: :blocker_blocks
   belongs_to :blocked, class_name: "User", inverse_of: :blocked_blocks

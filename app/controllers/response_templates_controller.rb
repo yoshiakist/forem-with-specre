@@ -1,3 +1,7 @@
+# @specre 01KJ9KP6TJQ2XAGRZXY6SSR1SZ
+# @specre 01KJ9KKBB0PGJK2Y32KDWSYK1K
+# @specre 01KJ9KH5SRKY1NSYR3C4JH0TM2
+# @specre 01KJ9KDY750N4VSKV6CZCMR4FS
 class ResponseTemplatesController < ApplicationController
   after_action :verify_authorized
   before_action :authenticate_user!, :ensure_json_request, only: %i[index]
