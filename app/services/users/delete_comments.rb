@@ -1,3 +1,4 @@
+# @specre 01KJBE9TE08XJE29XJA62XW7VQ
 module Users
   module DeleteComments
     module_function

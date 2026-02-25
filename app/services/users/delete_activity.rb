@@ -1,3 +1,4 @@
+# @specre 01KJBEE5MYMJHSJMTMR3XN0BAT
 module Users
   module DeleteActivity
     module_function

@@ -1,3 +1,4 @@
+# @specre 01KJBEAAQ5B160HFTWKSHPA73N
 require "rails_helper"
 
 RSpec.describe Users::DeletedUser do

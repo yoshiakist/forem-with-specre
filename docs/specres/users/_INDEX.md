@@ -48,3 +48,9 @@
 | [author_views_subscriber_dashboard](subscriptions/author_views_subscriber_dashboard.md) | draft | - |
 | [system_cancels_stripe_subscriptions_on_deletion](subscriptions/system_cancels_stripe_subscriptions_on_deletion.md) | stable | 2026-02-25 |
 | [system_detects_user_language_from_visit_context](system_detects_user_language_from_visit_context.md) | stable | 2026-02-25 |
+| [system_cleans_up_articles_on_user_deletion](user_delete/system_cleans_up_articles_on_user_deletion.md) | stable | 2026-02-26 |
+| [system_cleans_up_comments_on_user_deletion](user_delete/system_cleans_up_comments_on_user_deletion.md) | stable | 2026-02-26 |
+| [system_represents_deleted_user_as_null_object](user_delete/system_represents_deleted_user_as_null_object.md) | stable | 2026-02-26 |
+| [system_cleans_up_user_activity_on_deletion](user_delete/system_cleans_up_user_activity_on_deletion.md) | draft | - |
+| [admin_can_review_gdpr_delete_requests](user_delete/admin_can_review_gdpr_delete_requests.md) | stable | 2026-02-26 |
+| [user_can_request_account_deletion](user_delete/user_can_request_account_deletion.md) | stable | 2026-02-26 |

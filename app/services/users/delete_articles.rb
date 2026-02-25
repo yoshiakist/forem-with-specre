@@ -1,3 +1,4 @@
+# @specre 01KJBE9J7SBEYP8CE63NTF4TJQ
 module Users
   module DeleteArticles
     module_function

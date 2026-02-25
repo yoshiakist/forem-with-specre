@@ -7,6 +7,7 @@ last_verified: "2026-02-25"
 
 ## Related Files
 
+- `app/controllers/admin/users_controller.rb`
 - `app/services/moderator/delete_user.rb`
 - `spec/services/moderator/delete_user_spec.rb` (Test)
 - `spec/system/admin/admin_deletes_user_spec.rb` (Test)

@@ -1,3 +1,4 @@
+# @specre 01KJBEERZREF0ZGB6E62EATBXE
 require "rails_helper"
 
 RSpec.describe Admin::GDPRDeleteRequestsQuery, type: :query do

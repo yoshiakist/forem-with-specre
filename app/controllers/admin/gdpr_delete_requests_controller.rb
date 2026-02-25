@@ -1,3 +1,4 @@
+# @specre 01KJBEERZREF0ZGB6E62EATBXE
 module Admin
   class GDPRDeleteRequestsController < Admin::ApplicationController
     layout "admin"

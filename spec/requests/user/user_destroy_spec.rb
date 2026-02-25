@@ -1,3 +1,4 @@
+# @specre 01KJBEKF5TEFAMMCQ7T6X9A6DV
 require "rails_helper"
 
 RSpec.describe "UserDestroy" do
