@@ -1,3 +1,4 @@
+# @specre 01KJ9JDSQ6H83982FMRE3T1DQD
 require "rails_helper"
 
 RSpec.describe UserActivity, type: :model do

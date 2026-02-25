@@ -13,6 +13,10 @@ last_verified: "2026-02-21"
 - `spec/workers/users/bust_profile_details_cache_worker_spec.rb` (Test)
 - `spec/workers/users/bust_profile_identity_cache_worker_spec.rb` (Test)
 - `spec/workers/users/bust_profile_image_cache_worker_spec.rb` (Test)
+- `app/services/edge_cache/bust_user.rb`
+- `app/workers/users/bust_cache_worker.rb`
+- `spec/services/edge_cache/bust_user_spec.rb` (Test)
+- `spec/workers/users/bust_cache_worker_spec.rb` (Test)
 
 ## Functional Overview
 
@@ -37,6 +41,19 @@ When a user's profile data changes, the system enqueues one or more background w
 1. The worker receives a user ID.
 2. It looks up the user record.
 3. It calls `EdgeCache::PurgeByKey` with the user's `profile_image_record_key` and `profile_cache_bust_paths` as fallback paths, invalidating any cached avatar or photo data.
+
+### Busting all user profile caches at once
+
+1. `EdgeCache::BustUser` receives a user object.
+2. It retrieves all of the user's profile cache keys via `profile_cache_keys` and the fallback paths via `profile_cache_bust_paths`.
+3. It calls `EdgeCache::PurgeByKey` once with all keys and fallback paths, invalidating every profile cache segment in a single operation.
+
+### Async user cache busting via worker
+
+1. `Users::BustCacheWorker` receives a user ID.
+2. It looks up the user record by that ID.
+3. If the user exists, it delegates immediately to `EdgeCache::BustUser`, which handles all cache key purging.
+4. If the user no longer exists, the worker exits without performing any purge.
 
 ### User not found
 

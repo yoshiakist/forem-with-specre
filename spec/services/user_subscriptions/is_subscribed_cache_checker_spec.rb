@@ -1,3 +1,4 @@
+# @specre 01KJ9JGGNEP4QG1M8993MB2A5K
 require "rails_helper"
 
 RSpec.describe UserSubscriptions::IsSubscribedCacheChecker, type: :service do

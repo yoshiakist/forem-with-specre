@@ -1,3 +1,4 @@
+# @specre 01KJ9JHJXSYEDB3WWBQGZKPQCF
 require "rails_helper"
 
 RSpec.describe "Sitemaps" do

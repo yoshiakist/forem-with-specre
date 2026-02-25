@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-25T04:31:41Z",
+  "generated_at": "2026-02-25T04:58:32Z",
   "source_refs": [
     {
       "file": "app/assets/javascripts/initializers/initializeAllTagEditButtons.js",
@@ -965,6 +965,11 @@
       "file": "app/controllers/search_controller.rb",
       "line": 7,
       "specre_id": "01KHZ22E63WBQWYFZNQVEA2EEE"
+    },
+    {
+      "file": "app/controllers/sitemaps_controller.rb",
+      "line": 1,
+      "specre_id": "01KJ9JHJXSYEDB3WWBQGZKPQCF"
     },
     {
       "file": "app/controllers/stories/articles_search_controller.rb",
@@ -2499,51 +2504,56 @@
     {
       "file": "app/mailers/notify_mailer.rb",
       "line": 1,
-      "specre_id": "01KJ75DN218QHHZ575VBJ95H29"
+      "specre_id": "01KJ9JGXPSJEWB4J1HDKAJ71WD"
     },
     {
       "file": "app/mailers/notify_mailer.rb",
       "line": 2,
-      "specre_id": "01KJ72WHJG3KGKQRANX95KQTSX"
+      "specre_id": "01KJ75DN218QHHZ575VBJ95H29"
     },
     {
       "file": "app/mailers/notify_mailer.rb",
       "line": 3,
-      "specre_id": "01KJ72SXAQ2WNCG8H8P8PXR5E0"
+      "specre_id": "01KJ72WHJG3KGKQRANX95KQTSX"
     },
     {
       "file": "app/mailers/notify_mailer.rb",
       "line": 4,
-      "specre_id": "01KJ72SKJ1NPDRXKSKA8R47C82"
+      "specre_id": "01KJ72SXAQ2WNCG8H8P8PXR5E0"
     },
     {
       "file": "app/mailers/notify_mailer.rb",
       "line": 5,
-      "specre_id": "01KJ72SS278ECC5FW24CY96BHP"
+      "specre_id": "01KJ72SKJ1NPDRXKSKA8R47C82"
     },
     {
       "file": "app/mailers/notify_mailer.rb",
       "line": 6,
-      "specre_id": "01KJ72PNMHN5CAC6ANK4VBMJJW"
+      "specre_id": "01KJ72SS278ECC5FW24CY96BHP"
     },
     {
       "file": "app/mailers/notify_mailer.rb",
       "line": 7,
-      "specre_id": "01KJ72PVG4W2F3ADXJKS59C3S2"
+      "specre_id": "01KJ72PNMHN5CAC6ANK4VBMJJW"
     },
     {
       "file": "app/mailers/notify_mailer.rb",
       "line": 8,
-      "specre_id": "01KJ72PJ45D3ZFHQBYBXD9EEME"
+      "specre_id": "01KJ72PVG4W2F3ADXJKS59C3S2"
     },
     {
       "file": "app/mailers/notify_mailer.rb",
       "line": 9,
-      "specre_id": "01KJ72K4BVPB3SWGWJ4TH12QS1"
+      "specre_id": "01KJ72PJ45D3ZFHQBYBXD9EEME"
     },
     {
       "file": "app/mailers/notify_mailer.rb",
       "line": 10,
+      "specre_id": "01KJ72K4BVPB3SWGWJ4TH12QS1"
+    },
+    {
+      "file": "app/mailers/notify_mailer.rb",
+      "line": 11,
       "specre_id": "01KJ72GNWTSM6SDVV7DR8NDRHY"
     },
     {
@@ -3262,6 +3272,16 @@
       "specre_id": "01KJ41RETE70D2JDJEGS0STSGM"
     },
     {
+      "file": "app/models/user_activity.rb",
+      "line": 1,
+      "specre_id": "01KJ9JDSQ6H83982FMRE3T1DQD"
+    },
+    {
+      "file": "app/models/user_language.rb",
+      "line": 1,
+      "specre_id": "01KJ9JE1SPDCRJXAB1S3R7EKGT"
+    },
+    {
       "file": "app/models/user_role.rb",
       "line": 1,
       "specre_id": "01KJ7G7M4JRVA0J8VWAVJ7Y5ME"
@@ -3897,6 +3917,11 @@
       "specre_id": "01KJ41NGKZDC2HQCNEQDKZYTDM"
     },
     {
+      "file": "app/services/edge_cache/bust_user.rb",
+      "line": 1,
+      "specre_id": "01KHZ6KMGFYFBB8TCE6Q554D1Z"
+    },
+    {
       "file": "app/services/email_digest.rb",
       "line": 1,
       "specre_id": "01KJ71F6JXM4PY31DJJW0N2R5S"
@@ -4355,6 +4380,11 @@
       "file": "app/services/tag_moderators/remove.rb",
       "line": 1,
       "specre_id": "01KJ405WSWNE4WHSJVXZ8G81GZ"
+    },
+    {
+      "file": "app/services/user_subscriptions/is_subscribed_cache_checker.rb",
+      "line": 1,
+      "specre_id": "01KJ9JGGNEP4QG1M8993MB2A5K"
     },
     {
       "file": "app/services/users/approved_liquid_tags.rb",
@@ -5739,11 +5769,21 @@
     {
       "file": "app/views/mailers/notify_mailer/user_contact_email.html.erb",
       "line": 1,
+      "specre_id": "01KJ9JGXPSJEWB4J1HDKAJ71WD"
+    },
+    {
+      "file": "app/views/mailers/notify_mailer/user_contact_email.html.erb",
+      "line": 2,
       "specre_id": "01KJ72PNMHN5CAC6ANK4VBMJJW"
     },
     {
       "file": "app/views/mailers/notify_mailer/user_contact_email.text.erb",
       "line": 1,
+      "specre_id": "01KJ9JGXPSJEWB4J1HDKAJ71WD"
+    },
+    {
+      "file": "app/views/mailers/notify_mailer/user_contact_email.text.erb",
+      "line": 2,
       "specre_id": "01KJ72PNMHN5CAC6ANK4VBMJJW"
     },
     {
@@ -6457,6 +6497,11 @@
       "specre_id": "01KJ41WT9YWTD6G9MHPTQW0EFA"
     },
     {
+      "file": "app/views/sitemaps/users.xml.erb",
+      "line": 1,
+      "specre_id": "01KJ9JHJXSYEDB3WWBQGZKPQCF"
+    },
+    {
       "file": "app/views/stories/_main_stories_feed.html.erb",
       "line": 1,
       "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
@@ -6917,6 +6962,11 @@
       "specre_id": "01KJ41NM38SFJ4PT77ZR180XVP"
     },
     {
+      "file": "app/workers/users/bust_cache_worker.rb",
+      "line": 1,
+      "specre_id": "01KHZ6KMGFYFBB8TCE6Q554D1Z"
+    },
+    {
       "file": "app/workers/users/bust_profile_details_cache_worker.rb",
       "line": 1,
       "specre_id": "01KHZ6KMGFYFBB8TCE6Q554D1Z"
@@ -7155,6 +7205,11 @@
       "file": "spec/factories/tags.rb",
       "line": 1,
       "specre_id": "01KJ41DVKVSHQT3TKSJP11Y7SZ"
+    },
+    {
+      "file": "spec/factories/user_languages.rb",
+      "line": 1,
+      "specre_id": "01KJ9JE1SPDCRJXAB1S3R7EKGT"
     },
     {
       "file": "spec/factories/users_notification_settings.rb",
@@ -7559,61 +7614,66 @@
     {
       "file": "spec/mailers/notify_mailer_spec.rb",
       "line": 1,
-      "specre_id": "01KJ75DN218QHHZ575VBJ95H29"
+      "specre_id": "01KJ9JGXPSJEWB4J1HDKAJ71WD"
     },
     {
       "file": "spec/mailers/notify_mailer_spec.rb",
       "line": 2,
-      "specre_id": "01KJ72WHJG3KGKQRANX95KQTSX"
+      "specre_id": "01KJ75DN218QHHZ575VBJ95H29"
     },
     {
       "file": "spec/mailers/notify_mailer_spec.rb",
       "line": 3,
-      "specre_id": "01KJ72SXAQ2WNCG8H8P8PXR5E0"
+      "specre_id": "01KJ72WHJG3KGKQRANX95KQTSX"
     },
     {
       "file": "spec/mailers/notify_mailer_spec.rb",
       "line": 4,
-      "specre_id": "01KJ72SKJ1NPDRXKSKA8R47C82"
+      "specre_id": "01KJ72SXAQ2WNCG8H8P8PXR5E0"
     },
     {
       "file": "spec/mailers/notify_mailer_spec.rb",
       "line": 5,
-      "specre_id": "01KJ72SS278ECC5FW24CY96BHP"
+      "specre_id": "01KJ72SKJ1NPDRXKSKA8R47C82"
     },
     {
       "file": "spec/mailers/notify_mailer_spec.rb",
       "line": 6,
-      "specre_id": "01KJ72PVG4W2F3ADXJKS59C3S2"
+      "specre_id": "01KJ72SS278ECC5FW24CY96BHP"
     },
     {
       "file": "spec/mailers/notify_mailer_spec.rb",
       "line": 7,
-      "specre_id": "01KJ72PNMHN5CAC6ANK4VBMJJW"
+      "specre_id": "01KJ72PVG4W2F3ADXJKS59C3S2"
     },
     {
       "file": "spec/mailers/notify_mailer_spec.rb",
       "line": 8,
-      "specre_id": "01KJ72PJ45D3ZFHQBYBXD9EEME"
+      "specre_id": "01KJ72PNMHN5CAC6ANK4VBMJJW"
     },
     {
       "file": "spec/mailers/notify_mailer_spec.rb",
       "line": 9,
-      "specre_id": "01KJ72KP1KB032AK6P3J2J6BFE"
+      "specre_id": "01KJ72PJ45D3ZFHQBYBXD9EEME"
     },
     {
       "file": "spec/mailers/notify_mailer_spec.rb",
       "line": 10,
-      "specre_id": "01KJ72JZVZK090J0RBBA6TGRSP"
+      "specre_id": "01KJ72KP1KB032AK6P3J2J6BFE"
     },
     {
       "file": "spec/mailers/notify_mailer_spec.rb",
       "line": 11,
-      "specre_id": "01KJ72K4BVPB3SWGWJ4TH12QS1"
+      "specre_id": "01KJ72JZVZK090J0RBBA6TGRSP"
     },
     {
       "file": "spec/mailers/notify_mailer_spec.rb",
       "line": 12,
+      "specre_id": "01KJ72K4BVPB3SWGWJ4TH12QS1"
+    },
+    {
+      "file": "spec/mailers/notify_mailer_spec.rb",
+      "line": 13,
       "specre_id": "01KJ72GNWTSM6SDVV7DR8NDRHY"
     },
     {
@@ -8102,9 +8162,19 @@
       "specre_id": "01KJ41RETE70D2JDJEGS0STSGM"
     },
     {
+      "file": "spec/models/user_activity_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ9JDSQ6H83982FMRE3T1DQD"
+    },
+    {
       "file": "spec/models/user_email_eligible_spec.rb",
       "line": 1,
       "specre_id": "01KJ758K1CA5TWC5FHEKJZ52BT"
+    },
+    {
+      "file": "spec/models/user_language_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ9JE1SPDCRJXAB1S3R7EKGT"
     },
     {
       "file": "spec/models/user_role_spec.rb",
@@ -9057,6 +9127,11 @@
       "specre_id": "01KJ5DR9SK7NZF4GCYBZD5RM92"
     },
     {
+      "file": "spec/requests/sitemaps_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ9JHJXSYEDB3WWBQGZKPQCF"
+    },
+    {
       "file": "spec/requests/stories/articles_search_spec.rb",
       "line": 1,
       "specre_id": "01KHZ22E63WBQWYFZNQVEA2EEE"
@@ -9462,6 +9537,11 @@
       "specre_id": "01KJ41NGKZDC2HQCNEQDKZYTDM"
     },
     {
+      "file": "spec/services/edge_cache/bust_user_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ6KMGFYFBB8TCE6Q554D1Z"
+    },
+    {
       "file": "spec/services/email_digest_article_collector_spec.rb",
       "line": 1,
       "specre_id": "01KJ71NMHAZE5XNJDG4DDR4DW4"
@@ -9860,6 +9940,11 @@
       "file": "spec/services/tag_moderators/remove_spec.rb",
       "line": 1,
       "specre_id": "01KJ405WSWNE4WHSJVXZ8G81GZ"
+    },
+    {
+      "file": "spec/services/user_subscriptions/is_subscribed_cache_checker_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ9JGGNEP4QG1M8993MB2A5K"
     },
     {
       "file": "spec/services/users/approved_liquid_tags_spec.rb",
@@ -10455,6 +10540,11 @@
       "file": "spec/workers/tags/resave_supported_tags_worker_spec.rb",
       "line": 1,
       "specre_id": "01KJ41NM38SFJ4PT77ZR180XVP"
+    },
+    {
+      "file": "spec/workers/users/bust_cache_worker_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ6KMGFYFBB8TCE6Q554D1Z"
     },
     {
       "file": "spec/workers/users/bust_profile_details_cache_worker_spec.rb",
@@ -13620,6 +13710,46 @@
       "name": "admin_uploads_image_via_admin_panel",
       "path": "docs/specres/admin/admin_uploads_image_via_admin_panel.md",
       "status": "draft"
+    },
+    {
+      "domain": "users",
+      "id": "01KJ9JDSQ6H83982FMRE3T1DQD",
+      "last_verified": "2026-02-25",
+      "name": "system_computes_user_activity_profile",
+      "path": "docs/specres/users/system_computes_user_activity_profile.md",
+      "status": "stable"
+    },
+    {
+      "domain": "users",
+      "id": "01KJ9JE1SPDCRJXAB1S3R7EKGT",
+      "last_verified": "2026-02-25",
+      "name": "system_records_user_language_preference",
+      "path": "docs/specres/users/system_records_user_language_preference.md",
+      "status": "stable"
+    },
+    {
+      "domain": "users",
+      "id": "01KJ9JGGNEP4QG1M8993MB2A5K",
+      "last_verified": "2026-02-25",
+      "name": "system_checks_subscription_status_with_cache",
+      "path": "docs/specres/users/system_checks_subscription_status_with_cache.md",
+      "status": "stable"
+    },
+    {
+      "domain": "users",
+      "id": "01KJ9JGXPSJEWB4J1HDKAJ71WD",
+      "last_verified": "2026-02-25",
+      "name": "system_sends_user_contact_email",
+      "path": "docs/specres/users/system_sends_user_contact_email.md",
+      "status": "stable"
+    },
+    {
+      "domain": "users",
+      "id": "01KJ9JHJXSYEDB3WWBQGZKPQCF",
+      "last_verified": "2026-02-25",
+      "name": "system_includes_users_in_sitemap",
+      "path": "docs/specres/users/system_includes_users_in_sitemap.md",
+      "status": "stable"
     }
   ],
   "version": 1

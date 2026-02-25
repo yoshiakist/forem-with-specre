@@ -1,3 +1,4 @@
+# @specre 01KJ9JHJXSYEDB3WWBQGZKPQCF
 class SitemapsController < ApplicationController
   before_action :set_cache_control_headers, only: %i[show]
 

@@ -1,3 +1,4 @@
+# @specre 01KHZ6KMGFYFBB8TCE6Q554D1Z
 module EdgeCache
   class BustUser
     def self.call(user)
