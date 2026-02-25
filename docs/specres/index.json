@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-24T10:07:54Z",
+  "generated_at": "2026-02-25T04:13:54Z",
   "source_refs": [
     {
       "file": "app/assets/javascripts/initializers/initializeAllTagEditButtons.js",
@@ -185,6 +185,26 @@
       "file": "app/controllers/admin/feedback_messages_controller.rb",
       "line": 1,
       "specre_id": "01KJ25KAPB0FAFF74WX0TD106P"
+    },
+    {
+      "file": "app/controllers/admin/invitations_controller.rb",
+      "line": 1,
+      "specre_id": "01KJ9G0HP7SZ3CFPBD2ZW5RR7C"
+    },
+    {
+      "file": "app/controllers/admin/invitations_controller.rb",
+      "line": 2,
+      "specre_id": "01KJ9G05S72CY68YM2GMN7W01Q"
+    },
+    {
+      "file": "app/controllers/admin/invitations_controller.rb",
+      "line": 3,
+      "specre_id": "01KJ9FXHGQ9PCEYWSQY1713C0E"
+    },
+    {
+      "file": "app/controllers/admin/invitations_controller.rb",
+      "line": 4,
+      "specre_id": "01KJ9FWCV9BVZBNN3YJAXS5ZQS"
     },
     {
       "file": "app/controllers/admin/moderator_actions_controller.rb",
@@ -2384,21 +2404,26 @@
     {
       "file": "app/mailers/devise_mailer.rb",
       "line": 1,
-      "specre_id": "01KJ72G2KV3QBHWF11ZNJKHREH"
+      "specre_id": "01KJ9FXHGQ9PCEYWSQY1713C0E"
     },
     {
       "file": "app/mailers/devise_mailer.rb",
       "line": 2,
-      "specre_id": "01KJ72G437T5C1XSRFT1032VZ9"
+      "specre_id": "01KJ72G2KV3QBHWF11ZNJKHREH"
     },
     {
       "file": "app/mailers/devise_mailer.rb",
       "line": 3,
-      "specre_id": "01KJ72CN8M7DDPD8AGN754MKTK"
+      "specre_id": "01KJ72G437T5C1XSRFT1032VZ9"
     },
     {
       "file": "app/mailers/devise_mailer.rb",
       "line": 4,
+      "specre_id": "01KJ72CN8M7DDPD8AGN754MKTK"
+    },
+    {
+      "file": "app/mailers/devise_mailer.rb",
+      "line": 5,
       "specre_id": "01KJ72CC7Y6GB7EXY8MNPEX2VQ"
     },
     {
@@ -4437,6 +4462,16 @@
       "specre_id": "01KJ25KAPB0FAFF74WX0TD106P"
     },
     {
+      "file": "app/views/admin/invitations/index.html.erb",
+      "line": 1,
+      "specre_id": "01KJ9FWCV9BVZBNN3YJAXS5ZQS"
+    },
+    {
+      "file": "app/views/admin/invitations/new.html.erb",
+      "line": 1,
+      "specre_id": "01KJ9FXHGQ9PCEYWSQY1713C0E"
+    },
+    {
       "file": "app/views/admin/navigation_links/index.html.erb",
       "line": 1,
       "specre_id": "01KJ7HPV39HXGYWHV2SGNH9R73"
@@ -4782,6 +4817,21 @@
       "specre_id": "01KJ24JR0FK5MWHWK01QF0434H"
     },
     {
+      "file": "app/views/admin/users/index/_invitation_actions_dropdown.html.erb",
+      "line": 1,
+      "specre_id": "01KJ9G0HP7SZ3CFPBD2ZW5RR7C"
+    },
+    {
+      "file": "app/views/admin/users/index/_invitation_actions_dropdown.html.erb",
+      "line": 2,
+      "specre_id": "01KJ9G05S72CY68YM2GMN7W01Q"
+    },
+    {
+      "file": "app/views/admin/users/index/_invitation_actions_dropdown.html.erb",
+      "line": 3,
+      "specre_id": "01KJ9FWCV9BVZBNN3YJAXS5ZQS"
+    },
+    {
       "file": "app/views/admin/users/index/_organizations.html.erb",
       "line": 1,
       "specre_id": "01KJ02QR77TXF2XJR4QS32QAAE"
@@ -5112,6 +5162,11 @@
       "specre_id": "01KJ41J4101Y3KSMXR9VEHN9ZY"
     },
     {
+      "file": "app/views/devise/invitations/edit.html.erb",
+      "line": 1,
+      "specre_id": "01KJ9FXHGQ9PCEYWSQY1713C0E"
+    },
+    {
       "file": "app/views/devise/mailer/_creator_confirmation_instructions.html.erb",
       "line": 1,
       "specre_id": "01KJ72CC7Y6GB7EXY8MNPEX2VQ"
@@ -5124,11 +5179,21 @@
     {
       "file": "app/views/devise/mailer/invitation_instructions.html.erb",
       "line": 1,
+      "specre_id": "01KJ9FXHGQ9PCEYWSQY1713C0E"
+    },
+    {
+      "file": "app/views/devise/mailer/invitation_instructions.html.erb",
+      "line": 2,
       "specre_id": "01KJ72CN8M7DDPD8AGN754MKTK"
     },
     {
       "file": "app/views/devise/mailer/invitation_instructions.text.erb",
       "line": 1,
+      "specre_id": "01KJ9FXHGQ9PCEYWSQY1713C0E"
+    },
+    {
+      "file": "app/views/devise/mailer/invitation_instructions.text.erb",
+      "line": 2,
       "specre_id": "01KJ72CN8M7DDPD8AGN754MKTK"
     },
     {
@@ -8145,6 +8210,26 @@
       "file": "spec/requests/admin/feedback_messages_spec.rb",
       "line": 1,
       "specre_id": "01KJ25KAPB0FAFF74WX0TD106P"
+    },
+    {
+      "file": "spec/requests/admin/invitations_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ9G0HP7SZ3CFPBD2ZW5RR7C"
+    },
+    {
+      "file": "spec/requests/admin/invitations_spec.rb",
+      "line": 2,
+      "specre_id": "01KJ9G05S72CY68YM2GMN7W01Q"
+    },
+    {
+      "file": "spec/requests/admin/invitations_spec.rb",
+      "line": 3,
+      "specre_id": "01KJ9FXHGQ9PCEYWSQY1713C0E"
+    },
+    {
+      "file": "spec/requests/admin/invitations_spec.rb",
+      "line": 4,
+      "specre_id": "01KJ9FWCV9BVZBNN3YJAXS5ZQS"
     },
     {
       "file": "spec/requests/admin/moderator_actions_spec.rb",
@@ -13332,6 +13417,38 @@
       "last_verified": "2026-02-24",
       "name": "admin_can_delete_navigation_link",
       "path": "docs/specres/admin/navigation/admin_can_delete_navigation_link.md",
+      "status": "stable"
+    },
+    {
+      "domain": "admin",
+      "id": "01KJ9FWCV9BVZBNN3YJAXS5ZQS",
+      "last_verified": "2026-02-25",
+      "name": "admin_views_pending_invitations",
+      "path": "docs/specres/admin/invitations/admin_views_pending_invitations.md",
+      "status": "stable"
+    },
+    {
+      "domain": "admin",
+      "id": "01KJ9FXHGQ9PCEYWSQY1713C0E",
+      "last_verified": "2026-02-25",
+      "name": "admin_sends_user_invitation",
+      "path": "docs/specres/admin/invitations/admin_sends_user_invitation.md",
+      "status": "stable"
+    },
+    {
+      "domain": "admin",
+      "id": "01KJ9G05S72CY68YM2GMN7W01Q",
+      "last_verified": "2026-02-25",
+      "name": "admin_resends_user_invitation",
+      "path": "docs/specres/admin/invitations/admin_resends_user_invitation.md",
+      "status": "stable"
+    },
+    {
+      "domain": "admin",
+      "id": "01KJ9G0HP7SZ3CFPBD2ZW5RR7C",
+      "last_verified": "2026-02-25",
+      "name": "admin_revokes_user_invitation",
+      "path": "docs/specres/admin/invitations/admin_revokes_user_invitation.md",
       "status": "stable"
     }
   ],

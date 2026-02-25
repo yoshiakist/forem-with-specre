@@ -22,3 +22,7 @@
 | [admin_can_create_navigation_link](navigation/admin_can_create_navigation_link.md) | stable | 2026-02-24 |
 | [admin_can_edit_navigation_link](navigation/admin_can_edit_navigation_link.md) | stable | 2026-02-24 |
 | [admin_can_delete_navigation_link](navigation/admin_can_delete_navigation_link.md) | stable | 2026-02-24 |
+| [admin_views_pending_invitations](invitations/admin_views_pending_invitations.md) | stable | 2026-02-25 |
+| [admin_sends_user_invitation](invitations/admin_sends_user_invitation.md) | stable | 2026-02-25 |
+| [admin_resends_user_invitation](invitations/admin_resends_user_invitation.md) | stable | 2026-02-25 |
+| [admin_revokes_user_invitation](invitations/admin_revokes_user_invitation.md) | stable | 2026-02-25 |
