@@ -11,9 +11,11 @@ last_verified: "2026-02-24"
 - `app/controllers/admin/overview_controller.rb`
 - `app/services/admin/stats_data.rb`
 - `app/javascript/packs/admin/overview.jsx`
+- `app/services/admin/charts_data.rb`
 - `spec/system/admin/admin_visits_overview_spec.rb` (Test)
 - `spec/services/admin/stats_data_spec.rb` (Test)
 - `spec/requests/admin/overview_spec.rb` (Test)
+- `spec/services/admin/charts_data_spec.rb` (Test)
 
 ## Functional Overview
 
@@ -59,6 +61,14 @@ Stat values are deliberately rendered as placeholders (`Loading...`) rather than
 1. The browser issues a `GET /admin/stats?period=14` (or any value not in 7, 30, 90).
 2. The controller falls back to the default period of 7.
 3. The response contains counts for the last 7 days and `"period": 7`.
+
+### Admin views daily activity trends via charts
+
+1. The admin overview page requests time-series chart data for the configured period (default 7 days).
+2. The `Admin::ChartsData` service computes a date range from `length + 1` days ago up to yesterday (excluding today), ensuring each data point represents a complete day.
+3. The service groups Articles, Comments, Reactions, and new Users by their creation date within that window and returns an ordered array of daily counts for each metric.
+4. For each metric the response also includes the aggregate total for the current period and the total count for the immediately preceding period of equal length, enabling the frontend to render a period-over-period comparison indicator.
+5. The admin sees four chart series — Posts, Comments, Reactions, and New members — each showing one data point per day over the selected period.
 
 ## Failures / Exceptions
 

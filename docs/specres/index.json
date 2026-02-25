@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-25T04:13:54Z",
+  "generated_at": "2026-02-25T04:31:41Z",
   "source_refs": [
     {
       "file": "app/assets/javascripts/initializers/initializeAllTagEditButtons.js",
@@ -50,6 +50,11 @@
       "file": "app/assets/stylesheets/settings.scss",
       "line": 1,
       "specre_id": "01KHZ3R448RA411ZP1V33AX5MR"
+    },
+    {
+      "file": "app/controllers/admin/application_controller.rb",
+      "line": 1,
+      "specre_id": "01KJ9GW0HAGR8XG1KN5GETDK8Q"
     },
     {
       "file": "app/controllers/admin/badge_achievements_controller.rb",
@@ -1092,6 +1097,16 @@
       "specre_id": "01KHZ3R448RA411ZP1V33AX5MR"
     },
     {
+      "file": "app/helpers/admin/sidebar_helper.rb",
+      "line": 1,
+      "specre_id": "01KJ9GWMJV27RNX4KT7WT0MQXS"
+    },
+    {
+      "file": "app/helpers/admin_helper.rb",
+      "line": 1,
+      "specre_id": "01KJ9GWMJV27RNX4KT7WT0MQXS"
+    },
+    {
       "file": "app/helpers/billboard_helper.rb",
       "line": 1,
       "specre_id": "01KJ6EHMAWTR3NAEGM1TB30FPJ"
@@ -1252,6 +1267,11 @@
       "specre_id": "01KJ2SZCDD0QR1BVHSPYKQZ955"
     },
     {
+      "file": "app/javascript/admin/adminModal.js",
+      "line": 1,
+      "specre_id": "01KJ9H04NFNKVCEGFVZ2SRPXF0"
+    },
+    {
       "file": "app/javascript/admin/controllers/admin_surveys_controller.js",
       "line": 1,
       "specre_id": "01KHZME2KMA2REG6V4QSGBK5XQ"
@@ -1260,6 +1280,16 @@
       "file": "app/javascript/admin/controllers/admin_surveys_controller.js",
       "line": 2,
       "specre_id": "01KHZM8WACKF3RJZT65WP2P2E9"
+    },
+    {
+      "file": "app/javascript/admin/controllers/alert_controller.js",
+      "line": 1,
+      "specre_id": "01KJ9GWWKF62PQBKP13K74MPN0"
+    },
+    {
+      "file": "app/javascript/admin/controllers/confirmation_modal_controller.js",
+      "line": 1,
+      "specre_id": "01KJ9H04NFNKVCEGFVZ2SRPXF0"
     },
     {
       "file": "app/javascript/admin/controllers/consumer_app_controller.js",
@@ -1277,9 +1307,39 @@
       "specre_id": "01KJ2SZCDD0QR1BVHSPYKQZ955"
     },
     {
+      "file": "app/javascript/admin/controllers/image_upload_controller.js",
+      "line": 1,
+      "specre_id": "01KJ9H0CVY83030EB96383B8GA"
+    },
+    {
+      "file": "app/javascript/admin/controllers/modal_controller.js",
+      "line": 1,
+      "specre_id": "01KJ9H04NFNKVCEGFVZ2SRPXF0"
+    },
+    {
+      "file": "app/javascript/admin/controllers/notice_controller.js",
+      "line": 1,
+      "specre_id": "01KJ9GWWKF62PQBKP13K74MPN0"
+    },
+    {
       "file": "app/javascript/admin/controllers/reaction_controller.js",
       "line": 1,
       "specre_id": "01KJ25KAPB0FAFF74WX0TD106P"
+    },
+    {
+      "file": "app/javascript/admin/controllers/sidebar_controller.js",
+      "line": 1,
+      "specre_id": "01KJ9GWMJV27RNX4KT7WT0MQXS"
+    },
+    {
+      "file": "app/javascript/admin/controllers/snackbar_controller.js",
+      "line": 1,
+      "specre_id": "01KJ9GWWKF62PQBKP13K74MPN0"
+    },
+    {
+      "file": "app/javascript/admin/messageUtilities.js",
+      "line": 1,
+      "specre_id": "01KJ9GWWKF62PQBKP13K74MPN0"
     },
     {
       "file": "app/javascript/analytics/client.js",
@@ -1620,6 +1680,11 @@
       "file": "app/javascript/packs/admin/billboards.jsx",
       "line": 1,
       "specre_id": "01KJ6EAKT3P7HHWCZZXHQ6N8MV"
+    },
+    {
+      "file": "app/javascript/packs/admin/flashMessages.js",
+      "line": 1,
+      "specre_id": "01KJ9GWWKF62PQBKP13K74MPN0"
     },
     {
       "file": "app/javascript/packs/admin/organizations.jsx",
@@ -2527,6 +2592,11 @@
       "specre_id": "01KJ703F16P7AYF29Z4W9PQW5K"
     },
     {
+      "file": "app/models/admin_menu.rb",
+      "line": 1,
+      "specre_id": "01KJ9GWMJV27RNX4KT7WT0MQXS"
+    },
+    {
       "file": "app/models/articles/feeds.rb",
       "line": 1,
       "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
@@ -3212,6 +3282,11 @@
       "specre_id": "01KJ15YPZ52QH5K5R1MVAYRQ0F"
     },
     {
+      "file": "app/policies/admin_policy.rb",
+      "line": 1,
+      "specre_id": "01KJ9GW0HAGR8XG1KN5GETDK8Q"
+    },
+    {
       "file": "app/policies/ai_image_generation_policy.rb",
       "line": 1,
       "specre_id": "01KJ6T0E5ZHZPXH2FM05E4X6Q6"
@@ -3445,6 +3520,11 @@
       "file": "app/serializers/search/user_serializer.rb",
       "line": 1,
       "specre_id": "01KHZ25T4PNZ33CT917WZ25JYT"
+    },
+    {
+      "file": "app/services/admin/charts_data.rb",
+      "line": 1,
+      "specre_id": "01KJ6QD968CHB6HNK748HR81KV"
     },
     {
       "file": "app/services/admin/stats_data.rb",
@@ -4717,9 +4797,34 @@
       "specre_id": "01KHZ3R448RA411ZP1V33AX5MR"
     },
     {
+      "file": "app/views/admin/shared/_destroy_confirmation_modal.html.erb",
+      "line": 1,
+      "specre_id": "01KJ9H04NFNKVCEGFVZ2SRPXF0"
+    },
+    {
       "file": "app/views/admin/shared/_flag_reactions_table.html.erb",
       "line": 1,
       "specre_id": "01KHZ55S8Z1A16PNGY9X7PR58P"
+    },
+    {
+      "file": "app/views/admin/shared/_image_uploader.html.erb",
+      "line": 1,
+      "specre_id": "01KJ9H0CVY83030EB96383B8GA"
+    },
+    {
+      "file": "app/views/admin/shared/_navbar.html.erb",
+      "line": 1,
+      "specre_id": "01KJ9GWMJV27RNX4KT7WT0MQXS"
+    },
+    {
+      "file": "app/views/admin/shared/_nested_sidebar.html.erb",
+      "line": 1,
+      "specre_id": "01KJ9GWMJV27RNX4KT7WT0MQXS"
+    },
+    {
+      "file": "app/views/admin/shared/_tabbed_navbar.html.erb",
+      "line": 1,
+      "specre_id": "01KJ9GWMJV27RNX4KT7WT0MQXS"
     },
     {
       "file": "app/views/admin/subforems/_form.html.erb",
@@ -5260,6 +5365,11 @@
       "file": "app/views/layouts/_social_media.html.erb",
       "line": 1,
       "specre_id": "01KJ1C3MFT988AX8WWC1G6EG0G"
+    },
+    {
+      "file": "app/views/layouts/admin.html.erb",
+      "line": 1,
+      "specre_id": "01KJ9GWMJV27RNX4KT7WT0MQXS"
     },
     {
       "file": "app/views/layouts/mailer.html.erb",
@@ -7587,6 +7697,11 @@
       "specre_id": "01KJ702TAET217EMSPHS27RTN1"
     },
     {
+      "file": "spec/models/admin_menu_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ9GWMJV27RNX4KT7WT0MQXS"
+    },
+    {
       "file": "spec/models/articles/feeds/lever_catalog_builder_spec.rb",
       "line": 1,
       "specre_id": "01KJ246P62P50ED5YJNGJ50J3J"
@@ -8002,6 +8117,11 @@
       "specre_id": "01KHZ454YXRB8TWV8PC06P4EQ5"
     },
     {
+      "file": "spec/policies/admin_policy_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ9GW0HAGR8XG1KN5GETDK8Q"
+    },
+    {
       "file": "spec/policies/comment_policy_spec.rb",
       "line": 1,
       "specre_id": "01KJ5DQT35P394JJVCSC077ZX5"
@@ -8255,6 +8375,11 @@
       "file": "spec/requests/admin/navigation_link_spec.rb",
       "line": 4,
       "specre_id": "01KJ7HPV39HXGYWHV2SGNH9R73"
+    },
+    {
+      "file": "spec/requests/admin/nested_sidebar_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ9GWMJV27RNX4KT7WT0MQXS"
     },
     {
       "file": "spec/requests/admin/organization_memberships_spec.rb",
@@ -9060,6 +9185,11 @@
       "file": "spec/serializers/search/user_serializer_spec.rb",
       "line": 1,
       "specre_id": "01KHZ25T4PNZ33CT917WZ25JYT"
+    },
+    {
+      "file": "spec/services/admin/charts_data_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ6QD968CHB6HNK748HR81KV"
     },
     {
       "file": "spec/services/admin/stats_data_spec.rb",
@@ -13450,6 +13580,46 @@
       "name": "admin_revokes_user_invitation",
       "path": "docs/specres/admin/invitations/admin_revokes_user_invitation.md",
       "status": "stable"
+    },
+    {
+      "domain": "admin",
+      "id": "01KJ9GW0HAGR8XG1KN5GETDK8Q",
+      "last_verified": null,
+      "name": "system_authorizes_admin_access",
+      "path": "docs/specres/admin/system_authorizes_admin_access.md",
+      "status": "draft"
+    },
+    {
+      "domain": "admin",
+      "id": "01KJ9GWMJV27RNX4KT7WT0MQXS",
+      "last_verified": "2026-02-25",
+      "name": "admin_navigates_admin_panel",
+      "path": "docs/specres/admin/admin_navigates_admin_panel.md",
+      "status": "stable"
+    },
+    {
+      "domain": "admin",
+      "id": "01KJ9GWWKF62PQBKP13K74MPN0",
+      "last_verified": null,
+      "name": "system_displays_admin_feedback_messages",
+      "path": "docs/specres/admin/system_displays_admin_feedback_messages.md",
+      "status": "draft"
+    },
+    {
+      "domain": "admin",
+      "id": "01KJ9H04NFNKVCEGFVZ2SRPXF0",
+      "last_verified": null,
+      "name": "admin_confirms_destructive_action",
+      "path": "docs/specres/admin/admin_confirms_destructive_action.md",
+      "status": "draft"
+    },
+    {
+      "domain": "admin",
+      "id": "01KJ9H0CVY83030EB96383B8GA",
+      "last_verified": null,
+      "name": "admin_uploads_image_via_admin_panel",
+      "path": "docs/specres/admin/admin_uploads_image_via_admin_panel.md",
+      "status": "draft"
     }
   ],
   "version": 1

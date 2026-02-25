@@ -1,3 +1,4 @@
+# @specre 01KJ9GWMJV27RNX4KT7WT0MQXS
 module AdminHelper
   def deduced_controller(request)
     request.path.split("/").fourth

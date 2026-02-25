@@ -1,3 +1,4 @@
+// @specre 01KJ9GWWKF62PQBKP13K74MPN0
 import { Controller } from '@hotwired/stimulus';
 
 export default class AlertController extends Controller {

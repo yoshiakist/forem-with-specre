@@ -1,3 +1,4 @@
+# @specre 01KJ6QD968CHB6HNK748HR81KV
 module Admin
   class ChartsData
     def initialize(length = 7)

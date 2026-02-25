@@ -1,3 +1,4 @@
+# @specre 01KJ9GW0HAGR8XG1KN5GETDK8Q
 module Admin
   class ApplicationController < ApplicationController
     before_action :authorize_admin

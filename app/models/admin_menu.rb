@@ -1,3 +1,4 @@
+# @specre 01KJ9GWMJV27RNX4KT7WT0MQXS
 # This "model" is not backed by the database. Its main purpose is to
 # setup and provide methods to interact with the admin sidebar and tabbed menu
 class AdminMenu

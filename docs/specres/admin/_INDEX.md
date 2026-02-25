@@ -26,3 +26,8 @@
 | [admin_sends_user_invitation](invitations/admin_sends_user_invitation.md) | stable | 2026-02-25 |
 | [admin_resends_user_invitation](invitations/admin_resends_user_invitation.md) | stable | 2026-02-25 |
 | [admin_revokes_user_invitation](invitations/admin_revokes_user_invitation.md) | stable | 2026-02-25 |
+| [system_authorizes_admin_access](system_authorizes_admin_access.md) | draft | - |
+| [admin_navigates_admin_panel](admin_navigates_admin_panel.md) | stable | 2026-02-25 |
+| [system_displays_admin_feedback_messages](system_displays_admin_feedback_messages.md) | draft | - |
+| [admin_confirms_destructive_action](admin_confirms_destructive_action.md) | draft | - |
+| [admin_uploads_image_via_admin_panel](admin_uploads_image_via_admin_panel.md) | draft | - |

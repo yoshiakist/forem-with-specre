@@ -1,3 +1,4 @@
+# @specre 01KJ9GWMJV27RNX4KT7WT0MQXS
 module Admin
   module SidebarHelper
     def sidebar_item_active?(item)
