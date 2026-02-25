@@ -9,13 +9,13 @@ Your goal: create specre specification cards for source files that currently lac
 **Model strategy:** The main agent (Opus) handles Phase 0 (setup) and Phase 3–4 (card generation and validation). Phase 1–2 (discovery and behavior classification) is delegated to an **Opus subagent** via the Task tool. This isolates the heavy discovery context (SQL results, source file reads) from the main agent, significantly reducing token consumption in later phases. Phase 3 (card generation) is further delegated to Sonnet subagents in parallel batches.
 
 **Skill loading protocol:**
-This workflow references three skill files. Each is loaded **inside the agent that needs it**, never in the main agent:
+This workflow references three skill files. Each is loaded **inside the agent that needs it**, never in the main agent. Skills are also loaded **one at a time, only at the exact moment they are needed** — not all at once at startup:
 
-- `.claude/skills/specre-cocoindex-sql-cookbook/SKILL.md` → loaded by the Phase 1–2 subagent
-- `.claude/skills/specre-behavior-classification/SKILL.md` → loaded by the Phase 1–2 subagent
-- `.claude/skills/specre-card-generation-template/SKILL.md` → read by the main agent only when reaching Phase 3
+- `.claude/skills/specre-cocoindex-sql-cookbook/SKILL.md` → loaded by the Phase 1–2 subagent **only when Phase 1 Step 1 begins** (not at subagent startup)
+- `.claude/skills/specre-behavior-classification/SKILL.md` → loaded by the Phase 1–2 subagent **only when Phase 2 begins** (not before)
+- `.claude/skills/specre-card-generation-template/SKILL.md` → read by the main agent **only when Phase 3 begins** (not before)
 
-Do NOT pre-read any skill file in the main agent before its phase boundary.
+**Loading a skill before its phase boundary is forbidden.** Pre-loading wastes context and contaminates the agent's reasoning before the relevant work has started.
 
 **Prerequisites:**
 - cocoindex must be installed and the `CodebaseIndex` flow must have been run (see `code_index.py`).
@@ -54,6 +54,24 @@ Use the following prompt template, replacing all `<placeholder>` values with act
 ````
 You are executing Phase 1–2 of the specre-generate-cocoindex workflow. Your job is to discover domain files and classify them into user-facing behaviors, producing a behavior catalog.
 
+## SKILL LOADING RULES — READ BEFORE ANYTHING ELSE
+
+> **CRITICAL: Do NOT read any skill file until you reach the exact step that requires it.**
+
+You will need exactly two skill files during this workflow. They MUST be loaded one at a time, strictly at their phase boundary:
+
+| Skill | When to load |
+|---|---|
+| `.claude/skills/specre-cocoindex-sql-cookbook/SKILL.md` | **Only when you begin Phase 1, Step 1** |
+| `.claude/skills/specre-behavior-classification/SKILL.md` | **Only when you begin Phase 2** |
+
+**Prohibited actions:**
+- Reading both skills at startup or at the beginning of this prompt
+- Reading `specre-behavior-classification` before Phase 1 is complete
+- Reading any other skill file (e.g., `specre-card-generation-template` — that skill is for Phase 3, which this subagent never executes)
+
+Loading a skill before its phase boundary wastes context and pollutes your reasoning. Treat early skill reads as a failure of execution.
+
 ## Context
 
 - **Target domain:** <target_domain>
@@ -63,7 +81,7 @@ You are executing Phase 1–2 of the specre-generate-cocoindex workflow. Your jo
 
 ## Phase 1: Discovery
 
-**MANDATORY SKILL LOAD:** Read the `specre-cocoindex-sql-cookbook` skill at `.claude/skills/specre-cocoindex-sql-cookbook/SKILL.md` now.
+> **SKILL LOAD — NOW (Phase 1 boundary):** You have reached Phase 1. Read `.claude/skills/specre-cocoindex-sql-cookbook/SKILL.md` **now and only now**. Do not read `specre-behavior-classification` yet — that skill is for Phase 2 only.
 
 Phase 1 discovers all files related to the target domain using SQL queries against the cocoindex-indexed codebase. The indexed table `codebaseindex__code_embeddings` contains every source file's content (chunked), filename, detected language, and embedding vector.
 
@@ -114,7 +132,7 @@ Log the total file count, layer distribution, tagged vs. untagged breakdown, and
 
 ## Phase 2: Behavior Classification
 
-**MANDATORY SKILL LOAD:** Read the `specre-behavior-classification` skill at `.claude/skills/specre-behavior-classification/SKILL.md` now.
+> **SKILL LOAD — NOW (Phase 2 boundary):** You have completed Phase 1. Read `.claude/skills/specre-behavior-classification/SKILL.md` **now and only now**. Do not read any other skill file — `specre-card-generation-template` is used in Phase 3, which this subagent never executes.
 
 **Purpose:** Build a complete picture of the domain's behaviors BEFORE creating any cards. This prevents duplicate cards, identifies cross-file behaviors, and establishes a logical generation order.
 
