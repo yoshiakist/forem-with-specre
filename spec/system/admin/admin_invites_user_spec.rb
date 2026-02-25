@@ -1,3 +1,4 @@
+# @specre 01KJ9FXHGQ9PCEYWSQY1713C0E
 require "rails_helper"
 
 RSpec.describe "Admin invites user" do

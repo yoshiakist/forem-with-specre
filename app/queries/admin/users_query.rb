@@ -1,3 +1,4 @@
+# @specre 01KJ9MXNY671JQVR29GGYXMVQF
 module Admin
   class UsersQuery
     SEARCH_CLAUSE = "users.name ILIKE :search OR " \

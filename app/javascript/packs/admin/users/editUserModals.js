@@ -1,3 +1,4 @@
+// @specre 01KJ9N2FZZB07P8ZDF61M9Y9CJ
 import { WINDOW_MODAL_ID, showWindowModal } from '@utilities/showModal';
 
 const getModalContent = () => document.getElementById(WINDOW_MODAL_ID);

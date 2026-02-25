@@ -13,7 +13,10 @@ last_verified: "2026-02-25"
 - `app/views/devise/mailer/invitation_instructions.html.erb`
 - `app/views/devise/mailer/invitation_instructions.text.erb`
 - `spec/requests/admin/invitations_spec.rb` (Test)
+- `spec/system/admin/admin_invites_user_spec.rb` (Test)
 - `app/views/devise/invitations/edit.html.erb` (Template)
+- `app/views/admin/users/new/show.html.erb` (Template)
+- `app/views/admin/users/new/_tools_section_header.html.erb` (Template)
 
 ## Functional Overview
 

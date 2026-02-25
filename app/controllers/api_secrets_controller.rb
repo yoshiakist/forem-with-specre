@@ -1,3 +1,4 @@
+# @specre 01KJ9MTNQVSA7QWHW4VYYX71M4
 class ApiSecretsController < ApplicationController
   before_action :load_api_secret, only: :destroy
   after_action :verify_authorized

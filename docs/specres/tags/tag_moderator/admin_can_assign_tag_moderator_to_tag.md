@@ -15,6 +15,7 @@ last_verified: "2026-02-23"
 - `app/views/fields/tag_moderators_field/_show.html.erb` (Template)
 - `app/views/mailers/notify_mailer/tag_moderator_confirmation_email.html.erb` (Template)
 - `app/views/mailers/notify_mailer/tag_moderator_confirmation_email.text.erb` (Template)
+- `app/controllers/admin/users_controller.rb` (add_tag_mod_role action)
 - `spec/services/tag_moderators/add_spec.rb` (Test)
 - `spec/services/tag_moderators/add_trusted_role_spec.rb` (Test)
 - `spec/requests/admin/tags/moderators_spec.rb` (Test)

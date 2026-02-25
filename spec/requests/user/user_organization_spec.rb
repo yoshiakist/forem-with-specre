@@ -1,3 +1,5 @@
+# @specre 01KJ9N1ZPXHEHSP60VT4S49QQB
+# @specre 01KJ9MY2XXBWSB527V49GHQ0KM
 require "rails_helper"
 
 RSpec.describe "UserOrganization" do

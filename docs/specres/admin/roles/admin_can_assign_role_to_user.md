@@ -21,6 +21,7 @@ last_verified: "2026-02-24"
 - `spec/services/moderator/manage_activity_and_roles_spec.rb` (Test)
 - `spec/models/role_spec.rb` (Test)
 - `spec/models/user_role_spec.rb` (Test)
+- `spec/requests/admin_user_marks_user_as_spam_spec.rb` (Test)
 
 ## Functional Overview
 

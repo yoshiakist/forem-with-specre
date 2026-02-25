@@ -11,6 +11,7 @@ last_verified: "2026-02-25"
 - `app/workers/moderator/banish_user_worker.rb`
 - `spec/services/moderator/banish_user_spec.rb` (Test)
 - `spec/workers/moderator/banish_user_worker_spec.rb` (Test)
+- `app/views/admin/users/modals/_banish_modal.html.erb` (Template)
 
 ## Functional Overview
 
