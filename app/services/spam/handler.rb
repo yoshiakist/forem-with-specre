@@ -1,3 +1,4 @@
+# @specre 01KJBN5DYZS4T9WNQYC16YKBD0
 # @specre 01KJ43E9107K5RBF375S75E2PV
 module Spam
   # This module is responsible for handling spam in our various user input sources.

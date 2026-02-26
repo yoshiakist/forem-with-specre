@@ -1,3 +1,4 @@
+# @specre 01KJBN5DYZS4T9WNQYC16YKBD0
 require "rails_helper"
 
 RSpec.describe Spam::DomainDetector, type: :service do

@@ -1,3 +1,4 @@
+# @specre 01KJBN5DYZS4T9WNQYC16YKBD0
 module Spam
   class DomainDetector
     # Popular shared email domains that should be skipped from automatic blocking
