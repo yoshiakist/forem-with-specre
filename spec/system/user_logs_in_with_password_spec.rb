@@ -1,3 +1,4 @@
+# @specre 01KJBKJDQQWQES8PHFHKT13XAF
 require "rails_helper"
 
 RSpec.describe "Authenticating with a password" do

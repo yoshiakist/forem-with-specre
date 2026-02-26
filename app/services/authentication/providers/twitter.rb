@@ -1,3 +1,4 @@
+# @specre 01KJBK9XFXRJW99630DW673YSQ
 module Authentication
   module Providers
     # Twitter authentication provider, uses omniauth-twitter as backend

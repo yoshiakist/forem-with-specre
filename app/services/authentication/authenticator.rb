@@ -1,3 +1,4 @@
+# @specre 01KJBK9T82MG157560A1HGHHXJ
 module Authentication
   # TODO: [@forem/oss] use strategy pattern for the three cases
   #   described below.

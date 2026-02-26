@@ -1,3 +1,4 @@
+# @specre 01KJBK4CV4DXZ9SFQ9QVWB6YK2
 class RegistrationsController < Devise::RegistrationsController
   prepend_before_action :require_no_authentication, only: []
 

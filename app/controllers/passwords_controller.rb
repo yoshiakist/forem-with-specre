@@ -1,3 +1,4 @@
+# @specre 01KJBKJDQQWQES8PHFHKT13XAF
 class PasswordsController < Devise::PasswordsController
   # allow already signed in users to reset their password
   skip_before_action :require_no_authentication

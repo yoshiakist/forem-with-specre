@@ -1,3 +1,5 @@
+# @specre 01KJBKA8M437QKNGFD6ZDS458V
+# @specre 01KJBK9T82MG157560A1HGHHXJ
 module Authentication
   module Providers
     # Authentication provider

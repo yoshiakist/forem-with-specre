@@ -1,3 +1,4 @@
+# @specre 01KJBGZF9PRSHNVF807K57AY46
 # spec/requests/sessions_spec.rb
 require "rails_helper"
 

@@ -1,3 +1,4 @@
+# @specre 01KJBKA8M437QKNGFD6ZDS458V
 module Authentication
   module Providers
     # Google OAuth 2.0 authentication provider, uses omniauth-google-oauth2 as backend

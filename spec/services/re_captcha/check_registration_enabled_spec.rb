@@ -1,3 +1,4 @@
+# @specre 01KJBK4DJHK81XKCTCTC53GGAE
 require "rails_helper"
 
 RSpec.describe ReCaptcha::CheckRegistrationEnabled, type: :request do

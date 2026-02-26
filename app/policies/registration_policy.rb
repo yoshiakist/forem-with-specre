@@ -1,3 +1,4 @@
+# @specre 01KJBK4CV4DXZ9SFQ9QVWB6YK2
 class RegistrationPolicy
   def initialize(user, params)
     @user = user

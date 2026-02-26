@@ -1,3 +1,4 @@
+# @specre 01KJBK4DJHK81XKCTCTC53GGAE
 module ReCaptcha
   class CheckRegistrationEnabled
     def self.call

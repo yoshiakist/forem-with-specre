@@ -14,3 +14,4 @@
 | [system_keeps_profile_display_fresh](system_keeps_profile_display_fresh.md) | stable | 2026-02-21 |
 | [system_generates_ai_profile_image_for_new_user](system_generates_ai_profile_image_for_new_user.md) | stable | 2026-02-21 |
 | [system_moderates_profile_content](system_moderates_profile_content.md) | draft | - |
+| [visitor_can_view_user_profile_page](visitor_can_view_user_profile_page.md) | stable | 2026-02-26 |

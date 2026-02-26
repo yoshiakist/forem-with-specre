@@ -1,3 +1,4 @@
+# @specre 01KJBK9T82MG157560A1HGHHXJ
 # We require all authentication modules to make sure providers
 # are correctly preloaded and ready to be used at this point as the loading
 # order is important
