@@ -1,3 +1,4 @@
+# @specre 01KJBV555EB91576QYQPCRJSP1
 class RecommendedArticlesList < ApplicationRecord
   belongs_to :user
   validates :name, presence: true, length: { maximum: 120 }

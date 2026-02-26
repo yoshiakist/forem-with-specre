@@ -1,3 +1,4 @@
+# @specre 01KJBV19F8R23CVAD98DQATZ4G
 module Articles
   class ScoreCalcWorker
     include Sidekiq::Job

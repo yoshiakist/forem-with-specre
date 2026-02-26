@@ -1,3 +1,4 @@
+# @specre 01KJBV508Z7X8FZ7BZP7XQNTN1
 # [PROJECT_ROOT]/app/workers/articles/update_page_views_worker.rb
 
 module Articles

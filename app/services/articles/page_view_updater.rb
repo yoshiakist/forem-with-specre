@@ -1,3 +1,4 @@
+# @specre 01KJBV8Z82V16HGEYRAJK0CCHN
 module Articles
   # This module is responsible for updating a specific page view for a given article and user.
   #

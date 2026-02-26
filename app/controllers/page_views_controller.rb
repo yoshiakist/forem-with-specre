@@ -1,3 +1,4 @@
+# @specre 01KJBV508Z7X8FZ7BZP7XQNTN1
 class PageViewsController < ApplicationMetalController
   # ApplicationMetalController because we do not need all bells and whistles of ApplicationController.
   # It should help performance.

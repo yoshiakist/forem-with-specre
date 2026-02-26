@@ -1,3 +1,4 @@
+# @specre 01KJBV8Z82V16HGEYRAJK0CCHN
 require "rails_helper"
 
 RSpec.describe Articles::PageViewUpdater do

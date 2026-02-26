@@ -1,3 +1,4 @@
+# @specre 01KJBV15ZA82R2VG3VJ423PZ0H
 require "rails_helper"
 
 RSpec.describe PageViewRollupWorker, type: :worker do

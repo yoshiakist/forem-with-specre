@@ -1,3 +1,4 @@
+# @specre 01KJBV19F8R23CVAD98DQATZ4G
 require "rails_helper"
 
 RSpec.describe Article do

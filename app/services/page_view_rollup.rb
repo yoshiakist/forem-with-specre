@@ -1,3 +1,4 @@
+# @specre 01KJBV15ZA82R2VG3VJ423PZ0H
 class PageViewRollup
   ATTRIBUTES_PRESERVED = %i[article_id created_at user_id].freeze
   ATTRIBUTES_DESTROYED = %i[id domain path referrer updated_at user_agent counts_for_number_of_views

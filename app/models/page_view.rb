@@ -1,3 +1,4 @@
+# @specre 01KJBV508Z7X8FZ7BZP7XQNTN1
 # @note When we destroy the related article, it's using dependent:
 #       :delete for the relationship.  That means no before/after
 #       destroy callbacks will be called on this object.
