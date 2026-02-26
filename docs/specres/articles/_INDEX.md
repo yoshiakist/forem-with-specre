@@ -20,3 +20,9 @@
 | [system_notifies_on_article_publish](publish/system_notifies_on_article_publish.md) | stable | 2026-02-26 |
 | [moderator_can_unpublish_single_article](publish/moderator_can_unpublish_single_article.md) | stable | 2026-02-26 |
 | [moderator_can_unpublish_all_user_articles](publish/moderator_can_unpublish_all_user_articles.md) | stable | 2026-02-26 |
+| [user_can_list_articles_via_api](user_can_list_articles_via_api.md) | stable | 2026-02-26 |
+| [user_can_retrieve_article_via_api](user_can_retrieve_article_via_api.md) | stable | 2026-02-26 |
+| [user_can_create_article_via_api](user_can_create_article_via_api.md) | stable | 2026-02-26 |
+| [user_can_update_article_via_api](user_can_update_article_via_api.md) | stable | 2026-02-26 |
+| [user_can_list_own_articles_via_api](user_can_list_own_articles_via_api.md) | stable | 2026-02-26 |
+| [user_can_search_articles_via_api](user_can_search_articles_via_api.md) | stable | 2026-02-26 |

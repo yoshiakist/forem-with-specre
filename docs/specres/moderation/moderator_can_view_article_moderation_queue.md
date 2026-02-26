@@ -19,6 +19,7 @@ last_verified: "2026-02-22"
 - `spec/requests/moderations_spec.rb` (Test)
 - `spec/services/moderations/article_fetcher_service_spec.rb` (Test)
 - `app/javascript/modCenter/__tests__/moderationArticles.test.jsx` (Test)
+- `app/javascript/modCenter/singleArticle/__tests__/singleArticle.test.jsx` (Test)
 
 ## Functional Overview
 

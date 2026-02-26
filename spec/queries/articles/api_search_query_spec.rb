@@ -1,3 +1,4 @@
+# @specre 01KJCHXPSF9DJHF0B8M4XZRZZD
 require "rails_helper"
 
 RSpec.describe Articles::ApiSearchQuery, type: :query do

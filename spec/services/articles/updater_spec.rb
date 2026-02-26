@@ -1,3 +1,4 @@
+# @specre 01KJCHPQSWKVZHSRRBZ4Q4KMNB
 require "rails_helper"
 
 RSpec.describe Articles::Updater, type: :service do

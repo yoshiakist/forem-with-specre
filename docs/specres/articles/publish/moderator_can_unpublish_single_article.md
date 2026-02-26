@@ -8,8 +8,13 @@ last_verified: "2026-02-26"
 ## Related Files
 
 - `app/services/articles/unpublish.rb`
+- `app/controllers/concerns/api/articles_controller.rb`
+- `app/controllers/api/v1/articles_controller.rb`
+- `app/views/api/v1/articles/unpublish.json.jbuilder`
 - `spec/services/articles/unpublish_spec.rb` (Test)
 - `spec/requests/articles/articles_admin_unpublish_spec.rb` (Test)
+- `spec/requests/api/v1/articles_spec.rb` (Test)
+- `spec/requests/api/v1/docs/articles_spec.rb` (Test)
 
 ## Functional Overview
 

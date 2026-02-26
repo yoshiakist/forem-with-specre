@@ -1,3 +1,4 @@
+# @specre 01KJCHJFD7KGAQSDCCXMC9W7WY
 module Articles
   class Creator
     def self.call(...)

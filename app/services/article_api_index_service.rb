@@ -1,3 +1,4 @@
+# @specre 01KJCH9K2X9B3K15E69D2AR3ZZ
 class ArticleApiIndexService
   DEFAULT_PER_PAGE = 30
 

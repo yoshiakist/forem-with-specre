@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-26T02:46:12Z",
+  "generated_at": "2026-02-26T08:46:55Z",
   "source_refs": [
     {
       "file": "app/assets/javascripts/initializers/initializeAllTagEditButtons.js",
@@ -552,6 +552,36 @@
       "specre_id": "01KJ6QCAKAT1EKMN80R2KK58YZ"
     },
     {
+      "file": "app/controllers/api/v0/articles_controller.rb",
+      "line": 1,
+      "specre_id": "01KJCHXPSF9DJHF0B8M4XZRZZD"
+    },
+    {
+      "file": "app/controllers/api/v0/articles_controller.rb",
+      "line": 2,
+      "specre_id": "01KJCHTC22WA5N8C2J29GQ6Q76"
+    },
+    {
+      "file": "app/controllers/api/v0/articles_controller.rb",
+      "line": 3,
+      "specre_id": "01KJCHPQSWKVZHSRRBZ4Q4KMNB"
+    },
+    {
+      "file": "app/controllers/api/v0/articles_controller.rb",
+      "line": 4,
+      "specre_id": "01KJCHJFD7KGAQSDCCXMC9W7WY"
+    },
+    {
+      "file": "app/controllers/api/v0/articles_controller.rb",
+      "line": 5,
+      "specre_id": "01KJCHEJQ8BMDATPDZDH3F5QVX"
+    },
+    {
+      "file": "app/controllers/api/v0/articles_controller.rb",
+      "line": 6,
+      "specre_id": "01KJCH9K2X9B3K15E69D2AR3ZZ"
+    },
+    {
       "file": "app/controllers/api/v0/badge_achievements_controller.rb",
       "line": 1,
       "specre_id": "01KJ6FJA4XS9P5A266ZFW6Q7Y4"
@@ -620,6 +650,41 @@
       "file": "app/controllers/api/v1/analytics_controller.rb",
       "line": 1,
       "specre_id": "01KJ6QCAKAT1EKMN80R2KK58YZ"
+    },
+    {
+      "file": "app/controllers/api/v1/articles_controller.rb",
+      "line": 1,
+      "specre_id": "01KJBWZ3J5DHQXJ25C977K5D9H"
+    },
+    {
+      "file": "app/controllers/api/v1/articles_controller.rb",
+      "line": 2,
+      "specre_id": "01KJCHXPSF9DJHF0B8M4XZRZZD"
+    },
+    {
+      "file": "app/controllers/api/v1/articles_controller.rb",
+      "line": 3,
+      "specre_id": "01KJCHTC22WA5N8C2J29GQ6Q76"
+    },
+    {
+      "file": "app/controllers/api/v1/articles_controller.rb",
+      "line": 4,
+      "specre_id": "01KJCHPQSWKVZHSRRBZ4Q4KMNB"
+    },
+    {
+      "file": "app/controllers/api/v1/articles_controller.rb",
+      "line": 5,
+      "specre_id": "01KJCHJFD7KGAQSDCCXMC9W7WY"
+    },
+    {
+      "file": "app/controllers/api/v1/articles_controller.rb",
+      "line": 6,
+      "specre_id": "01KJCHEJQ8BMDATPDZDH3F5QVX"
+    },
+    {
+      "file": "app/controllers/api/v1/articles_controller.rb",
+      "line": 7,
+      "specre_id": "01KJCH9K2X9B3K15E69D2AR3ZZ"
     },
     {
       "file": "app/controllers/api/v1/badge_achievements_controller.rb",
@@ -795,6 +860,41 @@
       "file": "app/controllers/concerns/api/analytics_controller.rb",
       "line": 1,
       "specre_id": "01KJ6QCAKAT1EKMN80R2KK58YZ"
+    },
+    {
+      "file": "app/controllers/concerns/api/articles_controller.rb",
+      "line": 1,
+      "specre_id": "01KJBWZ3J5DHQXJ25C977K5D9H"
+    },
+    {
+      "file": "app/controllers/concerns/api/articles_controller.rb",
+      "line": 2,
+      "specre_id": "01KJCHXPSF9DJHF0B8M4XZRZZD"
+    },
+    {
+      "file": "app/controllers/concerns/api/articles_controller.rb",
+      "line": 3,
+      "specre_id": "01KJCHTC22WA5N8C2J29GQ6Q76"
+    },
+    {
+      "file": "app/controllers/concerns/api/articles_controller.rb",
+      "line": 4,
+      "specre_id": "01KJCHPQSWKVZHSRRBZ4Q4KMNB"
+    },
+    {
+      "file": "app/controllers/concerns/api/articles_controller.rb",
+      "line": 5,
+      "specre_id": "01KJCHJFD7KGAQSDCCXMC9W7WY"
+    },
+    {
+      "file": "app/controllers/concerns/api/articles_controller.rb",
+      "line": 6,
+      "specre_id": "01KJCHEJQ8BMDATPDZDH3F5QVX"
+    },
+    {
+      "file": "app/controllers/concerns/api/articles_controller.rb",
+      "line": 7,
+      "specre_id": "01KJCH9K2X9B3K15E69D2AR3ZZ"
     },
     {
       "file": "app/controllers/concerns/api/badge_achievements_controller.rb",
@@ -1908,6 +2008,11 @@
     },
     {
       "file": "app/javascript/modCenter/moderationArticles.jsx",
+      "line": 1,
+      "specre_id": "01KJ16TED32H3YYC9F610VZM5X"
+    },
+    {
+      "file": "app/javascript/modCenter/singleArticle/__tests__/singleArticle.test.jsx",
       "line": 1,
       "specre_id": "01KJ16TED32H3YYC9F610VZM5X"
     },
@@ -4027,6 +4132,11 @@
       "specre_id": "01KJ9MXNY671JQVR29GGYXMVQF"
     },
     {
+      "file": "app/queries/articles/api_search_query.rb",
+      "line": 1,
+      "specre_id": "01KJCHXPSF9DJHF0B8M4XZRZZD"
+    },
+    {
       "file": "app/queries/audit_log/unpublish_alls_query.rb",
       "line": 1,
       "specre_id": "01KJ6GNCJ51XS8RDC57VRV43MD"
@@ -4292,9 +4402,19 @@
       "specre_id": "01KJ6QCAKAT1EKMN80R2KK58YZ"
     },
     {
+      "file": "app/services/article_api_index_service.rb",
+      "line": 1,
+      "specre_id": "01KJCH9K2X9B3K15E69D2AR3ZZ"
+    },
+    {
       "file": "app/services/article_with_video_creation_service.rb",
       "line": 1,
       "specre_id": "01KJBWT5HAQGGSECGZJ20D6PCX"
+    },
+    {
+      "file": "app/services/articles/creator.rb",
+      "line": 1,
+      "specre_id": "01KJCHJFD7KGAQSDCCXMC9W7WY"
     },
     {
       "file": "app/services/articles/enrich_image_attributes.rb",
@@ -4374,6 +4494,11 @@
     {
       "file": "app/services/articles/updater.rb",
       "line": 1,
+      "specre_id": "01KJCHPQSWKVZHSRRBZ4Q4KMNB"
+    },
+    {
+      "file": "app/services/articles/updater.rb",
+      "line": 2,
       "specre_id": "01KJ1ARF08DVRQE65SWASWAFWJ"
     },
     {
@@ -9597,6 +9722,11 @@
       "specre_id": "01KJ9MXNY671JQVR29GGYXMVQF"
     },
     {
+      "file": "spec/queries/articles/api_search_query_spec.rb",
+      "line": 1,
+      "specre_id": "01KJCHXPSF9DJHF0B8M4XZRZZD"
+    },
+    {
       "file": "spec/queries/audit_log/unpublish_alls_query_spec.rb",
       "line": 1,
       "specre_id": "01KJ6GNCJ51XS8RDC57VRV43MD"
@@ -10082,6 +10212,36 @@
       "specre_id": "01KJ6QCAKAT1EKMN80R2KK58YZ"
     },
     {
+      "file": "spec/requests/api/v0/articles_spec.rb",
+      "line": 1,
+      "specre_id": "01KJCHXPSF9DJHF0B8M4XZRZZD"
+    },
+    {
+      "file": "spec/requests/api/v0/articles_spec.rb",
+      "line": 2,
+      "specre_id": "01KJCHTC22WA5N8C2J29GQ6Q76"
+    },
+    {
+      "file": "spec/requests/api/v0/articles_spec.rb",
+      "line": 3,
+      "specre_id": "01KJCHPQSWKVZHSRRBZ4Q4KMNB"
+    },
+    {
+      "file": "spec/requests/api/v0/articles_spec.rb",
+      "line": 4,
+      "specre_id": "01KJCHJFD7KGAQSDCCXMC9W7WY"
+    },
+    {
+      "file": "spec/requests/api/v0/articles_spec.rb",
+      "line": 5,
+      "specre_id": "01KJCHEJQ8BMDATPDZDH3F5QVX"
+    },
+    {
+      "file": "spec/requests/api/v0/articles_spec.rb",
+      "line": 6,
+      "specre_id": "01KJCH9K2X9B3K15E69D2AR3ZZ"
+    },
+    {
       "file": "spec/requests/api/v0/comments_spec.rb",
       "line": 1,
       "specre_id": "01KJ5DK8KFA45BXJWFAD1VNYMS"
@@ -10142,6 +10302,41 @@
       "specre_id": "01KJ6QCAKAT1EKMN80R2KK58YZ"
     },
     {
+      "file": "spec/requests/api/v1/articles_spec.rb",
+      "line": 1,
+      "specre_id": "01KJBWZ3J5DHQXJ25C977K5D9H"
+    },
+    {
+      "file": "spec/requests/api/v1/articles_spec.rb",
+      "line": 2,
+      "specre_id": "01KJCHXPSF9DJHF0B8M4XZRZZD"
+    },
+    {
+      "file": "spec/requests/api/v1/articles_spec.rb",
+      "line": 3,
+      "specre_id": "01KJCHTC22WA5N8C2J29GQ6Q76"
+    },
+    {
+      "file": "spec/requests/api/v1/articles_spec.rb",
+      "line": 4,
+      "specre_id": "01KJCHPQSWKVZHSRRBZ4Q4KMNB"
+    },
+    {
+      "file": "spec/requests/api/v1/articles_spec.rb",
+      "line": 5,
+      "specre_id": "01KJCHJFD7KGAQSDCCXMC9W7WY"
+    },
+    {
+      "file": "spec/requests/api/v1/articles_spec.rb",
+      "line": 6,
+      "specre_id": "01KJCHEJQ8BMDATPDZDH3F5QVX"
+    },
+    {
+      "file": "spec/requests/api/v1/articles_spec.rb",
+      "line": 7,
+      "specre_id": "01KJCH9K2X9B3K15E69D2AR3ZZ"
+    },
+    {
       "file": "spec/requests/api/v1/badge_achievements_spec.rb",
       "line": 1,
       "specre_id": "01KJ6FJA4XS9P5A266ZFW6Q7Y4"
@@ -10160,6 +10355,36 @@
       "file": "spec/requests/api/v1/comments_spec.rb",
       "line": 1,
       "specre_id": "01KJ5DK8KFA45BXJWFAD1VNYMS"
+    },
+    {
+      "file": "spec/requests/api/v1/docs/articles_spec.rb",
+      "line": 1,
+      "specre_id": "01KJBWZ3J5DHQXJ25C977K5D9H"
+    },
+    {
+      "file": "spec/requests/api/v1/docs/articles_spec.rb",
+      "line": 2,
+      "specre_id": "01KJCHTC22WA5N8C2J29GQ6Q76"
+    },
+    {
+      "file": "spec/requests/api/v1/docs/articles_spec.rb",
+      "line": 3,
+      "specre_id": "01KJCHPQSWKVZHSRRBZ4Q4KMNB"
+    },
+    {
+      "file": "spec/requests/api/v1/docs/articles_spec.rb",
+      "line": 4,
+      "specre_id": "01KJCHJFD7KGAQSDCCXMC9W7WY"
+    },
+    {
+      "file": "spec/requests/api/v1/docs/articles_spec.rb",
+      "line": 5,
+      "specre_id": "01KJCHEJQ8BMDATPDZDH3F5QVX"
+    },
+    {
+      "file": "spec/requests/api/v1/docs/articles_spec.rb",
+      "line": 6,
+      "specre_id": "01KJCH9K2X9B3K15E69D2AR3ZZ"
     },
     {
       "file": "spec/requests/api/v1/docs/billboards_spec.rb",
@@ -10962,6 +11187,11 @@
       "specre_id": "01KJBWT5HAQGGSECGZJ20D6PCX"
     },
     {
+      "file": "spec/services/articles/creator_spec.rb",
+      "line": 1,
+      "specre_id": "01KJCHJFD7KGAQSDCCXMC9W7WY"
+    },
+    {
       "file": "spec/services/articles/feeds/article_score_calculator_for_user_spec.rb",
       "line": 1,
       "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
@@ -11035,6 +11265,11 @@
       "file": "spec/services/articles/unpublish_spec.rb",
       "line": 1,
       "specre_id": "01KJBWZ3J5DHQXJ25C977K5D9H"
+    },
+    {
+      "file": "spec/services/articles/updater_spec.rb",
+      "line": 1,
+      "specre_id": "01KJCHPQSWKVZHSRRBZ4Q4KMNB"
     },
     {
       "file": "spec/services/audit/helper_spec.rb",
@@ -16379,6 +16614,54 @@
       "last_verified": "2026-02-26",
       "name": "moderator_can_unpublish_all_user_articles",
       "path": "docs/specres/articles/publish/moderator_can_unpublish_all_user_articles.md",
+      "status": "stable"
+    },
+    {
+      "domain": "articles",
+      "id": "01KJCH9K2X9B3K15E69D2AR3ZZ",
+      "last_verified": "2026-02-26",
+      "name": "user_can_list_articles_via_api",
+      "path": "docs/specres/articles/user_can_list_articles_via_api.md",
+      "status": "stable"
+    },
+    {
+      "domain": "articles",
+      "id": "01KJCHEJQ8BMDATPDZDH3F5QVX",
+      "last_verified": "2026-02-26",
+      "name": "user_can_retrieve_article_via_api",
+      "path": "docs/specres/articles/user_can_retrieve_article_via_api.md",
+      "status": "stable"
+    },
+    {
+      "domain": "articles",
+      "id": "01KJCHJFD7KGAQSDCCXMC9W7WY",
+      "last_verified": "2026-02-26",
+      "name": "user_can_create_article_via_api",
+      "path": "docs/specres/articles/user_can_create_article_via_api.md",
+      "status": "stable"
+    },
+    {
+      "domain": "articles",
+      "id": "01KJCHPQSWKVZHSRRBZ4Q4KMNB",
+      "last_verified": "2026-02-26",
+      "name": "user_can_update_article_via_api",
+      "path": "docs/specres/articles/user_can_update_article_via_api.md",
+      "status": "stable"
+    },
+    {
+      "domain": "articles",
+      "id": "01KJCHTC22WA5N8C2J29GQ6Q76",
+      "last_verified": "2026-02-26",
+      "name": "user_can_list_own_articles_via_api",
+      "path": "docs/specres/articles/user_can_list_own_articles_via_api.md",
+      "status": "stable"
+    },
+    {
+      "domain": "articles",
+      "id": "01KJCHXPSF9DJHF0B8M4XZRZZD",
+      "last_verified": "2026-02-26",
+      "name": "user_can_search_articles_via_api",
+      "path": "docs/specres/articles/user_can_search_articles_via_api.md",
       "status": "stable"
     }
   ],
