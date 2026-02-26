@@ -1,3 +1,4 @@
+# @specre 01KJBWMN1X7QK4TMQ77F5NFR6E
 class PinnedArticle
   class << self
     def exists?

@@ -1,3 +1,4 @@
+# @specre 01KJBWT5HAQGGSECGZJ20D6PCX
 require "rails_helper"
 
 RSpec.describe VideoPolicy do

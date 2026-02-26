@@ -12,3 +12,11 @@
 | [system_records_article_page_view](page_view/system_records_article_page_view.md) | stable | 2026-02-26 |
 | [admin_configures_recommended_articles_list](admin_configures_recommended_articles_list.md) | stable | 2026-02-26 |
 | [system_tracks_article_reading_time](system_tracks_article_reading_time.md) | stable | 2026-02-26 |
+| [admin_can_pin_article_to_feed](admin_can_pin_article_to_feed.md) | stable | 2026-02-26 |
+| [system_invalidates_article_edge_cache](cache/system_invalidates_article_edge_cache.md) | stable | 2026-02-26 |
+| [system_caches_article_author_entity](cache/system_caches_article_author_entity.md) | stable | 2026-02-26 |
+| [author_can_create_article_with_video](video/author_can_create_article_with_video.md) | stable | 2026-02-26 |
+| [user_can_browse_video_articles](video/user_can_browse_video_articles.md) | stable | 2026-02-26 |
+| [system_notifies_on_article_publish](publish/system_notifies_on_article_publish.md) | stable | 2026-02-26 |
+| [moderator_can_unpublish_single_article](publish/moderator_can_unpublish_single_article.md) | stable | 2026-02-26 |
+| [moderator_can_unpublish_all_user_articles](publish/moderator_can_unpublish_all_user_articles.md) | stable | 2026-02-26 |

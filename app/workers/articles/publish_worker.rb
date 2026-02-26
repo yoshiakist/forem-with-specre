@@ -1,3 +1,4 @@
+# @specre 01KJBWVJKSF1WMNK6YAXZKQK08
 module Articles
   class PublishWorker
     include Sidekiq::Job

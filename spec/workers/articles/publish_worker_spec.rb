@@ -1,3 +1,4 @@
+# @specre 01KJBWVJKSF1WMNK6YAXZKQK08
 require "rails_helper"
 
 RSpec.describe Articles::PublishWorker, type: :worker do

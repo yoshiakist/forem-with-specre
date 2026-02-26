@@ -1,3 +1,4 @@
+# @specre 01KJBWMN1X7QK4TMQ77F5NFR6E
 class ExistingPublishedArticleIdValidator < ActiveModel::EachValidator
   def validate_each(record, attribute, value)
     return if Article.published.exists?(id: value)

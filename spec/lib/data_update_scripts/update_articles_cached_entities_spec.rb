@@ -1,3 +1,4 @@
+# @specre 01KJBWND9NFMH316PP8N7MXRRS
 require "rails_helper"
 require Rails.root.join("lib/data_update_scripts/20200723070918_update_articles_cached_entities.rb")
 

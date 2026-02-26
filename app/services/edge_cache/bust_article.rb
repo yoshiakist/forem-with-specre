@@ -1,3 +1,4 @@
+# @specre 01KJBWN5KRQKZE6SWZWPNHA43E
 module EdgeCache
   class BustArticle
     TIMEFRAMES = [
