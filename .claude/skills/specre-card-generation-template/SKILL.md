@@ -29,6 +29,11 @@ You are generating a specre specification card. Follow these instructions exactl
 
 **First**, read the specre-author skill at `.claude/skills/specre-author/SKILL.md` and follow all naming conventions, section structure, and writing guidelines defined there.
 
+## Critical tagging rules — read before doing anything else
+
+> 1. **Every file in "Related Files" MUST be tagged.** Do not skip any file. Every source file, every test file, every template file that participates in this behavior must receive a `@specre` marker linking to this card's ULID — the only exception is `.jbuilder` files.
+> 2. **A file may already have `@specre` markers from other behaviors. That is correct and expected.** Adding another `@specre` marker to an already-tagged file does NOT overwrite existing markers. Controllers, models, and concerns routinely carry multiple markers — one per behavior they implement. Do NOT skip tagging a file just because it already has a `@specre` line.
+
 ## Card details
 
 - **Behavior name:** <behavior_name>
@@ -59,7 +64,7 @@ The following is the indexed source code for the files in this behavior, retriev
    - **Design Intent**: Include only if reasoning is apparent from code.
    - **Key Members**: Include only if there are important state variables or parameters.
    - **Failures / Exceptions**: Include only if code has explicit error handling.
-4. Run `specre tag` (MCP tool: mcp__specre__tag) with the ULID and file path for **every file in Related Files EXCEPT `.jbuilder` files**.
+4. Run `specre tag` (MCP tool: mcp__specre__tag) with the ULID and file path for **every file in Related Files EXCEPT `.jbuilder` files**. This means you must call `mcp__specre__tag` once per file — controllers, models, services, workers, views, AND test files all get tagged. If a file already has `@specre` markers from other behaviors, adding this card's marker is correct and expected; do not skip it.
 5. **Test discovery and status determination:**
    - Search for test files matching the test convention pattern.
    - If matching tests exist: read them, add to Related Files with `(Test)` suffix, tag them, and compare assertions against scenarios.

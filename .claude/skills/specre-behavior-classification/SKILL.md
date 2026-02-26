@@ -19,7 +19,10 @@ A specre card describes a behavior as experienced by a human user, or as observa
 
 ### Multiple markers per file are the norm
 
-A single source file (especially controllers and models) typically participates in multiple behaviors and therefore receives multiple `@specre` markers — one per behavior it contributes to. For example, a `CommentsController` handling `create`, `update`, and `destroy` actions would carry three separate `@specre` markers, each linking to a different specre card. Do not assume one-file-one-marker; the number of markers on a file should correspond to the number of distinct behaviors it implements.
+> **CRITICAL — never forget this rule.** A single source file (especially controllers and models) typically participates in multiple behaviors and therefore receives **multiple `@specre` markers** — one per behavior it contributes to. For example, a `CommentsController` handling `create`, `update`, and `destroy` actions would carry three separate `@specre` markers, each linking to a different specre card.
+>
+> - **Do NOT assume one-file-one-marker.** The number of markers on a file should correspond to the number of distinct behaviors it implements.
+> - **Every file that contributes to a behavior MUST be listed in that behavior's catalog entry**, regardless of whether it already appears in another entry. A model file appearing in 4 catalog entries is expected, not a mistake.
 
 ### Litmus test
 
@@ -149,7 +152,7 @@ Before finalizing, review the catalog against these 9 checks:
 9. **Related-file completeness check** — Verify that each behavior entry lists files spanning the full stack, from frontend to backend. Apply these sub-checks:
    - **Controller / model marker density:** Controllers and models are behavioral hubs. The number of catalog entries referencing a given controller or model should approximate the number of distinct actions or responsibilities it implements. If a controller with 5 actions is only referenced by 1 catalog entry, the remaining actions are likely missing from the catalog.
    - **Full-stack traceability:** A typical user-facing behavior touches files across multiple layers (e.g., route → controller → service → model → serializer → view/frontend component). If a catalog entry only lists a model file with no controller, or only a controller with no frontend component, investigate whether related files are missing. Every behavior should be traceable from the user-facing entry point (frontend or API endpoint) down to the data layer (model).
-   - **Shared-file awareness:** When a file (e.g., a model or a concern) appears in multiple catalog entries, this is expected and correct — it means the file participates in multiple behaviors. Confirm that each entry lists the file, not just one of them.
+   - **Shared-file awareness:** When a file (e.g., a model or a concern) appears in multiple catalog entries, this is expected and correct — it means the file participates in multiple behaviors. Confirm that each entry lists the file, not just one of them. **Each of those catalog entries will eventually place its own `@specre` marker on the file. This is the intended design: one file, many markers, many behaviors.**
 
 If the catalog passes all checks, proceed directly to Phase 3 without pausing for user approval.
 
