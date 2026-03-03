@@ -1,3 +1,4 @@
+// @specre 01KJCKQZYF0GEXFX0H120R12QN
 let isFullScreenModeCodeOn = false;
 let screenScroll = 0;
 const { body } = document;

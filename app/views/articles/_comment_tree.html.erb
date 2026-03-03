@@ -1,2 +1,3 @@
+<%# @specre 01KJCK5NSKJNEBDJYZA4QQ3YBW %>
 <% comment, sub_comments = comment_node %>
 <%= nested_comments(tree: { comment => sub_comments }, commentable: @article, is_view_root: true) %>

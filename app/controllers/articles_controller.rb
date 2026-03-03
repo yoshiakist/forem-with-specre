@@ -1,3 +1,4 @@
+# @specre 01KJCKB0GDJ4BTHW7NPDYBC25S
 class ArticlesController < ApplicationController
   include ApplicationHelper
 

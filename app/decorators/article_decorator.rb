@@ -1,3 +1,5 @@
+# @specre 01KJCKF1AY5288JYRWJXK8QQ8C
+# @specre 01KJCK5NSKJNEBDJYZA4QQ3YBW
 class ArticleDecorator < ApplicationDecorator
   LONG_MARKDOWN_THRESHOLD = 900
 

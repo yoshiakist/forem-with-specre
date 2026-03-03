@@ -1,3 +1,7 @@
+# @specre 01KJCKM0HKSQY0DQA3Q8METJ13
+# @specre 01KJCKF1AY5288JYRWJXK8QQ8C
+# @specre 01KJCKAY2FQDDK8VYRS35EC42E
+# @specre 01KJCK5NSKJNEBDJYZA4QQ3YBW
 class StoriesController < ApplicationController
   helper ProfileHelper
 

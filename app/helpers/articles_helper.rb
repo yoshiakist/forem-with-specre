@@ -1,3 +1,5 @@
+# @specre 01KJCKF1AY5288JYRWJXK8QQ8C
+# @specre 01KJCK5NSKJNEBDJYZA4QQ3YBW
 module ArticlesHelper
   def should_show_latest_spam_suppression?(stories)
     return false if user_signed_in?

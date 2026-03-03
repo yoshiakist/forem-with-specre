@@ -1,3 +1,7 @@
+# @specre 01KJCKM0HKSQY0DQA3Q8METJ13
+# @specre 01KJCKF1AY5288JYRWJXK8QQ8C
+# @specre 01KJCKBBKHXER1P381MJEJF8P0
+# @specre 01KJCK5NSKJNEBDJYZA4QQ3YBW
 require "rails_helper"
 
 RSpec.describe "ArticlesShow" do

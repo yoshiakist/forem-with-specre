@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-26T08:46:55Z",
+  "generated_at": "2026-02-26T09:17:21Z",
   "source_refs": [
     {
       "file": "app/assets/javascripts/initializers/initializeAllTagEditButtons.js",
@@ -792,6 +792,11 @@
       "specre_id": "01KJBN4DMMSF9BX518JG772WEB"
     },
     {
+      "file": "app/controllers/articles_controller.rb",
+      "line": 1,
+      "specre_id": "01KJCKB0GDJ4BTHW7NPDYBC25S"
+    },
+    {
       "file": "app/controllers/badges_controller.rb",
       "line": 1,
       "specre_id": "01KJ6FAFV9D47QGGRY76KPKNC4"
@@ -1005,6 +1010,11 @@
       "file": "app/controllers/devices_controller.rb",
       "line": 1,
       "specre_id": "01KJ3YY1P1TX3DWW24AABW70MT"
+    },
+    {
+      "file": "app/controllers/discussion_locks_controller.rb",
+      "line": 1,
+      "specre_id": "01KJCKB0GDJ4BTHW7NPDYBC25S"
     },
     {
       "file": "app/controllers/email_authorizations_controller.rb",
@@ -1292,6 +1302,26 @@
       "specre_id": "01KJ2472X584A2R8VP2QAC7V40"
     },
     {
+      "file": "app/controllers/stories_controller.rb",
+      "line": 1,
+      "specre_id": "01KJCKM0HKSQY0DQA3Q8METJ13"
+    },
+    {
+      "file": "app/controllers/stories_controller.rb",
+      "line": 2,
+      "specre_id": "01KJCKF1AY5288JYRWJXK8QQ8C"
+    },
+    {
+      "file": "app/controllers/stories_controller.rb",
+      "line": 3,
+      "specre_id": "01KJCKAY2FQDDK8VYRS35EC42E"
+    },
+    {
+      "file": "app/controllers/stories_controller.rb",
+      "line": 4,
+      "specre_id": "01KJCK5NSKJNEBDJYZA4QQ3YBW"
+    },
+    {
       "file": "app/controllers/subforems_controller.rb",
       "line": 1,
       "specre_id": "01KHYH6H3EC7J6FS17BS9ZBE0F"
@@ -1402,6 +1432,16 @@
       "specre_id": "01KJBWT5HAQGGSECGZJ20D6PCX"
     },
     {
+      "file": "app/decorators/article_decorator.rb",
+      "line": 1,
+      "specre_id": "01KJCKF1AY5288JYRWJXK8QQ8C"
+    },
+    {
+      "file": "app/decorators/article_decorator.rb",
+      "line": 2,
+      "specre_id": "01KJCK5NSKJNEBDJYZA4QQ3YBW"
+    },
+    {
       "file": "app/decorators/comment_decorator.rb",
       "line": 1,
       "specre_id": "01KJ5DQT35P394JJVCSC077ZX5"
@@ -1495,6 +1535,16 @@
       "file": "app/helpers/admin_helper.rb",
       "line": 1,
       "specre_id": "01KJ9GWMJV27RNX4KT7WT0MQXS"
+    },
+    {
+      "file": "app/helpers/articles_helper.rb",
+      "line": 1,
+      "specre_id": "01KJCKF1AY5288JYRWJXK8QQ8C"
+    },
+    {
+      "file": "app/helpers/articles_helper.rb",
+      "line": 2,
+      "specre_id": "01KJCK5NSKJNEBDJYZA4QQ3YBW"
     },
     {
       "file": "app/helpers/authentication_helper.rb",
@@ -1917,6 +1967,11 @@
       "specre_id": "01KJ6EH2F7D1Q61H1A07JXRE38"
     },
     {
+      "file": "app/javascript/common-prop-types/article-prop-types.js",
+      "line": 1,
+      "specre_id": "01KJCK5NSKJNEBDJYZA4QQ3YBW"
+    },
+    {
       "file": "app/javascript/controllers/subforem_image_upload_controller.js",
       "line": 1,
       "specre_id": "01KHYH43TN4FS8ZYTW757DZBHZ"
@@ -2187,14 +2242,39 @@
       "specre_id": "01KJ6QCAKAT1EKMN80R2KK58YZ"
     },
     {
+      "file": "app/javascript/packs/articleAnimations.jsx",
+      "line": 1,
+      "specre_id": "01KJCK5NSKJNEBDJYZA4QQ3YBW"
+    },
+    {
       "file": "app/javascript/packs/articleModerationTools.js",
       "line": 1,
       "specre_id": "01KJ16Z3Y34HEH2GSWHHXW3NAM"
     },
     {
+      "file": "app/javascript/packs/articlePage.jsx",
+      "line": 1,
+      "specre_id": "01KJCKQZYF0GEXFX0H120R12QN"
+    },
+    {
+      "file": "app/javascript/packs/articlePage.jsx",
+      "line": 2,
+      "specre_id": "01KJCKBBKHXER1P381MJEJF8P0"
+    },
+    {
+      "file": "app/javascript/packs/articlePage.jsx",
+      "line": 3,
+      "specre_id": "01KJCK5NSKJNEBDJYZA4QQ3YBW"
+    },
+    {
       "file": "app/javascript/packs/articleReactions.js",
       "line": 1,
       "specre_id": "01KHZ55SRCPDHPWM0EYSTE60MK"
+    },
+    {
+      "file": "app/javascript/packs/articleSignedIn.jsx",
+      "line": 1,
+      "specre_id": "01KJCK5NSKJNEBDJYZA4QQ3YBW"
     },
     {
       "file": "app/javascript/packs/baseTracking.js",
@@ -2242,6 +2322,11 @@
       "specre_id": "01KJ1X6P8ZE8SXRX8T90FCZH0G"
     },
     {
+      "file": "app/javascript/packs/fullScreenModeControl.js",
+      "line": 1,
+      "specre_id": "01KJCKQZYF0GEXFX0H120R12QN"
+    },
+    {
       "file": "app/javascript/packs/githubRepos.jsx",
       "line": 1,
       "specre_id": "01KJ1SC2K2MHD1YYH79TBFM4VQ"
@@ -2265,6 +2350,11 @@
       "file": "app/javascript/packs/initializers/initializeSettings.js",
       "line": 1,
       "specre_id": "01KHZ466X2VM8VAWD6RE82CF9J"
+    },
+    {
+      "file": "app/javascript/packs/localizeArticleDates.js",
+      "line": 1,
+      "specre_id": "01KJCK5NSKJNEBDJYZA4QQ3YBW"
     },
     {
       "file": "app/javascript/packs/modCenter.jsx",
@@ -2512,6 +2602,11 @@
       "specre_id": "01KJ6EHXR03NS5G0NZKDKT0CA0"
     },
     {
+      "file": "app/javascript/utilities/__tests__/codeFullscreenModeSwitcher.test.js",
+      "line": 1,
+      "specre_id": "01KJCKQZYF0GEXFX0H120R12QN"
+    },
+    {
       "file": "app/javascript/utilities/__tests__/moderation.test.js",
       "line": 1,
       "specre_id": "01KJ16Z3Y34HEH2GSWHHXW3NAM"
@@ -2525,6 +2620,11 @@
       "file": "app/javascript/utilities/billboardInteractivity.jsx",
       "line": 1,
       "specre_id": "01KJ6EHXR03NS5G0NZKDKT0CA0"
+    },
+    {
+      "file": "app/javascript/utilities/codeFullscreenModeSwitcher.js",
+      "line": 1,
+      "specre_id": "01KJCKQZYF0GEXFX0H120R12QN"
     },
     {
       "file": "app/javascript/utilities/gifVideo.js",
@@ -3427,6 +3527,11 @@
       "specre_id": "01KJ2SZCDD0QR1BVHSPYKQZ955"
     },
     {
+      "file": "app/models/discussion_lock.rb",
+      "line": 1,
+      "specre_id": "01KJCKB0GDJ4BTHW7NPDYBC25S"
+    },
+    {
       "file": "app/models/email.rb",
       "line": 1,
       "specre_id": "01KJ758K1CA5TWC5FHEKJZ52BT"
@@ -4000,6 +4105,11 @@
       "file": "app/policies/consumer_app_policy.rb",
       "line": 1,
       "specre_id": "01KJ3YXYAR6AARATJH02XHAEVW"
+    },
+    {
+      "file": "app/policies/discussion_lock_policy.rb",
+      "line": 1,
+      "specre_id": "01KJCKB0GDJ4BTHW7NPDYBC25S"
     },
     {
       "file": "app/policies/follow_policy.rb",
@@ -6067,9 +6177,39 @@
       "specre_id": "01KJ6SZXEKKJCHRY9A615KYNKV"
     },
     {
+      "file": "app/views/articles/_actions.html.erb",
+      "line": 1,
+      "specre_id": "01KJCKBBKHXER1P381MJEJF8P0"
+    },
+    {
+      "file": "app/views/articles/_actions.html.erb",
+      "line": 2,
+      "specre_id": "01KJCK5NSKJNEBDJYZA4QQ3YBW"
+    },
+    {
       "file": "app/views/articles/_bottom_content.html.erb",
       "line": 1,
       "specre_id": "01KJBV1G647P4BRNVEY8SP0R1Q"
+    },
+    {
+      "file": "app/views/articles/_collection.html.erb",
+      "line": 1,
+      "specre_id": "01KJCKAY2FQDDK8VYRS35EC42E"
+    },
+    {
+      "file": "app/views/articles/_comment_tree.html.erb",
+      "line": 1,
+      "specre_id": "01KJCK5NSKJNEBDJYZA4QQ3YBW"
+    },
+    {
+      "file": "app/views/articles/_comments_actions.html.erb",
+      "line": 1,
+      "specre_id": "01KJCK5NSKJNEBDJYZA4QQ3YBW"
+    },
+    {
+      "file": "app/views/articles/_conduct_and_abuse_actions.html.erb",
+      "line": 1,
+      "specre_id": "01KJCK5NSKJNEBDJYZA4QQ3YBW"
     },
     {
       "file": "app/views/articles/_feed_nav.html.erb",
@@ -6077,14 +6217,59 @@
       "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
     },
     {
+      "file": "app/views/articles/_full_comment_area.html.erb",
+      "line": 1,
+      "specre_id": "01KJCKB0GDJ4BTHW7NPDYBC25S"
+    },
+    {
+      "file": "app/views/articles/_full_comment_area.html.erb",
+      "line": 2,
+      "specre_id": "01KJCK5NSKJNEBDJYZA4QQ3YBW"
+    },
+    {
+      "file": "app/views/articles/_fullscreen_embed.html.erb",
+      "line": 1,
+      "specre_id": "01KJCKM0HKSQY0DQA3Q8METJ13"
+    },
+    {
+      "file": "app/views/articles/_fullscreen_embed.html.erb",
+      "line": 2,
+      "specre_id": "01KJCKBBKHXER1P381MJEJF8P0"
+    },
+    {
       "file": "app/views/articles/_liquid.html.erb",
       "line": 1,
       "specre_id": "01KJ1F417EWY0A879VG771XT85"
     },
     {
+      "file": "app/views/articles/_multiple_engagements.html.erb",
+      "line": 1,
+      "specre_id": "01KJCK5NSKJNEBDJYZA4QQ3YBW"
+    },
+    {
       "file": "app/views/articles/_multiple_reactions.html.erb",
       "line": 1,
+      "specre_id": "01KJCK5NSKJNEBDJYZA4QQ3YBW"
+    },
+    {
+      "file": "app/views/articles/_multiple_reactions.html.erb",
+      "line": 2,
       "specre_id": "01KHZ55SRCPDHPWM0EYSTE60MK"
+    },
+    {
+      "file": "app/views/articles/_multireaction_button.html.erb",
+      "line": 1,
+      "specre_id": "01KJCK5NSKJNEBDJYZA4QQ3YBW"
+    },
+    {
+      "file": "app/views/articles/_reaction_button.html.erb",
+      "line": 1,
+      "specre_id": "01KJCK5NSKJNEBDJYZA4QQ3YBW"
+    },
+    {
+      "file": "app/views/articles/_reaction_category_resources.html.erb",
+      "line": 1,
+      "specre_id": "01KJCK5NSKJNEBDJYZA4QQ3YBW"
     },
     {
       "file": "app/views/articles/_sticky_nav.html.erb",
@@ -6102,6 +6287,16 @@
       "specre_id": "01KJBWV962FQYVV8TD7XMHWN5Q"
     },
     {
+      "file": "app/views/articles/discussion_lock_confirm.html.erb",
+      "line": 1,
+      "specre_id": "01KJCKB0GDJ4BTHW7NPDYBC25S"
+    },
+    {
+      "file": "app/views/articles/discussion_unlock_confirm.html.erb",
+      "line": 1,
+      "specre_id": "01KJCKB0GDJ4BTHW7NPDYBC25S"
+    },
+    {
       "file": "app/views/articles/index.html.erb",
       "line": 1,
       "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
@@ -6109,6 +6304,31 @@
     {
       "file": "app/views/articles/show.html.erb",
       "line": 1,
+      "specre_id": "01KJCKQZYF0GEXFX0H120R12QN"
+    },
+    {
+      "file": "app/views/articles/show.html.erb",
+      "line": 2,
+      "specre_id": "01KJCKM0HKSQY0DQA3Q8METJ13"
+    },
+    {
+      "file": "app/views/articles/show.html.erb",
+      "line": 3,
+      "specre_id": "01KJCKF1AY5288JYRWJXK8QQ8C"
+    },
+    {
+      "file": "app/views/articles/show.html.erb",
+      "line": 4,
+      "specre_id": "01KJCKAY2FQDDK8VYRS35EC42E"
+    },
+    {
+      "file": "app/views/articles/show.html.erb",
+      "line": 5,
+      "specre_id": "01KJCK5NSKJNEBDJYZA4QQ3YBW"
+    },
+    {
+      "file": "app/views/articles/show.html.erb",
+      "line": 6,
       "specre_id": "01KJBV1G647P4BRNVEY8SP0R1Q"
     },
     {
@@ -8327,6 +8547,16 @@
       "specre_id": "01KHZKCR70BAFQ159BEQFXBJQW"
     },
     {
+      "file": "spec/decorators/article_decorator_spec.rb",
+      "line": 1,
+      "specre_id": "01KJCKF1AY5288JYRWJXK8QQ8C"
+    },
+    {
+      "file": "spec/decorators/article_decorator_spec.rb",
+      "line": 2,
+      "specre_id": "01KJCK5NSKJNEBDJYZA4QQ3YBW"
+    },
+    {
       "file": "spec/decorators/comment_decorator_spec.rb",
       "line": 1,
       "specre_id": "01KJ5DQT35P394JJVCSC077ZX5"
@@ -8565,6 +8795,16 @@
       "file": "spec/helpers/admin/users_helper_spec.rb",
       "line": 1,
       "specre_id": "01KJ9MXNY671JQVR29GGYXMVQF"
+    },
+    {
+      "file": "spec/helpers/articles_helper_spec.rb",
+      "line": 1,
+      "specre_id": "01KJCKF1AY5288JYRWJXK8QQ8C"
+    },
+    {
+      "file": "spec/helpers/articles_helper_spec.rb",
+      "line": 2,
+      "specre_id": "01KJCK5NSKJNEBDJYZA4QQ3YBW"
     },
     {
       "file": "spec/helpers/billboard_helper_spec.rb",
@@ -9272,6 +9512,11 @@
       "specre_id": "01KJ2SZCDD0QR1BVHSPYKQZ955"
     },
     {
+      "file": "spec/models/discussion_lock_spec.rb",
+      "line": 1,
+      "specre_id": "01KJCKB0GDJ4BTHW7NPDYBC25S"
+    },
+    {
       "file": "spec/models/email_authorization_spec.rb",
       "line": 1,
       "specre_id": "01KJ759KKVVQ8YQZP1B78QC3Q6"
@@ -9640,6 +9885,11 @@
       "file": "spec/policies/comment_policy_spec.rb",
       "line": 1,
       "specre_id": "01KJ5DQT35P394JJVCSC077ZX5"
+    },
+    {
+      "file": "spec/policies/discussion_lock_policy_spec.rb",
+      "line": 1,
+      "specre_id": "01KJCKB0GDJ4BTHW7NPDYBC25S"
     },
     {
       "file": "spec/policies/follow_policy_spec.rb",
@@ -10572,6 +10822,26 @@
       "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
     },
     {
+      "file": "spec/requests/articles/articles_show_spec.rb",
+      "line": 1,
+      "specre_id": "01KJCKM0HKSQY0DQA3Q8METJ13"
+    },
+    {
+      "file": "spec/requests/articles/articles_show_spec.rb",
+      "line": 2,
+      "specre_id": "01KJCKF1AY5288JYRWJXK8QQ8C"
+    },
+    {
+      "file": "spec/requests/articles/articles_show_spec.rb",
+      "line": 3,
+      "specre_id": "01KJCKBBKHXER1P381MJEJF8P0"
+    },
+    {
+      "file": "spec/requests/articles/articles_show_spec.rb",
+      "line": 4,
+      "specre_id": "01KJCK5NSKJNEBDJYZA4QQ3YBW"
+    },
+    {
       "file": "spec/requests/articles/video_player_show_spec.rb",
       "line": 1,
       "specre_id": "01KJBWV962FQYVV8TD7XMHWN5Q"
@@ -10640,6 +10910,11 @@
       "file": "spec/requests/devices_spec.rb",
       "line": 1,
       "specre_id": "01KJ3YY1P1TX3DWW24AABW70MT"
+    },
+    {
+      "file": "spec/requests/discussion_locks_spec.rb",
+      "line": 1,
+      "specre_id": "01KJCKB0GDJ4BTHW7NPDYBC25S"
     },
     {
       "file": "spec/requests/email_subscriptions_spec.rb",
@@ -10920,6 +11195,26 @@
       "file": "spec/requests/stories/tagged_articles_spec.rb",
       "line": 1,
       "specre_id": "01KJ2472X584A2R8VP2QAC7V40"
+    },
+    {
+      "file": "spec/requests/stories_performance_fix_spec.rb",
+      "line": 1,
+      "specre_id": "01KJCK5NSKJNEBDJYZA4QQ3YBW"
+    },
+    {
+      "file": "spec/requests/stories_show_spec.rb",
+      "line": 1,
+      "specre_id": "01KJCKM0HKSQY0DQA3Q8METJ13"
+    },
+    {
+      "file": "spec/requests/stories_show_spec.rb",
+      "line": 2,
+      "specre_id": "01KJCKF1AY5288JYRWJXK8QQ8C"
+    },
+    {
+      "file": "spec/requests/stories_show_spec.rb",
+      "line": 3,
+      "specre_id": "01KJCK5NSKJNEBDJYZA4QQ3YBW"
     },
     {
       "file": "spec/requests/subforem_selection_modal_spec.rb",
@@ -12052,6 +12347,11 @@
       "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
     },
     {
+      "file": "spec/system/articles/user_discussion_locks_spec.rb",
+      "line": 1,
+      "specre_id": "01KJCKB0GDJ4BTHW7NPDYBC25S"
+    },
+    {
       "file": "spec/system/articles/user_visits_articles_by_tag_spec.rb",
       "line": 1,
       "specre_id": "01KJ2472X584A2R8VP2QAC7V40"
@@ -12109,6 +12409,11 @@
     {
       "file": "spec/system/collections/user_views_collection_articles_spec.rb",
       "line": 1,
+      "specre_id": "01KJCKAY2FQDDK8VYRS35EC42E"
+    },
+    {
+      "file": "spec/system/collections/user_views_collection_articles_spec.rb",
+      "line": 2,
       "specre_id": "01KJ6C1WBXTZN9GA5WYQPMQJSA"
     },
     {
@@ -16621,7 +16926,7 @@
       "id": "01KJCH9K2X9B3K15E69D2AR3ZZ",
       "last_verified": "2026-02-26",
       "name": "user_can_list_articles_via_api",
-      "path": "docs/specres/articles/user_can_list_articles_via_api.md",
+      "path": "docs/specres/articles/api/user_can_list_articles_via_api.md",
       "status": "stable"
     },
     {
@@ -16629,7 +16934,7 @@
       "id": "01KJCHEJQ8BMDATPDZDH3F5QVX",
       "last_verified": "2026-02-26",
       "name": "user_can_retrieve_article_via_api",
-      "path": "docs/specres/articles/user_can_retrieve_article_via_api.md",
+      "path": "docs/specres/articles/api/user_can_retrieve_article_via_api.md",
       "status": "stable"
     },
     {
@@ -16637,7 +16942,7 @@
       "id": "01KJCHJFD7KGAQSDCCXMC9W7WY",
       "last_verified": "2026-02-26",
       "name": "user_can_create_article_via_api",
-      "path": "docs/specres/articles/user_can_create_article_via_api.md",
+      "path": "docs/specres/articles/api/user_can_create_article_via_api.md",
       "status": "stable"
     },
     {
@@ -16645,7 +16950,7 @@
       "id": "01KJCHPQSWKVZHSRRBZ4Q4KMNB",
       "last_verified": "2026-02-26",
       "name": "user_can_update_article_via_api",
-      "path": "docs/specres/articles/user_can_update_article_via_api.md",
+      "path": "docs/specres/articles/api/user_can_update_article_via_api.md",
       "status": "stable"
     },
     {
@@ -16653,7 +16958,7 @@
       "id": "01KJCHTC22WA5N8C2J29GQ6Q76",
       "last_verified": "2026-02-26",
       "name": "user_can_list_own_articles_via_api",
-      "path": "docs/specres/articles/user_can_list_own_articles_via_api.md",
+      "path": "docs/specres/articles/api/user_can_list_own_articles_via_api.md",
       "status": "stable"
     },
     {
@@ -16661,7 +16966,63 @@
       "id": "01KJCHXPSF9DJHF0B8M4XZRZZD",
       "last_verified": "2026-02-26",
       "name": "user_can_search_articles_via_api",
-      "path": "docs/specres/articles/user_can_search_articles_via_api.md",
+      "path": "docs/specres/articles/api/user_can_search_articles_via_api.md",
+      "status": "stable"
+    },
+    {
+      "domain": "articles",
+      "id": "01KJCK5NSKJNEBDJYZA4QQ3YBW",
+      "last_verified": "2026-02-26",
+      "name": "reader_views_article_show_page",
+      "path": "docs/specres/articles/reader_views_article_show_page.md",
+      "status": "stable"
+    },
+    {
+      "domain": "articles",
+      "id": "01KJCKAY2FQDDK8VYRS35EC42E",
+      "last_verified": null,
+      "name": "reader_navigates_article_series",
+      "path": "docs/specres/articles/reader_navigates_article_series.md",
+      "status": "draft"
+    },
+    {
+      "domain": "articles",
+      "id": "01KJCKB0GDJ4BTHW7NPDYBC25S",
+      "last_verified": "2026-02-26",
+      "name": "author_locks_article_discussion",
+      "path": "docs/specres/articles/author_locks_article_discussion.md",
+      "status": "stable"
+    },
+    {
+      "domain": "articles",
+      "id": "01KJCKBBKHXER1P381MJEJF8P0",
+      "last_verified": null,
+      "name": "reader_shares_article_via_social_or_link_copy",
+      "path": "docs/specres/articles/reader_shares_article_via_social_or_link_copy.md",
+      "status": "draft"
+    },
+    {
+      "domain": "articles",
+      "id": "01KJCKF1AY5288JYRWJXK8QQ8C",
+      "last_verified": "2026-02-26",
+      "name": "system_outputs_article_structured_data_and_meta_tags",
+      "path": "docs/specres/articles/system_outputs_article_structured_data_and_meta_tags.md",
+      "status": "stable"
+    },
+    {
+      "domain": "articles",
+      "id": "01KJCKM0HKSQY0DQA3Q8METJ13",
+      "last_verified": null,
+      "name": "reader_views_article_in_fullscreen_embed_mode",
+      "path": "docs/specres/articles/reader_views_article_in_fullscreen_embed_mode.md",
+      "status": "draft"
+    },
+    {
+      "domain": "articles",
+      "id": "01KJCKQZYF0GEXFX0H120R12QN",
+      "last_verified": "2026-02-26",
+      "name": "reader_views_code_blocks_in_fullscreen",
+      "path": "docs/specres/articles/reader_views_code_blocks_in_fullscreen.md",
       "status": "stable"
     }
   ],
