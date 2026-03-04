@@ -1,3 +1,4 @@
+# @specre 01KJVM4JRDR1HWVGG2JNXWBT7N
 class CampaignDecorator < ApplicationDecorator
   include ActionView::Helpers::AssetTagHelper
   include ActionView::Helpers::UrlHelper

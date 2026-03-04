@@ -1,3 +1,4 @@
+# @specre 01KJVM3FKT43WXVQCRJFZ2V12N
 class EnabledCountriesHashValidator < ActiveModel::EachValidator
   VALID_HASH_VALUES = %i[with_regions without_regions].freeze
 

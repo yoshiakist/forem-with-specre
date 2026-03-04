@@ -16,3 +16,4 @@
 | [system_loads_billboard_asynchronously](system_loads_billboard_asynchronously.md) | stable | 2026-02-24 |
 | [api_client_can_operate_billboards](api_client_can_operate_billboards.md) | stable | 2026-02-24 |
 | [visitor_sees_targeted_billboard](visitor_sees_targeted_billboard.md) | stable | 2026-02-24 |
+| [system_parses_and_validates_geolocation_for_billboard_targeting](system_parses_and_validates_geolocation_for_billboard_targeting.md) | stable | 2026-03-04 |

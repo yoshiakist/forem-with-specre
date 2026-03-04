@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-04T04:56:57Z",
+  "generated_at": "2026-03-04T05:15:01Z",
   "source_refs": [
     {
       "file": "app/assets/javascripts/initializers/initializeAllTagEditButtons.js",
@@ -857,6 +857,11 @@
       "specre_id": "01KJCKB0GDJ4BTHW7NPDYBC25S"
     },
     {
+      "file": "app/controllers/async_info_controller.rb",
+      "line": 1,
+      "specre_id": "01KJVM8M6XFS8FZ49N49XXD9SM"
+    },
+    {
       "file": "app/controllers/auth_pass_controller.rb",
       "line": 1,
       "specre_id": "01KJVJ0CDYZE89Q4THGRC8XPCR"
@@ -1372,6 +1377,11 @@
       "specre_id": "01KJBGZF9PRSHNVF807K57AY46"
     },
     {
+      "file": "app/controllers/sidebars_controller.rb",
+      "line": 1,
+      "specre_id": "01KJVM4JRDR1HWVGG2JNXWBT7N"
+    },
+    {
       "file": "app/controllers/sitemaps_controller.rb",
       "line": 1,
       "specre_id": "01KJ9JHJXSYEDB3WWBQGZKPQCF"
@@ -1414,21 +1424,26 @@
     {
       "file": "app/controllers/stories_controller.rb",
       "line": 1,
-      "specre_id": "01KJCKM0HKSQY0DQA3Q8METJ13"
+      "specre_id": "01KJVM4JRDR1HWVGG2JNXWBT7N"
     },
     {
       "file": "app/controllers/stories_controller.rb",
       "line": 2,
-      "specre_id": "01KJCKF1AY5288JYRWJXK8QQ8C"
+      "specre_id": "01KJCKM0HKSQY0DQA3Q8METJ13"
     },
     {
       "file": "app/controllers/stories_controller.rb",
       "line": 3,
-      "specre_id": "01KJCKAY2FQDDK8VYRS35EC42E"
+      "specre_id": "01KJCKF1AY5288JYRWJXK8QQ8C"
     },
     {
       "file": "app/controllers/stories_controller.rb",
       "line": 4,
+      "specre_id": "01KJCKAY2FQDDK8VYRS35EC42E"
+    },
+    {
+      "file": "app/controllers/stories_controller.rb",
+      "line": 5,
       "specre_id": "01KJCK5NSKJNEBDJYZA4QQ3YBW"
     },
     {
@@ -1590,6 +1605,11 @@
       "file": "app/decorators/article_decorator.rb",
       "line": 4,
       "specre_id": "01KJCK5NSKJNEBDJYZA4QQ3YBW"
+    },
+    {
+      "file": "app/decorators/campaign_decorator.rb",
+      "line": 1,
+      "specre_id": "01KJVM4JRDR1HWVGG2JNXWBT7N"
     },
     {
       "file": "app/decorators/comment_decorator.rb",
@@ -3957,6 +3977,11 @@
       "specre_id": "01KJ246P62P50ED5YJNGJ50J3J"
     },
     {
+      "file": "app/models/async_info.rb",
+      "line": 1,
+      "specre_id": "01KJVM8M6XFS8FZ49N49XXD9SM"
+    },
+    {
       "file": "app/models/audit_log.rb",
       "line": 1,
       "specre_id": "01KJ6GMVW8YA3D7EE2WW7VZEZV"
@@ -4075,6 +4100,11 @@
       "file": "app/models/broadcast.rb",
       "line": 4,
       "specre_id": "01KJ6D3VR5PTRXZFBE5SVTSYM1"
+    },
+    {
+      "file": "app/models/campaign.rb",
+      "line": 1,
+      "specre_id": "01KJVM4JRDR1HWVGG2JNXWBT7N"
     },
     {
       "file": "app/models/collection.rb",
@@ -4232,6 +4262,11 @@
       "specre_id": "01KJ2SZCDD0QR1BVHSPYKQZ955"
     },
     {
+      "file": "app/models/device.rb",
+      "line": 1,
+      "specre_id": "01KJ162B266JS6N6VM0EMQWB02"
+    },
+    {
       "file": "app/models/discussion_lock.rb",
       "line": 1,
       "specre_id": "01KJCKB0GDJ4BTHW7NPDYBC25S"
@@ -4280,6 +4315,11 @@
       "file": "app/models/gdpr_delete_request.rb",
       "line": 1,
       "specre_id": "01KJBEERZREF0ZGB6E62EATBXE"
+    },
+    {
+      "file": "app/models/geolocation.rb",
+      "line": 1,
+      "specre_id": "01KJVM3FKT43WXVQCRJFZ2V12N"
     },
     {
       "file": "app/models/github_issue.rb",
@@ -6447,6 +6487,11 @@
       "specre_id": "01KJ758K1CA5TWC5FHEKJZ52BT"
     },
     {
+      "file": "app/validators/enabled_countries_hash_validator.rb",
+      "line": 1,
+      "specre_id": "01KJVM3FKT43WXVQCRJFZ2V12N"
+    },
+    {
       "file": "app/validators/existing_published_article_id_validator.rb",
       "line": 1,
       "specre_id": "01KJBWMN1X7QK4TMQ77F5NFR6E"
@@ -7292,6 +7337,11 @@
       "specre_id": "01KJCK5NSKJNEBDJYZA4QQ3YBW"
     },
     {
+      "file": "app/views/articles/_sidebar_campaign.html.erb",
+      "line": 1,
+      "specre_id": "01KJVM4JRDR1HWVGG2JNXWBT7N"
+    },
+    {
       "file": "app/views/articles/_single_story.html.erb",
       "line": 1,
       "specre_id": "01KJV72NZBF1FK1XSC1ET596PS"
@@ -7400,6 +7450,11 @@
       "file": "app/views/articles/stats.html.erb",
       "line": 1,
       "specre_id": "01KJTZPRK0G09A0XZ3HREFQZT8"
+    },
+    {
+      "file": "app/views/async_info/navigation_links.html.erb",
+      "line": 1,
+      "specre_id": "01KJVM8M6XFS8FZ49N49XXD9SM"
     },
     {
       "file": "app/views/auth_pass/iframe.html.erb",
@@ -10627,6 +10682,11 @@
       "specre_id": "01KJV9M0QR6H05KCHZ72V7A2BZ"
     },
     {
+      "file": "spec/models/async_info_spec.rb",
+      "line": 1,
+      "specre_id": "01KJVM8M6XFS8FZ49N49XXD9SM"
+    },
+    {
       "file": "spec/models/audit_log_spec.rb",
       "line": 1,
       "specre_id": "01KJ6GMVW8YA3D7EE2WW7VZEZV"
@@ -10742,6 +10802,11 @@
       "specre_id": "01KJ2SZCDD0QR1BVHSPYKQZ955"
     },
     {
+      "file": "spec/models/device_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ162B266JS6N6VM0EMQWB02"
+    },
+    {
       "file": "spec/models/discussion_lock_spec.rb",
       "line": 1,
       "specre_id": "01KJCKB0GDJ4BTHW7NPDYBC25S"
@@ -10780,6 +10845,11 @@
       "file": "spec/models/follow_spec.rb",
       "line": 1,
       "specre_id": "01KJ1X6P8ZE8SXRX8T90FCZH0G"
+    },
+    {
+      "file": "spec/models/geolocation_spec.rb",
+      "line": 1,
+      "specre_id": "01KJVM3FKT43WXVQCRJFZ2V12N"
     },
     {
       "file": "spec/models/github_issue_spec.rb",
@@ -12192,6 +12262,11 @@
       "specre_id": "01KJBWV962FQYVV8TD7XMHWN5Q"
     },
     {
+      "file": "spec/requests/async_info_spec.rb",
+      "line": 1,
+      "specre_id": "01KJVM8M6XFS8FZ49N49XXD9SM"
+    },
+    {
       "file": "spec/requests/auth_passes_spec.rb",
       "line": 1,
       "specre_id": "01KJVJ0CDYZE89Q4THGRC8XPCR"
@@ -12550,6 +12625,11 @@
       "file": "spec/requests/shared_examples/comment_hide_or_unhide_request.rb",
       "line": 1,
       "specre_id": "01KJ5DR9SK7NZF4GCYBZD5RM92"
+    },
+    {
+      "file": "spec/requests/sidebars_spec.rb",
+      "line": 1,
+      "specre_id": "01KJVM4JRDR1HWVGG2JNXWBT7N"
     },
     {
       "file": "spec/requests/sitemaps_spec.rb",
@@ -19045,6 +19125,30 @@
       "last_verified": "2026-03-04",
       "name": "user_completes_onboarding_checklist",
       "path": "docs/specres/users/onboarding/user_completes_onboarding_checklist.md",
+      "status": "stable"
+    },
+    {
+      "domain": "billboards",
+      "id": "01KJVM3FKT43WXVQCRJFZ2V12N",
+      "last_verified": "2026-03-04",
+      "name": "system_parses_and_validates_geolocation_for_billboard_targeting",
+      "path": "docs/specres/billboards/system_parses_and_validates_geolocation_for_billboard_targeting.md",
+      "status": "stable"
+    },
+    {
+      "domain": "settings",
+      "id": "01KJVM4JRDR1HWVGG2JNXWBT7N",
+      "last_verified": null,
+      "name": "visitor_sees_campaign_sidebar_with_featured_articles",
+      "path": "docs/specres/settings/visitor_sees_campaign_sidebar_with_featured_articles.md",
+      "status": "draft"
+    },
+    {
+      "domain": "users",
+      "id": "01KJVM8M6XFS8FZ49N49XXD9SM",
+      "last_verified": "2026-03-04",
+      "name": "system_provides_async_user_data_for_client_rendering",
+      "path": "docs/specres/users/system_provides_async_user_data_for_client_rendering.md",
       "status": "stable"
     }
   ],

@@ -15,3 +15,4 @@
 | [creator_can_set_up_initial_community](creator_can_set_up_initial_community.md) | stable | 2026-02-21 |
 | [user_can_manage_notification_preferences](user_can_manage_notification_preferences.md) | stable | 2026-02-21 |
 | [user_can_manage_personal_settings](user_can_manage_personal_settings.md) | stable | 2026-02-21 |
+| [visitor_sees_campaign_sidebar_with_featured_articles](visitor_sees_campaign_sidebar_with_featured_articles.md) | draft | - |

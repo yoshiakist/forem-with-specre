@@ -65,3 +65,4 @@
 | [user_can_follow_custom_initiatives_during_onboarding](onboarding/user_can_follow_custom_initiatives_during_onboarding.md) | stable | 2026-03-04 |
 | [user_accepts_invitation_to_join_community](authentication/user_accepts_invitation_to_join_community.md) | draft | - |
 | [user_completes_onboarding_checklist](onboarding/user_completes_onboarding_checklist.md) | stable | 2026-03-04 |
+| [system_provides_async_user_data_for_client_rendering](system_provides_async_user_data_for_client_rendering.md) | stable | 2026-03-04 |

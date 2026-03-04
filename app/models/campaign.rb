@@ -1,3 +1,4 @@
+# @specre 01KJVM4JRDR1HWVGG2JNXWBT7N
 # This "model" is not backed by the database. Its main purpose is giving one of
 # our domain concepts an actual representation in code.
 class Campaign

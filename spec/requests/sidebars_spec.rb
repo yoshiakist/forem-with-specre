@@ -1,3 +1,4 @@
+# @specre 01KJVM4JRDR1HWVGG2JNXWBT7N
 require "rails_helper"
 
 RSpec.describe "Sidebars" do

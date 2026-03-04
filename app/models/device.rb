@@ -1,3 +1,4 @@
+# @specre 01KJ162B266JS6N6VM0EMQWB02
 class Device < ApplicationRecord
   belongs_to :consumer_app
   belongs_to :user

@@ -1,3 +1,4 @@
+# @specre 01KJVM8M6XFS8FZ49N49XXD9SM
 # Responsible for generating the asynchronus data of a user.  This is data that we send on the wire
 # to the application for much of its user specific client-side rendering.
 #

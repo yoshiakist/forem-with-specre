@@ -12,9 +12,11 @@ last_verified: "2026-02-22"
 - `app/workers/push_notifications/cleanup_worker.rb`
 - `app/queries/consumer_apps/find_or_create_by_query.rb`
 - `app/queries/consumer_apps/rpush_app_query.rb`
+- `app/models/device.rb`
 - `spec/services/push_notifications/send_spec.rb` (Test)
 - `spec/queries/consumer_apps/find_or_create_by_query_spec.rb` (Test)
 - `spec/queries/consumer_apps/rpush_app_query_spec.rb` (Test)
+- `spec/models/device_spec.rb` (Test)
 
 ## Functional Overview
 
@@ -57,6 +59,23 @@ The batching pattern — staging notifications immediately and scheduling a sing
 2. It opens a Redis connection using `REDIS_RPUSH_URL` (falling back to `REDIS_URL`) and scans all keys matching `rpush:notifications:*`.
 3. For each key that is a hash, has a `delivered` field set, and has no existing TTL, it applies an 8-hour expiry.
 4. Keys that are not hashes, lack a `delivered` field, or already have a TTL are skipped.
+
+### iOS device — notification formatted for APNs
+
+1. `Device#create_notification` is called on a device whose platform is `ios` and whose `ConsumerApp` is operational.
+2. The method builds an `Rpush::Apns2::Notification`, setting the device token and looking up the Rpush app via `ConsumerApps::RpushAppQuery` using the consumer app's bundle identifier and platform.
+3. The `aps` payload is populated with: the community name as the alert `title`, the caller-supplied title as the alert `subtitle`, the caller-supplied body truncated to 512 characters as the alert `body`, `sound: "default"`, `mutable-content: 1` (enabling iOS notification content extensions), and a `thread-id` set to the community name for notification grouping.
+4. The caller-supplied payload is attached under the top-level `data` key.
+5. The notification is persisted via `save!`.
+
+### Android device — notification formatted for FCM
+
+1. `Device#create_notification` is called on a device whose platform is `android` and whose `ConsumerApp` is operational.
+2. The method builds an `Rpush::Gcm::Notification`, looking up the Rpush app via `ConsumerApps::RpushAppQuery` using the consumer app's bundle identifier and platform.
+3. The device's push token is set as the sole entry in `registration_ids`, priority is set to `"high"`, and `content_available` is set to `true`.
+4. The `notification` hash is populated with the caller-supplied title and body, `sound: "default"`, and `click_action: ".presentation.home.HomeActivity"` to route the tap to the app's home screen.
+5. The caller-supplied payload is attached under the top-level `data` key.
+6. The notification is persisted via `save!`.
 
 ## Failures / Exceptions
 

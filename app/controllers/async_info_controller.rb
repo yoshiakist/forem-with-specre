@@ -1,3 +1,4 @@
+# @specre 01KJVM8M6XFS8FZ49N49XXD9SM
 # @note No pundit policy. All actions are unrestricted.
 class AsyncInfoController < ApplicationController
   NUMBER_OF_MINUTES_FOR_CACHE_EXPIRY = 15

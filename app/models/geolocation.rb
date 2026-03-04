@@ -1,3 +1,4 @@
+# @specre 01KJVM3FKT43WXVQCRJFZ2V12N
 require Rails.root.join("lib/ISO3166/country") # so the class definition has access to extensions
 
 class Geolocation
