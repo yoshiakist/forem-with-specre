@@ -44,3 +44,4 @@
 | [editor_shows_submission_errors](editor_shows_submission_errors.md) | stable | 2026-03-04 |
 | [editor_warns_before_closing](editor_warns_before_closing.md) | stable | 2026-03-04 |
 | [author_prefills_editor_from_tag_template](author_prefills_editor_from_tag_template.md) | stable | 2026-03-04 |
+| [author_views_articles_on_dashboard](author_views_articles_on_dashboard.md) | stable | 2026-03-04 |

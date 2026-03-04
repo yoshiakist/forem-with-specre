@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-03T23:39:09Z",
+  "generated_at": "2026-03-04T00:25:24Z",
   "source_refs": [
     {
       "file": "app/assets/javascripts/initializers/initializeAllTagEditButtons.js",
@@ -1044,6 +1044,11 @@
     {
       "file": "app/controllers/dashboards_controller.rb",
       "line": 1,
+      "specre_id": "01KJV3PD89JNE8190FG9GCAV33"
+    },
+    {
+      "file": "app/controllers/dashboards_controller.rb",
+      "line": 2,
       "specre_id": "01KHZGV8H4BG6XE1A7T06AVD4X"
     },
     {
@@ -1479,16 +1484,21 @@
     {
       "file": "app/decorators/article_decorator.rb",
       "line": 1,
-      "specre_id": "01KJTZP36VCPRDPVFG9EB99APB"
+      "specre_id": "01KJV3PD89JNE8190FG9GCAV33"
     },
     {
       "file": "app/decorators/article_decorator.rb",
       "line": 2,
-      "specre_id": "01KJCKF1AY5288JYRWJXK8QQ8C"
+      "specre_id": "01KJTZP36VCPRDPVFG9EB99APB"
     },
     {
       "file": "app/decorators/article_decorator.rb",
       "line": 3,
+      "specre_id": "01KJCKF1AY5288JYRWJXK8QQ8C"
+    },
+    {
+      "file": "app/decorators/article_decorator.rb",
+      "line": 4,
       "specre_id": "01KJCK5NSKJNEBDJYZA4QQ3YBW"
     },
     {
@@ -3469,31 +3479,36 @@
     {
       "file": "app/models/article.rb",
       "line": 1,
-      "specre_id": "01KJV0FFF2JMT324JSMKPFW9Z3"
+      "specre_id": "01KJV3PD89JNE8190FG9GCAV33"
     },
     {
       "file": "app/models/article.rb",
       "line": 2,
-      "specre_id": "01KJTZPRK0G09A0XZ3HREFQZT8"
+      "specre_id": "01KJV0FFF2JMT324JSMKPFW9Z3"
     },
     {
       "file": "app/models/article.rb",
       "line": 3,
-      "specre_id": "01KJTZP36VCPRDPVFG9EB99APB"
+      "specre_id": "01KJTZPRK0G09A0XZ3HREFQZT8"
     },
     {
       "file": "app/models/article.rb",
       "line": 4,
-      "specre_id": "01KJTZNTD1B2X40J6GGAH2K1ZK"
+      "specre_id": "01KJTZP36VCPRDPVFG9EB99APB"
     },
     {
       "file": "app/models/article.rb",
       "line": 5,
-      "specre_id": "01KJTZE81B7VMF20GAZPA9PSNF"
+      "specre_id": "01KJTZNTD1B2X40J6GGAH2K1ZK"
     },
     {
       "file": "app/models/article.rb",
       "line": 6,
+      "specre_id": "01KJTZE81B7VMF20GAZPA9PSNF"
+    },
+    {
+      "file": "app/models/article.rb",
+      "line": 7,
       "specre_id": "01KJBV19F8R23CVAD98DQATZ4G"
     },
     {
@@ -4319,26 +4334,31 @@
     {
       "file": "app/policies/article_policy.rb",
       "line": 1,
-      "specre_id": "01KJV0FFF2JMT324JSMKPFW9Z3"
+      "specre_id": "01KJV3PD89JNE8190FG9GCAV33"
     },
     {
       "file": "app/policies/article_policy.rb",
       "line": 2,
-      "specre_id": "01KJTZPRK0G09A0XZ3HREFQZT8"
+      "specre_id": "01KJV0FFF2JMT324JSMKPFW9Z3"
     },
     {
       "file": "app/policies/article_policy.rb",
       "line": 3,
-      "specre_id": "01KJTZP36VCPRDPVFG9EB99APB"
+      "specre_id": "01KJTZPRK0G09A0XZ3HREFQZT8"
     },
     {
       "file": "app/policies/article_policy.rb",
       "line": 4,
-      "specre_id": "01KJTZNTD1B2X40J6GGAH2K1ZK"
+      "specre_id": "01KJTZP36VCPRDPVFG9EB99APB"
     },
     {
       "file": "app/policies/article_policy.rb",
       "line": 5,
+      "specre_id": "01KJTZNTD1B2X40J6GGAH2K1ZK"
+    },
+    {
+      "file": "app/policies/article_policy.rb",
+      "line": 6,
       "specre_id": "01KJTZE81B7VMF20GAZPA9PSNF"
     },
     {
@@ -11372,6 +11392,11 @@
       "specre_id": "01KJ2SF6J4K95BTZRSZG5AA811"
     },
     {
+      "file": "spec/requests/dashboard_spec.rb",
+      "line": 1,
+      "specre_id": "01KJV3PD89JNE8190FG9GCAV33"
+    },
+    {
       "file": "spec/requests/devices_spec.rb",
       "line": 1,
       "specre_id": "01KJ3YY1P1TX3DWW24AABW70MT"
@@ -12977,6 +13002,11 @@
       "specre_id": "01KJ1XAJ69KXNBRJE9Z3328GT0"
     },
     {
+      "file": "spec/system/dashboards/user_sorts_dashboard_articles_spec.rb",
+      "line": 1,
+      "specre_id": "01KJV3PD89JNE8190FG9GCAV33"
+    },
+    {
       "file": "spec/system/feedback_message_spec.rb",
       "line": 1,
       "specre_id": "01KJ25JM22F6QQ01PMJXGHZVQ5"
@@ -13125,6 +13155,11 @@
       "file": "spec/views/credits/new.html.erb_spec.rb",
       "line": 1,
       "specre_id": "01KJ2SF6J4K95BTZRSZG5AA811"
+    },
+    {
+      "file": "spec/views/dashboards/show.html.erb_spec.rb",
+      "line": 1,
+      "specre_id": "01KJV3PD89JNE8190FG9GCAV33"
     },
     {
       "file": "spec/views/email_subscriptions/unsubscribe.html.erb_spec.rb",
@@ -17626,6 +17661,14 @@
       "last_verified": "2026-03-04",
       "name": "author_prefills_editor_from_tag_template",
       "path": "docs/specres/articles/author_prefills_editor_from_tag_template.md",
+      "status": "stable"
+    },
+    {
+      "domain": "articles",
+      "id": "01KJV3PD89JNE8190FG9GCAV33",
+      "last_verified": "2026-03-04",
+      "name": "author_views_articles_on_dashboard",
+      "path": "docs/specres/articles/author_views_articles_on_dashboard.md",
       "status": "stable"
     }
   ],
