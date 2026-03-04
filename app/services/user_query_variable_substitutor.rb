@@ -1,3 +1,4 @@
+# @specre 01KJ9MT3FSYT9TTRKCNCH9Q9GV
 class UserQueryVariableSubstitutor
   include ActiveModel::Validations
   

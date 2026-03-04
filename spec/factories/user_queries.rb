@@ -1,3 +1,4 @@
+# @specre 01KJ9MT3FSYT9TTRKCNCH9Q9GV
 FactoryBot.define do
   factory :user_query do
     name { "Test User Query" }

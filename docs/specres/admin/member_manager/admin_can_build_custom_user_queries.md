@@ -8,7 +8,15 @@ last_verified: "2026-02-25"
 ## Related Files
 
 - `app/controllers/admin/user_queries_controller.rb`
+- `app/models/user_query.rb`
+- `app/services/user_query_executor.rb`
+- `app/services/user_query_validator.rb`
+- `app/services/user_query_variable_substitutor.rb`
 - `spec/controllers/admin/user_queries_controller_spec.rb` (Test)
+- `spec/models/user_query_spec.rb` (Test)
+- `spec/services/user_query_executor_spec.rb` (Test)
+- `spec/services/user_query_validator_spec.rb` (Test)
+- `spec/factories/user_queries.rb` (Test)
 - `app/views/admin/user_queries/index.html.erb` (Template)
 - `app/views/admin/user_queries/show.html.erb` (Template)
 - `app/views/admin/user_queries/new.html.erb` (Template)

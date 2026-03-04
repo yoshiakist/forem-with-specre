@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-04T02:14:31Z",
+  "generated_at": "2026-03-04T02:53:03Z",
   "source_refs": [
     {
       "file": "app/assets/javascripts/initializers/initializeAllTagEditButtons.js",
@@ -4512,6 +4512,11 @@
       "specre_id": "01KJ9JE1SPDCRJXAB1S3R7EKGT"
     },
     {
+      "file": "app/models/user_query.rb",
+      "line": 1,
+      "specre_id": "01KJ9MT3FSYT9TTRKCNCH9Q9GV"
+    },
+    {
       "file": "app/models/user_role.rb",
       "line": 1,
       "specre_id": "01KJ7G7F0BZ5ZBSGWV365S2RYC"
@@ -5990,6 +5995,21 @@
       "file": "app/services/tag_moderators/remove.rb",
       "line": 1,
       "specre_id": "01KJ405WSWNE4WHSJVXZ8G81GZ"
+    },
+    {
+      "file": "app/services/user_query_executor.rb",
+      "line": 1,
+      "specre_id": "01KJ9MT3FSYT9TTRKCNCH9Q9GV"
+    },
+    {
+      "file": "app/services/user_query_validator.rb",
+      "line": 1,
+      "specre_id": "01KJ9MT3FSYT9TTRKCNCH9Q9GV"
+    },
+    {
+      "file": "app/services/user_query_variable_substitutor.rb",
+      "line": 1,
+      "specre_id": "01KJ9MT3FSYT9TTRKCNCH9Q9GV"
     },
     {
       "file": "app/services/user_subscriptions/create_from_controller_params.rb",
@@ -9512,6 +9532,11 @@
       "specre_id": "01KJ9JE1SPDCRJXAB1S3R7EKGT"
     },
     {
+      "file": "spec/factories/user_queries.rb",
+      "line": 1,
+      "specre_id": "01KJ9MT3FSYT9TTRKCNCH9Q9GV"
+    },
+    {
       "file": "spec/factories/user_visit_contexts.rb",
       "line": 1,
       "specre_id": "01KJA2E4NR5V43929VH74R957F"
@@ -10595,6 +10620,11 @@
       "file": "spec/models/user_language_spec.rb",
       "line": 1,
       "specre_id": "01KJ9JE1SPDCRJXAB1S3R7EKGT"
+    },
+    {
+      "file": "spec/models/user_query_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ9MT3FSYT9TTRKCNCH9Q9GV"
     },
     {
       "file": "spec/models/user_role_spec.rb",
@@ -13140,6 +13170,16 @@
       "file": "spec/services/tag_moderators/remove_spec.rb",
       "line": 1,
       "specre_id": "01KJ405WSWNE4WHSJVXZ8G81GZ"
+    },
+    {
+      "file": "spec/services/user_query_executor_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ9MT3FSYT9TTRKCNCH9Q9GV"
+    },
+    {
+      "file": "spec/services/user_query_validator_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ9MT3FSYT9TTRKCNCH9Q9GV"
     },
     {
       "file": "spec/services/user_subscriptions/create_from_controller_params_spec.rb",
