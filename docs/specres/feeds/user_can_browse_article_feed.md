@@ -38,6 +38,17 @@ last_verified: "2026-02-22"
 - `spec/system/articles/feeds/large_forem_experimental_spec.rb` (Test)
 - `app/javascript/articles/__tests__/Feed.test.jsx` (Test)
 - `spec/services/articles/feeds_spec.rb` (Test)
+- `app/queries/homepage/articles_query.rb`
+- `app/serializers/homepage/article_serializer.rb`
+- `app/services/homepage/fetch_articles.rb`
+- `spec/queries/homepage/articles_query_spec.rb` (Test)
+- `spec/serializers/homepage/article_serializer_spec.rb` (Test)
+- `spec/services/homepage/fetch_articles_spec.rb` (Test)
+- `spec/system/homepage/user_visits_homepage_articles_spec.rb` (Test)
+- `app/queries/articles/active_threads_query.rb`
+- `app/views/articles/_sidebar_additional.html.erb` (Template)
+- `app/views/articles/_sidebar.html.erb` (Template)
+- `spec/queries/articles/active_threads_query_spec.rb` (Test)
 
 ## Functional Overview
 

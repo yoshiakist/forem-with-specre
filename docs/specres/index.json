@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-04T01:27:44Z",
+  "generated_at": "2026-03-04T01:47:41Z",
   "source_refs": [
     {
       "file": "app/assets/javascripts/initializers/initializeAllTagEditButtons.js",
@@ -4772,6 +4772,11 @@
       "specre_id": "01KJ9MXNY671JQVR29GGYXMVQF"
     },
     {
+      "file": "app/queries/articles/active_threads_query.rb",
+      "line": 1,
+      "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
+    },
+    {
       "file": "app/queries/articles/api_search_query.rb",
       "line": 1,
       "specre_id": "01KJCHXPSF9DJHF0B8M4XZRZZD"
@@ -4817,6 +4822,11 @@
       "specre_id": "01KJ162B266JS6N6VM0EMQWB02"
     },
     {
+      "file": "app/queries/homepage/articles_query.rb",
+      "line": 1,
+      "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
+    },
+    {
       "file": "app/queries/organizations/suggest_prominent.rb",
       "line": 1,
       "specre_id": "01KJ02W17VA8P0SYXCYAJ1MJR2"
@@ -4850,6 +4860,11 @@
       "file": "app/sanitizers/rendered_markdown_scrubber.rb",
       "line": 1,
       "specre_id": "01KJ2XAF8C1H0K7QD5X08KHD2X"
+    },
+    {
+      "file": "app/serializers/homepage/article_serializer.rb",
+      "line": 1,
+      "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
     },
     {
       "file": "app/serializers/search/comment_serializer.rb",
@@ -5507,6 +5522,11 @@
       "specre_id": "01KJ1SC2K2MHD1YYH79TBFM4VQ"
     },
     {
+      "file": "app/services/homepage/fetch_articles.rb",
+      "line": 1,
+      "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
+    },
+    {
       "file": "app/services/homepage/fetch_tag_flares.rb",
       "line": 1,
       "specre_id": "01KJ41JJ73MXNDK5F9W99N0P0A"
@@ -5567,6 +5587,11 @@
       "specre_id": "01KJ2X9JEDPKB2DTN1GAMBQ254"
     },
     {
+      "file": "app/services/medium_article_retrieval_service.rb",
+      "line": 1,
+      "specre_id": "01KJ1NAKJ1F3VDFEZ8SCWFZ3D3"
+    },
+    {
       "file": "app/services/mentions/create_all.rb",
       "line": 1,
       "specre_id": "01KJ1ARF08DVRQE65SWASWAFWJ"
@@ -5595,6 +5620,11 @@
       "file": "app/services/moderator/merge_user.rb",
       "line": 1,
       "specre_id": "01KJ9KBD37APR9VXPVW9CZANV7"
+    },
+    {
+      "file": "app/services/moderator/sink_articles.rb",
+      "line": 1,
+      "specre_id": "01KJV8A14A58JBDS2RRK1MY5YH"
     },
     {
       "file": "app/services/moderator/unpublish_all_articles.rb",
@@ -6022,6 +6052,11 @@
       "specre_id": "01KJBGSZYSK50Y48DDMGSB635P"
     },
     {
+      "file": "app/uploaders/article_image_uploader.rb",
+      "line": 1,
+      "specre_id": "01KJ1C8G3AN3EVK907SGXDWZG5"
+    },
+    {
       "file": "app/uploaders/badge_uploader.rb",
       "line": 1,
       "specre_id": "01KJ6FB22VF10D4883F2B226HM"
@@ -6055,6 +6090,11 @@
       "file": "app/validators/profile_validator.rb",
       "line": 1,
       "specre_id": "01KHZ69F0GE1R07TXK53AAA1K8"
+    },
+    {
+      "file": "app/view_objects/articles/social_image.rb",
+      "line": 1,
+      "specre_id": "01KJCKF1AY5288JYRWJXK8QQ8C"
     },
     {
       "file": "app/views/admin/articles/_article_item.html.erb",
@@ -6860,6 +6900,16 @@
       "file": "app/views/articles/_reaction_category_resources.html.erb",
       "line": 1,
       "specre_id": "01KJCK5NSKJNEBDJYZA4QQ3YBW"
+    },
+    {
+      "file": "app/views/articles/_sidebar.html.erb",
+      "line": 1,
+      "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
+    },
+    {
+      "file": "app/views/articles/_sidebar_additional.html.erb",
+      "line": 1,
+      "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
     },
     {
       "file": "app/views/articles/_single_story.html.erb",
@@ -8697,6 +8747,16 @@
       "specre_id": "01KJBWN5KRQKZE6SWZWPNHA43E"
     },
     {
+      "file": "app/workers/articles/enrich_image_attributes_worker.rb",
+      "line": 1,
+      "specre_id": "01KJ1C23JZY0T5QCNX103SR5MM"
+    },
+    {
+      "file": "app/workers/articles/generate_context_note_worker.rb",
+      "line": 1,
+      "specre_id": "01KJ6T8JKWPBA7WFHVR2JD7XMM"
+    },
+    {
       "file": "app/workers/articles/handle_spam_worker.rb",
       "line": 1,
       "specre_id": "01KJBN5DYZS4T9WNQYC16YKBD0"
@@ -8710,6 +8770,11 @@
       "file": "app/workers/articles/publish_worker.rb",
       "line": 1,
       "specre_id": "01KJBWVJKSF1WMNK6YAXZKQK08"
+    },
+    {
+      "file": "app/workers/articles/quality_reaction_worker.rb",
+      "line": 1,
+      "specre_id": "01KJV89SGZ92J93Y580ZM3JQPG"
     },
     {
       "file": "app/workers/articles/score_calc_worker.rb",
@@ -8885,6 +8950,11 @@
       "file": "app/workers/moderator/banish_user_worker.rb",
       "line": 1,
       "specre_id": "01KJ9K7RA1VNB0WQR28RQHV8Q9"
+    },
+    {
+      "file": "app/workers/moderator/sink_articles_worker.rb",
+      "line": 1,
+      "specre_id": "01KJV8A14A58JBDS2RRK1MY5YH"
     },
     {
       "file": "app/workers/moderator/unpublish_all_articles_worker.rb",
@@ -10662,6 +10732,11 @@
       "specre_id": "01KJ9MXNY671JQVR29GGYXMVQF"
     },
     {
+      "file": "spec/queries/articles/active_threads_query_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
+    },
+    {
       "file": "spec/queries/articles/api_search_query_spec.rb",
       "line": 1,
       "specre_id": "01KJCHXPSF9DJHF0B8M4XZRZZD"
@@ -10705,6 +10780,11 @@
       "file": "spec/queries/consumer_apps/rpush_app_query_spec.rb",
       "line": 1,
       "specre_id": "01KJ162B266JS6N6VM0EMQWB02"
+    },
+    {
+      "file": "spec/queries/homepage/articles_query_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
     },
     {
       "file": "spec/queries/organizations/suggest_prominent_spec.rb",
@@ -12092,6 +12172,11 @@
       "specre_id": "01KJ24EF4VQYFPB3R53Q4J2CJ1"
     },
     {
+      "file": "spec/serializers/homepage/article_serializer_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
+    },
+    {
       "file": "spec/serializers/search/comment_serializer_spec.rb",
       "line": 1,
       "specre_id": "01KHZ24CTQNRDZ5CAMD3TTT1KN"
@@ -12245,6 +12330,11 @@
       "file": "spec/services/articles/destroyer_spec.rb",
       "line": 1,
       "specre_id": "01KJTZE81B7VMF20GAZPA9PSNF"
+    },
+    {
+      "file": "spec/services/articles/enrich_image_attributes_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1C23JZY0T5QCNX103SR5MM"
     },
     {
       "file": "spec/services/articles/feeds/article_score_calculator_for_user_spec.rb",
@@ -12582,6 +12672,11 @@
       "specre_id": "01KJ1SC2K2MHD1YYH79TBFM4VQ"
     },
     {
+      "file": "spec/services/homepage/fetch_articles_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
+    },
+    {
       "file": "spec/services/homepage/fetch_tag_flares_spec.rb",
       "line": 1,
       "specre_id": "01KJ41JJ73MXNDK5F9W99N0P0A"
@@ -12637,6 +12732,11 @@
       "specre_id": "01KJ2X9JEDPKB2DTN1GAMBQ254"
     },
     {
+      "file": "spec/services/medium_article_retrieval_service_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1NAKJ1F3VDFEZ8SCWFZ3D3"
+    },
+    {
       "file": "spec/services/mentions/create_all_spec.rb",
       "line": 1,
       "specre_id": "01KJ1ARF08DVRQE65SWASWAFWJ"
@@ -12665,6 +12765,11 @@
       "file": "spec/services/moderator/merge_user_spec.rb",
       "line": 1,
       "specre_id": "01KJ9KBD37APR9VXPVW9CZANV7"
+    },
+    {
+      "file": "spec/services/moderator/sink_articles_spec.rb",
+      "line": 1,
+      "specre_id": "01KJV8A14A58JBDS2RRK1MY5YH"
     },
     {
       "file": "spec/services/moderator/unpublish_all_articles_spec.rb",
@@ -13257,6 +13362,11 @@
       "specre_id": "01KJ25JM22F6QQ01PMJXGHZVQ5"
     },
     {
+      "file": "spec/system/homepage/user_visits_homepage_articles_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
+    },
+    {
       "file": "spec/system/link_for_tags_in_posts_in_notifications_spec.rb",
       "line": 1,
       "specre_id": "01KJ15MVQ9HCZ8PV80MQ828AQF"
@@ -13367,6 +13477,11 @@
       "specre_id": "01KJBWV962FQYVV8TD7XMHWN5Q"
     },
     {
+      "file": "spec/uploaders/article_image_uploader_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1C8G3AN3EVK907SGXDWZG5"
+    },
+    {
       "file": "spec/uploaders/badge_uploader_spec.rb",
       "line": 1,
       "specre_id": "01KJ6FB22VF10D4883F2B226HM"
@@ -13452,6 +13567,11 @@
       "specre_id": "01KJBWN5KRQKZE6SWZWPNHA43E"
     },
     {
+      "file": "spec/workers/articles/enrich_image_attributes_worker_spec.rb",
+      "line": 1,
+      "specre_id": "01KJ1C23JZY0T5QCNX103SR5MM"
+    },
+    {
       "file": "spec/workers/articles/handle_spam_worker_spec.rb",
       "line": 1,
       "specre_id": "01KJBN5DYZS4T9WNQYC16YKBD0"
@@ -13465,6 +13585,11 @@
       "file": "spec/workers/articles/publish_worker_spec.rb",
       "line": 1,
       "specre_id": "01KJBWVJKSF1WMNK6YAXZKQK08"
+    },
+    {
+      "file": "spec/workers/articles/quality_reaction_worker_spec.rb",
+      "line": 1,
+      "specre_id": "01KJV89SGZ92J93Y580ZM3JQPG"
     },
     {
       "file": "spec/workers/articles/score_calc_worker_spec.rb",
@@ -13620,6 +13745,11 @@
       "file": "spec/workers/moderator/banish_user_worker_spec.rb",
       "line": 1,
       "specre_id": "01KJ9K7RA1VNB0WQR28RQHV8Q9"
+    },
+    {
+      "file": "spec/workers/moderator/sink_articles_worker_spec.rb",
+      "line": 1,
+      "specre_id": "01KJV8A14A58JBDS2RRK1MY5YH"
     },
     {
       "file": "spec/workers/moderator/unpublish_all_articles_worker_spec.rb",
@@ -17947,6 +18077,22 @@
       "name": "author_selects_series_for_article_in_editor",
       "path": "docs/specres/articles/author_selects_series_for_article_in_editor.md",
       "status": "draft"
+    },
+    {
+      "domain": "articles",
+      "id": "01KJV89SGZ92J93Y580ZM3JQPG",
+      "last_verified": "2026-03-04",
+      "name": "system_curates_article_quality_via_automated_reactions",
+      "path": "docs/specres/articles/system_curates_article_quality_via_automated_reactions.md",
+      "status": "stable"
+    },
+    {
+      "domain": "articles",
+      "id": "01KJV8A14A58JBDS2RRK1MY5YH",
+      "last_verified": "2026-03-04",
+      "name": "moderator_sinks_user_article_scores",
+      "path": "docs/specres/articles/moderator_sinks_user_article_scores.md",
+      "status": "stable"
     }
   ],
   "version": 1

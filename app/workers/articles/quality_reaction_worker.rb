@@ -1,3 +1,4 @@
+# @specre 01KJV89SGZ92J93Y580ZM3JQPG
 module Articles
   class QualityReactionWorker
     include Sidekiq::Job

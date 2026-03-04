@@ -1,3 +1,4 @@
+# @specre 01KJV89SGZ92J93Y580ZM3JQPG
 require "rails_helper"
 
 RSpec.describe Articles::QualityReactionWorker, type: :worker do

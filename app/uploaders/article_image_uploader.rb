@@ -1,3 +1,4 @@
+# @specre 01KJ1C8G3AN3EVK907SGXDWZG5
 require "open-uri"
 class ArticleImageUploader < BaseUploader
   def store_dir

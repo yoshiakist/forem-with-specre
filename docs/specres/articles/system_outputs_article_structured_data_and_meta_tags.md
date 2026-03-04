@@ -10,6 +10,7 @@ last_verified: "2026-02-26"
 - `app/controllers/stories_controller.rb`
 - `app/decorators/article_decorator.rb`
 - `app/helpers/articles_helper.rb`
+- `app/view_objects/articles/social_image.rb`
 - `app/views/articles/show.html.erb`
 - `spec/requests/articles/articles_show_spec.rb` (Test)
 - `spec/requests/stories_show_spec.rb` (Test)

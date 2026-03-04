@@ -1,3 +1,4 @@
+# @specre 01KJ6T8JKWPBA7WFHVR2JD7XMM
 module Articles
   class GenerateContextNoteWorker
     include Sidekiq::Job

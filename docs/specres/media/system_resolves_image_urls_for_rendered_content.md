@@ -14,6 +14,9 @@ last_verified: "2026-02-22"
 - `spec/models/media_store_spec.rb` (Test)
 - `spec/factories/media_stores.rb` (Test)
 - `spec/services/markdown_processor/parser_spec.rb` (Test)
+- `app/workers/articles/enrich_image_attributes_worker.rb`
+- `spec/workers/articles/enrich_image_attributes_worker_spec.rb` (Test)
+- `spec/services/articles/enrich_image_attributes_spec.rb` (Test)
 
 ## Functional Overview
 

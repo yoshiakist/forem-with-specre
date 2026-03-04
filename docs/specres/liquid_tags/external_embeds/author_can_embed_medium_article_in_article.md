@@ -9,7 +9,9 @@ last_verified: "2026-02-22"
 
 - `app/liquid_tags/medium_tag.rb`
 - `app/views/liquids/_medium.html.erb` (Template)
+- `app/services/medium_article_retrieval_service.rb`
 - `spec/liquid_tags/medium_tag_spec.rb` (Test)
+- `spec/services/medium_article_retrieval_service_spec.rb` (Test)
 
 ## Functional Overview
 

@@ -22,6 +22,8 @@ last_verified: "2026-02-22"
 - `app/javascript/article-form/components/imageUploadHelpers.js`
 - `app/javascript/article-form/components/pasteImageHelpers.js`
 - `app/javascript/article-form/components/__tests__/pasteImageHelpers.test.jsx` (Test)
+- `app/uploaders/article_image_uploader.rb`
+- `spec/uploaders/article_image_uploader_spec.rb` (Test)
 
 ## Functional Overview
 

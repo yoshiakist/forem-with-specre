@@ -8,6 +8,7 @@ last_verified: "2026-02-24"
 ## Related Files
 
 - `app/services/ai/context_note_generator.rb`
+- `app/workers/articles/generate_context_note_worker.rb`
 - `spec/services/ai/context_note_generator_spec.rb` (Test)
 
 ## Functional Overview

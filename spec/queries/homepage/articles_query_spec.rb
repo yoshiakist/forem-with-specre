@@ -1,3 +1,4 @@
+# @specre 01KJ246ARS7Y65PKK7T8V3CZFQ
 require "rails_helper"
 
 RSpec.describe Homepage::ArticlesQuery, type: :query do
