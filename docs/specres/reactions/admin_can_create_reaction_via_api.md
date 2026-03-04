@@ -8,8 +8,12 @@ last_verified: "2026-02-21"
 ## Related Files
 
 - `app/controllers/api/v1/reactions_controller.rb`
+- `app/services/reaction_handler.rb`
+- `app/policies/reaction_policy.rb`
 - `spec/requests/api/v1/reactions_spec.rb` (Test)
 - `spec/requests/api/v1/docs/reactions_spec.rb` (Test)
+- `spec/services/reaction_handler_spec.rb` (Test)
+- `spec/policies/reaction_policy_spec.rb` (Test)
 
 ## Functional Overview
 

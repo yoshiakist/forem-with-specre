@@ -8,7 +8,10 @@ last_verified: "2026-02-21"
 ## Related Files
 
 - `app/controllers/admin/reactions_controller.rb`
-- `app/views/admin/shared/_flag_reactions_table.html.erb`
+- `app/views/admin/shared/_flag_reactions_table.html.erb` (Template)
+- `app/views/admin/shared/_flag_reaction_item.html.erb` (Template)
+- `app/views/admin/shared/_flag_reaction_item_dropdown_menu.html.erb` (Template)
+- `app/javascript/packs/admin/shared/flagReactionItemDropdownButton.js`
 - `app/services/users/confirm_flag_reactions.rb`
 - `app/workers/users/confirm_flag_reactions_worker.rb`
 - `spec/requests/admin/reactions_spec.rb` (Test)

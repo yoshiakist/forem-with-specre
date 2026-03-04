@@ -1,3 +1,5 @@
+# @specre 01KHZ55HBKCF9CFW46K61FMYEQ
+# @specre 01KHZ55SRCPDHPWM0EYSTE60MK
 require "rails_helper"
 
 RSpec.describe ReactionHandler, type: :service do

@@ -1,3 +1,4 @@
+# @specre 01KJVD2BA0DGWK8HW05G0DHB9Z
 module Slack
   module Messengers
     class ReactionVomit

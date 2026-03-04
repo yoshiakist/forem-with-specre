@@ -1,3 +1,5 @@
+# @specre 01KHZ55HBKCF9CFW46K61FMYEQ
+# @specre 01KHZ55SRCPDHPWM0EYSTE60MK
 # This policy assumes that we apply the same logic regardless of the reactable.
 class ReactionPolicy < ApplicationPolicy
   # We don't have a robust concept of a Privileged Reaction class, but instead must switch the

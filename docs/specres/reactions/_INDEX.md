@@ -7,3 +7,5 @@
 | [user_can_react_to_article](user_can_react_to_article.md) | stable | 2026-02-21 |
 | [admin_can_review_privileged_reactions](admin_can_review_privileged_reactions.md) | stable | 2026-02-21 |
 | [system_notifies_content_creator_on_new_reaction](system_notifies_content_creator_on_new_reaction.md) | stable | 2026-02-21 |
+| [system_alerts_moderators_on_vomit_reaction_via_slack](system_alerts_moderators_on_vomit_reaction_via_slack.md) | stable | 2026-03-04 |
+| [system_detects_reaction_ring_spam](system_detects_reaction_ring_spam.md) | stable | 2026-03-04 |

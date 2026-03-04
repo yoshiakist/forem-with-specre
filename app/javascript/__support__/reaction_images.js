@@ -1,3 +1,4 @@
+// @specre 01KHZ55SRCPDHPWM0EYSTE60MK
 const fs = require('fs');
 const yaml = require('js-yaml');
 

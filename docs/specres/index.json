@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-04T02:53:03Z",
+  "generated_at": "2026-03-04T03:09:42Z",
   "source_refs": [
     {
       "file": "app/assets/javascripts/initializers/initializeAllTagEditButtons.js",
@@ -1772,6 +1772,11 @@
       "specre_id": "01KHZ22E63WBQWYFZNQVEA2EEE"
     },
     {
+      "file": "app/javascript/__support__/reaction_images.js",
+      "line": 1,
+      "specre_id": "01KHZ55SRCPDHPWM0EYSTE60MK"
+    },
+    {
       "file": "app/javascript/__tests__/billboard.test.js",
       "line": 1,
       "specre_id": "01KJ6EHXR03NS5G0NZKDKT0CA0"
@@ -2675,6 +2680,11 @@
       "file": "app/javascript/packs/admin/overview.jsx",
       "line": 1,
       "specre_id": "01KJ6QD968CHB6HNK748HR81KV"
+    },
+    {
+      "file": "app/javascript/packs/admin/shared/flagReactionItemDropdownButton.js",
+      "line": 1,
+      "specre_id": "01KHZ55S8Z1A16PNGY9X7PR58P"
     },
     {
       "file": "app/javascript/packs/admin/users/controls.js",
@@ -3997,6 +4007,11 @@
       "specre_id": "01KHZ2B1BF232HFDSKGKHDSF6F"
     },
     {
+      "file": "app/models/concerns/reactable.rb",
+      "line": 1,
+      "specre_id": "01KHZ55SRCPDHPWM0EYSTE60MK"
+    },
+    {
       "file": "app/models/concerns/taggable.rb",
       "line": 1,
       "specre_id": "01KJ41F3K1B3SRQ2HBYFY2N2M4"
@@ -4702,6 +4717,16 @@
       "specre_id": "01KJBWMN1X7QK4TMQ77F5NFR6E"
     },
     {
+      "file": "app/policies/reaction_policy.rb",
+      "line": 1,
+      "specre_id": "01KHZ55HBKCF9CFW46K61FMYEQ"
+    },
+    {
+      "file": "app/policies/reaction_policy.rb",
+      "line": 2,
+      "specre_id": "01KHZ55SRCPDHPWM0EYSTE60MK"
+    },
+    {
       "file": "app/policies/registration_policy.rb",
       "line": 1,
       "specre_id": "01KJBK4CV4DXZ9SFQ9QVWB6YK2"
@@ -5397,6 +5422,11 @@
       "specre_id": "01KJ15YPZ52QH5K5R1MVAYRQ0F"
     },
     {
+      "file": "app/services/calculate_reaction_points.rb",
+      "line": 1,
+      "specre_id": "01KHZ55SRCPDHPWM0EYSTE60MK"
+    },
+    {
       "file": "app/services/comment_creator.rb",
       "line": 1,
       "specre_id": "01KJ5DY1ASV3RY7Q7C930XDMBQ"
@@ -5837,6 +5867,16 @@
       "specre_id": "01KJBK4DJHK81XKCTCTC53GGAE"
     },
     {
+      "file": "app/services/reaction_handler.rb",
+      "line": 1,
+      "specre_id": "01KHZ55HBKCF9CFW46K61FMYEQ"
+    },
+    {
+      "file": "app/services/reaction_handler.rb",
+      "line": 2,
+      "specre_id": "01KHZ55SRCPDHPWM0EYSTE60MK"
+    },
+    {
       "file": "app/services/scheduled_automations/article_content_badge_awarder.rb",
       "line": 1,
       "specre_id": "01KHZ32M67KE4Q341R1BPEGPJB"
@@ -5932,6 +5972,11 @@
       "specre_id": "01KJBN5DYZS4T9WNQYC16YKBD0"
     },
     {
+      "file": "app/services/slack/messengers/reaction_vomit.rb",
+      "line": 1,
+      "specre_id": "01KJVD2BA0DGWK8HW05G0DHB9Z"
+    },
+    {
       "file": "app/services/spam/domain_detector.rb",
       "line": 1,
       "specre_id": "01KJBN5DYZS4T9WNQYC16YKBD0"
@@ -5945,6 +5990,11 @@
       "file": "app/services/spam/handler.rb",
       "line": 2,
       "specre_id": "01KJ43E9107K5RBF375S75E2PV"
+    },
+    {
+      "file": "app/services/spam/reaction_ring_detector.rb",
+      "line": 1,
+      "specre_id": "01KJVD2KB5RQGCR6HQH9GGCWBV"
     },
     {
       "file": "app/services/subforem_moderators/add.rb",
@@ -6550,6 +6600,16 @@
       "file": "app/views/admin/shared/_destroy_confirmation_modal.html.erb",
       "line": 1,
       "specre_id": "01KJ9H04NFNKVCEGFVZ2SRPXF0"
+    },
+    {
+      "file": "app/views/admin/shared/_flag_reaction_item.html.erb",
+      "line": 1,
+      "specre_id": "01KHZ55S8Z1A16PNGY9X7PR58P"
+    },
+    {
+      "file": "app/views/admin/shared/_flag_reaction_item_dropdown_menu.html.erb",
+      "line": 1,
+      "specre_id": "01KHZ55S8Z1A16PNGY9X7PR58P"
     },
     {
       "file": "app/views/admin/shared/_flag_reactions_table.html.erb",
@@ -7952,6 +8012,16 @@
       "specre_id": "01KJ15MVQ9HCZ8PV80MQ828AQF"
     },
     {
+      "file": "app/views/notifications/_reaction.html.erb",
+      "line": 1,
+      "specre_id": "01KHZ59AQ4W3GQVDAC6H33R4FD"
+    },
+    {
+      "file": "app/views/notifications/_single_reaction.html.erb",
+      "line": 1,
+      "specre_id": "01KHZ59AQ4W3GQVDAC6H33R4FD"
+    },
+    {
       "file": "app/views/notifications/_subforemchange.html.erb",
       "line": 1,
       "specre_id": "01KHYYG7CT65AXSS0G8M61RW6N"
@@ -9175,6 +9245,11 @@
       "file": "app/workers/scheduled_automations/process_worker.rb",
       "line": 1,
       "specre_id": "01KHZ30Q1RW1G4QRNXNKQTQ9NM"
+    },
+    {
+      "file": "app/workers/spam/reaction_ring_detection_worker.rb",
+      "line": 1,
+      "specre_id": "01KJVD2KB5RQGCR6HQH9GGCWBV"
     },
     {
       "file": "app/workers/subforems/create_from_scratch_worker.rb",
@@ -10482,6 +10557,11 @@
       "specre_id": "01KHZ55SRCPDHPWM0EYSTE60MK"
     },
     {
+      "file": "spec/models/reaction_ring_detection_spec.rb",
+      "line": 1,
+      "specre_id": "01KJVD2KB5RQGCR6HQH9GGCWBV"
+    },
+    {
       "file": "spec/models/reaction_spec.rb",
       "line": 1,
       "specre_id": "01KHZ55SRCPDHPWM0EYSTE60MK"
@@ -10730,6 +10810,16 @@
       "file": "spec/policies/pinned_article_policy_spec.rb",
       "line": 1,
       "specre_id": "01KJBWMN1X7QK4TMQ77F5NFR6E"
+    },
+    {
+      "file": "spec/policies/reaction_policy_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ55HBKCF9CFW46K61FMYEQ"
+    },
+    {
+      "file": "spec/policies/reaction_policy_spec.rb",
+      "line": 2,
+      "specre_id": "01KHZ55SRCPDHPWM0EYSTE60MK"
     },
     {
       "file": "spec/policies/response_template_policy_spec.rb",
@@ -12647,6 +12737,11 @@
       "specre_id": "01KJ15YPZ52QH5K5R1MVAYRQ0F"
     },
     {
+      "file": "spec/services/calculate_reaction_points_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ55SRCPDHPWM0EYSTE60MK"
+    },
+    {
       "file": "spec/services/comment_creator_spec.rb",
       "line": 1,
       "specre_id": "01KJ5DY1ASV3RY7Q7C930XDMBQ"
@@ -13032,6 +13127,16 @@
       "specre_id": "01KJBK4DJHK81XKCTCTC53GGAE"
     },
     {
+      "file": "spec/services/reaction_handler_spec.rb",
+      "line": 1,
+      "specre_id": "01KHZ55HBKCF9CFW46K61FMYEQ"
+    },
+    {
+      "file": "spec/services/reaction_handler_spec.rb",
+      "line": 2,
+      "specre_id": "01KHZ55SRCPDHPWM0EYSTE60MK"
+    },
+    {
       "file": "spec/services/scheduled_automations/article_content_badge_awarder_spec.rb",
       "line": 1,
       "specre_id": "01KHZ32M67KE4Q341R1BPEGPJB"
@@ -13117,6 +13222,11 @@
       "specre_id": "01KJBN5DYZS4T9WNQYC16YKBD0"
     },
     {
+      "file": "spec/services/slack/messengers/reaction_vomit_spec.rb",
+      "line": 1,
+      "specre_id": "01KJVD2BA0DGWK8HW05G0DHB9Z"
+    },
+    {
       "file": "spec/services/spam/domain_detector_spec.rb",
       "line": 1,
       "specre_id": "01KJBN5DYZS4T9WNQYC16YKBD0"
@@ -13130,6 +13240,11 @@
       "file": "spec/services/spam/handler_spec.rb",
       "line": 2,
       "specre_id": "01KJ43E9107K5RBF375S75E2PV"
+    },
+    {
+      "file": "spec/services/spam/reaction_ring_detector_spec.rb",
+      "line": 1,
+      "specre_id": "01KJVD2KB5RQGCR6HQH9GGCWBV"
     },
     {
       "file": "spec/services/subforem_moderators/add_spec.rb",
@@ -14025,6 +14140,11 @@
       "file": "spec/workers/scheduled_automations/process_worker_spec.rb",
       "line": 1,
       "specre_id": "01KHZ30Q1RW1G4QRNXNKQTQ9NM"
+    },
+    {
+      "file": "spec/workers/spam/reaction_ring_detection_worker_spec.rb",
+      "line": 1,
+      "specre_id": "01KJVD2KB5RQGCR6HQH9GGCWBV"
     },
     {
       "file": "spec/workers/subforems/create_from_scratch_worker_spec.rb",
@@ -18242,6 +18362,22 @@
       "last_verified": "2026-03-04",
       "name": "system_assembles_client_side_feed",
       "path": "docs/specres/feeds/system_assembles_client_side_feed.md",
+      "status": "stable"
+    },
+    {
+      "domain": "reactions",
+      "id": "01KJVD2BA0DGWK8HW05G0DHB9Z",
+      "last_verified": "2026-03-04",
+      "name": "system_alerts_moderators_on_vomit_reaction_via_slack",
+      "path": "docs/specres/reactions/system_alerts_moderators_on_vomit_reaction_via_slack.md",
+      "status": "stable"
+    },
+    {
+      "domain": "reactions",
+      "id": "01KJVD2KB5RQGCR6HQH9GGCWBV",
+      "last_verified": "2026-03-04",
+      "name": "system_detects_reaction_ring_spam",
+      "path": "docs/specres/reactions/system_detects_reaction_ring_spam.md",
       "status": "stable"
     }
   ],

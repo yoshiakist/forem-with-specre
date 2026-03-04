@@ -26,6 +26,14 @@ last_verified: "2026-02-21"
 - `app/javascript/articles/components/__tests__/ReactionsCount.test.jsx` (Test)
 - `spec/factories/reactions.rb` (Test)
 - `spec/models/shared_examples/sync_reactions_count.rb` (Test)
+- `app/services/reaction_handler.rb`
+- `app/services/calculate_reaction_points.rb`
+- `app/policies/reaction_policy.rb`
+- `app/models/concerns/reactable.rb`
+- `app/javascript/__support__/reaction_images.js`
+- `spec/services/reaction_handler_spec.rb` (Test)
+- `spec/services/calculate_reaction_points_spec.rb` (Test)
+- `spec/policies/reaction_policy_spec.rb` (Test)
 
 ## Functional Overview
 
