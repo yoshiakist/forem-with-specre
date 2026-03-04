@@ -1,4 +1,3 @@
-# @specre 01KJ246ARS7Y65PKK7T8V3CZFQ
 module Articles
   # TODO: [yheuhtozr] possible future tag name i18n: see https://github.com/forem/forem/pull/16004#discussion_r780879507
   class ActiveThreadsQuery

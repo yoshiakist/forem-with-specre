@@ -1,4 +1,5 @@
-# @specre 01KJ246ARS7Y65PKK7T8V3CZFQ
+# @specre 01KJV9KZR85C73CRV2F1MZ7RN8
+# @specre 01KJV9M0QR6H05KCHZ72V7A2BZ
 require "rails_helper"
 
 RSpec.describe Articles::Feeds::ArticleScoreCalculatorForUser, type: :service do

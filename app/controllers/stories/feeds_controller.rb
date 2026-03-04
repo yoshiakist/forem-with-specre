@@ -1,4 +1,7 @@
-# @specre 01KJ246ARS7Y65PKK7T8V3CZFQ
+# @specre 01KJV9KZR85C73CRV2F1MZ7RN8
+# @specre 01KJV9M0QR6H05KCHZ72V7A2BZ
+# @specre 01KJV9M130S6RWDXS6V4WXKBGM
+# @specre 01KJV9M1GJDQF9EFPNG89BSKVB
 module Stories
   class FeedsController < ApplicationController
     respond_to :json

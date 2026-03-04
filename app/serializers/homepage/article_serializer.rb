@@ -1,4 +1,3 @@
-# @specre 01KJ246ARS7Y65PKK7T8V3CZFQ
 module Homepage
   class ArticleSerializer < ApplicationSerializer
     # @param relation [ActiveRecord::Relation<Article>]

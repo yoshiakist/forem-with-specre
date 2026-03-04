@@ -1,7 +1,7 @@
 ---
 id: "01KJ246ARS7Y65PKK7T8V3CZFQ"
 name: "user_can_browse_article_feed"
-status: "stable"
+status: "deprecated"
 last_verified: "2026-02-22"
 ---
 

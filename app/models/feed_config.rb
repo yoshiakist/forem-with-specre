@@ -1,4 +1,4 @@
-# @specre 01KJ246ARS7Y65PKK7T8V3CZFQ
+# @specre 01KJV9M0QR6H05KCHZ72V7A2BZ
 class FeedConfig < ApplicationRecord
   has_many :feed_events, dependent: :nullify
 

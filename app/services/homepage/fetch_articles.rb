@@ -1,4 +1,3 @@
-# @specre 01KJ246ARS7Y65PKK7T8V3CZFQ
 # This is used to populate the following pages:
 # => homepage
 # => profile page

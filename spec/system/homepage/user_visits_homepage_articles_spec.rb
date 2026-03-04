@@ -1,4 +1,4 @@
-# @specre 01KJ246ARS7Y65PKK7T8V3CZFQ
+# @specre 01KJV9M1M80M71Q62GXVK0HWPY
 require "rails_helper"
 
 RSpec.describe "User visits a homepage" do

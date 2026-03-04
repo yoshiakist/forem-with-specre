@@ -1,4 +1,4 @@
-# @specre 01KJ246ARS7Y65PKK7T8V3CZFQ
+# @specre 01KJV9M130S6RWDXS6V4WXKBGM
 module Articles
   module Feeds
     module Latest
