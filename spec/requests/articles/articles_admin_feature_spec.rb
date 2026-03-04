@@ -1,3 +1,4 @@
+# @specre 01KJTZEM8AT0EMBHCD6T08T9PW
 require "rails_helper"
 
 RSpec.describe "ArticlesAdminFeature" do

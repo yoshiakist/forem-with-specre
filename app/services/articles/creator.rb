@@ -1,3 +1,4 @@
+# @specre 01KJV0FFF2JMT324JSMKPFW9Z3
 # @specre 01KJCHJFD7KGAQSDCCXMC9W7WY
 module Articles
   class Creator

@@ -1,3 +1,7 @@
+# @specre 01KJV0FFF2JMT324JSMKPFW9Z3
+# @specre 01KJTZNTD1B2X40J6GGAH2K1ZK
+# @specre 01KJTZPRK0G09A0XZ3HREFQZT8
+# @specre 01KJTZE81B7VMF20GAZPA9PSNF
 # spec/policies/article_policy_spec.rb
 
 require "rails_helper"

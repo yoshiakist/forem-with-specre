@@ -1,3 +1,4 @@
+# @specre 01KJTZNTD1B2X40J6GGAH2K1ZK
 module Articles
   class Attributes
     ATTRIBUTES = %i[archived body_markdown canonical_url description compellingness_score labels

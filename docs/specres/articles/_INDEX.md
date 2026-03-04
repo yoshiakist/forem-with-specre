@@ -33,3 +33,14 @@
 | [system_outputs_article_structured_data_and_meta_tags](system_outputs_article_structured_data_and_meta_tags.md) | stable | 2026-02-26 |
 | [reader_views_article_in_fullscreen_embed_mode](reader_views_article_in_fullscreen_embed_mode.md) | draft | - |
 | [reader_views_code_blocks_in_fullscreen](reader_views_code_blocks_in_fullscreen.md) | stable | 2026-02-26 |
+| [author_deletes_article](author_deletes_article.md) | stable | 2026-03-04 |
+| [admin_views_and_updates_articles_in_admin_panel](admin_views_and_updates_articles_in_admin_panel.md) | stable | 2026-03-04 |
+| [author_edits_article_via_editor](author_edits_article_via_editor.md) | stable | 2026-03-04 |
+| [author_views_article_settings_page](author_views_article_settings_page.md) | stable | 2026-03-04 |
+| [author_views_article_stats](author_views_article_stats.md) | stable | 2026-03-04 |
+| [author_previews_article_in_editor](author_previews_article_in_editor.md) | stable | 2026-03-04 |
+| [author_opens_new_article_editor](author_opens_new_article_editor.md) | stable | 2026-03-04 |
+| [author_submits_new_article](author_submits_new_article.md) | stable | 2026-03-04 |
+| [editor_shows_submission_errors](editor_shows_submission_errors.md) | stable | 2026-03-04 |
+| [editor_warns_before_closing](editor_warns_before_closing.md) | stable | 2026-03-04 |
+| [author_prefills_editor_from_tag_template](author_prefills_editor_from_tag_template.md) | stable | 2026-03-04 |

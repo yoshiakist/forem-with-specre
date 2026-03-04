@@ -1,3 +1,6 @@
+# @specre 01KJTZVFN07Y5FR14D7Y40J9F5
+# @specre 01KJTZPRK0G09A0XZ3HREFQZT8
+# @specre 01KJTZP36VCPRDPVFG9EB99APB
 require "rails_helper"
 
 RSpec.describe "Articles" do

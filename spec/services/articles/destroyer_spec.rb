@@ -1,3 +1,4 @@
+# @specre 01KJTZE81B7VMF20GAZPA9PSNF
 require "rails_helper"
 
 RSpec.describe Articles::Destroyer, type: :service do

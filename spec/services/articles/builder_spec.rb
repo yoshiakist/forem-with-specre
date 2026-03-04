@@ -1,3 +1,5 @@
+# @specre 01KJV0FGPPG85X74PBP40BXG5N
+# @specre 01KJV0FF10MZMWNFJB77RRFZ6S
 require "rails_helper"
 
 RSpec.describe Articles::Builder, type: :service do

@@ -1,3 +1,5 @@
+// @specre 01KJTZVFN07Y5FR14D7Y40J9F5
+// @specre 01KJTZNTD1B2X40J6GGAH2K1ZK
 import { h } from 'preact';
 import PropTypes from 'prop-types';
 import { Close } from './Close';

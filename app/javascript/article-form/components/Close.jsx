@@ -1,3 +1,5 @@
+// @specre 01KJV0FGGM94SH8KZS9W17794A
+// @specre 01KJTZNTD1B2X40J6GGAH2K1ZK
 import { h } from 'preact';
 import { ButtonNew as Button } from '@crayons';
 import CloseIcon from '@images/x.svg';

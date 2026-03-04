@@ -1,3 +1,4 @@
+# @specre 01KJTZPRK0G09A0XZ3HREFQZT8
 require "rails_helper"
 
 RSpec.describe "Viewing an article stats", js: true do
