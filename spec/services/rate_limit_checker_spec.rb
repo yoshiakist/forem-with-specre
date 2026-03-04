@@ -1,3 +1,4 @@
+# @specre 01KJVGE8NSPTAPX0HVKBT09C6D
 require "rails_helper"
 
 RSpec.describe RateLimitChecker, type: :service do

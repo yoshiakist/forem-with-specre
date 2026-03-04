@@ -1,3 +1,4 @@
+# @specre 01KJVGE8NSPTAPX0HVKBT09C6D
 class RateLimitChecker
   attr_reader :user, :action
 
