@@ -1,3 +1,4 @@
+# @specre 01KJ1C8G3AN3EVK907SGXDWZG5
 require "rails_helper"
 
 RSpec.describe ImageUploadPolicy, type: :policy do

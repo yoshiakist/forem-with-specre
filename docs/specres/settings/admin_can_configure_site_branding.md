@@ -16,6 +16,9 @@ last_verified: "2026-02-21"
 - `app/views/admin/settings/forms/_social_media.html.erb` (Template)
 - `app/views/admin/settings/forms/_meta_keywords.html.erb` (Template)
 - `spec/models/settings/general_spec.rb` (Test)
+- `app/uploaders/logo_uploader.rb`
+- `app/uploaders/logo_svg_uploader.rb`
+- `spec/uploaders/logo_uploader_spec.rb` (Test)
 
 ## Functional Overview
 

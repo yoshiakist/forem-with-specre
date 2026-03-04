@@ -8,3 +8,5 @@
 | [author_can_add_cover_video_to_article](author_can_add_cover_video_to_article.md) | draft | - |
 | [author_can_upload_image](author_can_upload_image.md) | stable | 2026-02-22 |
 | [author_can_generate_ai_cover_image](author_can_generate_ai_cover_image.md) | stable | 2026-02-22 |
+| [system_optimizes_image_urls_via_cdn_proxy](system_optimizes_image_urls_via_cdn_proxy.md) | stable | 2026-03-04 |
+| [system_generates_social_image_for_article](system_generates_social_image_for_article.md) | stable | 2026-03-04 |

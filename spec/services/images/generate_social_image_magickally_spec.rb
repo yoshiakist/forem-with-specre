@@ -1,3 +1,4 @@
+# @specre 01KJVEZN3YK9PYFVQ7FW9BBN7M
 require "rails_helper"
 
 RSpec.describe Images::GenerateSocialImageMagickally, type: :model do

@@ -1,3 +1,4 @@
+# @specre 01KJVEZN3YK9PYFVQ7FW9BBN7M
 module HtmlCssToImage
   AUTH = { username: ApplicationConfig["HCTI_API_USER_ID"],
            password: ApplicationConfig["HCTI_API_KEY"] }.freeze

@@ -11,8 +11,12 @@ last_verified: "2026-02-22"
 - `app/services/markdown_processor/parser.rb`
 - `app/sanitizers/rendered_markdown_scrubber.rb`
 - `app/services/content_renderer.rb` (Tagged: 01KJ1C23JZY0T5QCNX103SR5MM)
+- `app/services/giphy/image.rb`
+- `app/services/html/image_uri.rb`
 - `spec/services/content_renderer_spec.rb` (Test)
 - `spec/services/markdown_processor/parser_spec.rb` (Test) (Tagged: 01KJ1C23JZY0T5QCNX103SR5MM)
+- `spec/services/giphy/image_spec.rb` (Test)
+- `spec/services/html/image_uri_spec.rb` (Test)
 
 ## Functional Overview
 

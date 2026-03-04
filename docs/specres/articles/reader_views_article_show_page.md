@@ -26,6 +26,7 @@ last_verified: "2026-02-26"
 - `app/javascript/packs/localizeArticleDates.js`
 - `app/javascript/packs/articleAnimations.jsx`
 - `app/javascript/common-prop-types/article-prop-types.js`
+- `app/javascript/utilities/animatedImageUtils.jsx`
 - `spec/requests/articles/articles_show_spec.rb` (Test)
 - `spec/requests/stories_show_spec.rb` (Test)
 - `spec/requests/stories_performance_fix_spec.rb` (Test)

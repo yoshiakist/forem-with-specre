@@ -26,6 +26,7 @@ last_verified: "2026-03-04"
 - `app/javascript/articles/components/Video.jsx`
 - `app/javascript/common-prop-types/article-prop-types.js`
 - `app/assets/javascripts/utilities/buildArticleHTML.js`
+- `app/assets/javascripts/utilities/getImageForLink.js`
 - `app/views/articles/_single_story.html.erb`
 - `app/views/articles/_widget_list_item.html.erb`
 - `app/javascript/articles/__tests__/Article.test.jsx` (Test)

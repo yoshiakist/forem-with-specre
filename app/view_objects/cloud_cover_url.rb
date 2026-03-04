@@ -1,3 +1,4 @@
+# @specre 01KJVEZHZX5TZ7F9VR43E8WYFS
 class CloudCoverUrl
   include ActionView::Helpers::AssetUrlHelper
 

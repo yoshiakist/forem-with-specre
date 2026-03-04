@@ -1,3 +1,4 @@
+// @specre 01KJ1C8G3AN3EVK907SGXDWZG5
 import { renderHook, act } from '@testing-library/preact-hooks';
 import { fireEvent } from '@testing-library/preact';
 import { usePasteImage } from '../pasteImage';
