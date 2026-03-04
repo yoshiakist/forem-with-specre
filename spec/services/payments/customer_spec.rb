@@ -1,3 +1,6 @@
+# @specre 01KJVE4GNV49HXNQ53W5PDJ31Z
+# @specre 01KJVE2B3BE3E5GX1FAFCMEAEV
+# @specre 01KJVDZDG8Y04Z6WRBBRCDEZGF
 require "rails_helper"
 
 RSpec.describe Payments::Customer, type: :service do

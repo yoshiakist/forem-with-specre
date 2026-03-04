@@ -1,3 +1,7 @@
+# @specre 01KJVE4GNV49HXNQ53W5PDJ31Z
+# @specre 01KJVE2B3BE3E5GX1FAFCMEAEV
+# @specre 01KJ2SF6J4K95BTZRSZG5AA811
+# @specre 01KJVDZDG8Y04Z6WRBBRCDEZGF
 module Payments
   # A thin wrapper on Stripe Customers and Charges APIs
   # see: <https://stripe.com/docs/api/customers/object>,

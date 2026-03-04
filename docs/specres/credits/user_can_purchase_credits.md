@@ -18,6 +18,8 @@ last_verified: "2026-02-22"
 - `app/views/credits/_purchase_faq.en.html.erb` (Template)
 - `app/views/credits/_purchase_faq.fr.html.erb` (Template)
 - `app/views/credits/_purchase_faq.pt.html.erb` (Template)
+- `app/services/payments/customer.rb`
+- `app/errors/payments.rb`
 - `spec/requests/credits_spec.rb` (Test)
 - `spec/services/payments/process_credit_purchase_spec.rb` (Test)
 - `spec/views/credits/new.html.erb_spec.rb` (Test)

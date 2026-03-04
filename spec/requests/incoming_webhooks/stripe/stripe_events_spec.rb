@@ -1,3 +1,4 @@
+# @specre 01KJVDW6ZPBBC4Y26Z8YE18P1G
 require "rails_helper"
 
 RSpec.describe "IncomingWebhooks::StripeEventsController" do
