@@ -200,7 +200,12 @@ After all catalog entries are processed:
 2. Run `specre index` to regenerate the index.
 3. Run `specre orphans` to verify no unlinked cards or dangling markers.
 4. Run `specre coverage` and report the coverage change (before vs. after).
-5. Present a summary to the user:
+5. Regenerate the cocoindex embeddings so that newly inserted `@specre` tags are reflected in the database:
+   ```bash
+   .venv/bin/python code_index.py
+   ```
+   This runs `code_index.py`, which loads `.env.cocoindex`, initializes cocoindex, and calls `codebase_index_flow.update()` to incrementally re-embed changed source files into PostgreSQL.
+6. Present a summary to the user:
 
 ```
 Generation complete.
@@ -218,7 +223,7 @@ Cards remaining as draft:
   - docs/specres/domain/behavior_d.md (test scenarios diverge)
 ```
 
-6. **If any cards were auto-stabilized**, append this notice:
+7. **If any cards were auto-stabilized**, append this notice:
 
 > Some cards were automatically set to `stable` because matching tests were found and their assertions align with the documented scenarios. We recommend reviewing these cards to confirm that the specification accurately reflects the intended behavior, not just the current implementation.
 
