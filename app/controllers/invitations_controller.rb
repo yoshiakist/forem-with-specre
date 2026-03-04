@@ -1,3 +1,4 @@
+# @specre 01KJVJ43WCHFB50B2K9KC6CVS0
 class InvitationsController < Devise::InvitationsController
   # Copied from https://github.com/scambra/devise_invitable/blob/master/app/controllers/devise/invitations_controller.rb
   # And edited. This is a common devise pattern, similar to OmniauthCallbacksController.

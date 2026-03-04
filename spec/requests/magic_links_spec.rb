@@ -1,3 +1,4 @@
+# @specre 01KJVJ01ZBWZ49FSMYNE8GM1CQ
 require "rails_helper"
 
 RSpec.describe "MagicLinks", type: :request do

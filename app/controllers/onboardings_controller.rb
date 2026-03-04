@@ -1,3 +1,5 @@
+# @specre 01KJVJ45XH7EQE2H412F1ZGN0V
+# @specre 01KJVJ3JCADV1ASZQEPK5YT9RC
 class OnboardingsController < ApplicationController
   before_action :authenticate_user!
   before_action :check_suspended, only: %i[notifications]

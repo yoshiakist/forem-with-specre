@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-04T04:15:13Z",
+  "generated_at": "2026-03-04T04:56:57Z",
   "source_refs": [
     {
       "file": "app/assets/javascripts/initializers/initializeAllTagEditButtons.js",
@@ -857,6 +857,11 @@
       "specre_id": "01KJCKB0GDJ4BTHW7NPDYBC25S"
     },
     {
+      "file": "app/controllers/auth_pass_controller.rb",
+      "line": 1,
+      "specre_id": "01KJVJ0CDYZE89Q4THGRC8XPCR"
+    },
+    {
       "file": "app/controllers/badges_controller.rb",
       "line": 1,
       "specre_id": "01KJ6FAFV9D47QGGRY76KPKNC4"
@@ -1132,9 +1137,19 @@
       "specre_id": "01KJVDW6ZPBBC4Y26Z8YE18P1G"
     },
     {
+      "file": "app/controllers/invitations_controller.rb",
+      "line": 1,
+      "specre_id": "01KJVJ43WCHFB50B2K9KC6CVS0"
+    },
+    {
       "file": "app/controllers/liquid_tags_controller.rb",
       "line": 1,
       "specre_id": "01KJ1F0MZV6TAFYBWNQG6V0K2W"
+    },
+    {
+      "file": "app/controllers/magic_links_controller.rb",
+      "line": 1,
+      "specre_id": "01KJVJ01ZBWZ49FSMYNE8GM1CQ"
     },
     {
       "file": "app/controllers/moderations_controller.rb",
@@ -1175,6 +1190,16 @@
       "file": "app/controllers/omniauth_callbacks_controller.rb",
       "line": 1,
       "specre_id": "01KJBK9T82MG157560A1HGHHXJ"
+    },
+    {
+      "file": "app/controllers/onboardings_controller.rb",
+      "line": 1,
+      "specre_id": "01KJVJ45XH7EQE2H412F1ZGN0V"
+    },
+    {
+      "file": "app/controllers/onboardings_controller.rb",
+      "line": 2,
+      "specre_id": "01KJVJ3JCADV1ASZQEPK5YT9RC"
     },
     {
       "file": "app/controllers/open_search_controller.rb",
@@ -2632,6 +2657,26 @@
       "specre_id": "01KJ16TED32H3YYC9F610VZM5X"
     },
     {
+      "file": "app/javascript/onboarding/Onboarding.jsx",
+      "line": 1,
+      "specre_id": "01KJVJ45XH7EQE2H412F1ZGN0V"
+    },
+    {
+      "file": "app/javascript/onboarding/__tests__/Onboarding.test.jsx",
+      "line": 1,
+      "specre_id": "01KJVJ45XH7EQE2H412F1ZGN0V"
+    },
+    {
+      "file": "app/javascript/onboarding/components/CustomCta.jsx",
+      "line": 1,
+      "specre_id": "01KJVJ3JCADV1ASZQEPK5YT9RC"
+    },
+    {
+      "file": "app/javascript/onboarding/components/EmailPreferencesForm.jsx",
+      "line": 1,
+      "specre_id": "01KJVJ45XH7EQE2H412F1ZGN0V"
+    },
+    {
       "file": "app/javascript/onboarding/components/FollowSubforems.jsx",
       "line": 1,
       "specre_id": "01KHYYD4RVEHXFA0M3F62W5PQD"
@@ -2645,6 +2690,11 @@
       "file": "app/javascript/onboarding/components/FollowUsers.jsx",
       "line": 1,
       "specre_id": "01KJ1XDS1H71C80XA3MK3J78ZX"
+    },
+    {
+      "file": "app/javascript/onboarding/components/Navigation.jsx",
+      "line": 1,
+      "specre_id": "01KJVJ45XH7EQE2H412F1ZGN0V"
     },
     {
       "file": "app/javascript/onboarding/components/ProfileForm.jsx",
@@ -2672,6 +2722,11 @@
       "specre_id": "01KHZ6CFQNFQRAFDNMEDQ8X9S0"
     },
     {
+      "file": "app/javascript/onboarding/components/__tests__/EmailPreferencesForm.test.jsx",
+      "line": 1,
+      "specre_id": "01KJVJ45XH7EQE2H412F1ZGN0V"
+    },
+    {
       "file": "app/javascript/onboarding/components/__tests__/FollowTags.test.jsx",
       "line": 1,
       "specre_id": "01KJ1XAVJ8QCYY0G6ETZ9GF5K2"
@@ -2692,6 +2747,16 @@
       "specre_id": "01KHZ6CFQNFQRAFDNMEDQ8X9S0"
     },
     {
+      "file": "app/javascript/onboarding/components/actions.js",
+      "line": 1,
+      "specre_id": "01KJVJ45XH7EQE2H412F1ZGN0V"
+    },
+    {
+      "file": "app/javascript/onboarding/utilities.js",
+      "line": 1,
+      "specre_id": "01KJVJ45XH7EQE2H412F1ZGN0V"
+    },
+    {
       "file": "app/javascript/organization/OrganizationPicker.jsx",
       "line": 1,
       "specre_id": "01KJ02KZ1T0N31A9EEK1JXA2YS"
@@ -2700,6 +2765,11 @@
       "file": "app/javascript/organization/__tests__/OrganizationPicker.test.jsx",
       "line": 1,
       "specre_id": "01KJ02KZ1T0N31A9EEK1JXA2YS"
+    },
+    {
+      "file": "app/javascript/packs/Onboarding.jsx",
+      "line": 1,
+      "specre_id": "01KJVJ45XH7EQE2H412F1ZGN0V"
     },
     {
       "file": "app/javascript/packs/Search.jsx",
@@ -2940,6 +3010,11 @@
       "file": "app/javascript/packs/notificationPage.js",
       "line": 1,
       "specre_id": "01KJ15MVQ9HCZ8PV80MQ828AQF"
+    },
+    {
+      "file": "app/javascript/packs/onboardingRedirectCheck.jsx",
+      "line": 1,
+      "specre_id": "01KJVJ0PM6MVDTBJ7MH5JY9R5J"
     },
     {
       "file": "app/javascript/packs/orgCreditsSelector.js",
@@ -7327,6 +7402,11 @@
       "specre_id": "01KJTZPRK0G09A0XZ3HREFQZT8"
     },
     {
+      "file": "app/views/auth_pass/iframe.html.erb",
+      "line": 1,
+      "specre_id": "01KJVJ0CDYZE89Q4THGRC8XPCR"
+    },
+    {
       "file": "app/views/bottom_items/index.html.erb",
       "line": 1,
       "specre_id": "01KJBV1G647P4BRNVEY8SP0R1Q"
@@ -7544,6 +7624,11 @@
     {
       "file": "app/views/devise/invitations/edit.html.erb",
       "line": 1,
+      "specre_id": "01KJVJ43WCHFB50B2K9KC6CVS0"
+    },
+    {
+      "file": "app/views/devise/invitations/edit.html.erb",
+      "line": 2,
       "specre_id": "01KJ9FXHGQ9PCEYWSQY1713C0E"
     },
     {
@@ -7880,6 +7965,16 @@
       "file": "app/views/liquids/_youtube.html.erb",
       "line": 1,
       "specre_id": "01KJ1FH9QT2V3RGNJKW67RHNR5"
+    },
+    {
+      "file": "app/views/magic_links/create.html.erb",
+      "line": 1,
+      "specre_id": "01KJVJ01ZBWZ49FSMYNE8GM1CQ"
+    },
+    {
+      "file": "app/views/magic_links/new.html.erb",
+      "line": 1,
+      "specre_id": "01KJVJ01ZBWZ49FSMYNE8GM1CQ"
     },
     {
       "file": "app/views/mailers/custom_mailer/custom_email.html.erb",
@@ -8250,6 +8345,21 @@
       "file": "app/views/notifications/shared/_profile_pic.html.erb",
       "line": 1,
       "specre_id": "01KHZ69T25SN7PPC7HH7ZPCZ2D"
+    },
+    {
+      "file": "app/views/onboardings/_newsletter.html.erb",
+      "line": 1,
+      "specre_id": "01KJVJ45XH7EQE2H412F1ZGN0V"
+    },
+    {
+      "file": "app/views/onboardings/_task_card.html.erb",
+      "line": 1,
+      "specre_id": "01KJVJ45XH7EQE2H412F1ZGN0V"
+    },
+    {
+      "file": "app/views/onboardings/show.html.erb",
+      "line": 1,
+      "specre_id": "01KJVJ45XH7EQE2H412F1ZGN0V"
     },
     {
       "file": "app/views/open_search/show.xml.erb",
@@ -12082,6 +12192,11 @@
       "specre_id": "01KJBWV962FQYVV8TD7XMHWN5Q"
     },
     {
+      "file": "spec/requests/auth_passes_spec.rb",
+      "line": 1,
+      "specre_id": "01KJVJ0CDYZE89Q4THGRC8XPCR"
+    },
+    {
       "file": "spec/requests/badges_spec.rb",
       "line": 1,
       "specre_id": "01KJ6FAFV9D47QGGRY76KPKNC4"
@@ -12212,9 +12327,19 @@
       "specre_id": "01KJVDW6ZPBBC4Y26Z8YE18P1G"
     },
     {
+      "file": "spec/requests/invitations_spec.rb",
+      "line": 1,
+      "specre_id": "01KJVJ43WCHFB50B2K9KC6CVS0"
+    },
+    {
       "file": "spec/requests/liquid_tags_request_spec.rb",
       "line": 1,
       "specre_id": "01KJ1F0MZV6TAFYBWNQG6V0K2W"
+    },
+    {
+      "file": "spec/requests/magic_links_spec.rb",
+      "line": 1,
+      "specre_id": "01KJVJ01ZBWZ49FSMYNE8GM1CQ"
     },
     {
       "file": "spec/requests/moderations_spec.rb",
@@ -12254,6 +12379,16 @@
     {
       "file": "spec/requests/onboardings_spec.rb",
       "line": 1,
+      "specre_id": "01KJVJ45XH7EQE2H412F1ZGN0V"
+    },
+    {
+      "file": "spec/requests/onboardings_spec.rb",
+      "line": 2,
+      "specre_id": "01KJVJ3JCADV1ASZQEPK5YT9RC"
+    },
+    {
+      "file": "spec/requests/onboardings_spec.rb",
+      "line": 3,
       "specre_id": "01KJ1XAVJ8QCYY0G6ETZ9GF5K2"
     },
     {
@@ -13960,6 +14095,16 @@
       "file": "spec/system/notifications/notifications_page_spec.rb",
       "line": 1,
       "specre_id": "01KJ15MVQ9HCZ8PV80MQ828AQF"
+    },
+    {
+      "file": "spec/system/onboardings/user_completes_onboarding_spec.rb",
+      "line": 1,
+      "specre_id": "01KJVJ45XH7EQE2H412F1ZGN0V"
+    },
+    {
+      "file": "spec/system/onboardings/user_completes_onboarding_spec.rb",
+      "line": 2,
+      "specre_id": "01KJVJ0PM6MVDTBJ7MH5JY9R5J"
     },
     {
       "file": "spec/system/organization/user_leaves_an_organization_spec.rb",
@@ -18852,6 +18997,54 @@
       "last_verified": "2026-03-04",
       "name": "system_enforces_rate_limits_on_user_actions",
       "path": "docs/specres/_base_services/system_enforces_rate_limits_on_user_actions.md",
+      "status": "stable"
+    },
+    {
+      "domain": "users",
+      "id": "01KJVJ01ZBWZ49FSMYNE8GM1CQ",
+      "last_verified": "2026-03-04",
+      "name": "user_can_sign_in_or_register_via_magic_link",
+      "path": "docs/specres/users/authentication/user_can_sign_in_or_register_via_magic_link.md",
+      "status": "stable"
+    },
+    {
+      "domain": "users",
+      "id": "01KJVJ0CDYZE89Q4THGRC8XPCR",
+      "last_verified": "2026-03-04",
+      "name": "system_authenticates_user_across_subforems_via_iframe",
+      "path": "docs/specres/users/authentication/system_authenticates_user_across_subforems_via_iframe.md",
+      "status": "stable"
+    },
+    {
+      "domain": "users",
+      "id": "01KJVJ0PM6MVDTBJ7MH5JY9R5J",
+      "last_verified": null,
+      "name": "system_redirects_new_user_to_onboarding",
+      "path": "docs/specres/users/onboarding/system_redirects_new_user_to_onboarding.md",
+      "status": "draft"
+    },
+    {
+      "domain": "users",
+      "id": "01KJVJ3JCADV1ASZQEPK5YT9RC",
+      "last_verified": "2026-03-04",
+      "name": "user_can_follow_custom_initiatives_during_onboarding",
+      "path": "docs/specres/users/onboarding/user_can_follow_custom_initiatives_during_onboarding.md",
+      "status": "stable"
+    },
+    {
+      "domain": "users",
+      "id": "01KJVJ43WCHFB50B2K9KC6CVS0",
+      "last_verified": null,
+      "name": "user_accepts_invitation_to_join_community",
+      "path": "docs/specres/users/authentication/user_accepts_invitation_to_join_community.md",
+      "status": "draft"
+    },
+    {
+      "domain": "users",
+      "id": "01KJVJ45XH7EQE2H412F1ZGN0V",
+      "last_verified": "2026-03-04",
+      "name": "user_completes_onboarding_checklist",
+      "path": "docs/specres/users/onboarding/user_completes_onboarding_checklist.md",
       "status": "stable"
     }
   ],

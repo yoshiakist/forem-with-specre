@@ -59,3 +59,9 @@
 | [user_can_sign_up_or_log_in_with_mlh](authentication/user_can_sign_up_or_log_in_with_mlh.md) | stable | 2026-02-26 |
 | [user_can_sign_up_or_log_in_with_forem](authentication/user_can_sign_up_or_log_in_with_forem.md) | stable | 2026-02-26 |
 | [user_can_reset_password](authentication/user_can_reset_password.md) | stable | 2026-02-26 |
+| [user_can_sign_in_or_register_via_magic_link](authentication/user_can_sign_in_or_register_via_magic_link.md) | stable | 2026-03-04 |
+| [system_authenticates_user_across_subforems_via_iframe](authentication/system_authenticates_user_across_subforems_via_iframe.md) | stable | 2026-03-04 |
+| [system_redirects_new_user_to_onboarding](onboarding/system_redirects_new_user_to_onboarding.md) | draft | - |
+| [user_can_follow_custom_initiatives_during_onboarding](onboarding/user_can_follow_custom_initiatives_during_onboarding.md) | stable | 2026-03-04 |
+| [user_accepts_invitation_to_join_community](authentication/user_accepts_invitation_to_join_community.md) | draft | - |
+| [user_completes_onboarding_checklist](onboarding/user_completes_onboarding_checklist.md) | stable | 2026-03-04 |

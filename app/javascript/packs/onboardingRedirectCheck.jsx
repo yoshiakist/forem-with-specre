@@ -1,3 +1,4 @@
+// @specre 01KJVJ0PM6MVDTBJ7MH5JY9R5J
 import { getUserDataAndCsrfToken } from '@utilities/getUserDataAndCsrfToken';
 
 HTMLDocument.prototype.ready = new Promise((resolve) => {

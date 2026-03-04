@@ -1,3 +1,4 @@
+# @specre 01KJVJ0CDYZE89Q4THGRC8XPCR
 class AuthPassController < ApplicationController
   # Skip CSRF protection for specific actions if necessary
   skip_before_action :verify_authenticity_token, only: [:iframe, :token_login]

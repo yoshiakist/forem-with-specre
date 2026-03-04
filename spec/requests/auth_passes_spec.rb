@@ -1,3 +1,4 @@
+# @specre 01KJVJ0CDYZE89Q4THGRC8XPCR
 # spec/requests/auth_pass_spec.rb
 require 'rails_helper'
 
