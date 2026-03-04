@@ -25,6 +25,7 @@ last_verified: "2026-03-04"
 - `app/javascript/article-form/components/Toolbar.jsx`
 - `app/javascript/article-form/components/Close.jsx`
 - `app/javascript/article-form/components/ErrorList.jsx`
+- `app/javascript/article-form/components/index.js`
 - `app/javascript/packs/articleForm.jsx`
 - `app/views/articles/edit.html.erb` (Template)
 - `app/views/articles/_v2_form.html.erb` (Template)

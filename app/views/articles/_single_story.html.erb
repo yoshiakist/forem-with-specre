@@ -1,3 +1,4 @@
+<%# @specre 01KJV72NZBF1FK1XSC1ET596PS %>
 <div class="crayons-story <% if featured == true %>crayons-story--featured<% end %>" data-feed-content-id="<%= story.id %>" data-content-user-id="<%= story.user_id %>">
   <a href="<%= URL.article(story) %>" aria-labelledby="article-link-<%= story.id %>" class="crayons-story__hidden-navigation-link"><%= story.type_of == "status" && story.title_finalized ? story.title_finalized : story.title %></a>
   <% if featured == true %>

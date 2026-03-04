@@ -1,3 +1,4 @@
+// @specre 01KJV72NZBF1FK1XSC1ET596PS
 /* eslint-disable no-irregular-whitespace */
 import { h } from 'preact';
 import { render } from '@testing-library/preact';

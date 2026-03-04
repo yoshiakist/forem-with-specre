@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-04T00:25:24Z",
+  "generated_at": "2026-03-04T01:27:44Z",
   "source_refs": [
     {
       "file": "app/assets/javascripts/initializers/initializeAllTagEditButtons.js",
@@ -25,6 +25,11 @@
       "file": "app/assets/javascripts/subforemSelectionModal.js",
       "line": 1,
       "specre_id": "01KHYYC8DH90XT7E7QYRPVDT2W"
+    },
+    {
+      "file": "app/assets/javascripts/utilities/buildArticleHTML.js",
+      "line": 1,
+      "specre_id": "01KJV72NZBF1FK1XSC1ET596PS"
     },
     {
       "file": "app/assets/stylesheets/ltags/PodcastTag.scss",
@@ -1924,27 +1929,47 @@
     {
       "file": "app/javascript/article-form/articleForm.jsx",
       "line": 1,
-      "specre_id": "01KJV0FGGM94SH8KZS9W17794A"
+      "specre_id": "01KJV76MT6VG17M3KM7NJQ6T52"
     },
     {
       "file": "app/javascript/article-form/articleForm.jsx",
       "line": 2,
-      "specre_id": "01KJV0FG4SVVE94D8VGYYQE8YY"
+      "specre_id": "01KJV7320ZN2XMTYR9W58S7BBX"
     },
     {
       "file": "app/javascript/article-form/articleForm.jsx",
       "line": 3,
-      "specre_id": "01KJV0FF10MZMWNFJB77RRFZ6S"
+      "specre_id": "01KJV72PBDYQK52A1J9HY0CEHX"
     },
     {
       "file": "app/javascript/article-form/articleForm.jsx",
       "line": 4,
-      "specre_id": "01KJTZVFN07Y5FR14D7Y40J9F5"
+      "specre_id": "01KJV0FGGM94SH8KZS9W17794A"
     },
     {
       "file": "app/javascript/article-form/articleForm.jsx",
       "line": 5,
+      "specre_id": "01KJV0FG4SVVE94D8VGYYQE8YY"
+    },
+    {
+      "file": "app/javascript/article-form/articleForm.jsx",
+      "line": 6,
+      "specre_id": "01KJV0FF10MZMWNFJB77RRFZ6S"
+    },
+    {
+      "file": "app/javascript/article-form/articleForm.jsx",
+      "line": 7,
+      "specre_id": "01KJTZVFN07Y5FR14D7Y40J9F5"
+    },
+    {
+      "file": "app/javascript/article-form/articleForm.jsx",
+      "line": 8,
       "specre_id": "01KJTZNTD1B2X40J6GGAH2K1ZK"
+    },
+    {
+      "file": "app/javascript/article-form/components/AccessibilitySuggestions.jsx",
+      "line": 1,
+      "specre_id": "01KJV7320ZN2XMTYR9W58S7BBX"
     },
     {
       "file": "app/javascript/article-form/components/ArticleCoverImage.jsx",
@@ -2017,9 +2042,34 @@
       "specre_id": "01KJTZNTD1B2X40J6GGAH2K1ZK"
     },
     {
+      "file": "app/javascript/article-form/components/Help/ArticleFormTitle.jsx",
+      "line": 1,
+      "specre_id": "01KJV72PBDYQK52A1J9HY0CEHX"
+    },
+    {
+      "file": "app/javascript/article-form/components/Help/ArticleTips.jsx",
+      "line": 1,
+      "specre_id": "01KJV72PBDYQK52A1J9HY0CEHX"
+    },
+    {
+      "file": "app/javascript/article-form/components/Help/BasicEditor.jsx",
+      "line": 1,
+      "specre_id": "01KJV72PBDYQK52A1J9HY0CEHX"
+    },
+    {
+      "file": "app/javascript/article-form/components/Help/EditorFormattingHelp.jsx",
+      "line": 1,
+      "specre_id": "01KJV72PBDYQK52A1J9HY0CEHX"
+    },
+    {
       "file": "app/javascript/article-form/components/Help/TagInput.jsx",
       "line": 1,
       "specre_id": "01KJ41F3K1B3SRQ2HBYFY2N2M4"
+    },
+    {
+      "file": "app/javascript/article-form/components/Help/index.jsx",
+      "line": 1,
+      "specre_id": "01KJV72PBDYQK52A1J9HY0CEHX"
     },
     {
       "file": "app/javascript/article-form/components/ImageUploader.jsx",
@@ -2039,6 +2089,11 @@
     {
       "file": "app/javascript/article-form/components/Options.jsx",
       "line": 1,
+      "specre_id": "01KJV76MT6VG17M3KM7NJQ6T52"
+    },
+    {
+      "file": "app/javascript/article-form/components/Options.jsx",
+      "line": 2,
       "specre_id": "01KJTZNTD1B2X40J6GGAH2K1ZK"
     },
     {
@@ -2049,7 +2104,22 @@
     {
       "file": "app/javascript/article-form/components/Preview.jsx",
       "line": 1,
+      "specre_id": "01KJV7320ZN2XMTYR9W58S7BBX"
+    },
+    {
+      "file": "app/javascript/article-form/components/Preview.jsx",
+      "line": 2,
       "specre_id": "01KJTZVFN07Y5FR14D7Y40J9F5"
+    },
+    {
+      "file": "app/javascript/article-form/components/SeriesSelector.jsx",
+      "line": 1,
+      "specre_id": "01KJV76MT6VG17M3KM7NJQ6T52"
+    },
+    {
+      "file": "app/javascript/article-form/components/SeriesSelectorModal.jsx",
+      "line": 1,
+      "specre_id": "01KJV76MT6VG17M3KM7NJQ6T52"
     },
     {
       "file": "app/javascript/article-form/components/Tabs.jsx",
@@ -2072,6 +2142,11 @@
       "specre_id": "01KJTZNTD1B2X40J6GGAH2K1ZK"
     },
     {
+      "file": "app/javascript/article-form/components/__tests__/AccessibilitySuggestions.test.jsx",
+      "line": 1,
+      "specre_id": "01KJV7320ZN2XMTYR9W58S7BBX"
+    },
+    {
       "file": "app/javascript/article-form/components/__tests__/ArticleCoverImage.test.jsx",
       "line": 1,
       "specre_id": "01KJ1C8G3AN3EVK907SGXDWZG5"
@@ -2092,6 +2167,11 @@
       "specre_id": "01KJTZNTD1B2X40J6GGAH2K1ZK"
     },
     {
+      "file": "app/javascript/article-form/components/__tests__/Help.test.jsx",
+      "line": 1,
+      "specre_id": "01KJV72PBDYQK52A1J9HY0CEHX"
+    },
+    {
       "file": "app/javascript/article-form/components/__tests__/ImageUploader.test.jsx",
       "line": 1,
       "specre_id": "01KJ1C8G3AN3EVK907SGXDWZG5"
@@ -2104,6 +2184,11 @@
     {
       "file": "app/javascript/article-form/components/__tests__/Options.test.jsx",
       "line": 1,
+      "specre_id": "01KJV76MT6VG17M3KM7NJQ6T52"
+    },
+    {
+      "file": "app/javascript/article-form/components/__tests__/Options.test.jsx",
+      "line": 2,
       "specre_id": "01KJTZNTD1B2X40J6GGAH2K1ZK"
     },
     {
@@ -2122,7 +2207,27 @@
       "specre_id": "01KJ1C8G3AN3EVK907SGXDWZG5"
     },
     {
+      "file": "app/javascript/article-form/components/__tests__/pasteImageHelpers.test.jsx",
+      "line": 1,
+      "specre_id": "01KJ1C8G3AN3EVK907SGXDWZG5"
+    },
+    {
       "file": "app/javascript/article-form/components/dragAndDropHelpers.js",
+      "line": 1,
+      "specre_id": "01KJ1C8G3AN3EVK907SGXDWZG5"
+    },
+    {
+      "file": "app/javascript/article-form/components/imageUploadHelpers.js",
+      "line": 1,
+      "specre_id": "01KJ1C8G3AN3EVK907SGXDWZG5"
+    },
+    {
+      "file": "app/javascript/article-form/components/index.js",
+      "line": 1,
+      "specre_id": "01KJTZNTD1B2X40J6GGAH2K1ZK"
+    },
+    {
+      "file": "app/javascript/article-form/components/pasteImageHelpers.js",
       "line": 1,
       "specre_id": "01KJ1C8G3AN3EVK907SGXDWZG5"
     },
@@ -2132,9 +2237,24 @@
       "specre_id": "01KJ1C8DKS21XYDGCTHY01V45T"
     },
     {
+      "file": "app/javascript/articles/Article.jsx",
+      "line": 1,
+      "specre_id": "01KJV72NZBF1FK1XSC1ET596PS"
+    },
+    {
       "file": "app/javascript/articles/Feed.jsx",
       "line": 1,
+      "specre_id": "01KJV72NZBF1FK1XSC1ET596PS"
+    },
+    {
+      "file": "app/javascript/articles/Feed.jsx",
+      "line": 2,
       "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
+    },
+    {
+      "file": "app/javascript/articles/LoadingArticle.jsx",
+      "line": 1,
+      "specre_id": "01KJV72NZBF1FK1XSC1ET596PS"
     },
     {
       "file": "app/javascript/articles/PodcastArticle.jsx",
@@ -2142,34 +2262,124 @@
       "specre_id": "01KHZ78Z9A3R2NWZF2B6EZ82AJ"
     },
     {
+      "file": "app/javascript/articles/__tests__/Article.test.jsx",
+      "line": 1,
+      "specre_id": "01KJV72NZBF1FK1XSC1ET596PS"
+    },
+    {
+      "file": "app/javascript/articles/__tests__/ArticleLoading.test.jsx",
+      "line": 1,
+      "specre_id": "01KJV72NZBF1FK1XSC1ET596PS"
+    },
+    {
       "file": "app/javascript/articles/__tests__/Feed.test.jsx",
       "line": 1,
       "specre_id": "01KJ246ARS7Y65PKK7T8V3CZFQ"
     },
     {
+      "file": "app/javascript/articles/components/ArticleCoverImage.jsx",
+      "line": 1,
+      "specre_id": "01KJV72NZBF1FK1XSC1ET596PS"
+    },
+    {
+      "file": "app/javascript/articles/components/CommentListItem.jsx",
+      "line": 1,
+      "specre_id": "01KJV72NZBF1FK1XSC1ET596PS"
+    },
+    {
+      "file": "app/javascript/articles/components/CommentsCount.jsx",
+      "line": 1,
+      "specre_id": "01KJV72NZBF1FK1XSC1ET596PS"
+    },
+    {
+      "file": "app/javascript/articles/components/CommentsList.jsx",
+      "line": 1,
+      "specre_id": "01KJV72NZBF1FK1XSC1ET596PS"
+    },
+    {
+      "file": "app/javascript/articles/components/ContentTitle.jsx",
+      "line": 1,
+      "specre_id": "01KJV72NZBF1FK1XSC1ET596PS"
+    },
+    {
+      "file": "app/javascript/articles/components/Meta.jsx",
+      "line": 1,
+      "specre_id": "01KJV72NZBF1FK1XSC1ET596PS"
+    },
+    {
+      "file": "app/javascript/articles/components/PublishDate.jsx",
+      "line": 1,
+      "specre_id": "01KJV72NZBF1FK1XSC1ET596PS"
+    },
+    {
       "file": "app/javascript/articles/components/ReactionsCount.jsx",
       "line": 1,
+      "specre_id": "01KJV72NZBF1FK1XSC1ET596PS"
+    },
+    {
+      "file": "app/javascript/articles/components/ReactionsCount.jsx",
+      "line": 2,
       "specre_id": "01KHZ55SRCPDHPWM0EYSTE60MK"
+    },
+    {
+      "file": "app/javascript/articles/components/ReadingTime.jsx",
+      "line": 1,
+      "specre_id": "01KJV72NZBF1FK1XSC1ET596PS"
+    },
+    {
+      "file": "app/javascript/articles/components/SaveButton.jsx",
+      "line": 1,
+      "specre_id": "01KJV72NZBF1FK1XSC1ET596PS"
     },
     {
       "file": "app/javascript/articles/components/SearchSnippet.jsx",
       "line": 1,
+      "specre_id": "01KJV72NZBF1FK1XSC1ET596PS"
+    },
+    {
+      "file": "app/javascript/articles/components/SearchSnippet.jsx",
+      "line": 2,
       "specre_id": "01KHZ22E63WBQWYFZNQVEA2EEE"
     },
     {
       "file": "app/javascript/articles/components/TagList.jsx",
       "line": 1,
+      "specre_id": "01KJV72NZBF1FK1XSC1ET596PS"
+    },
+    {
+      "file": "app/javascript/articles/components/TagList.jsx",
+      "line": 2,
       "specre_id": "01KJ41JJ73MXNDK5F9W99N0P0A"
     },
     {
       "file": "app/javascript/articles/components/Video.jsx",
       "line": 1,
+      "specre_id": "01KJV72NZBF1FK1XSC1ET596PS"
+    },
+    {
+      "file": "app/javascript/articles/components/Video.jsx",
+      "line": 2,
       "specre_id": "01KJBWV962FQYVV8TD7XMHWN5Q"
+    },
+    {
+      "file": "app/javascript/articles/components/__tests__/CommentsList.test.jsx",
+      "line": 1,
+      "specre_id": "01KJV72NZBF1FK1XSC1ET596PS"
     },
     {
       "file": "app/javascript/articles/components/__tests__/ReactionsCount.test.jsx",
       "line": 1,
       "specre_id": "01KHZ55SRCPDHPWM0EYSTE60MK"
+    },
+    {
+      "file": "app/javascript/articles/components/__tests__/SaveButton.test.jsx",
+      "line": 1,
+      "specre_id": "01KJV72NZBF1FK1XSC1ET596PS"
+    },
+    {
+      "file": "app/javascript/articles/components/index.js",
+      "line": 1,
+      "specre_id": "01KJV72NZBF1FK1XSC1ET596PS"
     },
     {
       "file": "app/javascript/articles/index.js",
@@ -2209,6 +2419,11 @@
     {
       "file": "app/javascript/common-prop-types/article-prop-types.js",
       "line": 1,
+      "specre_id": "01KJV72NZBF1FK1XSC1ET596PS"
+    },
+    {
+      "file": "app/javascript/common-prop-types/article-prop-types.js",
+      "line": 2,
       "specre_id": "01KJCK5NSKJNEBDJYZA4QQ3YBW"
     },
     {
@@ -6647,6 +6862,11 @@
       "specre_id": "01KJCK5NSKJNEBDJYZA4QQ3YBW"
     },
     {
+      "file": "app/views/articles/_single_story.html.erb",
+      "line": 1,
+      "specre_id": "01KJV72NZBF1FK1XSC1ET596PS"
+    },
+    {
       "file": "app/views/articles/_sticky_nav.html.erb",
       "line": 1,
       "specre_id": "01KJBV4Y67GJZ6K5AA2YX7YSZA"
@@ -6670,6 +6890,11 @@
       "file": "app/views/articles/_video_player.html.erb",
       "line": 1,
       "specre_id": "01KJBWV962FQYVV8TD7XMHWN5Q"
+    },
+    {
+      "file": "app/views/articles/_widget_list_item.html.erb",
+      "line": 1,
+      "specre_id": "01KJV72NZBF1FK1XSC1ET596PS"
     },
     {
       "file": "app/views/articles/delete_confirm.html.erb",
@@ -6895,6 +7120,16 @@
       "file": "app/views/dashboards/_analytics.html.erb",
       "line": 1,
       "specre_id": "01KJ6QCRKBRQEYW40CPRAZ1GC7"
+    },
+    {
+      "file": "app/views/dashboards/_dashboard_article.html.erb",
+      "line": 1,
+      "specre_id": "01KJV3PD89JNE8190FG9GCAV33"
+    },
+    {
+      "file": "app/views/dashboards/_dashboard_article_row.html.erb",
+      "line": 1,
+      "specre_id": "01KJV3PD89JNE8190FG9GCAV33"
     },
     {
       "file": "app/views/dashboards/_tags.html.erb",
@@ -7612,6 +7847,11 @@
       "specre_id": "01KHZ59AQ4W3GQVDAC6H33R4FD"
     },
     {
+      "file": "app/views/notifications/_article.html.erb",
+      "line": 1,
+      "specre_id": "01KJ15MVQ9HCZ8PV80MQ828AQF"
+    },
+    {
       "file": "app/views/notifications/_broadcast.html.erb",
       "line": 1,
       "specre_id": "01KJ6DW7GBQ5XAQKBV7MCPS2FA"
@@ -7630,6 +7870,11 @@
       "file": "app/views/notifications/_tagadjustment.html.erb",
       "line": 1,
       "specre_id": "01KJ15W5XTEVQVJN1FCRNWEKAB"
+    },
+    {
+      "file": "app/views/notifications/shared/_article_preview.html.erb",
+      "line": 1,
+      "specre_id": "01KJ15MVQ9HCZ8PV80MQ828AQF"
     },
     {
       "file": "app/views/notifications/shared/_profile_pic.html.erb",
@@ -17670,6 +17915,38 @@
       "name": "author_views_articles_on_dashboard",
       "path": "docs/specres/articles/author_views_articles_on_dashboard.md",
       "status": "stable"
+    },
+    {
+      "domain": "articles",
+      "id": "01KJV72NZBF1FK1XSC1ET596PS",
+      "last_verified": "2026-03-04",
+      "name": "system_renders_article_feed_card",
+      "path": "docs/specres/articles/system_renders_article_feed_card.md",
+      "status": "stable"
+    },
+    {
+      "domain": "articles",
+      "id": "01KJV72PBDYQK52A1J9HY0CEHX",
+      "last_verified": "2026-03-04",
+      "name": "editor_shows_contextual_help_and_formatting_guidance",
+      "path": "docs/specres/articles/editor_shows_contextual_help_and_formatting_guidance.md",
+      "status": "stable"
+    },
+    {
+      "domain": "articles",
+      "id": "01KJV7320ZN2XMTYR9W58S7BBX",
+      "last_verified": "2026-03-04",
+      "name": "editor_shows_accessibility_suggestions_in_preview",
+      "path": "docs/specres/articles/editor_shows_accessibility_suggestions_in_preview.md",
+      "status": "stable"
+    },
+    {
+      "domain": "articles",
+      "id": "01KJV76MT6VG17M3KM7NJQ6T52",
+      "last_verified": null,
+      "name": "author_selects_series_for_article_in_editor",
+      "path": "docs/specres/articles/author_selects_series_for_article_in_editor.md",
+      "status": "draft"
     }
   ],
   "version": 1

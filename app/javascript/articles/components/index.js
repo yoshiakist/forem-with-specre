@@ -1,3 +1,4 @@
+// @specre 01KJV72NZBF1FK1XSC1ET596PS
 export * from './ArticleCoverImage';
 export * from './ContentTitle';
 export * from './CommentsCount';

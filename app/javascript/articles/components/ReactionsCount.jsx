@@ -1,3 +1,4 @@
+// @specre 01KJV72NZBF1FK1XSC1ET596PS
 // @specre 01KHZ55SRCPDHPWM0EYSTE60MK
 import { h } from 'preact';
 import { articlePropTypes } from '../../common-prop-types';

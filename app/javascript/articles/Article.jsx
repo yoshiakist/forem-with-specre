@@ -1,3 +1,4 @@
+// @specre 01KJV72NZBF1FK1XSC1ET596PS
 import { h } from 'preact';
 import PropTypes from 'prop-types';
 import { articlePropTypes } from '../common-prop-types/article-prop-types';

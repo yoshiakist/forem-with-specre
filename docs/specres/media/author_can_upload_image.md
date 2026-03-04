@@ -19,6 +19,9 @@ last_verified: "2026-02-22"
 - `app/javascript/article-form/components/__tests__/ArticleCoverImage.test.jsx` (Test)
 - `app/javascript/article-form/components/__tests__/ImageUploader.test.jsx` (Test)
 - `app/javascript/article-form/components/__tests__/dragAndDropHelpers.test.js` (Test)
+- `app/javascript/article-form/components/imageUploadHelpers.js`
+- `app/javascript/article-form/components/pasteImageHelpers.js`
+- `app/javascript/article-form/components/__tests__/pasteImageHelpers.test.jsx` (Test)
 
 ## Functional Overview
 

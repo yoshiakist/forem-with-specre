@@ -45,3 +45,7 @@
 | [editor_warns_before_closing](editor_warns_before_closing.md) | stable | 2026-03-04 |
 | [author_prefills_editor_from_tag_template](author_prefills_editor_from_tag_template.md) | stable | 2026-03-04 |
 | [author_views_articles_on_dashboard](author_views_articles_on_dashboard.md) | stable | 2026-03-04 |
+| [system_renders_article_feed_card](system_renders_article_feed_card.md) | stable | 2026-03-04 |
+| [editor_shows_contextual_help_and_formatting_guidance](editor_shows_contextual_help_and_formatting_guidance.md) | stable | 2026-03-04 |
+| [editor_shows_accessibility_suggestions_in_preview](editor_shows_accessibility_suggestions_in_preview.md) | stable | 2026-03-04 |
+| [author_selects_series_for_article_in_editor](author_selects_series_for_article_in_editor.md) | draft | - |
