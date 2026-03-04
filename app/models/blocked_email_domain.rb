@@ -1,3 +1,4 @@
+# @specre 01KJVP4KGZFT0V02XDF80Y8517
 # @specre 01KJ74FE48B8HJGBTKCFTWECFQ
 # @specre 01KJ74CHA3SNK2FRMDYG1B7QA5
 class BlockedEmailDomain < ApplicationRecord

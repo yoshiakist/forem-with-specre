@@ -1,3 +1,4 @@
+# @specre 01KJVP4KGZFT0V02XDF80Y8517
 require "rails_helper"
 
 RSpec.describe "User spam detection", type: :model do

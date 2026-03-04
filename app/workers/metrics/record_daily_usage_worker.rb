@@ -1,3 +1,4 @@
+# @specre 01KJVP58C9EFXMZQWJ0JYF7004
 module Metrics
   class RecordDailyUsageWorker
     include Sidekiq::Job

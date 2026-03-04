@@ -1,3 +1,4 @@
+# @specre 01KJVP4KGZFT0V02XDF80Y8517
 module Spam
   class BlockDomainAndSuspendUsersWorker
     include Sidekiq::Worker
