@@ -6,8 +6,16 @@ status: "draft"
 
 ## Related Files
 
+- `app/controllers/reading_list_items_controller.rb`
 - `app/javascript/packs/readingList.jsx`
 - `app/javascript/readingList/readingList.jsx`
+- `app/javascript/readingList/components/ItemListItem.jsx`
+- `app/javascript/readingList/components/TagList.jsx`
+- `app/views/reading_list_items/index.html.erb`
+- `spec/requests/reading_list_items_spec.rb` (Test)
+- `spec/system/user_views_a_reading_list_spec.rb` (Test)
+- `app/javascript/readingList/components/__tests__/ItemListItem.test.jsx` (Test)
+- `app/javascript/readingList/__tests__/readingList.test.jsx` (Test)
 
 ## Functional Overview
 

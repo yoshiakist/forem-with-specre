@@ -1,3 +1,5 @@
+# @specre 01KJY12PD73C5DE32KJHRMCBKP
+# @specre 01KJXY2EH4JHHV5SBS4KPNYYAH
 class ReadingListItemsController < ApplicationController
   def index
     @reading_list_items_index = true
