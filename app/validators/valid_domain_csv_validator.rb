@@ -1,3 +1,4 @@
+# @specre 01KJXNEY6XZP2ZTVKP791AZD5G
 # @note While the validator implies a CSV, the implementation is that
 #       we have an array.  Upstream implementors likely accept a CSV
 #       and coerce it into an array.  See Authentication::Base for an

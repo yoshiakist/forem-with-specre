@@ -1,3 +1,4 @@
+// @specre 01KJXNBDC10EP7TQ8TQ9Q9F4SX
 import { WCAGColorContrast } from '@utilities/color/WCAGColorContrast';
 
 // Tests have been extracted from the original library https://github.com/doochik/wcag-color-contrast/blob/master/index.html
