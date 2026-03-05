@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-05T02:52:24Z",
+  "generated_at": "2026-03-05T03:15:39Z",
   "source_refs": [
     {
       "file": "app/assets/javascripts/initializers/initializeAllTagEditButtons.js",
@@ -1957,6 +1957,11 @@
       "specre_id": "01KJ5DQT35P394JJVCSC077ZX5"
     },
     {
+      "file": "app/helpers/crayons_helper.rb",
+      "line": 1,
+      "specre_id": "01KJXZKK9VT55P2Y3HEE9044KS"
+    },
+    {
       "file": "app/helpers/feedback_messages_helper.rb",
       "line": 1,
       "specre_id": "01KJ25KAPB0FAFF74WX0TD106P"
@@ -2767,9 +2772,134 @@
       "specre_id": "01KHYH43TN4FS8ZYTW757DZBHZ"
     },
     {
+      "file": "app/javascript/crayons/AutocompleteTriggerTextArea/AutocompleteTriggerTextArea.jsx",
+      "line": 1,
+      "specre_id": "01KJXZTMRF1JY5D0FS8VQV3V8V"
+    },
+    {
       "file": "app/javascript/crayons/AutocompleteTriggerTextArea/UserListItemContent.jsx",
       "line": 1,
       "specre_id": "01KHZ2A12P5D6JD7A07Y0K0G87"
+    },
+    {
+      "file": "app/javascript/crayons/AutocompleteTriggerTextArea/__tests__/AutocompleteTriggerTextArea.test.jsx",
+      "line": 1,
+      "specre_id": "01KJXZTMRF1JY5D0FS8VQV3V8V"
+    },
+    {
+      "file": "app/javascript/crayons/AutocompleteTriggerTextArea/index.js",
+      "line": 1,
+      "specre_id": "01KJXZTMRF1JY5D0FS8VQV3V8V"
+    },
+    {
+      "file": "app/javascript/crayons/Button/Button.jsx",
+      "line": 1,
+      "specre_id": "01KJXZ9HXPZXY1JNTPC27CV31K"
+    },
+    {
+      "file": "app/javascript/crayons/Button/__tests__/Button.test.jsx",
+      "line": 1,
+      "specre_id": "01KJXZ9HXPZXY1JNTPC27CV31K"
+    },
+    {
+      "file": "app/javascript/crayons/Button/index.js",
+      "line": 1,
+      "specre_id": "01KJXZ9HXPZXY1JNTPC27CV31K"
+    },
+    {
+      "file": "app/javascript/crayons/ButtonGroup/ButtonGroup.jsx",
+      "line": 1,
+      "specre_id": "01KJXZ9DWA0B3KQM84ZW3D4BBC"
+    },
+    {
+      "file": "app/javascript/crayons/ButtonGroup/__tests__/ButtonGroup.test.jsx",
+      "line": 1,
+      "specre_id": "01KJXZ9DWA0B3KQM84ZW3D4BBC"
+    },
+    {
+      "file": "app/javascript/crayons/ButtonGroup/index.js",
+      "line": 1,
+      "specre_id": "01KJXZ9DWA0B3KQM84ZW3D4BBC"
+    },
+    {
+      "file": "app/javascript/crayons/Buttons/Button.jsx",
+      "line": 1,
+      "specre_id": "01KJXZ9HXPZXY1JNTPC27CV31K"
+    },
+    {
+      "file": "app/javascript/crayons/Buttons/__tests__/Buttons.test.jsx",
+      "line": 1,
+      "specre_id": "01KJXZ9HXPZXY1JNTPC27CV31K"
+    },
+    {
+      "file": "app/javascript/crayons/Buttons/index.js",
+      "line": 1,
+      "specre_id": "01KJXZ9HXPZXY1JNTPC27CV31K"
+    },
+    {
+      "file": "app/javascript/crayons/CTAs/CTA.jsx",
+      "line": 1,
+      "specre_id": "01KJXZBTG4D34B5NGNH7T7AKA7"
+    },
+    {
+      "file": "app/javascript/crayons/CTAs/__tests__/CTA.test.jsx",
+      "line": 1,
+      "specre_id": "01KJXZBTG4D34B5NGNH7T7AKA7"
+    },
+    {
+      "file": "app/javascript/crayons/CTAs/index.js",
+      "line": 1,
+      "specre_id": "01KJXZBTG4D34B5NGNH7T7AKA7"
+    },
+    {
+      "file": "app/javascript/crayons/Dropdown/Dropdown.jsx",
+      "line": 1,
+      "specre_id": "01KJXZBZ7SD70HBFWCDJ1GCTZB"
+    },
+    {
+      "file": "app/javascript/crayons/Dropdown/__tests__/Dropdown.test.jsx",
+      "line": 1,
+      "specre_id": "01KJXZBZ7SD70HBFWCDJ1GCTZB"
+    },
+    {
+      "file": "app/javascript/crayons/Dropdown/index.js",
+      "line": 1,
+      "specre_id": "01KJXZBZ7SD70HBFWCDJ1GCTZB"
+    },
+    {
+      "file": "app/javascript/crayons/Icons/Icon.jsx",
+      "line": 1,
+      "specre_id": "01KJXZKK9VT55P2Y3HEE9044KS"
+    },
+    {
+      "file": "app/javascript/crayons/Icons/index.js",
+      "line": 1,
+      "specre_id": "01KJXZKK9VT55P2Y3HEE9044KS"
+    },
+    {
+      "file": "app/javascript/crayons/Indicators/Indicator.jsx",
+      "line": 1,
+      "specre_id": "01KJXZKS5PJJSC8V8DZAGDWVFV"
+    },
+    {
+      "file": "app/javascript/crayons/Indicators/index.js",
+      "line": 1,
+      "specre_id": "01KJXZKS5PJJSC8V8DZAGDWVFV"
+    },
+    {
+      "file": "app/javascript/crayons/Links/Link.jsx",
+      "line": 1,
+      "specre_id": "01KJXZ9CSVRBRJJYMZHDJRHHFD"
+    },
+    {
+      "file": "app/javascript/crayons/Links/__tests__/Link.test.jsx",
+      "line": 1,
+      "specre_id": "01KJXZ9CSVRBRJJYMZHDJRHHFD"
+    },
+    {
+      "file": "app/javascript/crayons/Links/index.js",
+      "line": 1,
+      "specre_id": "01KJXZ9CSVRBRJJYMZHDJRHHFD"
     },
     {
       "file": "app/javascript/crayons/MarkdownToolbar/MarkdownToolbar.jsx",
@@ -2797,6 +2927,51 @@
       "specre_id": "01KJ2XF079Y76ZC5FMC33W6BZB"
     },
     {
+      "file": "app/javascript/crayons/MobileDrawer/MobileDrawer.jsx",
+      "line": 1,
+      "specre_id": "01KJXZE70RB82FADAFM5ZSKYH1"
+    },
+    {
+      "file": "app/javascript/crayons/MobileDrawer/__tests__/MobileDrawer.test.jsx",
+      "line": 1,
+      "specre_id": "01KJXZE70RB82FADAFM5ZSKYH1"
+    },
+    {
+      "file": "app/javascript/crayons/MobileDrawer/index.js",
+      "line": 1,
+      "specre_id": "01KJXZE70RB82FADAFM5ZSKYH1"
+    },
+    {
+      "file": "app/javascript/crayons/Modal/Modal.jsx",
+      "line": 1,
+      "specre_id": "01KJXZC4RF6CQF1P2CKHBY06GZ"
+    },
+    {
+      "file": "app/javascript/crayons/Modal/__tests__/Modal.test.jsx",
+      "line": 1,
+      "specre_id": "01KJXZC4RF6CQF1P2CKHBY06GZ"
+    },
+    {
+      "file": "app/javascript/crayons/Modal/index.js",
+      "line": 1,
+      "specre_id": "01KJXZC4RF6CQF1P2CKHBY06GZ"
+    },
+    {
+      "file": "app/javascript/crayons/MultiInput/MultiInput.jsx",
+      "line": 1,
+      "specre_id": "01KJXZPHA4ZGKYT9TKD0PD211R"
+    },
+    {
+      "file": "app/javascript/crayons/MultiInput/__tests__/MultiInput.test.jsx",
+      "line": 1,
+      "specre_id": "01KJXZPHA4ZGKYT9TKD0PD211R"
+    },
+    {
+      "file": "app/javascript/crayons/MultiSelectAutocomplete/MultiSelectAutocomplete.jsx",
+      "line": 1,
+      "specre_id": "01KJXZPXJRX88PHAXM110J8W95"
+    },
+    {
       "file": "app/javascript/crayons/MultiSelectAutocomplete/TagAutocompleteOption.jsx",
       "line": 1,
       "specre_id": "01KJ41F3K1B3SRQ2HBYFY2N2M4"
@@ -2805,6 +2980,176 @@
       "file": "app/javascript/crayons/MultiSelectAutocomplete/TagAutocompleteSelection.jsx",
       "line": 1,
       "specre_id": "01KJ41F3K1B3SRQ2HBYFY2N2M4"
+    },
+    {
+      "file": "app/javascript/crayons/MultiSelectAutocomplete/__tests__/MultiSelectAutocomplete.test.jsx",
+      "line": 1,
+      "specre_id": "01KJXZPXJRX88PHAXM110J8W95"
+    },
+    {
+      "file": "app/javascript/crayons/MultiSelectAutocomplete/index.js",
+      "line": 1,
+      "specre_id": "01KJXZPXJRX88PHAXM110J8W95"
+    },
+    {
+      "file": "app/javascript/crayons/Notice/__stories__/notice.html.stories.jsx",
+      "line": 1,
+      "specre_id": "01KJXZV2J4CC6YX6MZRPB6VSFN"
+    },
+    {
+      "file": "app/javascript/crayons/Pills/Pill.jsx",
+      "line": 1,
+      "specre_id": "01KJXZM146W8F3KS8GR4RGT5B5"
+    },
+    {
+      "file": "app/javascript/crayons/Pills/index.js",
+      "line": 1,
+      "specre_id": "01KJXZM146W8F3KS8GR4RGT5B5"
+    },
+    {
+      "file": "app/javascript/crayons/Spinner/Spinner.jsx",
+      "line": 1,
+      "specre_id": "01KJXZPBZVARXP23QFJC190VM9"
+    },
+    {
+      "file": "app/javascript/crayons/Spinner/__tests__/Spinner.test.jsx",
+      "line": 1,
+      "specre_id": "01KJXZPBZVARXP23QFJC190VM9"
+    },
+    {
+      "file": "app/javascript/crayons/Spinner/index.js",
+      "line": 1,
+      "specre_id": "01KJXZPBZVARXP23QFJC190VM9"
+    },
+    {
+      "file": "app/javascript/crayons/avatarsAndLogos/Avatar/__stories__/avatars.html.stories.jsx",
+      "line": 1,
+      "specre_id": "01KJXZV2J4CC6YX6MZRPB6VSFN"
+    },
+    {
+      "file": "app/javascript/crayons/avatarsAndLogos/Logo/__stories__/logos.html.stories.jsx",
+      "line": 1,
+      "specre_id": "01KJXZV2J4CC6YX6MZRPB6VSFN"
+    },
+    {
+      "file": "app/javascript/crayons/formElements/Checkbox/__stories__/checkbox.html.stories.jsx",
+      "line": 1,
+      "specre_id": "01KJXZV2J4CC6YX6MZRPB6VSFN"
+    },
+    {
+      "file": "app/javascript/crayons/formElements/ColorPicker/ColorPicker.jsx",
+      "line": 1,
+      "specre_id": "01KJXZE8C35KFNQN3YR072APSX"
+    },
+    {
+      "file": "app/javascript/crayons/formElements/ColorPicker/__tests__/ColorPicker.test.jsx",
+      "line": 1,
+      "specre_id": "01KJXZE8C35KFNQN3YR072APSX"
+    },
+    {
+      "file": "app/javascript/crayons/formElements/ColorPicker/index.js",
+      "line": 1,
+      "specre_id": "01KJXZE8C35KFNQN3YR072APSX"
+    },
+    {
+      "file": "app/javascript/crayons/formElements/DateRangePicker/DateRangePicker.jsx",
+      "line": 1,
+      "specre_id": "01KJXZEFFF536J5E1TJD9VPMJ7"
+    },
+    {
+      "file": "app/javascript/crayons/formElements/DateRangePicker/__tests__/DateRangePicker.test.jsx",
+      "line": 1,
+      "specre_id": "01KJXZEFFF536J5E1TJD9VPMJ7"
+    },
+    {
+      "file": "app/javascript/crayons/formElements/DateRangePicker/__tests__/dateRangeUtils.test.js",
+      "line": 1,
+      "specre_id": "01KJXZEFFF536J5E1TJD9VPMJ7"
+    },
+    {
+      "file": "app/javascript/crayons/formElements/DateRangePicker/dateRangeUtils.js",
+      "line": 1,
+      "specre_id": "01KJXZEFFF536J5E1TJD9VPMJ7"
+    },
+    {
+      "file": "app/javascript/crayons/formElements/DateRangePicker/index.js",
+      "line": 1,
+      "specre_id": "01KJXZEFFF536J5E1TJD9VPMJ7"
+    },
+    {
+      "file": "app/javascript/crayons/formElements/FormField/FormField.jsx",
+      "line": 1,
+      "specre_id": "01KJXZH48PEHNCY5DBFZRERMG4"
+    },
+    {
+      "file": "app/javascript/crayons/formElements/FormField/__tests__/FormField.test.jsx",
+      "line": 1,
+      "specre_id": "01KJXZH48PEHNCY5DBFZRERMG4"
+    },
+    {
+      "file": "app/javascript/crayons/formElements/FormField/index.js",
+      "line": 1,
+      "specre_id": "01KJXZH48PEHNCY5DBFZRERMG4"
+    },
+    {
+      "file": "app/javascript/crayons/formElements/RadioButton/RadioButton.jsx",
+      "line": 1,
+      "specre_id": "01KJXZH4Z25EJA726891E3RW97"
+    },
+    {
+      "file": "app/javascript/crayons/formElements/RadioButton/__tests__/RadioButton.test.jsx",
+      "line": 1,
+      "specre_id": "01KJXZH4Z25EJA726891E3RW97"
+    },
+    {
+      "file": "app/javascript/crayons/formElements/RadioButton/index.js",
+      "line": 1,
+      "specre_id": "01KJXZH4Z25EJA726891E3RW97"
+    },
+    {
+      "file": "app/javascript/crayons/formElements/Select/__stories__/Select.stories.jsx",
+      "line": 1,
+      "specre_id": "01KJXZV2J4CC6YX6MZRPB6VSFN"
+    },
+    {
+      "file": "app/javascript/crayons/formElements/Text/__stories__/multilineText.html.stories.jsx",
+      "line": 1,
+      "specre_id": "01KJXZV2J4CC6YX6MZRPB6VSFN"
+    },
+    {
+      "file": "app/javascript/crayons/formElements/Text/__stories__/text.html.stories.jsx",
+      "line": 1,
+      "specre_id": "01KJXZV2J4CC6YX6MZRPB6VSFN"
+    },
+    {
+      "file": "app/javascript/crayons/formElements/Toggles/Toggle.jsx",
+      "line": 1,
+      "specre_id": "01KJXZHA0MNZG1M31EXQKE9VX8"
+    },
+    {
+      "file": "app/javascript/crayons/formElements/Toggles/__tests__/Toggle.test.jsx",
+      "line": 1,
+      "specre_id": "01KJXZHA0MNZG1M31EXQKE9VX8"
+    },
+    {
+      "file": "app/javascript/crayons/formElements/Toggles/index.js",
+      "line": 1,
+      "specre_id": "01KJXZHA0MNZG1M31EXQKE9VX8"
+    },
+    {
+      "file": "app/javascript/crayons/navigation/NavigationTabs/__stories__/navigationTab.html.stories.jsx",
+      "line": 1,
+      "specre_id": "01KJXZV2J4CC6YX6MZRPB6VSFN"
+    },
+    {
+      "file": "app/javascript/crayons/typography/__stories__/typography.stories.jsx",
+      "line": 1,
+      "specre_id": "01KJXZV2J4CC6YX6MZRPB6VSFN"
+    },
+    {
+      "file": "app/javascript/crayons/typography/__stories__/typographyAccented.stories.jsx",
+      "line": 1,
+      "specre_id": "01KJXZV2J4CC6YX6MZRPB6VSFN"
     },
     {
       "file": "app/javascript/githubRepos/__tests__/githubRepos.test.jsx",
@@ -10965,6 +11310,11 @@
       "file": "spec/helpers/comments_helper_spec.rb",
       "line": 1,
       "specre_id": "01KJ5DQT35P394JJVCSC077ZX5"
+    },
+    {
+      "file": "spec/helpers/crayons_helper_spec.rb",
+      "line": 1,
+      "specre_id": "01KJXZKK9VT55P2Y3HEE9044KS"
     },
     {
       "file": "spec/helpers/feedback_messages_helper_spec.rb",
@@ -20549,6 +20899,166 @@
       "last_verified": null,
       "name": "system_shows_sticky_save_footer_on_form_change",
       "path": "docs/specres/client_foundation/system_shows_sticky_save_footer_on_form_change.md",
+      "status": "draft"
+    },
+    {
+      "domain": "design_system",
+      "id": "01KJXZ9CSVRBRJJYMZHDJRHHFD",
+      "last_verified": "2026-03-05",
+      "name": "user_can_navigate_via_styled_link",
+      "path": "docs/specres/design_system/user_can_navigate_via_styled_link.md",
+      "status": "stable"
+    },
+    {
+      "domain": "design_system",
+      "id": "01KJXZ9DWA0B3KQM84ZW3D4BBC",
+      "last_verified": "2026-03-05",
+      "name": "user_can_group_related_buttons",
+      "path": "docs/specres/design_system/user_can_group_related_buttons.md",
+      "status": "stable"
+    },
+    {
+      "domain": "design_system",
+      "id": "01KJXZ9HXPZXY1JNTPC27CV31K",
+      "last_verified": "2026-03-05",
+      "name": "user_can_trigger_actions_via_button",
+      "path": "docs/specres/design_system/user_can_trigger_actions_via_button.md",
+      "status": "stable"
+    },
+    {
+      "domain": "design_system",
+      "id": "01KJXZBTG4D34B5NGNH7T7AKA7",
+      "last_verified": "2026-03-05",
+      "name": "user_can_follow_call_to_action",
+      "path": "docs/specres/design_system/user_can_follow_call_to_action.md",
+      "status": "stable"
+    },
+    {
+      "domain": "design_system",
+      "id": "01KJXZBZ7SD70HBFWCDJ1GCTZB",
+      "last_verified": "2026-03-05",
+      "name": "user_can_open_dropdown_menu",
+      "path": "docs/specres/design_system/user_can_open_dropdown_menu.md",
+      "status": "stable"
+    },
+    {
+      "domain": "design_system",
+      "id": "01KJXZC4RF6CQF1P2CKHBY06GZ",
+      "last_verified": "2026-03-05",
+      "name": "user_can_interact_with_modal_dialog",
+      "path": "docs/specres/design_system/user_can_interact_with_modal_dialog.md",
+      "status": "stable"
+    },
+    {
+      "domain": "design_system",
+      "id": "01KJXZE70RB82FADAFM5ZSKYH1",
+      "last_verified": "2026-03-05",
+      "name": "user_can_interact_with_mobile_drawer",
+      "path": "docs/specres/design_system/user_can_interact_with_mobile_drawer.md",
+      "status": "stable"
+    },
+    {
+      "domain": "design_system",
+      "id": "01KJXZE8C35KFNQN3YR072APSX",
+      "last_verified": "2026-03-05",
+      "name": "user_can_pick_color_from_palette",
+      "path": "docs/specres/design_system/user_can_pick_color_from_palette.md",
+      "status": "stable"
+    },
+    {
+      "domain": "design_system",
+      "id": "01KJXZEFFF536J5E1TJD9VPMJ7",
+      "last_verified": "2026-03-05",
+      "name": "user_can_select_date_range",
+      "path": "docs/specres/design_system/user_can_select_date_range.md",
+      "status": "stable"
+    },
+    {
+      "domain": "design_system",
+      "id": "01KJXZH48PEHNCY5DBFZRERMG4",
+      "last_verified": "2026-03-05",
+      "name": "user_can_wrap_input_with_form_field",
+      "path": "docs/specres/design_system/user_can_wrap_input_with_form_field.md",
+      "status": "stable"
+    },
+    {
+      "domain": "design_system",
+      "id": "01KJXZH4Z25EJA726891E3RW97",
+      "last_verified": "2026-03-05",
+      "name": "user_can_select_radio_option",
+      "path": "docs/specres/design_system/user_can_select_radio_option.md",
+      "status": "stable"
+    },
+    {
+      "domain": "design_system",
+      "id": "01KJXZHA0MNZG1M31EXQKE9VX8",
+      "last_verified": "2026-03-05",
+      "name": "user_can_toggle_boolean_setting",
+      "path": "docs/specres/design_system/user_can_toggle_boolean_setting.md",
+      "status": "stable"
+    },
+    {
+      "domain": "design_system",
+      "id": "01KJXZKK9VT55P2Y3HEE9044KS",
+      "last_verified": "2026-03-05",
+      "name": "user_sees_icon_in_interface",
+      "path": "docs/specres/design_system/user_sees_icon_in_interface.md",
+      "status": "stable"
+    },
+    {
+      "domain": "design_system",
+      "id": "01KJXZKS5PJJSC8V8DZAGDWVFV",
+      "last_verified": null,
+      "name": "user_sees_status_indicator",
+      "path": "docs/specres/design_system/user_sees_status_indicator.md",
+      "status": "draft"
+    },
+    {
+      "domain": "design_system",
+      "id": "01KJXZM146W8F3KS8GR4RGT5B5",
+      "last_verified": null,
+      "name": "user_sees_pill_label",
+      "path": "docs/specres/design_system/user_sees_pill_label.md",
+      "status": "draft"
+    },
+    {
+      "domain": "design_system",
+      "id": "01KJXZPBZVARXP23QFJC190VM9",
+      "last_verified": "2026-03-05",
+      "name": "user_sees_loading_spinner",
+      "path": "docs/specres/design_system/user_sees_loading_spinner.md",
+      "status": "stable"
+    },
+    {
+      "domain": "design_system",
+      "id": "01KJXZPHA4ZGKYT9TKD0PD211R",
+      "last_verified": "2026-03-05",
+      "name": "user_can_enter_multiple_values_in_input",
+      "path": "docs/specres/design_system/user_can_enter_multiple_values_in_input.md",
+      "status": "stable"
+    },
+    {
+      "domain": "design_system",
+      "id": "01KJXZPXJRX88PHAXM110J8W95",
+      "last_verified": "2026-03-05",
+      "name": "user_can_search_and_select_multiple_options",
+      "path": "docs/specres/design_system/user_can_search_and_select_multiple_options.md",
+      "status": "stable"
+    },
+    {
+      "domain": "design_system",
+      "id": "01KJXZTMRF1JY5D0FS8VQV3V8V",
+      "last_verified": "2026-03-05",
+      "name": "user_can_trigger_autocomplete_in_textarea",
+      "path": "docs/specres/design_system/user_can_trigger_autocomplete_in_textarea.md",
+      "status": "stable"
+    },
+    {
+      "domain": "design_system",
+      "id": "01KJXZV2J4CC6YX6MZRPB6VSFN",
+      "last_verified": null,
+      "name": "user_sees_consistent_css_primitives",
+      "path": "docs/specres/design_system/user_sees_consistent_css_primitives.md",
       "status": "draft"
     }
   ],

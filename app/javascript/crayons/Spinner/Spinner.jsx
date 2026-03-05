@@ -1,3 +1,4 @@
+// @specre 01KJXZPBZVARXP23QFJC190VM9
 import { h } from 'preact';
 
 export const Spinner = () => (
