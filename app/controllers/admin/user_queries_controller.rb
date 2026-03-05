@@ -1,3 +1,4 @@
+# @specre 01KJ9MT3FSYT9TTRKCNCH9Q9GV
 module Admin
   class UserQueriesController < Admin::ApplicationController
     before_action :set_user_query, only: %i[show edit update destroy test_execute toggle_active]

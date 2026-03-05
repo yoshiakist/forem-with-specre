@@ -1,3 +1,4 @@
+# @specre 01KJXNEGT06M76HSE5X3EBTZ3V
 require "rails_helper"
 
 RSpec.describe EmojiOnlyValidator do

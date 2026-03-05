@@ -1,3 +1,4 @@
+# @specre 01KHZ34S64MDBEZEVY74YYQ7HM
 module ScheduledAutomations
   ##
   # Service that awards badges to users who leave wonderful comments in the Welcome Thread.

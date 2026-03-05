@@ -1,3 +1,4 @@
+# @specre 01KJ1N70FN162EFMZ83MG5XGSN
 require "rails_helper"
 
 RSpec.describe StackeryTag, type: :liquid_tag do

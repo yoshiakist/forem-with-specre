@@ -1,3 +1,4 @@
+# @specre 01KHZ22E63WBQWYFZNQVEA2EEE
 module Search
   module Errors
     class Error < StandardError

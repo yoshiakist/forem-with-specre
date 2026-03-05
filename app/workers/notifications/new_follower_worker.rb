@@ -1,3 +1,4 @@
+# @specre 01KJ15RMG4PP6RC3KZN6JDG99C
 module Notifications
   class NewFollowerWorker
     include Sidekiq::Job

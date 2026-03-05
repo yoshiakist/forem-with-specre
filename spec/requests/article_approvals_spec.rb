@@ -1,3 +1,4 @@
+# @specre 01KJBN4DMMSF9BX518JG772WEB
 require "rails_helper"
 
 RSpec.describe "ArticleApprovals" do

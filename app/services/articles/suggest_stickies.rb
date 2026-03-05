@@ -1,3 +1,4 @@
+# @specre 01KJBV4Y67GJZ6K5AA2YX7YSZA
 module Articles
   class SuggestStickies
     # @todo Should we make this configurable in the admin interface?

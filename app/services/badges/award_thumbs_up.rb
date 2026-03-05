@@ -1,3 +1,4 @@
+# @specre 01KJ6FPJ10B16C1P2RH854CJ1B
 module Badges
   class AwardThumbsUp
     THUMBS_UP_BADGES = {

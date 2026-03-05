@@ -1,3 +1,4 @@
+# @specre 01KJ6FBFV0DKQVMBPB49V7ZKCB
 module BadgeAchievements
   class BadgeAwardWorker
     include Sidekiq::Job

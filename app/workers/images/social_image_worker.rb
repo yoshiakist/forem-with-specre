@@ -1,3 +1,4 @@
+# @specre 01KJVEZN3YK9PYFVQ7FW9BBN7M
 module Images
   class SocialImageWorker
     include Sidekiq::Job

@@ -1,3 +1,4 @@
+# @specre 01KJ9R9MV7AYQY4YZP8F63RDVC
 module Users
   class CreateMascotAccount
     MASCOT_PARAMS = {

@@ -1,3 +1,4 @@
+# @specre 01KJ6FPJ10B16C1P2RH854CJ1B
 require "rails_helper"
 
 RSpec.describe Badges::AwardThumbsUp, type: :service do

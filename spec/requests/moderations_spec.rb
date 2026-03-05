@@ -1,3 +1,6 @@
+# @specre 01KJ1733YCRFGKZZN1ZR6JBEHC
+# @specre 01KJ16Z3Y34HEH2GSWHHXW3NAM
+# @specre 01KJ16TED32H3YYC9F610VZM5X
 require "rails_helper"
 
 RSpec.shared_examples "an elevated privilege required request" do |path|

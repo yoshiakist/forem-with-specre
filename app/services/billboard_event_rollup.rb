@@ -1,3 +1,4 @@
+# @specre 01KJ6EB6TC32BW8DSXN5DVWY9M
 class BillboardEventRollup
   ATTRIBUTES_PRESERVED = %i[user_id display_ad_id category context_type created_at].freeze
   ATTRIBUTES_DESTROYED = %i[id counts_for updated_at article_id geolocation].freeze

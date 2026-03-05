@@ -1,3 +1,4 @@
+# @specre 01KJ6FP6NRZAWBSV32RZESNH58
 module Badges
   class AwardYearlyClub
     YEARS = {

@@ -1,3 +1,4 @@
+# @specre 01KJ6EB6TC32BW8DSXN5DVWY9M
 class BillboardEventRollupWorker
   include Sidekiq::Worker
 

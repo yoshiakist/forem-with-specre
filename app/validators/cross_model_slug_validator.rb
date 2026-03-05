@@ -1,3 +1,4 @@
+# @specre 01KJXNAJ03071FX53KZT4JECAT
 class CrossModelSlugValidator < ActiveModel::EachValidator
   FORMAT_REGEX = /\A[0-9a-z\-_]+\z/
   ORGANIZATION_FORMAT_REGEX = /\A(?![0-9]+\z)[0-9a-z\-_]+\z/

@@ -1,3 +1,4 @@
+# @specre 01KJVS5357MREJ2TCGFTFFESGH
 # This class helps deliver on the "Authorization System: use case 1-1".  In upcoming use cases we
 # will begin to look toward multiple spaces.  For the moment, let's use this narrow definition to
 # move us forward.

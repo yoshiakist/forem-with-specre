@@ -1,3 +1,4 @@
+# @specre 01KJ1NAKJ1F3VDFEZ8SCWFZ3D3
 class MediumArticleRetrievalService
   attr_reader :url
 

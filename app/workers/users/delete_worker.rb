@@ -1,3 +1,4 @@
+# @specre 01KJ9R39KP2S3HPPX5GYS7WD2T
 module Users
   class DeleteWorker
     include Sidekiq::Job

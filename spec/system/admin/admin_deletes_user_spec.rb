@@ -1,3 +1,4 @@
+# @specre 01KJ9KAVAKYF7567P2ES4HD61W
 require "rails_helper"
 
 RSpec.describe "Admin deletes user" do

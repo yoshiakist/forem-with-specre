@@ -1,3 +1,4 @@
+# @specre 01KJ1N448SCYHT9ARSNBG5GPRH
 class CodesandboxTag < LiquidTagBase
   PARTIAL = "liquids/codesandbox".freeze
   REGISTRY_REGEXP = %r{https?://(?:www|app\.)?(?:codesandbox\.io/embed/)(?<id>[\w-]{,60})(?:\?)?(?<options>\S+)?}

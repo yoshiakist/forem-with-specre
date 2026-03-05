@@ -1,3 +1,4 @@
+# @specre 01KJXTGF4X3QMRYRP6R1F5828B
 require "rails_helper"
 
 RSpec.describe Homepage::FetchArticles, type: :service do

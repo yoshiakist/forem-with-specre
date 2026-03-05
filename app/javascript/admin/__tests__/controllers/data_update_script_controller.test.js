@@ -1,3 +1,5 @@
+// @specre 01KJ2SZQQG4JYPHKNCN2BSNYMN
+// @specre 01KJ2SZCDD0QR1BVHSPYKQZ955
 import { Application } from '@hotwired/stimulus';
 import fetch from 'jest-fetch-mock';
 import DataUpdateScriptController from '../../controllers/data_update_script_controller';

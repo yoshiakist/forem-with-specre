@@ -1,3 +1,4 @@
+# @specre 01KJ3YXYAR6AARATJH02XHAEVW
 # ConsumerApp::FOREM_APP_PLATFORMS are all the platforms supported by every
 # Forem instance by default. These are App Integrations that populate their
 # credentials from ENV variables and are not meant to be modified by creators.

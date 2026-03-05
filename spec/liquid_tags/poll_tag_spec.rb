@@ -1,3 +1,4 @@
+# @specre 01KJ2HPD31V6W1Y18QXE0RYG56
 require "rails_helper"
 
 RSpec.describe PollTag, type: :liquid_tag do

@@ -1,3 +1,4 @@
+# @specre 01KHZ3X8Z3Y2RPWBDE48X9GQ3D
 class LogoSvgUploader < BaseUploader
   # This Uploader is being used by a Data Update Script
   # lib/data_update_scripts/20211208074428_migrate_logo_svg_data.rb

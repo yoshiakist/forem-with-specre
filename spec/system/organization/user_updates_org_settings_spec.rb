@@ -1,3 +1,4 @@
+# @specre 01KHZ466X2VM8VAWD6RE82CF9J
 require "rails_helper"
 
 RSpec.describe "Organization setting page(/settings/organization)", js: true do

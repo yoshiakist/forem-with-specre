@@ -1,3 +1,4 @@
+# @specre 01KHZ3X8Z3Y2RPWBDE48X9GQ3D
 module Constants
   module Settings
     module General

@@ -1,3 +1,5 @@
+# @specre 01KJ6EPTF1F31WB6DRV0YHEZ0N
+# @specre 01KJ6E7GAHP8M3SQND6QQNEDED
 class BillboardPlacementAreaConfig < ApplicationRecord
   validates :placement_area, presence: true, uniqueness: true,
                              inclusion: { in: Billboard::ALLOWED_PLACEMENT_AREAS }

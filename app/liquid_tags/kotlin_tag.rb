@@ -1,3 +1,4 @@
+# @specre 01KJ1N6YXN1WKW53P7WH7V5EZD
 class KotlinTag < LiquidTagBase
   PARTIAL = "liquids/kotlin".freeze
   REGISTRY_REGEXP = %r{https://pl\.kotl\.in/(?<id>[\w-]+)(?:\?)?(?<params>[\w=&]+)?}

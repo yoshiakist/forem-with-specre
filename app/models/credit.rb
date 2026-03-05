@@ -1,3 +1,6 @@
+# @specre 01KJ2SJMM4QCT6P9M0K1K4HTAT
+# @specre 01KJ2SFWXPPE61BA7KNFY8CSSG
+# @specre 01KJ2SF6J4K95BTZRSZG5AA811
 class Credit < ApplicationRecord
   attr_accessor :number_to_purchase
 

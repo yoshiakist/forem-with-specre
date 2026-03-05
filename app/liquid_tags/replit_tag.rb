@@ -1,3 +1,4 @@
+# @specre 01KJ1N6Z63X89CXHE8KQDPB55N
 class ReplitTag < LiquidTagBase
   PARTIAL = "liquids/replit".freeze
   REGISTRY_REGEXP = %r{https?://replit\.com/(?<address>@\w{2,15}/[a-zA-Z0-9-]{0,60})(?:#[\w.]+)?}

@@ -1,3 +1,4 @@
+# @specre 01KJ1F6MWHBZ38XZ2ZHS73YNZA
 require "rails_helper"
 
 RSpec.describe CardTag, type: :liquid_tag do

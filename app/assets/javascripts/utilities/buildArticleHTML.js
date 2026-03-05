@@ -1,3 +1,4 @@
+// @specre 01KJV72NZBF1FK1XSC1ET596PS
 /* global timeAgo, filterXSS */
 
 /* eslint-disable no-multi-str */

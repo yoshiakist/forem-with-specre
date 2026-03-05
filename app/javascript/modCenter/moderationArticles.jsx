@@ -1,3 +1,4 @@
+// @specre 01KJ16TED32H3YYC9F610VZM5X
 import { h, Component } from 'preact';
 import { SingleArticle } from './singleArticle';
 

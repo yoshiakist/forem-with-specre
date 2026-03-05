@@ -1,3 +1,4 @@
+# @specre 01KJXNAJ03071FX53KZT4JECAT
 require "rails_helper"
 
 RSpec.describe CrossModelSlugValidator do

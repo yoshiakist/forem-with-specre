@@ -1,3 +1,4 @@
+# @specre 01KJ1F9C8WFC974AKEZNQQXCED
 require "rails_helper"
 
 RSpec.describe KatexTag, type: :liquid_tag do

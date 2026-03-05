@@ -1,3 +1,4 @@
+// @specre 01KHZ55S8Z1A16PNGY9X7PR58P
 import { openDropdown, closeDropdown } from '@utilities/dropdownUtils';
 
 // We present up to 50 users in the UI at once, and for performance reasons we don't want to add individual click listeners to each dropdown menu or inner menu item

@@ -1,3 +1,4 @@
+# @specre 01KHZ454YXRB8TWV8PC06P4EQ5
 require "rails_helper"
 
 RSpec.describe "UserNotificationSettings" do

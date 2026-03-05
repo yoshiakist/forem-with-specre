@@ -1,3 +1,4 @@
+# @specre 01KHZ69F0GE1R07TXK53AAA1K8
 module ProfileHelper
   def social_authentication_links_for(user)
     # Returns a Hash containing URLs for social authentication providers

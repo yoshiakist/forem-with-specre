@@ -1,3 +1,5 @@
+# @specre 01KJ6FEDNZHYXEPQG8RAJDXB3D
+# @specre 01KJ6FBFV0DKQVMBPB49V7ZKCB
 require "rails_helper"
 require "requests/shared_examples/internal_policy_dependant_request"
 

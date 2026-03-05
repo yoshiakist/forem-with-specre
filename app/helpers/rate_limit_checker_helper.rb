@@ -1,3 +1,4 @@
+# @specre 01KJVGE8NSPTAPX0HVKBT09C6D
 module RateLimitCheckerHelper
   def self.new_user_message(thing)
     timeframe = I18n.t("helpers.rate_limit_checker_helper.day", count: Settings::RateLimit.user_considered_new_days)

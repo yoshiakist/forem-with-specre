@@ -1,3 +1,4 @@
+# @specre 01KJ6E7GAHP8M3SQND6QQNEDED
 require "rails_helper"
 
 RSpec.describe Admin::BillboardPlacementAreaConfigsController, type: :controller do

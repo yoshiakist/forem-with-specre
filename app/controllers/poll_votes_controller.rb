@@ -1,3 +1,4 @@
+# @specre 01KHZMA857XQ0MP5F9S9D2ZYCX
 class PollVotesController < ApplicationController
   before_action :authenticate_user!, only: %i[create]
 

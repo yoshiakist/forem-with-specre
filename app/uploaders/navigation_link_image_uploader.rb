@@ -1,3 +1,4 @@
+# @specre 01KJ7HQJX1MWRVG2NTXVKS5693
 class NavigationLinkImageUploader < BaseUploader
   MAX_FILE_SIZE = 5.megabytes
   EXTENSION_ALLOWLIST = %w[png jpg jpeg jpe].freeze

@@ -1,3 +1,4 @@
+# @specre 01KJ1NWEFRSNZ50SSZ3SA0A6FQ
 require "rails_helper"
 
 RSpec.describe WikipediaTag, type: :liquid_tag, vcr: true do

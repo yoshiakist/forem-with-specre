@@ -1,3 +1,4 @@
+# @specre 01KJV0FFF2JMT324JSMKPFW9Z3
 require "rails_helper"
 
 RSpec.describe "ArticlesCreate" do

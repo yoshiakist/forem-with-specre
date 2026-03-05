@@ -1,3 +1,4 @@
+# @specre 01KJ6T4YYTJCCBGXEKWYZVX4J1
 module Ai
   class AboutPageGenerator
     MAX_RETRIES = 3

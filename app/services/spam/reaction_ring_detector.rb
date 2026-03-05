@@ -1,3 +1,4 @@
+# @specre 01KJVD2KB5RQGCR6HQH9GGCWBV
 # frozen_string_literal: true
 
 module Spam

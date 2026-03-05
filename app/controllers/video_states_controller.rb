@@ -1,3 +1,4 @@
+# @specre 01KJBWT5HAQGGSECGZJ20D6PCX
 class VideoStatesController < ApplicationController
   skip_before_action :verify_authenticity_token
   # Not authorized using pundit because user this is not accessed via user session

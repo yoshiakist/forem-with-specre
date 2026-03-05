@@ -1,3 +1,5 @@
+# @specre 01KJ6C1WBXTZN9GA5WYQPMQJSA
+# @specre 01KJ6BZ9FHN72VNWP7JGG6DWBZ
 require "rails_helper"
 
 RSpec.describe "Collections" do

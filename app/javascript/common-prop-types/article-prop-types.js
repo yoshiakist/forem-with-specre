@@ -1,3 +1,5 @@
+// @specre 01KJV72NZBF1FK1XSC1ET596PS
+// @specre 01KJCK5NSKJNEBDJYZA4QQ3YBW
 import PropTypes from 'prop-types';
 
 export const articleSnippetResultPropTypes = PropTypes.shape({

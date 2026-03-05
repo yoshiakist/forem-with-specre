@@ -1,3 +1,4 @@
+# @specre 01KHZ3SPSJ823DQWH7K6DW74FF
 module Settings
   class Authentication < Base
     self.table_name = :settings_authentications

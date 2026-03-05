@@ -1,3 +1,4 @@
+# @specre 01KHZ7C8VY10XGW8GDHDDHSHRQ
 # a wrapper/adapter for RSS::Rss::Channel::Item to be able to pass it to ActiveJob
 module Podcasts
   class EpisodeRssItem

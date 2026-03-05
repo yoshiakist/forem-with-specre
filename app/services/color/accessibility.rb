@@ -1,3 +1,4 @@
+# @specre 01KJXNBDC10EP7TQ8TQ9Q9F4SX
 module Color
   class Accessibility
     def initialize(hex)

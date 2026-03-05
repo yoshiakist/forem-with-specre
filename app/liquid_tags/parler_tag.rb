@@ -1,3 +1,4 @@
+# @specre 01KJ1FKTVQH3HSYPJR6QFEWZ94
 class ParlerTag < LiquidTagBase
   PARTIAL = "liquids/parler".freeze
 

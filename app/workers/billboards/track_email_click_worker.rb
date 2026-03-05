@@ -1,3 +1,5 @@
+# @specre 01KJ73NQSZ78M36BRBYEKY5VHJ
+# @specre 01KJ6EE9EXCHR36PGTH6Y1239R
 module Billboards
   class TrackEmailClickWorker
     include Sidekiq::Job

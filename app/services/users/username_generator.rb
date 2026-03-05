@@ -1,3 +1,4 @@
+# @specre 01KJBGSZYSK50Y48DDMGSB635P
 # Generates available username based on
 # multiple generators in the following order:
 #   * list of supplied usernames

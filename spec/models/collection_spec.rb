@@ -1,3 +1,4 @@
+# @specre 01KJ6C4VF5JP25A07CJA19PQHX
 require "rails_helper"
 
 RSpec.describe Collection do

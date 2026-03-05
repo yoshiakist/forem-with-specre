@@ -1,3 +1,4 @@
+# @specre 01KJ6D4S5MFQG4KCF9VYGRYZW4
 require "rails_helper"
 
 RSpec.describe Broadcast do

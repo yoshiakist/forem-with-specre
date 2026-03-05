@@ -1,3 +1,4 @@
+# @specre 01KJ02R9930HM3ZZNY5GTQB0X4
 require "rails_helper"
 
 RSpec.describe Organizations::SaveArticleWorker do

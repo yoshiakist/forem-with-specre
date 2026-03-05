@@ -1,3 +1,7 @@
+# @specre 01KJ9G0HP7SZ3CFPBD2ZW5RR7C
+# @specre 01KJ9G05S72CY68YM2GMN7W01Q
+# @specre 01KJ9FXHGQ9PCEYWSQY1713C0E
+# @specre 01KJ9FWCV9BVZBNN3YJAXS5ZQS
 module Admin
   class InvitationsController < Admin::ApplicationController
     layout "admin"

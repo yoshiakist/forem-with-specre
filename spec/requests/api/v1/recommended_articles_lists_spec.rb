@@ -1,3 +1,4 @@
+# @specre 01KJBV555EB91576QYQPCRJSP1
 require "rails_helper"
 
 RSpec.describe "Api::V1::RecommendedArticlesLists" do

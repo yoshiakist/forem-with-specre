@@ -1,3 +1,4 @@
+# @specre 01KJVGDWG6JSDZ2K61C9PXX65N
 module CommunityBots
   class CreateBot
     def self.call(subforem_id:, name:, created_by:, username: nil, profile_image: nil)

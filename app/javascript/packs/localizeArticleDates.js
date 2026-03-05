@@ -1,3 +1,4 @@
+// @specre 01KJCK5NSKJNEBDJYZA4QQ3YBW
 /* Show article date/time according to user's locale */
 import { addLocalizedDateTimeToElementsTitles } from '../utilities/localDateTime';
 

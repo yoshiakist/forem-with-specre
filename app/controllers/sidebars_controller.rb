@@ -1,3 +1,4 @@
+# @specre 01KJVM4JRDR1HWVGG2JNXWBT7N
 class SidebarsController < ApplicationController
   ACTIVE_DISCUSSION_LIMIT = 8
   layout false

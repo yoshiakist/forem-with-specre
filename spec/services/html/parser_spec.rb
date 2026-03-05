@@ -1,3 +1,4 @@
+# @specre 01KJVGDRGWSEZX0907T1RXBTGD
 require "rails_helper"
 
 RSpec.describe Html::Parser, type: :service do

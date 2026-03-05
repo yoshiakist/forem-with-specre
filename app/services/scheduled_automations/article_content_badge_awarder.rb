@@ -1,3 +1,4 @@
+# @specre 01KHZ32M67KE4Q341R1BPEGPJB
 module ScheduledAutomations
   ##
   # Service that awards badges to users who have posted quality articles

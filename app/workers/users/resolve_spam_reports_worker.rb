@@ -1,3 +1,4 @@
+# @specre 01KJ9R606N0EG98CQ1X82ECHHN
 module Users
   class ResolveSpamReportsWorker
     include Sidekiq::Job

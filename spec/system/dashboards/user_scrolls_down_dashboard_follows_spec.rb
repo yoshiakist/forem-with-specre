@@ -1,3 +1,4 @@
+# @specre 01KJ1XAJ69KXNBRJE9Z3328GT0
 require "rails_helper"
 
 RSpec.describe "Infinite scroll on dashboard", js: true do

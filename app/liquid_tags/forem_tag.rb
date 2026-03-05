@@ -1,3 +1,4 @@
+# @specre 01KJ1F0NVRKVVJQK0DPZYCJKMX
 module ForemTag
   REGISTRY_REGEXP = %r{#{Regexp.escape(URL.url)}/\b([\w-]+)?}
   USER_ORG_REGEXP = %r{#{URL.url}/(?<name>[\w-]+)/?$}

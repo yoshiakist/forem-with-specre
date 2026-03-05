@@ -1,3 +1,4 @@
+# @specre 01KJ1NAN64NZQV4VXD5BHDSD1T
 # OpenGraphTag is NOT registered in the Registry; rather, it is a fallback
 class OpenGraphTag < LiquidTagBase
   PARTIAL = "liquids/open_graph".freeze

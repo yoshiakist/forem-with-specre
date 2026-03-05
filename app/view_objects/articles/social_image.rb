@@ -1,3 +1,4 @@
+# @specre 01KJCKF1AY5288JYRWJXK8QQ8C
 module Articles
   class SocialImage
     include Rails.application.routes.url_helpers

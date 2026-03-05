@@ -1,3 +1,4 @@
+# @specre 01KHZMED56WYNARJ0KFNWFZHZX
 class PollSkipsController < ApplicationController
   before_action :authenticate_user!, only: %i[create]
 

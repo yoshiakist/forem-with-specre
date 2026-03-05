@@ -1,3 +1,4 @@
+# @specre 01KJ15W12WTJVFF3XQ1NJH5BNQ
 require "rails_helper"
 
 RSpec.describe Notifications::Moderation::Send, type: :service do

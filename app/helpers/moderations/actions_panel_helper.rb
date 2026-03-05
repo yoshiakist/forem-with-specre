@@ -1,3 +1,4 @@
+# @specre 01KJ16Z3Y34HEH2GSWHHXW3NAM
 module Moderations
   module ActionsPanelHelper
     def last_adjusted_by_admin?(article, tag, adjustment_type)

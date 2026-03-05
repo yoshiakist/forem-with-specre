@@ -1,3 +1,4 @@
+# @specre 01KJ15N9VC5VXN9692QKQRVF5E
 module NotificationSubscriptions
   class Subscribe
     attr_reader :current_user, :comment_id, :article_id, :config

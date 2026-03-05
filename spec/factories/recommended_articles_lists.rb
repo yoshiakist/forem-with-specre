@@ -1,3 +1,4 @@
+# @specre 01KJBV555EB91576QYQPCRJSP1
 FactoryBot.define do
   factory :recommended_articles_list do
     sequence(:name) { |n| "#{Faker::Lorem.sentence}#{n}" }

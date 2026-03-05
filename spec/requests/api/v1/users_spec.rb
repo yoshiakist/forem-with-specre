@@ -1,3 +1,6 @@
+# @specre 01KJ9N6FHMP17NN9KTJQQEMB8P
+# @specre 01KJ9N1KSANXHPTEEVE4VDJ2V8
+# @specre 01KJ9MTBJ0F7WTG0KSNXPGF3N9
 require "rails_helper"
 
 RSpec.describe "Api::V1::Users" do

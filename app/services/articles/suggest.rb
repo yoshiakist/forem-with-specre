@@ -1,3 +1,4 @@
+# @specre 01KJBV1G647P4BRNVEY8SP0R1Q
 module Articles
   class Suggest
     MAX_DEFAULT = 4

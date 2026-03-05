@@ -1,3 +1,4 @@
+# @specre 01KJ1NWEFRSNZ50SSZ3SA0A6FQ
 class WikipediaTag < LiquidTagBase
   PARTIAL = "liquids/wikipedia".freeze
   REGISTRY_REGEXP = %r{\Ahttps?://([a-z-]+)\.wikipedia\.org/wiki/(\S+)\z}

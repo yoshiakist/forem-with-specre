@@ -1,3 +1,4 @@
+# @specre 01KJ5DY1ASV3RY7Q7C930XDMBQ
 require "rails_helper"
 
 RSpec.describe CommentCreator, type: :service do

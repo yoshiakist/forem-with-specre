@@ -1,3 +1,4 @@
+# @specre 01KJBWT5HAQGGSECGZJ20D6PCX
 class ArticleWithVideoCreationService
   VIDEO_SERVICE_URL = "https://dw71fyauz7yz9.cloudfront.net".freeze
 

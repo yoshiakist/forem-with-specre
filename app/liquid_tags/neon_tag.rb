@@ -1,3 +1,4 @@
+# @specre 01KJ1NAM3GKQ9Y3MWVQXGZBSH6
 class NeonTag < LiquidTagBase
   PARTIAL = "liquids/neon".freeze
   # rubocop:disable Layout/LineLength

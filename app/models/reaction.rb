@@ -1,3 +1,4 @@
+# @specre 01KHZ55SRCPDHPWM0EYSTE60MK
 class Reaction < ApplicationRecord
   REACTABLE_TYPES = %w[Comment Article User].freeze
   STATUSES = %w[valid invalid confirmed archived].freeze

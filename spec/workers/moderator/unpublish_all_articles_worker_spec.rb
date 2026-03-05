@@ -1,3 +1,4 @@
+# @specre 01KJBWZNKHZTQ5XK6XHC5EC3VE
 require "rails_helper"
 
 RSpec.describe Moderator::UnpublishAllArticlesWorker, type: :worker do

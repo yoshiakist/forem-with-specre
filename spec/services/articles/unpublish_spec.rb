@@ -1,3 +1,4 @@
+# @specre 01KJBWZ3J5DHQXJ25C977K5D9H
 require "rails_helper"
 
 RSpec.describe Articles::Unpublish, type: :service do

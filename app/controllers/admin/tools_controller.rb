@@ -1,3 +1,4 @@
+# @specre 01KJ24JR0FK5MWHWK01QF0434H
 module Admin
   class ToolsController < Admin::ApplicationController
     layout "admin"

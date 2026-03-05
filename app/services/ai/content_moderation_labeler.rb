@@ -1,3 +1,4 @@
+# @specre 01KJ16TPFT4QGX88S3N5FMGKV5
 module Ai
   ##
   # Analyzes an article to determine its content moderation label.

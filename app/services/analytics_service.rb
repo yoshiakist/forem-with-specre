@@ -1,3 +1,4 @@
+# @specre 01KJ6QCAKAT1EKMN80R2KK58YZ
 class AnalyticsService
   DEFAULT_REACTION_TOTALS = { total: 0, like: 0, readinglist: 0, unicorn: 0 }.freeze
 

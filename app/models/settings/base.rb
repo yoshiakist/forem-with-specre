@@ -1,3 +1,4 @@
+# @specre 01KHZ3R448RA411ZP1V33AX5MR
 # This class was adapted from the rails-settings-cached gem.
 # See: https://github.com/huacnlee/rails-settings-cached
 #

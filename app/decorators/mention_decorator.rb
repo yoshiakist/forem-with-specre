@@ -1,3 +1,4 @@
+# @specre 01KJ1ARF08DVRQE65SWASWAFWJ
 class MentionDecorator < ApplicationDecorator
   def formatted_mentionable_type
     # Articles are colloquially referred to as "posts".

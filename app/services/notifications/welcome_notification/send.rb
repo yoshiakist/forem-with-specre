@@ -1,3 +1,4 @@
+# @specre 01KJ15YPZ52QH5K5R1MVAYRQ0F
 # Creates and sends a specific welcome notification.
 module Notifications
   module WelcomeNotification

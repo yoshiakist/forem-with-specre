@@ -1,3 +1,4 @@
+# @specre 01KHZ33RNQX4D71QCX598285TK
 module ScheduledAutomations
   ##
   # Service that awards badges to users who have posted their first post

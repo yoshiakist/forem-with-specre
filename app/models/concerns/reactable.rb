@@ -1,3 +1,4 @@
+# @specre 01KHZ55SRCPDHPWM0EYSTE60MK
 module Reactable
   extend ActiveSupport::Concern
 

@@ -1,3 +1,4 @@
+// @specre 01KJ6QCAKAT1EKMN80R2KK58YZ
 import { callHistoricalAPI, callReferrersAPI } from './client';
 import { locale } from '@utilities/locale';
 

@@ -1,3 +1,5 @@
+# @specre 01KJ405WSWNE4WHSJVXZ8G81GZ
+# @specre 01KJ405PD1DE1M82CXWR67V9TT
 module Admin
   module Tags
     class ModeratorsController < Admin::ApplicationController

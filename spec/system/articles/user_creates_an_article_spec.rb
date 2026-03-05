@@ -1,3 +1,4 @@
+# @specre 01KJV0FF10MZMWNFJB77RRFZ6S
 require "rails_helper"
 
 RSpec.describe "Creating an article with the editor" do

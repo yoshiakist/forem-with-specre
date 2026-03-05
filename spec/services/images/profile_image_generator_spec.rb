@@ -1,3 +1,4 @@
+# @specre 01KHZ6GG5GD766PRZK1SE50KMG
 require "rails_helper"
 
 RSpec.describe Images::ProfileImageGenerator, type: :service do

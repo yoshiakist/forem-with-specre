@@ -1,3 +1,6 @@
+# @specre 01KJCKM0HKSQY0DQA3Q8METJ13
+# @specre 01KJCKF1AY5288JYRWJXK8QQ8C
+# @specre 01KJCK5NSKJNEBDJYZA4QQ3YBW
 # spec/requests/stories_show_spec.rb
 
 require "rails_helper"

@@ -1,3 +1,4 @@
+# @specre 01KJ703F16P7AYF29Z4W9PQW5K
 require "rails_helper"
 RSpec.describe AbExperiment::GoalConversionHandler do
   include FieldTest::Helpers

@@ -1,3 +1,4 @@
+# @specre 01KHZ69F0GE1R07TXK53AAA1K8
 class ProfileValidator < ActiveModel::Validator
   SUMMARY_ATTRIBUTE = "summary".freeze
   MAX_SUMMARY_LENGTH = 200

@@ -1,3 +1,4 @@
+# @specre 01KJ24EF4VQYFPB3R53Q4J2CJ1
 class FeedMarkdownScrubber < Rails::Html::PermitScrubber
   def initialize
     super

@@ -1,3 +1,4 @@
+# @specre 01KHZ69F0GE1R07TXK53AAA1K8
 class ProfilesController < ApplicationController
   before_action :authenticate_user!
 

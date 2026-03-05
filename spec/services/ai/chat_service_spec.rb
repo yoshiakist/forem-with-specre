@@ -1,3 +1,4 @@
+# @specre 01KJ6SZXEKKJCHRY9A615KYNKV
 require "rails_helper"
 
 RSpec.describe Ai::ChatService, type: :service do

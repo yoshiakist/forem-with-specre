@@ -1,3 +1,4 @@
+# @specre 01KJ246P62P50ED5YJNGJ50J3J
 module Articles
   module Feeds
     # This module is responsible for assembling a named variant into the data structure used to

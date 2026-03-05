@@ -1,3 +1,4 @@
+# @specre 01KJ9MTNQVSA7QWHW4VYYX71M4
 class ApiSecretPolicy < ApplicationPolicy
   def create?
     !user.spam_or_suspended?

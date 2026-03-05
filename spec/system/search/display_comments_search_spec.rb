@@ -1,3 +1,4 @@
+# @specre 01KHZ24CTQNRDZ5CAMD3TTT1KN
 require "rails_helper"
 
 RSpec.describe "Display articles search spec", js: true do

@@ -1,3 +1,4 @@
+# @specre 01KHZ28VAWY5TJ6GJYXZBVE4JN
 require "rails_helper"
 
 RSpec.describe Search::ReadingListArticleSerializer do

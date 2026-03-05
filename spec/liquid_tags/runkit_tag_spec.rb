@@ -1,3 +1,4 @@
+# @specre 01KJ1FBXXXWHBNMKZ9HBS5AR6V
 require "rails_helper"
 
 RSpec.describe RunkitTag, type: :liquid_tag do

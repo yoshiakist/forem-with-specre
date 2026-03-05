@@ -1,3 +1,4 @@
+# @specre 01KJ6T0E5ZHZPXH2FM05E4X6Q6
 class AiImageGenerationsController < ApplicationController
   before_action :authenticate_user!
   before_action :limit_generations, only: [:create]

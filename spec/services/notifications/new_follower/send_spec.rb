@@ -1,3 +1,4 @@
+# @specre 01KJ15RMG4PP6RC3KZN6JDG99C
 require "rails_helper"
 
 RSpec.describe Notifications::NewFollower::Send, type: :service do

@@ -1,3 +1,4 @@
+# @specre 01KJBKJ3R73H0D2V7BGCMMRQDM
 require "rails_helper"
 
 RSpec.describe "Authenticating with Forem" do

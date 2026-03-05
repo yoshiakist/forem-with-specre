@@ -1,3 +1,4 @@
+# @specre 01KHZGVB146XQBKF66V2THG07T
 module Api
   module V1
     class OrganizationsController < ApiController

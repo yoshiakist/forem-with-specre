@@ -1,3 +1,5 @@
+# @specre 01KJ6FWPJPKHJ0DPDHTN5AESN1
+# @specre 01KJ6FEDNZHYXEPQG8RAJDXB3D
 require "rails_helper"
 
 RSpec.describe BadgeAchievement do

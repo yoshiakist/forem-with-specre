@@ -1,3 +1,4 @@
+# @specre 01KHZ25T4PNZ33CT917WZ25JYT
 require "rails_helper"
 
 # rubocop:disable Rails/PluckId

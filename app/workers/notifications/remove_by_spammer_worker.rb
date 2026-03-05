@@ -1,3 +1,4 @@
+# @specre 01KJ15Z6XANFFT1FA0YP2J2EQC
 module Notifications
   class RemoveBySpammerWorker
     include Sidekiq::Job

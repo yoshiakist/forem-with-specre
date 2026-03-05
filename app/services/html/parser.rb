@@ -1,3 +1,4 @@
+# @specre 01KJVGDRGWSEZX0907T1RXBTGD
 module Html
   class Parser
     # Each of the instance methods should return self to support chaining of

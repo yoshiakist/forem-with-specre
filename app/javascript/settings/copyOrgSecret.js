@@ -1,3 +1,4 @@
+// @specre 01KHZ466X2VM8VAWD6RE82CF9J
 export function copyToClipboardListener() {
   const settingsOrgSecretInput = document.getElementById('settings-org-secret');
   if (settingsOrgSecretInput === null) return;

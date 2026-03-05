@@ -1,3 +1,4 @@
+# @specre 01KHZ6CFQNFQRAFDNMEDQ8X9S0
 class ProfileFieldGroupsController < ApplicationController
   def index
     relation = ProfileFieldGroup.includes(:profile_fields)

@@ -1,3 +1,4 @@
+// @specre 01KJ5DY1ASV3RY7Q7C930XDMBQ
 /* global activateRunkitTags */
 import { locale } from '@utilities/locale';
 

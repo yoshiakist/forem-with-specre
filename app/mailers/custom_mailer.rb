@@ -1,3 +1,5 @@
+# @specre 01KJ7297CDCGQ36QFHNA8BR6XJ
+# @specre 01KJ758K1CA5TWC5FHEKJZ52BT
 class CustomMailer < ApplicationMailer
   default from: -> { email_from(I18n.t("mailers.custom_mailer.from")) }
 

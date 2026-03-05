@@ -1,3 +1,4 @@
+# @specre 01KJBKE1C16S97KD8TGGV2RBK0
 module Authentication
   module Providers
     # Apple authentication provider, uses omniauth-apple as backend

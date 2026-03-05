@@ -1,3 +1,4 @@
+# @specre 01KJ1N6YC7D22BXFDC9RKFZTF8
 require "rails_helper"
 
 RSpec.describe JsitorTag, type: :liquid_tag do

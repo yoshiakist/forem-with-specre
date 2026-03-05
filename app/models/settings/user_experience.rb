@@ -1,3 +1,4 @@
+# @specre 01KHZ42W1F9TF90P5F8MH2WYKZ
 module Settings
   # Basic UX settings that can be overridden by individual user preferences.
   class UserExperience < Base

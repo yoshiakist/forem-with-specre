@@ -1,3 +1,4 @@
+# @specre 01KHZMA857XQ0MP5F9S9D2ZYCX
 require "rails_helper"
 
 RSpec.describe "PollVotesController", type: :request do

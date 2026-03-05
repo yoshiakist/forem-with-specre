@@ -1,3 +1,4 @@
+# @specre 01KJ7GD1GXR41KPP9FQDP5DGMY
 class RolePolicy < ApplicationPolicy
   def remove_role?
     if user.super_admin?

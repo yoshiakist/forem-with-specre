@@ -1,3 +1,4 @@
+# @specre 01KJXS23EC325QAKXA39K1FE6R
 # Included in Application Controller to monkey patch Devise::Controllers::Helpers#current_user
 # https://github.com/heartcombo/devise/blob/5d5636f03ac19e8188d99c044d4b5e90124313af/lib/devise/controllers/helpers.rb#L103
 module EdgeCacheSafetyCheck

@@ -1,3 +1,4 @@
+# @specre 01KJ41JP9GAVXCTXZZXZ1NPNP8
 module Badges
   class AwardTag
     MESSAGE_TEMPLATE =

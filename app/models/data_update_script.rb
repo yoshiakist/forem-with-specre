@@ -1,3 +1,6 @@
+# @specre 01KJ2T00V6D6VZF6FZNGJ94W1D
+# @specre 01KJ2SZQQG4JYPHKNCN2BSNYMN
+# @specre 01KJ2SZCDD0QR1BVHSPYKQZ955
 class DataUpdateScript < ApplicationRecord
   DIRECTORY = Rails.root.join("lib/data_update_scripts").freeze
   NAMESPACE = "DataUpdateScripts".freeze

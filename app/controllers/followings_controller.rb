@@ -1,3 +1,4 @@
+# @specre 01KJ1XAJ69KXNBRJE9Z3328GT0
 class FollowingsController < ApplicationController
   before_action :authenticate_user!
   before_action -> { limit_per_page(default: 80, max: 1000) }

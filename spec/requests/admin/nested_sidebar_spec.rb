@@ -1,3 +1,4 @@
+# @specre 01KJ9GWMJV27RNX4KT7WT0MQXS
 require "rails_helper"
 
 RSpec.describe "admin sidebar" do

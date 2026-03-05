@@ -1,3 +1,4 @@
+# @specre 01KJ3YXYAR6AARATJH02XHAEVW
 module ConsumerApps
   class FindOrCreateAllQuery
     def self.call

@@ -1,3 +1,4 @@
+# @specre 01KJ7G73NX1PNF0QQBGT8PPT41
 require "rails_helper"
 
 RSpec.describe "Admin::BulkAssignRole" do

@@ -1,3 +1,4 @@
+// @specre 01KJ9N2FZZB07P8ZDF61M9Y9CJ
 import { Controller } from '@hotwired/stimulus';
 
 // eslint-disable-next-line no-restricted-syntax

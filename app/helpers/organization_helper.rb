@@ -1,3 +1,4 @@
+# @specre 01KJ02CRB3BH4Q8986WABZKSG4
 module OrganizationHelper
   def orgs_with_credits(organizations)
     options = organizations.map do |org|

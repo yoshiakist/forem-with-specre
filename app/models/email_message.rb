@@ -1,3 +1,5 @@
+# @specre 01KJ75D28S88YETAPX6NF3ZP4C
+# @specre 01KJ758NKFTEQKYMBYPEGR3817
 class EmailMessage < Ahoy::Message
   belongs_to :feedback_message, optional: true
   belongs_to :email, optional: true

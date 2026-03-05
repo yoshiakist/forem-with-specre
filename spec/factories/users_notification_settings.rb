@@ -1,3 +1,4 @@
+# @specre 01KHZ454YXRB8TWV8PC06P4EQ5
 FactoryBot.define do
   factory :users_notification_setting, class: "Users::NotificationSetting" do
     email_badge_notifications { true }

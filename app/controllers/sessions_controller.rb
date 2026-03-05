@@ -1,3 +1,4 @@
+# @specre 01KJBGZF9PRSHNVF807K57AY46
 class SessionsController < Devise::SessionsController
   def destroy
     if user_signed_in?

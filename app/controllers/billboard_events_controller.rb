@@ -1,3 +1,4 @@
+# @specre 01KJ6E7W8QWARD67FEGBQWTH1T
 # app/controllers/billboard_events_controller.rb
 class BillboardEventsController < ApplicationMetalController
   include ActionController::Head

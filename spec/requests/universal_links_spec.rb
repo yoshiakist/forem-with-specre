@@ -1,3 +1,4 @@
+# @specre 01KJ3YY715791TP7N04ECPMPGV
 require "rails_helper"
 
 RSpec.describe "Universal Links (Apple)" do

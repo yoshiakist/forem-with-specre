@@ -1,3 +1,4 @@
+# @specre 01KJ6FS1TBTFY751JJQTJ7F755
 module Badges
   class AwardFabFive
     BADGE_SLUG = "fab-5".freeze

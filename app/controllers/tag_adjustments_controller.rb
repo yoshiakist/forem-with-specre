@@ -1,3 +1,4 @@
+# @specre 01KJ3ZG8Z0CF01S5WC6MP62WS6
 class TagAdjustmentsController < ApplicationController
   after_action only: %i[create destroy] do
     Audit::Logger.log(:moderator, current_user, params.dup)

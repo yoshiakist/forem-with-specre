@@ -1,3 +1,4 @@
+# @specre 01KJ1FC5TTWJKZS6HXP58WKM8Y
 class AsciinemaTag < LiquidTagBase
   PARTIAL = "liquids/asciinema".freeze
   REGISTRY_REGEXP = %r{https://asciinema\.org/a/(?<id>(?:\d+|[A-Za-z0-9_-]+))}

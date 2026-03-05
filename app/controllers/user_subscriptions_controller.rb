@@ -1,3 +1,5 @@
+# @specre 01KJ9JGGNEP4QG1M8993MB2A5K
+# @specre 01KJ9RAX3Y386ZACHQ0XRZ8GWT
 class UserSubscriptionsController < ApplicationController
   before_action :authenticate_user!
 

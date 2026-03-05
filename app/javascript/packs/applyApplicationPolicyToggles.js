@@ -1,3 +1,4 @@
+// @specre 01KJXXHMXT7M0M6E0BCSN0PA34
 import { getUserDataAndCsrfToken } from '@utilities/getUserDataAndCsrfToken';
 /**
  * Responsible for hiding or showing elements that match each of the given user

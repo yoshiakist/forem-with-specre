@@ -1,3 +1,4 @@
+# @specre 01KJVGDWG6JSDZ2K61C9PXX65N
 require "rails_helper"
 
 RSpec.describe CommunityBotPolicy, type: :policy do

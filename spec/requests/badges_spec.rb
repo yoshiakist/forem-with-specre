@@ -1,3 +1,4 @@
+# @specre 01KJ6FAFV9D47QGGRY76KPKNC4
 require "rails_helper"
 
 RSpec.describe "Badges" do

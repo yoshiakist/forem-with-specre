@@ -1,3 +1,4 @@
+// @specre 01KHYYD4RVEHXFA0M3F62W5PQD
 import { h, Component } from 'preact';
 import PropTypes from 'prop-types';
 import { getContentOfToken } from '../utilities';

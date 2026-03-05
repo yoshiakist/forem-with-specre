@@ -1,3 +1,4 @@
+# @specre 01KJ9K81WPHS5C4RC219RP1DMK
 require "rails_helper"
 
 RSpec.describe Users::SelectModeratorsQuery, type: :query do

@@ -1,3 +1,4 @@
+# @specre 01KHYABB1GB91QKA03127ZTDMJ
 require "rails_helper"
 
 RSpec.describe OrganizationMembership do

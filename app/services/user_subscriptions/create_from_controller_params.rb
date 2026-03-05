@@ -1,3 +1,4 @@
+# @specre 01KJ9RAX3Y386ZACHQ0XRZ8GWT
 module UserSubscriptions
   # When creating a UserSubscription from a controller/user interaction on the
   # frontend, we need to do some extra validations and logic.

@@ -1,3 +1,4 @@
+# @specre 01KHZ69F0GE1R07TXK53AAA1K8
 require "rails_helper"
 
 RSpec.describe Profile do

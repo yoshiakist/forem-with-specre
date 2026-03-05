@@ -1,3 +1,4 @@
+# @specre 01KJ9RAX3Y386ZACHQ0XRZ8GWT
 require "rails_helper"
 
 RSpec.describe UserSubscriptions::CreateFromControllerParams, type: :service do

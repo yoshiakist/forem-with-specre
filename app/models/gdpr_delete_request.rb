@@ -1,3 +1,4 @@
+# @specre 01KJBEERZREF0ZGB6E62EATBXE
 class GDPRDeleteRequest < ApplicationRecord
   validates :email, :user_id, presence: true
 

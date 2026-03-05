@@ -1,3 +1,4 @@
+# @specre 01KHZ59AQ4W3GQVDAC6H33R4FD
 require "rails_helper"
 
 RSpec.describe Notifications::Reactions::Send, type: :service do

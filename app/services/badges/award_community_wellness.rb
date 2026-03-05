@@ -1,3 +1,4 @@
+# @specre 01KJ6FNWH1CEFRKAV2VSJC9213
 module Badges
   class AwardCommunityWellness
     REWARD_STREAK_WEEKS = [1, 2, 4, 8, 16, 24, 32].freeze

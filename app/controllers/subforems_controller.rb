@@ -1,3 +1,5 @@
+# @specre 01KHYH6H3EC7J6FS17BS9ZBE0F
+# @specre 01KHYH43TN4FS8ZYTW757DZBHZ
 class SubforemsController < ApplicationController
   rescue_from Pundit::NotAuthorizedError, with: :render_forbidden
   before_action :authenticate_user!, only: %i[edit update add_tag remove_tag create_navigation_link update_navigation_link destroy_navigation_link new_page create_page edit_page update_page destroy_page]

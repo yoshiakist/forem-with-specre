@@ -1,3 +1,4 @@
+# @specre 01KJXS5KFKXR5ATWMC60V4695E
 # Used to warn the developer if sidekiq is not running
 # Only included in ApplicationController when in development environment
 module DevelopmentDependencyChecks

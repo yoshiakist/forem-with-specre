@@ -1,3 +1,4 @@
+# @specre 01KJ759KKVVQ8YQZP1B78QC3Q6
 class EmailAuthorization < ApplicationRecord
   belongs_to :user
 

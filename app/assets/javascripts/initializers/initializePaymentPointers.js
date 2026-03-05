@@ -1,3 +1,4 @@
+// @specre 01KJVDWABE6Y2TMWKY0JGNVWGF
 function initializePaymentPointers() {
   var userPointer = document.getElementById('author-payment-pointer');
   var basePointer = document.getElementById('base-payment-pointer');

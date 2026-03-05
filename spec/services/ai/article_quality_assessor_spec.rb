@@ -1,3 +1,4 @@
+# @specre 01KJ6T4NE3KFCGASC42XB50SKP
 require "rails_helper"
 
 RSpec.describe Ai::ArticleQualityAssessor, type: :service do

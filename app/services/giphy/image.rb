@@ -1,3 +1,4 @@
+# @specre 01KJ2XAF8C1H0K7QD5X08KHD2X
 module Giphy
   class Image
     def self.valid_url?(source)

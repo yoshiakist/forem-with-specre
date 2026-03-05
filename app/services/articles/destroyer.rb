@@ -1,3 +1,4 @@
+# @specre 01KJTZE81B7VMF20GAZPA9PSNF
 module Articles
   module Destroyer
     module_function

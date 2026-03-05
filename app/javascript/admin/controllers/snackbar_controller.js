@@ -1,3 +1,4 @@
+// @specre 01KJ9GWWKF62PQBKP13K74MPN0
 import { Controller } from '@hotwired/stimulus';
 
 // Wraps the Preact Snackbar component into a Stimulus controller

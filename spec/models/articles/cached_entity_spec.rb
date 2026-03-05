@@ -1,3 +1,4 @@
+# @specre 01KJBWND9NFMH316PP8N7MXRRS
 require "rails_helper"
 
 RSpec.describe Articles::CachedEntity do

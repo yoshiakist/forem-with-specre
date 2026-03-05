@@ -1,3 +1,4 @@
+# @specre 01KJV8A14A58JBDS2RRK1MY5YH
 require "rails_helper"
 
 RSpec.describe Moderator::SinkArticles, type: :service do

@@ -1,3 +1,4 @@
+# @specre 01KJBGS95JE0MXBB7NXGXDKTE4
 require "rails_helper"
 
 RSpec.describe Users::SuggestForSidebar, type: :service do

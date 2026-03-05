@@ -1,3 +1,4 @@
+# @specre 01KJ5DQT35P394JJVCSC077ZX5
 # these tests were written to check the cache invalidation after adding spam role to the user
 # the cache is invalidated in Comments::CalculateScoreWorker
 # actually, the tests succeed if there is at least updating comment updated_at (in Comments::CalculateScoreWorker)

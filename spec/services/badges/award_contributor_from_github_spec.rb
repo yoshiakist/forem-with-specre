@@ -1,3 +1,4 @@
+# @specre 01KJ1SF43DPAEFTTZJQ449412V
 require "rails_helper"
 
 RSpec.describe Badges::AwardContributorFromGithub, :vcr, type: :service do

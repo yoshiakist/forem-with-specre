@@ -1,3 +1,4 @@
+# @specre 01KJ24DBM92V2E2RDET8BZEWTZ
 class FeedEventsController < ApplicationMetalController
   before_action :current_user_by_token, only: [:create]
   skip_forgery_protection if: :token_authenticated?

@@ -1,3 +1,4 @@
+# @specre 01KHZ3X8Z3Y2RPWBDE48X9GQ3D
 require "rails_helper"
 require "carrierwave/test/matchers"
 require "exifr/jpeg"

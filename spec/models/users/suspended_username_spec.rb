@@ -1,3 +1,4 @@
+# @specre 01KJBGNMW3FQS80A1NFAK9JPB4
 require "rails_helper"
 
 RSpec.describe Users::SuspendedUsername do

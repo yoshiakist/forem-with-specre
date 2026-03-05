@@ -1,3 +1,5 @@
+<%# @specre 01KJBK4DJZ9CXYE23MDH6TXZS3 %>
+<%# @specre 01KJ72CC7Y6GB7EXY8MNPEX2VQ %>
 <% if @user.creator? %>
   <%= render partial: "creator_confirmation_instructions", locals: { url: confirmation_url(@resource, confirmation_token: @token, host: @subforem_domain) } %>
 <% else %>

@@ -1,3 +1,4 @@
+# @specre 01KJBWT5HAQGGSECGZJ20D6PCX
 class VideoPolicy < ApplicationPolicy
   # @return [Boolean] if the user can :create a video.
   # @raise [ApplicationPolicy::UserSuspendedError] if the user's suspended.

@@ -1,3 +1,5 @@
+# @specre 01KJ02MNP5AREF4M1SM48V0ED6
+# @specre 01KJ029Q7RK57YNH11SH1V2BBB
 module Admin
   module OrganizationsHelper
     def deletion_modal_error_message(organization)

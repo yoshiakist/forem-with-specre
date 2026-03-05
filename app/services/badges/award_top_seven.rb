@@ -1,3 +1,4 @@
+# @specre 01KJ6FSCYDY8QPVA6XPZ8X4WT1
 module Badges
   class AwardTopSeven
     BADGE_SLUG = "top-7".freeze

@@ -1,3 +1,4 @@
+# @specre 01KJ162FSS39965A6QK4V78F2H
 require "rails_helper"
 
 RSpec.describe Audit::Notification, type: :service do

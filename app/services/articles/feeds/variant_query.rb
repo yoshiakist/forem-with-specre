@@ -1,3 +1,4 @@
+# @specre 01KJ246P62P50ED5YJNGJ50J3J
 module Articles
   module Feeds
     # This object is responsible for building the relevancy feed based on the given user and the

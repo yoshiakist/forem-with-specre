@@ -1,3 +1,4 @@
+# @specre 01KJ7408K5C6ZFPGTNP24020H9
 # app/workers/emails/drip_email_worker.rb
 module Emails
   class DripEmailWorker

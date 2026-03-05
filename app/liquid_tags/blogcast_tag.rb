@@ -1,3 +1,4 @@
+# @specre 01KJ1NAG2B0GM9BJT8H5W0JEHB
 class BlogcastTag < LiquidTagBase
   PARTIAL = "liquids/blogcast".freeze
   REGISTRY_REGEXP = %r{https?://(?:app\.)?(?:blogcast\.host/embed/)(?<video_id>\d{1,9})}

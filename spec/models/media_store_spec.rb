@@ -1,3 +1,4 @@
+# @specre 01KJ1C23JZY0T5QCNX103SR5MM
 require "rails_helper"
 
 RSpec.describe MediaStore do

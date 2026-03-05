@@ -1,3 +1,4 @@
+# @specre 01KJ71J0WWYVQ1PD8KP1MBS1W0
 # Preview all emails at http://localhost:3000/rails/mailers/digest_mailer
 class DigestMailerPreview < ActionMailer::Preview
   def digest_email

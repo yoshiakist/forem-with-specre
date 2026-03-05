@@ -1,3 +1,4 @@
+# @specre 01KJ246P62P50ED5YJNGJ50J3J
 module Articles
   module Feeds
     # This class is responsible for publishing/registering the available relevancy and order levers.

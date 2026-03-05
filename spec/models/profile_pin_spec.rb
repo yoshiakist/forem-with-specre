@@ -1,3 +1,4 @@
+# @specre 01KHZ69FHDF80CY6ZM4CR87C8M
 require "rails_helper"
 
 RSpec.describe ProfilePin do

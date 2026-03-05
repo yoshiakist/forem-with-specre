@@ -1,3 +1,7 @@
+# @specre 01KJ6DVV4TY3RHBN045KGH5ZXY
+# @specre 01KJ6D5ARD28YYPJ5J3T4XPXDS
+# @specre 01KJ6D4S5MFQG4KCF9VYGRYZW4
+# @specre 01KJ6D3VR5PTRXZFBE5SVTSYM1
 class Broadcast < ApplicationRecord
   VALID_BANNER_STYLES = %w[default brand success warning error].freeze
   resourcify

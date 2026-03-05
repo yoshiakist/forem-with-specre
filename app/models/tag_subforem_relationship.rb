@@ -1,3 +1,4 @@
+# @specre 01KJ41RETE70D2JDJEGS0STSGM
 class TagSubforemRelationship < ApplicationRecord
   belongs_to :tag
   belongs_to :subforem

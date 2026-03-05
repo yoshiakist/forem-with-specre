@@ -1,3 +1,4 @@
+# @specre 01KHYYG7CT65AXSS0G8M61RW6N
 # send notifications about a subforem change
 module Notifications
   module SubforemChangeNotification

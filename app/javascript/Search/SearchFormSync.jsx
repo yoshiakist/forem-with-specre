@@ -1,3 +1,4 @@
+// @specre 01KHZ22E63WBQWYFZNQVEA2EEE
 import { h } from 'preact';
 import { useEffect, useState } from 'preact/hooks';
 import { createPortal, Fragment, unmountComponentAtNode } from 'preact/compat';

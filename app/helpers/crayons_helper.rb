@@ -1,3 +1,4 @@
+# @specre 01KJXZKK9VT55P2Y3HEE9044KS
 module CrayonsHelper
   # A wrapper for the +inline_svg_tag+ helper specifically for Crayons icons.
   #

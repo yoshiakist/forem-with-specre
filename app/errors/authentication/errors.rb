@@ -1,3 +1,4 @@
+# @specre 01KJBK9T82MG157560A1HGHHXJ
 module Authentication
   module Errors
     class Error < StandardError

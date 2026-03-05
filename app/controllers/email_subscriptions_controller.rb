@@ -1,3 +1,4 @@
+# @specre 01KJ736Y1WVQNF8YCCRM4FNN86
 class EmailSubscriptionsController < ApplicationController
   def unsubscribe
     verified_params = Rails.application.message_verifier(:unsubscribe).verify(params[:ut])

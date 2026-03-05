@@ -1,3 +1,4 @@
+# @specre 01KJ6EH2F7D1Q61H1A07JXRE38
 require "rails_helper"
 
 RSpec.describe "admin/billboards/new" do

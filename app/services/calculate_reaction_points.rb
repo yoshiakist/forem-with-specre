@@ -1,3 +1,4 @@
+# @specre 01KHZ55SRCPDHPWM0EYSTE60MK
 # Reaction uses this class to calculate points before saving
 class CalculateReactionPoints
   DEFAULT_SCORE = 1.0

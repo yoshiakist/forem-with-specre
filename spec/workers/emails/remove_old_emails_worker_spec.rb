@@ -1,3 +1,4 @@
+# @specre 01KJ75D28S88YETAPX6NF3ZP4C
 require "rails_helper"
 
 RSpec.describe Emails::RemoveOldEmailsWorker, type: :worker do

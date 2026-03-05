@@ -1,3 +1,4 @@
+# @specre 01KJ164X04NVKMCJE01KSRGXV2
 module Metrics
   class RecordDailyNotificationsWorker
     include Sidekiq::Job

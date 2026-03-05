@@ -1,3 +1,4 @@
+# @specre 01KJ24DBM92V2E2RDET8BZEWTZ
 module FeedEvents
   # Inserts a collection of feed events into the database.
   #

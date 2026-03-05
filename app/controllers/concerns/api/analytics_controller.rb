@@ -1,3 +1,4 @@
+# @specre 01KJ6QCAKAT1EKMN80R2KK58YZ
 module Api
   module AnalyticsController
     extend ActiveSupport::Concern

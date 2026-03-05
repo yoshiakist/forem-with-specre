@@ -1,3 +1,10 @@
+# @specre 01KJBWZ3J5DHQXJ25C977K5D9H
+# @specre 01KJCHXPSF9DJHF0B8M4XZRZZD
+# @specre 01KJCHTC22WA5N8C2J29GQ6Q76
+# @specre 01KJCHPQSWKVZHSRRBZ4Q4KMNB
+# @specre 01KJCHJFD7KGAQSDCCXMC9W7WY
+# @specre 01KJCHEJQ8BMDATPDZDH3F5QVX
+# @specre 01KJCH9K2X9B3K15E69D2AR3ZZ
 module Api
   module V1
     # @note This controller partially authorizes with the ArticlePolicy, in an ideal world, it would

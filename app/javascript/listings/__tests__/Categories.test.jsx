@@ -1,3 +1,4 @@
+// @specre 01KJXWC077QF4CMYHXFFQ278TR
 import { h } from 'preact';
 import { render, screen } from '@testing-library/preact';
 import { Categories } from '../components/Categories';

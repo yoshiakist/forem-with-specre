@@ -1,3 +1,4 @@
+# @specre 01KJXNBDC10EP7TQ8TQ9Q9F4SX
 class ColorContrastValidator < ActiveModel::EachValidator
   def validate_each(record, attribute, value)
     return unless Color::Accessibility.new(value).low_contrast?

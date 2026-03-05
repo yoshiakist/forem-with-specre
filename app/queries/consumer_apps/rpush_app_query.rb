@@ -1,3 +1,4 @@
+# @specre 01KJ162B266JS6N6VM0EMQWB02
 module ConsumerApps
   class RpushAppQuery
     def self.call(app_bundle:, platform:)

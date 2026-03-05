@@ -1,3 +1,4 @@
+# @specre 01KHYYF2GKNFJF3ZE6PR6X8X9V
 module Ai
   ##
   # Analyzes an article and finds the most appropriate subforem for it

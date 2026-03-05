@@ -1,3 +1,4 @@
+# @specre 01KJ15S0NS9P24NVVX050NB1S1
 module BadgeAchievements
   class SendEmailNotificationWorker
     include Sidekiq::Job

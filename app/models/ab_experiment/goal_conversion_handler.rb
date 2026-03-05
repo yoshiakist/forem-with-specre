@@ -1,3 +1,4 @@
+# @specre 01KJ703F16P7AYF29Z4W9PQW5K
 class AbExperiment
   # Responsible for checking if a given :user has "accomplished" the state :goal for any of the
   # active :experiments.  We scope our tests to events that happened on or after the experiment's

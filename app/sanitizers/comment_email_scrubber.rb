@@ -1,3 +1,4 @@
+# @specre 01KJ15ND4TPFS7E01YWS9GX3EC
 class CommentEmailScrubber < Rails::Html::PermitScrubber
   def initialize
     super

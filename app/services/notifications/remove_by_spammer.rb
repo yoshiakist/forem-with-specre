@@ -1,3 +1,4 @@
+# @specre 01KJ15Z6XANFFT1FA0YP2J2EQC
 # remove notifications created for spammer actions:
 # follow user, create comments, create articles
 module Notifications

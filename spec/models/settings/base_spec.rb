@@ -1,3 +1,4 @@
+# @specre 01KHZ3R448RA411ZP1V33AX5MR
 # frozen_string_literal: true
 
 require "rails_helper"

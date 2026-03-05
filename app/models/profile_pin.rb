@@ -1,3 +1,4 @@
+# @specre 01KHZ69FHDF80CY6ZM4CR87C8M
 # @note When we destroy the related article (via pinnable), it's using
 #       dependent: :delete for the relationship.  That means no
 #       before/after destroy callbacks will be called on this object.

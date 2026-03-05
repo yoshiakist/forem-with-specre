@@ -1,0 +1,16 @@
+services:
+  cocoindex-db:
+    image: pgvector/pgvector:pg16
+    container_name: cocoindex_postgres
+    environment:
+      POSTGRES_USER: cocoindex
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: cocoindex_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - cocoindex-pg-data:/var/lib/postgresql/data
+    restart: always
+
+volumes:
+  cocoindex-pg-data:

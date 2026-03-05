@@ -1,3 +1,4 @@
+# @specre 01KJ6FFA2FH0HVDCGYH9XQB3GG
 require "rails_helper"
 
 RSpec.describe "/api/badges", type: :request do

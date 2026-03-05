@@ -1,3 +1,4 @@
+# @specre 01KHYYF2GKNFJF3ZE6PR6X8X9V
 require "rails_helper"
 
 RSpec.describe SubforemReassignmentService do

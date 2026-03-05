@@ -1,3 +1,4 @@
+# @specre 01KJ2XAF8C1H0K7QD5X08KHD2X
 class RenderedMarkdownScrubber < Rails::Html::PermitScrubber
   LIQUID_TAG_SYNTAX_REGEX = /\{%|%\}/
   def initialize

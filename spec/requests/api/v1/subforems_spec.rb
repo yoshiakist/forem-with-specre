@@ -1,3 +1,4 @@
+# @specre 01KHYYJCP2TRNXM24G12C072KD
 require "rails_helper"
 
 RSpec.describe "Api::V1::Subforems" do

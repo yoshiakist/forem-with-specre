@@ -1,3 +1,4 @@
+# @specre 01KJ2XAF8C1H0K7QD5X08KHD2X
 require "rails_helper"
 
 RSpec.describe Html::ImageUri, type: :service do

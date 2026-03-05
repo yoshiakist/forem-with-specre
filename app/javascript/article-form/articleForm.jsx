@@ -1,3 +1,11 @@
+// @specre 01KJV76MT6VG17M3KM7NJQ6T52
+// @specre 01KJV7320ZN2XMTYR9W58S7BBX
+// @specre 01KJV72PBDYQK52A1J9HY0CEHX
+// @specre 01KJV0FGGM94SH8KZS9W17794A
+// @specre 01KJV0FG4SVVE94D8VGYYQE8YY
+// @specre 01KJV0FF10MZMWNFJB77RRFZ6S
+// @specre 01KJTZVFN07Y5FR14D7Y40J9F5
+// @specre 01KJTZNTD1B2X40J6GGAH2K1ZK
 import { h, Component } from 'preact';
 import PropTypes from 'prop-types';
 import linkState from 'linkstate';

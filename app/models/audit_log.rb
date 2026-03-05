@@ -1,3 +1,4 @@
+# @specre 01KJ6GMVW8YA3D7EE2WW7VZEZV
 class AuditLog < ApplicationRecord
   belongs_to :user, optional: true
 

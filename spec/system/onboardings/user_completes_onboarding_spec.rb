@@ -1,3 +1,5 @@
+# @specre 01KJVJ45XH7EQE2H412F1ZGN0V
+# @specre 01KJVJ0PM6MVDTBJ7MH5JY9R5J
 require "rails_helper"
 
 RSpec.describe "Completing Onboarding", js: true do

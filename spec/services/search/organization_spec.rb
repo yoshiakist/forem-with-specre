@@ -1,3 +1,4 @@
+# @specre 01KJ02HC7CPXANNH4W8KJWYC61
 require "rails_helper"
 
 # This spec uses `pluck` on an array of hashes, but Rubocop can't tell the difference.

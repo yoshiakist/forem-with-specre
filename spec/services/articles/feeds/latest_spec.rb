@@ -1,3 +1,4 @@
+# @specre 01KJV9M130S6RWDXS6V4WXKBGM
 require "rails_helper"
 
 RSpec.describe Articles::Feeds::Latest, type: :service do

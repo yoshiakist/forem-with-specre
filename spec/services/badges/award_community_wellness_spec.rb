@@ -1,3 +1,4 @@
+# @specre 01KJ6FNWH1CEFRKAV2VSJC9213
 require "rails_helper"
 
 RSpec.describe Badges::AwardCommunityWellness, type: :service do

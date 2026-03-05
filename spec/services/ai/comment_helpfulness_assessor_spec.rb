@@ -1,3 +1,4 @@
+# @specre 01KHZ34S64MDBEZEVY74YYQ7HM
 require "rails_helper"
 
 RSpec.describe Ai::CommentHelpfulnessAssessor, type: :service do

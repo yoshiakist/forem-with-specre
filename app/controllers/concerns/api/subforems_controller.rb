@@ -1,3 +1,4 @@
+# @specre 01KHYYJCP2TRNXM24G12C072KD
 module Api
   module SubforemsController
     extend ActiveSupport::Concern

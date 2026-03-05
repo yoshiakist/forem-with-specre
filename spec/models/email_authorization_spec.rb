@@ -1,3 +1,4 @@
+# @specre 01KJ759KKVVQ8YQZP1B78QC3Q6
 require "rails_helper"
 
 RSpec.describe EmailAuthorization do

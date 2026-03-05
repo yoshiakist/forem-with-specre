@@ -1,3 +1,4 @@
+# @specre 01KJCKB0GDJ4BTHW7NPDYBC25S
 require "rails_helper"
 
 RSpec.describe "User discussion locks", js: true do

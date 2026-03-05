@@ -1,3 +1,4 @@
+# @specre 01KJ41F3K1B3SRQ2HBYFY2N2M4
 RSpec.shared_examples "Taggable" do
   let(:model) { described_class } # the class that includes the concern
   object = described_class.name.underscore.to_sym

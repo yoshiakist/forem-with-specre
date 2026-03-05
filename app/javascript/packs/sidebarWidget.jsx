@@ -1,3 +1,4 @@
+// @specre 01KJ1X6P8ZE8SXRX8T90FCZH0G
 import { h, render } from 'preact';
 import { SidebarWidget } from '../sidebar-widget/SidebarWidget';
 

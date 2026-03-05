@@ -1,3 +1,4 @@
+# @specre 01KJXNEGT06M76HSE5X3EBTZ3V
 class EmojiOnlyValidator < ActiveModel::EachValidator
   def validate_each(record, attribute, value)
     return unless value

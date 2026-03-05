@@ -1,3 +1,4 @@
+# @specre 01KJ43E9107K5RBF375S75E2PV
 module Ai
   ##
   # Analyzes a comment to determine if it is likely spam.

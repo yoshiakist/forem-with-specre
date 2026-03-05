@@ -1,3 +1,4 @@
+# @specre 01KJ41WHZ0KRBSTTD55T6WPTM6
 class TagPolicy < ApplicationPolicy
   def index?
     true

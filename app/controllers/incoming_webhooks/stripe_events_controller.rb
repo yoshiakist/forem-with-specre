@@ -1,3 +1,4 @@
+# @specre 01KJVDW6ZPBBC4Y26Z8YE18P1G
 module IncomingWebhooks
   class StripeEventsController < ApplicationController
     skip_before_action :verify_authenticity_token

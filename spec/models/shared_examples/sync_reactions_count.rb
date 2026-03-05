@@ -1,3 +1,4 @@
+# @specre 01KHZ55SRCPDHPWM0EYSTE60MK
 RSpec.shared_examples "#sync_reactions_count" do |reactable_type|
   context "with syncable reactions count" do
     let(:reactable) { create(reactable_type) }

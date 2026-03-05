@@ -1,3 +1,4 @@
+# @specre 01KJ9KBD37APR9VXPVW9CZANV7
 require "rails_helper"
 
 RSpec.describe Moderator::MergeUser, type: :service do

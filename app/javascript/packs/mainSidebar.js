@@ -1,3 +1,4 @@
+// @specre 01KJXY201SHSNYJJCG16X9A5B7
 // You'll need to make the FeedTracker class available in this file's scope.
 // Assuming you are using JS modules, you would do:
 import { FeedTracker } from '../packs/feedEvents.js';

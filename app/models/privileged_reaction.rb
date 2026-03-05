@@ -1,3 +1,4 @@
+# @specre 01KHZ593PHDRQRWR1673HQ654Q
 class PrivilegedReaction < ApplicationRecord
   resourcify
   # This class exists to take advantage of Rolify for limiting authorization

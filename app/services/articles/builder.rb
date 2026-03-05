@@ -1,3 +1,5 @@
+# @specre 01KJV0FGPPG85X74PBP40BXG5N
+# @specre 01KJV0FF10MZMWNFJB77RRFZ6S
 module Articles
   class Builder
     LINE_BREAK = "\n".freeze

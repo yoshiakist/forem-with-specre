@@ -1,3 +1,4 @@
+# @specre 01KJ6GMVW8YA3D7EE2WW7VZEZV
 require "rails_helper"
 
 RSpec.describe AuditLog do

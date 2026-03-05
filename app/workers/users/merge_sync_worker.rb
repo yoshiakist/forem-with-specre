@@ -1,3 +1,4 @@
+# @specre 01KJ9R3NEXD9DTKEX8J52S80DF
 module Users
   class MergeSyncWorker
     include Sidekiq::Job

@@ -1,3 +1,4 @@
+<%# @specre 01KJBV1G647P4BRNVEY8SP0R1Q %>
 <% cache("article-bottom-content-#{@article.id}-#{false}-#{(@organization || @user).latest_article_updated_at}", expires_in: 96.hours) do %>
   <% suggested_articles = Articles::Suggest.call(@article, max: 4) %>
   <%= render "articles/bottom_content", articles: suggested_articles %>

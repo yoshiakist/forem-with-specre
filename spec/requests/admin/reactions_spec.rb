@@ -1,3 +1,4 @@
+# @specre 01KHZ55S8Z1A16PNGY9X7PR58P
 require "rails_helper"
 
 RSpec.describe "/admin/reactions" do

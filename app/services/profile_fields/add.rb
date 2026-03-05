@@ -1,3 +1,4 @@
+# @specre 01KHZ6D9SWTJKNHPPWX68BHARE
 # This service creates a new profile field and ensures that the correct store
 # accessor gets added to profiles immediately.
 module ProfileFields

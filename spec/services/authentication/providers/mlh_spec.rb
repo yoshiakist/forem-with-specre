@@ -1,3 +1,4 @@
+# @specre 01KJBKEF96PT34KK0QAPBGFP6F
 require "rails_helper"
 
 RSpec.describe Authentication::Providers::Mlh, type: :service do

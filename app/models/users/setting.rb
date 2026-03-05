@@ -1,3 +1,4 @@
+# @specre 01KHZ466X2VM8VAWD6RE82CF9J
 module Users
   #  @note When we destroy the related user, it's using dependent:
   #        :delete for the relationship.  That means no before/after

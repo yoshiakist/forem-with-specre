@@ -1,3 +1,4 @@
+# @specre 01KJ1NAFCEMR7CZQHG5PZPNMZF
 require "rails_helper"
 
 RSpec.describe BandcampTag, type: :liquid_tag do

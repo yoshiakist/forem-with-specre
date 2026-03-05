@@ -1,3 +1,4 @@
+# @specre 01KJ15YY7SWMF93P655KXRSPEK
 module Notifications
   class NotifiableActionWorker
     include Sidekiq::Job

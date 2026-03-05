@@ -1,3 +1,4 @@
+# @specre 01KJ6FBFV0DKQVMBPB49V7ZKCB
 module Badges
   class Award
     def self.call(user_relation, slug, message_markdown, include_default_description: true)

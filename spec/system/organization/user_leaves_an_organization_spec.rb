@@ -1,3 +1,4 @@
+# @specre 01KJ02HFZZ1BJN4RQBAP4QA41P
 require "rails_helper"
 
 RSpec.describe "User leaves an organization" do

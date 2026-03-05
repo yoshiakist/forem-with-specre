@@ -1,3 +1,4 @@
+# @specre 01KJ3YY715791TP7N04ECPMPGV
 class DeepLinksController < ApplicationController
   AASA_PATHS = ["/*", "NOT /users/auth/*"].freeze
 

@@ -1,3 +1,6 @@
+# @specre 01KJ41VY1GJ0K2GW8VGQXEA5NR
+# @specre 01KJ41RETE70D2JDJEGS0STSGM
+# @specre 01KJ41DVKVSHQT3TKSJP11Y7SZ
 require "rails_helper"
 
 RSpec.describe "/admin/content_manager/tags" do

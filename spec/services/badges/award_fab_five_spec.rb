@@ -1,3 +1,4 @@
+# @specre 01KJ6FS1TBTFY751JJQTJ7F755
 require "rails_helper"
 
 RSpec.describe Badges::AwardFabFive, type: :service do

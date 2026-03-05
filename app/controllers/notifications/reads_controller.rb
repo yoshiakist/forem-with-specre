@@ -1,3 +1,4 @@
+# @specre 01KJ15MVQ9HCZ8PV80MQ828AQF
 module Notifications
   class ReadsController < ApplicationController
     before_action :current_user_by_token, only: [:create]

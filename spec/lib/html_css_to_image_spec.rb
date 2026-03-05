@@ -1,3 +1,4 @@
+# @specre 01KJVEZN3YK9PYFVQ7FW9BBN7M
 require "rails_helper"
 
 RSpec.describe HtmlCssToImage, type: :lib do

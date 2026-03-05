@@ -1,3 +1,4 @@
+# @specre 01KJXTG35F6TPQJYNHA9TFPGAE
 class ApplicationDecorator
   include ActiveModel::Serialization
   include ActiveModel::Serializers::JSON

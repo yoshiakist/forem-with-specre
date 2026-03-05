@@ -1,3 +1,4 @@
+# @specre 01KJ7297CDCGQ36QFHNA8BR6XJ
 require "rails_helper"
 
 RSpec.describe CustomMailer, type: :mailer do

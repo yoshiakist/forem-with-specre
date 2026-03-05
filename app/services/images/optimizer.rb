@@ -1,3 +1,4 @@
+# @specre 01KJVEZHZX5TZ7F9VR43E8WYFS
 module Images
   module Optimizer
     def self.call(img_src, **kwargs)

@@ -1,3 +1,5 @@
+# @specre 01KJBH80DYJTW6BEDGTH8XC06C
+# @specre 01KHZ69F0GE1R07TXK53AAA1K8
 class UserPolicy < ApplicationPolicy
   PERMITTED_ATTRIBUTES = %i[
     reaction_notifications

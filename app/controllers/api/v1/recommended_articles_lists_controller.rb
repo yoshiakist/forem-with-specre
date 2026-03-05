@@ -1,3 +1,4 @@
+# @specre 01KJBV555EB91576QYQPCRJSP1
 module Api
   module V1
     class RecommendedArticlesListsController < ApiController

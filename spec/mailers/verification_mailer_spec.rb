@@ -1,3 +1,5 @@
+# @specre 01KJ72D0HZ49WMGHS1ERWQEKVT
+# @specre 01KJ729K8JA4QKFYMSJEHH7DT5
 require "rails_helper"
 
 RSpec.describe VerificationMailer do

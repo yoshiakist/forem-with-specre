@@ -1,3 +1,7 @@
+// @specre 01KJTZPRK0G09A0XZ3HREFQZT8
+// @specre 01KJCKQZYF0GEXFX0H120R12QN
+// @specre 01KJCKBBKHXER1P381MJEJF8P0
+// @specre 01KJCK5NSKJNEBDJYZA4QQ3YBW
 import { addFullScreenModeControl } from '../utilities/codeFullscreenModeSwitcher';
 import { initializeDropdown } from '../utilities/dropdownUtils';
 import { setupBillboardInteractivity } from '../utilities/billboardInteractivity';

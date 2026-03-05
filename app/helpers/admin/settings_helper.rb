@@ -1,3 +1,4 @@
+# @specre 01KHZ3R448RA411ZP1V33AX5MR
 module Admin
   module SettingsHelper
     def billboard_enabled_countries_for_editing

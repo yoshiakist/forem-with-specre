@@ -1,3 +1,4 @@
+# @specre 01KJ1623YBY62EQ349V4X1XPFP
 module Notifications
   class Update
     delegate :article_data, :comment_data, :user_data, :organization_data, to: Notifications

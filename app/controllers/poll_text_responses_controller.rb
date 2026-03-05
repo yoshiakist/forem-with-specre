@@ -1,3 +1,4 @@
+# @specre 01KHZMEWNFHQAJSG7XYVQXEDTE
 class PollTextResponsesController < ApplicationController
   before_action :authenticate_user!
   before_action :set_poll

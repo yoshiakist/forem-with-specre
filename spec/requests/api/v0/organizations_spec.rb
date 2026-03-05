@@ -1,3 +1,4 @@
+# @specre 01KHZGVB146XQBKF66V2THG07T
 require "rails_helper"
 
 RSpec.describe "Api::V0::Organizations" do

@@ -1,3 +1,4 @@
+# @specre 01KJ9N68RRPC8HY6VF56W9AA9G
 require "rails_helper"
 
 RSpec.describe "/admin/member_manager/users" do

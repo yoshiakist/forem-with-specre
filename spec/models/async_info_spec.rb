@@ -1,3 +1,4 @@
+# @specre 01KJVM8M6XFS8FZ49N49XXD9SM
 require "rails_helper"
 
 RSpec.describe AsyncInfo do

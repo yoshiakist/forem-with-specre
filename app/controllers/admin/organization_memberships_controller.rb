@@ -1,3 +1,4 @@
+# @specre 01KJ02QR77TXF2XJR4QS32QAAE
 module Admin
   class OrganizationMembershipsController < Admin::ApplicationController
     layout "admin"

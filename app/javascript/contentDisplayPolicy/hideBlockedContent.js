@@ -1,3 +1,4 @@
+// @specre 01KJXXQCH4J8E98SGR04CZ6DK3
 /* global userData */
 
 export function hideBlockedContent() {

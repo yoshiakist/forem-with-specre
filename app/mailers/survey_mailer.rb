@@ -1,3 +1,4 @@
+# @specre 01KJ2HPE39M61JKHQGRA7AHD0D
 class SurveyMailer < ApplicationMailer
   def pulse_survey
     @user = params[:user]

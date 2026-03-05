@@ -1,3 +1,8 @@
+# @specre 01KJ6EHMAWTR3NAEGM1TB30FPJ
+# @specre 01KJ6EH2F7D1Q61H1A07JXRE38
+# @specre 01KJ6EE55AAZWW43YVSXTJ4K72
+# @specre 01KJ6EDVX9WX34H0RYPAW57BXR
+# @specre 01KJ6EAKT3P7HHWCZZXHQ6N8MV
 module Admin
   class BillboardsController < Admin::ApplicationController
     layout "admin"

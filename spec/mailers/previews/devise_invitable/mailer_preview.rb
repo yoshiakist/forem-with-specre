@@ -1,3 +1,4 @@
+# @specre 01KJ72CN8M7DDPD8AGN754MKTK
 # Preview all emails at http://localhost:3000/rails/mailers/devise/mailer
 module DeviseInvitable
   class MailerPreview < ActionMailer::Preview

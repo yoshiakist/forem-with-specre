@@ -1,3 +1,4 @@
+# @specre 01KJ1EZV154EB8MH5FS06CB6XT
 require "rails_helper"
 
 RSpec.describe LiquidTagBase, type: :liquid_tag do

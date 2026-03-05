@@ -1,3 +1,4 @@
+# @specre 01KJ1NAH8W61VK3XGMD2PD713M
 class GistTag < LiquidTagBase
   PARTIAL = "liquids/gist".freeze
   VALID_LINK_REGEXP =

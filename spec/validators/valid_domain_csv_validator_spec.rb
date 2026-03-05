@@ -1,3 +1,4 @@
+# @specre 01KJXNEY6XZP2ZTVKP791AZD5G
 require "rails_helper"
 
 RSpec.describe ValidDomainCsvValidator do

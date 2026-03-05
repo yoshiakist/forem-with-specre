@@ -1,3 +1,4 @@
+# @specre 01KHZKDENF1FEDNJQD6XXKWAKZ
 class SurveyCompletionService
   def self.check_and_mark_completion(user:, poll:)
     return unless poll.survey.present?

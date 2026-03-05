@@ -1,3 +1,4 @@
+// @specre 01KJ16Z3Y34HEH2GSWHHXW3NAM
 /**
  * Determines whether or not a member is on the moderation page.
  *

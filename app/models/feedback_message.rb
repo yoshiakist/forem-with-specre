@@ -1,3 +1,4 @@
+# @specre 01KJ25JM22F6QQ01PMJXGHZVQ5
 class FeedbackMessage < ApplicationRecord
   resourcify
 

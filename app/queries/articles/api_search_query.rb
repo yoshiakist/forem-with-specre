@@ -1,3 +1,4 @@
+# @specre 01KJCHXPSF9DJHF0B8M4XZRZZD
 module Articles
   class ApiSearchQuery
     DEFAULT_PER_PAGE = 30

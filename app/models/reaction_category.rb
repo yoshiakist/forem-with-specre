@@ -1,3 +1,4 @@
+# @specre 01KHZ55SRCPDHPWM0EYSTE60MK
 # See also reactions.yml and initializers/load_reaction_category_list.rb
 class ReactionCategory
   class << self

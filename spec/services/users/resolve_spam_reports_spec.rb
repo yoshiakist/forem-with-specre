@@ -1,3 +1,4 @@
+# @specre 01KJ25Q4XMSVV0Y8FHDRRK1JYD
 require "rails_helper"
 
 RSpec.describe Users::ResolveSpamReports, type: :service do

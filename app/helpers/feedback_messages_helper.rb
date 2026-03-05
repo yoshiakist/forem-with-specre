@@ -1,3 +1,4 @@
+# @specre 01KJ25KAPB0FAFF74WX0TD106P
 module FeedbackMessagesHelper
   def offender_email_details
     body = I18n.t("helpers.feedback_messages_helper.offender.body", community: Settings::Community.community_name)

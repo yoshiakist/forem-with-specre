@@ -1,3 +1,4 @@
+# @specre 01KJ758K1CA5TWC5FHEKJZ52BT
 # spec/models/email_spec.rb
 require "rails_helper"
 

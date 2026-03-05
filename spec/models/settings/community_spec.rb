@@ -1,3 +1,4 @@
+# @specre 01KHZ3WD78QFP2ADRDW1QBJZZN
 require "rails_helper"
 
 RSpec.describe Settings::Community do

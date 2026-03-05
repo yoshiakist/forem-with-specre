@@ -1,3 +1,4 @@
+# @specre 01KJBV19F8R23CVAD98DQATZ4G
 class BlackBox
   OUR_EPOCH_NUMBER = "2010-01-01 00:00:01".to_time.to_i # Arbitrary date, but the one we went with.
   class << self

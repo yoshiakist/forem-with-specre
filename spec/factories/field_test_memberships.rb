@@ -1,3 +1,4 @@
+# @specre 01KJ702TAET217EMSPHS27RTN1
 FactoryBot.define do
   factory :field_test_membership, class: "FieldTest::Membership" do
     converted         { false }

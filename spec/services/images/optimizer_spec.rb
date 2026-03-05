@@ -1,3 +1,4 @@
+# @specre 01KJVEZHZX5TZ7F9VR43E8WYFS
 require "rails_helper"
 
 RSpec.describe Images::Optimizer, type: :service do

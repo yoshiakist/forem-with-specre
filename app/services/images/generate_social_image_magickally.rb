@@ -1,3 +1,4 @@
+# @specre 01KJVEZN3YK9PYFVQ7FW9BBN7M
 module Images
   MEDIUM_FONT_PATH = "app/assets/fonts/Roboto-Medium.ttf".freeze
   BOLD_FONT_PATH = "app/assets/fonts/Roboto-Bold.ttf".freeze

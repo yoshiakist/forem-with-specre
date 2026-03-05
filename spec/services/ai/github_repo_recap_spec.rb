@@ -1,3 +1,4 @@
+# @specre 01KJ1SFMV2GXC3T80QKKH4YY6D
 require "rails_helper"
 
 RSpec.describe Ai::GithubRepoRecap do

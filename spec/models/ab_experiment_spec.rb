@@ -1,3 +1,5 @@
+# @specre 01KJ703F16P7AYF29Z4W9PQW5K
+# @specre 01KJ702TAET217EMSPHS27RTN1
 require "rails_helper"
 
 RSpec.describe AbExperiment do

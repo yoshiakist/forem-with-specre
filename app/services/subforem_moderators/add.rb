@@ -1,3 +1,4 @@
+# @specre 01KHYH2RE3WEHN4RVYZWBNXCHA
 module SubforemModerators
   class Add
     Result = Struct.new(:success?, :errors, keyword_init: true)

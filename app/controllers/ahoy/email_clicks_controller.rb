@@ -1,3 +1,4 @@
+# @specre 01KJ73NQSZ78M36BRBYEKY5VHJ
 module Ahoy
   class EmailClicksController < ApplicationController
     skip_before_action :verify_authenticity_token # Signitures are used to verify requests here

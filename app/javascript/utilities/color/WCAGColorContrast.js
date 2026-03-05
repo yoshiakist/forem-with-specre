@@ -1,3 +1,4 @@
+// @specre 01KJXNBDC10EP7TQ8TQ9Q9F4SX
 /**
  * Check color contrast according to WCAG 2.0 spec
  * @see http://www.w3.org/TR/WCAG20-TECHS/G17.html

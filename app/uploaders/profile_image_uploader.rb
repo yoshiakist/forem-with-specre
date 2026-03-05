@@ -1,3 +1,4 @@
+# @specre 01KHZ6GG5GD766PRZK1SE50KMG
 class ProfileImageUploader < BaseUploader
   MAX_FILE_SIZE = 8.megabytes
 

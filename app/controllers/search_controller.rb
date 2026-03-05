@@ -1,3 +1,10 @@
+# @specre 01KHZ2A12P5D6JD7A07Y0K0G87
+# @specre 01KHZ28VAWY5TJ6GJYXZBVE4JN
+# @specre 01KHZ27T6PAPJ71DGHEYS3B02Y
+# @specre 01KHZ26XHGBTBKDTDCRC8S5FCC
+# @specre 01KHZ25T4PNZ33CT917WZ25JYT
+# @specre 01KHZ24CTQNRDZ5CAMD3TTT1KN
+# @specre 01KHZ22E63WBQWYFZNQVEA2EEE
 class SearchController < ApplicationController
   before_action :authenticate_user!, only: %i[tags reactions usernames]
   before_action :format_integer_params

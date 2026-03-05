@@ -1,3 +1,4 @@
+# @specre 01KHYH2RE3WEHN4RVYZWBNXCHA
 module Admin
   module SubforemModerators
     class ModeratorsController < Admin::ApplicationController

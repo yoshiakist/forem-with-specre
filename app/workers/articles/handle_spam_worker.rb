@@ -1,3 +1,4 @@
+# @specre 01KJBN5DYZS4T9WNQYC16YKBD0
 module Articles
   class HandleSpamWorker
     include Sidekiq::Job

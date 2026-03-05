@@ -1,3 +1,4 @@
+# @specre 01KJ15VTEFMF2JWBP9FBB6NCSB
 module Notifications
   module Milestone
     ARTICLE_FINAL_PUBLICATION_TIME_FOR_MILESTONE = Time.zone.local(2019, 2, 25)

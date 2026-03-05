@@ -1,3 +1,4 @@
+# @specre 01KJ9MT3FSYT9TTRKCNCH9Q9GV
 require "rails_helper"
 
 RSpec.describe UserQueryExecutor do

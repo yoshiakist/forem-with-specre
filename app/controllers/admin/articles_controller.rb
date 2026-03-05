@@ -1,3 +1,5 @@
+# @specre 01KJTZEM8AT0EMBHCD6T08T9PW
+# @specre 01KJBWMN1X7QK4TMQ77F5NFR6E
 module Admin
   class ArticlesController < Admin::ApplicationController
     layout "admin"

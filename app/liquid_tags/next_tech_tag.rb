@@ -1,3 +1,4 @@
+# @specre 01KJ1NAMMQ8BXHGGFXQEYEW323
 class NextTechTag < LiquidTagBase
   PARTIAL = "liquids/nexttech".freeze
   REGISTRY_REGEXP = %r{https?://nt\.dev/s/}

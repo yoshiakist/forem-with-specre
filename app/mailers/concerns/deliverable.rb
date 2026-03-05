@@ -1,3 +1,4 @@
+# @specre 01KJ72941YA33EA9WDJ7TVJA6P
 module Deliverable
   extend ActiveSupport::Concern
 

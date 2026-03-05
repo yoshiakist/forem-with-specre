@@ -1,3 +1,4 @@
+# @specre 01KJ6FF3R4FQCEVGKVPFYYPY8Y
 require "rails_helper"
 
 RSpec.describe Admin::BadgeAutomationsController do

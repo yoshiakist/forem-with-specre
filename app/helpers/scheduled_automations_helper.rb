@@ -1,3 +1,4 @@
+# @specre 01KHZ2Z99S4SW3W9QJMSMZTZR0
 module ScheduledAutomationsHelper
   def format_frequency(automation)
     case automation.frequency

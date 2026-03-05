@@ -1,3 +1,4 @@
+# @specre 01KJBK9T82MG157560A1HGHHXJ
 module AuthenticationHelper
   def authentication_provider(provider_name)
     Authentication::Providers.get!(provider_name)

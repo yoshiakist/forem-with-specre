@@ -1,3 +1,4 @@
+# @specre 01KJ1FEC2H01BD97D0SV7SF10B
 class MuxTag < LiquidTagBase
   PARTIAL = "liquids/mux".freeze
   # Mux player URLs follow the pattern: https://player.mux.com/{video_id}

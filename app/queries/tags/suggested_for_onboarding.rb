@@ -1,3 +1,4 @@
+# @specre 01KJ1XAVJ8QCYY0G6ETZ9GF5K2
 module Tags
   class SuggestedForOnboarding
     MAX = 45

@@ -1,3 +1,4 @@
+# @specre 01KJ1FH9QT2V3RGNJKW67RHNR5
 class YoutubeTag < LiquidTagBase
   PARTIAL = "liquids/youtube".freeze
   MARKER_TO_SECONDS_MAP = { "h" => 3600, "m" => 60, "s" => 1 }.freeze

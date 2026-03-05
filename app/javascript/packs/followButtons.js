@@ -1,3 +1,4 @@
+// @specre 01KJ1X6P8ZE8SXRX8T90FCZH0G
 import { getInstantClick } from '../topNavigation/utilities';
 import { waitOnBaseData } from '../utilities/waitOnBaseData';
 import { locale } from '@utilities/locale';

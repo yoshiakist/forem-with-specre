@@ -1,3 +1,4 @@
+# @specre 01KJ6FSCYDY8QPVA6XPZ8X4WT1
 require "rails_helper"
 
 RSpec.describe Badges::AwardTopSeven, type: :service do

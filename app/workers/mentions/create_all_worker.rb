@@ -1,3 +1,4 @@
+# @specre 01KJ1ARF08DVRQE65SWASWAFWJ
 module Mentions
   # This worker is currently only used to create mentions on comments.
   class CreateAllWorker

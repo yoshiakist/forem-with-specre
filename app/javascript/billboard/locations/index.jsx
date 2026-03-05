@@ -1,3 +1,5 @@
+// @specre 01KJ6EHMAWTR3NAEGM1TB30FPJ
+// @specre 01KJ6EH2F7D1Q61H1A07JXRE38
 import { h } from 'preact';
 import { useCallback } from 'preact/hooks';
 import PropTypes from 'prop-types';

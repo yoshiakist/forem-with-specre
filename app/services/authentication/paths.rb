@@ -1,3 +1,4 @@
+# @specre 01KJBK9T82MG157560A1HGHHXJ
 module Authentication
   # These are meant to be called from the specific providers
   module Paths

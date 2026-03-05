@@ -1,3 +1,4 @@
+# @specre 01KJ6FJA4XS9P5A266ZFW6Q7Y4
 require "rails_helper"
 
 RSpec.describe "/api/badge_achievements", type: :request do

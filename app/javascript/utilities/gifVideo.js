@@ -1,3 +1,4 @@
+// @specre 01KJBWV962FQYVV8TD7XMHWN5Q
 export function initializeGifVideos(root = document) {
   const videos = root.querySelectorAll('video[data-gif-video]');
   videos.forEach((video) => {

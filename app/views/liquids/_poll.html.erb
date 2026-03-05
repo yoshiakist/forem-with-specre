@@ -1,3 +1,4 @@
+<%# @specre 01KJ2HPD31V6W1Y18QXE0RYG56 %>
 <div class="ltag-poll <%= 'scale-horizontal scale-5-options' if poll.scale? && poll.poll_options.count == 5 %> <%= 'scale-horizontal scale-many-options' if poll.scale? && poll.poll_options.count > 5 %>" id="poll_<%= poll.id %>" data-poll-id="<%= poll.id %>" data-poll-type="<%= poll.type_of %>">
   <h3><%= poll.prompt_html.html_safe %></h3>
   <ul class="ltag-pollanswers">

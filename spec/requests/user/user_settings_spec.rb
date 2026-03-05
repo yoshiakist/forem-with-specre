@@ -1,3 +1,5 @@
+# @specre 01KJBH3QQCWPWMJJ2CF7CWV5A4
+# @specre 01KHZ466X2VM8VAWD6RE82CF9J
 require "rails_helper"
 
 RSpec.describe "UserSettings" do

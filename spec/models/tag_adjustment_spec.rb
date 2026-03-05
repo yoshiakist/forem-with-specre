@@ -1,3 +1,4 @@
+# @specre 01KJ3ZG8Z0CF01S5WC6MP62WS6
 require "rails_helper"
 
 RSpec.describe TagAdjustment do

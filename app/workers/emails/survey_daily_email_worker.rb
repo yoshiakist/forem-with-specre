@@ -1,3 +1,4 @@
+# @specre 01KJ2HPEMKQB5YCRAJ8PVF25SD
 module Emails
   class SurveyDailyEmailWorker
     include Sidekiq::Job

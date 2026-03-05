@@ -1,3 +1,4 @@
+# @specre 01KJ1F6M9DTXAJNC4ZQFMSWJXE
 # This model handles a user (subscriber) subscribing to another user (author).
 # We also record the source of the subscription (Article, Comment, etc.) via a
 # polymorphic association (user_subscription_source/able).

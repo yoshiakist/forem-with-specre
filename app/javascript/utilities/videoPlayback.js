@@ -1,3 +1,4 @@
+// @specre 01KJBWV962FQYVV8TD7XMHWN5Q
 /**
  * This script hunts for video tags and initializes the correct player
  * depending on the platform:

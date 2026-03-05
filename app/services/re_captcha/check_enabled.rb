@@ -1,3 +1,4 @@
+# @specre 01KJBK4DJHK81XKCTCTC53GGAE
 # This service encapsulates the logic related to validating if reCAPTCHA is
 # enabled in the current Forem instance. The decision is based on making
 # sure the necessary Settings::General keys are available and also on the user

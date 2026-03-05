@@ -1,3 +1,4 @@
+# @specre 01KJBWND9NFMH316PP8N7MXRRS
 module Articles
   # NOTE: articles cache either users or organizations, but they have the same attributes.
   CachedEntity = Struct.new(:name, :username, :slug, :profile_image_90, :profile_image_url, :cached_base_subscriber?) do

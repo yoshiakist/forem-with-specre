@@ -1,3 +1,4 @@
+# @specre 01KJ15W5XTEVQVJN1FCRNWEKAB
 module Notifications
   class TagAdjustmentNotificationWorker
     include Sidekiq::Job

@@ -1,3 +1,4 @@
+# @specre 01KJBN50VXFW9TGEC3VZ6TMM8Z
 module Exporter
   class Articles
     attr_reader :name, :user

@@ -1,3 +1,4 @@
+# @specre 01KJBK4CV4DXZ9SFQ9QVWB6YK2
 require "rails_helper"
 
 RSpec.describe "Registrations" do

@@ -1,3 +1,4 @@
+# @specre 01KHZ2Z99S4SW3W9QJMSMZTZR0
 require "rails_helper"
 
 RSpec.describe ScheduledAutomationsHelper, type: :helper do

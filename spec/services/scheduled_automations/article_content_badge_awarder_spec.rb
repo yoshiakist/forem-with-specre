@@ -1,3 +1,4 @@
+# @specre 01KHZ32M67KE4Q341R1BPEGPJB
 require "rails_helper"
 
 RSpec.describe ScheduledAutomations::ArticleContentBadgeAwarder, type: :service do

@@ -1,3 +1,4 @@
+# @specre 01KJ405PD1DE1M82CXWR67V9TT
 require "rails_helper"
 
 RSpec.describe TagModerators::Add, type: :service do

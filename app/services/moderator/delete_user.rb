@@ -1,3 +1,4 @@
+# @specre 01KJ9KAVAKYF7567P2ES4HD61W
 module Moderator
   class DeleteUser < ManageActivityAndRoles
     attr_reader :user, :user_params

@@ -1,3 +1,4 @@
+# @specre 01KJ15W5XTEVQVJN1FCRNWEKAB
 # send notifications about a tag adjustment
 module Notifications
   module TagAdjustmentNotification

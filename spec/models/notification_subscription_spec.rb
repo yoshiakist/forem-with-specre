@@ -1,3 +1,4 @@
+# @specre 01KJ15N9VC5VXN9692QKQRVF5E
 require "rails_helper"
 
 RSpec.describe NotificationSubscription do

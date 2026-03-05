@@ -1,3 +1,4 @@
+# @specre 01KHYH43TN4FS8ZYTW757DZBHZ
 class SubforemImageUploader < BaseUploader
   MAX_FILE_SIZE = 8.megabytes
   STORE_DIRECTORY = "uploads/subforem_images/".freeze

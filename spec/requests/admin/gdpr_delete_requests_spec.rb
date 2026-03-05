@@ -1,3 +1,4 @@
+# @specre 01KJBEERZREF0ZGB6E62EATBXE
 require "rails_helper"
 
 RSpec.describe "/admin/member_manager/gdpr_delete_requests" do

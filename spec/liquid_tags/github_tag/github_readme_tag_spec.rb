@@ -1,3 +1,4 @@
+# @specre 01KJ1NAJZ24HMXNKC0E5H4G4FQ
 require "rails_helper"
 
 RSpec.describe GithubTag::GithubReadmeTag, type: :liquid_tag, vcr: true do

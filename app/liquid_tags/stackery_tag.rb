@@ -1,3 +1,4 @@
+# @specre 01KJ1N70FN162EFMZ83MG5XGSN
 class StackeryTag < LiquidTagBase
   PARTIAL = "liquids/stackery".freeze
   REGISTRY_REGEXP = %r{https://app\.stackery\.io/editor/design(?<params>\?.*)?}

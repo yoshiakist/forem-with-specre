@@ -1,3 +1,4 @@
+# @specre 01KJ16TED32H3YYC9F610VZM5X
 module Moderations
   class ArticleFetcherService
     SCORE_MIN = -10

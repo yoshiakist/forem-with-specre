@@ -1,3 +1,4 @@
+# @specre 01KJCKB0GDJ4BTHW7NPDYBC25S
 class DiscussionLocksController < ApplicationController
   before_action :authenticate_user!
 

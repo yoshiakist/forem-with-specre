@@ -1,3 +1,4 @@
+# @specre 01KJ6T4NE3KFCGASC42XB50SKP
 module Ai
   ##
   # Analyzes a set of articles to determine which is the highest quality and which is the lowest quality.

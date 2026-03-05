@@ -1,3 +1,4 @@
+# @specre 01KJ15W12WTJVFF3XQ1NJH5BNQ
 # Send notifications from moderation
 module Notifications
   module Moderation

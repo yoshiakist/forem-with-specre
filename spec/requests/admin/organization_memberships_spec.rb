@@ -1,3 +1,4 @@
+# @specre 01KJ02QR77TXF2XJR4QS32QAAE
 require "rails_helper"
 
 RSpec.describe "/admin/organization_memberships" do

@@ -1,3 +1,4 @@
+# @specre 01KJBKE1C16S97KD8TGGV2RBK0
 require "rails_helper"
 
 RSpec.describe "Authenticating with Apple", vcr: { cassette_name: "fastly_sloan" } do

@@ -1,3 +1,4 @@
+# @specre 01KJ71F6JXM4PY31DJJW0N2R5S
 require "rails_helper"
 
 RSpec.describe EmailDigest, type: :service do

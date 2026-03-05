@@ -1,3 +1,4 @@
+# @specre 01KJBEERZREF0ZGB6E62EATBXE
 module Admin
   module GDPRDeleteRequestsQuery
     QUERY_CLAUSE = "#{GDPRDeleteRequest.table_name}.email ILIKE :search OR " \

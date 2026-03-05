@@ -1,3 +1,4 @@
+# @specre 01KJVJ01ZBWZ49FSMYNE8GM1CQ
 class MagicLinksController < ApplicationController
   def show
     user = User.find_by(sign_in_token: params[:id])

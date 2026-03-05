@@ -1,3 +1,4 @@
+# @specre 01KJ1N6XH2PFHKKE2GJH8ADM1J
 require "rails_helper"
 
 RSpec.describe JsFiddleTag, type: :liquid_tag do

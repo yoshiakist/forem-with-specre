@@ -1,3 +1,4 @@
+# @specre 01KJBN4DMMSF9BX518JG772WEB
 class ArticleApprovalsController < ApplicationController
   def create
     @article = Article.find(params[:id])

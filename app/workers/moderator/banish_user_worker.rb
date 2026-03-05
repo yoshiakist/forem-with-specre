@@ -1,3 +1,4 @@
+# @specre 01KJ9K7RA1VNB0WQR28RQHV8Q9
 module Moderator
   class BanishUserWorker
     include Sidekiq::Job

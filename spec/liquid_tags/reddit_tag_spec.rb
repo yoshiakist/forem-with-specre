@@ -1,3 +1,4 @@
+# @specre 01KJ1FNZWK2F8ZEV0MZ52DK4T6
 require "rails_helper"
 
 RSpec.describe RedditTag, type: :liquid_tag do

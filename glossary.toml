@@ -1,0 +1,20 @@
+# specre glossary — Project vocabulary for search suggestions
+#
+# Add terms that describe your project's domains, operations, and concepts.
+# `specre search` uses this glossary to suggest query refinements when
+# results are empty or too broad.
+#
+# Customize this list with your project's domain-specific vocabulary:
+#   - Domain nouns: "user", "order", "payment", "notification"
+#   - Operations: "create", "update", "delete", "approve", "reject"
+#   - Technical concepts: "authentication", "authorization", "validation"
+
+terms = [
+  "user",
+  "system",
+  "create",
+  "update",
+  "delete",
+  "find",
+  "list",
+]

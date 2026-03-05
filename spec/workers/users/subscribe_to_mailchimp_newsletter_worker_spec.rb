@@ -1,3 +1,4 @@
+# @specre 01KJ9R7CKPYWVRFA54JHZ2DRSE
 require "rails_helper"
 
 RSpec.describe Users::SubscribeToMailchimpNewsletterWorker, type: :worker do

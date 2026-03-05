@@ -1,3 +1,4 @@
+# @specre 01KJ029Q7RK57YNH11SH1V2BBB
 require "rails_helper"
 
 RSpec.describe Organizations::Delete, type: :service do

@@ -1,3 +1,4 @@
+# @specre 01KJVM3FKT43WXVQCRJFZ2V12N
 require "rails_helper"
 
 RSpec.describe Geolocation do

@@ -1,3 +1,4 @@
+# @specre 01KJ6E7GAHP8M3SQND6QQNEDED
 module Admin
   class BillboardPlacementAreaConfigsController < Admin::ApplicationController
     layout "admin"

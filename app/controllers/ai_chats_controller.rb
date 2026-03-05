@@ -1,3 +1,4 @@
+# @specre 01KJ6SZXEKKJCHRY9A615KYNKV
 class AiChatsController < ApplicationController
   before_action :authenticate_user!
   before_action :ensure_admin!

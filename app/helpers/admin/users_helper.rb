@@ -1,3 +1,4 @@
+# @specre 01KJ9MXNY671JQVR29GGYXMVQF
 module Admin
   module UsersHelper
     def role_options(logged_in_user)

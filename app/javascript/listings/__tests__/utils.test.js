@@ -1,3 +1,4 @@
+// @specre 01KJXWC077QF4CMYHXFFQ278TR
 import { updateListings, getQueryParams, getLocation } from '../utils';
 
 describe('updateListings', () => {

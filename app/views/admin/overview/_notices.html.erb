@@ -1,3 +1,4 @@
+<%# @specre 01KJ7FFSMG6QWZ7S8QQ26PD1E5 %>
 
 <% if ForemInstance.deployed_at.to_i.positive? && ForemInstance.deployed_at < 2.weeks.ago %>
   <div class="crayons-notice crayons-notice--<%= ForemInstance.deployed_at < 4.weeks.ago ? "danger" : "warning" %> mb-6">

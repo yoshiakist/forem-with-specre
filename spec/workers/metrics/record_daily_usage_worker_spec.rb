@@ -1,3 +1,4 @@
+# @specre 01KJVP58C9EFXMZQWJ0JYF7004
 require "rails_helper"
 
 RSpec.describe Metrics::RecordDailyUsageWorker, type: :worker do

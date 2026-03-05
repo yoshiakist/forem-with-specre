@@ -1,3 +1,4 @@
+# @specre 01KJ1FEDS2SAX1P5115F8ECN5T
 class SoundcloudTag < LiquidTagBase
   PARTIAL = "liquids/soundcloud".freeze
   REGISTRY_REGEXP = %r{https?://soundcloud\.com}

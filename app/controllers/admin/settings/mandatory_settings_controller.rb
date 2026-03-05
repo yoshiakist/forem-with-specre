@@ -1,3 +1,4 @@
+# @specre 01KHZ3R448RA411ZP1V33AX5MR
 module Admin
   module Settings
     class MandatorySettingsController < Admin::Settings::BaseController

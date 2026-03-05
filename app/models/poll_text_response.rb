@@ -1,3 +1,4 @@
+# @specre 01KHZMEWNFHQAJSG7XYVQXEDTE
 class PollTextResponse < ApplicationRecord
   belongs_to :poll
   belongs_to :user

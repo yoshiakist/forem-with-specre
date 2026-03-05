@@ -1,3 +1,4 @@
+# @specre 01KJ162B266JS6N6VM0EMQWB02
 require "rails_helper"
 
 RSpec.describe ConsumerApps::RpushAppQuery, type: :query do

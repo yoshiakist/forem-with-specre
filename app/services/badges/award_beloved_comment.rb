@@ -1,3 +1,4 @@
+# @specre 01KJ44ESWEHQ6F18H90M3CCGNA
 module Badges
   class AwardBelovedComment
     BADGE_SLUG = "beloved-comment".freeze

@@ -1,3 +1,4 @@
+# @specre 01KJBGZF9PRSHNVF807K57AY46
 # Used throughout the app to access a user id through the session
 module SessionCurrentUser
   extend ActiveSupport::Concern

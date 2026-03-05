@@ -1,3 +1,4 @@
+# @specre 01KHZFBGBSX0DJAN0SDSQS1K3T
 class PagesController < ApplicationController
   # No authorization required for entirely public controller
   before_action :set_cache_control_headers, only: %i[show badge bounty faq robots]

@@ -1,3 +1,4 @@
+# @specre 01KJBWZNKHZTQ5XK6XHC5EC3VE
 module Moderator
   class UnpublishAllArticlesWorker
     include Sidekiq::Job

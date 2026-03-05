@@ -1,3 +1,4 @@
+// @specre 01KHZ466X2VM8VAWD6RE82CF9J
 import { timestampToLocalDateTime } from '@utilities/localDateTime';
 
 export function setupRssFetchTime() {

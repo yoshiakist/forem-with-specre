@@ -1,3 +1,4 @@
+# @specre 01KJ3ZG8Z0CF01S5WC6MP62WS6
 class TagAdjustmentUpdateService
   def initialize(tag_adjustment, tag_adjustment_params)
     @tag_adjustment = tag_adjustment

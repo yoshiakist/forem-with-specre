@@ -1,3 +1,4 @@
+# @specre 01KJ1NAJZ24HMXNKC0E5H4G4FQ
 class GithubTag
   class GithubReadmeTag
     PARTIAL = "liquids/github_readme".freeze

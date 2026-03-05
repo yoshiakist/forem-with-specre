@@ -1,3 +1,4 @@
+# @specre 01KJ1NWDWHPM44X5SD64WS49KM
 class StackexchangeTag < LiquidTagBase
   PARTIAL = "liquids/stackexchange".freeze
   REGISTRY_REGEXP = %r{https://(?:(?<subdomain>\w+)\.)?(?:stackexchange\.com|stackoverflow\.com)/(?<post_type>q|a|questions)/(?<id>\d{1,20})}

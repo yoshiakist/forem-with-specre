@@ -1,3 +1,4 @@
+# @specre 01KJ405PD1DE1M82CXWR67V9TT
 module TagModerators
   class Add
     Result = Struct.new(:success?, :errors, keyword_init: true)

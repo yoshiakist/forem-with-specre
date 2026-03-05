@@ -1,3 +1,4 @@
+# @specre 01KJ44CT90TACT5K15BYFV2H07
 # find comments count for an article based on our display rules for signed in users
 # the count includes both comments displayed as usual (text), comments displayed as "deleted" or "hidden by post author"
 # the count doesn't include comments not displayed at all (childless comments with score below HIDE_THRESHOLD)

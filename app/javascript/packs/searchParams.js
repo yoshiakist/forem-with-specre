@@ -1,3 +1,4 @@
+// @specre 01KHZ22E63WBQWYFZNQVEA2EEE
 /* global checkUserLoggedIn, showLoginModal, userData, buildArticleHTML, initializeReadingListIcons */
 /* eslint no-undef: "error" */
 

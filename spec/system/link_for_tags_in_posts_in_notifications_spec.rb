@@ -1,3 +1,4 @@
+# @specre 01KJ15MVQ9HCZ8PV80MQ828AQF
 require "rails_helper"
 
 RSpec.describe "Link on tags for post in notifications" do

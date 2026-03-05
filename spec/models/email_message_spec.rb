@@ -1,3 +1,4 @@
+# @specre 01KJ758NKFTEQKYMBYPEGR3817
 require "rails_helper"
 
 RSpec.describe EmailMessage do

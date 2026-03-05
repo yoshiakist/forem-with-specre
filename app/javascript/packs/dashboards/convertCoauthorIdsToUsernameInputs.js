@@ -1,3 +1,4 @@
+// @specre 01KJV3PD89JNE8190FG9GCAV33
 import { h, render } from 'preact';
 import { UsernameInput } from '@components/UsernameInput';
 import { UserStore } from '@components/UserStore';

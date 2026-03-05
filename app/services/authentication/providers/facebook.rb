@@ -1,3 +1,4 @@
+# @specre 01KJBKE6FH7TS0RJVRWB313W9Z
 module Authentication
   module Providers
     # Facebook authentication provider, uses omniauth-facebook as backend

@@ -1,3 +1,4 @@
+# @specre 01KJ7HQJX1MWRVG2NTXVKS5693
 require "rails_helper"
 require "carrierwave/test/matchers"
 

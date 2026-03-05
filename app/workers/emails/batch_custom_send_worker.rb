@@ -1,3 +1,4 @@
+# @specre 01KJ758K1CA5TWC5FHEKJZ52BT
 module Emails
   class BatchCustomSendWorker
     include Sidekiq::Job

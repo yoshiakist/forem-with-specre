@@ -1,3 +1,4 @@
+# @specre 01KJ1XE6K4BWFZTPRP6E0M6244
 require "rails_helper"
 
 RSpec.describe Follows::UpdatePointsWorker, type: :worker do

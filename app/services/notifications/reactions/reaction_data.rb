@@ -1,3 +1,4 @@
+# @specre 01KHZ59AQ4W3GQVDAC6H33R4FD
 module Notifications
   module Reactions
     # A light-weight(ish) data structure for passing between systems (e.g. from application to

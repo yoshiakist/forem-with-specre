@@ -1,3 +1,4 @@
+# @specre 01KJ1F3QAFT0HFRPDHZ3JKZG6Z
 class CommentTag < LiquidTagBase
   PARTIAL = "comments/liquid".freeze
   VALID_LINK_REGEXP = %r{#{URL.url}/\w+/comment/(?<comment_id>\w+)}

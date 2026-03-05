@@ -1,3 +1,4 @@
+# @specre 01KJBV1G647P4BRNVEY8SP0R1Q
 require "rails_helper"
 
 RSpec.describe Articles::Suggest, type: :service do

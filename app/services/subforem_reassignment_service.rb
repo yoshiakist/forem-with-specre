@@ -1,3 +1,4 @@
+# @specre 01KHYYF2GKNFJF3ZE6PR6X8X9V
 ##
 # Service to handle reassigning articles to more appropriate subforems
 # when they are marked as offtopic for their current subforem.

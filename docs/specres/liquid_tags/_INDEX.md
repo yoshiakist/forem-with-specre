@@ -1,0 +1,57 @@
+# liquid_tags
+
+| Name | Status | Last Verified |
+|------|--------|---------------|
+| [system_enforces_liquid_tag_usage_policies](system_enforces_liquid_tag_usage_policies.md) | stable | 2026-02-22 |
+| [author_can_list_available_liquid_tags](author_can_list_available_liquid_tags.md) | stable | 2026-02-22 |
+| [system_routes_embed_url_to_liquid_tag_handler](system_routes_embed_url_to_liquid_tag_handler.md) | stable | 2026-02-22 |
+| [author_can_embed_comment_in_article](internal_embeds/author_can_embed_comment_in_article.md) | stable | 2026-02-22 |
+| [author_can_embed_article_link_in_article](internal_embeds/author_can_embed_article_link_in_article.md) | stable | 2026-02-22 |
+| [author_can_embed_tag_badge_in_article](internal_embeds/author_can_embed_tag_badge_in_article.md) | stable | 2026-02-22 |
+| [author_can_embed_user_profile_in_article](internal_embeds/author_can_embed_user_profile_in_article.md) | stable | 2026-02-22 |
+| [author_can_embed_subscription_cta_in_article](internal_embeds/author_can_embed_subscription_cta_in_article.md) | stable | 2026-02-22 |
+| [author_can_create_card_block_in_article](formatting/author_can_create_card_block_in_article.md) | stable | 2026-02-22 |
+| [author_can_create_cta_block_in_article](formatting/author_can_create_cta_block_in_article.md) | stable | 2026-02-22 |
+| [author_can_create_collapsible_details_in_article](formatting/author_can_create_collapsible_details_in_article.md) | stable | 2026-02-22 |
+| [author_can_embed_math_formula_in_article](formatting/author_can_embed_math_formula_in_article.md) | stable | 2026-02-22 |
+| [author_can_embed_runkit_notebook_in_article](formatting/author_can_embed_runkit_notebook_in_article.md) | stable | 2026-02-22 |
+| [author_can_embed_asciinema_recording_in_article](media/author_can_embed_asciinema_recording_in_article.md) | stable | 2026-02-22 |
+| [author_can_embed_loom_video_in_article](media/author_can_embed_loom_video_in_article.md) | stable | 2026-02-22 |
+| [author_can_embed_mux_video_in_article](media/author_can_embed_mux_video_in_article.md) | stable | 2026-02-22 |
+| [author_can_embed_soundcloud_in_article](media/author_can_embed_soundcloud_in_article.md) | stable | 2026-02-22 |
+| [author_can_embed_spotify_in_article](media/author_can_embed_spotify_in_article.md) | stable | 2026-02-22 |
+| [author_can_embed_twitch_stream_in_article](media/author_can_embed_twitch_stream_in_article.md) | stable | 2026-02-22 |
+| [author_can_embed_vimeo_video_in_article](media/author_can_embed_vimeo_video_in_article.md) | stable | 2026-02-22 |
+| [author_can_embed_youtube_video_in_article](media/author_can_embed_youtube_video_in_article.md) | stable | 2026-02-22 |
+| [author_can_embed_instagram_post_in_article](social/author_can_embed_instagram_post_in_article.md) | stable | 2026-02-22 |
+| [author_can_embed_bluesky_post_in_article](social/author_can_embed_bluesky_post_in_article.md) | stable | 2026-02-22 |
+| [author_can_embed_parler_post_in_article](social/author_can_embed_parler_post_in_article.md) | stable | 2026-02-22 |
+| [author_can_embed_tweet_in_article](social/author_can_embed_tweet_in_article.md) | stable | 2026-02-22 |
+| [author_can_embed_reddit_post_in_article](social/author_can_embed_reddit_post_in_article.md) | stable | 2026-02-22 |
+| [author_can_embed_twitter_timeline_in_article](social/author_can_embed_twitter_timeline_in_article.md) | stable | 2026-02-22 |
+| [author_can_embed_codepen_in_article](code_playgrounds/author_can_embed_codepen_in_article.md) | stable | 2026-02-22 |
+| [author_can_embed_codesandbox_in_article](code_playgrounds/author_can_embed_codesandbox_in_article.md) | stable | 2026-02-22 |
+| [author_can_embed_dotnet_fiddle_in_article](code_playgrounds/author_can_embed_dotnet_fiddle_in_article.md) | stable | 2026-02-22 |
+| [author_can_embed_glitch_project_in_article](code_playgrounds/author_can_embed_glitch_project_in_article.md) | stable | 2026-02-22 |
+| [author_can_embed_js_fiddle_in_article](code_playgrounds/author_can_embed_js_fiddle_in_article.md) | stable | 2026-02-22 |
+| [author_can_embed_jsitor_in_article](code_playgrounds/author_can_embed_jsitor_in_article.md) | stable | 2026-02-22 |
+| [author_can_embed_kotlin_playground_in_article](code_playgrounds/author_can_embed_kotlin_playground_in_article.md) | stable | 2026-02-22 |
+| [author_can_embed_replit_in_article](code_playgrounds/author_can_embed_replit_in_article.md) | stable | 2026-02-22 |
+| [author_can_embed_stackblitz_in_article](code_playgrounds/author_can_embed_stackblitz_in_article.md) | stable | 2026-02-22 |
+| [author_can_embed_stackery_in_article](code_playgrounds/author_can_embed_stackery_in_article.md) | stable | 2026-02-22 |
+| [author_can_embed_bandcamp_in_article](external_embeds/author_can_embed_bandcamp_in_article.md) | stable | 2026-02-22 |
+| [author_can_embed_blogcast_in_article](external_embeds/author_can_embed_blogcast_in_article.md) | stable | 2026-02-22 |
+| [author_can_embed_cloud_run_button_in_article](external_embeds/author_can_embed_cloud_run_button_in_article.md) | stable | 2026-02-22 |
+| [author_can_embed_gist_in_article](external_embeds/author_can_embed_gist_in_article.md) | stable | 2026-02-22 |
+| [author_can_embed_git_pitch_in_article](external_embeds/author_can_embed_git_pitch_in_article.md) | stable | 2026-02-22 |
+| [author_can_embed_github_issue_in_article](external_embeds/author_can_embed_github_issue_in_article.md) | stable | 2026-02-22 |
+| [author_can_embed_github_readme_in_article](external_embeds/author_can_embed_github_readme_in_article.md) | stable | 2026-02-22 |
+| [author_can_embed_medium_article_in_article](external_embeds/author_can_embed_medium_article_in_article.md) | stable | 2026-02-22 |
+| [author_can_embed_neon_console_in_article](external_embeds/author_can_embed_neon_console_in_article.md) | stable | 2026-02-22 |
+| [author_can_embed_next_tech_sandbox_in_article](external_embeds/author_can_embed_next_tech_sandbox_in_article.md) | stable | 2026-02-22 |
+| [author_can_embed_open_graph_preview_in_article](external_embeds/author_can_embed_open_graph_preview_in_article.md) | stable | 2026-02-22 |
+| [author_can_embed_slideshare_in_article](external_embeds/author_can_embed_slideshare_in_article.md) | stable | 2026-02-22 |
+| [author_can_embed_speakerdeck_in_article](external_embeds/author_can_embed_speakerdeck_in_article.md) | stable | 2026-02-22 |
+| [author_can_embed_stackexchange_post_in_article](knowledge/author_can_embed_stackexchange_post_in_article.md) | stable | 2026-02-22 |
+| [author_can_embed_wikipedia_excerpt_in_article](knowledge/author_can_embed_wikipedia_excerpt_in_article.md) | stable | 2026-02-22 |
+| [system_suppresses_deprecated_block_tag_syntax](system_suppresses_deprecated_block_tag_syntax.md) | stable | 2026-02-22 |

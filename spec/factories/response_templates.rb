@@ -1,3 +1,4 @@
+# @specre 01KJ9KDY750N4VSKV6CZCMR4FS
 FactoryBot.define do
   factory :response_template do
     sequence(:content) { |n| "#{Faker::Lorem.sentence}#{n}" }

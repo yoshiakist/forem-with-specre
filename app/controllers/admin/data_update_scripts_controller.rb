@@ -1,3 +1,5 @@
+# @specre 01KJ2SZQQG4JYPHKNCN2BSNYMN
+# @specre 01KJ2SZCDD0QR1BVHSPYKQZ955
 module Admin
   class DataUpdateScriptsController < Admin::ApplicationController
     layout "admin"

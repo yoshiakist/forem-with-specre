@@ -1,3 +1,4 @@
+# @specre 01KJ9JGGNEP4QG1M8993MB2A5K
 module UserSubscriptions
   # This checks if the provided user is subscribed to the provided source
   # (returns boolean).

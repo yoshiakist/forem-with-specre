@@ -1,3 +1,4 @@
+// @specre 01KJ1C8G3AN3EVK907SGXDWZG5
 import { handleImageFailure } from './dragAndDropHelpers';
 
 // Placeholder text displayed while an image is uploading

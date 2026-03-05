@@ -1,3 +1,4 @@
+# @specre 01KJBWN5KRQKZE6SWZWPNHA43E
 require "rails_helper"
 
 RSpec.describe Articles::BustMultipleCachesWorker, type: :worker do

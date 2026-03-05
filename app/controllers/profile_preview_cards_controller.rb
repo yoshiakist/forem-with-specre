@@ -1,3 +1,4 @@
+# @specre 01KHZ69T25SN7PPC7HH7ZPCZ2D
 class ProfilePreviewCardsController < ApplicationController
   layout false
 

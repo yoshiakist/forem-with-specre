@@ -1,3 +1,5 @@
+# @specre 01KJBWV962FQYVV8TD7XMHWN5Q
+# @specre 01KJBWT5HAQGGSECGZJ20D6PCX
 class VideosController < ApplicationController
   after_action :verify_authorized, except: %i[index]
   before_action :set_cache_control_headers, only: %i[index]

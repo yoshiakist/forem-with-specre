@@ -1,3 +1,4 @@
+# @specre 01KJ2472X584A2R8VP2QAC7V40
 require "rails_helper"
 
 RSpec.describe Articles::Feeds::Tag, type: :service do

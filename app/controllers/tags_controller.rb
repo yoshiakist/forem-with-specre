@@ -1,3 +1,5 @@
+# @specre 01KJ41WT9YWTD6G9MHPTQW0EFA
+# @specre 01KJ41WHZ0KRBSTTD55T6WPTM6
 class TagsController < ApplicationController
   before_action :set_cache_control_headers, only: %i[index]
   before_action :authenticate_user!, only: %i[edit update]

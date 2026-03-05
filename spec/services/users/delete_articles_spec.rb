@@ -1,3 +1,4 @@
+# @specre 01KJBE9J7SBEYP8CE63NTF4TJQ
 require "rails_helper"
 
 RSpec.describe Users::DeleteArticles, type: :service do

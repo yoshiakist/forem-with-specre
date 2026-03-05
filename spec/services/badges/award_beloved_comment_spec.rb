@@ -1,3 +1,4 @@
+# @specre 01KJ44ESWEHQ6F18H90M3CCGNA
 require "rails_helper"
 
 RSpec.describe Badges::AwardBelovedComment, type: :service do

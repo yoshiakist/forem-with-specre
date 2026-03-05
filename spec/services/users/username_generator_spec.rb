@@ -1,3 +1,4 @@
+# @specre 01KJBGSZYSK50Y48DDMGSB635P
 require "rails_helper"
 
 RSpec.describe Users::UsernameGenerator, type: :service do

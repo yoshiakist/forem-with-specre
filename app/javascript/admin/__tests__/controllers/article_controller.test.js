@@ -1,3 +1,4 @@
+// @specre 01KJTZEM8AT0EMBHCD6T08T9PW
 import { Application } from '@hotwired/stimulus';
 import ArticleController from '../../controllers/article_controller';
 

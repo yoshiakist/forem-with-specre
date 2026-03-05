@@ -1,3 +1,4 @@
+# @specre 01KJ15MVQ9HCZ8PV80MQ828AQF
 class NotificationDecorator < ApplicationDecorator
   extend ActiveModel::Naming
 

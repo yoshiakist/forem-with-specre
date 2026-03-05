@@ -1,3 +1,4 @@
+# @specre 01KJ5DQT35P394JJVCSC077ZX5
 require "rails_helper"
 require "requests/shared_examples/comment_hide_or_unhide_request"
 

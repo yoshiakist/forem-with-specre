@@ -1,3 +1,4 @@
+# @specre 01KJ758NKFTEQKYMBYPEGR3817
 module Admin
   class EmailMessagesController < Admin::ApplicationController
     layout "admin"

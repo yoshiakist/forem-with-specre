@@ -1,3 +1,4 @@
+# @specre 01KJXNAJ03071FX53KZT4JECAT
 # extend to add :unique_across_models, which validates a slug or name across
 # all "slug-like" models via CrossModelSlug
 module UniqueAcrossModels

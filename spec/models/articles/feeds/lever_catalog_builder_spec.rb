@@ -1,3 +1,4 @@
+# @specre 01KJ246P62P50ED5YJNGJ50J3J
 require "rails_helper"
 
 RSpec.describe Articles::Feeds::LeverCatalogBuilder do

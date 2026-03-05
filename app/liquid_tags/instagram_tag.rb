@@ -1,3 +1,4 @@
+# @specre 01KJ1FKPG3YTDTTW2XT02SWA9T
 class InstagramTag < LiquidTagBase
   PARTIAL = "liquids/instagram".freeze
   # rubocop:disable Layout/LineLength

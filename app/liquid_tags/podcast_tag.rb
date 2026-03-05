@@ -1,3 +1,4 @@
+# @specre 01KHZ7C4BEPF5TMJ68BXTZMMVP
 class PodcastTag < LiquidTagBase
   include ApplicationHelper
   include ActionView::Helpers::AssetUrlHelper

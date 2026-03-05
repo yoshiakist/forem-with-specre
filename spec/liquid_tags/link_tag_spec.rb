@@ -1,3 +1,4 @@
+# @specre 01KJ1F417EWY0A879VG771XT85
 require "rails_helper"
 
 RSpec.describe LinkTag, type: :liquid_tag do

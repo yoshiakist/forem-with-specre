@@ -1,3 +1,4 @@
+# @specre 01KJ41JJ73MXNDK5F9W99N0P0A
 module Homepage
   module FetchTagFlares
     ATTRIBUTES = %i[name bg_color_hex text_color_hex].freeze

@@ -1,3 +1,4 @@
+# @specre 01KJXS159QDWN1VEG2HY67NM54
 module Api
   module ReadinglistController
     extend ActiveSupport::Concern

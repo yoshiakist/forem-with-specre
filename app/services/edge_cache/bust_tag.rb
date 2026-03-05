@@ -1,3 +1,4 @@
+# @specre 01KJ41NGKZDC2HQCNEQDKZYTDM
 module EdgeCache
   class BustTag
     def self.call(tag)

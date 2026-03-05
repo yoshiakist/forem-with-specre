@@ -1,3 +1,4 @@
+# @specre 01KJBWZNKHZTQ5XK6XHC5EC3VE
 # Unpublish posts and delete comments w/ boolean attr (setting deleted: true) to allow revert
 # Create a corresponding audit_log record
 module Moderator

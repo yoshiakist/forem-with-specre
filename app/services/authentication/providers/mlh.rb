@@ -1,3 +1,4 @@
+# @specre 01KJBKEF96PT34KK0QAPBGFP6F
 module Authentication
   module Providers
     # MyMLH authentication provider, uses omniauth-mlh as backend

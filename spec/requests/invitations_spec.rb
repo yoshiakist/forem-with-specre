@@ -1,3 +1,4 @@
+# @specre 01KJVJ43WCHFB50B2K9KC6CVS0
 require "rails_helper"
 
 RSpec.describe "Invitations" do

@@ -1,3 +1,4 @@
+# @specre 01KJ6EPTF1F31WB6DRV0YHEZ0N
 require "rails_helper"
 
 RSpec.describe "Billboards" do

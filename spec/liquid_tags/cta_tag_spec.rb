@@ -1,3 +1,4 @@
+# @specre 01KJ1F8YGQEQHN0WEB1JX4TP1N
 require "rails_helper"
 
 RSpec.describe CtaTag, type: :liquid_tag do

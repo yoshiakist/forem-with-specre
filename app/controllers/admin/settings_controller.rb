@@ -1,3 +1,4 @@
+# @specre 01KHZ3R448RA411ZP1V33AX5MR
 module Admin
   # This controller is solely responsible for rendering the settings page at
   # /admin/customization/config. The actual updates get handled by the settings

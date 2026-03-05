@@ -1,3 +1,4 @@
+# @specre 01KJ2X9JEDPKB2DTN1GAMBQ254
 require "rails_helper"
 
 RSpec.describe MarkdownProcessor::Fixer::FixAll, type: :service do

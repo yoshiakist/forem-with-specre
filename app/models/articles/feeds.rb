@@ -1,3 +1,5 @@
+# @specre 01KJV9KZR85C73CRV2F1MZ7RN8
+# @specre 01KJV9M0QR6H05KCHZ72V7A2BZ
 module Articles
   module Feeds
     # The default number of days old that an article can be for us

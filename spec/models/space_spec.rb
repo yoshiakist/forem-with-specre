@@ -1,3 +1,4 @@
+# @specre 01KJVS5357MREJ2TCGFTFFESGH
 require "rails_helper"
 
 RSpec.describe Space do

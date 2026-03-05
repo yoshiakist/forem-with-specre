@@ -1,3 +1,4 @@
+# @specre 01KJ6H94SE5S0ANVZZNR3NCZNG
 module Admin
   class ModeratorActionsController < Admin::ApplicationController
     layout "admin"

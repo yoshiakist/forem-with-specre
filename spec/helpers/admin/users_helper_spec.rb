@@ -1,3 +1,4 @@
+# @specre 01KJ9MXNY671JQVR29GGYXMVQF
 require "rails_helper"
 
 describe Admin::UsersHelper do

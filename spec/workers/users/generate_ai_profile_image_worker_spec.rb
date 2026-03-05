@@ -1,3 +1,4 @@
+# @specre 01KHZ6KPVGP495ZDNG16MKD6FK
 require "rails_helper"
 
 RSpec.describe Users::GenerateAiProfileImageWorker, type: :worker do

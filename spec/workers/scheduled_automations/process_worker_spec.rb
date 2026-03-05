@@ -1,3 +1,4 @@
+# @specre 01KHZ30Q1RW1G4QRNXNKQTQ9NM
 require "rails_helper"
 
 RSpec.describe ScheduledAutomations::ProcessWorker, type: :worker do

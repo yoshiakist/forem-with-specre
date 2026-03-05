@@ -1,3 +1,4 @@
+<%# @specre 01KJ2SFDGGZ68ZN4F9V15YW4KV %>
 <% if purchase.sponsorable && purchase.sponsorable.class.name.include?("Tag") %>
   <a href="<%= tag_path(purchase.sponsorable.name) %>">
     <%= t("views.credits.tag", name: purchase.sponsorable.name) %>

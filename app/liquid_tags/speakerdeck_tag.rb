@@ -1,3 +1,4 @@
+# @specre 01KJ1NAP5PYW79V3ZJYHE3YZ69
 class SpeakerdeckTag < LiquidTagBase
   PARTIAL = "liquids/speakerdeck".freeze
   REGISTRY_REGEXP = %r{https://speakerdeck\.com/player/(?<id>\w{,32})}

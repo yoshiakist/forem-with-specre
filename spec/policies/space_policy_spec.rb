@@ -1,3 +1,4 @@
+# @specre 01KJVS5357MREJ2TCGFTFFESGH
 require "rails_helper"
 
 # See ./spec/policies/shared_examples/authorization_shared_examples.rb for the various shared examples.

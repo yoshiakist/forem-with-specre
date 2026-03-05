@@ -1,3 +1,4 @@
+# @specre 01KHZ6GG5GD766PRZK1SE50KMG
 module Images
   module SafeRemoteProfileImageUrl
     # Basic check for nil and blank URLs, alongside likely incomplete URLs, such as just "image.jpg".

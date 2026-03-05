@@ -1,3 +1,6 @@
+# @specre 01KJ02MNP5AREF4M1SM48V0ED6
+# @specre 01KJ02MSM04C2X6Q5EEC8T55ZC
+# @specre 01KHYAQZFNE6166KPD56KDPFRQ
 require "rails_helper"
 
 RSpec.describe "/admin/content_manager/organizations" do

@@ -1,3 +1,4 @@
+# @specre 01KHZMA857XQ0MP5F9S9D2ZYCX
 class Poll < ApplicationRecord
   attr_accessor :poll_options_input_array, :poll_options_supplementary_text_array
 

@@ -1,3 +1,4 @@
+// @specre 01KJXXWWYZMY0J3Y74HP34NJGC
 const initializeHeroBannerClose = () => {
   const bannerWrapper = document.getElementById('hero-html-wrapper');
   const closeIcon = document.getElementById('js-hero-banner__x');

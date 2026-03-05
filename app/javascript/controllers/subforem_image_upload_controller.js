@@ -1,3 +1,4 @@
+// @specre 01KHYH43TN4FS8ZYTW757DZBHZ
 import { Controller } from '@hotwired/stimulus';
 
 const MAX_PREVIEW_HEIGHT = 80;

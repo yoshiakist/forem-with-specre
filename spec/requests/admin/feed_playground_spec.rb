@@ -1,3 +1,4 @@
+# @specre 01KJ24JR0FK5MWHWK01QF0434H
 require "rails_helper"
 
 RSpec.describe "/admin/advanced/tools/feed_playground" do

@@ -1,3 +1,4 @@
+# @specre 01KHZ593PHDRQRWR1673HQ654Q
 module Admin
   class PrivilegedReactionsController < Admin::ApplicationController
     layout "admin"

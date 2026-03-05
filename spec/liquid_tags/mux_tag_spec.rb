@@ -1,3 +1,4 @@
+# @specre 01KJ1FEC2H01BD97D0SV7SF10B
 require "rails_helper"
 
 RSpec.describe MuxTag, type: :liquid_tag do

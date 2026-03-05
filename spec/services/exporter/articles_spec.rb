@@ -1,3 +1,4 @@
+# @specre 01KJBN50VXFW9TGEC3VZ6TMM8Z
 require "rails_helper"
 
 RSpec.describe Exporter::Articles, type: :service do

@@ -1,3 +1,4 @@
+# @specre 01KHZ69F0GE1R07TXK53AAA1K8
 class ProfileDecorator < ApplicationDecorator
   # Return a Hash of the profile fields that should be rendered for a given
   # display area, e.g. :left_sidebar

@@ -1,3 +1,4 @@
+# @specre 01KJ25JM22F6QQ01PMJXGHZVQ5
 class FeedbackMessagesController < ApplicationController
   # No authorization required for entirely public controller
   skip_before_action :verify_authenticity_token

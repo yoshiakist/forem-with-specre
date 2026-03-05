@@ -1,3 +1,4 @@
+# @specre 01KJ1C8G3AN3EVK907SGXDWZG5
 class BaseUploader < CarrierWave::Uploader::Base
   include CarrierWave::BombShelter  # limits size to 4096x4096
   include CarrierWave::MiniMagick   # adds processing operations

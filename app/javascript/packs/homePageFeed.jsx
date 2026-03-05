@@ -1,3 +1,4 @@
+// @specre 01KJV9M1M80M71Q62GXVK0HWPY
 import { h, Fragment, render } from 'preact';
 import PropTypes from 'prop-types';
 import { Article, LoadingArticle } from '../articles';

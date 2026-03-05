@@ -1,3 +1,4 @@
+# @specre 01KJ2472X584A2R8VP2QAC7V40
 module Stories
   class TaggedArticlesController < ApplicationController
     before_action :set_cache_control_headers, only: :index

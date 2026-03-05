@@ -1,3 +1,6 @@
+# @specre 01KJXTKB2CSQZ15XV5RZ3S3YXC
+# @specre 01KJXTG35F6TPQJYNHA9TFPGAE
+# @specre 01KJXTFFGNXAGZ3BW01PEJAA4Z
 class ApplicationRecord < ActiveRecord::Base
   self.abstract_class = true
 

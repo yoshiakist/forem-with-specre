@@ -1,3 +1,4 @@
+# @specre 01KJ15RRNWK6ZYZCX7KQF726AT
 module Mentions
   class SendEmailNotificationWorker
     include Sidekiq::Job

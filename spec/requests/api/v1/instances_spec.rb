@@ -1,3 +1,4 @@
+# @specre 01KJXRX5G28PGJCPGX88ZW6NK0
 require "rails_helper"
 
 RSpec.describe "Api::V1::Instances" do

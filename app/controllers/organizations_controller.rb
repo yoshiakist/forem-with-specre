@@ -1,3 +1,10 @@
+# @specre 01KJ9N1ZPXHEHSP60VT4S49QQB
+# @specre 01KJ02DSNZVDY9J6F8MHMCEYZF
+# @specre 01KJ02CX5937HVK61GE4PHCKAT
+# @specre 01KJ029Q7RK57YNH11SH1V2BBB
+# @specre 01KJ0295AV619CEC61P9EVC0V8
+# @specre 01KJ028T8Z2686ZJZX4WNS2VTQ
+# @specre 01KHYAPESAA0V3WKK075E59EPH
 class OrganizationsController < ApplicationController
   skip_before_action :verify_private_forem, only: :confirm_invitation
   after_action :verify_authorized

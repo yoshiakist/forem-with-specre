@@ -1,3 +1,4 @@
+# @specre 01KJBEAAQ5B160HFTWKSHPA73N
 module Users
   # This module represents a deleted user.  In particular as it
   # relates to rendering rich content in tags.  This "Null" object

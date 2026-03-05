@@ -1,3 +1,4 @@
+// @specre 01KHZ69T25SN7PPC7HH7ZPCZ2D
 const initializeProfileInfoToggle = () => {
   const infoPanels = document.getElementsByClassName('js-user-info')[0];
   const trigger = document.getElementsByClassName('js-user-info-trigger')[0];

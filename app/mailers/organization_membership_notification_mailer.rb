@@ -1,3 +1,4 @@
+# @specre 01KJ02DSNZVDY9J6F8MHMCEYZF
 class OrganizationMembershipNotificationMailer < ApplicationMailer
   def member_added_email
     @membership = OrganizationMembership.find(params[:membership_id])

@@ -1,3 +1,4 @@
+# @specre 01KJV9M0QR6H05KCHZ72V7A2BZ
 require "rails_helper"
 
 RSpec.describe Articles::Feeds::Custom, type: :service do

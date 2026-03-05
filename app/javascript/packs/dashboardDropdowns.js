@@ -1,3 +1,4 @@
+// @specre 01KJV3PD89JNE8190FG9GCAV33
 import { initializeDropdown } from '@utilities/dropdownUtils';
 
 const ARTICLE_ID_REGEX = /\/(\d+)$/;

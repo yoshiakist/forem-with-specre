@@ -1,3 +1,4 @@
+# @specre 01KJBKE6FH7TS0RJVRWB313W9Z
 require "rails_helper"
 
 RSpec.describe "Authenticating with Facebook" do

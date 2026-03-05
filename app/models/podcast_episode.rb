@@ -1,3 +1,4 @@
+# @specre 01KHZ7C8VY10XGW8GDHDDHSHRQ
 class PodcastEpisode < ApplicationRecord
   include PgSearch::Model
   include AlgoliaSearchable

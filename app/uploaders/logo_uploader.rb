@@ -1,3 +1,4 @@
+# @specre 01KHZ3X8Z3Y2RPWBDE48X9GQ3D
 class LogoUploader < BaseUploader
   MAX_FILE_SIZE = 8.megabytes
   STORE_DIRECTORY = "uploads/logos/".freeze

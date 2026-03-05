@@ -1,3 +1,4 @@
+// @specre 01KJXXHCPNS5J9D2D3NGMGWSSP
 import { initializeCommentDate } from './initializers/initializeCommentDate';
 import { initializeCommentPreview } from './initializers/initializeCommentPreview';
 import { initializeTimeFixer } from './initializers/initializeTimeFixer';

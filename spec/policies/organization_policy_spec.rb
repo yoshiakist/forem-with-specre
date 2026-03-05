@@ -1,3 +1,4 @@
+# @specre 01KHYACZKPN88W16YWM7C8YF7V
 require "rails_helper"
 
 RSpec.describe OrganizationPolicy, type: :policy do

@@ -1,3 +1,4 @@
+# @specre 01KJ6H94SE5S0ANVZZNR3NCZNG
 require "rails_helper"
 
 RSpec.describe "/admin/moderation/moderator_reactions" do

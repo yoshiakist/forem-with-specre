@@ -1,3 +1,4 @@
+// @specre 01KJ9H04NFNKVCEGFVZ2SRPXF0
 import { Controller } from '@hotwired/stimulus';
 
 export default class ModalController extends Controller {

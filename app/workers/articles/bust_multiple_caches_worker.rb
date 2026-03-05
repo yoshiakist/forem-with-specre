@@ -1,3 +1,4 @@
+# @specre 01KJBWN5KRQKZE6SWZWPNHA43E
 module Articles
   class BustMultipleCachesWorker
     include Sidekiq::Job

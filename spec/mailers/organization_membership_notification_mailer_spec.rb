@@ -1,3 +1,4 @@
+# @specre 01KJ02DSNZVDY9J6F8MHMCEYZF
 require "rails_helper"
 
 RSpec.describe OrganizationMembershipNotificationMailer, type: :mailer do

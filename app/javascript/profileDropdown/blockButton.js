@@ -1,3 +1,4 @@
+// @specre 01KHZ6CQSTGFQY3V3VHN924EF9
 /* eslint-disable no-alert */
 
 export function initBlock() {

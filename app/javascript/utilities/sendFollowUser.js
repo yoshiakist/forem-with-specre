@@ -1,3 +1,4 @@
+// @specre 01KJ1X6P8ZE8SXRX8T90FCZH0G
 export function sendFollowUser(user, successCb) {
   const csrfToken = document.querySelector("meta[name='csrf-token']").content;
 

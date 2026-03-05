@@ -1,3 +1,4 @@
+# @specre 01KJBV4Y67GJZ6K5AA2YX7YSZA
 require "rails_helper"
 
 RSpec.describe Articles::SuggestStickies, type: :service do
