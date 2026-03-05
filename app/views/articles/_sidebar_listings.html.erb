@@ -1,3 +1,4 @@
+<%# @specre 01KJXW7E07AADE8M9MG7XVBZN8 %>
 <% @listings = Listing.where(published: true).select(:title, :classified_listing_category_id, :slug, :bumped_at) %>
 <% if params[:timeframe].blank? && @listings.any? %>
   <section class="crayons-card crayons-card--secondary crayons-layout__content">

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-05T01:52:43Z",
+  "generated_at": "2026-03-05T02:17:56Z",
   "source_refs": [
     {
       "file": "app/assets/javascripts/initializers/initializeAllTagEditButtons.js",
@@ -647,6 +647,31 @@
       "specre_id": "01KJXRX5G28PGJCPGX88ZW6NK0"
     },
     {
+      "file": "app/controllers/api/v0/listings_controller.rb",
+      "line": 1,
+      "specre_id": "01KJXWGTKXY2KHWQQ23XG2PNZF"
+    },
+    {
+      "file": "app/controllers/api/v0/listings_controller.rb",
+      "line": 2,
+      "specre_id": "01KJXWGP0V021QH50BJW9Q1KKD"
+    },
+    {
+      "file": "app/controllers/api/v0/listings_controller.rb",
+      "line": 3,
+      "specre_id": "01KJXWC077QF4CMYHXFFQ278TR"
+    },
+    {
+      "file": "app/controllers/api/v0/listings_controller.rb",
+      "line": 4,
+      "specre_id": "01KJXWBCMHBTSTY8EW25W3B4CV"
+    },
+    {
+      "file": "app/controllers/api/v0/listings_controller.rb",
+      "line": 5,
+      "specre_id": "01KJXWBM12SRTZ3BCRGK8G10YT"
+    },
+    {
       "file": "app/controllers/api/v0/organizations_controller.rb",
       "line": 1,
       "specre_id": "01KHZGVB146XQBKF66V2THG07T"
@@ -780,6 +805,31 @@
       "file": "app/controllers/api/v1/instances_controller.rb",
       "line": 1,
       "specre_id": "01KJXRX5G28PGJCPGX88ZW6NK0"
+    },
+    {
+      "file": "app/controllers/api/v1/listings_controller.rb",
+      "line": 1,
+      "specre_id": "01KJXWGTKXY2KHWQQ23XG2PNZF"
+    },
+    {
+      "file": "app/controllers/api/v1/listings_controller.rb",
+      "line": 2,
+      "specre_id": "01KJXWGP0V021QH50BJW9Q1KKD"
+    },
+    {
+      "file": "app/controllers/api/v1/listings_controller.rb",
+      "line": 3,
+      "specre_id": "01KJXWC077QF4CMYHXFFQ278TR"
+    },
+    {
+      "file": "app/controllers/api/v1/listings_controller.rb",
+      "line": 4,
+      "specre_id": "01KJXWBCMHBTSTY8EW25W3B4CV"
+    },
+    {
+      "file": "app/controllers/api/v1/listings_controller.rb",
+      "line": 5,
+      "specre_id": "01KJXWBM12SRTZ3BCRGK8G10YT"
     },
     {
       "file": "app/controllers/api/v1/organizations_controller.rb",
@@ -1055,6 +1105,31 @@
       "file": "app/controllers/concerns/api/instances_controller.rb",
       "line": 1,
       "specre_id": "01KJXRX5G28PGJCPGX88ZW6NK0"
+    },
+    {
+      "file": "app/controllers/concerns/api/listings_controller.rb",
+      "line": 1,
+      "specre_id": "01KJXWGTKXY2KHWQQ23XG2PNZF"
+    },
+    {
+      "file": "app/controllers/concerns/api/listings_controller.rb",
+      "line": 2,
+      "specre_id": "01KJXWGP0V021QH50BJW9Q1KKD"
+    },
+    {
+      "file": "app/controllers/concerns/api/listings_controller.rb",
+      "line": 3,
+      "specre_id": "01KJXWC077QF4CMYHXFFQ278TR"
+    },
+    {
+      "file": "app/controllers/concerns/api/listings_controller.rb",
+      "line": 4,
+      "specre_id": "01KJXWBCMHBTSTY8EW25W3B4CV"
+    },
+    {
+      "file": "app/controllers/concerns/api/listings_controller.rb",
+      "line": 5,
+      "specre_id": "01KJXWBM12SRTZ3BCRGK8G10YT"
     },
     {
       "file": "app/controllers/concerns/api/organizations_controller.rb",
@@ -2757,6 +2832,271 @@
       "specre_id": "01KJ9RAX3Y386ZACHQ0XRZ8GWT"
     },
     {
+      "file": "app/javascript/listings/__tests__/AllListings.test.jsx",
+      "line": 1,
+      "specre_id": "01KJXWC077QF4CMYHXFFQ278TR"
+    },
+    {
+      "file": "app/javascript/listings/__tests__/BodyMarkdown.test.jsx",
+      "line": 1,
+      "specre_id": "01KJXWGP0V021QH50BJW9Q1KKD"
+    },
+    {
+      "file": "app/javascript/listings/__tests__/BodyMarkdown.test.jsx",
+      "line": 2,
+      "specre_id": "01KJXWGTKXY2KHWQQ23XG2PNZF"
+    },
+    {
+      "file": "app/javascript/listings/__tests__/Categories.test.jsx",
+      "line": 1,
+      "specre_id": "01KJXWC077QF4CMYHXFFQ278TR"
+    },
+    {
+      "file": "app/javascript/listings/__tests__/ClearQueryButton.test.jsx",
+      "line": 1,
+      "specre_id": "01KJXWC077QF4CMYHXFFQ278TR"
+    },
+    {
+      "file": "app/javascript/listings/__tests__/ListingDashboard.test.jsx",
+      "line": 1,
+      "specre_id": "01KJXW7T67VPX2HZKKWN70MM4E"
+    },
+    {
+      "file": "app/javascript/listings/__tests__/ListingFilterTags.test.jsx",
+      "line": 1,
+      "specre_id": "01KJXWC077QF4CMYHXFFQ278TR"
+    },
+    {
+      "file": "app/javascript/listings/__tests__/ListingFiltersCategories.test.jsx",
+      "line": 1,
+      "specre_id": "01KJXWC077QF4CMYHXFFQ278TR"
+    },
+    {
+      "file": "app/javascript/listings/__tests__/ListingTagsField.test.jsx",
+      "line": 1,
+      "specre_id": "01KJXWGP0V021QH50BJW9Q1KKD"
+    },
+    {
+      "file": "app/javascript/listings/__tests__/ListingTagsField.test.jsx",
+      "line": 2,
+      "specre_id": "01KJXWGTKXY2KHWQQ23XG2PNZF"
+    },
+    {
+      "file": "app/javascript/listings/__tests__/Modal.test.jsx",
+      "line": 1,
+      "specre_id": "01KJXWBCMHBTSTY8EW25W3B4CV"
+    },
+    {
+      "file": "app/javascript/listings/__tests__/ModalBackground.test.jsx",
+      "line": 1,
+      "specre_id": "01KJXWBCMHBTSTY8EW25W3B4CV"
+    },
+    {
+      "file": "app/javascript/listings/__tests__/NextPageButton.test.jsx",
+      "line": 1,
+      "specre_id": "01KJXWC077QF4CMYHXFFQ278TR"
+    },
+    {
+      "file": "app/javascript/listings/__tests__/SelectedTags.test.jsx",
+      "line": 1,
+      "specre_id": "01KJXWC077QF4CMYHXFFQ278TR"
+    },
+    {
+      "file": "app/javascript/listings/__tests__/SingleListing.test.jsx",
+      "line": 1,
+      "specre_id": "01KJXWBCMHBTSTY8EW25W3B4CV"
+    },
+    {
+      "file": "app/javascript/listings/__tests__/utils.test.js",
+      "line": 1,
+      "specre_id": "01KJXWC077QF4CMYHXFFQ278TR"
+    },
+    {
+      "file": "app/javascript/listings/components/AllListings.jsx",
+      "line": 1,
+      "specre_id": "01KJXWC077QF4CMYHXFFQ278TR"
+    },
+    {
+      "file": "app/javascript/listings/components/BodyMarkdown.jsx",
+      "line": 1,
+      "specre_id": "01KJXWGP0V021QH50BJW9Q1KKD"
+    },
+    {
+      "file": "app/javascript/listings/components/BodyMarkdown.jsx",
+      "line": 2,
+      "specre_id": "01KJXWGTKXY2KHWQQ23XG2PNZF"
+    },
+    {
+      "file": "app/javascript/listings/components/Categories.jsx",
+      "line": 1,
+      "specre_id": "01KJXWGP0V021QH50BJW9Q1KKD"
+    },
+    {
+      "file": "app/javascript/listings/components/CategoryLinks.jsx",
+      "line": 1,
+      "specre_id": "01KJXWC077QF4CMYHXFFQ278TR"
+    },
+    {
+      "file": "app/javascript/listings/components/CategoryLinksMobile.jsx",
+      "line": 1,
+      "specre_id": "01KJXWC077QF4CMYHXFFQ278TR"
+    },
+    {
+      "file": "app/javascript/listings/components/ClearQueryButton.jsx",
+      "line": 1,
+      "specre_id": "01KJXWC077QF4CMYHXFFQ278TR"
+    },
+    {
+      "file": "app/javascript/listings/components/ExpireDate.jsx",
+      "line": 1,
+      "specre_id": "01KJXWGP0V021QH50BJW9Q1KKD"
+    },
+    {
+      "file": "app/javascript/listings/components/ListingFilters.jsx",
+      "line": 1,
+      "specre_id": "01KJXWC077QF4CMYHXFFQ278TR"
+    },
+    {
+      "file": "app/javascript/listings/components/ListingFiltersCategories.jsx",
+      "line": 1,
+      "specre_id": "01KJXWC077QF4CMYHXFFQ278TR"
+    },
+    {
+      "file": "app/javascript/listings/components/ListingFiltersTags.jsx",
+      "line": 1,
+      "specre_id": "01KJXWC077QF4CMYHXFFQ278TR"
+    },
+    {
+      "file": "app/javascript/listings/components/ListingTagsField.jsx",
+      "line": 1,
+      "specre_id": "01KJXWGP0V021QH50BJW9Q1KKD"
+    },
+    {
+      "file": "app/javascript/listings/components/ListingTagsField.jsx",
+      "line": 2,
+      "specre_id": "01KJXWGTKXY2KHWQQ23XG2PNZF"
+    },
+    {
+      "file": "app/javascript/listings/components/Modal.jsx",
+      "line": 1,
+      "specre_id": "01KJXWBCMHBTSTY8EW25W3B4CV"
+    },
+    {
+      "file": "app/javascript/listings/components/ModalBackground.jsx",
+      "line": 1,
+      "specre_id": "01KJXWBCMHBTSTY8EW25W3B4CV"
+    },
+    {
+      "file": "app/javascript/listings/components/NextPageButton.jsx",
+      "line": 1,
+      "specre_id": "01KJXWC077QF4CMYHXFFQ278TR"
+    },
+    {
+      "file": "app/javascript/listings/components/SelectedTags.jsx",
+      "line": 1,
+      "specre_id": "01KJXWC077QF4CMYHXFFQ278TR"
+    },
+    {
+      "file": "app/javascript/listings/components/Title.jsx",
+      "line": 1,
+      "specre_id": "01KJXWGTKXY2KHWQQ23XG2PNZF"
+    },
+    {
+      "file": "app/javascript/listings/components/Title.jsx",
+      "line": 2,
+      "specre_id": "01KJXWGP0V021QH50BJW9Q1KKD"
+    },
+    {
+      "file": "app/javascript/listings/dashboard/listingRow.jsx",
+      "line": 1,
+      "specre_id": "01KJXW7T67VPX2HZKKWN70MM4E"
+    },
+    {
+      "file": "app/javascript/listings/dashboard/rowElements/actionButtons.jsx",
+      "line": 1,
+      "specre_id": "01KJXWBM12SRTZ3BCRGK8G10YT"
+    },
+    {
+      "file": "app/javascript/listings/dashboard/rowElements/actionButtons.jsx",
+      "line": 2,
+      "specre_id": "01KJXW7T67VPX2HZKKWN70MM4E"
+    },
+    {
+      "file": "app/javascript/listings/dashboard/rowElements/listingDate.jsx",
+      "line": 1,
+      "specre_id": "01KJXW7T67VPX2HZKKWN70MM4E"
+    },
+    {
+      "file": "app/javascript/listings/dashboard/rowElements/location.jsx",
+      "line": 1,
+      "specre_id": "01KJXW7T67VPX2HZKKWN70MM4E"
+    },
+    {
+      "file": "app/javascript/listings/dashboard/rowElements/tags.jsx",
+      "line": 1,
+      "specre_id": "01KJXW7T67VPX2HZKKWN70MM4E"
+    },
+    {
+      "file": "app/javascript/listings/listingDashboard.jsx",
+      "line": 1,
+      "specre_id": "01KJXW7T67VPX2HZKKWN70MM4E"
+    },
+    {
+      "file": "app/javascript/listings/listingForm.jsx",
+      "line": 1,
+      "specre_id": "01KJXWGTKXY2KHWQQ23XG2PNZF"
+    },
+    {
+      "file": "app/javascript/listings/listingForm.jsx",
+      "line": 2,
+      "specre_id": "01KJXWGP0V021QH50BJW9Q1KKD"
+    },
+    {
+      "file": "app/javascript/listings/listings.jsx",
+      "line": 1,
+      "specre_id": "01KJXWC077QF4CMYHXFFQ278TR"
+    },
+    {
+      "file": "app/javascript/listings/listings.jsx",
+      "line": 2,
+      "specre_id": "01KJXWBCMHBTSTY8EW25W3B4CV"
+    },
+    {
+      "file": "app/javascript/listings/singleListing/AuthorInfo.jsx",
+      "line": 1,
+      "specre_id": "01KJXWBCMHBTSTY8EW25W3B4CV"
+    },
+    {
+      "file": "app/javascript/listings/singleListing/DropdownMenu.jsx",
+      "line": 1,
+      "specre_id": "01KJXWBCMHBTSTY8EW25W3B4CV"
+    },
+    {
+      "file": "app/javascript/listings/singleListing/Header.jsx",
+      "line": 1,
+      "specre_id": "01KJXWBCMHBTSTY8EW25W3B4CV"
+    },
+    {
+      "file": "app/javascript/listings/singleListing/SingleListing.jsx",
+      "line": 1,
+      "specre_id": "01KJXWBCMHBTSTY8EW25W3B4CV"
+    },
+    {
+      "file": "app/javascript/listings/singleListing/TagLinks.jsx",
+      "line": 1,
+      "specre_id": "01KJXWBCMHBTSTY8EW25W3B4CV"
+    },
+    {
+      "file": "app/javascript/listings/singleListing/listingPropTypes.js",
+      "line": 1,
+      "specre_id": "01KJXWBCMHBTSTY8EW25W3B4CV"
+    },
+    {
+      "file": "app/javascript/listings/utils.js",
+      "line": 1,
+      "specre_id": "01KJXWC077QF4CMYHXFFQ278TR"
+    },
+    {
       "file": "app/javascript/modCenter/__tests__/moderationArticles.test.jsx",
       "line": 1,
       "specre_id": "01KJ16TED32H3YYC9F610VZM5X"
@@ -3120,6 +3460,26 @@
       "file": "app/javascript/packs/initializers/initializeSettings.js",
       "line": 1,
       "specre_id": "01KHZ466X2VM8VAWD6RE82CF9J"
+    },
+    {
+      "file": "app/javascript/packs/listingDashboard.jsx",
+      "line": 1,
+      "specre_id": "01KJXW7T67VPX2HZKKWN70MM4E"
+    },
+    {
+      "file": "app/javascript/packs/listingForm.jsx",
+      "line": 1,
+      "specre_id": "01KJXWGP0V021QH50BJW9Q1KKD"
+    },
+    {
+      "file": "app/javascript/packs/listingForm.jsx",
+      "line": 2,
+      "specre_id": "01KJXWGTKXY2KHWQQ23XG2PNZF"
+    },
+    {
+      "file": "app/javascript/packs/listings.jsx",
+      "line": 1,
+      "specre_id": "01KJXWC077QF4CMYHXFFQ278TR"
     },
     {
       "file": "app/javascript/packs/localizeArticleDates.js",
@@ -4502,6 +4862,46 @@
       "specre_id": "01KJ1EZV154EB8MH5FS06CB6XT"
     },
     {
+      "file": "app/models/listing.rb",
+      "line": 1,
+      "specre_id": "01KJXWGTKXY2KHWQQ23XG2PNZF"
+    },
+    {
+      "file": "app/models/listing.rb",
+      "line": 2,
+      "specre_id": "01KJXWGP0V021QH50BJW9Q1KKD"
+    },
+    {
+      "file": "app/models/listing.rb",
+      "line": 3,
+      "specre_id": "01KJXWC077QF4CMYHXFFQ278TR"
+    },
+    {
+      "file": "app/models/listing.rb",
+      "line": 4,
+      "specre_id": "01KJXWBCMHBTSTY8EW25W3B4CV"
+    },
+    {
+      "file": "app/models/listing.rb",
+      "line": 5,
+      "specre_id": "01KJXWBM12SRTZ3BCRGK8G10YT"
+    },
+    {
+      "file": "app/models/listing.rb",
+      "line": 6,
+      "specre_id": "01KJXW7T67VPX2HZKKWN70MM4E"
+    },
+    {
+      "file": "app/models/listing.rb",
+      "line": 7,
+      "specre_id": "01KJXW7NX99QAAKES46SCR9KHK"
+    },
+    {
+      "file": "app/models/listing.rb",
+      "line": 8,
+      "specre_id": "01KJXW7E07AADE8M9MG7XVBZN8"
+    },
+    {
       "file": "app/models/media_store.rb",
       "line": 1,
       "specre_id": "01KJ1C23JZY0T5QCNX103SR5MM"
@@ -5095,6 +5495,16 @@
       "file": "app/policies/liquid_tag_policy.rb",
       "line": 1,
       "specre_id": "01KJ1EZV154EB8MH5FS06CB6XT"
+    },
+    {
+      "file": "app/policies/listing_policy.rb",
+      "line": 1,
+      "specre_id": "01KJXWGTKXY2KHWQQ23XG2PNZF"
+    },
+    {
+      "file": "app/policies/listing_policy.rb",
+      "line": 2,
+      "specre_id": "01KJXWBM12SRTZ3BCRGK8G10YT"
     },
     {
       "file": "app/policies/organization_policy.rb",
@@ -7592,6 +8002,11 @@
       "specre_id": "01KJVM4JRDR1HWVGG2JNXWBT7N"
     },
     {
+      "file": "app/views/articles/_sidebar_listings.html.erb",
+      "line": 1,
+      "specre_id": "01KJXW7E07AADE8M9MG7XVBZN8"
+    },
+    {
       "file": "app/views/articles/_single_story.html.erb",
       "line": 1,
       "specre_id": "01KJV72NZBF1FK1XSC1ET596PS"
@@ -9700,6 +10115,11 @@
       "file": "app/workers/images/social_image_worker.rb",
       "line": 1,
       "specre_id": "01KJVEZN3YK9PYFVQ7FW9BBN7M"
+    },
+    {
+      "file": "app/workers/listings/bust_cache_worker.rb",
+      "line": 1,
+      "specre_id": "01KJXW7NX99QAAKES46SCR9KHK"
     },
     {
       "file": "app/workers/mentions/create_all_worker.rb",
@@ -19754,6 +20174,70 @@
       "name": "system_renders_homepage_sidebar_widgets",
       "path": "docs/specres/articles/system_renders_homepage_sidebar_widgets.md",
       "status": "draft"
+    },
+    {
+      "domain": "listings",
+      "id": "01KJXW7E07AADE8M9MG7XVBZN8",
+      "last_verified": null,
+      "name": "system_displays_listings_in_article_sidebar",
+      "path": "docs/specres/listings/system_displays_listings_in_article_sidebar.md",
+      "status": "draft"
+    },
+    {
+      "domain": "listings",
+      "id": "01KJXW7NX99QAAKES46SCR9KHK",
+      "last_verified": null,
+      "name": "system_busts_listing_cache",
+      "path": "docs/specres/listings/system_busts_listing_cache.md",
+      "status": "draft"
+    },
+    {
+      "domain": "listings",
+      "id": "01KJXW7T67VPX2HZKKWN70MM4E",
+      "last_verified": "2026-03-05",
+      "name": "user_can_view_listings_dashboard",
+      "path": "docs/specres/listings/user_can_view_listings_dashboard.md",
+      "status": "stable"
+    },
+    {
+      "domain": "listings",
+      "id": "01KJXWBCMHBTSTY8EW25W3B4CV",
+      "last_verified": "2026-03-05",
+      "name": "user_can_view_listing_detail",
+      "path": "docs/specres/listings/user_can_view_listing_detail.md",
+      "status": "stable"
+    },
+    {
+      "domain": "listings",
+      "id": "01KJXWBM12SRTZ3BCRGK8G10YT",
+      "last_verified": null,
+      "name": "user_can_delete_listing",
+      "path": "docs/specres/listings/user_can_delete_listing.md",
+      "status": "draft"
+    },
+    {
+      "domain": "listings",
+      "id": "01KJXWC077QF4CMYHXFFQ278TR",
+      "last_verified": "2026-03-05",
+      "name": "user_can_browse_and_filter_listings",
+      "path": "docs/specres/listings/user_can_browse_and_filter_listings.md",
+      "status": "stable"
+    },
+    {
+      "domain": "listings",
+      "id": "01KJXWGP0V021QH50BJW9Q1KKD",
+      "last_verified": "2026-03-05",
+      "name": "user_can_create_listing",
+      "path": "docs/specres/listings/user_can_create_listing.md",
+      "status": "stable"
+    },
+    {
+      "domain": "listings",
+      "id": "01KJXWGTKXY2KHWQQ23XG2PNZF",
+      "last_verified": "2026-03-05",
+      "name": "user_can_edit_listing",
+      "path": "docs/specres/listings/user_can_edit_listing.md",
+      "status": "stable"
     }
   ],
   "version": 1

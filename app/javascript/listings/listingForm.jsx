@@ -1,3 +1,5 @@
+// @specre 01KJXWGTKXY2KHWQQ23XG2PNZF
+// @specre 01KJXWGP0V021QH50BJW9Q1KKD
 import { h, Component } from 'preact';
 import PropTypes from 'prop-types';
 import linkState from 'linkstate';

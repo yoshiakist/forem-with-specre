@@ -1,3 +1,4 @@
+// @specre 01KJXWBCMHBTSTY8EW25W3B4CV
 import { h } from 'preact';
 import PropTypes from 'prop-types';
 import { SingleListing } from '../singleListing/SingleListing';

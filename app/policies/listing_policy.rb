@@ -1,3 +1,5 @@
+# @specre 01KJXWGTKXY2KHWQQ23XG2PNZF
+# @specre 01KJXWBM12SRTZ3BCRGK8G10YT
 class ListingPolicy < ApplicationPolicy
   def edit?
     user_author? || authorized_organization_admin_editor?
