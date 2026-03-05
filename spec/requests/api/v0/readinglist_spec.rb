@@ -1,3 +1,4 @@
+# @specre 01KJXS159QDWN1VEG2HY67NM54
 require "rails_helper"
 
 RSpec.describe "Api::V0::ReadingList" do

@@ -1,3 +1,4 @@
+# @specre 01KJXRWB4MV7QFF67TPC93RCNM
 require "rails_helper"
 
 RSpec.describe "HealthCheck" do

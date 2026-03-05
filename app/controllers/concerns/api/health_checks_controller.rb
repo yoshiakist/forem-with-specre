@@ -1,3 +1,4 @@
+# @specre 01KJXRWB4MV7QFF67TPC93RCNM
 module Api
   module HealthChecksController
     extend ActiveSupport::Concern

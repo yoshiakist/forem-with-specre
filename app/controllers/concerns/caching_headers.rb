@@ -1,3 +1,4 @@
+# @specre 01KJXS23EC325QAKXA39K1FE6R
 # Included in ApplicationController for edge caching
 module CachingHeaders
   extend ActiveSupport::Concern

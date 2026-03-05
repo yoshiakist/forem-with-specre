@@ -1,3 +1,4 @@
+# @specre 01KJXRY1N0DJQ23E3CMV1QHZNC
 # This module provides mechanisms for toggling on and off features.
 #
 # @note A wrapper around the Flipper gem

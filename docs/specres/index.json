@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-05T00:14:06Z",
+  "generated_at": "2026-03-05T01:29:00Z",
   "source_refs": [
     {
       "file": "app/assets/javascripts/initializers/initializeAllTagEditButtons.js",
@@ -622,6 +622,11 @@
       "specre_id": "01KJ5DK8KFA45BXJWFAD1VNYMS"
     },
     {
+      "file": "app/controllers/api/v0/feature_flags_controller.rb",
+      "line": 1,
+      "specre_id": "01KJXRY1N0DJQ23E3CMV1QHZNC"
+    },
+    {
       "file": "app/controllers/api/v0/followers_controller.rb",
       "line": 1,
       "specre_id": "01KJ1XA9ETJ0A7Y8MWW28NFSN8"
@@ -630,6 +635,16 @@
       "file": "app/controllers/api/v0/follows_controller.rb",
       "line": 1,
       "specre_id": "01KJ1X77PBDY9JBNX09TV75B95"
+    },
+    {
+      "file": "app/controllers/api/v0/health_checks_controller.rb",
+      "line": 1,
+      "specre_id": "01KJXRWB4MV7QFF67TPC93RCNM"
+    },
+    {
+      "file": "app/controllers/api/v0/instances_controller.rb",
+      "line": 1,
+      "specre_id": "01KJXRX5G28PGJCPGX88ZW6NK0"
     },
     {
       "file": "app/controllers/api/v0/organizations_controller.rb",
@@ -645,6 +660,11 @@
       "file": "app/controllers/api/v0/profile_images_controller.rb",
       "line": 1,
       "specre_id": "01KHZ6GA12DBP0WCYVDFT4H5HE"
+    },
+    {
+      "file": "app/controllers/api/v0/readinglist_controller.rb",
+      "line": 1,
+      "specre_id": "01KJXS159QDWN1VEG2HY67NM54"
     },
     {
       "file": "app/controllers/api/v0/subforems_controller.rb",
@@ -732,6 +752,11 @@
       "specre_id": "01KJ5DK8KFA45BXJWFAD1VNYMS"
     },
     {
+      "file": "app/controllers/api/v1/feature_flags_controller.rb",
+      "line": 1,
+      "specre_id": "01KJXRY1N0DJQ23E3CMV1QHZNC"
+    },
+    {
       "file": "app/controllers/api/v1/feedback_messages_controller.rb",
       "line": 1,
       "specre_id": "01KJ25K4FS13J2KA8CV6011QN8"
@@ -745,6 +770,16 @@
       "file": "app/controllers/api/v1/follows_controller.rb",
       "line": 1,
       "specre_id": "01KJ1X77PBDY9JBNX09TV75B95"
+    },
+    {
+      "file": "app/controllers/api/v1/health_checks_controller.rb",
+      "line": 1,
+      "specre_id": "01KJXRWB4MV7QFF67TPC93RCNM"
+    },
+    {
+      "file": "app/controllers/api/v1/instances_controller.rb",
+      "line": 1,
+      "specre_id": "01KJXRX5G28PGJCPGX88ZW6NK0"
     },
     {
       "file": "app/controllers/api/v1/organizations_controller.rb",
@@ -770,6 +805,11 @@
       "file": "app/controllers/api/v1/reactions_controller.rb",
       "line": 1,
       "specre_id": "01KHZ55HBKCF9CFW46K61FMYEQ"
+    },
+    {
+      "file": "app/controllers/api/v1/readinglist_controller.rb",
+      "line": 1,
+      "specre_id": "01KJXS159QDWN1VEG2HY67NM54"
     },
     {
       "file": "app/controllers/api/v1/recommended_articles_lists_controller.rb",
@@ -992,6 +1032,11 @@
       "specre_id": "01KJ5DK8KFA45BXJWFAD1VNYMS"
     },
     {
+      "file": "app/controllers/concerns/api/feature_flags_controller.rb",
+      "line": 1,
+      "specre_id": "01KJXRY1N0DJQ23E3CMV1QHZNC"
+    },
+    {
       "file": "app/controllers/concerns/api/followers_controller.rb",
       "line": 1,
       "specre_id": "01KJ1XA9ETJ0A7Y8MWW28NFSN8"
@@ -1000,6 +1045,16 @@
       "file": "app/controllers/concerns/api/follows_controller.rb",
       "line": 1,
       "specre_id": "01KJ1X77PBDY9JBNX09TV75B95"
+    },
+    {
+      "file": "app/controllers/concerns/api/health_checks_controller.rb",
+      "line": 1,
+      "specre_id": "01KJXRWB4MV7QFF67TPC93RCNM"
+    },
+    {
+      "file": "app/controllers/concerns/api/instances_controller.rb",
+      "line": 1,
+      "specre_id": "01KJXRX5G28PGJCPGX88ZW6NK0"
     },
     {
       "file": "app/controllers/concerns/api/organizations_controller.rb",
@@ -1015,6 +1070,11 @@
       "file": "app/controllers/concerns/api/profile_images_controller.rb",
       "line": 1,
       "specre_id": "01KHZ6GA12DBP0WCYVDFT4H5HE"
+    },
+    {
+      "file": "app/controllers/concerns/api/readinglist_controller.rb",
+      "line": 1,
+      "specre_id": "01KJXS159QDWN1VEG2HY67NM54"
     },
     {
       "file": "app/controllers/concerns/api/subforems_controller.rb",
@@ -1047,14 +1107,39 @@
       "specre_id": "01KJBWV962FQYVV8TD7XMHWN5Q"
     },
     {
+      "file": "app/controllers/concerns/caching_headers.rb",
+      "line": 1,
+      "specre_id": "01KJXS23EC325QAKXA39K1FE6R"
+    },
+    {
+      "file": "app/controllers/concerns/development_dependency_checks.rb",
+      "line": 1,
+      "specre_id": "01KJXS5KFKXR5ATWMC60V4695E"
+    },
+    {
+      "file": "app/controllers/concerns/edge_cache_safety_check.rb",
+      "line": 1,
+      "specre_id": "01KJXS23EC325QAKXA39K1FE6R"
+    },
+    {
       "file": "app/controllers/concerns/image_uploads.rb",
       "line": 1,
       "specre_id": "01KJ1C8G3AN3EVK907SGXDWZG5"
     },
     {
+      "file": "app/controllers/concerns/json_api_sort_param.rb",
+      "line": 1,
+      "specre_id": "01KJXS65QNM2GD19RTCWHQ5RCC"
+    },
+    {
       "file": "app/controllers/concerns/session_current_user.rb",
       "line": 1,
       "specre_id": "01KJBGZF9PRSHNVF807K57AY46"
+    },
+    {
+      "file": "app/controllers/concerns/valid_request.rb",
+      "line": 1,
+      "specre_id": "01KJXS2J6JX5ZKHWS3Z43QVMHP"
     },
     {
       "file": "app/controllers/confirmations_controller.rb",
@@ -5852,6 +5937,11 @@
       "specre_id": "01KJBN50VXFW9TGEC3VZ6TMM8Z"
     },
     {
+      "file": "app/services/feature_flag.rb",
+      "line": 1,
+      "specre_id": "01KJXRY1N0DJQ23E3CMV1QHZNC"
+    },
+    {
       "file": "app/services/feed_events/bulk_upsert.rb",
       "line": 1,
       "specre_id": "01KJ24DBM92V2E2RDET8BZEWTZ"
@@ -9907,6 +9997,11 @@
       "specre_id": "01KJ6E7W8QWARD67FEGBQWTH1T"
     },
     {
+      "file": "spec/controllers/concerns/json_api_sort_param_spec.rb",
+      "line": 1,
+      "specre_id": "01KJXS65QNM2GD19RTCWHQ5RCC"
+    },
+    {
       "file": "spec/controllers/surveys_controller_spec.rb",
       "line": 1,
       "specre_id": "01KHZKDENF1FEDNJQD6XXKWAKZ"
@@ -12017,6 +12112,11 @@
       "specre_id": "01KJ5DK8KFA45BXJWFAD1VNYMS"
     },
     {
+      "file": "spec/requests/api/v0/feature_flags_spec.rb",
+      "line": 1,
+      "specre_id": "01KJXRY1N0DJQ23E3CMV1QHZNC"
+    },
+    {
       "file": "spec/requests/api/v0/followers_spec.rb",
       "line": 1,
       "specre_id": "01KJ1XA9ETJ0A7Y8MWW28NFSN8"
@@ -12025,6 +12125,16 @@
       "file": "spec/requests/api/v0/follows_spec.rb",
       "line": 1,
       "specre_id": "01KJ1X77PBDY9JBNX09TV75B95"
+    },
+    {
+      "file": "spec/requests/api/v0/health_checks_spec.rb",
+      "line": 1,
+      "specre_id": "01KJXRWB4MV7QFF67TPC93RCNM"
+    },
+    {
+      "file": "spec/requests/api/v0/instances_spec.rb",
+      "line": 1,
+      "specre_id": "01KJXRX5G28PGJCPGX88ZW6NK0"
     },
     {
       "file": "spec/requests/api/v0/organizations_spec.rb",
@@ -12040,6 +12150,11 @@
       "file": "spec/requests/api/v0/profile_images_spec.rb",
       "line": 1,
       "specre_id": "01KHZ6GA12DBP0WCYVDFT4H5HE"
+    },
+    {
+      "file": "spec/requests/api/v0/readinglist_spec.rb",
+      "line": 1,
+      "specre_id": "01KJXS159QDWN1VEG2HY67NM54"
     },
     {
       "file": "spec/requests/api/v0/subforems_spec.rb",
@@ -12232,6 +12347,11 @@
       "specre_id": "01KJBWV962FQYVV8TD7XMHWN5Q"
     },
     {
+      "file": "spec/requests/api/v1/feature_flags_spec.rb",
+      "line": 1,
+      "specre_id": "01KJXRY1N0DJQ23E3CMV1QHZNC"
+    },
+    {
       "file": "spec/requests/api/v1/feedback_messages_spec.rb",
       "line": 1,
       "specre_id": "01KJ25K4FS13J2KA8CV6011QN8"
@@ -12245,6 +12365,16 @@
       "file": "spec/requests/api/v1/follows_spec.rb",
       "line": 1,
       "specre_id": "01KJ1X77PBDY9JBNX09TV75B95"
+    },
+    {
+      "file": "spec/requests/api/v1/health_checks_spec.rb",
+      "line": 1,
+      "specre_id": "01KJXRWB4MV7QFF67TPC93RCNM"
+    },
+    {
+      "file": "spec/requests/api/v1/instances_spec.rb",
+      "line": 1,
+      "specre_id": "01KJXRX5G28PGJCPGX88ZW6NK0"
     },
     {
       "file": "spec/requests/api/v1/organizations_spec.rb",
@@ -12270,6 +12400,11 @@
       "file": "spec/requests/api/v1/reactions_spec.rb",
       "line": 1,
       "specre_id": "01KHZ55HBKCF9CFW46K61FMYEQ"
+    },
+    {
+      "file": "spec/requests/api/v1/readinglist_spec.rb",
+      "line": 1,
+      "specre_id": "01KJXS159QDWN1VEG2HY67NM54"
     },
     {
       "file": "spec/requests/api/v1/recommended_articles_lists_spec.rb",
@@ -19246,11 +19381,11 @@
       "status": "stable"
     },
     {
-      "domain": "_application_base",
+      "domain": "content_rendering",
       "id": "01KJVGDRGWSEZX0907T1RXBTGD",
       "last_verified": "2026-03-04",
       "name": "system_transforms_html_for_article_display",
-      "path": "docs/specres/_application_base/services/system_transforms_html_for_article_display.md",
+      "path": "docs/specres/content_rendering/system_transforms_html_for_article_display.md",
       "status": "stable"
     },
     {
@@ -19258,7 +19393,7 @@
       "id": "01KJVGDWG6JSDZ2K61C9PXX65N",
       "last_verified": "2026-03-04",
       "name": "admin_can_create_community_bot",
-      "path": "docs/specres/_application_base/services/admin_can_create_community_bot.md",
+      "path": "docs/specres/_application_base/operations/admin_can_create_community_bot.md",
       "status": "stable"
     },
     {
@@ -19266,7 +19401,7 @@
       "id": "01KJVGE8NSPTAPX0HVKBT09C6D",
       "last_verified": "2026-03-04",
       "name": "system_enforces_rate_limits_on_user_actions",
-      "path": "docs/specres/_application_base/services/system_enforces_rate_limits_on_user_actions.md",
+      "path": "docs/specres/_application_base/http/system_enforces_rate_limits_on_user_actions.md",
       "status": "stable"
     },
     {
@@ -19419,6 +19554,70 @@
       "last_verified": "2026-03-05",
       "name": "system_validates_domain_list_format",
       "path": "docs/specres/_application_base/validators/system_validates_domain_list_format.md",
+      "status": "stable"
+    },
+    {
+      "domain": "_application_base",
+      "id": "01KJXRWB4MV7QFF67TPC93RCNM",
+      "last_verified": "2026-03-05",
+      "name": "system_exposes_health_check_endpoints_via_api",
+      "path": "docs/specres/_application_base/operations/system_exposes_health_check_endpoints_via_api.md",
+      "status": "stable"
+    },
+    {
+      "domain": "_application_base",
+      "id": "01KJXRX5G28PGJCPGX88ZW6NK0",
+      "last_verified": "2026-03-05",
+      "name": "system_exposes_instance_metadata_via_api",
+      "path": "docs/specres/_application_base/operations/system_exposes_instance_metadata_via_api.md",
+      "status": "stable"
+    },
+    {
+      "domain": "_application_base",
+      "id": "01KJXRY1N0DJQ23E3CMV1QHZNC",
+      "last_verified": "2026-03-05",
+      "name": "system_toggles_feature_flags_via_test_api",
+      "path": "docs/specres/_application_base/testing/system_toggles_feature_flags_via_test_api.md",
+      "status": "stable"
+    },
+    {
+      "domain": "reactions",
+      "id": "01KJXS159QDWN1VEG2HY67NM54",
+      "last_verified": "2026-03-05",
+      "name": "user_can_retrieve_reading_list_via_api",
+      "path": "docs/specres/reactions/user_can_retrieve_reading_list_via_api.md",
+      "status": "stable"
+    },
+    {
+      "domain": "_application_base",
+      "id": "01KJXS23EC325QAKXA39K1FE6R",
+      "last_verified": null,
+      "name": "system_sets_edge_caching_headers",
+      "path": "docs/specres/_application_base/http/system_sets_edge_caching_headers.md",
+      "status": "draft"
+    },
+    {
+      "domain": "_application_base",
+      "id": "01KJXS2J6JX5ZKHWS3Z43QVMHP",
+      "last_verified": null,
+      "name": "system_validates_request_origin_and_redirect_protocol",
+      "path": "docs/specres/_application_base/http/system_validates_request_origin_and_redirect_protocol.md",
+      "status": "draft"
+    },
+    {
+      "domain": "_application_base",
+      "id": "01KJXS5KFKXR5ATWMC60V4695E",
+      "last_verified": null,
+      "name": "system_warns_developer_when_sidekiq_not_running",
+      "path": "docs/specres/_application_base/operations/system_warns_developer_when_sidekiq_not_running.md",
+      "status": "draft"
+    },
+    {
+      "domain": "_application_base",
+      "id": "01KJXS65QNM2GD19RTCWHQ5RCC",
+      "last_verified": "2026-03-05",
+      "name": "system_parses_json_api_sort_parameters",
+      "path": "docs/specres/_application_base/api/system_parses_json_api_sort_parameters.md",
       "status": "stable"
     }
   ],
