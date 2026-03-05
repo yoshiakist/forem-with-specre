@@ -9,3 +9,4 @@
 | [moderator_can_unpublish_content](moderator_can_unpublish_content.md) | draft | - |
 | [moderator_can_moderate_article_content](moderator_can_moderate_article_content.md) | stable | 2026-02-22 |
 | [moderator_can_moderate_comment](moderator_can_moderate_comment.md) | stable | 2026-02-22 |
+| [moderator_can_rate_article_quality](moderator_can_rate_article_quality.md) | draft | - |

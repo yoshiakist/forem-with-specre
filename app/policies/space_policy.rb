@@ -1,3 +1,4 @@
+# @specre 01KJVS5357MREJ2TCGFTFFESGH
 class SpacePolicy < ApplicationPolicy
   def update?
     user_any_admin?

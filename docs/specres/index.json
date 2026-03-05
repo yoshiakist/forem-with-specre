@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-03-04T06:03:05Z",
+  "generated_at": "2026-03-05T00:02:16Z",
   "specres": [
     {
       "id": "01KHYA9GWPEHZ06WJWDG1QKSK8",
@@ -4345,6 +4345,30 @@
       "domain": "_application_base",
       "path": "docs/specres/_application_base/workers/system_records_daily_usage_metrics.md",
       "last_verified": "2026-03-04"
+    },
+    {
+      "id": "01KJVS451ZBWV9SF8NRH3B9HVZ",
+      "name": "system_enforces_base_authorization_policy",
+      "status": "stable",
+      "domain": "_application_base",
+      "path": "docs/specres/_application_base/policies/system_enforces_base_authorization_policy.md",
+      "last_verified": "2026-03-04"
+    },
+    {
+      "id": "01KJVS4H4SB05PGMMFNHGWXVV4",
+      "name": "moderator_can_rate_article_quality",
+      "status": "draft",
+      "domain": "moderation",
+      "path": "docs/specres/moderation/moderator_can_rate_article_quality.md",
+      "last_verified": null
+    },
+    {
+      "id": "01KJVS5357MREJ2TCGFTFFESGH",
+      "name": "admin_can_view_and_update_spaces",
+      "status": "stable",
+      "domain": "admin",
+      "path": "docs/specres/admin/admin_can_view_and_update_spaces.md",
+      "last_verified": "2026-03-04"
     }
   ],
   "source_refs": [
@@ -4751,6 +4775,11 @@
     {
       "specre_id": "01KHZ3R448RA411ZP1V33AX5MR",
       "file": "app/controllers/admin/settings_controller.rb",
+      "line": 1
+    },
+    {
+      "specre_id": "01KJVS5357MREJ2TCGFTFFESGH",
+      "file": "app/controllers/admin/spaces_controller.rb",
       "line": 1
     },
     {
@@ -5651,6 +5680,11 @@
     {
       "specre_id": "01KHZ69F0GE1R07TXK53AAA1K8",
       "file": "app/controllers/profiles_controller.rb",
+      "line": 1
+    },
+    {
+      "specre_id": "01KJVS4H4SB05PGMMFNHGWXVV4",
+      "file": "app/controllers/rating_votes_controller.rb",
       "line": 1
     },
     {
@@ -9009,6 +9043,11 @@
       "line": 1
     },
     {
+      "specre_id": "01KJVS5357MREJ2TCGFTFFESGH",
+      "file": "app/models/space.rb",
+      "line": 1
+    },
+    {
       "specre_id": "01KHYYH62ZG383CA1EG815V11C",
       "file": "app/models/subforem.rb",
       "line": 1
@@ -9149,6 +9188,16 @@
       "line": 1
     },
     {
+      "specre_id": "01KJ9MTNQVSA7QWHW4VYYX71M4",
+      "file": "app/policies/api_secret_policy.rb",
+      "line": 1
+    },
+    {
+      "specre_id": "01KJVS451ZBWV9SF8NRH3B9HVZ",
+      "file": "app/policies/application_policy.rb",
+      "line": 1
+    },
+    {
       "specre_id": "01KJV3PD89JNE8190FG9GCAV33",
       "file": "app/policies/article_policy.rb",
       "line": 1
@@ -9234,6 +9283,11 @@
       "line": 7
     },
     {
+      "specre_id": "01KJVGDWG6JSDZ2K61C9PXX65N",
+      "file": "app/policies/community_bot_policy.rb",
+      "line": 1
+    },
+    {
       "specre_id": "01KJ3YXYAR6AARATJH02XHAEVW",
       "file": "app/policies/consumer_app_policy.rb",
       "line": 1
@@ -9259,6 +9313,11 @@
       "line": 1
     },
     {
+      "specre_id": "01KJ9GW0HAGR8XG1KN5GETDK8Q",
+      "file": "app/policies/internal_policy.rb",
+      "line": 1
+    },
+    {
       "specre_id": "01KJ1EZV154EB8MH5FS06CB6XT",
       "file": "app/policies/liquid_tag_policy.rb",
       "line": 1
@@ -9281,6 +9340,11 @@
     {
       "specre_id": "01KJBWMN1X7QK4TMQ77F5NFR6E",
       "file": "app/policies/pinned_article_policy.rb",
+      "line": 1
+    },
+    {
+      "specre_id": "01KJVS4H4SB05PGMMFNHGWXVV4",
+      "file": "app/policies/rating_vote_policy.rb",
       "line": 1
     },
     {
@@ -9341,6 +9405,11 @@
     {
       "specre_id": "01KJ7GD1GXR41KPP9FQDP5DGMY",
       "file": "app/policies/role_policy.rb",
+      "line": 1
+    },
+    {
+      "specre_id": "01KJVS5357MREJ2TCGFTFFESGH",
+      "file": "app/policies/space_policy.rb",
       "line": 1
     },
     {
@@ -15444,6 +15513,11 @@
       "line": 1
     },
     {
+      "specre_id": "01KJVS5357MREJ2TCGFTFFESGH",
+      "file": "spec/models/space_spec.rb",
+      "line": 1
+    },
+    {
       "specre_id": "01KHYYH62ZG383CA1EG815V11C",
       "file": "spec/models/subforem_spec.rb",
       "line": 1
@@ -15564,6 +15638,11 @@
       "line": 1
     },
     {
+      "specre_id": "01KJVS451ZBWV9SF8NRH3B9HVZ",
+      "file": "spec/policies/application_policy_spec.rb",
+      "line": 1
+    },
+    {
       "specre_id": "01KJV0FFF2JMT324JSMKPFW9Z3",
       "file": "spec/policies/article_policy_spec.rb",
       "line": 1
@@ -15589,6 +15668,11 @@
       "line": 1
     },
     {
+      "specre_id": "01KJVGDWG6JSDZ2K61C9PXX65N",
+      "file": "spec/policies/community_bot_policy_spec.rb",
+      "line": 1
+    },
+    {
       "specre_id": "01KJCKB0GDJ4BTHW7NPDYBC25S",
       "file": "spec/policies/discussion_lock_policy_spec.rb",
       "line": 1
@@ -15606,6 +15690,11 @@
     {
       "specre_id": "01KJ1C8G3AN3EVK907SGXDWZG5",
       "file": "spec/policies/image_upload_policy_spec.rb",
+      "line": 1
+    },
+    {
+      "specre_id": "01KJ9GW0HAGR8XG1KN5GETDK8Q",
+      "file": "spec/policies/internal_policy_spec.rb",
       "line": 1
     },
     {
@@ -15656,6 +15745,16 @@
     {
       "specre_id": "01KJ7GD1GXR41KPP9FQDP5DGMY",
       "file": "spec/policies/role_policy_spec.rb",
+      "line": 1
+    },
+    {
+      "specre_id": "01KJVS451ZBWV9SF8NRH3B9HVZ",
+      "file": "spec/policies/shared_examples/authorization_shared_examples.rb",
+      "line": 1
+    },
+    {
+      "specre_id": "01KJVS5357MREJ2TCGFTFFESGH",
+      "file": "spec/policies/space_policy_spec.rb",
       "line": 1
     },
     {
@@ -16949,6 +17048,11 @@
       "line": 1
     },
     {
+      "specre_id": "01KJVS4H4SB05PGMMFNHGWXVV4",
+      "file": "spec/requests/rating_votes_spec.rb",
+      "line": 1
+    },
+    {
       "specre_id": "01KHZ55SRCPDHPWM0EYSTE60MK",
       "file": "spec/requests/reactions_spec.rb",
       "line": 1
@@ -16996,6 +17100,11 @@
     {
       "specre_id": "01KJ5DR9SK7NZF4GCYBZD5RM92",
       "file": "spec/requests/shared_examples/comment_hide_or_unhide_request.rb",
+      "line": 1
+    },
+    {
+      "specre_id": "01KJ9GW0HAGR8XG1KN5GETDK8Q",
+      "file": "spec/requests/shared_examples/internal_policy_dependant_request.rb",
       "line": 1
     },
     {

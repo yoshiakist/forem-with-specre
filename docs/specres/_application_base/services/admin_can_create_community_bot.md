@@ -8,7 +8,9 @@ last_verified: "2026-03-04"
 ## Related Files
 
 - `app/services/community_bots/create_bot.rb`
+- `app/policies/community_bot_policy.rb`
 - `spec/services/community_bots/create_bot_spec.rb` (Test)
+- `spec/policies/community_bot_policy_spec.rb` (Test)
 
 ## Functional Overview
 

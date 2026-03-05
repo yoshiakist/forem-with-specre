@@ -1,3 +1,4 @@
+# @specre 01KJVS451ZBWV9SF8NRH3B9HVZ
 # This cluster of shared examples all help facilitate bombarding policies with lots of test situations.
 #
 # There is an assumption that the :user (e.g. `let(:user)`) is the person whom we're authorizing.

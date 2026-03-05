@@ -8,6 +8,7 @@ last_verified: "2026-02-25"
 ## Related Files
 
 - `app/controllers/api_secrets_controller.rb`
+- `app/policies/api_secret_policy.rb`
 - `app/views/users/_api_keys.html.erb` (Template)
 - `spec/requests/api_secrets_create_spec.rb` (Test)
 - `spec/requests/api_secrets_destroy_spec.rb` (Test)

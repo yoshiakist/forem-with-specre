@@ -1,3 +1,4 @@
+# @specre 01KJ9GW0HAGR8XG1KN5GETDK8Q
 RSpec.shared_examples "an InternalPolicy dependant request" do |resource|
   let(:user) { create(:user) }
 

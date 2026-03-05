@@ -8,7 +8,10 @@ status: "draft"
 
 - `app/controllers/admin/application_controller.rb`
 - `app/policies/admin_policy.rb`
+- `app/policies/internal_policy.rb`
 - `spec/policies/admin_policy_spec.rb` (Test)
+- `spec/policies/internal_policy_spec.rb` (Test)
+- `spec/requests/shared_examples/internal_policy_dependant_request.rb` (Test)
 
 ## Functional Overview
 

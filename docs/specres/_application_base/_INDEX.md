@@ -7,3 +7,4 @@
 | [system_enforces_rate_limits_on_user_actions](services/system_enforces_rate_limits_on_user_actions.md) | stable | 2026-03-04 |
 | [system_quarantines_spam_email_domain](workers/system_quarantines_spam_email_domain.md) | stable | 2026-03-04 |
 | [system_records_daily_usage_metrics](workers/system_records_daily_usage_metrics.md) | stable | 2026-03-04 |
+| [system_enforces_base_authorization_policy](policies/system_enforces_base_authorization_policy.md) | stable | 2026-03-04 |

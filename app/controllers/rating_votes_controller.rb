@@ -1,3 +1,4 @@
+# @specre 01KJVS4H4SB05PGMMFNHGWXVV4
 class RatingVotesController < ApplicationController
   after_action :verify_authorized
   after_action only: [:create] do

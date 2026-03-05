@@ -1,3 +1,4 @@
+# @specre 01KJVS5357MREJ2TCGFTFFESGH
 module Admin
   # @note The ./config/routes/admin.rb file has a constraint around this controller
   #

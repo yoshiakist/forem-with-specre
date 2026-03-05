@@ -1,3 +1,4 @@
+# @specre 01KJVGDWG6JSDZ2K61C9PXX65N
 class CommunityBotPolicy < ApplicationPolicy
   def index?
     has_mod_permission?

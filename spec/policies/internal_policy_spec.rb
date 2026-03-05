@@ -1,3 +1,4 @@
+# @specre 01KJ9GW0HAGR8XG1KN5GETDK8Q
 require "rails_helper"
 
 RSpec.describe InternalPolicy, type: :policy do

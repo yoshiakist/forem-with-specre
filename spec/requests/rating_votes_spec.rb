@@ -1,3 +1,4 @@
+# @specre 01KJVS4H4SB05PGMMFNHGWXVV4
 # http://localhost:3000/rating_votes
 require "rails_helper"
 

@@ -45,3 +45,4 @@
 | [admin_can_remove_user_social_identity](member_manager/admin_can_remove_user_social_identity.md) | stable | 2026-02-25 |
 | [admin_can_export_individual_user_data](member_manager/admin_can_export_individual_user_data.md) | in-development | - |
 | [admin_can_review_gdpr_delete_requests](member_manager/admin_can_review_gdpr_delete_requests.md) | stable | 2026-02-26 |
+| [admin_can_view_and_update_spaces](admin_can_view_and_update_spaces.md) | stable | 2026-03-04 |
