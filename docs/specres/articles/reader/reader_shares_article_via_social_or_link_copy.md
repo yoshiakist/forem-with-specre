@@ -9,6 +9,7 @@ status: "draft"
 - `app/views/articles/_actions.html.erb`
 - `app/views/articles/_fullscreen_embed.html.erb`
 - `app/javascript/packs/articlePage.jsx`
+- `app/javascript/packs/webShare.js`
 - `spec/requests/articles/articles_show_spec.rb` (Test)
 
 ## Functional Overview

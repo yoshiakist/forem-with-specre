@@ -1,3 +1,4 @@
+// @specre 01KJXXZA1WFJVBDE2YJ67GMEGP
 function formatDateTime(options, value) {
   return new Intl.DateTimeFormat('en-US', options).format(value);
 }

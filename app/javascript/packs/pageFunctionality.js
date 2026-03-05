@@ -1,3 +1,4 @@
+// @specre 01KJXY245DK9WXSB7WC8PH3CNP
 function backfillLinkTarget() {
   const links = document.getElementById('page-content').querySelectorAll('a[href]');
   const appDomain = window.location.hostname;

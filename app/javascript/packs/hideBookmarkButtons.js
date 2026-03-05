@@ -1,3 +1,4 @@
+// @specre 01KHZ55SRCPDHPWM0EYSTE60MK
 import { getUserDataAndCsrfTokenSafely } from '@utilities/getUserDataAndCsrfToken';
 
 getUserDataAndCsrfTokenSafely().then(({ currentUser }) => {

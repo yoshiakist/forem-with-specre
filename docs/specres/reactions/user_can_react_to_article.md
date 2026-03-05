@@ -34,6 +34,7 @@ last_verified: "2026-02-21"
 - `spec/services/reaction_handler_spec.rb` (Test)
 - `spec/services/calculate_reaction_points_spec.rb` (Test)
 - `spec/policies/reaction_policy_spec.rb` (Test)
+- `app/javascript/packs/hideBookmarkButtons.js`
 
 ## Functional Overview
 

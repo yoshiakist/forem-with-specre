@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-05T02:17:56Z",
+  "generated_at": "2026-03-05T02:52:24Z",
   "source_refs": [
     {
       "file": "app/assets/javascripts/initializers/initializeAllTagEditButtons.js",
@@ -2737,6 +2737,11 @@
       "specre_id": "01KJ6EH2F7D1Q61H1A07JXRE38"
     },
     {
+      "file": "app/javascript/colorPickers/replaceTextInputWithColorPicker.jsx",
+      "line": 1,
+      "specre_id": "01KJXXT4W5WS018D6C53D3JFD6"
+    },
+    {
       "file": "app/javascript/common-prop-types/article-prop-types.js",
       "line": 1,
       "specre_id": "01KJV72NZBF1FK1XSC1ET596PS"
@@ -2745,6 +2750,16 @@
       "file": "app/javascript/common-prop-types/article-prop-types.js",
       "line": 2,
       "specre_id": "01KJCK5NSKJNEBDJYZA4QQ3YBW"
+    },
+    {
+      "file": "app/javascript/contentDisplayPolicy/hideBlockedContent.js",
+      "line": 1,
+      "specre_id": "01KJXXQCH4J8E98SGR04CZ6DK3"
+    },
+    {
+      "file": "app/javascript/contentDisplayPolicy/initHiddenComments.js",
+      "line": 1,
+      "specre_id": "01KJXXQCH4J8E98SGR04CZ6DK3"
     },
     {
       "file": "app/javascript/controllers/subforem_image_upload_controller.js",
@@ -3232,6 +3247,11 @@
       "specre_id": "01KJ02KZ1T0N31A9EEK1JXA2YS"
     },
     {
+      "file": "app/javascript/packs/CommentTextArea/CommentTextArea.jsx",
+      "line": 1,
+      "specre_id": "01KJ5DY1ASV3RY7Q7C930XDMBQ"
+    },
+    {
       "file": "app/javascript/packs/Onboarding.jsx",
       "line": 1,
       "specre_id": "01KJVJ45XH7EQE2H412F1ZGN0V"
@@ -3332,6 +3352,21 @@
       "specre_id": "01KJ6QCAKAT1EKMN80R2KK58YZ"
     },
     {
+      "file": "app/javascript/packs/application.jsx",
+      "line": 1,
+      "specre_id": "01KJXXHCPNS5J9D2D3NGMGWSSP"
+    },
+    {
+      "file": "app/javascript/packs/applyApplicationPolicyToggles.js",
+      "line": 1,
+      "specre_id": "01KJXXHMXT7M0M6E0BCSN0PA34"
+    },
+    {
+      "file": "app/javascript/packs/archivedPostFilters.js",
+      "line": 1,
+      "specre_id": "01KJV3PD89JNE8190FG9GCAV33"
+    },
+    {
       "file": "app/javascript/packs/articleAnimations.jsx",
       "line": 1,
       "specre_id": "01KJCK5NSKJNEBDJYZA4QQ3YBW"
@@ -3382,6 +3417,16 @@
       "specre_id": "01KJCK5NSKJNEBDJYZA4QQ3YBW"
     },
     {
+      "file": "app/javascript/packs/asyncUserStatusCheck.js",
+      "line": 1,
+      "specre_id": "01KHZ69T25SN7PPC7HH7ZPCZ2D"
+    },
+    {
+      "file": "app/javascript/packs/baseInitializers.js",
+      "line": 1,
+      "specre_id": "01KJXXHCPNS5J9D2D3NGMGWSSP"
+    },
+    {
       "file": "app/javascript/packs/baseTracking.js",
       "line": 1,
       "specre_id": "01KJBV508Z7X8FZ7BZP7XQNTN1"
@@ -3397,9 +3442,19 @@
       "specre_id": "01KJ6EHXR03NS5G0NZKDKT0CA0"
     },
     {
+      "file": "app/javascript/packs/commentDropdowns.js",
+      "line": 1,
+      "specre_id": "01KJCK5NSKJNEBDJYZA4QQ3YBW"
+    },
+    {
       "file": "app/javascript/packs/commentModPage.js",
       "line": 1,
       "specre_id": "01KJ1733YCRFGKZZN1ZR6JBEHC"
+    },
+    {
+      "file": "app/javascript/packs/commentsDisplay.js",
+      "line": 1,
+      "specre_id": "01KJ5DQT35P394JJVCSC077ZX5"
     },
     {
       "file": "app/javascript/packs/confirmationEmail.js",
@@ -3407,9 +3462,34 @@
       "specre_id": "01KJ759KKVVQ8YQZP1B78QC3Q6"
     },
     {
+      "file": "app/javascript/packs/contentDisplayPolicy.js",
+      "line": 1,
+      "specre_id": "01KJXXQCH4J8E98SGR04CZ6DK3"
+    },
+    {
+      "file": "app/javascript/packs/dashboardDropdowns.js",
+      "line": 1,
+      "specre_id": "01KJV3PD89JNE8190FG9GCAV33"
+    },
+    {
       "file": "app/javascript/packs/dashboardTags.js",
       "line": 1,
       "specre_id": "01KJ41J4101Y3KSMXR9VEHN9ZY"
+    },
+    {
+      "file": "app/javascript/packs/dashboards/convertCoauthorIdsToUsernameInputs.js",
+      "line": 1,
+      "specre_id": "01KJV3PD89JNE8190FG9GCAV33"
+    },
+    {
+      "file": "app/javascript/packs/drawerSliders.js",
+      "line": 1,
+      "specre_id": "01KJXXSWNJZA876N5WNVPQRNS8"
+    },
+    {
+      "file": "app/javascript/packs/enhanceColorPickers.jsx",
+      "line": 1,
+      "specre_id": "01KJXXT4W5WS018D6C53D3JFD6"
     },
     {
       "file": "app/javascript/packs/feedEvents.js",
@@ -3427,6 +3507,11 @@
       "specre_id": "01KJ1X6P8ZE8SXRX8T90FCZH0G"
     },
     {
+      "file": "app/javascript/packs/foremCreatorSignup.js",
+      "line": 1,
+      "specre_id": "01KJXXTGC5AP94N2XKXRW043X2"
+    },
+    {
       "file": "app/javascript/packs/fullScreenModeControl.js",
       "line": 1,
       "specre_id": "01KJCKQZYF0GEXFX0H120R12QN"
@@ -3435,6 +3520,16 @@
       "file": "app/javascript/packs/githubRepos.jsx",
       "line": 1,
       "specre_id": "01KJ1SC2K2MHD1YYH79TBFM4VQ"
+    },
+    {
+      "file": "app/javascript/packs/heroBannerClose.js",
+      "line": 1,
+      "specre_id": "01KJXXWWYZMY0J3Y74HP34NJGC"
+    },
+    {
+      "file": "app/javascript/packs/hideBookmarkButtons.js",
+      "line": 1,
+      "specre_id": "01KHZ55SRCPDHPWM0EYSTE60MK"
     },
     {
       "file": "app/javascript/packs/homePage.jsx",
@@ -3452,6 +3547,46 @@
       "specre_id": "01KJ24EJFAY39BP4S14QX5H5FH"
     },
     {
+      "file": "app/javascript/packs/initializers/__tests__/initializeCommentPreview.test.js",
+      "line": 1,
+      "specre_id": "01KJ5DY1ASV3RY7Q7C930XDMBQ"
+    },
+    {
+      "file": "app/javascript/packs/initializers/__tests__/initializeDashboardSort.test.js",
+      "line": 1,
+      "specre_id": "01KJV3PD89JNE8190FG9GCAV33"
+    },
+    {
+      "file": "app/javascript/packs/initializers/__tests__/initializeTimeFixer.test.js",
+      "line": 1,
+      "specre_id": "01KJXXZA1WFJVBDE2YJ67GMEGP"
+    },
+    {
+      "file": "app/javascript/packs/initializers/__tests__/subscribeButton.test.js",
+      "line": 1,
+      "specre_id": "01KJ15N9VC5VXN9692QKQRVF5E"
+    },
+    {
+      "file": "app/javascript/packs/initializers/initializeCommentDate.js",
+      "line": 1,
+      "specre_id": "01KJ5DQT35P394JJVCSC077ZX5"
+    },
+    {
+      "file": "app/javascript/packs/initializers/initializeCommentPreview.js",
+      "line": 1,
+      "specre_id": "01KJ5DY1ASV3RY7Q7C930XDMBQ"
+    },
+    {
+      "file": "app/javascript/packs/initializers/initializeDashboardSort.js",
+      "line": 1,
+      "specre_id": "01KJV3PD89JNE8190FG9GCAV33"
+    },
+    {
+      "file": "app/javascript/packs/initializers/initializeDateTimeHelpers.js",
+      "line": 1,
+      "specre_id": "01KJXXZA1WFJVBDE2YJ67GMEGP"
+    },
+    {
       "file": "app/javascript/packs/initializers/initializeNotifications.js",
       "line": 1,
       "specre_id": "01KJ15MVQ9HCZ8PV80MQ828AQF"
@@ -3460,6 +3595,11 @@
       "file": "app/javascript/packs/initializers/initializeSettings.js",
       "line": 1,
       "specre_id": "01KHZ466X2VM8VAWD6RE82CF9J"
+    },
+    {
+      "file": "app/javascript/packs/initializers/initializeTimeFixer.js",
+      "line": 1,
+      "specre_id": "01KJXXZA1WFJVBDE2YJ67GMEGP"
     },
     {
       "file": "app/javascript/packs/listingDashboard.jsx",
@@ -3485,6 +3625,11 @@
       "file": "app/javascript/packs/localizeArticleDates.js",
       "line": 1,
       "specre_id": "01KJCK5NSKJNEBDJYZA4QQ3YBW"
+    },
+    {
+      "file": "app/javascript/packs/mainSidebar.js",
+      "line": 1,
+      "specre_id": "01KJXY201SHSNYJJCG16X9A5B7"
     },
     {
       "file": "app/javascript/packs/modCenter.jsx",
@@ -3517,14 +3662,44 @@
       "specre_id": "01KJ02CRB3BH4Q8986WABZKSG4"
     },
     {
+      "file": "app/javascript/packs/pageFunctionality.js",
+      "line": 1,
+      "specre_id": "01KJXY245DK9WXSB7WC8PH3CNP"
+    },
+    {
+      "file": "app/javascript/packs/postCommentsPage.js",
+      "line": 1,
+      "specre_id": "01KJ5DQT35P394JJVCSC077ZX5"
+    },
+    {
       "file": "app/javascript/packs/profileDropdown.js",
       "line": 1,
       "specre_id": "01KHZ6CQSTGFQY3V3VHN924EF9"
     },
     {
+      "file": "app/javascript/packs/readingList.jsx",
+      "line": 1,
+      "specre_id": "01KJXY2EH4JHHV5SBS4KPNYYAH"
+    },
+    {
+      "file": "app/javascript/packs/runtimeBanner.jsx",
+      "line": 1,
+      "specre_id": "01KJXY52M1WTZV87HQC7P452C0"
+    },
+    {
       "file": "app/javascript/packs/searchParams.js",
       "line": 1,
       "specre_id": "01KHZ22E63WBQWYFZNQVEA2EEE"
+    },
+    {
+      "file": "app/javascript/packs/sidebarWidget.jsx",
+      "line": 1,
+      "specre_id": "01KJ1X6P8ZE8SXRX8T90FCZH0G"
+    },
+    {
+      "file": "app/javascript/packs/signupModalShortcuts.jsx",
+      "line": 1,
+      "specre_id": "01KJXY5CWN4BK1KR7CFWVB6542"
     },
     {
       "file": "app/javascript/packs/signupSubforemStorage.js",
@@ -3535,6 +3710,21 @@
       "file": "app/javascript/packs/signupSubforemStorage.jsx",
       "line": 1,
       "specre_id": "01KHYYD4RVEHXFA0M3F62W5PQD"
+    },
+    {
+      "file": "app/javascript/packs/stickySaveFooter.js",
+      "line": 1,
+      "specre_id": "01KJXY820ZJX31KDY0WV8424R4"
+    },
+    {
+      "file": "app/javascript/packs/storiesList.js",
+      "line": 1,
+      "specre_id": "01KHZ22E63WBQWYFZNQVEA2EEE"
+    },
+    {
+      "file": "app/javascript/packs/subscribeButton.js",
+      "line": 1,
+      "specre_id": "01KJ15N9VC5VXN9692QKQRVF5E"
     },
     {
       "file": "app/javascript/packs/tagFollows.jsx",
@@ -3570,6 +3760,11 @@
       "file": "app/javascript/packs/validateFileInputs.js",
       "line": 1,
       "specre_id": "01KJ1C8G3AN3EVK907SGXDWZG5"
+    },
+    {
+      "file": "app/javascript/packs/webShare.js",
+      "line": 1,
+      "specre_id": "01KJCKBBKHXER1P381MJEJF8P0"
     },
     {
       "file": "app/javascript/podcasts/PodcastEpisode.jsx",
@@ -3630,6 +3825,11 @@
       "file": "app/javascript/profilePreviewCards/UserMetadata.jsx",
       "line": 1,
       "specre_id": "01KHZ69T25SN7PPC7HH7ZPCZ2D"
+    },
+    {
+      "file": "app/javascript/readingList/readingList.jsx",
+      "line": 1,
+      "specre_id": "01KJXY2EH4JHHV5SBS4KPNYYAH"
     },
     {
       "file": "app/javascript/searchableItemList/searchableItemList.js",
@@ -20238,6 +20438,118 @@
       "name": "user_can_edit_listing",
       "path": "docs/specres/listings/user_can_edit_listing.md",
       "status": "stable"
+    },
+    {
+      "domain": "client_foundation",
+      "id": "01KJXXHCPNS5J9D2D3NGMGWSSP",
+      "last_verified": null,
+      "name": "system_initializes_global_application_shell",
+      "path": "docs/specres/client_foundation/system_initializes_global_application_shell.md",
+      "status": "draft"
+    },
+    {
+      "domain": "client_foundation",
+      "id": "01KJXXHMXT7M0M6E0BCSN0PA34",
+      "last_verified": null,
+      "name": "system_applies_user_policy_visibility_toggles",
+      "path": "docs/specres/client_foundation/system_applies_user_policy_visibility_toggles.md",
+      "status": "draft"
+    },
+    {
+      "domain": "client_foundation",
+      "id": "01KJXXQCH4J8E98SGR04CZ6DK3",
+      "last_verified": null,
+      "name": "system_hides_blocked_and_low_quality_content",
+      "path": "docs/specres/client_foundation/system_hides_blocked_and_low_quality_content.md",
+      "status": "draft"
+    },
+    {
+      "domain": "client_foundation",
+      "id": "01KJXXSWNJZA876N5WNVPQRNS8",
+      "last_verified": null,
+      "name": "system_initializes_mobile_drawer_sidebar_navigation",
+      "path": "docs/specres/client_foundation/system_initializes_mobile_drawer_sidebar_navigation.md",
+      "status": "draft"
+    },
+    {
+      "domain": "client_foundation",
+      "id": "01KJXXT4W5WS018D6C53D3JFD6",
+      "last_verified": null,
+      "name": "admin_customizes_branding_colors_with_picker",
+      "path": "docs/specres/client_foundation/admin_customizes_branding_colors_with_picker.md",
+      "status": "draft"
+    },
+    {
+      "domain": "client_foundation",
+      "id": "01KJXXTGC5AP94N2XKXRW043X2",
+      "last_verified": null,
+      "name": "creator_signs_up_as_first_user",
+      "path": "docs/specres/client_foundation/creator_signs_up_as_first_user.md",
+      "status": "draft"
+    },
+    {
+      "domain": "client_foundation",
+      "id": "01KJXXWWYZMY0J3Y74HP34NJGC",
+      "last_verified": null,
+      "name": "user_can_dismiss_hero_campaign_banner",
+      "path": "docs/specres/client_foundation/user_can_dismiss_hero_campaign_banner.md",
+      "status": "draft"
+    },
+    {
+      "domain": "client_foundation",
+      "id": "01KJXXZA1WFJVBDE2YJ67GMEGP",
+      "last_verified": "2026-03-05",
+      "name": "system_localizes_date_and_time_displays",
+      "path": "docs/specres/client_foundation/system_localizes_date_and_time_displays.md",
+      "status": "stable"
+    },
+    {
+      "domain": "client_foundation",
+      "id": "01KJXY201SHSNYJJCG16X9A5B7",
+      "last_verified": null,
+      "name": "system_loads_sidebar_discover_feed",
+      "path": "docs/specres/client_foundation/system_loads_sidebar_discover_feed.md",
+      "status": "draft"
+    },
+    {
+      "domain": "client_foundation",
+      "id": "01KJXY245DK9WXSB7WC8PH3CNP",
+      "last_verified": null,
+      "name": "system_opens_external_links_in_new_tab_on_pages",
+      "path": "docs/specres/client_foundation/system_opens_external_links_in_new_tab_on_pages.md",
+      "status": "draft"
+    },
+    {
+      "domain": "client_foundation",
+      "id": "01KJXY2EH4JHHV5SBS4KPNYYAH",
+      "last_verified": null,
+      "name": "user_views_reading_list",
+      "path": "docs/specres/client_foundation/user_views_reading_list.md",
+      "status": "draft"
+    },
+    {
+      "domain": "client_foundation",
+      "id": "01KJXY52M1WTZV87HQC7P452C0",
+      "last_verified": null,
+      "name": "system_displays_runtime_context_banner",
+      "path": "docs/specres/client_foundation/system_displays_runtime_context_banner.md",
+      "status": "draft"
+    },
+    {
+      "domain": "client_foundation",
+      "id": "01KJXY5CWN4BK1KR7CFWVB6542",
+      "last_verified": null,
+      "name": "user_can_dismiss_signup_modal_with_escape_key",
+      "path": "docs/specres/client_foundation/user_can_dismiss_signup_modal_with_escape_key.md",
+      "status": "draft"
+    },
+    {
+      "domain": "client_foundation",
+      "id": "01KJXY820ZJX31KDY0WV8424R4",
+      "last_verified": null,
+      "name": "system_shows_sticky_save_footer_on_form_change",
+      "path": "docs/specres/client_foundation/system_shows_sticky_save_footer_on_form_change.md",
+      "status": "draft"
     }
   ],
   "version": 1

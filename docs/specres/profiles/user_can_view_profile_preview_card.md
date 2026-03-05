@@ -15,6 +15,7 @@ last_verified: "2026-02-21"
 - `app/javascript/profilePreviewCards/UserMetadata.jsx`
 - `app/javascript/packs/users/profilePage.js`
 - `app/views/notifications/shared/_profile_pic.html.erb`
+- `app/javascript/packs/asyncUserStatusCheck.js`
 - `app/views/profile_preview_cards/show.json.jbuilder` (Template)
 - `spec/requests/profile_preview_cards_spec.rb` (Test)
 

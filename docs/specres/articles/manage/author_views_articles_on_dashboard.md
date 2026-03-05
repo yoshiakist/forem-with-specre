@@ -15,6 +15,11 @@ last_verified: "2026-03-04"
 - `app/views/dashboards/_dashboard_article.html.erb` (Template)
 - `app/views/dashboards/_dashboard_article_row.html.erb` (Template)
 - `app/views/dashboards/_header_and_action.html.erb` (Template)
+- `app/javascript/packs/archivedPostFilters.js`
+- `app/javascript/packs/dashboardDropdowns.js`
+- `app/javascript/packs/dashboards/convertCoauthorIdsToUsernameInputs.js`
+- `app/javascript/packs/initializers/initializeDashboardSort.js`
+- `app/javascript/packs/initializers/__tests__/initializeDashboardSort.test.js` (Test)
 - `spec/requests/dashboard_spec.rb` (Test)
 - `spec/views/dashboards/show.html.erb_spec.rb` (Test)
 - `spec/system/dashboards/user_sorts_dashboard_articles_spec.rb` (Test)

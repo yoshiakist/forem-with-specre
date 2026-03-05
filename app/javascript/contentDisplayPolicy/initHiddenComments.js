@@ -1,3 +1,4 @@
+// @specre 01KJXXQCH4J8E98SGR04CZ6DK3
 /* eslint-disable no-alert */
 export function initHiddenComments() {
   function unhide(commentId) {

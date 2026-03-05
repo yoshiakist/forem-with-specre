@@ -1,3 +1,4 @@
+// @specre 01KJXY5CWN4BK1KR7CFWVB6542
 import { h, render } from 'preact';
 import { KeyboardShortcuts } from '../shared/components/useKeyboardShortcuts';
 

@@ -15,6 +15,7 @@ last_verified: "2026-02-22"
 - `app/workers/users/follow_worker.rb`
 - `app/javascript/packs/followButtons.js`
 - `app/javascript/utilities/sendFollowUser.js`
+- `app/javascript/packs/sidebarWidget.jsx`
 - `app/javascript/sidebar-widget/SidebarWidget.jsx`
 - `app/javascript/sidebar-widget/sidebarUser.jsx`
 - `spec/models/follow_spec.rb` (Test)

@@ -16,6 +16,9 @@ last_verified: "2026-02-23"
 - `spec/system/comments/user_fills_out_comment_spec.rb` (Test)
 - `app/views/comments/new.html.erb` (Template)
 - `app/views/comments/_form.html.erb` (Template)
+- `app/javascript/packs/CommentTextArea/CommentTextArea.jsx`
+- `app/javascript/packs/initializers/initializeCommentPreview.js`
+- `app/javascript/packs/initializers/__tests__/initializeCommentPreview.test.js` (Test)
 
 ## Functional Overview
 

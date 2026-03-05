@@ -17,6 +17,7 @@ last_verified: "2026-02-21"
 - `app/javascript/Search/index.js`
 - `app/javascript/packs/Search.jsx`
 - `app/javascript/packs/searchParams.js`
+- `app/javascript/packs/storiesList.js`
 - `app/javascript/utilities/search/index.js`
 - `app/javascript/articles/components/SearchSnippet.jsx`
 - `app/views/stories/articles_search/index.html.erb` (Template)

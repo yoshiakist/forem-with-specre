@@ -26,6 +26,8 @@ last_verified: "2026-02-22"
 - `app/javascript/CommentSubscription/__tests__/CommentSubscription.test.jsx` (Test)
 - `app/javascript/CommentSubscription/__tests__/commentSubscriptionUtilities.test.js` (Test)
 - `app/javascript/CommentSubscription/__stories__/CommentSubscription.stories.jsx`
+- `app/javascript/packs/subscribeButton.js`
+- `app/javascript/packs/initializers/__tests__/subscribeButton.test.js` (Test)
 
 ## Functional Overview
 

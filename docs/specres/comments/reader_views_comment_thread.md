@@ -34,6 +34,9 @@ last_verified: "2026-02-23"
 - `spec/system/comments/user_views_article_comments_spec.rb` (Test)
 - `spec/system/comments/like_button_state_after_reply_spec.rb` (Test)
 - `spec/requests/comments_with_cache_spec.rb` (Test)
+- `app/javascript/packs/commentsDisplay.js`
+- `app/javascript/packs/postCommentsPage.js`
+- `app/javascript/packs/initializers/initializeCommentDate.js`
 
 ## Functional Overview
 
