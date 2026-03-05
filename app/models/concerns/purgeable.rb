@@ -1,3 +1,4 @@
+# @specre 01KJXTFFGNXAGZ3BW01PEJAA4Z
 # Copied from the deprecated fastly-rails gem
 # https://github.com/fastly/fastly-rails/blob/master/lib/fastly-rails/active_record/surrogate_key.rb
 #

@@ -51,3 +51,5 @@
 | [author_selects_series_for_article_in_editor](editor/author_selects_series_for_article_in_editor.md) | draft | - |
 | [system_curates_article_quality_via_automated_reactions](system_curates_article_quality_via_automated_reactions.md) | stable | 2026-03-04 |
 | [moderator_sinks_user_article_scores](admin/moderator_sinks_user_article_scores.md) | stable | 2026-03-04 |
+| [system_serializes_articles_for_homepage_feed](system_serializes_articles_for_homepage_feed.md) | stable | 2026-03-05 |
+| [system_renders_homepage_sidebar_widgets](system_renders_homepage_sidebar_widgets.md) | draft | - |

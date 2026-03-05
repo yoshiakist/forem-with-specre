@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-05T01:29:00Z",
+  "generated_at": "2026-03-05T01:52:43Z",
   "source_refs": [
     {
       "file": "app/assets/javascripts/initializers/initializeAllTagEditButtons.js",
@@ -1682,6 +1682,11 @@
       "specre_id": "01KJBWT5HAQGGSECGZJ20D6PCX"
     },
     {
+      "file": "app/decorators/application_decorator.rb",
+      "line": 1,
+      "specre_id": "01KJXTG35F6TPQJYNHA9TFPGAE"
+    },
+    {
       "file": "app/decorators/article_decorator.rb",
       "line": 1,
       "specre_id": "01KJV3PD89JNE8190FG9GCAV33"
@@ -1785,6 +1790,11 @@
       "file": "app/errors/search.rb",
       "line": 1,
       "specre_id": "01KHZ22E63WBQWYFZNQVEA2EEE"
+    },
+    {
+      "file": "app/errors/uninferrable_decorator_error.rb",
+      "line": 1,
+      "specre_id": "01KJXTG35F6TPQJYNHA9TFPGAE"
     },
     {
       "file": "app/forms/creator_settings_form.rb",
@@ -3087,6 +3097,11 @@
       "specre_id": "01KJ1SC2K2MHD1YYH79TBFM4VQ"
     },
     {
+      "file": "app/javascript/packs/homePage.jsx",
+      "line": 1,
+      "specre_id": "01KJV9M1M80M71Q62GXVK0HWPY"
+    },
+    {
       "file": "app/javascript/packs/homePageFeed.jsx",
       "line": 1,
       "specre_id": "01KJV9M1M80M71Q62GXVK0HWPY"
@@ -4017,6 +4032,21 @@
       "specre_id": "01KJ9GWMJV27RNX4KT7WT0MQXS"
     },
     {
+      "file": "app/models/application_record.rb",
+      "line": 1,
+      "specre_id": "01KJXTKB2CSQZ15XV5RZ3S3YXC"
+    },
+    {
+      "file": "app/models/application_record.rb",
+      "line": 2,
+      "specre_id": "01KJXTG35F6TPQJYNHA9TFPGAE"
+    },
+    {
+      "file": "app/models/application_record.rb",
+      "line": 3,
+      "specre_id": "01KJXTFFGNXAGZ3BW01PEJAA4Z"
+    },
+    {
       "file": "app/models/article.rb",
       "line": 1,
       "specre_id": "01KJV3PD89JNE8190FG9GCAV33"
@@ -4320,6 +4350,11 @@
       "file": "app/models/concerns/algolia_searchable/searchable_user.rb",
       "line": 1,
       "specre_id": "01KHZ2B1BF232HFDSKGKHDSF6F"
+    },
+    {
+      "file": "app/models/concerns/purgeable.rb",
+      "line": 1,
+      "specre_id": "01KJXTFFGNXAGZ3BW01PEJAA4Z"
     },
     {
       "file": "app/models/concerns/reactable.rb",
@@ -5272,6 +5307,11 @@
       "specre_id": "01KJ162B266JS6N6VM0EMQWB02"
     },
     {
+      "file": "app/queries/homepage/articles_query.rb",
+      "line": 1,
+      "specre_id": "01KJXTGF4X3QMRYRP6R1F5828B"
+    },
+    {
       "file": "app/queries/organizations/suggest_prominent.rb",
       "line": 1,
       "specre_id": "01KJ02W17VA8P0SYXCYAJ1MJR2"
@@ -5305,6 +5345,11 @@
       "file": "app/sanitizers/rendered_markdown_scrubber.rb",
       "line": 1,
       "specre_id": "01KJ2XAF8C1H0K7QD5X08KHD2X"
+    },
+    {
+      "file": "app/serializers/homepage/article_serializer.rb",
+      "line": 1,
+      "specre_id": "01KJXTGF4X3QMRYRP6R1F5828B"
     },
     {
       "file": "app/serializers/search/comment_serializer.rb",
@@ -6005,6 +6050,11 @@
       "file": "app/services/github/oauth_client.rb",
       "line": 1,
       "specre_id": "01KJ1SC2K2MHD1YYH79TBFM4VQ"
+    },
+    {
+      "file": "app/services/homepage/fetch_articles.rb",
+      "line": 1,
+      "specre_id": "01KJXTGF4X3QMRYRP6R1F5828B"
     },
     {
       "file": "app/services/homepage/fetch_tag_flares.rb",
@@ -9212,6 +9262,11 @@
       "specre_id": "01KJBK4CV4DXZ9SFQ9QVWB6YK2"
     },
     {
+      "file": "app/views/sidebars/_homepage_content.html.erb",
+      "line": 1,
+      "specre_id": "01KJXTKJAC59CZP545HFYJCTGR"
+    },
+    {
       "file": "app/views/sitemaps/tags.xml.erb",
       "line": 1,
       "specre_id": "01KJ41WT9YWTD6G9MHPTQW0EFA"
@@ -10010,6 +10065,11 @@
       "file": "spec/controllers/surveys_controller_spec.rb",
       "line": 2,
       "specre_id": "01KHZKCR70BAFQ159BEQFXBJQW"
+    },
+    {
+      "file": "spec/decorators/application_decorator_spec.rb",
+      "line": 1,
+      "specre_id": "01KJXTG35F6TPQJYNHA9TFPGAE"
     },
     {
       "file": "spec/decorators/article_decorator_spec.rb",
@@ -10997,6 +11057,11 @@
       "specre_id": "01KJ5DQT35P394JJVCSC077ZX5"
     },
     {
+      "file": "spec/models/concerns/purgeable_spec.rb",
+      "line": 1,
+      "specre_id": "01KJXTFFGNXAGZ3BW01PEJAA4Z"
+    },
+    {
       "file": "spec/models/consumer_app_spec.rb",
       "line": 1,
       "specre_id": "01KJ3YXYAR6AARATJH02XHAEVW"
@@ -11625,6 +11690,11 @@
       "file": "spec/queries/consumer_apps/rpush_app_query_spec.rb",
       "line": 1,
       "specre_id": "01KJ162B266JS6N6VM0EMQWB02"
+    },
+    {
+      "file": "spec/queries/homepage/articles_query_spec.rb",
+      "line": 1,
+      "specre_id": "01KJXTGF4X3QMRYRP6R1F5828B"
     },
     {
       "file": "spec/queries/organizations/suggest_prominent_spec.rb",
@@ -13162,6 +13232,11 @@
       "specre_id": "01KJ24EF4VQYFPB3R53Q4J2CJ1"
     },
     {
+      "file": "spec/serializers/homepage/article_serializer_spec.rb",
+      "line": 1,
+      "specre_id": "01KJXTGF4X3QMRYRP6R1F5828B"
+    },
+    {
       "file": "spec/serializers/search/comment_serializer_spec.rb",
       "line": 1,
       "specre_id": "01KHZ24CTQNRDZ5CAMD3TTT1KN"
@@ -13695,6 +13770,11 @@
       "file": "spec/services/github/oauth_client_spec.rb",
       "line": 1,
       "specre_id": "01KJ1SC2K2MHD1YYH79TBFM4VQ"
+    },
+    {
+      "file": "spec/services/homepage/fetch_articles_spec.rb",
+      "line": 1,
+      "specre_id": "01KJXTGF4X3QMRYRP6R1F5828B"
     },
     {
       "file": "spec/services/homepage/fetch_tag_flares_spec.rb",
@@ -14468,6 +14548,21 @@
     },
     {
       "file": "spec/system/homepage/user_visits_homepage_articles_spec.rb",
+      "line": 1,
+      "specre_id": "01KJV9M1M80M71Q62GXVK0HWPY"
+    },
+    {
+      "file": "spec/system/homepage/user_visits_homepage_spec.rb",
+      "line": 1,
+      "specre_id": "01KJXTKJAC59CZP545HFYJCTGR"
+    },
+    {
+      "file": "spec/system/homepage/user_visits_homepage_spec.rb",
+      "line": 2,
+      "specre_id": "01KJV9M1M80M71Q62GXVK0HWPY"
+    },
+    {
+      "file": "spec/system/homepage/user_visits_homepage_with_announcement_spec.rb",
       "line": 1,
       "specre_id": "01KJV9M1M80M71Q62GXVK0HWPY"
     },
@@ -19619,6 +19714,46 @@
       "name": "system_parses_json_api_sort_parameters",
       "path": "docs/specres/_application_base/api/system_parses_json_api_sort_parameters.md",
       "status": "stable"
+    },
+    {
+      "domain": "_application_base",
+      "id": "01KJXTFFGNXAGZ3BW01PEJAA4Z",
+      "last_verified": "2026-03-05",
+      "name": "system_purges_cdn_edge_cache_for_model_records",
+      "path": "docs/specres/_application_base/http/system_purges_cdn_edge_cache_for_model_records.md",
+      "status": "stable"
+    },
+    {
+      "domain": "_application_base",
+      "id": "01KJXTG35F6TPQJYNHA9TFPGAE",
+      "last_verified": "2026-03-05",
+      "name": "system_decorates_model_objects_for_view_presentation",
+      "path": "docs/specres/_application_base/system_decorates_model_objects_for_view_presentation.md",
+      "status": "stable"
+    },
+    {
+      "domain": "articles",
+      "id": "01KJXTGF4X3QMRYRP6R1F5828B",
+      "last_verified": "2026-03-05",
+      "name": "system_serializes_articles_for_homepage_feed",
+      "path": "docs/specres/articles/system_serializes_articles_for_homepage_feed.md",
+      "status": "stable"
+    },
+    {
+      "domain": "_application_base",
+      "id": "01KJXTKB2CSQZ15XV5RZ3S3YXC",
+      "last_verified": "2026-03-05",
+      "name": "system_provides_base_record_utilities_for_all_models",
+      "path": "docs/specres/_application_base/system_provides_base_record_utilities_for_all_models.md",
+      "status": "stable"
+    },
+    {
+      "domain": "articles",
+      "id": "01KJXTKJAC59CZP545HFYJCTGR",
+      "last_verified": null,
+      "name": "system_renders_homepage_sidebar_widgets",
+      "path": "docs/specres/articles/system_renders_homepage_sidebar_widgets.md",
+      "status": "draft"
     }
   ],
   "version": 1

@@ -1,3 +1,4 @@
+# @specre 01KJXTFFGNXAGZ3BW01PEJAA4Z
 require "rails_helper"
 
 class PurgeableModel

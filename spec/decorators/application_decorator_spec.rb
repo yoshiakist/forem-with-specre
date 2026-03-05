@@ -1,3 +1,4 @@
+# @specre 01KJXTG35F6TPQJYNHA9TFPGAE
 require "rails_helper"
 
 RSpec.describe ApplicationDecorator, type: :decorator do

@@ -19,3 +19,6 @@
 | [system_validates_request_origin_and_redirect_protocol](http/system_validates_request_origin_and_redirect_protocol.md) | draft | - |
 | [system_warns_developer_when_sidekiq_not_running](operations/system_warns_developer_when_sidekiq_not_running.md) | draft | - |
 | [system_parses_json_api_sort_parameters](api/system_parses_json_api_sort_parameters.md) | stable | 2026-03-05 |
+| [system_purges_cdn_edge_cache_for_model_records](http/system_purges_cdn_edge_cache_for_model_records.md) | stable | 2026-03-05 |
+| [system_decorates_model_objects_for_view_presentation](system_decorates_model_objects_for_view_presentation.md) | stable | 2026-03-05 |
+| [system_provides_base_record_utilities_for_all_models](system_provides_base_record_utilities_for_all_models.md) | stable | 2026-03-05 |

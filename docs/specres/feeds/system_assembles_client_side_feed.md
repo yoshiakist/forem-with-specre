@@ -9,10 +9,13 @@ last_verified: "2026-03-04"
 
 - `app/javascript/articles/Feed.jsx`
 - `app/javascript/packs/homePageFeed.jsx`
+- `app/javascript/packs/homePage.jsx`
 - `app/javascript/articles/index.js`
 - `app/views/articles/index.html.erb` (Template)
 - `app/javascript/articles/__tests__/Feed.test.jsx` (Test)
 - `spec/system/homepage/user_visits_homepage_articles_spec.rb` (Test)
+- `spec/system/homepage/user_visits_homepage_spec.rb` (Test)
+- `spec/system/homepage/user_visits_homepage_with_announcement_spec.rb` (Test)
 
 ## Functional Overview
 
